@@ -1,789 +1,635 @@
 import React, { useState, useEffect, useMemo } from "react";
 import {
   LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer,
-  BarChart, Bar, Cell, Legend
+  BarChart, Bar, Cell,
 } from "recharts";
 
-// ── Konstante ───────────────────────────────────────────────────────────────
+// ── Data ────────────────────────────────────────────────────────────────────
 const REPO_RAW = "https://raw.githubusercontent.com/nikned-kadena/nb-tracker/main/data";
 
 const BUILDINGS = [
-  "West 65 Kula", "A Blok", "Airport Garden", "Bel Mondo",
-  "New Minel", "Pupinova palata", "Savada", "Soul 64",
-  "The One", "Wellport", "West 65", "Zepterra"
+  "West 65 Kula","A Blok","Airport Garden","Bel Mondo",
+  "New Minel","Pupinova palata","Savada","Soul 64",
+  "The One","Wellport","West 65","Zepterra",
 ];
 
 const BUILDING_COLORS = {
-  "West 65 Kula":   "#a78bfa",
-  "A Blok":         "#ec4899",
-  "Airport Garden": "#10b981",
-  "Bel Mondo":      "#f97316",
-  "New Minel":      "#ef4444",
-  "Pupinova palata":"#14b8a6",
-  "Savada":         "#84cc16",
-  "Soul 64":        "#06b6d4",
-  "The One":        "#e879f9",
-  "Wellport":       "#3b82f6",
-  "West 65":        "#8b5cf6",
-  "Zepterra":       "#f59e0b",
+  "West 65 Kula":"#a78bfa","A Blok":"#ec4899","Airport Garden":"#10b981",
+  "Bel Mondo":"#f97316","New Minel":"#ef4444","Pupinova palata":"#14b8a6",
+  "Savada":"#84cc16","Soul 64":"#06b6d4","The One":"#e879f9",
+  "Wellport":"#3b82f6","West 65":"#8b5cf6","Zepterra":"#f59e0b",
 };
 
 const STRUKTURA_ORDER = ["garsonjera","1.0","1.5","2.0","2.5","3.0","3.5","4.0","4.5","5.0","ostalo"];
 const STRUKTURA_LABELS = {
-  garsonjera:"Garsonjera", "1.0":"1-soban", "1.5":"1.5-soban",
-  "2.0":"2-soban", "2.5":"2.5-soban", "3.0":"3-soban",
-  "3.5":"3.5-soban", "4.0":"4-soban", "4.5":"4.5-soban",
-  "5.0":"5-soban", ostalo:"Ostalo"
+  garsonjera:"Garsonjera/Studio","1.0":"Jednosoban","1.5":"Jednoiposoban",
+  "2.0":"Dvosoban","2.5":"Dvoiposoban","3.0":"Trosoban","3.5":"Troiposoban",
+  "4.0":"Četvorosoban","4.5":"Četvoroiposoban","5.0":"Petosoban+","ostalo":"Ostalo",
 };
 
-const NAVY = "#0f1623";
-const CARD = "#161e2e";
-const CARD2 = "#1a2235";
-const BORDER = "#1e2d45";
-const ACCENT = "#3b82f6";
-const TEXT = "#e2e8f0";
-const MUTED = "#64748b";
-const GREEN = "#22c55e";
-const RED = "#ef4444";
+const STRUKTURA_COLORS = {
+  garsonjera:"#10b981","1.0":"#3b82f6","1.5":"#ec4899",
+  "2.0":"#f59e0b","2.5":"#8b5cf6","3.0":"#06b6d4","3.5":"#f97316",
+  "4.0":"#ef4444","4.5":"#14b8a6","5.0":"#e879f9","ostalo":"#94a3b8",
+};
 
-// ── Helpers ─────────────────────────────────────────────────────────────────
-const fmt = (n) => n == null ? "–" : Math.round(n).toLocaleString("sr-RS");
-const fmtK = (n) => n == null ? "–" : `${(n/1000).toFixed(0)}K`;
+// ── Theme (svetla — identična BnV) ──────────────────────────────────────────
+const T = {
+  bg:      "#f0f2f5",
+  surface: "#ffffff",
+  border:  "#e2e8f0",
+  navy:    "#1e293b",
+  navyD:   "#0f172a",
+  text:    "#1e293b",
+  muted:   "#64748b",
+  accent:  "#1e293b",
+  green:   "#16a34a",
+  red:     "#dc2626",
+  blue:    "#2563eb",
+};
+
+// ── Helpers ──────────────────────────────────────────────────────────────────
+const fmt  = n => n == null ? "–" : Math.round(n).toLocaleString("sr-RS");
+const fmtK = n => n == null ? "–" : `${Math.round(n/1000)}k`;
 
 function median(arr) {
   if (!arr.length) return null;
   const s = [...arr].sort((a,b)=>a-b);
   const m = Math.floor(s.length/2);
-  return s.length % 2 ? s[m] : (s[m-1]+s[m])/2;
+  return s.length%2 ? s[m] : (s[m-1]+s[m])/2;
 }
 
-function pct(a,b) {
-  if (!a || !b) return null;
-  return ((a-b)/b*100).toFixed(1);
-}
-
-// ── Data fetcher ─────────────────────────────────────────────────────────────
 async function fetchJSON(url) {
-  const r = await fetch(url + "?t=" + Date.now());
+  const r = await fetch(url+"?t="+Date.now());
   if (!r.ok) return null;
   return r.json();
 }
 
-// ── Komponente ───────────────────────────────────────────────────────────────
-function Pill({ label, active, color, onClick }) {
+// ── Sub-komponente ───────────────────────────────────────────────────────────
+function NavBtn({ label, active, onClick, variant="default" }) {
+  const styles = {
+    default: {
+      background: active ? T.navy : T.surface,
+      color: active ? "#fff" : T.muted,
+      border: `1px solid ${active ? T.navy : T.border}`,
+    },
+    source: {
+      background: active ? T.navy : "transparent",
+      color: active ? "#fff" : T.muted,
+      border: `1px solid ${active ? T.navy : T.border}`,
+    },
+  };
   return (
-    <button
-      onClick={onClick}
-      style={{
-        padding: "4px 12px", borderRadius: 20, fontSize: 12, cursor: "pointer",
-        border: `1px solid ${active ? (color || ACCENT) : BORDER}`,
-        background: active ? (color || ACCENT) + "22" : "transparent",
-        color: active ? (color || ACCENT) : MUTED,
-        fontWeight: active ? 600 : 400,
-        transition: "all .15s",
-      }}
-    >{label}</button>
+    <button onClick={onClick} style={{
+      ...styles[variant],
+      padding:"5px 14px", borderRadius:6, fontSize:13,
+      fontWeight:500, cursor:"pointer", transition:"all .15s",
+    }}>{label}</button>
   );
 }
 
-function KpiCard({ label, value, sub, subColor, onClick, clickable }) {
+function FilterPill({ label, active, color, onClick }) {
   return (
-    <div
-      onClick={onClick}
-      style={{
-        background: CARD, border: `1px solid ${BORDER}`, borderRadius: 10,
-        padding: "14px 18px", minWidth: 120,
-        cursor: clickable ? "pointer" : "default",
-        transition: "border-color .15s",
-      }}
-      onMouseEnter={e => clickable && (e.currentTarget.style.borderColor = ACCENT)}
-      onMouseLeave={e => clickable && (e.currentTarget.style.borderColor = BORDER)}
+    <button onClick={onClick} style={{
+      padding:"5px 14px", borderRadius:20, fontSize:13, cursor:"pointer",
+      border:`1.5px solid ${active ? (color||T.navy) : T.border}`,
+      background: active ? (color||T.navy) : T.surface,
+      color: active ? (color&&color!==T.navy ? "#fff" : "#fff") : T.muted,
+      fontWeight: active ? 600 : 400, transition:"all .15s",
+    }}>{label}</button>
+  );
+}
+
+function KpiCard({ label, value, sub, subColor, onClick, highlight }) {
+  return (
+    <div onClick={onClick} style={{
+      background: T.surface, border:`1px solid ${T.border}`,
+      borderRadius:10, padding:"18px 20px",
+      cursor: onClick ? "pointer" : "default",
+      minWidth:130, flex:"1 1 130px",
+      boxShadow:"0 1px 3px rgba(0,0,0,.06)",
+      transition:"box-shadow .15s",
+    }}
+    onMouseEnter={e => onClick && (e.currentTarget.style.boxShadow="0 4px 12px rgba(0,0,0,.10)")}
+    onMouseLeave={e => onClick && (e.currentTarget.style.boxShadow="0 1px 3px rgba(0,0,0,.06)")}
     >
-      <div style={{ fontSize: 11, color: MUTED, marginBottom: 4 }}>{label}</div>
-      <div style={{ fontSize: 22, fontWeight: 700, color: TEXT }}>{value}</div>
-      {sub && <div style={{ fontSize: 11, color: subColor || MUTED, marginTop: 3 }}>{sub}</div>}
+      <div style={{fontSize:10,fontWeight:600,color:T.muted,letterSpacing:".6px",
+        textTransform:"uppercase",marginBottom:6}}>{label}</div>
+      <div style={{fontSize:26,fontWeight:700,color:highlight||T.text,lineHeight:1.1}}>{value}</div>
+      {sub && <div style={{fontSize:11,color:subColor||T.muted,marginTop:4}}>{sub}</div>}
     </div>
   );
 }
 
-function DeltaBadge({ n }) {
-  if (n == null || n === 0) return <span style={{ color: MUTED }}>–</span>;
-  const col = n > 0 ? GREEN : RED;
-  return <span style={{ color: col, fontWeight: 600 }}>{n > 0 ? `+${n}` : n}</span>;
-}
-
-function Sparkline({ data, dataKey, color }) {
-  if (!data?.length) return <div style={{ color: MUTED, fontSize: 12 }}>Nema podataka</div>;
+function RangeBar({ color }) {
   return (
-    <ResponsiveContainer width="100%" height={56}>
-      <LineChart data={data} margin={{ top: 4, bottom: 4, left: 0, right: 0 }}>
-        <Line type="monotone" dataKey={dataKey} stroke={color} dot={false} strokeWidth={2} />
-      </LineChart>
-    </ResponsiveContainer>
+    <div style={{height:3,borderRadius:2,background:color,margin:"6px 0"}} />
   );
 }
 
-// ── Tabovi ───────────────────────────────────────────────────────────────────
-const TABS = ["Pregled", "Zgrade", "Trend", "Listinzi"];
+function StrukCard({ s, listings, mode }) {
+  const sL = listings.filter(l=>l.struktura===s);
+  if (!sL.length) return null;
+  const cene  = sL.map(l=>l.cena).filter(Boolean);
+  const m2s   = sL.map(l=>l.m2).filter(Boolean);
+  const cm2s  = sL.map(l=>l.cena_m2).filter(Boolean);
+  const color = STRUKTURA_COLORS[s]||"#94a3b8";
+  return (
+    <div style={{background:T.surface,border:`1px solid ${T.border}`,
+      borderRadius:10,padding:"16px 18px",
+      boxShadow:"0 1px 3px rgba(0,0,0,.06)"}}>
+      <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:8}}>
+        <div style={{display:"flex",alignItems:"center",gap:7}}>
+          <span style={{width:10,height:10,borderRadius:"50%",background:color,display:"inline-block"}}/>
+          <span style={{fontWeight:600,fontSize:14,color:T.text}}>{STRUKTURA_LABELS[s]}</span>
+        </div>
+        <span style={{background:color,color:"#fff",borderRadius:12,
+          padding:"1px 9px",fontSize:12,fontWeight:700}}>{sL.length}</span>
+      </div>
+      {m2s.length>0 && (
+        <div style={{fontSize:11,color:T.muted,marginBottom:8}}>
+          {Math.min(...m2s).toFixed(0)} – {Math.max(...m2s).toFixed(0)} m²
+        </div>
+      )}
+      {cene.length>0 && <>
+        <div style={{fontSize:10,color:T.muted,textTransform:"uppercase",
+          letterSpacing:".5px",marginBottom:2}}>
+          {mode==="prodaja"?"Cena apsolutna":"Kirija mesečna"}
+        </div>
+        <RangeBar color={color}/>
+        <div style={{display:"flex",justifyContent:"space-between",fontSize:12,fontWeight:600,color:T.text}}>
+          <span>{fmtK(Math.min(...cene))} €</span>
+          <span>{fmtK(Math.max(...cene))} €</span>
+        </div>
+      </>}
+      {cm2s.length>0 && mode==="prodaja" && <>
+        <div style={{fontSize:10,color:T.muted,textTransform:"uppercase",
+          letterSpacing:".5px",marginTop:10,marginBottom:2}}>Cena po m²</div>
+        <RangeBar color={color}/>
+        <div style={{display:"flex",justifyContent:"space-between",fontSize:12,fontWeight:600,color:T.text}}>
+          <span>{fmt(Math.min(...cm2s))} €/m²</span>
+          <span>{fmt(Math.max(...cm2s))} €/m²</span>
+        </div>
+        <div style={{fontSize:11,color:T.muted,marginTop:3,textAlign:"right"}}>
+          prosek ~{fmt(cm2s.reduce((a,b)=>a+b,0)/cm2s.length)} €/m²
+        </div>
+      </>}
+    </div>
+  );
+}
 
-// ── MAIN DASHBOARD ───────────────────────────────────────────────────────────
+const TABS = ["Segmentacija","Trend","Listinzi"];
+
+// ── MAIN ─────────────────────────────────────────────────────────────────────
 export default function Dashboard() {
-  // ── State ─────────────────────────────────────────────────────────────────
-  const [mode, setMode]       = useState("prodaja");   // prodaja | renta
-  const [source, setSource]   = useState("halo");      // halo | nrs
-  const [tab, setTab]         = useState("Pregled");
-  const [data, setData]       = useState(null);
-  const [history, setHistory] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError]     = useState(null);
+  const [mode,   setMode]   = useState("prodaja");
+  const [source, setSource] = useState("halo");
+  const [tab,    setTab]    = useState("Segmentacija");
+  const [data,   setData]   = useState(null);
+  const [history,setHistory]= useState([]);
+  const [loading,setLoading]= useState(true);
+  const [error,  setError]  = useState(null);
 
-  // Filteri
-  const [selBuildings, setSelBuildings] = useState([]);  // [] = sve
-  const [selStruktura, setSelStruktura] = useState([]);  // [] = sve
-  const [novoDanasFilter, setNovoDanasFilter] = useState(false);
+  const [selBuildings, setSelBuildings] = useState([]);
+  const [selStruktura, setSelStruktura] = useState([]);
+  const [noviFilter,   setNoviFilter]   = useState(false);
 
-  // Sort u Listinzi tabu
-  const [sortCol, setSortCol]   = useState("cena");
-  const [sortDir, setSortDir]   = useState("asc");
+  const [sortCol, setSortCol] = useState("cena");
+  const [sortDir, setSortDir] = useState("asc");
 
-  // ── Fetch ───────────────────────────────────────────────────────────────
-  useEffect(() => {
-    setLoading(true);
-    setError(null);
-    const lfile = source === "halo"
-      ? `latest_halo_${mode}.json`
-      : `latest_nrs_${mode}.json`;
-    const hfile = source === "halo"
-      ? `history_halo_${mode}.json`
-      : `history_nrs_${mode}.json`;
+  // Fetch
+  useEffect(()=>{
+    setLoading(true); setError(null);
+    const lf = `latest_${source}_${mode}.json`;
+    const hf = `history_${source}_${mode}.json`;
+    Promise.all([fetchJSON(`${REPO_RAW}/${lf}`),fetchJSON(`${REPO_RAW}/${hf}`)])
+      .then(([d,h])=>{
+        if(!d){setError("Ne mogu da učitam podatke.");setLoading(false);return;}
+        setData(d); setHistory(h||[]); setLoading(false);
+      }).catch(e=>{setError(String(e));setLoading(false);});
+  },[mode,source]);
 
-    Promise.all([
-      fetchJSON(`${REPO_RAW}/${lfile}`),
-      fetchJSON(`${REPO_RAW}/${hfile}`),
-    ]).then(([d, h]) => {
-      if (!d) { setError("Ne mogu da učitam podatke."); setLoading(false); return; }
-      setData(d);
-      setHistory(h || []);
-      setLoading(false);
-    }).catch(e => { setError(String(e)); setLoading(false); });
-  }, [mode, source]);
+  const listings = useMemo(()=>data?.listings||[],[data]);
 
-  // ── Derived ─────────────────────────────────────────────────────────────
-  const listings = useMemo(() => data?.listings || [], [data]);
+  const noveDanas = useMemo(()=>{
+    if(!data?.diff_new?.length) return [];
+    const s=new Set(data.diff_new);
+    return listings.filter(l=>s.has(l.id));
+  },[data,listings]);
 
-  const noveDanas = useMemo(() => {
-    if (!data?.diff_new?.length) return [];
-    const newSet = new Set(data.diff_new);
-    return listings.filter(l => newSet.has(l.id));
-  }, [data, listings]);
+  const filtered = useMemo(()=>{
+    let r=listings;
+    if(noviFilter) r=noveDanas;
+    if(selBuildings.length) r=r.filter(l=>selBuildings.includes(l.zgrada));
+    if(selStruktura.length) r=r.filter(l=>selStruktura.includes(l.struktura));
+    return r;
+  },[listings,noveDanas,noviFilter,selBuildings,selStruktura]);
 
-  const filtered = useMemo(() => {
-    let res = listings;
-    if (novoDanasFilter) res = noveDanas;
-    if (selBuildings.length) res = res.filter(l => selBuildings.includes(l.zgrada));
-    if (selStruktura.length) res = res.filter(l => selStruktura.includes(l.struktura));
-    return res;
-  }, [listings, noveDanas, novoDanasFilter, selBuildings, selStruktura]);
-
-  // Dedup za KPI prikaz (unique po zgrada+m2+cena)
-  const uniqFiltered = useMemo(() => {
-    const seen = new Set();
-    return filtered.filter(l => {
-      const k = `${l.zgrada}|${l.m2}|${l.cena}`;
-      if (seen.has(k)) return false;
+  const uniq = useMemo(()=>{
+    const seen=new Set();
+    return filtered.filter(l=>{
+      const k=`${l.zgrada}|${l.m2}|${l.cena}`;
+      if(seen.has(k)) return false;
       seen.add(k); return true;
     });
-  }, [filtered]);
+  },[filtered]);
 
-  const cene = useMemo(() => uniqFiltered.map(l=>l.cena).filter(Boolean), [uniqFiltered]);
-  const m2s  = useMemo(() => uniqFiltered.map(l=>l.m2).filter(Boolean), [uniqFiltered]);
-  const cene_m2 = useMemo(() => uniqFiltered.map(l=>l.cena_m2).filter(Boolean), [uniqFiltered]);
+  const cene   = useMemo(()=>uniq.map(l=>l.cena).filter(Boolean),[uniq]);
+  const cm2s   = useMemo(()=>uniq.map(l=>l.cena_m2).filter(Boolean),[uniq]);
+  const dups   = listings.length - (data?.total_unique||0);
 
-  const medCena  = median(cene);
-  const medM2    = median(m2s);
-  const medCenaM2 = median(cene_m2);
-  const avgCenaM2 = cene_m2.length ? Math.round(cene_m2.reduce((a,b)=>a+b,0)/cene_m2.length) : null;
+  const avgCM2 = cm2s.length ? Math.round(cm2s.reduce((a,b)=>a+b,0)/cm2s.length) : null;
 
-  // Trend (poslednih 30 dana iz historije)
-  const trendData = useMemo(() => {
-    return [...history].sort((a,b)=>a.date.localeCompare(b.date)).slice(-30);
-  }, [history]);
+  // History za YTD/DOD
+  const sorted_h = useMemo(()=>[...history].sort((a,b)=>a.date.localeCompare(b.date)),[history]);
+  const lastH  = sorted_h[sorted_h.length-1];
+  const prevH  = sorted_h[sorted_h.length-2];
+  const dod = (lastH?.avg_cena && prevH?.avg_cena)
+    ? ((lastH.avg_cena-prevH.avg_cena)/prevH.avg_cena*100).toFixed(2) : null;
+  const firstH = sorted_h[0];
+  const ytd = (lastH?.avg_cena && firstH?.avg_cena && sorted_h.length>1)
+    ? ((lastH.avg_cena-firstH.avg_cena)/firstH.avg_cena*100).toFixed(2) : null;
 
-  // Segmentacija po zgradama
-  const byBuilding = useMemo(() => {
-    const map = {};
-    BUILDINGS.forEach(b => {
-      const bListings = uniqFiltered.filter(l => l.zgrada === b);
-      if (!bListings.length) { map[b] = null; return; }
-      const bc = bListings.map(l=>l.cena).filter(Boolean);
-      const bm = bListings.map(l=>l.cena_m2).filter(Boolean);
-      map[b] = {
-        count:    bListings.length,
-        medCena:  median(bc),
-        medM2:    median(bm),
-        avgM2:    bm.length ? Math.round(bm.reduce((a,v)=>a+v,0)/bm.length) : null,
-      };
+  const trendData = sorted_h.slice(-60);
+
+  // Sort
+  const sortedL = useMemo(()=>{
+    const r=[...uniq];
+    r.sort((a,b)=>{
+      let va=a[sortCol],vb=b[sortCol];
+      if(va==null) return 1; if(vb==null) return -1;
+      return sortDir==="asc"?(va>vb?1:-1):(va<vb?1:-1);
     });
-    return map;
-  }, [uniqFiltered]);
+    return r;
+  },[uniq,sortCol,sortDir]);
 
-  // Sorted listings
-  const sortedListings = useMemo(() => {
-    const res = [...uniqFiltered];
-    res.sort((a,b) => {
-      let va = a[sortCol], vb = b[sortCol];
-      if (va == null) return 1;
-      if (vb == null) return -1;
-      return sortDir === "asc" ? (va > vb ? 1 : -1) : (va < vb ? 1 : -1);
-    });
-    return res;
-  }, [uniqFiltered, sortCol, sortDir]);
-
-  function toggleSort(col) {
-    if (sortCol === col) setSortDir(d => d === "asc" ? "desc" : "asc");
-    else { setSortCol(col); setSortDir("asc"); }
+  function toggleSort(col){
+    if(sortCol===col) setSortDir(d=>d==="asc"?"desc":"asc");
+    else{setSortCol(col);setSortDir("asc");}
   }
 
-  function toggleBuilding(b) {
-    setSelBuildings(prev =>
-      prev.includes(b) ? prev.filter(x=>x!==b) : [...prev, b]
-    );
-    setNovoDanasFilter(false);
-  }
+  const thS = {
+    padding:"8px 10px",fontSize:11,color:T.muted,fontWeight:600,
+    textTransform:"uppercase",letterSpacing:".5px",cursor:"pointer",
+    borderBottom:`2px solid ${T.border}`,whiteSpace:"nowrap",textAlign:"left",
+  };
 
-  function toggleStruktura(s) {
-    setSelStruktura(prev =>
-      prev.includes(s) ? prev.filter(x=>x!==s) : [...prev, s]
-    );
-  }
-
-  // ── Render ───────────────────────────────────────────────────────────────
-  const colW = { th: { padding:"8px 10px", textAlign:"left", fontSize:11,
-    color: MUTED, fontWeight:500, cursor:"pointer", whiteSpace:"nowrap", borderBottom:`1px solid ${BORDER}` } };
+  const now = new Date();
+  const nowStr = `${now.getUTCFullYear()}-${String(now.getUTCMonth()+1).padStart(2,"0")}-${String(now.getUTCDate()).padStart(2,"0")} ${String(now.getUTCHours()).padStart(2,"0")}:${String(now.getUTCMinutes()).padStart(2,"0")} UTC`;
 
   return (
-    <div style={{ minHeight:"100vh", background: NAVY, color: TEXT,
-      fontFamily:"'Inter',sans-serif", padding:"0 0 60px" }}>
+    <div style={{minHeight:"100vh",background:T.bg,fontFamily:"'Inter',system-ui,sans-serif",
+      color:T.text,fontSize:14}}>
 
-      {/* ── NAVBAR ── */}
-      <div style={{ background: CARD, borderBottom:`1px solid ${BORDER}`,
-        padding:"0 28px", display:"flex", alignItems:"center",
-        justifyContent:"space-between", height:52 }}>
-
-        <div style={{ display:"flex", alignItems:"center", gap:12 }}>
-          <span style={{ fontWeight:700, fontSize:15, color: TEXT, letterSpacing:".5px" }}>
-            NB Tracker
-          </span>
-          <span style={{ color: MUTED, fontSize:11 }}>Novi Beograd</span>
+      {/* NAVBAR */}
+      <div style={{background:T.navyD,padding:"0 24px",height:48,
+        display:"flex",alignItems:"center",justifyContent:"space-between",
+        position:"sticky",top:0,zIndex:100}}>
+        <div style={{display:"flex",alignItems:"center",gap:10}}>
+          <div style={{background:"#3b82f6",color:"#fff",fontWeight:700,
+            width:30,height:30,borderRadius:6,display:"flex",
+            alignItems:"center",justifyContent:"center",fontSize:12}}>NB</div>
+          <span style={{color:"#fff",fontWeight:600,fontSize:15}}>Market Intelligence</span>
         </div>
-
-        <div style={{ display:"flex", gap:6, alignItems:"center" }}>
-          {/* Prodaja / Renta */}
-          {["prodaja","renta"].map(m => (
-            <button key={m}
-              onClick={() => { setMode(m); setNovoDanasFilter(false); }}
-              style={{
-                padding:"4px 14px", borderRadius:16, fontSize:12, cursor:"pointer",
-                border:`1px solid ${mode===m ? ACCENT : BORDER}`,
-                background: mode===m ? ACCENT+"22" : "transparent",
-                color: mode===m ? ACCENT : MUTED, fontWeight: mode===m ? 600 : 400,
-              }}>
-              {m.charAt(0).toUpperCase()+m.slice(1)}
-            </button>
+        <div style={{display:"flex",alignItems:"center",gap:8}}>
+          {["halo","nrs"].map(s=>(
+            <button key={s} onClick={()=>setSource(s)} style={{
+              padding:"4px 12px",borderRadius:6,fontSize:12,cursor:"pointer",
+              background: source===s?"#fff":"transparent",
+              color: source===s?T.navy:"#94a3b8",
+              border:`1px solid ${source===s?"#fff":"#475569"}`,
+              fontWeight:source===s?600:400,
+            }}>{s==="halo"?"Halo Oglasi":"Nekretnine.rs"}</button>
           ))}
-
-          <div style={{ width:1, height:18, background: BORDER, margin:"0 4px" }} />
-
-          {/* Halo / NRS */}
-          {["halo","nrs"].map(s => (
-            <button key={s}
-              onClick={() => { setSource(s); setNovoDanasFilter(false); }}
-              style={{
-                padding:"4px 12px", borderRadius:16, fontSize:11, cursor:"pointer",
-                border:`1px solid ${source===s ? "#f59e0b" : BORDER}`,
-                background: source===s ? "#f59e0b22" : "transparent",
-                color: source===s ? "#f59e0b" : MUTED, fontWeight: source===s ? 600 : 400,
-              }}>
-              {s === "halo" ? "Halo Oglasi" : "Nekretnine.rs"}
-            </button>
+          <div style={{width:1,height:20,background:"#334155",margin:"0 4px"}}/>
+          {["prodaja","renta"].map(m=>(
+            <button key={m} onClick={()=>setMode(m)} style={{
+              padding:"4px 12px",borderRadius:6,fontSize:12,cursor:"pointer",
+              background: mode===m?"#fff":"transparent",
+              color: mode===m?T.navy:"#94a3b8",
+              border:`1px solid ${mode===m?"#fff":"#475569"}`,
+              fontWeight:mode===m?600:400,
+            }}>{m.charAt(0).toUpperCase()+m.slice(1)}</button>
           ))}
+          <div style={{fontSize:11,color:"#64748b",marginLeft:8}}>{nowStr}</div>
         </div>
       </div>
 
-      {/* ── FILTERI ── */}
-      <div style={{ padding:"12px 28px 0", borderBottom:`1px solid ${BORDER}`, background: CARD }}>
-        {/* Zgrade pills */}
-        <div style={{ display:"flex", flexWrap:"wrap", gap:6, marginBottom:10 }}>
-          <span style={{ fontSize:11, color:MUTED, alignSelf:"center", marginRight:4 }}>Zgrada:</span>
-          <Pill label="Sve" active={!selBuildings.length}
-            onClick={() => setSelBuildings([])} />
-          {BUILDINGS.map(b => (
-            <Pill key={b} label={b}
+      {/* SUB-HEADER */}
+      <div style={{background:T.surface,borderBottom:`1px solid ${T.border}`,
+        padding:"10px 24px",display:"flex",alignItems:"center",
+        justifyContent:"space-between"}}>
+        <div style={{display:"flex",alignItems:"center",gap:10}}>
+          <span style={{background:T.navy,color:"#fff",padding:"3px 10px",
+            borderRadius:6,fontSize:12,fontWeight:500}}>
+            {source==="halo"?"Halo Oglasi":"Nekretnine.rs"}
+          </span>
+          <span style={{fontSize:13,color:T.muted}}>
+            📅 <b style={{color:T.text}}>{data?.date||"–"}</b>
+          </span>
+        </div>
+        <div style={{fontSize:12,color:T.muted}}>
+          {mode==="prodaja"?"Prodaja":"Renta"} · Novi Beograd
+        </div>
+      </div>
+
+      <div style={{padding:"20px 24px"}}>
+
+        {/* FILTERI — Zgrade */}
+        <div style={{marginBottom:12,display:"flex",flexWrap:"wrap",
+          alignItems:"center",gap:8}}>
+          <span style={{fontSize:12,fontWeight:600,color:T.muted,
+            textTransform:"uppercase",letterSpacing:".5px",marginRight:4}}>Zgrada</span>
+          <div style={{background:T.navy,color:"#fff",padding:"5px 14px",
+            borderRadius:20,fontSize:13,fontWeight:600,cursor:"pointer",
+            display:"flex",alignItems:"center",gap:6,
+            opacity:selBuildings.length?1:0.7}}
+            onClick={()=>setSelBuildings([])}>
+            {selBuildings.length?selBuildings.join(", "):"Zgrade ▾"}
+          </div>
+          <span style={{fontSize:12,color:T.muted}}>{BUILDINGS.length} zgrada</span>
+        </div>
+
+        <div style={{display:"flex",flexWrap:"wrap",gap:6,marginBottom:16}}>
+          <FilterPill label="Sve" active={!selBuildings.length} color={T.navy}
+            onClick={()=>{setSelBuildings([]);}} />
+          {BUILDINGS.map(b=>(
+            <FilterPill key={b} label={b}
               active={selBuildings.includes(b)}
               color={BUILDING_COLORS[b]}
-              onClick={() => toggleBuilding(b)} />
+              onClick={()=>setSelBuildings(prev=>
+                prev.includes(b)?prev.filter(x=>x!==b):[...prev,b])} />
           ))}
         </div>
-        {/* Struktura pills */}
-        <div style={{ display:"flex", flexWrap:"wrap", gap:6, paddingBottom:10 }}>
-          <span style={{ fontSize:11, color:MUTED, alignSelf:"center", marginRight:4 }}>Tip:</span>
-          <Pill label="Sve" active={!selStruktura.length}
-            onClick={() => setSelStruktura([])} />
-          {STRUKTURA_ORDER.map(s => (
-            <Pill key={s} label={STRUKTURA_LABELS[s]}
+
+        {/* FILTERI — Struktura */}
+        <div style={{display:"flex",flexWrap:"wrap",gap:6,marginBottom:20}}>
+          <FilterPill label="Sve" active={!selStruktura.length} color={T.navy}
+            onClick={()=>setSelStruktura([])} />
+          {STRUKTURA_ORDER.map(s=>(
+            <FilterPill key={s} label={STRUKTURA_LABELS[s]}
               active={selStruktura.includes(s)}
-              onClick={() => toggleStruktura(s)} />
+              color={STRUKTURA_COLORS[s]}
+              onClick={()=>setSelStruktura(prev=>
+                prev.includes(s)?prev.filter(x=>x!==s):[...prev,s])} />
           ))}
         </div>
-      </div>
 
-      {/* ── TABOVI ── */}
-      <div style={{ display:"flex", gap:0, padding:"0 28px",
-        borderBottom:`1px solid ${BORDER}`, background: CARD2 }}>
-        {TABS.map(t => (
-          <button key={t} onClick={() => setTab(t)}
-            style={{
-              padding:"10px 20px", fontSize:13, cursor:"pointer",
-              background:"transparent", border:"none",
-              color: tab===t ? ACCENT : MUTED,
-              borderBottom: tab===t ? `2px solid ${ACCENT}` : "2px solid transparent",
-              fontWeight: tab===t ? 600 : 400,
+        {/* TABOVI */}
+        <div style={{display:"flex",gap:0,borderBottom:`2px solid ${T.border}`,
+          marginBottom:24}}>
+          {TABS.map(t=>(
+            <button key={t} onClick={()=>setTab(t)} style={{
+              padding:"10px 22px",fontSize:14,cursor:"pointer",
+              background:"transparent",border:"none",
+              color:tab===t?T.navy:T.muted,
+              borderBottom:tab===t?`2px solid ${T.navy}`:"2px solid transparent",
+              fontWeight:tab===t?700:400,marginBottom:-2,
             }}>{t}</button>
-        ))}
-      </div>
+          ))}
+        </div>
 
-      {/* ── CONTENT ── */}
-      <div style={{ padding:"24px 28px" }}>
-        {loading && (
-          <div style={{ color: MUTED, textAlign:"center", paddingTop:60 }}>
-            Učitavam podatke…
-          </div>
-        )}
-        {error && (
-          <div style={{ color: RED, textAlign:"center", paddingTop:60 }}>{error}</div>
-        )}
+        {loading && <div style={{textAlign:"center",padding:60,color:T.muted}}>Učitavam podatke…</div>}
+        {error   && <div style={{textAlign:"center",padding:60,color:T.red}}>{error}</div>}
 
-        {!loading && !error && (
-          <>
-            {/* ══════════════════════════════════════════
-                TAB: PREGLED
-            ══════════════════════════════════════════ */}
-            {tab === "Pregled" && (
-              <div>
-                {/* Datum / meta */}
-                <div style={{ fontSize:11, color:MUTED, marginBottom:16 }}>
-                  Poslednje ažuriranje: <b style={{ color: TEXT }}>{data?.date || "–"}</b>
-                  &nbsp;·&nbsp;{mode === "prodaja" ? "Prodaja" : "Renta"}
-                  &nbsp;·&nbsp;{source === "halo" ? "Halo Oglasi" : "Nekretnine.rs"}
-                  {(selBuildings.length > 0 || selStruktura.length > 0) && (
-                    <span style={{ color: ACCENT }}> · Filtrirano</span>
-                  )}
+        {!loading && !error && <>
+
+          {/* ═══ SEGMENTACIJA ═══ */}
+          {tab==="Segmentacija" && <>
+            {/* KPI row */}
+            <div style={{display:"flex",flexWrap:"wrap",gap:12,marginBottom:24}}>
+              <KpiCard label="Unique nekretnine" value={uniq.length}
+                sub={`${listings.length} oglasa, ${dups} dup.`} />
+              <KpiCard label="Duplikati" value={dups}
+                sub="ista nkrt, više agencija" />
+              <KpiCard label="Novi danas" value={`+${noveDanas.length}`}
+                sub={`−${data?.diff_removed?.length||0} skinutih · klikni`}
+                subColor={T.blue}
+                onClick={()=>{setNoviFilter(f=>!f);setSelBuildings([]);setSelStruktura([]);}}
+                highlight={noviFilter?T.blue:undefined} />
+              {cene.length>0 && (
+                <KpiCard label="Cena raspon"
+                  value={`${fmtK(Math.min(...cene))}–${fmtK(Math.max(...cene))} €`}
+                  sub="sve strukture" />
+              )}
+              <KpiCard label="Prosek €/m²" value={avgCM2?`${fmt(avgCM2)} €`:"–"}
+                sub="sve strukture" />
+              {dod!=null && (
+                <KpiCard label="DOD" value={`${dod>0?"+":""}${dod}%`}
+                  sub="globalni indeks"
+                  highlight={parseFloat(dod)>=0?T.green:T.red} />
+              )}
+              {ytd!=null && (
+                <KpiCard label="YTD" value={`${ytd>0?"+":""}${ytd}%`}
+                  sub="globalni indeks"
+                  highlight={parseFloat(ytd)>=0?T.green:T.red} />
+              )}
+            </div>
+
+            {/* Struktura kartice */}
+            <div style={{display:"grid",
+              gridTemplateColumns:"repeat(auto-fill,minmax(260px,1fr))",gap:14}}>
+              {STRUKTURA_ORDER.map(s=>(
+                <StrukCard key={s} s={s} listings={uniq} mode={mode} />
+              ))}
+            </div>
+          </>}
+
+          {/* ═══ TREND ═══ */}
+          {tab==="Trend" && (
+            <div>
+              {trendData.length<2 ? (
+                <div style={{textAlign:"center",padding:60,color:T.muted}}>
+                  Nema dovoljno istorijskih podataka.<br/>
+                  Trend će biti vidljiv posle nekoliko dana.
                 </div>
-
-                {/* KPI kartice */}
-                <div style={{ display:"flex", flexWrap:"wrap", gap:12, marginBottom:24 }}>
-                  <KpiCard label="Ukupno oglasa" value={uniqFiltered.length}
-                    sub={`${listings.length} raw`} />
-                  <KpiCard label="Novi danas" value={noveDanas.length}
-                    sub="klikni da filtriraš" subColor={ACCENT}
-                    clickable
-                    onClick={() => {
-                      setNovoDanasFilter(f => !f);
-                      setSelBuildings([]); setSelStruktura([]);
-                    }} />
-                  <KpiCard label="Skinutih danas" value={data?.diff_removed?.length || 0}
-                    subColor={RED} />
-                  {mode === "prodaja" ? (
-                    <>
-                      <KpiCard label="Medijana cene (€)" value={fmt(medCena)} />
-                      <KpiCard label="Medijana €/m²" value={fmt(medCenaM2)} />
-                      <KpiCard label="Prosek €/m²" value={fmt(avgCenaM2)} />
-                      <KpiCard label="Medijana m²" value={medM2 ? `${Math.round(medM2)} m²` : "–"} />
-                    </>
-                  ) : (
-                    <>
-                      <KpiCard label="Medijana kirije (€/mes)" value={fmt(medCena)} />
-                      <KpiCard label="Medijana €/m²/mes" value={fmt(medCenaM2)} />
-                      <KpiCard label="Medijana m²" value={medM2 ? `${Math.round(medM2)} m²` : "–"} />
-                    </>
-                  )}
-                </div>
-
-                {/* Mini sparkline — trend broja oglasa */}
-                {trendData.length > 2 && (
-                  <div style={{ background: CARD, border:`1px solid ${BORDER}`,
-                    borderRadius:10, padding:"14px 18px", marginBottom:24 }}>
-                    <div style={{ fontSize:12, color: MUTED, marginBottom:8 }}>
-                      Trend oglasa (poslednih {trendData.length} dana)
-                    </div>
-                    <Sparkline data={trendData} dataKey="total_unique" color={ACCENT} />
+              ) : <>
+                {/* Broj oglasa */}
+                <div style={{background:T.surface,border:`1px solid ${T.border}`,
+                  borderRadius:10,padding:"18px 20px",marginBottom:16,
+                  boxShadow:"0 1px 3px rgba(0,0,0,.06)"}}>
+                  <div style={{fontSize:12,fontWeight:600,color:T.muted,
+                    textTransform:"uppercase",letterSpacing:".5px",marginBottom:12}}>
+                    Broj aktivnih oglasa
                   </div>
-                )}
-
-                {/* Segmentacija po zgradama — mini kartice */}
-                <div style={{ fontSize:12, color:MUTED, marginBottom:10 }}>
-                  Segmentacija po zgradama
-                </div>
-                <div style={{ display:"grid",
-                  gridTemplateColumns:"repeat(auto-fill,minmax(180px,1fr))", gap:12 }}>
-                  {BUILDINGS.map(b => {
-                    const bd = byBuilding[b];
-                    if (!bd) return (
-                      <div key={b} style={{ background: CARD, border:`1px solid ${BORDER}`,
-                        borderRadius:8, padding:"12px 14px", opacity:.4 }}>
-                        <div style={{ fontSize:11, fontWeight:600,
-                          color: BUILDING_COLORS[b] }}>{b}</div>
-                        <div style={{ fontSize:11, color: MUTED, marginTop:4 }}>nema oglasa</div>
-                      </div>
-                    );
-                    return (
-                      <div key={b} style={{ background: CARD, border:`1px solid ${BORDER}`,
-                        borderRadius:8, padding:"12px 14px",
-                        borderLeft:`3px solid ${BUILDING_COLORS[b]}` }}>
-                        <div style={{ fontSize:11, fontWeight:600,
-                          color: BUILDING_COLORS[b] }}>{b}</div>
-                        <div style={{ marginTop:8, display:"grid",
-                          gridTemplateColumns:"1fr 1fr", gap:4 }}>
-                          <div>
-                            <div style={{ fontSize:10, color:MUTED }}>Oglasa</div>
-                            <div style={{ fontSize:16, fontWeight:700 }}>{bd.count}</div>
-                          </div>
-                          {mode === "prodaja" && (
-                            <div>
-                              <div style={{ fontSize:10, color:MUTED }}>Med. €/m²</div>
-                              <div style={{ fontSize:14, fontWeight:600 }}>{fmt(bd.medM2)}</div>
-                            </div>
-                          )}
-                          <div style={{ gridColumn:"1/-1" }}>
-                            <div style={{ fontSize:10, color:MUTED }}>
-                              {mode === "prodaja" ? "Med. cena" : "Med. kirija"}
-                            </div>
-                            <div style={{ fontSize:13, fontWeight:600 }}>{fmt(bd.medCena)} €</div>
-                          </div>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
-            )}
-
-            {/* ══════════════════════════════════════════
-                TAB: ZGRADE
-            ══════════════════════════════════════════ */}
-            {tab === "Zgrade" && (
-              <div>
-                <div style={{ fontSize:12, color:MUTED, marginBottom:16 }}>
-                  Poređenje projekata — {uniqFiltered.length} oglasa
-                </div>
-
-                {/* Bar chart — broj oglasa po zgradi */}
-                <div style={{ background: CARD, border:`1px solid ${BORDER}`,
-                  borderRadius:10, padding:"16px 20px", marginBottom:20 }}>
-                  <div style={{ fontSize:12, color: MUTED, marginBottom:12 }}>Broj oglasa po projektu</div>
                   <ResponsiveContainer width="100%" height={180}>
-                    <BarChart data={BUILDINGS.map(b => ({
-                      name: b,
-                      count: byBuilding[b]?.count || 0,
-                    }))}>
-                      <XAxis dataKey="name" tick={{ fill: MUTED, fontSize: 11 }} />
-                      <YAxis tick={{ fill: MUTED, fontSize: 11 }} />
-                      <Tooltip
-                        contentStyle={{ background: CARD2, border:`1px solid ${BORDER}`, borderRadius:6 }}
-                        labelStyle={{ color: TEXT }} itemStyle={{ color: ACCENT }} />
-                      <Bar dataKey="count" radius={[4,4,0,0]}>
-                        {BUILDINGS.map(b => (
-                          <Cell key={b} fill={BUILDING_COLORS[b]} />
-                        ))}
-                      </Bar>
-                    </BarChart>
+                    <LineChart data={trendData}>
+                      <XAxis dataKey="date" tick={{fill:T.muted,fontSize:10}}
+                        tickFormatter={d=>d.slice(5)}/>
+                      <YAxis tick={{fill:T.muted,fontSize:10}}/>
+                      <Tooltip contentStyle={{background:T.surface,
+                        border:`1px solid ${T.border}`,borderRadius:6,fontSize:12}}
+                        formatter={v=>[v,"Unique"]}/>
+                      <Line type="monotone" dataKey="total_unique"
+                        stroke="#2563eb" dot={false} strokeWidth={2}/>
+                    </LineChart>
                   </ResponsiveContainer>
                 </div>
 
-                {/* Bar chart — medijana €/m² po zgradi (samo prodaja) */}
-                {mode === "prodaja" && (
-                  <div style={{ background: CARD, border:`1px solid ${BORDER}`,
-                    borderRadius:10, padding:"16px 20px", marginBottom:20 }}>
-                    <div style={{ fontSize:12, color: MUTED, marginBottom:12 }}>Medijana €/m² po projektu</div>
-                    <ResponsiveContainer width="100%" height={180}>
-                      <BarChart data={BUILDINGS.map(b => ({
-                        name: b,
-                        value: byBuilding[b]?.medM2 || 0,
-                      }))}>
-                        <XAxis dataKey="name" tick={{ fill: MUTED, fontSize: 11 }} />
-                        <YAxis tick={{ fill: MUTED, fontSize: 11 }}
-                          tickFormatter={v => `${(v/1000).toFixed(1)}K`} />
-                        <Tooltip
-                          contentStyle={{ background: CARD2, border:`1px solid ${BORDER}`, borderRadius:6 }}
-                          labelStyle={{ color: TEXT }}
-                          formatter={v => [`${fmt(v)} €/m²`, "Med. €/m²"]} />
-                        <Bar dataKey="value" radius={[4,4,0,0]}>
-                          {BUILDINGS.map(b => (
-                            <Cell key={b} fill={BUILDING_COLORS[b]} />
-                          ))}
-                        </Bar>
-                      </BarChart>
+                {/* Prosečna cena */}
+                {trendData.some(d=>d.avg_cena) && (
+                  <div style={{background:T.surface,border:`1px solid ${T.border}`,
+                    borderRadius:10,padding:"18px 20px",marginBottom:16,
+                    boxShadow:"0 1px 3px rgba(0,0,0,.06)"}}>
+                    <div style={{fontSize:12,fontWeight:600,color:T.muted,
+                      textTransform:"uppercase",letterSpacing:".5px",marginBottom:12}}>
+                      {mode==="prodaja"?"Prosečna cena (€)":"Prosečna kirija (€/mes)"}
+                    </div>
+                    <ResponsiveContainer width="100%" height={160}>
+                      <LineChart data={trendData}>
+                        <XAxis dataKey="date" tick={{fill:T.muted,fontSize:10}}
+                          tickFormatter={d=>d.slice(5)}/>
+                        <YAxis tick={{fill:T.muted,fontSize:10}}
+                          tickFormatter={v=>`${(v/1000).toFixed(0)}K`}/>
+                        <Tooltip contentStyle={{background:T.surface,
+                          border:`1px solid ${T.border}`,borderRadius:6,fontSize:12}}
+                          formatter={v=>[`€ ${fmt(v)}`,"Prosek"]}/>
+                        <Line type="monotone" dataKey="avg_cena"
+                          stroke="#16a34a" dot={false} strokeWidth={2}/>
+                      </LineChart>
                     </ResponsiveContainer>
                   </div>
                 )}
 
-                {/* Tabela detalja */}
-                <div style={{ overflowX:"auto" }}>
-                  <table style={{ width:"100%", borderCollapse:"collapse", fontSize:13 }}>
+                {/* Tabela */}
+                <div style={{background:T.surface,border:`1px solid ${T.border}`,
+                  borderRadius:10,padding:"18px 20px",
+                  boxShadow:"0 1px 3px rgba(0,0,0,.06)"}}>
+                  <div style={{fontSize:12,fontWeight:600,color:T.muted,
+                    textTransform:"uppercase",letterSpacing:".5px",marginBottom:12}}>
+                    Dnevne promene
+                  </div>
+                  <table style={{width:"100%",borderCollapse:"collapse",fontSize:13}}>
                     <thead>
                       <tr>
-                        <th style={colW.th}>Projekat</th>
-                        <th style={{ ...colW.th, textAlign:"right" }}>Oglasa</th>
-                        {mode === "prodaja" && <>
-                          <th style={{ ...colW.th, textAlign:"right" }}>Med. cena (€)</th>
-                          <th style={{ ...colW.th, textAlign:"right" }}>Med. €/m²</th>
-                          <th style={{ ...colW.th, textAlign:"right" }}>Avg. €/m²</th>
-                        </>}
-                        {mode === "renta" && <>
-                          <th style={{ ...colW.th, textAlign:"right" }}>Med. kirija (€)</th>
-                          <th style={{ ...colW.th, textAlign:"right" }}>Med. €/m²/mes</th>
-                        </>}
+                        {["Datum","Ukupno","+ Novi","− Skinutih","Neto"].map((h,i)=>(
+                          <th key={h} style={{...thS,
+                            textAlign:i===0?"left":"right",color:i===2?T.green:i===3?T.red:T.muted}}>
+                            {h}
+                          </th>
+                        ))}
                       </tr>
                     </thead>
                     <tbody>
-                      {BUILDINGS.map((b, i) => {
-                        const bd = byBuilding[b];
-                        return (
-                          <tr key={b} style={{ background: i%2 ? CARD2 : "transparent" }}>
-                            <td style={{ padding:"10px", display:"flex", alignItems:"center", gap:8 }}>
-                              <span style={{ width:8, height:8, borderRadius:"50%",
-                                background: BUILDING_COLORS[b], display:"inline-block" }} />
-                              <span style={{ fontWeight:500 }}>{b}</span>
-                            </td>
-                            <td style={{ padding:"10px", textAlign:"right" }}>
-                              {bd ? bd.count : <span style={{ color: MUTED }}>–</span>}
-                            </td>
-                            {mode === "prodaja" && <>
-                              <td style={{ padding:"10px", textAlign:"right" }}>
-                                {bd ? fmt(bd.medCena) : "–"}
-                              </td>
-                              <td style={{ padding:"10px", textAlign:"right", fontWeight:600 }}>
-                                {bd ? fmt(bd.medM2) : "–"}
-                              </td>
-                              <td style={{ padding:"10px", textAlign:"right" }}>
-                                {bd ? fmt(bd.avgM2) : "–"}
-                              </td>
-                            </>}
-                            {mode === "renta" && <>
-                              <td style={{ padding:"10px", textAlign:"right" }}>
-                                {bd ? fmt(bd.medCena) : "–"}
-                              </td>
-                              <td style={{ padding:"10px", textAlign:"right" }}>
-                                {bd ? fmt(bd.medM2) : "–"}
-                              </td>
-                            </>}
-                          </tr>
-                        );
-                      })}
+                      {[...trendData].reverse().map((h,i)=>(
+                        <tr key={h.date}
+                          style={{background:i%2?"#f8fafc":"transparent"}}>
+                          <td style={{padding:"8px 10px",color:T.muted}}>{h.date}</td>
+                          <td style={{padding:"8px 10px",textAlign:"right",fontWeight:500}}>{h.total_unique}</td>
+                          <td style={{padding:"8px 10px",textAlign:"right",color:T.green,fontWeight:600}}>
+                            {h.diff_new>0?`+${h.diff_new}`:"–"}
+                          </td>
+                          <td style={{padding:"8px 10px",textAlign:"right",color:T.red,fontWeight:600}}>
+                            {h.diff_removed>0?`−${h.diff_removed}`:"–"}
+                          </td>
+                          <td style={{padding:"8px 10px",textAlign:"right",fontWeight:600,
+                            color:(h.diff_new-h.diff_removed)>0?T.green:(h.diff_new-h.diff_removed)<0?T.red:T.muted}}>
+                            {h.diff_new-h.diff_removed>0?`+${h.diff_new-h.diff_removed}`:
+                             h.diff_new-h.diff_removed<0?(h.diff_new-h.diff_removed):"–"}
+                          </td>
+                        </tr>
+                      ))}
                     </tbody>
                   </table>
                 </div>
+              </>}
+            </div>
+          )}
+
+          {/* ═══ LISTINZI ═══ */}
+          {tab==="Listinzi" && (
+            <div>
+              <div style={{fontSize:13,color:T.muted,marginBottom:12}}>
+                {sortedL.length} oglasa
+                {noviFilter&&<span style={{color:T.blue}}> · Samo novi danas</span>}
+                {selBuildings.length>0&&<span style={{color:T.navy}}> · Filtrirano po zgradi</span>}
               </div>
-            )}
-
-            {/* ══════════════════════════════════════════
-                TAB: TREND
-            ══════════════════════════════════════════ */}
-            {tab === "Trend" && (
-              <div>
-                {trendData.length < 2 ? (
-                  <div style={{ color: MUTED, textAlign:"center", paddingTop:60 }}>
-                    Nema dovoljno istorijskih podataka.<br />
-                    Trend će biti vidljiv posle nekoliko dana scrape-ova.
-                  </div>
-                ) : (
-                  <>
-                    {/* Broj oglasa */}
-                    <div style={{ background: CARD, border:`1px solid ${BORDER}`,
-                      borderRadius:10, padding:"16px 20px", marginBottom:20 }}>
-                      <div style={{ fontSize:12, color: MUTED, marginBottom:12 }}>
-                        Broj aktivnih oglasa (dnevno)
-                      </div>
-                      <ResponsiveContainer width="100%" height={200}>
-                        <LineChart data={trendData}>
-                          <XAxis dataKey="date" tick={{ fill: MUTED, fontSize: 10 }}
-                            tickFormatter={d => d.slice(5)} />
-                          <YAxis tick={{ fill: MUTED, fontSize: 10 }} />
-                          <Tooltip
-                            contentStyle={{ background: CARD2, border:`1px solid ${BORDER}`, borderRadius:6 }}
-                            labelStyle={{ color: TEXT }}
-                            formatter={(v,n) => [v, n === "total_unique" ? "Unique" : n]} />
-                          <Line type="monotone" dataKey="total_unique"
-                            stroke={ACCENT} dot={false} strokeWidth={2} name="Unique" />
-                        </LineChart>
-                      </ResponsiveContainer>
-                    </div>
-
-                    {/* Prosečna cena */}
-                    {trendData.some(d => d.avg_cena) && (
-                      <div style={{ background: CARD, border:`1px solid ${BORDER}`,
-                        borderRadius:10, padding:"16px 20px", marginBottom:20 }}>
-                        <div style={{ fontSize:12, color: MUTED, marginBottom:12 }}>
-                          {mode === "prodaja" ? "Prosečna cena (€)" : "Prosečna kirija (€/mes)"}
-                        </div>
-                        <ResponsiveContainer width="100%" height={160}>
-                          <LineChart data={trendData}>
-                            <XAxis dataKey="date" tick={{ fill: MUTED, fontSize: 10 }}
-                              tickFormatter={d => d.slice(5)} />
-                            <YAxis tick={{ fill: MUTED, fontSize: 10 }}
-                              tickFormatter={v => `${(v/1000).toFixed(0)}K`} />
-                            <Tooltip
-                              contentStyle={{ background: CARD2, border:`1px solid ${BORDER}`, borderRadius:6 }}
-                              labelStyle={{ color: TEXT }}
-                              formatter={v => [`€ ${fmt(v)}`, "Prosek"]} />
-                            <Line type="monotone" dataKey="avg_cena"
-                              stroke={GREEN} dot={false} strokeWidth={2} />
-                          </LineChart>
-                        </ResponsiveContainer>
-                      </div>
-                    )}
-
-                    {/* Dnevni diff tabela */}
-                    <div style={{ background: CARD, border:`1px solid ${BORDER}`,
-                      borderRadius:10, padding:"16px 20px" }}>
-                      <div style={{ fontSize:12, color: MUTED, marginBottom:12 }}>Dnevne promene</div>
-                      <div style={{ overflowX:"auto" }}>
-                        <table style={{ width:"100%", borderCollapse:"collapse", fontSize:12 }}>
-                          <thead>
-                            <tr>
-                              <th style={colW.th}>Datum</th>
-                              <th style={{ ...colW.th, textAlign:"right" }}>Ukupno</th>
-                              <th style={{ ...colW.th, textAlign:"right", color: GREEN }}>+ Novi</th>
-                              <th style={{ ...colW.th, textAlign:"right", color: RED }}>− Skinutih</th>
-                              <th style={{ ...colW.th, textAlign:"right" }}>Neto</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {[...trendData].reverse().map((h, i) => (
-                              <tr key={h.date} style={{ background: i%2 ? CARD2 : "transparent" }}>
-                                <td style={{ padding:"8px 10px", color: MUTED }}>{h.date}</td>
-                                <td style={{ padding:"8px 10px", textAlign:"right" }}>{h.total_unique}</td>
-                                <td style={{ padding:"8px 10px", textAlign:"right", color: GREEN }}>
-                                  {h.diff_new > 0 ? `+${h.diff_new}` : "–"}
-                                </td>
-                                <td style={{ padding:"8px 10px", textAlign:"right", color: RED }}>
-                                  {h.diff_removed > 0 ? `-${h.diff_removed}` : "–"}
-                                </td>
-                                <td style={{ padding:"8px 10px", textAlign:"right" }}>
-                                  <DeltaBadge n={h.diff_new - h.diff_removed} />
-                                </td>
-                              </tr>
-                            ))}
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                  </>
-                )}
-              </div>
-            )}
-
-            {/* ══════════════════════════════════════════
-                TAB: LISTINZI
-            ══════════════════════════════════════════ */}
-            {tab === "Listinzi" && (
-              <div>
-                <div style={{ fontSize:12, color:MUTED, marginBottom:12 }}>
-                  {sortedListings.length} oglasa
-                  {novoDanasFilter && <span style={{ color: ACCENT }}> · Samo novi danas</span>}
-                  {selBuildings.length > 0 && <span style={{ color: ACCENT }}> · Filtrirano po zgradi</span>}
-                </div>
-                <div style={{ overflowX:"auto" }}>
-                  <table style={{ width:"100%", borderCollapse:"collapse", fontSize:12 }}>
-                    <thead>
+              <div style={{background:T.surface,border:`1px solid ${T.border}`,
+                borderRadius:10,overflow:"hidden",
+                boxShadow:"0 1px 3px rgba(0,0,0,.06)"}}>
+                <div style={{overflowX:"auto"}}>
+                  <table style={{width:"100%",borderCollapse:"collapse",fontSize:13}}>
+                    <thead style={{background:"#f8fafc"}}>
                       <tr>
                         {[
-                          { key:"zgrada",    label:"Zgrada" },
-                          { key:"naslov",    label:"Naslov" },
-                          { key:"struktura", label:"Tip" },
-                          { key:"m2",        label:"m²" },
-                          { key:"cena",      label: mode==="prodaja" ? "Cena (€)" : "Kirija (€)" },
-                          { key:"cena_m2",   label: mode==="prodaja" ? "€/m²" : "€/m²/mes" },
-                          { key:"agencija",  label:"Agencija" },
-                        ].map(({key, label}) => (
-                          <th key={key}
-                            onClick={() => toggleSort(key)}
-                            style={{ ...colW.th,
-                              color: sortCol===key ? ACCENT : MUTED,
-                              textAlign: ["m2","cena","cena_m2"].includes(key) ? "right" : "left",
+                          {k:"zgrada","l":"Zgrada"},
+                          {k:"naslov","l":"Naslov"},
+                          {k:"struktura","l":"Tip"},
+                          {k:"m2","l":"m²"},
+                          {k:"cena","l":mode==="prodaja"?"Cena (€)":"Kirija (€)"},
+                          {k:"cena_m2","l":mode==="prodaja"?"€/m²":"€/m²/mes"},
+                          {k:"agencija","l":"Agencija"},
+                        ].map(({k,l})=>(
+                          <th key={k} onClick={()=>toggleSort(k)}
+                            style={{...thS,
+                              color:sortCol===k?T.navy:T.muted,
+                              textAlign:["m2","cena","cena_m2"].includes(k)?"right":"left",
                             }}>
-                            {label} {sortCol===key ? (sortDir==="asc" ? "↑" : "↓") : ""}
+                            {l}{sortCol===k?(sortDir==="asc"?" ↑":" ↓"):""}
                           </th>
                         ))}
-                        <th style={{ ...colW.th }}>Link</th>
+                        <th style={{...thS}}>Link</th>
                       </tr>
                     </thead>
                     <tbody>
-                      {sortedListings.map((l, i) => (
+                      {sortedL.map((l,i)=>(
                         <tr key={l.id}
-                          style={{ background: i%2 ? CARD2 : "transparent" }}>
-                          <td style={{ padding:"8px 10px" }}>
-                            <span style={{
-                              display:"inline-flex", alignItems:"center", gap:5,
-                              fontSize:11, fontWeight:600,
-                              color: BUILDING_COLORS[l.zgrada] || MUTED,
-                            }}>
-                              <span style={{ width:6, height:6, borderRadius:"50%",
-                                background: BUILDING_COLORS[l.zgrada] || MUTED,
-                                display:"inline-block", flexShrink:0 }} />
-                              {l.zgrada || <span style={{ color:MUTED }}>–</span>}
+                          style={{background:i%2?"#f8fafc":"#fff",
+                            borderBottom:`1px solid ${T.border}`}}>
+                          <td style={{padding:"9px 10px"}}>
+                            <span style={{display:"inline-flex",alignItems:"center",gap:5,
+                              fontSize:12,fontWeight:600,
+                              color:BUILDING_COLORS[l.zgrada]||T.muted}}>
+                              <span style={{width:7,height:7,borderRadius:"50%",flexShrink:0,
+                                background:BUILDING_COLORS[l.zgrada]||T.muted,display:"inline-block"}}/>
+                              {l.zgrada||"–"}
                             </span>
                           </td>
-                          <td style={{ padding:"8px 10px", maxWidth:280,
-                            overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap",
-                            color: TEXT, fontSize:11 }}>
+                          <td style={{padding:"9px 10px",maxWidth:260,overflow:"hidden",
+                            textOverflow:"ellipsis",whiteSpace:"nowrap",fontSize:12}}>
                             {l.naslov}
                           </td>
-                          <td style={{ padding:"8px 10px", color: MUTED }}>
-                            {STRUKTURA_LABELS[l.struktura] || l.struktura}
+                          <td style={{padding:"9px 10px",color:T.muted,fontSize:12}}>
+                            {STRUKTURA_LABELS[l.struktura]||l.struktura}
                           </td>
-                          <td style={{ padding:"8px 10px", textAlign:"right" }}>
-                            {l.m2 ? `${l.m2} m²` : "–"}
+                          <td style={{padding:"9px 10px",textAlign:"right",fontSize:12}}>
+                            {l.m2?`${l.m2} m²`:"–"}
                           </td>
-                          <td style={{ padding:"8px 10px", textAlign:"right", fontWeight:600 }}>
-                            {l.cena ? `${fmt(l.cena)} €` : "–"}
+                          <td style={{padding:"9px 10px",textAlign:"right",fontWeight:600}}>
+                            {l.cena?`${fmt(l.cena)} €`:"–"}
                           </td>
-                          <td style={{ padding:"8px 10px", textAlign:"right" }}>
-                            {l.cena_m2 ? `${fmt(l.cena_m2)}` : "–"}
+                          <td style={{padding:"9px 10px",textAlign:"right",fontSize:12}}>
+                            {l.cena_m2?`${fmt(l.cena_m2)}`:"–"}
                           </td>
-                          <td style={{ padding:"8px 10px", color: MUTED, fontSize:11,
-                            maxWidth:160, overflow:"hidden", textOverflow:"ellipsis",
-                            whiteSpace:"nowrap" }}>
-                            {l.agencija || "–"}
+                          <td style={{padding:"9px 10px",fontSize:11,color:T.muted,
+                            maxWidth:140,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>
+                            {l.agencija||"–"}
                           </td>
-                          <td style={{ padding:"8px 10px" }}>
+                          <td style={{padding:"9px 10px"}}>
                             <a href={l.url} target="_blank" rel="noreferrer"
-                              style={{ color: ACCENT, fontSize:11, textDecoration:"none",
-                                display:"inline-flex", alignItems:"center", gap:3 }}>
+                              style={{color:T.blue,fontSize:12,textDecoration:"none",fontWeight:500}}>
                               ↗
                             </a>
                           </td>
                         </tr>
                       ))}
-                      {!sortedListings.length && (
-                        <tr>
-                          <td colSpan={8} style={{ padding:"40px", textAlign:"center", color: MUTED }}>
-                            Nema oglasa za izabrane filtere.
-                          </td>
-                        </tr>
+                      {!sortedL.length&&(
+                        <tr><td colSpan={8}
+                          style={{padding:40,textAlign:"center",color:T.muted}}>
+                          Nema oglasa za izabrane filtere.
+                        </td></tr>
                       )}
                     </tbody>
                   </table>
                 </div>
               </div>
-            )}
-          </>
-        )}
+            </div>
+          )}
+        </>}
       </div>
 
-      {/* Footer */}
-      <div style={{ textAlign:"center", color: MUTED, fontSize:10, marginTop:40 }}>
-        NB Tracker · niknedeljko/nb-tracker · {new Date().getFullYear()}
+      <div style={{textAlign:"center",color:T.muted,fontSize:11,padding:"20px 0 40px"}}>
+        NB Tracker · nikned-kadena/nb-tracker · {new Date().getFullYear()}
       </div>
     </div>
   );
