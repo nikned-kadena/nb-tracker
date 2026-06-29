@@ -629,7 +629,23 @@ export default function Dashboard() {
 
           {/* ═══ AGENCIJE ═══ */}
           {tab==="Agencije" && (()=>{
-            const withAg = uniq.filter(l=>l.agencija&&l.agencija.trim());
+            // Ocisti ime agencije — ukloni "Prikaži telefon" i slicne sufikse
+            const cleanAg = (ag) => {
+              if(!ag) return null;
+              const clean = ag
+                .replace(/Prika[zž]i\s*telefon/gi, "")
+                .replace(/Agencija\s*S\.\.\./gi, "")
+                .replace(/\s{2,}/g, " ")
+                .trim();
+              const PRIVATNO = ["privatno lice","privatni oglasivac","fizicko lice","vlasnik"];
+              if(PRIVATNO.some(p=>clean.toLowerCase().includes(p))) return null;
+              if(clean.length < 3) return null;
+              return clean;
+            };
+
+            const withAg = uniq
+              .map(l=>({...l, agencija: cleanAg(l.agencija)}))
+              .filter(l=>l.agencija);
             const agMap = {};
             withAg.forEach(l=>{
               const ag = l.agencija.trim();

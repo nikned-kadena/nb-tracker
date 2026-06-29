@@ -83,14 +83,14 @@ def parse_struktura(title: str, desc: str = "") -> str:
     combined = (title + " " + desc).lower()
     nrs_map = [
         ("garsonjera", "garsonjera"), ("studio", "garsonjera"),
-        # Sa dijakriticima (NRS pise ovako u naslovima)
-        ("jednoiposobni", "1.5"),  ("jednosobni", "1.0"),
+        # Na NRS jednosoban = garsonjera (isti tip)
+        ("jednosobni", "garsonjera"),  ("jednoiposobni", "1.5"),
         ("dvoiposobni", "2.5"),    ("dvosobni", "2.0"),
         ("troiposobni", "3.5"),    ("trosobni", "3.0"),
         ("četvoroiposobni", "4.5"),("četvorosobni", "4.0"),
         ("petosobni", "5.0"),      ("šesoban", "5.0"),
         # Bez dijakritika (fallback)
-        ("jednoiposoban", "1.5"),  ("jednosoban", "1.0"),
+        ("jednosoban", "garsonjera"), ("jednoiposoban", "1.5"),
         ("dvoiposoban", "2.5"),    ("dvosoban", "2.0"),
         ("troiposoban", "3.5"),    ("trosoban", "3.0"),
         ("cetvoroiposoban", "4.5"),("cetvorosoban", "4.0"),
@@ -174,7 +174,11 @@ def scrape_oglas(pw_page, url: str) -> dict | None:
     """Korak 2: Otvori oglas i izvuci podatke iz meta tagova i sadrzaja."""
     try:
         pw_page.goto(url, wait_until="domcontentloaded", timeout=20000)
-        pw_page.wait_for_timeout(800)
+        # Cekamo da se karakteristike (Površina, Sobe) učitaju kroz JS
+        try:
+            pw_page.wait_for_selector("text=Površina", timeout=5000)
+        except:
+            pw_page.wait_for_timeout(1500)
     except Exception as e:
         print(f"    GRESKA {url}: {e}")
         return None

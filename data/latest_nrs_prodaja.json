@@ -1,13 +1,11 @@
 {
-  "date": "2026-06-29",
+  "date": "2026-06-30",
   "mode": "prodaja",
   "source": "nrs",
   "total_raw": 131,
-  "total_unique": 93,
+  "total_unique": 109,
   "diff_new": [],
-  "diff_removed": [
-    "f1dca4409896"
-  ],
+  "diff_removed": [],
   "listings": [
     {
       "id": "cb4720c058ab",
@@ -17,8 +15,8 @@
       "zgrada": "Bel Mondo",
       "struktura": "3.0",
       "cena": 870000.0,
-      "m2": null,
-      "cena_m2": null,
+      "m2": 170.0,
+      "cena_m2": 5118,
       "agencija": "RElife NEKRETNINE",
       "izvor": "nrs"
     },
@@ -30,9 +28,9 @@
       "zgrada": "Soul 64",
       "struktura": "2.0",
       "cena": 275000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "Maja StojadinovicPrikaži telefonLATERNA NEKRETNINE",
+      "m2": 54.0,
+      "cena_m2": 5093,
+      "agencija": "LATERNA NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -43,9 +41,22 @@
       "zgrada": "Bel Mondo",
       "struktura": "ostalo",
       "cena": null,
-      "m2": null,
+      "m2": 250.0,
       "cena_m2": null,
-      "agencija": "Bel MondoPrikaži telefon",
+      "agencija": "Bel Mondo",
+      "izvor": "nrs"
+    },
+    {
+      "id": "a644ae99a551",
+      "url": "https://www.nekretnine.rs/oglasi/1133527/",
+      "naslov": "Stan Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
+      "opis": "BEL MONDO predstavlja sklad dinamične zajednice, bogate raznovrsnim sadržajima i prijatnim ambijentom koji pruža osećaj privatnosti i udobnosti. Smešten u centralnom delu Novog Beograda, sa",
+      "zgrada": "Bel Mondo",
+      "struktura": "ostalo",
+      "cena": null,
+      "m2": 73.0,
+      "cena_m2": null,
+      "agencija": "Bel Mondo",
       "izvor": "nrs"
     },
     {
@@ -58,7 +69,7 @@
       "cena": 240000.0,
       "m2": 56.0,
       "cena_m2": 4286,
-      "agencija": "PROCASA NEKRETNINEPrikaži telefon",
+      "agencija": "PROCASA NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -69,9 +80,9 @@
       "zgrada": "Airport Garden",
       "struktura": "ostalo",
       "cena": 170000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "Милан КузмановићPrikaži telefonAgencijaSBRE",
+      "m2": 34.0,
+      "cena_m2": 5000,
+      "agencija": null,
       "izvor": "nrs"
     },
     {
@@ -82,9 +93,9 @@
       "zgrada": "Wellport",
       "struktura": "3.0",
       "cena": 525000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "Marija KostadinovićPrikaži telefonKADENA SOTHEBY'S INTERNATIONAL REALTY",
+      "m2": 106.0,
+      "cena_m2": 4953,
+      "agencija": "KADENA SOTHEBY'S INTERNATIONAL REALTY",
       "izvor": "nrs"
     },
     {
@@ -95,9 +106,22 @@
       "zgrada": "West 65",
       "struktura": "ostalo",
       "cena": null,
-      "m2": null,
+      "m2": 444.0,
       "cena_m2": null,
-      "agencija": "Anđela VučićPrikaži telefonKADENA SOTHEBY'S INTERNATIONAL REALTY",
+      "agencija": "KADENA SOTHEBY'S INTERNATIONAL REALTY",
+      "izvor": "nrs"
+    },
+    {
+      "id": "4e4bdfc60138",
+      "url": "https://www.nekretnine.rs/oglasi/1133567/",
+      "naslov": "Stan Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
+      "opis": "BEL MONDO predstavlja sklad dinamične zajednice, bogate raznovrsnim sadržajima i prijatnim ambijentom koji pruža osećaj privatnosti i udobnosti. Smešten u centralnom delu Novog Beograda, sa",
+      "zgrada": "Bel Mondo",
+      "struktura": "ostalo",
+      "cena": null,
+      "m2": 252.0,
+      "cena_m2": null,
+      "agencija": "Bel Mondo",
       "izvor": "nrs"
     },
     {
@@ -108,9 +132,9 @@
       "zgrada": "New Minel",
       "struktura": "2.0",
       "cena": 285000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "Privatno lice",
+      "m2": 57.0,
+      "cena_m2": 5000,
+      "agencija": null,
       "izvor": "nrs"
     },
     {
@@ -123,7 +147,7 @@
       "cena": 399000.0,
       "m2": 106.0,
       "cena_m2": 3764,
-      "agencija": "IMOVINA PLUSPrikaži telefonPrikaži telefon",
+      "agencija": "IMOVINA PLUS",
       "izvor": "nrs"
     },
     {
@@ -134,9 +158,9 @@
       "zgrada": "Wellport",
       "struktura": "3.0",
       "cena": 440000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "LEVERAGE NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 78.0,
+      "cena_m2": 5641,
+      "agencija": "LEVERAGE NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -147,9 +171,48 @@
       "zgrada": "New Minel",
       "struktura": "3.0",
       "cena": 327188.0,
-      "m2": null,
+      "m2": 84.0,
+      "cena_m2": 3895,
+      "agencija": null,
+      "izvor": "nrs"
+    },
+    {
+      "id": "0e4eb8bc3489",
+      "url": "https://www.nekretnine.rs/oglasi/1133575/",
+      "naslov": "Stan Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
+      "opis": "BEL MONDO predstavlja sklad dinamične zajednice, bogate raznovrsnim sadržajima i prijatnim ambijentom koji pruža osećaj privatnosti i udobnosti. Smešten u centralnom delu Novog Beograda, sa",
+      "zgrada": "Bel Mondo",
+      "struktura": "ostalo",
+      "cena": null,
+      "m2": 200.0,
       "cena_m2": null,
-      "agencija": "AgencijaHELIANTHUS NEKRETNINEPrikaži telefon",
+      "agencija": "Bel Mondo",
+      "izvor": "nrs"
+    },
+    {
+      "id": "f640ea5eaf1f",
+      "url": "https://www.nekretnine.rs/oglasi/1133601/",
+      "naslov": "Stan Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
+      "opis": "BEL MONDO predstavlja sklad dinamične zajednice, bogate raznovrsnim sadržajima i prijatnim ambijentom koji pruža osećaj privatnosti i udobnosti. Smešten u centralnom delu Novog Beograda, sa",
+      "zgrada": "Bel Mondo",
+      "struktura": "ostalo",
+      "cena": null,
+      "m2": 217.0,
+      "cena_m2": null,
+      "agencija": "Bel Mondo",
+      "izvor": "nrs"
+    },
+    {
+      "id": "78044578ffb1",
+      "url": "https://www.nekretnine.rs/oglasi/1133617/",
+      "naslov": "Penthaus Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
+      "opis": "BEL MONDO predstavlja sklad dinamične zajednice, bogate raznovrsnim sadržajima i prijatnim ambijentom koji pruža osećaj privatnosti i udobnosti. Smešten u centralnom delu Novog Beograda, sa",
+      "zgrada": "Bel Mondo",
+      "struktura": "ostalo",
+      "cena": null,
+      "m2": 386.0,
+      "cena_m2": null,
+      "agencija": "Bel Mondo",
       "izvor": "nrs"
     },
     {
@@ -158,11 +221,11 @@
       "naslov": "Stan Ulica Djordja Stanojevica 35, Mladost, Beograd",
       "opis": "Airport Garden | Novogradnja | 32 m² | II sprat\n\nProdaje se potpuno nov, neuseljavan jednosoban stan površine 32 m² u premium kompleksu Airport Garden, lamela B, na Novom Beogradu.\nStan se nalazi",
       "zgrada": "Airport Garden",
-      "struktura": "1.0",
+      "struktura": "garsonjera",
       "cena": 159900.0,
       "m2": 32.0,
       "cena_m2": 4997,
-      "agencija": "Privatno lice",
+      "agencija": null,
       "izvor": "nrs"
     },
     {
@@ -175,7 +238,7 @@
       "cena": 430000.0,
       "m2": 107.0,
       "cena_m2": 4019,
-      "agencija": "Blagica KostićPrikaži telefonOzNekretnine",
+      "agencija": "OzNekretnine",
       "izvor": "nrs"
     },
     {
@@ -186,9 +249,9 @@
       "zgrada": "Wellport",
       "struktura": "2.0",
       "cena": 430000.0,
-      "m2": 55.0,
-      "cena_m2": 7818,
-      "agencija": "Privatno lice",
+      "m2": 78.0,
+      "cena_m2": 5513,
+      "agencija": null,
       "izvor": "nrs"
     },
     {
@@ -201,7 +264,7 @@
       "cena": 247500.0,
       "m2": 55.0,
       "cena_m2": 4500,
-      "agencija": "Privatno lice",
+      "agencija": null,
       "izvor": "nrs"
     },
     {
@@ -214,7 +277,7 @@
       "cena": 399000.0,
       "m2": 62.0,
       "cena_m2": 6435,
-      "agencija": "VIP NEKRETNINEPrikaži telefon",
+      "agencija": "VIP NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -225,9 +288,9 @@
       "zgrada": "Belvil",
       "struktura": "2.0",
       "cena": 261750.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "Vladimir VasovicPrikaži telefonDANOS AND ASSOCIATES",
+      "m2": 55.0,
+      "cena_m2": 4759,
+      "agencija": "DANOS AND ASSOCIATES",
       "izvor": "nrs"
     },
     {
@@ -238,9 +301,9 @@
       "zgrada": "Pupinova palata",
       "struktura": "4.0",
       "cena": 391620.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "FENIKS SISTEMPrikaži telefonPrikaži telefon",
+      "m2": 107.0,
+      "cena_m2": 3660,
+      "agencija": "FENIKS SISTEM",
       "izvor": "nrs"
     },
     {
@@ -251,9 +314,9 @@
       "zgrada": "Pupinova palata",
       "struktura": "4.0",
       "cena": 341066.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "FENIKS SISTEMPrikaži telefonPrikaži telefon",
+      "m2": 98.0,
+      "cena_m2": 3480,
+      "agencija": "FENIKS SISTEM",
       "izvor": "nrs"
     },
     {
@@ -266,7 +329,7 @@
       "cena": 505000.0,
       "m2": 103.0,
       "cena_m2": 4903,
-      "agencija": "MOJ KVADRATPrikaži telefonPrikaži telefon",
+      "agencija": "MOJ KVADRAT",
       "izvor": "nrs"
     },
     {
@@ -277,9 +340,9 @@
       "zgrada": "Airport Garden",
       "struktura": "4.0",
       "cena": 550000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "NOVI KVADRATIPrikaži telefon",
+      "m2": 140.0,
+      "cena_m2": 3929,
+      "agencija": "NOVI KVADRATI",
       "izvor": "nrs"
     },
     {
@@ -290,9 +353,9 @@
       "zgrada": "Lastavica",
       "struktura": "3.0",
       "cena": 315000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "FENIKS SISTEMPrikaži telefonPrikaži telefon",
+      "m2": 82.0,
+      "cena_m2": 3841,
+      "agencija": "FENIKS SISTEM",
       "izvor": "nrs"
     },
     {
@@ -303,9 +366,9 @@
       "zgrada": "Belvil",
       "struktura": "3.0",
       "cena": 360000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "BEOSTIL NEKRETNINE-STILIKOPrikaži telefon",
+      "m2": 81.0,
+      "cena_m2": 4444,
+      "agencija": "BEOSTIL NEKRETNINE-STILIKO",
       "izvor": "nrs"
     },
     {
@@ -318,7 +381,7 @@
       "cena": 253500.0,
       "m2": 65.0,
       "cena_m2": 3900,
-      "agencija": "MOJ KVADRATPrikaži telefonPrikaži telefon",
+      "agencija": "MOJ KVADRAT",
       "izvor": "nrs"
     },
     {
@@ -329,9 +392,9 @@
       "zgrada": "West 65",
       "struktura": "2.0",
       "cena": 355000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "KEY REAL ESTATEPrikaži telefonPrikaži telefon",
+      "m2": 61.0,
+      "cena_m2": 5820,
+      "agencija": "KEY REAL ESTATE",
       "izvor": "nrs"
     },
     {
@@ -342,9 +405,9 @@
       "zgrada": "A Blok",
       "struktura": "4.0",
       "cena": 450000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "A-HEDONIAPrikaži telefonPrikaži telefon",
+      "m2": 88.0,
+      "cena_m2": 5114,
+      "agencija": "A-HEDONIA",
       "izvor": "nrs"
     },
     {
@@ -355,9 +418,9 @@
       "zgrada": "West 65",
       "struktura": "4.0",
       "cena": 675000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "NEKRETNINE IKATPrikaži telefonPrikaži telefon",
+      "m2": 124.0,
+      "cena_m2": 5444,
+      "agencija": "NEKRETNINE IKAT",
       "izvor": "nrs"
     },
     {
@@ -368,9 +431,9 @@
       "zgrada": "West 65",
       "struktura": "2.0",
       "cena": 230000.0,
-      "m2": 55.36,
-      "cena_m2": 4155,
-      "agencija": "Vladimir VasovicPrikaži telefonDANOS AND ASSOCIATES",
+      "m2": 56.0,
+      "cena_m2": 4107,
+      "agencija": "DANOS AND ASSOCIATES",
       "izvor": "nrs"
     },
     {
@@ -381,9 +444,9 @@
       "zgrada": "Wellport",
       "struktura": "3.0",
       "cena": 425000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "LUSSO NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 78.0,
+      "cena_m2": 5449,
+      "agencija": "LUSSO NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -394,9 +457,9 @@
       "zgrada": "West 65 Kula",
       "struktura": "2.0",
       "cena": 385000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "DOGMA NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 60.0,
+      "cena_m2": 6417,
+      "agencija": "DOGMA NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -407,9 +470,9 @@
       "zgrada": "Savada",
       "struktura": "2.0",
       "cena": 245000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "Marija ĐurićPrikaži telefonGAMA PROPERTY Beograd",
+      "m2": 51.0,
+      "cena_m2": 4804,
+      "agencija": "GAMA PROPERTY Beograd",
       "izvor": "nrs"
     },
     {
@@ -420,9 +483,9 @@
       "zgrada": "Soul 64",
       "struktura": "2.0",
       "cena": 261750.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "Vladimir VasovicPrikaži telefonDANOS AND ASSOCIATES",
+      "m2": 56.0,
+      "cena_m2": 4674,
+      "agencija": "DANOS AND ASSOCIATES",
       "izvor": "nrs"
     },
     {
@@ -433,9 +496,9 @@
       "zgrada": "West 65",
       "struktura": "3.0",
       "cena": 450000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "DIVIS NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 90.0,
+      "cena_m2": 5000,
+      "agencija": "DIVIS NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -446,9 +509,9 @@
       "zgrada": "Belvil",
       "struktura": "3.0",
       "cena": 410000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "SUPER STANPrikaži telefon",
+      "m2": 83.0,
+      "cena_m2": 4940,
+      "agencija": "SUPER STAN",
       "izvor": "nrs"
     },
     {
@@ -461,7 +524,7 @@
       "cena": 289000.0,
       "m2": 63.0,
       "cena_m2": 4587,
-      "agencija": "DIVIS NEKRETNINEPrikaži telefonPrikaži telefon",
+      "agencija": "DIVIS NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -472,9 +535,9 @@
       "zgrada": "Wellport",
       "struktura": "5.0",
       "cena": 790000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "DIVIS NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 165.0,
+      "cena_m2": 4788,
+      "agencija": "DIVIS NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -485,9 +548,9 @@
       "zgrada": "West 65",
       "struktura": "3.0",
       "cena": 410000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "MEGASTANPrikaži telefon",
+      "m2": 83.0,
+      "cena_m2": 4940,
+      "agencija": "MEGASTAN",
       "izvor": "nrs"
     },
     {
@@ -500,7 +563,7 @@
       "cena": 237800.0,
       "m2": 58.0,
       "cena_m2": 4100,
-      "agencija": "ETAGI COMPrikaži telefon",
+      "agencija": "ETAGI COM",
       "izvor": "nrs"
     },
     {
@@ -513,7 +576,7 @@
       "cena": 302940.0,
       "m2": 84.0,
       "cena_m2": 3606,
-      "agencija": "MOJ KVADRATPrikaži telefonPrikaži telefon",
+      "agencija": "MOJ KVADRAT",
       "izvor": "nrs"
     },
     {
@@ -526,7 +589,7 @@
       "cena": 300000.0,
       "m2": 57.0,
       "cena_m2": 5263,
-      "agencija": "MOJ KVADRATPrikaži telefonPrikaži telefon",
+      "agencija": "MOJ KVADRAT",
       "izvor": "nrs"
     },
     {
@@ -537,9 +600,9 @@
       "zgrada": "Wellport",
       "struktura": "2.0",
       "cena": 285000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "KEY REAL ESTATEPrikaži telefonPrikaži telefon",
+      "m2": 57.0,
+      "cena_m2": 5000,
+      "agencija": "KEY REAL ESTATE",
       "izvor": "nrs"
     },
     {
@@ -552,7 +615,7 @@
       "cena": 790000.0,
       "m2": 140.0,
       "cena_m2": 5643,
-      "agencija": "MOJ KVADRATPrikaži telefonPrikaži telefon",
+      "agencija": "MOJ KVADRAT",
       "izvor": "nrs"
     },
     {
@@ -563,22 +626,9 @@
       "zgrada": "Wellport",
       "struktura": "2.0",
       "cena": 275000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "BELI GRAD NEKRETNINEPrikaži telefonPrikaži telefon",
-      "izvor": "nrs"
-    },
-    {
-      "id": "0d03640ac4ca",
-      "url": "https://www.nekretnine.rs/oglasi/1221503/",
-      "naslov": "Trosobni stan Bulevar Crvene Armije, Belvil, Beograd",
-      "opis": "U prilici smo da vam ponudimo prelep, svetao, trosoban i odmah useljiv stan.\n\nPoseduje dva kupatila, tri lođe od kojih je jedna zatvorena, garderober, veliku vešernicu, protočni bojler i tri klima",
-      "zgrada": "Belvil",
-      "struktura": "3.0",
-      "cena": 399000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "MEGASTANPrikaži telefon",
+      "m2": 55.0,
+      "cena_m2": 5000,
+      "agencija": "BELI GRAD NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -589,9 +639,9 @@
       "zgrada": "Airport Garden",
       "struktura": "2.0",
       "cena": 263400.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "LUSSO NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 60.0,
+      "cena_m2": 4390,
+      "agencija": "LUSSO NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -604,7 +654,7 @@
       "cena": 216000.0,
       "m2": 40.0,
       "cena_m2": 5400,
-      "agencija": "PANORAMA NEKRETNINEPrikaži telefon",
+      "agencija": "PANORAMA NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -615,9 +665,9 @@
       "zgrada": "Wellport",
       "struktura": "3.0",
       "cena": 349000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "SONATA PROPERTIESPrikaži telefonPrikaži telefon",
+      "m2": 97.0,
+      "cena_m2": 3598,
+      "agencija": "SONATA PROPERTIES",
       "izvor": "nrs"
     },
     {
@@ -630,7 +680,7 @@
       "cena": 309000.0,
       "m2": 62.0,
       "cena_m2": 4984,
-      "agencija": "MOJ KVADRATPrikaži telefonPrikaži telefon",
+      "agencija": "MOJ KVADRAT",
       "izvor": "nrs"
     },
     {
@@ -643,7 +693,7 @@
       "cena": 350000.0,
       "m2": 59.0,
       "cena_m2": 5932,
-      "agencija": "NOVI KVADRATIPrikaži telefon",
+      "agencija": "NOVI KVADRATI",
       "izvor": "nrs"
     },
     {
@@ -654,9 +704,9 @@
       "zgrada": "Belvil",
       "struktura": "4.0",
       "cena": 685000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "A-HEDONIAPrikaži telefonPrikaži telefon",
+      "m2": 124.0,
+      "cena_m2": 5524,
+      "agencija": "A-HEDONIA",
       "izvor": "nrs"
     },
     {
@@ -667,9 +717,9 @@
       "zgrada": "A Blok",
       "struktura": "2.0",
       "cena": 280000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "ECONOMIC NET SYSTEMPrikaži telefon",
+      "m2": 56.0,
+      "cena_m2": 5000,
+      "agencija": "ECONOMIC NET SYSTEM",
       "izvor": "nrs"
     },
     {
@@ -682,7 +732,7 @@
       "cena": 208500.0,
       "m2": 41.0,
       "cena_m2": 5085,
-      "agencija": "MOJ KVADRATPrikaži telefonPrikaži telefon",
+      "agencija": "MOJ KVADRAT",
       "izvor": "nrs"
     },
     {
@@ -693,9 +743,9 @@
       "zgrada": "Savada",
       "struktura": "3.0",
       "cena": 320000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "Privatno lice",
+      "m2": 62.0,
+      "cena_m2": 5161,
+      "agencija": null,
       "izvor": "nrs"
     },
     {
@@ -708,7 +758,7 @@
       "cena": 226000.0,
       "m2": 62.0,
       "cena_m2": 3645,
-      "agencija": "KOSMOPOLIT NEKRETNINEPrikaži telefon",
+      "agencija": "KOSMOPOLIT NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -719,22 +769,35 @@
       "zgrada": "West 65",
       "struktura": "4.0",
       "cena": 713400.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "EMINENT NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 123.0,
+      "cena_m2": 5800,
+      "agencija": "EMINENT NEKRETNINE",
       "izvor": "nrs"
     },
     {
-      "id": "1c95bd1788cd",
-      "url": "https://www.nekretnine.rs/oglasi/1052283/",
-      "naslov": "Trosobni stan Tadije Sondermajera, Airport City - Blok 60, Beograd",
-      "opis": "Na prodaju moderan 3.0-soban stan u prestižnom kompleksu Wellport, u ulici Tadije Sondermajera. Stan se nalazi na 18. spratu od ukupno 22, u zgradi sa liftom, i ima ukupnu površinu od 78 m².",
-      "zgrada": "Wellport",
-      "struktura": "3.0",
-      "cena": 425000.0,
-      "m2": 78.0,
-      "cena_m2": 5449,
-      "agencija": "BELI GRAD NEKRETNINEPrikaži telefonPrikaži telefon",
+      "id": "62a6508f0295",
+      "url": "https://www.nekretnine.rs/oglasi/1133587/",
+      "naslov": "Stan Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
+      "opis": "BEL MONDO predstavlja sklad dinamične zajednice, bogate raznovrsnim sadržajima i prijatnim ambijentom koji pruža osećaj privatnosti i udobnosti. Smešten u centralnom delu Novog Beograda, sa",
+      "zgrada": "Bel Mondo",
+      "struktura": "ostalo",
+      "cena": null,
+      "m2": 212.0,
+      "cena_m2": null,
+      "agencija": "Bel Mondo",
+      "izvor": "nrs"
+    },
+    {
+      "id": "2b80d2098fa6",
+      "url": "https://www.nekretnine.rs/oglasi/1133565/",
+      "naslov": "Stan Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
+      "opis": "BEL MONDO predstavlja sklad dinamične zajednice, bogate raznovrsnim sadržajima i prijatnim ambijentom koji pruža osećaj privatnosti i udobnosti. Smešten u centralnom delu Novog Beograda, sa",
+      "zgrada": "Bel Mondo",
+      "struktura": "ostalo",
+      "cena": null,
+      "m2": 121.0,
+      "cena_m2": null,
+      "agencija": "Bel Mondo",
       "izvor": "nrs"
     },
     {
@@ -745,9 +808,87 @@
       "zgrada": "Wellport",
       "struktura": "4.0",
       "cena": 490000.0,
-      "m2": null,
+      "m2": 106.0,
+      "cena_m2": 4623,
+      "agencija": "Lambrin nekretnine",
+      "izvor": "nrs"
+    },
+    {
+      "id": "679997846b66",
+      "url": "https://www.nekretnine.rs/oglasi/1133547/",
+      "naslov": "Stan Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
+      "opis": "BEL MONDO predstavlja sklad dinamične zajednice, bogate raznovrsnim sadržajima i prijatnim ambijentom koji pruža osećaj privatnosti i udobnosti. Smešten u centralnom delu Novog Beograda, sa",
+      "zgrada": "Bel Mondo",
+      "struktura": "ostalo",
+      "cena": null,
+      "m2": 187.0,
       "cena_m2": null,
-      "agencija": "Lambrin nekretninePrikaži telefon",
+      "agencija": "Bel Mondo",
+      "izvor": "nrs"
+    },
+    {
+      "id": "bb3f6d42d97d",
+      "url": "https://www.nekretnine.rs/oglasi/1133533/",
+      "naslov": "Stan Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
+      "opis": "BEL MONDO predstavlja sklad dinamične zajednice, bogate raznovrsnim sadržajima i prijatnim ambijentom koji pruža osećaj privatnosti i udobnosti. Smešten u centralnom delu Novog Beograda, sa",
+      "zgrada": "Bel Mondo",
+      "struktura": "ostalo",
+      "cena": null,
+      "m2": 79.0,
+      "cena_m2": null,
+      "agencija": "Bel Mondo",
+      "izvor": "nrs"
+    },
+    {
+      "id": "597286a26a61",
+      "url": "https://www.nekretnine.rs/oglasi/1133573/",
+      "naslov": "Stan Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
+      "opis": "BEL MONDO predstavlja sklad dinamične zajednice, bogate raznovrsnim sadržajima i prijatnim ambijentom koji pruža osećaj privatnosti i udobnosti. Smešten u centralnom delu Novog Beograda, sa",
+      "zgrada": "Bel Mondo",
+      "struktura": "ostalo",
+      "cena": null,
+      "m2": 218.0,
+      "cena_m2": null,
+      "agencija": "Bel Mondo",
+      "izvor": "nrs"
+    },
+    {
+      "id": "cfbc851153af",
+      "url": "https://www.nekretnine.rs/oglasi/1133561/",
+      "naslov": "Stan Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
+      "opis": "BEL MONDO predstavlja sklad dinamične zajednice, bogate raznovrsnim sadržajima i prijatnim ambijentom koji pruža osećaj privatnosti i udobnosti. Smešten u centralnom delu Novog Beograda, sa",
+      "zgrada": "Bel Mondo",
+      "struktura": "ostalo",
+      "cena": null,
+      "m2": 111.0,
+      "cena_m2": null,
+      "agencija": "Bel Mondo",
+      "izvor": "nrs"
+    },
+    {
+      "id": "bfbfe68cc885",
+      "url": "https://www.nekretnine.rs/oglasi/1133577/",
+      "naslov": "Penthaus Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
+      "opis": "BEL MONDO predstavlja sklad dinamične zajednice, bogate raznovrsnim sadržajima i prijatnim ambijentom koji pruža osećaj privatnosti i udobnosti. Smešten u centralnom delu Novog Beograda, sa",
+      "zgrada": "Bel Mondo",
+      "struktura": "ostalo",
+      "cena": null,
+      "m2": 265.0,
+      "cena_m2": null,
+      "agencija": "Bel Mondo",
+      "izvor": "nrs"
+    },
+    {
+      "id": "bdbf52a5b5b7",
+      "url": "https://www.nekretnine.rs/oglasi/1133557/",
+      "naslov": "Stan Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
+      "opis": "BEL MONDO predstavlja sklad dinamične zajednice, bogate raznovrsnim sadržajima i prijatnim ambijentom koji pruža osećaj privatnosti i udobnosti. Smešten u centralnom delu Novog Beograda, sa",
+      "zgrada": "Bel Mondo",
+      "struktura": "ostalo",
+      "cena": null,
+      "m2": 123.0,
+      "cena_m2": null,
+      "agencija": "Bel Mondo",
       "izvor": "nrs"
     },
     {
@@ -758,9 +899,9 @@
       "zgrada": "Belvil",
       "struktura": "2.0",
       "cena": 170000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "A-HEDONIAPrikaži telefonPrikaži telefon",
+      "m2": 33.0,
+      "cena_m2": 5152,
+      "agencija": "A-HEDONIA",
       "izvor": "nrs"
     },
     {
@@ -769,11 +910,11 @@
       "naslov": "Jednosoban stan Omladinskih brigada, Airport City - Blok 60, Beograd",
       "opis": "U ponudi je stan na prestižnoj lokaciji, u okviru naselja West 65, u ekskluzivnoj zgradi West Tower. Zgrada ima 40 spratova sa panoramskim pogledom ka svim delovima grada. U zgradu je omogućen",
       "zgrada": "West 65",
-      "struktura": "1.0",
+      "struktura": "garsonjera",
       "cena": 225000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "EMINENT NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 38.0,
+      "cena_m2": 5921,
+      "agencija": "EMINENT NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -784,22 +925,9 @@
       "zgrada": "Airport Garden",
       "struktura": "2.0",
       "cena": 249000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "EMINENT NEKRETNINEPrikaži telefonPrikaži telefon",
-      "izvor": "nrs"
-    },
-    {
-      "id": "aac6a8c65fde",
-      "url": "https://www.nekretnine.rs/oglasi/1227923/",
-      "naslov": "Trosobni stan Omladinskih brigada, Belvil, Beograd",
-      "opis": "Na prodaju luksuzan trosoban stan u ekskluzivnom novoizgradjenom kompleksu Bel Mondo, Novi Beograd\n\nStan površine 170 m2 (100 m2 stambenog prostora + 70 m2 terase) nalazi se na 7. spratu od ukupno 9",
-      "zgrada": "Bel Mondo",
-      "struktura": "3.0",
-      "cena": 870000.0,
-      "m2": 170.0,
-      "cena_m2": 5118,
-      "agencija": "ART NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 55.0,
+      "cena_m2": 4527,
+      "agencija": "EMINENT NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -810,9 +938,9 @@
       "zgrada": "Savada",
       "struktura": "4.0",
       "cena": 395000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "MEGASTANPrikaži telefon",
+      "m2": 97.0,
+      "cena_m2": 4072,
+      "agencija": "MEGASTAN",
       "izvor": "nrs"
     },
     {
@@ -823,9 +951,9 @@
       "zgrada": "Wellport",
       "struktura": "2.0",
       "cena": 289000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "ART NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 59.0,
+      "cena_m2": 4898,
+      "agencija": "ART NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -836,9 +964,9 @@
       "zgrada": "Airport Garden",
       "struktura": "2.0",
       "cena": 256750.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "PROPERTY BROKERPrikaži telefon",
+      "m2": 65.0,
+      "cena_m2": 3950,
+      "agencija": "PROPERTY BROKER",
       "izvor": "nrs"
     },
     {
@@ -849,9 +977,22 @@
       "zgrada": "Belvil",
       "struktura": "2.0",
       "cena": 263000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "ART NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 56.0,
+      "cena_m2": 4696,
+      "agencija": "ART NEKRETNINE",
+      "izvor": "nrs"
+    },
+    {
+      "id": "531916724ea2",
+      "url": "https://www.nekretnine.rs/oglasi/1231579/",
+      "naslov": "Stan Tadije Sondermajera, Airport City - Blok 60, Beograd",
+      "opis": "Ekstra luksuzan stan - Wellport - West 65 - Novi Beograd\nNovogradnja 2023/2024\nLUX namešten.\nModeran,odličan raspored prostorija,prirodno svetao.\ntri kupatila u stanu.\nVelika terasa sa prelepim",
+      "zgrada": "Wellport",
+      "struktura": "ostalo",
+      "cena": 790000.0,
+      "m2": 140.0,
+      "cena_m2": 5643,
+      "agencija": "ART NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -862,9 +1003,35 @@
       "zgrada": "Belvil",
       "struktura": "2.0",
       "cena": 179000.0,
-      "m2": null,
+      "m2": 51.0,
+      "cena_m2": 3510,
+      "agencija": "ART NEKRETNINE",
+      "izvor": "nrs"
+    },
+    {
+      "id": "54817652d07b",
+      "url": "https://www.nekretnine.rs/oglasi/1133523/",
+      "naslov": "Stan Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
+      "opis": "BEL MONDO predstavlja sklad dinamične zajednice, bogate raznovrsnim sadržajima i prijatnim ambijentom koji pruža osećaj privatnosti i udobnosti. Smešten u centralnom delu Novog Beograda, sa",
+      "zgrada": "Bel Mondo",
+      "struktura": "ostalo",
+      "cena": null,
+      "m2": 83.0,
       "cena_m2": null,
-      "agencija": "ART NEKRETNINEPrikaži telefonPrikaži telefon",
+      "agencija": "Bel Mondo",
+      "izvor": "nrs"
+    },
+    {
+      "id": "e216571d6eec",
+      "url": "https://www.nekretnine.rs/oglasi/1133545/",
+      "naslov": "Stan Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
+      "opis": "BEL MONDO predstavlja sklad dinamične zajednice, bogate raznovrsnim sadržajima i prijatnim ambijentom koji pruža osećaj privatnosti i udobnosti. Smešten u centralnom delu Novog Beograda, sa",
+      "zgrada": "Bel Mondo",
+      "struktura": "ostalo",
+      "cena": null,
+      "m2": 186.0,
+      "cena_m2": null,
+      "agencija": "Bel Mondo",
       "izvor": "nrs"
     },
     {
@@ -875,9 +1042,9 @@
       "zgrada": "Belvil",
       "struktura": "3.0",
       "cena": 550000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "HILLPrikaži telefon",
+      "m2": 95.0,
+      "cena_m2": 5789,
+      "agencija": "HILL",
       "izvor": "nrs"
     },
     {
@@ -888,9 +1055,9 @@
       "zgrada": "Wellport",
       "struktura": "3.0",
       "cena": 370000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "EMINENT NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 75.0,
+      "cena_m2": 4933,
+      "agencija": "EMINENT NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -901,9 +1068,9 @@
       "zgrada": "Belvil",
       "struktura": "garsonjera",
       "cena": 157900.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "BELI GRAD NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 32.0,
+      "cena_m2": 4934,
+      "agencija": "BELI GRAD NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -916,7 +1083,7 @@
       "cena": 280000.0,
       "m2": 53.0,
       "cena_m2": 5283,
-      "agencija": "Office 2 Office 2Prikaži telefonBENEFIT NEKRETNINE",
+      "agencija": "BENEFIT NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -927,9 +1094,22 @@
       "zgrada": "Lastavica",
       "struktura": "3.0",
       "cena": 379000.0,
-      "m2": null,
+      "m2": 82.0,
+      "cena_m2": 4622,
+      "agencija": "EUROPOLIS REAL ESTATE",
+      "izvor": "nrs"
+    },
+    {
+      "id": "cf55da811c08",
+      "url": "https://www.nekretnine.rs/oglasi/1133591/",
+      "naslov": "Stan Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
+      "opis": "BEL MONDO predstavlja sklad dinamične zajednice, bogate raznovrsnim sadržajima i prijatnim ambijentom koji pruža osećaj privatnosti i udobnosti. Smešten u centralnom delu Novog Beograda, sa",
+      "zgrada": "Bel Mondo",
+      "struktura": "ostalo",
+      "cena": null,
+      "m2": 189.0,
       "cena_m2": null,
-      "agencija": "EUROPOLIS REAL ESTATEPrikaži telefonPrikaži telefon",
+      "agencija": "Bel Mondo",
       "izvor": "nrs"
     },
     {
@@ -940,9 +1120,22 @@
       "zgrada": "West 65 Kula",
       "struktura": "2.0",
       "cena": 399900.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "EUROPOLIS REAL ESTATEPrikaži telefonPrikaži telefon",
+      "m2": 60.0,
+      "cena_m2": 6665,
+      "agencija": "EUROPOLIS REAL ESTATE",
+      "izvor": "nrs"
+    },
+    {
+      "id": "93381626cda9",
+      "url": "https://www.nekretnine.rs/oglasi/1226019/",
+      "naslov": "Trosobni stan Đorđa Stanojevića, Belvil, Beograd",
+      "opis": "Retko u ponudi. Stan na atraktivnojj lokaciji u naselju Belvil. Po strukturi trosoban, komforan, dve spavace sobe, dva kupatila, ostava. Dobro pozicioniran, trostrano orjentisan. Dva garazna mesta uz",
+      "zgrada": "Belvil",
+      "struktura": "3.0",
+      "cena": 399000.0,
+      "m2": 107.0,
+      "cena_m2": 3729,
+      "agencija": "M REAL ESTATE",
       "izvor": "nrs"
     },
     {
@@ -953,9 +1146,22 @@
       "zgrada": "Belvil",
       "struktura": "ostalo",
       "cena": 990000.0,
-      "m2": null,
+      "m2": 161.0,
+      "cena_m2": 6149,
+      "agencija": "A-HEDONIA",
+      "izvor": "nrs"
+    },
+    {
+      "id": "183bb44e08ab",
+      "url": "https://www.nekretnine.rs/oglasi/1133497/",
+      "naslov": "Stan Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
+      "opis": "BEL MONDO predstavlja sklad dinamične zajednice, bogate raznovrsnim sadržajima i prijatnim ambijentom koji pruža osećaj privatnosti i udobnosti. Smešten u centralnom delu Novog Beograda, sa",
+      "zgrada": "Bel Mondo",
+      "struktura": "ostalo",
+      "cena": null,
+      "m2": 89.0,
       "cena_m2": null,
-      "agencija": "A-HEDONIAPrikaži telefonPrikaži telefon",
+      "agencija": "Bel Mondo",
       "izvor": "nrs"
     },
     {
@@ -966,9 +1172,9 @@
       "zgrada": "Airport Garden",
       "struktura": "2.0",
       "cena": 248500.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "AVANGARDAPrikaži telefon",
+      "m2": 54.0,
+      "cena_m2": 4602,
+      "agencija": "AVANGARDA",
       "izvor": "nrs"
     },
     {
@@ -979,9 +1185,9 @@
       "zgrada": "Airport Garden",
       "struktura": "4.0",
       "cena": 599000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "DIVIS NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 134.0,
+      "cena_m2": 4470,
+      "agencija": "DIVIS NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -992,22 +1198,22 @@
       "zgrada": "New Minel",
       "struktura": "4.0",
       "cena": 336937.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "ART NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 84.0,
+      "cena_m2": 4011,
+      "agencija": "ART NEKRETNINE",
       "izvor": "nrs"
     },
     {
-      "id": "97b00182f89d",
-      "url": "https://www.nekretnine.rs/oglasi/1218827/",
-      "naslov": "Dvosobni stan Đorđa Stanojevića, Belvil, Beograd",
-      "opis": " AIRPORT GARDEN  NOVOGRADNJA KOJA PRUŽA VIŠE OD STANA\n\nU ponudi je moderan stan površine 55 m sa pripadajućim parking mestom od 13 m na nivou -2 garaže .garažno mesto se doplacuje 35 000 e, u",
+      "id": "90476166305c",
+      "url": "https://www.nekretnine.rs/oglasi/1229075/",
+      "naslov": "Jednosoban stan Đorđa Stanojevića, Belvil, Beograd",
+      "opis": "U ponudi potpuno nov, neuseljavan stan premium kvaliteta, smešten u savremenom stambeno-poslovnom kompleksu Airport Garden u bloku 65.\n\nPažljivo osmišljen i uređen sa akcentom na eleganciju,",
       "zgrada": "Airport Garden",
-      "struktura": "2.0",
-      "cena": 247500.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "Sandra Milenković PR Capitalrent nekretninePrikaži telefon",
+      "struktura": "garsonjera",
+      "cena": 170000.0,
+      "m2": 33.0,
+      "cena_m2": 5152,
+      "agencija": "PROPERTY BROKER",
       "izvor": "nrs"
     },
     {
@@ -1018,9 +1224,22 @@
       "zgrada": "Airport Garden",
       "struktura": "2.0",
       "cena": 228900.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "ART NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 56.0,
+      "cena_m2": 4088,
+      "agencija": "ART NEKRETNINE",
+      "izvor": "nrs"
+    },
+    {
+      "id": "81c05efcda88",
+      "url": "https://www.nekretnine.rs/oglasi/1213181/",
+      "naslov": "Četvorosobni stan Đorđa Stanojevića, Belvil, Beograd",
+      "opis": "Na prodaju je stan u kompleksu Airport Garden, koji se nalazi iza tržnog centra Soul. Reč je o penthouse stanu na 12. spratu, poslednjem u zgradi, sa pogledom koji ostaje zauvek  nema mogućnosti",
+      "zgrada": "Airport Garden",
+      "struktura": "4.0",
+      "cena": 550000.0,
+      "m2": 134.0,
+      "cena_m2": 4104,
+      "agencija": "ART NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -1033,7 +1252,7 @@
       "cena": 590000.0,
       "m2": 95.0,
       "cena_m2": 6211,
-      "agencija": "GIGANT NEKRETNINEPrikaži telefonPrikaži telefon",
+      "agencija": "GIGANT NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -1044,9 +1263,9 @@
       "zgrada": "A Blok",
       "struktura": "3.0",
       "cena": 377999.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "ALFA SISTEM NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 96.0,
+      "cena_m2": 3937,
+      "agencija": "ALFA SISTEM NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -1057,9 +1276,9 @@
       "zgrada": "Wellport",
       "struktura": "3.0",
       "cena": 399000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "GALAS NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 75.0,
+      "cena_m2": 5320,
+      "agencija": "GALAS NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -1070,9 +1289,9 @@
       "zgrada": "West 65",
       "struktura": "2.0",
       "cena": 355000.0,
-      "m2": 61.0,
-      "cena_m2": 5820,
-      "agencija": "ALFA SISTEM NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 62.0,
+      "cena_m2": 5726,
+      "agencija": "ALFA SISTEM NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -1083,9 +1302,9 @@
       "zgrada": "Belvil",
       "struktura": "3.0",
       "cena": 590000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "LEVERAGE NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 100.0,
+      "cena_m2": 5900,
+      "agencija": "LEVERAGE NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -1096,9 +1315,9 @@
       "zgrada": "Belvil",
       "struktura": "2.0",
       "cena": 161842.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "FORMA TIMPrikaži telefon",
+      "m2": 43.0,
+      "cena_m2": 3764,
+      "agencija": "FORMA TIM",
       "izvor": "nrs"
     },
     {
@@ -1109,9 +1328,9 @@
       "zgrada": "West 65",
       "struktura": "2.0",
       "cena": 120000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "ATAŠE NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 48.0,
+      "cena_m2": 2500,
+      "agencija": "ATAŠE NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -1122,9 +1341,9 @@
       "zgrada": "Belvil",
       "struktura": "2.0",
       "cena": 247500.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "A-HEDONIAPrikaži telefonPrikaži telefon",
+      "m2": 55.0,
+      "cena_m2": 4500,
+      "agencija": "A-HEDONIA",
       "izvor": "nrs"
     },
     {
@@ -1135,9 +1354,9 @@
       "zgrada": "Belvil",
       "struktura": "2.0",
       "cena": 282000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "A-HEDONIAPrikaži telefonPrikaži telefon",
+      "m2": 65.0,
+      "cena_m2": 4338,
+      "agencija": "A-HEDONIA",
       "izvor": "nrs"
     },
     {
@@ -1148,9 +1367,9 @@
       "zgrada": "Belvil",
       "struktura": "2.0",
       "cena": 219000.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "BEOCITYNEKRETNINE. RSPrikaži telefonBEOCITY NEKRETNINE",
+      "m2": 47.0,
+      "cena_m2": 4660,
+      "agencija": "BEOCITY NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -1161,9 +1380,9 @@
       "zgrada": "A Blok",
       "struktura": "2.0",
       "cena": 179900.0,
-      "m2": null,
-      "cena_m2": null,
-      "agencija": "LEVERAGE NEKRETNINEPrikaži telefonPrikaži telefon",
+      "m2": 45.0,
+      "cena_m2": 3998,
+      "agencija": "LEVERAGE NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -1176,20 +1395,7 @@
       "cena": 289000.0,
       "m2": 55.0,
       "cena_m2": 5255,
-      "agencija": "AS NEKRETNINE PROPrikaži telefonPrikaži telefon",
-      "izvor": "nrs"
-    },
-    {
-      "id": "39c8e38aebde",
-      "url": "https://www.nekretnine.rs/oglasi/37949/",
-      "naslov": "Stan novo, 19, Airport City - Blok 60, Beograd",
-      "opis": "Novi Beograd, Blok 65 - Tadije Sondermajera\n140m2, 5.0, 19/22, CG (kalorimetri), 3 lifta\n \nLuksuzno opremljen i vrlo svetao petosoban stan, u sklopu zatvorenog kompleksa Wellport, sa video nadzorom i",
-      "zgrada": "Wellport",
-      "struktura": "5.0",
-      "cena": 790000.0,
-      "m2": 140.0,
-      "cena_m2": 5643,
-      "agencija": "KALEM NEKRETNINEPrikaži telefon",
+      "agencija": "AS NEKRETNINE PRO",
       "izvor": "nrs"
     },
     {
@@ -1202,7 +1408,7 @@
       "cena": 380000.0,
       "m2": 91.0,
       "cena_m2": 4176,
-      "agencija": "ALFA SISTEM NEKRETNINEPrikaži telefonPrikaži telefon",
+      "agencija": "ALFA SISTEM NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -1215,7 +1421,7 @@
       "cena": 185500.0,
       "m2": 53.0,
       "cena_m2": 3500,
-      "agencija": "AS NEKRETNINE PROPrikaži telefonPrikaži telefon",
+      "agencija": "AS NEKRETNINE PRO",
       "izvor": "nrs"
     }
   ]
