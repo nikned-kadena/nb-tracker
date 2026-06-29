@@ -42,17 +42,18 @@ BASE_URLS = {
 }
 
 STRUKTURA_MAP = {
-    "garsonjera": "garsonjera",
-    "jednosoban":  "1.0",
-    "jednoiposoban": "1.5",
-    "dvosoban":    "2.0",
-    "dvoiposoban": "2.5",
-    "trosoban":    "3.0",
-    "troiposoban": "3.5",
-    "četvorosoban": "4.0",
+    # Tekstualni nazivi
+    "garsonjera":      "garsonjera",
+    "jednosoban":      "1.0",
+    "jednoiposoban":   "1.5",
+    "dvosoban":        "2.0",
+    "dvoiposoban":     "2.5",
+    "trosoban":        "3.0",
+    "troiposoban":     "3.5",
+    "četvorosoban":    "4.0",
     "četvoroiposoban": "4.5",
-    "petosoban":   "5.0",
-    "višesoban":   "5+",
+    "petosoban":       "5.0",
+    "višesoban":       "5.0",
 }
 
 
@@ -86,11 +87,35 @@ def parse_m2(text: str) -> float | None:
     return None
 
 
+
+
+
 def parse_struktura(title: str) -> str:
+    """Detektuje strukturu iz naslova.
+    Podrzava tekstualni format ('Trosoban') i numericki ('3.0', '2,0').
+    """
     t = title.lower()
-    for key, val in STRUKTURA_MAP.items():
+    txt_map = [
+        ("garsonjera", "garsonjera"), ("jednoiposoban", "1.5"), ("jednosoban", "1.0"),
+        ("dvoiposoban", "2.5"), ("dvosoban", "2.0"),
+        ("troiposoban", "3.5"), ("trosoban", "3.0"),
+        ("cetvoroiposoban", "4.5"), ("cetvorosoban", "4.0"),
+        ("petosoban", "5.0"), ("visesoban", "5.0"),
+    ]
+    for key, val in txt_map:
         if key in t:
             return val
+    # Numericki format: "2.0", "3,0", "4.0" u naslovu
+    num_map = {
+        "0.5": "garsonjera", "1.0": "1.0", "1.5": "1.5",
+        "2.0": "2.0", "2.5": "2.5", "3.0": "3.0", "3.5": "3.5",
+        "4.0": "4.0", "4.5": "4.5", "5.0": "5.0",
+    }
+    m = re.search(r"\b(\d+[.,]\d)\b", t)
+    if m:
+        num = m.group(1).replace(",", ".")
+        if num in num_map:
+            return num_map[num]
     return "ostalo"
 
 
