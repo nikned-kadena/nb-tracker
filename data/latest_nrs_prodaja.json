@@ -2,79 +2,9 @@
   "date": "2026-06-29",
   "mode": "prodaja",
   "source": "nrs",
-  "total_raw": 108,
-  "total_unique": 75,
-  "diff_new": [
-    "c5adb02b8fed",
-    "0498026b7148",
-    "2ff2137db06a",
-    "97b00182f89d",
-    "5a4cb48e80db",
-    "f4e645cb3672",
-    "a8bc2a9ff4bf",
-    "39c8e38aebde",
-    "e49b7dd30ff4",
-    "a1e1d35f4c5a",
-    "7c7b1f6d0da9",
-    "14cb8f03f51d",
-    "0d7aafcf68e0",
-    "b96201f79cc8",
-    "3b660da6fc77",
-    "d3a65bd45e28",
-    "dd87b552fd2c",
-    "44f0452a3287",
-    "ea01eeeb844c",
-    "a90e9466809d",
-    "693014a243e5",
-    "cc91e4d48d44",
-    "145fa7381669",
-    "99e34ead0332",
-    "ec8fd3b280f5",
-    "9ede3edd0f64",
-    "4f6a417d074e",
-    "be2f6feaf6b5",
-    "a540c313d457",
-    "858fdeaab8e6",
-    "904a766b7eff",
-    "5ff343bc08e9",
-    "2ca1333db7c5",
-    "c1d467cfc8cd",
-    "f0c18f3f9cd7",
-    "ecfd5288a343",
-    "04e34e794360",
-    "0e664c27c032",
-    "ab3828976ebd",
-    "54cad3bac194",
-    "3cd178232a2c",
-    "168f7cfa96bd",
-    "a9f40ee55700",
-    "dd4cd6a41465",
-    "9113a3c34e34",
-    "9f4661ed0a4f",
-    "79aeb4a7eab2",
-    "1ed3c2391f4e",
-    "2bcb0765201c",
-    "070a044ce45f",
-    "b5b9f931d40f",
-    "1c95bd1788cd",
-    "98e82a6387cd",
-    "74c174f7f8f9",
-    "b3fc12a4ba68",
-    "8b6068bfea32",
-    "f0c7ba20a727",
-    "112aa8302fd3",
-    "92a7d6bc9ddf",
-    "dbd2acc07158",
-    "d189a3184239",
-    "e7a2de56cc7b",
-    "2c3555831111",
-    "aac6a8c65fde",
-    "9717104c6d10",
-    "7d5d168126de",
-    "792ddcb96199",
-    "b55e54be9609",
-    "3eb00d6f3d79"
-  ],
+  "total_raw": 132,
+  "total_unique": 94,
+  "diff_new": [],
   "diff_removed": [],
   "listings": [
     {
@@ -100,7 +30,7 @@
       "cena": 275000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "agent male",
+      "agencija": "Maja StojadinovicPrikaži telefonLATERNA NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -113,7 +43,20 @@
       "cena": null,
       "m2": null,
       "cena_m2": null,
-      "agencija": "Bel Mondo",
+      "agencija": "Bel MondoPrikaži telefon",
+      "izvor": "nrs"
+    },
+    {
+      "id": "08f6c97c2f2a",
+      "url": "https://www.nekretnine.rs/oglasi/1220575/",
+      "naslov": "Dvosobni stan prvi sprat, Belvil, Beograd",
+      "opis": "Prodaje se uknjižen dvosoban stan od 56m2 u naselju Belvil, na Novom Beogradu. Stan se nalazi na 1. spratu zgrade od 10 spratova, sa dva lifta. Stan nema terasu, istočno je orijentisan i",
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "cena": 240000.0,
+      "m2": 56.0,
+      "cena_m2": 4286,
+      "agencija": "PROCASA NEKRETNINEPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -126,7 +69,7 @@
       "cena": 170000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "agent male",
+      "agencija": "Милан КузмановићPrikaži telefonAgencijaSBRE",
       "izvor": "nrs"
     },
     {
@@ -139,7 +82,7 @@
       "cena": 525000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "agent male",
+      "agencija": "Marija KostadinovićPrikaži telefonKADENA SOTHEBY'S INTERNATIONAL REALTY",
       "izvor": "nrs"
     },
     {
@@ -152,7 +95,7 @@
       "cena": null,
       "m2": null,
       "cena_m2": null,
-      "agencija": "agent male",
+      "agencija": "Anđela VučićPrikaži telefonKADENA SOTHEBY'S INTERNATIONAL REALTY",
       "izvor": "nrs"
     },
     {
@@ -165,7 +108,20 @@
       "cena": 285000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "user male",
+      "agencija": "Privatno lice",
+      "izvor": "nrs"
+    },
+    {
+      "id": "8dccbd17e95b",
+      "url": "https://www.nekretnine.rs/oglasi/62213/",
+      "naslov": "Trosobni stan Bulevar Crvene Armije, Belvil, Beograd",
+      "opis": "Novi Beograd, Belvil (Zgrada Ciklama) - Bulevar Crvene Armije  3.0, 106m2 (tri lođe), 7/13, EG, dva lifta, garaža, parking, interfon, klima, video nadzor.  Luksuzan, namešten stan salonskog tipa.",
+      "zgrada": "Belvil",
+      "struktura": "3.0",
+      "cena": 399000.0,
+      "m2": 106.0,
+      "cena_m2": 3764,
+      "agencija": "IMOVINA PLUSPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -178,7 +134,7 @@
       "cena": 440000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "LEVERAGE NEKRETNINE",
+      "agencija": "LEVERAGE NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -191,7 +147,7 @@
       "cena": 327188.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": null,
+      "agencija": "AgencijaHELIANTHUS NEKRETNINEPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -204,7 +160,7 @@
       "cena": 159900.0,
       "m2": 32.0,
       "cena_m2": 4997,
-      "agencija": "user male",
+      "agencija": "Privatno lice",
       "izvor": "nrs"
     },
     {
@@ -217,7 +173,7 @@
       "cena": 430000.0,
       "m2": 107.0,
       "cena_m2": 4019,
-      "agencija": "agent male",
+      "agencija": "Blagica KostićPrikaži telefonOzNekretnine",
       "izvor": "nrs"
     },
     {
@@ -230,7 +186,7 @@
       "cena": 430000.0,
       "m2": 55.0,
       "cena_m2": 7818,
-      "agencija": "user male",
+      "agencija": "Privatno lice",
       "izvor": "nrs"
     },
     {
@@ -243,7 +199,7 @@
       "cena": 247500.0,
       "m2": 55.0,
       "cena_m2": 4500,
-      "agencija": "user male",
+      "agencija": "Privatno lice",
       "izvor": "nrs"
     },
     {
@@ -256,7 +212,7 @@
       "cena": 399000.0,
       "m2": 62.0,
       "cena_m2": 6435,
-      "agencija": "VIP NEKRETNINE",
+      "agencija": "VIP NEKRETNINEPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -264,12 +220,12 @@
       "url": "https://www.nekretnine.rs/oglasi/1015817/",
       "naslov": "Dvosobni stan Ulica Omladinskih brigada, Belvil, Beograd",
       "opis": "Soul 64 Novo, 2.0 na veoma traženoj lokaciji bez buke, u kvalitetnoj zgradi sa odličnom odličnom izolacijom ,odlično saobraćajno povezan, brz pristup na velike bulevare, mostove,aerodrum 15",
-      "zgrada": "Soul 64",
+      "zgrada": "Belvil",
       "struktura": "2.0",
       "cena": 261750.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "agent male",
+      "agencija": "Vladimir VasovicPrikaži telefonDANOS AND ASSOCIATES",
       "izvor": "nrs"
     },
     {
@@ -282,7 +238,7 @@
       "cena": 391620.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "FENIKS SISTEM",
+      "agencija": "FENIKS SISTEMPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -295,7 +251,20 @@
       "cena": 341066.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "FENIKS SISTEM",
+      "agencija": "FENIKS SISTEMPrikaži telefonPrikaži telefon",
+      "izvor": "nrs"
+    },
+    {
+      "id": "765abcff6b3c",
+      "url": "https://www.nekretnine.rs/oglasi/65899/",
+      "naslov": "Četvorosobni stan Jurija Gagarina, Belvil, Beograd",
+      "opis": "Novi Beograd, Blok 67 - Belville - Jurija Gagarina  4.0, 103m2 (dve lođe 8m2), 4/7, CG, lift, interfon, garaža  U ponudi za prodaju luksuzan, četvorosoban stan, dvostrano orijentisan, sa otvorenim",
+      "zgrada": "Belvil",
+      "struktura": "4.0",
+      "cena": 505000.0,
+      "m2": 103.0,
+      "cena_m2": 4903,
+      "agencija": "MOJ KVADRATPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -308,7 +277,46 @@
       "cena": 550000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "NOVI KVADRATI",
+      "agencija": "NOVI KVADRATIPrikaži telefon",
+      "izvor": "nrs"
+    },
+    {
+      "id": "2da16b00ad01",
+      "url": "https://www.nekretnine.rs/oglasi/72129/",
+      "naslov": "Trosobni stan Jurija Gagarina, Savski kej, Beograd",
+      "opis": "U zgradi \"Lastavica\" preko puta Delta City-ja, odličanapartman na prvom spratu. Sve je novo i odlično izvedeno. U zgradi ima lokala, kafića.\nPoželjni su keš kupci.\nKupac plaća agencijsku",
+      "zgrada": "Lastavica",
+      "struktura": "3.0",
+      "cena": 315000.0,
+      "m2": null,
+      "cena_m2": null,
+      "agencija": "FENIKS SISTEMPrikaži telefonPrikaži telefon",
+      "izvor": "nrs"
+    },
+    {
+      "id": "293c8d561f18",
+      "url": "https://www.nekretnine.rs/oglasi/1218119/",
+      "naslov": "Trosobni stan Uroša Martinovića, Belvil, Beograd",
+      "opis": "Stan se nalazi na jednoj od prestižnih lokacija Novog Beograda u Savadi, povučen od ulice, ušuškan u parkovskom okruženju, u zgradi koja je uredna, besprekorno čista.\nU neposrednoj blizini su",
+      "zgrada": "Belvil",
+      "struktura": "3.0",
+      "cena": 360000.0,
+      "m2": null,
+      "cena_m2": null,
+      "agencija": "BEOSTIL NEKRETNINE-STILIKOPrikaži telefon",
+      "izvor": "nrs"
+    },
+    {
+      "id": "9709b7019cbc",
+      "url": "https://www.nekretnine.rs/oglasi/66763/",
+      "naslov": "Dvosobni stan Đorđa Stanojevića, Belvil, Beograd",
+      "opis": "Novi Beograd, Blok 64 - Đorđa Stanojevića  2.0, 65m2 (terasa 4m2), 1/10, toplotne pumpe, dva lifta, telefon, interfon, podrum, parking, garaža  U ponudi luksuzan dvosoban stan u novogradnji, koji",
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "cena": 253500.0,
+      "m2": 65.0,
+      "cena_m2": 3900,
+      "agencija": "MOJ KVADRATPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -321,7 +329,7 @@
       "cena": 355000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "KEY REAL ESTATE",
+      "agencija": "KEY REAL ESTATEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -334,7 +342,7 @@
       "cena": 450000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "A-HEDONIA",
+      "agencija": "A-HEDONIAPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -347,7 +355,7 @@
       "cena": 675000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "NEKRETNINE IKAT",
+      "agencija": "NEKRETNINE IKATPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -360,7 +368,7 @@
       "cena": 230000.0,
       "m2": 55.36,
       "cena_m2": 4155,
-      "agencija": "agent male",
+      "agencija": "Vladimir VasovicPrikaži telefonDANOS AND ASSOCIATES",
       "izvor": "nrs"
     },
     {
@@ -373,7 +381,7 @@
       "cena": 425000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "LUSSO NEKRETNINE",
+      "agencija": "LUSSO NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -386,7 +394,7 @@
       "cena": 385000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "DOGMA NEKRETNINE",
+      "agencija": "DOGMA NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -399,7 +407,20 @@
       "cena": 245000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "agent male",
+      "agencija": "Marija ĐurićPrikaži telefonGAMA PROPERTY Beograd",
+      "izvor": "nrs"
+    },
+    {
+      "id": "0cb42a404f40",
+      "url": "https://www.nekretnine.rs/oglasi/1039241/",
+      "naslov": "Dvosobni stan Ulica Omladinskih brigada 100, Mladost, Beograd",
+      "opis": "Soul 64 Novo, 2.0 na veoma traženoj lokaciji bez buke, u kvalitetnoj zgradi sa odličnom odličnom izolacijom ,odlično saobraćajno povezan, brz pristup na velike bulevare, mostove,aerodrum 15",
+      "zgrada": "Soul 64",
+      "struktura": "2.0",
+      "cena": 261750.0,
+      "m2": null,
+      "cena_m2": null,
+      "agencija": "Vladimir VasovicPrikaži telefonDANOS AND ASSOCIATES",
       "izvor": "nrs"
     },
     {
@@ -412,7 +433,7 @@
       "cena": 450000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "DIVIS NEKRETNINE",
+      "agencija": "DIVIS NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -420,12 +441,12 @@
       "url": "https://www.nekretnine.rs/oglasi/1217317/",
       "naslov": "Trosobni stan Omladinskih brigada, Belvil, Beograd",
       "opis": "Odličan, moderan trosoban stan uknjižen na 83 m, u prestižnom kompleksu West 65 na Novom Beogradu, pozicioniran na 4. spratu od ukupno 7. Ova stambena jedinica predstavlja odličnu priliku za",
-      "zgrada": "West 65",
+      "zgrada": "Belvil",
       "struktura": "3.0",
       "cena": 410000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "SUPER STAN",
+      "agencija": "SUPER STANPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -438,7 +459,7 @@
       "cena": 289000.0,
       "m2": 63.0,
       "cena_m2": 4587,
-      "agencija": "DIVIS NEKRETNINE",
+      "agencija": "DIVIS NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -451,7 +472,20 @@
       "cena": 790000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "DIVIS NEKRETNINE",
+      "agencija": "DIVIS NEKRETNINEPrikaži telefonPrikaži telefon",
+      "izvor": "nrs"
+    },
+    {
+      "id": "5c451bee6a8c",
+      "url": "https://www.nekretnine.rs/oglasi/1221481/",
+      "naslov": "Trosobni stan Omladinskih brigada, Airport City - Blok 60, Beograd",
+      "opis": "Trosoban stan se nalazi u stambeno-poslovnoj zgradi West 65. \n\nStan se sastoji : hodnik, dnevni boravak sa kuhinjom i trpezarijom, dve spavaće sobe, dva kupatila i lepe terase. \n\nCentralni sistem",
+      "zgrada": "West 65",
+      "struktura": "3.0",
+      "cena": 410000.0,
+      "m2": null,
+      "cena_m2": null,
+      "agencija": "MEGASTANPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -464,7 +498,7 @@
       "cena": 237800.0,
       "m2": 58.0,
       "cena_m2": 4100,
-      "agencija": "ETAGI COM",
+      "agencija": "ETAGI COMPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -477,7 +511,7 @@
       "cena": 302940.0,
       "m2": 84.0,
       "cena_m2": 3606,
-      "agencija": "MOJ KVADRAT",
+      "agencija": "MOJ KVADRATPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -490,7 +524,7 @@
       "cena": 300000.0,
       "m2": 57.0,
       "cena_m2": 5263,
-      "agencija": "MOJ KVADRAT",
+      "agencija": "MOJ KVADRATPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -503,7 +537,7 @@
       "cena": 285000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "KEY REAL ESTATE",
+      "agencija": "KEY REAL ESTATEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -516,7 +550,7 @@
       "cena": 790000.0,
       "m2": 140.0,
       "cena_m2": 5643,
-      "agencija": "MOJ KVADRAT",
+      "agencija": "MOJ KVADRATPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -529,7 +563,20 @@
       "cena": 275000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "BELI GRAD NEKRETNINE",
+      "agencija": "BELI GRAD NEKRETNINEPrikaži telefonPrikaži telefon",
+      "izvor": "nrs"
+    },
+    {
+      "id": "0d03640ac4ca",
+      "url": "https://www.nekretnine.rs/oglasi/1221503/",
+      "naslov": "Trosobni stan Bulevar Crvene Armije, Belvil, Beograd",
+      "opis": "U prilici smo da vam ponudimo prelep, svetao, trosoban i odmah useljiv stan.\n\nPoseduje dva kupatila, tri lođe od kojih je jedna zatvorena, garderober, veliku vešernicu, protočni bojler i tri klima",
+      "zgrada": "Belvil",
+      "struktura": "3.0",
+      "cena": 399000.0,
+      "m2": null,
+      "cena_m2": null,
+      "agencija": "MEGASTANPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -542,7 +589,7 @@
       "cena": 263400.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "LUSSO NEKRETNINE",
+      "agencija": "LUSSO NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -555,7 +602,7 @@
       "cena": 216000.0,
       "m2": 40.0,
       "cena_m2": 5400,
-      "agencija": "PANORAMA NEKRETNINE",
+      "agencija": "PANORAMA NEKRETNINEPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -568,7 +615,20 @@
       "cena": 349000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "SONATA PROPERTIES",
+      "agencija": "SONATA PROPERTIESPrikaži telefonPrikaži telefon",
+      "izvor": "nrs"
+    },
+    {
+      "id": "5be8a77bad44",
+      "url": "https://www.nekretnine.rs/oglasi/1016183/",
+      "naslov": "Dvosobni stan Jurija Gagarina, Savski kej, Beograd",
+      "opis": "Novi Beograd, Delta city (Lastavica) - Jurija Gagarina  2.0, 62m2 (terasa 5m2), 2/6, CG, lift, telefon, interfon, parking  U podudi stan u luksuznoj novogradnji, odlično pozicioniran na uglu zgrade",
+      "zgrada": "Lastavica",
+      "struktura": "2.0",
+      "cena": 309000.0,
+      "m2": 62.0,
+      "cena_m2": 4984,
+      "agencija": "MOJ KVADRATPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -581,7 +641,7 @@
       "cena": 350000.0,
       "m2": 59.0,
       "cena_m2": 5932,
-      "agencija": "NOVI KVADRATI",
+      "agencija": "NOVI KVADRATIPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -589,12 +649,12 @@
       "url": "https://www.nekretnine.rs/oglasi/1219843/",
       "naslov": "Četvorosobni stan Omladinskih brigada, Belvil, Beograd",
       "opis": "West 65 Tower je najmlađi član stambeno - poslovnog kompleksa West 65, popularnog ostrva na Novom Beogradu. Prelep, moderan, visok sa neograničenim panoramskim pogledom, vrhunskom arhitekturom na",
-      "zgrada": "West 65",
+      "zgrada": "Belvil",
       "struktura": "ostalo",
       "cena": 685000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "A-HEDONIA",
+      "agencija": "A-HEDONIAPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -607,7 +667,20 @@
       "cena": 280000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "ECONOMIC NET SYSTEM",
+      "agencija": "ECONOMIC NET SYSTEMPrikaži telefon",
+      "izvor": "nrs"
+    },
+    {
+      "id": "f21d13854330",
+      "url": "https://www.nekretnine.rs/oglasi/1168449/",
+      "naslov": "Dvosobni stan Đorđa Stanojevića, Belvil, Beograd",
+      "opis": "Novi Beograd, Blok 67 (Belville) - Đorđa Stanojevića  1.5, 41m2 (lođa 4m2), 4/13, CG, dva lifta, telefon, interfon, parking  U ponudi očuvan izvorno jednosoban stan koji je adaptiran u",
+      "zgrada": "Belvil",
+      "struktura": "1.0",
+      "cena": 208500.0,
+      "m2": 41.0,
+      "cena_m2": 5085,
+      "agencija": "MOJ KVADRATPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -620,7 +693,7 @@
       "cena": 320000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "user male",
+      "agencija": "Privatno lice",
       "izvor": "nrs"
     },
     {
@@ -633,7 +706,7 @@
       "cena": 226000.0,
       "m2": 62.0,
       "cena_m2": 3645,
-      "agencija": "KOSMOPOLIT NEKRETNINE",
+      "agencija": "KOSMOPOLIT NEKRETNINEPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -646,7 +719,7 @@
       "cena": 713400.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "EMINENT NEKRETNINE",
+      "agencija": "EMINENT NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -659,7 +732,7 @@
       "cena": 425000.0,
       "m2": 78.0,
       "cena_m2": 5449,
-      "agencija": "BELI GRAD NEKRETNINE",
+      "agencija": "BELI GRAD NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -672,7 +745,20 @@
       "cena": 490000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "Lambrin nekretnine",
+      "agencija": "Lambrin nekretninePrikaži telefon",
+      "izvor": "nrs"
+    },
+    {
+      "id": "461fd4ebdca8",
+      "url": "https://www.nekretnine.rs/oglasi/1228699/",
+      "naslov": "Dvosobni stan Đorđa Stanojevića, Belvil, Beograd",
+      "opis": "Na ekskluzivnoj lokaciji na Novom Beogradu, u blizini West-a 65, optimalno udaljenoj od svih neophodnih infrastrukturnih sadržaja i najvažnijih saobraćajnica, nalazi se arhitektonski impresivan,",
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "cena": 170000.0,
+      "m2": null,
+      "cena_m2": null,
+      "agencija": "A-HEDONIAPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -685,7 +771,7 @@
       "cena": 225000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "EMINENT NEKRETNINE",
+      "agencija": "EMINENT NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -698,7 +784,7 @@
       "cena": 249000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "EMINENT NEKRETNINE",
+      "agencija": "EMINENT NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -711,7 +797,7 @@
       "cena": 870000.0,
       "m2": 170.0,
       "cena_m2": 5118,
-      "agencija": "ART NEKRETNINE",
+      "agencija": "ART NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -724,7 +810,7 @@
       "cena": 395000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "MEGASTAN",
+      "agencija": "MEGASTANPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -737,7 +823,7 @@
       "cena": 289000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "ART NEKRETNINE",
+      "agencija": "ART NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -750,7 +836,7 @@
       "cena": 256750.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "PROPERTY BROKER",
+      "agencija": "PROPERTY BROKERPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -758,12 +844,38 @@
       "url": "https://www.nekretnine.rs/oglasi/1223283/",
       "naslov": "Dvosobni stan Omladinskih brigada, Belvil, Beograd",
       "opis": "Prodaje se potpuno nov, odmah useljiv, dvosoban stan u kompleksu Soul 64.\n\nProstor je modernog koncepta, sa puno svetlosti, prozori su od poda do plafona.\nOdlična nekretnina kako za život, tako i",
-      "zgrada": "Soul 64",
+      "zgrada": "Belvil",
       "struktura": "2.0",
       "cena": 263000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "ART NEKRETNINE",
+      "agencija": "ART NEKRETNINEPrikaži telefonPrikaži telefon",
+      "izvor": "nrs"
+    },
+    {
+      "id": "b1140b1ef30b",
+      "url": "https://www.nekretnine.rs/oglasi/1223401/",
+      "naslov": "Dvosobni stan Omladinskih brigada, Belvil, Beograd",
+      "opis": "Na prodaju je dvosoban stan na četvrtom spratu u četvorospratnicama u Bloku 70, u ulici Omladinskih brigada. \nStan se nalazi na izvanrednoj lokaciji, u neposrednoj blizini Savskog keja, okružen",
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "cena": 179000.0,
+      "m2": null,
+      "cena_m2": null,
+      "agencija": "ART NEKRETNINEPrikaži telefonPrikaži telefon",
+      "izvor": "nrs"
+    },
+    {
+      "id": "c0b3f448016a",
+      "url": "https://www.nekretnine.rs/oglasi/1135261/",
+      "naslov": "Trosobni stan Omladinskih brigada, Belvil, Beograd",
+      "opis": "Odlična ponuda stana na prestižnoj lokaciji na Novom Beogradu.Stan čine  dve  spavaće sobe, svaka sa sopstvenim kupatilom, što obezbeđuje maksimalnu privatnost i udobnost, kao i dodatni",
+      "zgrada": "Belvil",
+      "struktura": "3.0",
+      "cena": 550000.0,
+      "m2": null,
+      "cena_m2": null,
+      "agencija": "HILLPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -776,7 +888,20 @@
       "cena": 370000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "EMINENT NEKRETNINE",
+      "agencija": "EMINENT NEKRETNINEPrikaži telefonPrikaži telefon",
+      "izvor": "nrs"
+    },
+    {
+      "id": "363c5d6679e6",
+      "url": "https://www.nekretnine.rs/oglasi/1156915/",
+      "naslov": "Jednosoban stan Đorđa Stanojevića, Belvil, Beograd",
+      "opis": "Prodajemo atraktivan studio na jednoj od najperspektivnijih lokacija na Novom Beogradu. Blizina svih sadržaja potrebnih za udoban život. Uređene zelene porvšine. Kvalitetna gradnja, moderna",
+      "zgrada": "Belvil",
+      "struktura": "garsonjera",
+      "cena": 157900.0,
+      "m2": null,
+      "cena_m2": null,
+      "agencija": "BELI GRAD NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -789,20 +914,20 @@
       "cena": 280000.0,
       "m2": 53.0,
       "cena_m2": 5283,
-      "agencija": "agent male",
+      "agencija": "Office 2 Office 2Prikaži telefonBENEFIT NEKRETNINE",
       "izvor": "nrs"
     },
     {
-      "id": "f4e645cb3672",
-      "url": "https://www.nekretnine.rs/oglasi/1212129/",
-      "naslov": "Trosobni stan Omladinskih brigada, Belvil, Beograd",
-      "opis": "West 65 Tower je najmlađi član stambeno - poslovnog kompleksa West 65, popularnog ostrva na Novom Beogradu. Prelep, moderan, visok sa neograničenim panoramskim pogledom, vrhunskom arhitekturom na",
-      "zgrada": "West 65",
+      "id": "e38d9049c7b4",
+      "url": "https://www.nekretnine.rs/oglasi/1214351/",
+      "naslov": "Trosobni stan Jurija Gagarina, Savski kej, Beograd",
+      "opis": "Lux stan u prestižnom kompleksu Lastavica nudi jedinstvenu kombinaciju luksuza, sigurnosti i prirodne lepote. Smešten u blizini reke, ovaj stan pruža miran i opuštajući ambijent, idealan za sve",
+      "zgrada": "Lastavica",
       "struktura": "3.0",
-      "cena": 550000.0,
+      "cena": 379000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "A-HEDONIA",
+      "agencija": "EUROPOLIS REAL ESTATEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -815,7 +940,7 @@
       "cena": 399900.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "EUROPOLIS REAL ESTATE",
+      "agencija": "EUROPOLIS REAL ESTATEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -823,12 +948,12 @@
       "url": "https://www.nekretnine.rs/oglasi/1217309/",
       "naslov": "Stan Omladinskih brigada, Belvil, Beograd",
       "opis": "WEST 65 TOWER je najmlađi član stambeno - poslovnog kompleksa West 65, popularnog ostrva na Novom Beogradu. Prelep, čvrst, moderan, visok sa neograničenim panoramskim pogledom, vrhunskom",
-      "zgrada": "West 65",
+      "zgrada": "Belvil",
       "struktura": "ostalo",
       "cena": 990000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "A-HEDONIA",
+      "agencija": "A-HEDONIAPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -841,7 +966,7 @@
       "cena": 248500.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "AVANGARDA",
+      "agencija": "AVANGARDAPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -854,7 +979,7 @@
       "cena": 599000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "DIVIS NEKRETNINE",
+      "agencija": "DIVIS NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -867,7 +992,7 @@
       "cena": 336937.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "ART NEKRETNINE",
+      "agencija": "ART NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -880,7 +1005,7 @@
       "cena": 247500.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "Sandra Milenković PR Capitalrent nekretnine",
+      "agencija": "Sandra Milenković PR Capitalrent nekretninePrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -893,7 +1018,7 @@
       "cena": 228900.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "ART NEKRETNINE",
+      "agencija": "ART NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -906,7 +1031,7 @@
       "cena": 590000.0,
       "m2": 95.0,
       "cena_m2": 6211,
-      "agencija": "GIGANT NEKRETNINE",
+      "agencija": "GIGANT NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -919,7 +1044,7 @@
       "cena": 377999.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "ALFA SISTEM NEKRETNINE",
+      "agencija": "ALFA SISTEM NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -932,7 +1057,7 @@
       "cena": 399000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "GALAS NEKRETNINE",
+      "agencija": "GALAS NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -945,7 +1070,7 @@
       "cena": 355000.0,
       "m2": 61.0,
       "cena_m2": 5820,
-      "agencija": "ALFA SISTEM NEKRETNINE",
+      "agencija": "ALFA SISTEM NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -953,12 +1078,25 @@
       "url": "https://www.nekretnine.rs/oglasi/1054307/",
       "naslov": "Trosobni stan Omladinskih brigada, Belvil, Beograd",
       "opis": "WEST 65  trosoban stan 100m, terasa, luks, III sprat  Prodaje se luksuzan trosoban stan površine 100m, na 3. spratu u jednom od najkvalitetnijih i najtraženijih kompleksa u Beogradu  West 65.  Stan",
-      "zgrada": "West 65",
+      "zgrada": "Belvil",
       "struktura": "3.0",
       "cena": 590000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "LEVERAGE NEKRETNINE",
+      "agencija": "LEVERAGE NEKRETNINEPrikaži telefonPrikaži telefon",
+      "izvor": "nrs"
+    },
+    {
+      "id": "548bafffaf74",
+      "url": "https://www.nekretnine.rs/oglasi/1219771/",
+      "naslov": "Dvosobni stan Đorđa Stanojevića, Belvil, Beograd",
+      "opis": "Novi Beograd, u izgradnji, više stanova , ulica Đorđa Stanojevića, objekat u izgradnji, useljiv novembra 2027-e godine .\nU cenu stana nije uključen PDV. \n Moderno projektovan objekat smešten na",
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "cena": 161842.0,
+      "m2": null,
+      "cena_m2": null,
+      "agencija": "FORMA TIMPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -971,7 +1109,7 @@
       "cena": 120000.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "ATAŠE NEKRETNINE",
+      "agencija": "ATAŠE NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -979,12 +1117,38 @@
       "url": "https://www.nekretnine.rs/oglasi/1228771/",
       "naslov": "Dvosobni stan Đorđa Stanojevića, Belvil, Beograd",
       "opis": "Na ekskluzivnoj lokaciji na Novom Beogradu, u blizini West 65, optimalno udaljenoj od svih neophodnih infrastrukturnih sadržaja i najvažnijih saobraćajnica, u izgradnji je arhitektonski",
-      "zgrada": "West 65",
+      "zgrada": "Belvil",
       "struktura": "2.0",
       "cena": 247500.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "A-HEDONIA",
+      "agencija": "A-HEDONIAPrikaži telefonPrikaži telefon",
+      "izvor": "nrs"
+    },
+    {
+      "id": "c1f7d607a262",
+      "url": "https://www.nekretnine.rs/oglasi/1228767/",
+      "naslov": "Dvosobni stan Đorđa Stanojevića, Belvil, Beograd",
+      "opis": "Na ekskluzivnoj lokaciji na Novom Beogradu, u blizini West-a 65, optimalno udaljenoj od svih neophodnih infrastrukturnih sadržaja i najvažnijih saobraćajnica, u izgradnji je arhitektonski",
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "cena": 282000.0,
+      "m2": null,
+      "cena_m2": null,
+      "agencija": "A-HEDONIAPrikaži telefonPrikaži telefon",
+      "izvor": "nrs"
+    },
+    {
+      "id": "03cc7cee0adc",
+      "url": "https://www.nekretnine.rs/oglasi/1170569/",
+      "naslov": "Dvosobni stan Jurija Gagarina, Belvil, Beograd",
+      "opis": "Agencijski ID: 132455, IX/X, lift, terasa, uknjižen, garaza, parking, podrum, stambena zgrada. Na super lokaciji u Belvilu se prodaje dvosoban stan. Idealan za život kao i informacija. Više",
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "cena": 219000.0,
+      "m2": null,
+      "cena_m2": null,
+      "agencija": "BEOCITYNEKRETNINE. RSPrikaži telefonBEOCITY NEKRETNINE",
       "izvor": "nrs"
     },
     {
@@ -997,7 +1161,7 @@
       "cena": 179900.0,
       "m2": null,
       "cena_m2": null,
-      "agencija": "LEVERAGE NEKRETNINE",
+      "agencija": "LEVERAGE NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -1010,7 +1174,7 @@
       "cena": 289000.0,
       "m2": 55.0,
       "cena_m2": 5255,
-      "agencija": "AS NEKRETNINE PRO",
+      "agencija": "AS NEKRETNINE PROPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -1023,7 +1187,7 @@
       "cena": 790000.0,
       "m2": 140.0,
       "cena_m2": 5643,
-      "agencija": "KALEM NEKRETNINE",
+      "agencija": "KALEM NEKRETNINEPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -1036,7 +1200,7 @@
       "cena": 380000.0,
       "m2": 91.0,
       "cena_m2": 4176,
-      "agencija": "ALFA SISTEM NEKRETNINE",
+      "agencija": "ALFA SISTEM NEKRETNINEPrikaži telefonPrikaži telefon",
       "izvor": "nrs"
     },
     {
@@ -1049,7 +1213,20 @@
       "cena": 185500.0,
       "m2": 53.0,
       "cena_m2": 3500,
-      "agencija": "AS NEKRETNINE PRO",
+      "agencija": "AS NEKRETNINE PROPrikaži telefonPrikaži telefon",
+      "izvor": "nrs"
+    },
+    {
+      "id": "f1dca4409896",
+      "url": "https://www.nekretnine.rs/oglasi/1187841/",
+      "naslov": "Jednosoban stan Đorđa Stanojevića, Belvil, Beograd",
+      "opis": "Stan je potpuno nov i sređen lux. Na korak do TC. Prodaje se namešten i super sređen i namešten. Spreman za investiciju ili život.   Prostorije: predsoblje, dnevna soba, ugradna kuhinja,",
+      "zgrada": "Belvil",
+      "struktura": "1.0",
+      "cena": 183600.0,
+      "m2": null,
+      "cena_m2": null,
+      "agencija": "Lambrin nekretninePrikaži telefon",
       "izvor": "nrs"
     }
   ]
