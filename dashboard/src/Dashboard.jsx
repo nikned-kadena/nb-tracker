@@ -5,7 +5,7 @@ import {
 } from "recharts";
 
 // ── Konstante ───────────────────────────────────────────────────────────────
-const REPO_RAW = "https://raw.githubusercontent.com/niknedeljko/nb-tracker/main/data";
+const REPO_RAW = "https://raw.githubusercontent.com/nikned-kadena/nb-tracker/main/data";
 
 const BUILDINGS = [
   "West 65 Kula", "A Blok", "Airport Garden", "Bel Mondo",
