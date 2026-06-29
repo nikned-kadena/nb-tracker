@@ -1,0 +1,43 @@
+name: NB Daily Scrape — Nekretnine.rs
+
+on:
+  schedule:
+    # Svaki dan u 08:30 UTC (09:30 Beograd, 10:30 leti)
+    - cron: "30 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Scrape NRS Prodaja
+        run: python scraper/scrape_nrs.py --mode prodaja
+
+      - name: Scrape NRS Renta
+        run: python scraper/scrape_nrs.py --mode renta
+
+      - name: Commit & push data
+        run: |
+          git config user.name  "nb-bot"
+          git config user.email "nb-bot@nb-tracker"
+          git add data/
+          git diff --staged --quiet && echo "Nema promena." && exit 0
+          git commit -m "data: nrs scrape $(date -u +%Y-%m-%d)"
+          git pull --rebase -X ours origin main
+          git push origin main
