@@ -294,16 +294,22 @@ def scrape_oglas(pw_page, url: str) -> dict | None:
             agencija = alt
             break
 
-    # Izvor 2: a[href*='/agencije-za-nekretnine/'] — direktni text node
+    # Izvor 2: a[href*='/agencije-za-nekretnine/'] — direktni text node + URL
     # list(a.strings)[0] daje samo ime, bez "Prikaži telefon" child elemenata
-    if not agencija:
-        for a in soup.select("a[href*='/agencije-za-nekretnine/']"):
-            strings = [s.strip() for s in a.strings if s.strip()]
-            if strings:
-                name = strings[0]  # Uvek prvi string = ime agencije
-                if name.lower() not in IGNORE and len(name) > 3:
+    agencija_url = None
+    for a in soup.select("a[href*='/agencije-za-nekretnine/']"):
+        href = a.get("href", "")
+        # Samo linkovi sa numerickim ID-om su pravi agencijski profili
+        if not re.search(r"/agencije-za-nekretnine/\d+/?", href):
+            continue
+        strings = [s.strip() for s in a.strings if s.strip()]
+        if strings:
+            name = strings[0]
+            if name.lower() not in IGNORE and len(name) > 3:
+                if not agencija:
                     agencija = name[:80]
-                    break
+                agencija_url = href if href.startswith("http") else f"https://www.nekretnine.rs{href}"
+                break
 
     # Detekcija zgrade — iz meta_desc koji sadrzi pun opis
     combined = f"{naslov} {meta_desc} {page_title}"
@@ -317,17 +323,18 @@ def scrape_oglas(pw_page, url: str) -> dict | None:
     listing_id = normalize_id(url)
 
     return {
-        "id":        listing_id,
-        "url":       url,
-        "naslov":    naslov,
-        "opis":      meta_desc[:1200],
-        "zgrada":    zgrada,
-        "struktura": struktura,
-        "cena":      cena,
-        "m2":        m2,
-        "cena_m2":   cena_m2,
-        "agencija":  agencija,
-        "izvor":     "nrs",
+        "id":           listing_id,
+        "url":          url,
+        "naslov":       naslov,
+        "opis":         meta_desc[:1200],
+        "zgrada":       zgrada,
+        "struktura":    struktura,
+        "cena":         cena,
+        "m2":           m2,
+        "cena_m2":      cena_m2,
+        "agencija":     agencija,
+        "agencija_url": agencija_url,
+        "izvor":        "nrs",
     }
 
 

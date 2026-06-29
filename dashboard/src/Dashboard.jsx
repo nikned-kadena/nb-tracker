@@ -746,8 +746,16 @@ export default function Dashboard() {
                             flexShrink:0,
                           }}>{initials}</div>
                           <div>
-                            <div style={{fontWeight:isTop3?700:500,fontSize:13,
-                              color:T.text}}>{ag.name}</div>
+                            <div style={{display:"flex",alignItems:"center",gap:6}}>
+                              <span style={{fontWeight:isTop3?700:500,fontSize:13,
+                                color:T.text}}>{ag.name}</span>
+                              {ag.url && (
+                                <a href={ag.url} target="_blank" rel="noreferrer"
+                                  style={{color:T.blue,fontSize:11,textDecoration:"none"}}>
+                                  ↗
+                                </a>
+                              )}
+                            </div>
                             <div style={{fontSize:10,color:T.muted,marginTop:1}}>
                               {slug.slice(0,20)}
                             </div>
