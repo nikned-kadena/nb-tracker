@@ -2,9 +2,86 @@
   "date": "2026-06-29",
   "mode": "prodaja",
   "source": "halo",
-  "total_raw": 0,
-  "total_unique": 0,
-  "diff_new": [],
+  "total_raw": 5,
+  "total_unique": 5,
+  "diff_new": [
+    "4c00d2d4abba",
+    "1ce75add7ddb",
+    "459c5bb42020",
+    "64bfa350bdb9",
+    "f96e45061ed6"
+  ],
   "diff_removed": [],
-  "listings": []
+  "listings": [
+    {
+      "id": "1ce75add7ddb",
+      "slug": "5425646122548",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-lux-komforan-terasa-112m2-id-24876/5425646122548",
+      "naslov": "Soul 64, lux, komforan, terasa 112m2, ID 24876",
+      "opis": "Veoma luksuzan i kvalitetan stambeno-poslovni kompleks Soul 64, na izuzetnoj lokaciji - u blizini luksuznih naselja West 65, A blok, kao i poslovnog...",
+      "zgrada": "A Blok",
+      "struktura": "ostalo",
+      "cena": 2422.0,
+      "m2": 192.0,
+      "cena_m2": 13,
+      "agencija": null,
+      "izvor": "halo"
+    },
+    {
+      "id": "f96e45061ed6",
+      "slug": "5425646940053?kid=4",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novo-soul-64-2-0-svetao-garaza-placen-pdv/5425646940053?kid=4",
+      "naslov": "Novo,Soul 64, 2.0 ,Svetao,Garaža,Plaćen pdv",
+      "opis": "Soul 64 Novo, 2.0 na veoma traženoj lokaciji bez buke, u kvalitetnoj zgradi sa odličnom odličnom izolacijom ,odlično saobraćajno povezan, brz pristup...",
+      "zgrada": "Soul 64",
+      "struktura": "ostalo",
+      "cena": 4674.0,
+      "m2": 56.0,
+      "cena_m2": 83,
+      "agencija": null,
+      "izvor": "halo"
+    },
+    {
+      "id": "64bfa350bdb9",
+      "slug": "5425647337270?kid=4",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-54m2-garaza-uz-doplatu-odlican/5425647337270?kid=4",
+      "naslov": "Airport garden, 54m2, garaža uz doplatu, odličan",
+      "opis": "Airport Garden | Novi Beograd Vrednost nekretnine ne stvaraju zidovi. Stvaraju je ljudi koji žele da žive, rade i investiraju upravo na toj lokaciji....",
+      "zgrada": "Airport Garden",
+      "struktura": "ostalo",
+      "cena": 4611.0,
+      "m2": 54.0,
+      "cena_m2": 85,
+      "agencija": null,
+      "izvor": "halo"
+    },
+    {
+      "id": "4c00d2d4abba",
+      "slug": "5425647336194?kid=4",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/nbgd-lux-novo-snizena-cena/5425647336194?kid=4",
+      "naslov": "NBGD lux novo snizena cena",
+      "opis": "MAXIS GROUP d.o.o. Beograd Broj u registru posrednika: 1850 NOVI BEOGRAD – AIRPORT GARDEN – NOVA ZGRADA – SNIŽENA CENA U ponudi je izuzetno...",
+      "zgrada": "Airport Garden",
+      "struktura": "ostalo",
+      "cena": 4934.0,
+      "m2": 32.0,
+      "cena_m2": 154,
+      "agencija": null,
+      "izvor": "halo"
+    },
+    {
+      "id": "459c5bb42020",
+      "slug": "5425646912665?kid=4",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/izuzetan-4-0-stan-od-106m2-wellport/5425646912665?kid=4",
+      "naslov": "Izuzetan 4.0 stan od 106m2, Wellport",
+      "opis": "Izuzetan četvorosoban stan površine 106m2 u bloku 65, u kompleksu Wellport, u ulici Tadije Sondermajera na 2. spratu. Dnevni boravak, kuhinja sa...",
+      "zgrada": "Wellport",
+      "struktura": "ostalo",
+      "cena": 4623.0,
+      "m2": 106.0,
+      "cena_m2": 44,
+      "agencija": null,
+      "izvor": "halo"
+    }
+  ]
 }
