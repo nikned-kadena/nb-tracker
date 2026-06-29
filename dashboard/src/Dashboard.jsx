@@ -179,7 +179,7 @@ function StrukCard({ s, listings, mode }) {
   );
 }
 
-const TABS = ["Segmentacija","Trend","Listinzi"];
+const TABS = ["Segmentacija","Trend","Listinzi","Agencije"];
 
 // ── MAIN ─────────────────────────────────────────────────────────────────────
 export default function Dashboard() {
@@ -626,6 +626,126 @@ export default function Dashboard() {
               </div>
             </div>
           )}
+
+          {/* ═══ AGENCIJE ═══ */}
+          {tab==="Agencije" && (()=>{
+            // Svi listinzi sa agencijom (ne privatna lica)
+            const withAg = uniq.filter(l=>l.agencija && l.agencija.trim());
+
+            // Grupisanje po agenciji — sortiramo po broju oglasa
+            const agMap = {};
+            withAg.forEach(l=>{
+              const ag = l.agencija.trim();
+              if(!agMap[ag]) agMap[ag]={name:ag, count:0, cene:[], m2s:[], zgrade:new Set()};
+              agMap[ag].count++;
+              if(l.cena) agMap[ag].cene.push(l.cena);
+              if(l.m2)   agMap[ag].m2s.push(l.m2);
+              if(l.zgrada) agMap[ag].zgrade.add(l.zgrada);
+            });
+
+            const agList = Object.values(agMap)
+              .sort((a,b)=>b.count-a.count);
+
+            const totalAg = agList.length;
+            const totalPrivatno = uniq.filter(l=>!l.agencija||!l.agencija.trim()).length;
+
+            return (
+              <div>
+                {/* KPI */}
+                <div style={{display:"flex",flexWrap:"wrap",gap:12,marginBottom:24}}>
+                  <KpiCard label="Ukupno agencija" value={totalAg} sub="sa aktivnim oglasima" />
+                  <KpiCard label="Oglasi agencija" value={withAg.length} sub={`${uniq.length} ukupno`} />
+                  <KpiCard label="Privatna lica" value={totalPrivatno} sub="bez agencije" />
+                </div>
+
+                {/* Bar chart — top 15 agencija */}
+                {agList.length > 0 && (
+                  <div style={{background:T.surface,border:`1px solid ${T.border}`,
+                    borderRadius:10,padding:"16px 20px",marginBottom:20,
+                    boxShadow:"0 1px 3px rgba(0,0,0,.06)"}}>
+                    <div style={{fontSize:12,fontWeight:600,color:T.muted,
+                      textTransform:"uppercase",letterSpacing:".5px",marginBottom:12}}>
+                      Top agencije po broju oglasa
+                    </div>
+                    <ResponsiveContainer width="100%" height={Math.min(agList.length,15)*32+20}>
+                      <BarChart
+                        layout="vertical"
+                        data={agList.slice(0,15).map(a=>({name:a.name,count:a.count}))}
+                        margin={{left:160,right:40,top:4,bottom:4}}>
+                        <XAxis type="number" tick={{fill:T.muted,fontSize:11}} />
+                        <YAxis type="category" dataKey="name"
+                          tick={{fill:T.text,fontSize:11}} width={155} />
+                        <Tooltip
+                          contentStyle={{background:T.surface,border:`1px solid ${T.border}`,
+                            borderRadius:6,fontSize:12}}
+                          formatter={v=>[`${v} oglasa`,"Broj"]} />
+                        <Bar dataKey="count" fill={T.blue} radius={[0,4,4,0]} />
+                      </BarChart>
+                    </ResponsiveContainer>
+                  </div>
+                )}
+
+                {/* Tabela svih agencija */}
+                <div style={{background:T.surface,border:`1px solid ${T.border}`,
+                  borderRadius:10,overflow:"hidden",
+                  boxShadow:"0 1px 3px rgba(0,0,0,.06)"}}>
+                  <table style={{width:"100%",borderCollapse:"collapse",fontSize:13}}>
+                    <thead style={{background:"#f8fafc"}}>
+                      <tr>
+                        <th style={{...thS,textAlign:"left"}}>#</th>
+                        <th style={{...thS,textAlign:"left"}}>Agencija</th>
+                        <th style={{...thS,textAlign:"right"}}>Oglasa</th>
+                        <th style={{...thS,textAlign:"right"}}>
+                          {mode==="prodaja"?"Med. cena (€)":"Med. kirija (€)"}
+                        </th>
+                        <th style={{...thS,textAlign:"right"}}>Med. €/m²</th>
+                        <th style={{...thS,textAlign:"left"}}>Zgrade</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {agList.map((ag,i)=>{
+                        const medCena = median(ag.cene);
+                        const medM2   = median(ag.m2s);
+                        const zgrade  = [...ag.zgrade].slice(0,3).join(", ") +
+                          (ag.zgrade.size > 3 ? ` +${ag.zgrade.size-3}` : "");
+                        return (
+                          <tr key={ag.name}
+                            style={{background:i%2?"#f8fafc":"#fff",
+                              borderBottom:`1px solid ${T.border}`}}>
+                            <td style={{padding:"8px 10px",color:T.muted,fontSize:12}}>
+                              {i+1}
+                            </td>
+                            <td style={{padding:"8px 10px",fontWeight:500}}>
+                              {ag.name}
+                            </td>
+                            <td style={{padding:"8px 10px",textAlign:"right",fontWeight:700,
+                              color:T.blue}}>
+                              {ag.count}
+                            </td>
+                            <td style={{padding:"8px 10px",textAlign:"right"}}>
+                              {medCena ? `${fmt(medCena)} €` : "–"}
+                            </td>
+                            <td style={{padding:"8px 10px",textAlign:"right"}}>
+                              {medM2 ? `${fmt(medM2)}` : "–"}
+                            </td>
+                            <td style={{padding:"8px 10px",fontSize:11,color:T.muted}}>
+                              {zgrade||"–"}
+                            </td>
+                          </tr>
+                        );
+                      })}
+                      {!agList.length && (
+                        <tr><td colSpan={6}
+                          style={{padding:40,textAlign:"center",color:T.muted}}>
+                          Nema podataka o agencijama.
+                        </td></tr>
+                      )}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            );
+          })()}
         </>}
       </div>
 
