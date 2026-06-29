@@ -1,30 +1,45 @@
 @echo off
-REM NB Tracker — lokalni NRS scraper (pokrenuti na desktopu)
-REM Task Scheduler: podesiti na 07:30 svaki dan
+REM NB Tracker — lokalni scraper (Halo Oglasi + Nekretnine.rs)
+REM Task Scheduler: pokrenuti svaki dan u 07:30
 
 cd /d %~dp0..
 
-echo === NB Tracker NRS Scrape [%date% %time%] ===
+echo ============================================
+echo  NB Tracker Scrape [%date% %time%]
+echo ============================================
 echo.
 
-echo [1/2] Prodaja...
+echo [1/4] Halo Oglasi - Prodaja...
+python scraper\scrape_halo_playwright.py --mode prodaja
+if errorlevel 1 echo GRESKA: Halo prodaja
+
+echo.
+echo [2/4] Halo Oglasi - Renta...
+python scraper\scrape_halo_playwright.py --mode renta
+if errorlevel 1 echo GRESKA: Halo renta
+
+echo.
+echo [3/4] Nekretnine.rs - Prodaja...
 python scraper\scrape_nrs_playwright.py --mode prodaja
-if errorlevel 1 echo GRESKA u prodaji scrape-u
+if errorlevel 1 echo GRESKA: NRS prodaja
 
 echo.
-echo [2/2] Renta...
+echo [4/4] Nekretnine.rs - Renta...
 python scraper\scrape_nrs_playwright.py --mode renta
-if errorlevel 1 echo GRESKA u renta scrape-u
+if errorlevel 1 echo GRESKA: NRS renta
 
 echo.
-echo Commitujem podatke...
+echo Commitujem podatke na GitHub...
 git add data\
-git diff --staged --quiet && echo "Nema promena." && goto :end
+git diff --staged --quiet && echo "Nema promena u podacima." && goto :end
 
-git commit -m "data: nrs scrape %date%"
+git commit -m "data: scrape %date%"
 git pull --rebase -X ours origin main
 git push origin main
+echo Push uspesno.
 
 :end
 echo.
-echo === Gotovo ===
+echo ============================================
+echo  Gotovo [%time%]
+echo ============================================
