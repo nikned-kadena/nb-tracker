@@ -27,9 +27,13 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Scrape NRS Prodaja
+        env:
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
         run: python scraper/scrape_nrs.py --mode prodaja
 
       - name: Scrape NRS Renta
+        env:
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
         run: python scraper/scrape_nrs.py --mode renta
 
       - name: Commit & push data
