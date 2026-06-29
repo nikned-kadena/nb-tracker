@@ -9,6 +9,7 @@ Pokretanje:
   python scrape_nrs.py --mode renta
 """
 
+import os
 import sys
 import json
 import re
@@ -109,12 +110,18 @@ def parse_struktura(title: str, desc: str) -> str:
     return "ostalo"
 
 
+SCRAPER_API_KEY = os.environ.get("SCRAPER_API_KEY", "")
+SCRAPER_URL = "http://api.scraperapi.com"
+
+
 def fetch_page(url: str) -> BeautifulSoup | None:
+    """Koristi ScraperAPI da zaobidze Cloudflare/bot detekciju na NRS."""
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
+        params = {"api_key": SCRAPER_API_KEY, "url": url, "render": "false"}
+        resp = requests.get(SCRAPER_URL, params=params, timeout=60)
         if resp.status_code == 200:
-            return BeautifulSoup(resp.text, "html.parser")
-        print(f"  HTTP {resp.status_code}: {url}")
+            return BeautifulSoup(resp.content.decode("utf-8", errors="replace"), "html.parser")
+        print(f"  ScraperAPI HTTP {resp.status_code}: {url}")
         return None
     except Exception as e:
         print(f"  Greska: {e}")
