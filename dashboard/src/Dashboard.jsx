@@ -637,7 +637,10 @@ export default function Dashboard() {
                 .replace(/Agencija\s*S\.\.\./gi, "")
                 .replace(/\s{2,}/g, " ")
                 .trim();
-              const PRIVATNO = ["privatno lice","privatni oglasivac","fizicko lice","vlasnik"];
+              const PRIVATNO = [
+                "privatno lice","privatni oglasivac","fizicko lice","vlasnik",
+                "bel mondo",  // developer, ne agencija
+              ];
               if(PRIVATNO.some(p=>clean.toLowerCase().includes(p))) return null;
               if(clean.length < 3) return null;
               return clean;
@@ -678,34 +681,36 @@ export default function Dashboard() {
                     value={totalPrivatno} sub="bez agencije" />}
                 </div>
 
-                {/* Rang lista */}
-                <div style={{background:T.navyD,borderRadius:10,overflow:"hidden",
-                  marginBottom:0,boxShadow:"0 1px 3px rgba(0,0,0,.1)"}}>
-                  {/* Header */}
-                  <div style={{padding:"16px 20px",display:"flex",
+                {/* Rang lista — BnV stil */}
+                <div style={{background:T.surface,border:`1px solid ${T.border}`,
+                  borderRadius:10,overflow:"hidden",
+                  boxShadow:"0 1px 3px rgba(0,0,0,.06)"}}>
+                  {/* Header — navy */}
+                  <div style={{background:T.navyD,padding:"14px 20px",display:"flex",
                     alignItems:"center",justifyContent:"space-between"}}>
                     <div>
-                      <div style={{color:"#fff",fontWeight:700,fontSize:15}}>
+                      <div style={{color:"#fff",fontWeight:700,fontSize:14}}>
                         Rang lista agencija — {mode==="prodaja"?"Prodaja":"Renta"}
                       </div>
-                      <div style={{color:"#94a3b8",fontSize:12,marginTop:2}}>
+                      <div style={{color:"#94a3b8",fontSize:11,marginTop:2}}>
                         {totalAg} aktivnih agencija · sortirano po broju oglasa
                       </div>
                     </div>
                     <div style={{background:mode==="prodaja"?"#2563eb":"#16a34a",
-                      color:"#fff",padding:"4px 12px",borderRadius:6,
-                      fontSize:12,fontWeight:600}}>
+                      color:"#fff",padding:"3px 10px",borderRadius:6,
+                      fontSize:11,fontWeight:600}}>
                       {mode==="prodaja"?"🏠 PRODAJA":"🔑 RENTA"}
                     </div>
                   </div>
 
                   {/* Kolone header */}
                   <div style={{display:"grid",
-                    gridTemplateColumns:"60px 1fr 80px 200px",
-                    padding:"8px 20px",borderBottom:"1px solid #1e293b"}}>
+                    gridTemplateColumns:"70px 1fr 90px 220px",
+                    padding:"8px 20px",borderBottom:`1px solid ${T.border}`,
+                    background:"#f8fafc"}}>
                     {["RANG","AGENCIJA","OGLASI","TRŽIŠNI UDEO"].map(h=>(
                       <div key={h} style={{fontSize:10,fontWeight:600,
-                        color:"#64748b",letterSpacing:".6px"}}>{h}</div>
+                        color:T.muted,letterSpacing:".6px"}}>{h}</div>
                     ))}
                   </div>
 
@@ -716,46 +721,56 @@ export default function Dashboard() {
                     const barW = Math.round(ag.count/maxCount*100);
                     const initials = ag.name.split(" ").map(w=>w[0]).join("").slice(0,2).toUpperCase();
                     const isTop3 = i < 3;
+                    const slug = ag.name.replace(/\s+/g,"").toUpperCase();
                     return (
                       <div key={ag.name}
                         style={{display:"grid",
-                          gridTemplateColumns:"60px 1fr 80px 200px",
-                          padding:"12px 20px",alignItems:"center",
-                          borderBottom:"1px solid #0f172a",
-                          background: i%2===0?"transparent":"rgba(255,255,255,.02)",
+                          gridTemplateColumns:"70px 1fr 90px 220px",
+                          padding:"10px 20px",alignItems:"center",
+                          borderBottom:`1px solid ${T.border}`,
+                          background: i%2===0?"#fff":"#f8fafc",
                         }}>
                         {/* Rang */}
                         <div style={{fontSize:isTop3?18:13,
-                          color:isTop3?"#fff":"#64748b",fontWeight:600}}>
+                          color:isTop3?T.navy:T.muted,fontWeight:600}}>
                           {isTop3 ? RANG_ICONS[i] : i+1}
                         </div>
                         {/* Agencija */}
                         <div style={{display:"flex",alignItems:"center",gap:10}}>
                           <div style={{
-                            width:32,height:32,borderRadius:6,
-                            background: isTop3?"#2563eb":"#1e293b",
+                            width:34,height:34,borderRadius:8,
+                            background: isTop3?T.navyD:"#e2e8f0",
                             display:"flex",alignItems:"center",justifyContent:"center",
-                            fontSize:12,fontWeight:700,color:"#fff",flexShrink:0,
+                            fontSize:12,fontWeight:700,
+                            color: isTop3?"#fff":T.navy,
+                            flexShrink:0,
                           }}>{initials}</div>
-                          <span style={{color:"#e2e8f0",fontWeight:isTop3?600:400,
-                            fontSize:13}}>{ag.name}</span>
+                          <div>
+                            <div style={{fontWeight:isTop3?700:500,fontSize:13,
+                              color:T.text}}>{ag.name}</div>
+                            <div style={{fontSize:10,color:T.muted,marginTop:1}}>
+                              {slug.slice(0,20)}
+                            </div>
+                          </div>
                         </div>
                         {/* Oglasi */}
-                        <div style={{
-                          background: isTop3?"#2563eb":"#1e293b",
-                          color:"#fff",borderRadius:12,padding:"2px 10px",
-                          fontSize:13,fontWeight:700,textAlign:"center",
-                          display:"inline-block",width:"fit-content",
-                        }}>{ag.count}</div>
+                        <div>
+                          <span style={{
+                            background: isTop3?T.navyD:"#e2e8f0",
+                            color: isTop3?"#fff":T.navy,
+                            borderRadius:12,padding:"2px 10px",
+                            fontSize:13,fontWeight:700,
+                          }}>{ag.count}</span>
+                        </div>
                         {/* Progress bar */}
                         <div style={{display:"flex",alignItems:"center",gap:8}}>
-                          <div style={{flex:1,height:6,background:"#1e293b",borderRadius:3}}>
+                          <div style={{flex:1,height:5,background:"#e2e8f0",borderRadius:3}}>
                             <div style={{width:`${barW}%`,height:"100%",
-                              background: isTop3?"#2563eb":"#475569",
+                              background: isTop3?T.navyD:"#94a3b8",
                               borderRadius:3,transition:"width .3s"}}/>
                           </div>
-                          <span style={{fontSize:12,color:"#94a3b8",
-                            minWidth:36,textAlign:"right"}}>
+                          <span style={{fontSize:12,color:T.muted,
+                            minWidth:38,textAlign:"right"}}>
                             {pct.toFixed(1)}%
                           </span>
                         </div>
@@ -764,7 +779,7 @@ export default function Dashboard() {
                   })}
 
                   {!agList.length && (
-                    <div style={{padding:40,textAlign:"center",color:"#64748b"}}>
+                    <div style={{padding:40,textAlign:"center",color:T.muted}}>
                       Nema podataka o agencijama.
                     </div>
                   )}
