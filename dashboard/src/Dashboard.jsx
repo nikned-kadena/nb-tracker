@@ -652,10 +652,11 @@ export default function Dashboard() {
             const agMap = {};
             withAg.forEach(l=>{
               const ag = l.agencija.trim();
-              if(!agMap[ag]) agMap[ag]={name:ag,count:0,cene:[],zgrade:new Set()};
+              if(!agMap[ag]) agMap[ag]={name:ag,count:0,cene:[],zgrade:new Set(),url:null};
               agMap[ag].count++;
               if(l.cena) agMap[ag].cene.push(l.cena);
               if(l.zgrada) agMap[ag].zgrade.add(l.zgrada);
+              if(l.agencija_url && !agMap[ag].url) agMap[ag].url = l.agencija_url;
             });
             const agList = Object.values(agMap).sort((a,b)=>b.count-a.count);
             const totalAg = agList.length;
