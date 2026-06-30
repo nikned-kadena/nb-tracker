@@ -643,11 +643,19 @@ export default function Dashboard() {
                             textOverflow:"ellipsis",whiteSpace:"nowrap",fontSize:12}}>
                             {l.naslov}
                           </td>
-                          <td style={{padding:"9px 10px",color:T.muted,fontSize:12}}>
-                            {STRUKTURA_LABELS[l.struktura]||l.struktura}
+                          <td style={{padding:"9px 10px",fontSize:12}}>
+                            <span style={{
+                              background:(STRUKTURA_COLORS[l.struktura]||"#94a3b8")+"22",
+                              color:STRUKTURA_COLORS[l.struktura]||"#64748b",
+                              border:`1px solid ${STRUKTURA_COLORS[l.struktura]||"#94a3b8"}`,
+                              borderRadius:12,padding:"2px 9px",fontSize:11,fontWeight:600,
+                              whiteSpace:"nowrap",display:"inline-block",
+                            }}>
+                              {STRUKTURA_LABELS[l.struktura]||l.struktura}
+                            </span>
                           </td>
                           <td style={{padding:"9px 10px",textAlign:"right",fontSize:12}}>
-                            {l.m2?`${l.m2} m²`:"–"}
+                            {l.m2?`${l.m2.toFixed(2)} m²`:"–"}
                           </td>
                           <td style={{padding:"9px 10px",textAlign:"right",fontWeight:600}}>
                             {l.cena?`${fmt(l.cena)} €`:"–"}
