@@ -2,7 +2,7 @@
 NB Tracker — detekcija zgrada po ključnim rečima u naslovu/opisu oglasa.
 Zgrade: Wellport, West 65 Kula, West 65, Soul 64, Airport Garden, Zepterra,
         New Minel, A Blok, Bel Mondo, Belvil, Lastavica, Savada, The One,
-        Pupinova palata, Kennedy Residence
+        Pupinova palata, Kennedy Residence, Sakura Park, Elixir Garden
 """
 
 # Prioritet je bitan — duži/specifičniji match mora biti PRE kraćeg.
@@ -17,10 +17,13 @@ BUILDINGS = [
     ("Airport Garden", ["airport garden"]),
     ("Bel Mondo",      ["bel mondo", "belmondo"]),
     ("Belvil",         ["belville", "belvil"]),
+    ("Elixir Garden",  ["elixir garden", "eliksir garden"]),
     ("Kennedy Residence", ["kennedy residence", "kennedy residences"]),
-    ("Lastavica",      ["lastavica"]),
+    ("Lastavica",      ["lastavica", "lastavice"]),
+    ("Lux 51",         ["lux 51", "lux51"]),
     ("New Minel",      ["new minel", "newminel", "novi minel"]),
     ("Pupinova palata",["pupinova palata"]),
+    ("Sakura Park",    ["sakura park", "sakurapark"]),
     ("Savada",         ["savaada", "savada"]),
     ("Soul 64",        ["soul 64", "soul64", "soul"]),
     ("The One",        ["the one"]),

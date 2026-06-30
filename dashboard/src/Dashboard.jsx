@@ -9,15 +9,15 @@ const REPO_RAW = "https://raw.githubusercontent.com/nikned-kadena/nb-tracker/mai
 
 const BUILDINGS = [
   "West 65 Kula","A Blok","Airport Garden","Bel Mondo",
-  "Belvil","Kennedy Residence","Lastavica","New Minel","Pupinova palata",
-  "Savada","Soul 64","The One","Wellport","West 65","Zepterra",
+  "Belvil","Elixir Garden","Kennedy Residence","Lastavica","Lux 51","New Minel","Pupinova palata",
+  "Sakura Park","Savada","Soul 64","The One","Wellport","West 65","Zepterra",
 ];
 
 const BUILDING_COLORS = {
   "West 65 Kula":"#a78bfa","A Blok":"#ec4899","Airport Garden":"#10b981",
-  "Belvil":"#0ea5e9","Kennedy Residence":"#fb923c","Lastavica":"#a3e635",
+  "Belvil":"#0ea5e9","Elixir Garden":"#22d3ee","Kennedy Residence":"#fb923c","Lastavica":"#a3e635","Lux 51":"#f472b6",
   "Bel Mondo":"#f97316","New Minel":"#ef4444","Pupinova palata":"#14b8a6",
-  "Savada":"#84cc16","Soul 64":"#06b6d4","The One":"#e879f9",
+  "Sakura Park":"#fb7185","Savada":"#84cc16","Soul 64":"#06b6d4","The One":"#e879f9",
   "Wellport":"#3b82f6","West 65":"#8b5cf6","Zepterra":"#f59e0b",
 };
 
