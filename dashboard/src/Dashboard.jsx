@@ -197,6 +197,7 @@ export default function Dashboard() {
 
   const [sortCol, setSortCol] = useState("cena");
   const [sortDir, setSortDir] = useState("asc");
+  const [trendPeriod, setTrendPeriod] = useState("30d");
 
   // Fetch
   useEffect(()=>{
@@ -437,24 +438,75 @@ export default function Dashboard() {
           </>}
 
           {/* ═══ TREND ═══ */}
-          {tab==="Trend" && (
+          {tab==="Trend" && (()=>{
+            const PERIOD_DAYS = {"7d":7,"30d":30,"90d":90,"1g":365};
+            const periodKey = trendPeriod;
+            const cutoffDays = PERIOD_DAYS[periodKey];
+            const periodData = sorted_h.slice(-cutoffDays);
+
+            const lastP = periodData[periodData.length-1];
+            const prevP = periodData[periodData.length-2];
+            const change24h = (lastP?.avg_cena && prevP?.avg_cena)
+              ? ((lastP.avg_cena-prevP.avg_cena)/prevP.avg_cena*100).toFixed(2) : null;
+
+            return (
             <div>
-              {trendData.length<2 ? (
+              {periodData.length<2 ? (
                 <div style={{textAlign:"center",padding:60,color:T.muted}}>
                   Nema dovoljno istorijskih podataka.<br/>
                   Trend će biti vidljiv posle nekoliko dana.
                 </div>
               ) : <>
-                {/* Broj oglasa */}
+                {/* KPI row */}
+                <div style={{display:"flex",flexWrap:"wrap",gap:12,marginBottom:20}}>
+                  <KpiCard label="Period" value={periodKey.toUpperCase()}
+                    sub={`${periodData[0]?.date} → ${periodData[periodData.length-1]?.date}`} />
+                  <KpiCard label="Oglasa danas" value={lastP?.total_unique ?? "–"}
+                    sub={`bilo ${periodData[0]?.total_unique ?? "–"} na početku`} />
+                  <KpiCard label="Prosek €/m²" value={avgCM2?`${fmt(avgCM2)} €`:"–"}
+                    sub="trenutno" />
+                  {change24h!=null && (
+                    <KpiCard label="Promena 24h" value={`${change24h>0?"+":""}${change24h}%`}
+                      highlight={parseFloat(change24h)>=0?T.green:T.red}
+                      sub="cena vs prethodni dan" />
+                  )}
+                  {dod!=null && (
+                    <KpiCard label="DOD" value={`${dod>0?"+":""}${dod}%`}
+                      sub="globalni indeks"
+                      highlight={parseFloat(dod)>=0?T.green:T.red} />
+                  )}
+                  {ytd!=null && (
+                    <KpiCard label="YTD" value={`${ytd>0?"+":""}${ytd}%`}
+                      sub="globalni indeks"
+                      highlight={parseFloat(ytd)>=0?T.green:T.red} />
+                  )}
+                </div>
+
+                {/* Period selector + glavni chart */}
                 <div style={{background:T.surface,border:`1px solid ${T.border}`,
                   borderRadius:10,padding:"18px 20px",marginBottom:16,
                   boxShadow:"0 1px 3px rgba(0,0,0,.06)"}}>
-                  <div style={{fontSize:12,fontWeight:600,color:T.muted,
-                    textTransform:"uppercase",letterSpacing:".5px",marginBottom:12}}>
-                    Broj aktivnih oglasa
+                  <div style={{display:"flex",alignItems:"center",
+                    justifyContent:"space-between",marginBottom:12}}>
+                    <div style={{fontSize:12,fontWeight:600,color:T.muted,
+                      textTransform:"uppercase",letterSpacing:".5px"}}>
+                      Broj oglasa na tržištu
+                    </div>
+                    <div style={{display:"flex",gap:4}}>
+                      {["7d","30d","90d","1g"].map(p=>(
+                        <button key={p} onClick={()=>setTrendPeriod(p)}
+                          style={{padding:"3px 10px",borderRadius:6,fontSize:11,
+                            cursor:"pointer",fontWeight:periodKey===p?600:400,
+                            background:periodKey===p?T.navy:"transparent",
+                            color:periodKey===p?"#fff":T.muted,
+                            border:`1px solid ${periodKey===p?T.navy:T.border}`}}>
+                          {p}
+                        </button>
+                      ))}
+                    </div>
                   </div>
-                  <ResponsiveContainer width="100%" height={180}>
-                    <LineChart data={trendData}>
+                  <ResponsiveContainer width="100%" height={200}>
+                    <LineChart data={periodData}>
                       <XAxis dataKey="date" tick={{fill:T.muted,fontSize:10}}
                         tickFormatter={d=>d.slice(5)}/>
                       <YAxis tick={{fill:T.muted,fontSize:10}}/>
@@ -468,7 +520,7 @@ export default function Dashboard() {
                 </div>
 
                 {/* Prosečna cena */}
-                {trendData.some(d=>d.avg_cena) && (
+                {periodData.some(d=>d.avg_cena) && (
                   <div style={{background:T.surface,border:`1px solid ${T.border}`,
                     borderRadius:10,padding:"18px 20px",marginBottom:16,
                     boxShadow:"0 1px 3px rgba(0,0,0,.06)"}}>
@@ -477,7 +529,7 @@ export default function Dashboard() {
                       {mode==="prodaja"?"Prosečna cena (€)":"Prosečna kirija (€/mes)"}
                     </div>
                     <ResponsiveContainer width="100%" height={160}>
-                      <LineChart data={trendData}>
+                      <LineChart data={periodData}>
                         <XAxis dataKey="date" tick={{fill:T.muted,fontSize:10}}
                           tickFormatter={d=>d.slice(5)}/>
                         <YAxis tick={{fill:T.muted,fontSize:10}}
@@ -535,7 +587,8 @@ export default function Dashboard() {
                 </div>
               </>}
             </div>
-          )}
+            );
+          })()}
 
           {/* ═══ LISTINZI ═══ */}
           {tab==="Listinzi" && (
