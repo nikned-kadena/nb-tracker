@@ -483,7 +483,7 @@ export default function Dashboard() {
                   {/* Kolone header */}
                   <div style={{display:"grid",
                     gridTemplateColumns:"200px 1fr 90px 120px 60px",
-                    padding:"8px 20px",borderBottom:`1px solid ${T.border}`,
+                    padding:"5px 20px",borderBottom:`1px solid ${T.border}`,
                     background:"#f8fafc"}}>
                     {["ZGRADA","DISTRIBUCIJA","OGLASI",
                       mode==="prodaja"?"PROSEK €/M²":"PROSEK €/MES",""].map((h,i)=>(
@@ -499,7 +499,7 @@ export default function Dashboard() {
                       <div key={z.name}
                         style={{display:"grid",
                           gridTemplateColumns:"200px 1fr 90px 120px 60px",
-                          padding:"6px 20px",alignItems:"center",
+                          padding:"4px 20px",alignItems:"center",
                           borderBottom:`1px solid ${T.border}`,
                           background:i%2===0?"#fff":"#f8fafc",
                           transition:"background .1s",
@@ -511,14 +511,14 @@ export default function Dashboard() {
                         <div style={{display:"flex",alignItems:"center",gap:8}}>
                           <span style={{width:9,height:9,borderRadius:"50%",flexShrink:0,
                             background:z.color,display:"inline-block"}}/>
-                          <span style={{fontWeight:600,fontSize:13,color:T.text}}>
+                          <span style={{fontWeight:600,fontSize:12,color:T.text}}>
                             {z.name}
                           </span>
                         </div>
 
                         {/* Bar */}
                         <div style={{paddingRight:16}}>
-                          <div style={{height:6,background:"#e2e8f0",borderRadius:4}}>
+                          <div style={{height:4,background:"#e2e8f0",borderRadius:4}}>
                             <div style={{
                               width:`${barW}%`,height:"100%",
                               background:z.color,borderRadius:4,
@@ -533,13 +533,13 @@ export default function Dashboard() {
                             background:z.color+"22",
                             color:z.color,
                             border:`1px solid ${z.color}`,
-                            borderRadius:12,padding:"2px 10px",
-                            fontSize:13,fontWeight:700,
+                            borderRadius:12,padding:"1px 8px",
+                            fontSize:12,fontWeight:700,
                           }}>{z.count}</span>
                         </div>
 
                         {/* Prosek cena */}
-                        <div style={{fontSize:12,fontWeight:600,color:T.muted}}>
+                        <div style={{fontSize:11,fontWeight:600,color:T.muted}}>
                           {z.avgCM2 ? `${fmt(z.avgCM2)} €` : "—"}
                         </div>
 
