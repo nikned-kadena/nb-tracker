@@ -321,15 +321,32 @@ def main():
     all_urls = get_listing_urls(mode, args.max_pages)
     print(f"\nUkupno URL-ova: {len(all_urls)}")
 
-    print(f"\n[Korak 2] Scrape-ujem {len(all_urls)} oglasa...")
+    print(f"\n[Korak 2] Scrape-ujem {len(all_urls)} oglasa paralelno (8 threadova)...")
     all_raw = []
-    for i, url in enumerate(all_urls, 1):
-        if i % 20 == 0:
-            print(f"  {i}/{len(all_urls)} oglasa ({len(all_raw)} relevantnih)...", flush=True)
-        listing = scrape_oglas(url)
-        if listing:
-            all_raw.append(listing)
-        time.sleep(0.2)
+    completed = 0
+    lock = __import__("threading").Lock()
+
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+
+    def scrape_with_progress(url):
+        nonlocal completed
+        result = scrape_oglas(url)
+        with lock:
+            completed += 1
+            if completed % 20 == 0:
+                print(f"  {completed}/{len(all_urls)} oglasa ({len(all_raw)} relevantnih)...", flush=True)
+        return result
+
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        futures = {executor.submit(scrape_with_progress, url): url for url in all_urls}
+        for future in as_completed(futures):
+            try:
+                listing = future.result()
+                if listing:
+                    with lock:
+                        all_raw.append(listing)
+            except Exception as e:
+                pass
 
     unique = compute_dedup(all_raw)
     curr_ids = {l["id"] for l in unique}
