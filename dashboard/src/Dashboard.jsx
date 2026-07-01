@@ -339,7 +339,11 @@ export default function Dashboard() {
   // YTD — prvi zapis iz tekuće kalendarske godine, min 7 dana razlike
   const curYear = new Date().getFullYear().toString();
   const firstThisYear = sorted_h.find(h=>h.date?.startsWith(curYear));
-  const ytdRaw = (lastH?.avg_cena && firstThisYear?.avg_cena && firstThisYear.date !== lastH.date)
+  const daysDiff = (firstThisYear && lastH)
+    ? (new Date(lastH.date) - new Date(firstThisYear.date)) / (1000*60*60*24)
+    : 0;
+  const ytdRaw = (lastH?.avg_cena && firstThisYear?.avg_cena
+    && firstThisYear.date !== lastH.date && daysDiff >= 7)
     ? (lastH.avg_cena-firstThisYear.avg_cena)/firstThisYear.avg_cena*100 : null;
   const ytd = ytdRaw != null ? fmtPct(ytdRaw) : null;
 
