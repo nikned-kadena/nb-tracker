@@ -102,9 +102,13 @@ def scraper_get(url: str) -> requests.Response:
     return requests.get(SCRAPER_URL, params=params, timeout=60)
 
 
-def get_listing_urls(mode: str, max_pages: int = 100) -> list[str]:
-    """Korak 1: skupi sve URL-ove oglasa sa listing stranica."""
+def get_listing_urls(mode: str, max_pages: int = 100) -> tuple[list[str], dict]:
+    """Korak 1: skupi sve URL-ove oglasa sa listing stranica.
+    Vraća (lista URL-ova, ag_map: url->agencija_slug).
+    Agencija slug se čita sa kartice dok smo na listing stranici.
+    """
     all_urls = []
+    ag_map = {}
     seen = set()
     base = BASE_URLS[mode]
 
@@ -142,6 +146,15 @@ def get_listing_urls(mode: str, max_pages: int = 100) -> list[str]:
             all_urls.append(full_url)
             new_count += 1
 
+            # Agencija slug sa kartice — /oglasi/NAZIV href
+            for a in card.find_all("a", href=re.compile(r"/oglasi/", re.I)):
+                m = re.search(r"/oglasi/([^/?#]+)", a.get("href", ""), re.I)
+                if m:
+                    slug = m.group(1).strip()
+                    if 2 < len(slug) < 80:
+                        ag_map[full_url] = slug
+                        break
+
         print(f"    -> {new_count} novih URL-ova (ukupno: {len(all_urls)}, kartica na str: {len(cards)})")
 
         if len(cards) == 0:
@@ -150,7 +163,7 @@ def get_listing_urls(mode: str, max_pages: int = 100) -> list[str]:
 
         time.sleep(0.3)
 
-    return all_urls
+    return all_urls, ag_map
 
 
 def extract_classified_json(html: str) -> dict | None:
@@ -169,7 +182,7 @@ def extract_classified_json(html: str) -> dict | None:
         return None
 
 
-def scrape_oglas(url: str) -> dict | None:
+def scrape_oglas(url: str, ag_from_card: str | None = None) -> dict | None:
     """Korak 2: otvori oglas preko ScraperAPI, citaj iz CurrentClassified JSON-a."""
     try:
         resp = scraper_get(url)
@@ -226,21 +239,13 @@ def scrape_oglas(url: str) -> dict | None:
 
     cena_m2 = round(cena / m2) if cena and m2 and m2 > 5 else None
 
-    # Agencija — izvlačimo slug iz /oglasi/NAZIV href-a
-    # (isti pristup kao BnV Tracker v4.16 koji radi pouzdano)
+    # Agencija — slug izvučen sa listing kartice u Koraku 1
     soup = BeautifulSoup(html, "html.parser")
-    agencija = None
+    agencija = ag_from_card or None
     oglasivac_tip = other.get("oglasivac_nekretnine_s", "")
-    # Samo agencije, ne privatna lica
-    if oglasivac_tip and oglasivac_tip.lower() == "agencija":
-        for a in soup.find_all("a", href=re.compile(r"/oglasi/", re.I)):
-            href_ag = a.get("href", "")
-            m_ag = re.search(r"/oglasi/([^/?#]+)", href_ag, re.I)
-            if m_ag:
-                slug = m_ag.group(1).strip()
-                if 2 < len(slug) < 80:
-                    agencija = slug
-                    break
+    # Ako je privatno lice, poništi agenciju
+    if oglasivac_tip and oglasivac_tip.lower() not in ("agencija", ""):
+        agencija = None
 
     listing_id = normalize_id(url)
 
@@ -318,8 +323,8 @@ def main():
     print(f"\n=== NB Tracker - Halo Oglasi [dva koraka] [{mode}] ===")
 
     print(f"\n[Korak 1] Skupljam URL-ove oglasa...")
-    all_urls = get_listing_urls(mode, args.max_pages)
-    print(f"\nUkupno URL-ova: {len(all_urls)}")
+    all_urls, ag_map = get_listing_urls(mode, args.max_pages)
+    print(f"\nUkupno URL-ova: {len(all_urls)} | Agencija pronađeno: {len(ag_map)}")
 
     print(f"\n[Korak 2] Scrape-ujem {len(all_urls)} oglasa paralelno (8 threadova)...")
     all_raw = []
@@ -330,7 +335,7 @@ def main():
 
     def scrape_with_progress(url):
         nonlocal completed
-        result = scrape_oglas(url)
+        result = scrape_oglas(url, ag_map.get(url))
         with lock:
             completed += 1
             if completed % 20 == 0:
