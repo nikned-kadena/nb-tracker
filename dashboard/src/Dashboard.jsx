@@ -21,6 +21,75 @@ const BUILDING_COLORS = {
   "Wellport":"#3b82f6","West 65":"#8b5cf6","Zepterra":"#f59e0b",
 };
 
+// ── Halo Oglasi agencija mapping (slug → čitljivo ime) ──────────────────────
+const HALO_AG_MAP = {
+  "DomInvestnekretnine":"Dom Invest Nekretnine",
+  "city-hedonia-agencija-za-nekretnine":"Hedonia",
+  "eminent-nekretnine":"Eminent Nekretnine",
+  "art-nekretnine-d-o-o":"Art Nekretnine",
+  "SonataProperties":"Sonata Properties",
+  "apartman":"Apartman",
+  "magnat-petrovic-doo":"Magnat Petrovic",
+  "nekretninegavrilovic":"Nekretnine Gavrilovic",
+  "Kredium":"Kredium",
+  "kuca_i_stan":"Kuca i Stan",
+  "EUROPOLISNEKRETNINE":"Europolis Nekretnine",
+  "atase-nekretnine-d-o-o":"Atase Nekretnine",
+  "ARTOPOLIS369":"Artopolis 369",
+  "divis-nekretnine":"Divis Nekretnine",
+  "feniks-sistem-d-o-o":"Feniks Sistem",
+  "Vesnarb1":"8 Rooms",
+  "JDPropertiesandConsultingdoo":"JD Properties and Consulting",
+  "m-real-estate":"M Real Estate",
+  "KADENASothebys":"Kadena Sotheby's",
+  "Tectum":"Tectum Nekretnine",
+  "Benefit":"Benefit",
+  "domigor":"Domigor",
+  "galerija-nekretnine":"Galerija Nekretnine",
+  "Leverage":"Leverage Nekretnine",
+  "etagi3":"Etagi",
+  "ikat-nekretnine":"Ikat Nekretnine",
+  "VELEGRAD_ESTATE":"Velegrad Estate",
+  "MaxisGroup1":"Maxis Group",
+  "Premiumproperties":"Premium Properties",
+  "lunico":"Lunico",
+  "PROCASA":"Procasa Nekretnine",
+  "sigma-world-d-o-o":"Sigma World",
+  "teofil-nekretnine-d-o-o":"Teofil Nekretnine",
+  "BELIGRAD":"Beligrad",
+  "amainvestdoo":"Ama Invest",
+  "palasplus-doo-beograd":"Palasplus",
+  "OzNekretnine":"OZ Nekretnine",
+  "carpediemproperti":"Carpe Diem Property",
+  "century66rs":"Century 66 RS",
+  "Lenkanekretnine":"Lenka Nekretnine",
+  "Beostil_nekretnine":"Beostil Nekretnine",
+  "BorovicNekretnine":"Borovic Nekretnine",
+  "galasnekretnine":"Galas Nekretnine",
+  "vigilantia":"Vigilantia Immo",
+  "elegant-nekretnine":"Elegant Nekretnine",
+  "Kalemnekretnine":"Kalem Nekretnine",
+  "Gradnekretnine":"Grad Nekretnine",
+  "UrbanNekretnineDoo":"Urban Nekretnine",
+  "vidiknekretnine":"Vidik Nekretnine",
+  "PropertyBroker":"Property Broker",
+  "economic-net-system":"Economic Net System",
+  "PremiumRealEstate":"Premium Real Estate",
+  "Hillnekretnine":"Hill Nekretnine",
+  "zidart":"Zidart",
+  "svodbeograd":"Svod",
+  "vip-nekretnine":"Vip Nekretnine",
+  "raicevic-nekretnine-2":"Raicevic Nekretnine",
+  "angazman.partner":"Angazman Nekretnine",
+  "Exporealestate":"Expo Real Estate",
+  "r-e-a-l-consulting":"Real Consulting",
+  "agencija-gradac":"Agencija Gradac",
+  "agencija-nekretnine-obradovic-doo":"Nekretnine Obradovic",
+  "avangardanekretnine":"Avangarda Nekretnine",
+  "eurostan-slavija":"Eurostan Slavija",
+  "panorama-nekretnine":"Panorama Nekretnine",
+};
+
 const STRUKTURA_ORDER = ["garsonjera","1.0","1.5","2.0","2.5","3.0","3.5","4.0","4.5","5.0","ostalo"];
 const STRUKTURA_LABELS = {
   garsonjera:"Garsonjera/Studio","1.0":"Jednosoban","1.5":"Jednoiposoban",
@@ -851,9 +920,16 @@ export default function Dashboard() {
 
           {/* ═══ AGENCIJE ═══ */}
           {tab==="Agencije" && (()=>{
-            // Ocisti ime agencije — ukloni "Prikaži telefon" i slicne sufikse
-            const cleanAg = (ag) => {
+            const cleanAg = (ag, src) => {
               if(!ag) return null;
+              // Za Halo — lookup u mappingu, fallback na slug kakav je
+              if(src === "halo") {
+                const mapped = HALO_AG_MAP[ag];
+                if(mapped) return mapped;
+                // Slug nije u mappingu — vrati ga malo sređen
+                return ag.replace(/[-_]/g," ").replace(/\b\w/g,c=>c.toUpperCase()).trim();
+              }
+              // Za NRS — čišćenje "Prikaži telefon" i sličnih sufiksa
               const clean = ag
                 .replace(/Prika[zž]i\s*telefon/gi, "")
                 .replace(/Agencija\s*S\.\.\./gi, "")
@@ -861,7 +937,7 @@ export default function Dashboard() {
                 .trim();
               const PRIVATNO = [
                 "privatno lice","privatni oglasivac","fizicko lice","vlasnik",
-                "bel mondo",  // developer, ne agencija
+                "bel mondo",
               ];
               if(PRIVATNO.some(p=>clean.toLowerCase().includes(p))) return null;
               if(clean.length < 3) return null;
@@ -869,7 +945,13 @@ export default function Dashboard() {
             };
 
             const withAg = uniq
-              .map(l=>({...l, agencija: cleanAg(l.agencija)}))
+              .map(l=>({
+                ...l,
+                agencija: cleanAg(l.agencija, source),
+                agencija_url: source==="halo" && l.agencija
+                  ? `https://www.halooglasi.com/oglasi/${l.agencija}`
+                  : (l.agencija_url || null),
+              }))
               .filter(l=>l.agencija);
             const agMap = {};
             withAg.forEach(l=>{
