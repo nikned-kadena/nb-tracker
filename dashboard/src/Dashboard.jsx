@@ -122,9 +122,11 @@ const T = {
 const fmt  = n => n == null ? "–" : Math.round(n).toLocaleString("sr-RS");
 const fmtK = n => {
   if (n == null) return "–";
-  if (n >= 1_000_000) return `${(n/1_000_000).toFixed(1).replace(/\.0$/,"")}M`;
-  return `${Math.round(n/1000)}k`;
+  if (n >= 1_000_000) return `${(n/1_000_000).toLocaleString("sr-RS",{maximumFractionDigits:1})}M`;
+  return `${Math.round(n/1000).toLocaleString("sr-RS")}k`;
 };
+const fmtDec = (n, dec=2) => n == null ? "–" : n.toLocaleString("sr-RS", {minimumFractionDigits:dec, maximumFractionDigits:dec});
+const fmtPct = (n, dec=2) => n == null ? "–" : (n >= 0 ? "+" : "") + fmtDec(n, dec) + "%";
 
 function median(arr) {
   if (!arr.length) return null;
@@ -222,7 +224,7 @@ function StrukCard({ s, listings, mode }) {
       </div>
       {m2s.length>0 && (
         <div style={{fontSize:11,color:T.muted,marginBottom:8}}>
-          {Math.min(...m2s).toFixed(0)} – {Math.max(...m2s).toFixed(0)} m²
+          {Math.round(Math.min(...m2s)).toLocaleString("sr-RS")} – {Math.round(Math.max(...m2s)).toLocaleString("sr-RS")} m²
         </div>
       )}
       {cene.length>0 && <>
@@ -331,10 +333,15 @@ export default function Dashboard() {
   const lastH  = sorted_h[sorted_h.length-1];
   const prevH  = sorted_h[sorted_h.length-2];
   const dod = (lastH?.avg_cena && prevH?.avg_cena)
-    ? ((lastH.avg_cena-prevH.avg_cena)/prevH.avg_cena*100).toFixed(2) : null;
-  const firstH = sorted_h[0];
-  const ytd = (lastH?.avg_cena && firstH?.avg_cena && sorted_h.length>1)
-    ? ((lastH.avg_cena-firstH.avg_cena)/firstH.avg_cena*100).toFixed(2) : null;
+    ? fmtPct((lastH.avg_cena-prevH.avg_cena)/prevH.avg_cena*100) : null;
+  const dodRaw = (lastH?.avg_cena && prevH?.avg_cena)
+    ? (lastH.avg_cena-prevH.avg_cena)/prevH.avg_cena*100 : null;
+  // YTD — prvi zapis iz tekuće kalendarske godine, min 7 dana razlike
+  const curYear = new Date().getFullYear().toString();
+  const firstThisYear = sorted_h.find(h=>h.date?.startsWith(curYear));
+  const ytdRaw = (lastH?.avg_cena && firstThisYear?.avg_cena && firstThisYear.date !== lastH.date)
+    ? (lastH.avg_cena-firstThisYear.avg_cena)/firstThisYear.avg_cena*100 : null;
+  const ytd = ytdRaw != null ? fmtPct(ytdRaw) : null;
 
   const trendData = sorted_h.slice(-60);
 
@@ -542,14 +549,14 @@ export default function Dashboard() {
               <KpiCard label="Prosek €/m²" value={avgCM2?`${fmt(avgCM2)} €`:"–"}
                 sub="sve strukture" />
               {dod!=null && (
-                <KpiCard label="DOD" value={`${dod>0?"+":""}${dod}%`}
+                <KpiCard label="DOD" value={dod}
                   sub="globalni indeks"
-                  highlight={parseFloat(dod)>=0?T.green:T.red} />
+                  highlight={dodRaw>=0?T.green:T.red} />
               )}
               {ytd!=null && (
-                <KpiCard label="YTD" value={`${ytd>0?"+":""}${ytd}%`}
+                <KpiCard label="YTD" value={ytd}
                   sub="globalni indeks"
-                  highlight={parseFloat(ytd)>=0?T.green:T.red} />
+                  highlight={ytdRaw>=0?T.green:T.red} />
               )}
             </div>
 
@@ -753,8 +760,9 @@ export default function Dashboard() {
 
             const lastP = periodData[periodData.length-1];
             const prevP = periodData[periodData.length-2];
-            const change24h = (lastP?.avg_cena && prevP?.avg_cena)
-              ? ((lastP.avg_cena-prevP.avg_cena)/prevP.avg_cena*100).toFixed(2) : null;
+            const change24hRaw = (lastP?.avg_cena && prevP?.avg_cena)
+              ? (lastP.avg_cena-prevP.avg_cena)/prevP.avg_cena*100 : null;
+            const change24h = change24hRaw != null ? fmtPct(change24hRaw) : null;
 
             return (
             <div>
@@ -773,19 +781,19 @@ export default function Dashboard() {
                   <KpiCard label="Prosek €/m²" value={avgCM2?`${fmt(avgCM2)} €`:"–"}
                     sub="trenutno" />
                   {change24h!=null && (
-                    <KpiCard label="Promena 24h" value={`${change24h>0?"+":""}${change24h}%`}
-                      highlight={parseFloat(change24h)>=0?T.green:T.red}
+                    <KpiCard label="Promena 24h" value={change24h}
+                      highlight={change24hRaw>=0?T.green:T.red}
                       sub="cena vs prethodni dan" />
                   )}
                   {dod!=null && (
-                    <KpiCard label="DOD" value={`${dod>0?"+":""}${dod}%`}
+                    <KpiCard label="DOD" value={dod}
                       sub="globalni indeks"
-                      highlight={parseFloat(dod)>=0?T.green:T.red} />
+                      highlight={dodRaw>=0?T.green:T.red} />
                   )}
                   {ytd!=null && (
-                    <KpiCard label="YTD" value={`${ytd>0?"+":""}${ytd}%`}
+                    <KpiCard label="YTD" value={ytd}
                       sub="globalni indeks"
-                      highlight={parseFloat(ytd)>=0?T.green:T.red} />
+                      highlight={ytdRaw>=0?T.green:T.red} />
                   )}
                 </div>
 
@@ -840,7 +848,7 @@ export default function Dashboard() {
                         <XAxis dataKey="date" tick={{fill:T.muted,fontSize:10}}
                           tickFormatter={d=>d.slice(5)}/>
                         <YAxis tick={{fill:T.muted,fontSize:10}}
-                          tickFormatter={v=>`${(v/1000).toFixed(0)}K`}/>
+                          tickFormatter={v=>`${Math.round(v/1000).toLocaleString("sr-RS")}K`}/>
                         <Tooltip contentStyle={{background:T.surface,
                           border:`1px solid ${T.border}`,borderRadius:6,fontSize:12}}
                           formatter={v=>[`€ ${fmt(v)}`,"Prosek"]}/>
@@ -962,7 +970,7 @@ export default function Dashboard() {
                             </span>
                           </td>
                           <td style={{padding:"9px 10px",textAlign:"right",fontSize:12}}>
-                            {l.m2?`${l.m2.toFixed(2)} m²`:"–"}
+                            {l.m2?`${fmtDec(l.m2, 2)} m²`:"–"}
                           </td>
                           <td style={{padding:"9px 10px",textAlign:"right",fontWeight:600}}>
                             {l.cena?`${fmt(l.cena)} €`:"–"}
@@ -1161,7 +1169,7 @@ export default function Dashboard() {
                           </div>
                           <span style={{fontSize:12,color:T.muted,
                             minWidth:38,textAlign:"right"}}>
-                            {pct.toFixed(1)}%
+                            {fmtDec(pct, 1)}%
                           </span>
                         </div>
                       </div>
