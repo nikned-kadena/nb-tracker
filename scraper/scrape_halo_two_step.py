@@ -226,16 +226,21 @@ def scrape_oglas(url: str) -> dict | None:
 
     cena_m2 = round(cena / m2) if cena and m2 and m2 > 5 else None
 
-    # Agencija — AdvertiserId postoji, ali ime agencije obicno nije u ovom JSON-u
-    # Probaj iz HTML-a kao fallback
-    agencija = None
+    # Agencija — izvlačimo slug iz /oglasi/NAZIV href-a
+    # (isti pristup kao BnV Tracker v4.16 koji radi pouzdano)
     soup = BeautifulSoup(html, "html.parser")
-    agency_tag = soup.select_one(".panel-user-name, [class*='advertiser'] [class*='name'], .seller-name")
-    if agency_tag:
-        agencija = agency_tag.get_text(strip=True) or None
+    agencija = None
     oglasivac_tip = other.get("oglasivac_nekretnine_s", "")
-    if not agencija and oglasivac_tip and oglasivac_tip.lower() != "agencija":
-        agencija = None  # privatno lice, ostaje None
+    # Samo agencije, ne privatna lica
+    if oglasivac_tip and oglasivac_tip.lower() == "agencija":
+        for a in soup.find_all("a", href=re.compile(r"/oglasi/", re.I)):
+            href_ag = a.get("href", "")
+            m_ag = re.search(r"/oglasi/([^/?#]+)", href_ag, re.I)
+            if m_ag:
+                slug = m_ag.group(1).strip()
+                if 2 < len(slug) < 80:
+                    agencija = slug
+                    break
 
     listing_id = normalize_id(url)
 
