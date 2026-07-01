@@ -267,6 +267,7 @@ export default function Dashboard() {
   const [sortCol, setSortCol] = useState("cena");
   const [sortDir, setSortDir] = useState("asc");
   const [trendPeriod, setTrendPeriod] = useState("30d");
+  const [zgSort, setZgSort] = useState({col:"count", dir:"desc"});
 
   // Fetch
   useEffect(()=>{
@@ -508,8 +509,6 @@ export default function Dashboard() {
 
           {/* ═══ ZGRADE ═══ */}
           {tab==="Zgrade" && (()=>{
-            // Lokalni sort state — default: oglasi desc
-            const [zgSort, setZgSort] = React.useState({col:"count", dir:"desc"});
 
             const zgradaData = BUILDINGS
               .map(b => {
