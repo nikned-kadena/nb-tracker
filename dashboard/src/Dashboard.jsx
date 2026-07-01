@@ -499,7 +499,7 @@ export default function Dashboard() {
                       <div key={z.name}
                         style={{display:"grid",
                           gridTemplateColumns:"200px 1fr 90px 120px 60px",
-                          padding:"11px 20px",alignItems:"center",
+                          padding:"6px 20px",alignItems:"center",
                           borderBottom:`1px solid ${T.border}`,
                           background:i%2===0?"#fff":"#f8fafc",
                           transition:"background .1s",
@@ -518,7 +518,7 @@ export default function Dashboard() {
 
                         {/* Bar */}
                         <div style={{paddingRight:16}}>
-                          <div style={{height:8,background:"#e2e8f0",borderRadius:4}}>
+                          <div style={{height:6,background:"#e2e8f0",borderRadius:4}}>
                             <div style={{
                               width:`${barW}%`,height:"100%",
                               background:z.color,borderRadius:4,
