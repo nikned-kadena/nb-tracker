@@ -9,15 +9,15 @@ const REPO_RAW = "https://raw.githubusercontent.com/nikned-kadena/nb-tracker/mai
 
 const BUILDINGS = [
   "West 65 Kula","A Blok","Airport Garden","Bel Mondo",
-  "Belvil","Elixir Garden","Kennedy Residence","Lastavica","Lux 51","New Minel","Pupinova palata",
-  "Sakura Park","Savada","Soul 64","The One","Wellport","West 65","Zepterra",
+  "Belvil","Kennedy Residence","Lastavica","Lux 51","New Minel","Pupinova palata",
+  "Savada","Soul 64","The One","Wellport","West 65","Zepterra",
 ];
 
 const BUILDING_COLORS = {
   "West 65 Kula":"#a78bfa","A Blok":"#ec4899","Airport Garden":"#10b981",
-  "Belvil":"#0ea5e9","Elixir Garden":"#22d3ee","Kennedy Residence":"#fb923c","Lastavica":"#a3e635","Lux 51":"#f472b6",
+  "Belvil":"#0ea5e9","Kennedy Residence":"#fb923c","Lastavica":"#a3e635","Lux 51":"#f472b6",
   "Bel Mondo":"#f97316","New Minel":"#ef4444","Pupinova palata":"#14b8a6",
-  "Sakura Park":"#fb7185","Savada":"#84cc16","Soul 64":"#06b6d4","The One":"#e879f9",
+  "Savada":"#84cc16","Soul 64":"#06b6d4","The One":"#e879f9",
   "Wellport":"#3b82f6","West 65":"#8b5cf6","Zepterra":"#f59e0b",
 };
 
@@ -179,7 +179,7 @@ function StrukCard({ s, listings, mode }) {
   );
 }
 
-const TABS = ["Segmentacija","Trend","Listinzi","Agencije"];
+const TABS = ["Segmentacija","Zgrade","Trend","Listinzi","Agencije"];
 
 // ── MAIN ─────────────────────────────────────────────────────────────────────
 export default function Dashboard() {
@@ -437,7 +437,168 @@ export default function Dashboard() {
             </div>
           </>}
 
-          {/* ═══ TREND ═══ */}
+          {/* ═══ ZGRADE ═══ */}
+          {tab==="Zgrade" && (()=>{
+            // Broji listinge po zgradi, sortiraj od najvećeg
+            const zgradaData = BUILDINGS
+              .map(b => {
+                const items = uniq.filter(l => l.zgrada === b);
+                const cm2s  = items.map(l=>l.cena_m2).filter(Boolean);
+                const avgCM2b = cm2s.length
+                  ? Math.round(cm2s.reduce((a,v)=>a+v,0)/cm2s.length)
+                  : null;
+                return { name: b, count: items.length, avgCM2: avgCM2b, color: BUILDING_COLORS[b]||"#94a3b8" };
+              })
+              .filter(z => z.count > 0)
+              .sort((a,b) => b.count - a.count);
+
+            const maxCount = zgradaData[0]?.count || 1;
+
+            return (
+              <div>
+                <div style={{fontSize:13,color:T.muted,marginBottom:16}}>
+                  {zgradaData.length} zgrada sa oglasima · {uniq.length} unique listinga ukupno
+                </div>
+                <div style={{background:T.surface,border:`1px solid ${T.border}`,
+                  borderRadius:10,overflow:"hidden",
+                  boxShadow:"0 1px 3px rgba(0,0,0,.06)"}}>
+                  {/* Header */}
+                  <div style={{background:T.navyD,padding:"14px 20px",
+                    display:"flex",alignItems:"center",justifyContent:"space-between"}}>
+                    <div>
+                      <div style={{color:"#fff",fontWeight:700,fontSize:14}}>
+                        Listinzi po zgradi
+                      </div>
+                      <div style={{color:"#94a3b8",fontSize:11,marginTop:2}}>
+                        {mode==="prodaja"?"Prodaja":"Renta"} · sortirano po broju oglasa
+                      </div>
+                    </div>
+                    <div style={{background:mode==="prodaja"?"#2563eb":"#16a34a",
+                      color:"#fff",padding:"3px 10px",borderRadius:6,
+                      fontSize:11,fontWeight:600}}>
+                      {mode==="prodaja"?"🏠 PRODAJA":"🔑 RENTA"}
+                    </div>
+                  </div>
+
+                  {/* Kolone header */}
+                  <div style={{display:"grid",
+                    gridTemplateColumns:"200px 1fr 90px 120px 60px",
+                    padding:"8px 20px",borderBottom:`1px solid ${T.border}`,
+                    background:"#f8fafc"}}>
+                    {["ZGRADA","DISTRIBUCIJA","OGLASI",
+                      mode==="prodaja"?"PROSEK €/M²":"PROSEK €/MES",""].map((h,i)=>(
+                      <div key={i} style={{fontSize:10,fontWeight:600,
+                        color:T.muted,letterSpacing:".6px"}}>{h}</div>
+                    ))}
+                  </div>
+
+                  {/* Redovi */}
+                  {zgradaData.map((z,i)=>{
+                    const barW = Math.round(z.count/maxCount*100);
+                    return (
+                      <div key={z.name}
+                        style={{display:"grid",
+                          gridTemplateColumns:"200px 1fr 90px 120px 60px",
+                          padding:"11px 20px",alignItems:"center",
+                          borderBottom:`1px solid ${T.border}`,
+                          background:i%2===0?"#fff":"#f8fafc",
+                          transition:"background .1s",
+                        }}
+                        onMouseEnter={e=>e.currentTarget.style.background="#f0f7ff"}
+                        onMouseLeave={e=>e.currentTarget.style.background=i%2===0?"#fff":"#f8fafc"}
+                      >
+                        {/* Naziv zgrade sa color dot */}
+                        <div style={{display:"flex",alignItems:"center",gap:8}}>
+                          <span style={{width:9,height:9,borderRadius:"50%",flexShrink:0,
+                            background:z.color,display:"inline-block"}}/>
+                          <span style={{fontWeight:600,fontSize:13,color:T.text}}>
+                            {z.name}
+                          </span>
+                        </div>
+
+                        {/* Bar */}
+                        <div style={{paddingRight:16}}>
+                          <div style={{height:8,background:"#e2e8f0",borderRadius:4}}>
+                            <div style={{
+                              width:`${barW}%`,height:"100%",
+                              background:z.color,borderRadius:4,
+                              transition:"width .4s ease",
+                            }}/>
+                          </div>
+                        </div>
+
+                        {/* Broj */}
+                        <div>
+                          <span style={{
+                            background:z.color+"22",
+                            color:z.color,
+                            border:`1px solid ${z.color}`,
+                            borderRadius:12,padding:"2px 10px",
+                            fontSize:13,fontWeight:700,
+                          }}>{z.count}</span>
+                        </div>
+
+                        {/* Prosek cena */}
+                        <div style={{fontSize:12,fontWeight:600,color:T.muted}}>
+                          {z.avgCM2 ? `${fmt(z.avgCM2)} €` : "—"}
+                        </div>
+
+                        {/* Link → Listinzi filtrirani */}
+                        <div>
+                          <button
+                            onClick={()=>{
+                              setSelBuildings([z.name]);
+                              setSelStruktura([]);
+                              setNoviFilter(false);
+                              setTab("Listinzi");
+                            }}
+                            style={{
+                              background:"transparent",
+                              border:`1px solid ${T.border}`,
+                              borderRadius:6,padding:"4px 10px",
+                              fontSize:11,cursor:"pointer",
+                              color:T.blue,fontWeight:600,
+                              transition:"all .15s",
+                            }}
+                            onMouseEnter={e=>{
+                              e.currentTarget.style.background=T.blue;
+                              e.currentTarget.style.color="#fff";
+                              e.currentTarget.style.borderColor=T.blue;
+                            }}
+                            onMouseLeave={e=>{
+                              e.currentTarget.style.background="transparent";
+                              e.currentTarget.style.color=T.blue;
+                              e.currentTarget.style.borderColor=T.border;
+                            }}
+                          >
+                            Listinzi ↗
+                          </button>
+                        </div>
+                      </div>
+                    );
+                  })}
+
+                  {!zgradaData.length && (
+                    <div style={{padding:40,textAlign:"center",color:T.muted}}>
+                      Nema podataka za izabrane filtere.
+                    </div>
+                  )}
+
+                  {/* Footer summary */}
+                  <div style={{padding:"12px 20px",background:"#f8fafc",
+                    borderTop:`1px solid ${T.border}`,
+                    display:"flex",justifyContent:"space-between",
+                    fontSize:12,color:T.muted}}>
+                    <span>{zgradaData.length} zgrada · {uniq.length} unique listinga</span>
+                    <span>{zgradaData.filter(z=>z.count===0).length === 0
+                      ? "Sve zgrade imaju oglase"
+                      : `${BUILDINGS.length - zgradaData.length} zgrada bez oglasa`}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            );
+          })()}
           {tab==="Trend" && (()=>{
             const PERIOD_DAYS = {"7d":7,"30d":30,"90d":90,"1g":365};
             const periodKey = trendPeriod;
