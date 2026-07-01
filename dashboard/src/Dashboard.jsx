@@ -508,7 +508,9 @@ export default function Dashboard() {
 
           {/* ═══ ZGRADE ═══ */}
           {tab==="Zgrade" && (()=>{
-            // Broji listinge po zgradi, sortiraj od najvećeg
+            // Lokalni sort state — default: oglasi desc
+            const [zgSort, setZgSort] = React.useState({col:"count", dir:"desc"});
+
             const zgradaData = BUILDINGS
               .map(b => {
                 const items = uniq.filter(l => l.zgrada === b);
@@ -519,9 +521,30 @@ export default function Dashboard() {
                 return { name: b, count: items.length, avgCM2: avgCM2b, color: BUILDING_COLORS[b]||"#94a3b8" };
               })
               .filter(z => z.count > 0)
-              .sort((a,b) => b.count - a.count);
+              .sort((a,b) => {
+                const aV = zgSort.col==="name" ? a.name : zgSort.col==="avgCM2" ? (a.avgCM2||0) : a.count;
+                const bV = zgSort.col==="name" ? b.name : zgSort.col==="avgCM2" ? (b.avgCM2||0) : b.count;
+                if(zgSort.col==="name") return zgSort.dir==="asc" ? aV.localeCompare(bV) : bV.localeCompare(aV);
+                return zgSort.dir==="asc" ? aV-bV : bV-aV;
+              });
 
-            const maxCount = zgradaData[0]?.count || 1;
+            const maxCount = Math.max(...zgradaData.map(z=>z.count), 1);
+
+            const SortHeader = ({col, label, align="left"}) => {
+              const active = zgSort.col===col;
+              return (
+                <div onClick={()=>setZgSort(s=>({col, dir: s.col===col&&s.dir==="desc"?"asc":"desc"}))}
+                  style={{fontSize:10,fontWeight:600,color:active?T.navy:T.muted,
+                    letterSpacing:".6px",cursor:"pointer",userSelect:"none",
+                    textAlign:align,display:"flex",alignItems:"center",
+                    gap:3,justifyContent:align==="right"?"flex-end":"flex-start"}}>
+                  {label}
+                  <span style={{fontSize:9,opacity:active?1:0.3}}>
+                    {active?(zgSort.dir==="desc"?"↓":"↑"):"↕"}
+                  </span>
+                </div>
+              );
+            };
 
             return (
               <div>
@@ -539,7 +562,7 @@ export default function Dashboard() {
                         Listinzi po zgradi
                       </div>
                       <div style={{color:"#94a3b8",fontSize:11,marginTop:2}}>
-                        {mode==="prodaja"?"Prodaja":"Renta"} · sortirano po broju oglasa
+                        {mode==="prodaja"?"Prodaja":"Renta"} · klikni kolonu za sortiranje
                       </div>
                     </div>
                     <div style={{background:mode==="prodaja"?"#2563eb":"#16a34a",
@@ -552,13 +575,13 @@ export default function Dashboard() {
                   {/* Kolone header */}
                   <div style={{display:"grid",
                     gridTemplateColumns:"200px 1fr 90px 120px 60px",
-                    padding:"5px 20px",borderBottom:`1px solid ${T.border}`,
+                    padding:"6px 20px",borderBottom:`1px solid ${T.border}`,
                     background:"#f8fafc"}}>
-                    {["ZGRADA","DISTRIBUCIJA","OGLASI",
-                      mode==="prodaja"?"PROSEK €/M²":"PROSEK €/MES",""].map((h,i)=>(
-                      <div key={i} style={{fontSize:10,fontWeight:600,
-                        color:T.muted,letterSpacing:".6px"}}>{h}</div>
-                    ))}
+                    <SortHeader col="name" label="ZGRADA" />
+                    <div style={{fontSize:10,fontWeight:600,color:T.muted,letterSpacing:".6px"}}>DISTRIBUCIJA</div>
+                    <SortHeader col="count" label="OGLASI" align="left" />
+                    <SortHeader col="avgCM2" label={mode==="prodaja"?"PROSEK €/M²":"PROSEK €/MES"} align="left" />
+                    <div/>
                   </div>
 
                   {/* Redovi */}
@@ -659,9 +682,9 @@ export default function Dashboard() {
                     display:"flex",justifyContent:"space-between",
                     fontSize:12,color:T.muted}}>
                     <span>{zgradaData.length} zgrada · {uniq.length} unique listinga</span>
-                    <span>{zgradaData.filter(z=>z.count===0).length === 0
-                      ? "Sve zgrade imaju oglase"
-                      : `${BUILDINGS.length - zgradaData.length} zgrada bez oglasa`}
+                    <span>{BUILDINGS.length - zgradaData.length > 0
+                      ? `${BUILDINGS.length - zgradaData.length} zgrada bez oglasa`
+                      : "Sve zgrade imaju oglase"}
                     </span>
                   </div>
                 </div>
