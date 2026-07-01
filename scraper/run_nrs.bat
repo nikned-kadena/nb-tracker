@@ -1,21 +1,21 @@
 @echo off
-REM NB Tracker — lokalni scraper (Halo Oglasi + Nekretnine.rs)
-REM Task Scheduler: pokrenuti svaki dan u 07:30
-
-cd /d %~dp0..
+cd /d C:\nb-tracker
 
 echo ============================================
 echo  NB Tracker Scrape [%date% %time%]
 echo ============================================
 echo.
 
+REM SCRAPER_API_KEY mora biti postavljen trajno preko setx
+REM (jednom uradi: setx SCRAPER_API_KEY "tvoj_kljuc")
+
 echo [1/4] Halo Oglasi - Prodaja...
-python scraper\scrape_halo_playwright.py --mode prodaja
+python scraper\scrape_halo_two_step.py --mode prodaja
 if errorlevel 1 echo GRESKA: Halo prodaja
 
 echo.
 echo [2/4] Halo Oglasi - Renta...
-python scraper\scrape_halo_playwright.py --mode renta
+python scraper\scrape_halo_two_step.py --mode renta
 if errorlevel 1 echo GRESKA: Halo renta
 
 echo.
@@ -33,7 +33,7 @@ echo Commitujem podatke na GitHub...
 git add data\
 git diff --staged --quiet && echo "Nema promena u podacima." && goto :end
 
-git commit -m "data: scrape %date%"
+git commit -m "data: automatski scrape %date%"
 git pull --rebase -X ours origin main
 git push origin main
 echo Push uspesno.
