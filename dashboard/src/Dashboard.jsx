@@ -268,6 +268,16 @@ export default function Dashboard() {
   const [sortDir, setSortDir] = useState("asc");
   const [trendPeriod, setTrendPeriod] = useState("30d");
   const [zgSort, setZgSort] = useState({col:"count", dir:"desc"});
+  const [zgExpanded, setZgExpanded] = useState(false);
+  const [strExpanded, setStrExpanded] = useState(false);
+
+  // Mobilni breakpoint
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+  useEffect(()=>{
+    const handler = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener("resize", handler);
+    return () => window.removeEventListener("resize", handler);
+  }, []);
 
   // Fetch
   useEffect(()=>{
@@ -354,42 +364,45 @@ export default function Dashboard() {
       color:T.text,fontSize:14}}>
 
       {/* NAVBAR */}
-      <div style={{background:T.navyD,padding:"0 24px",height:48,
-        display:"flex",alignItems:"center",justifyContent:"space-between",
+      <div style={{background:T.navyD,padding:isMobile?"8px 16px":"0 24px",
+        minHeight:48,display:"flex",alignItems:"center",
+        justifyContent:"space-between",flexWrap:"wrap",gap:8,
         position:"sticky",top:0,zIndex:100}}>
         <div style={{display:"flex",alignItems:"center",gap:10}}>
           <div style={{background:"#3b82f6",color:"#fff",fontWeight:700,
             width:30,height:30,borderRadius:6,display:"flex",
             alignItems:"center",justifyContent:"center",fontSize:12}}>NB</div>
-          <span style={{color:"#fff",fontWeight:600,fontSize:15}}>Market Intelligence</span>
+          <span style={{color:"#fff",fontWeight:600,fontSize:isMobile?13:15}}>Market Intelligence</span>
         </div>
-        <div style={{display:"flex",alignItems:"center",gap:8}}>
+        <div style={{display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
           {["halo","nrs"].map(s=>(
             <button key={s} onClick={()=>setSource(s)} style={{
-              padding:"4px 12px",borderRadius:6,fontSize:12,cursor:"pointer",
+              padding:isMobile?"3px 8px":"4px 12px",borderRadius:6,
+              fontSize:isMobile?11:12,cursor:"pointer",
               background: source===s?"#fff":"transparent",
               color: source===s?T.navy:"#94a3b8",
               border:`1px solid ${source===s?"#fff":"#475569"}`,
               fontWeight:source===s?600:400,
             }}>{s==="halo"?"Halo Oglasi":"Nekretnine.rs"}</button>
           ))}
-          <div style={{width:1,height:20,background:"#334155",margin:"0 4px"}}/>
+          <div style={{width:1,height:20,background:"#334155",margin:"0 2px"}}/>
           {["prodaja","renta"].map(m=>(
             <button key={m} onClick={()=>setMode(m)} style={{
-              padding:"4px 12px",borderRadius:6,fontSize:12,cursor:"pointer",
+              padding:isMobile?"3px 8px":"4px 12px",borderRadius:6,
+              fontSize:isMobile?11:12,cursor:"pointer",
               background: mode===m?"#fff":"transparent",
               color: mode===m?T.navy:"#94a3b8",
               border:`1px solid ${mode===m?"#fff":"#475569"}`,
               fontWeight:mode===m?600:400,
             }}>{m.charAt(0).toUpperCase()+m.slice(1)}</button>
           ))}
-          <div style={{fontSize:11,color:"#64748b",marginLeft:8}}>{nowStr}</div>
+          {!isMobile && <div style={{fontSize:11,color:"#64748b",marginLeft:8}}>{nowStr}</div>}
         </div>
       </div>
 
       {/* SUB-HEADER */}
       <div style={{background:T.surface,borderBottom:`1px solid ${T.border}`,
-        padding:"10px 24px",display:"flex",alignItems:"center",
+        padding:isMobile?"8px 16px":"10px 24px",display:"flex",alignItems:"center",
         justifyContent:"space-between"}}>
         <div style={{display:"flex",alignItems:"center",gap:10}}>
           <span style={{background:T.navy,color:"#fff",padding:"3px 10px",
@@ -405,55 +418,93 @@ export default function Dashboard() {
         </div>
       </div>
 
-      <div style={{padding:"20px 24px"}}>
+      <div style={{padding:isMobile?"12px 16px":"20px 24px"}}>
 
-        {/* FILTERI — Zgrade */}
-        <div style={{marginBottom:12,display:"flex",flexWrap:"wrap",
-          alignItems:"center",gap:8}}>
-          <span style={{fontSize:12,fontWeight:600,color:T.muted,
-            textTransform:"uppercase",letterSpacing:".5px",marginRight:4}}>Zgrada</span>
-          <div style={{background:T.navy,color:"#fff",padding:"5px 14px",
-            borderRadius:20,fontSize:13,fontWeight:600,cursor:"pointer",
-            display:"flex",alignItems:"center",gap:6,
-            opacity:selBuildings.length?1:0.7}}
-            onClick={()=>setSelBuildings([])}>
-            {selBuildings.length?selBuildings.join(", "):"Zgrade ▾"}
+        {/* FILTERI — Zgrade (kolapsibilni na mobilnom) */}
+        <div style={{marginBottom:8}}>
+          <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:6}}>
+            <span style={{fontSize:12,fontWeight:600,color:T.muted,
+              textTransform:"uppercase",letterSpacing:".5px"}}>Zgrada</span>
+            <button onClick={()=>setZgExpanded(e=>!e)} style={{
+              background:T.navy,color:"#fff",padding:"4px 12px",
+              borderRadius:20,fontSize:12,fontWeight:600,cursor:"pointer",
+              border:"none",display:"flex",alignItems:"center",gap:5,
+            }}>
+              {selBuildings.length ? selBuildings.slice(0,2).join(", ")+(selBuildings.length>2?` +${selBuildings.length-2}`:"") : "Zgrade"}
+              <span style={{fontSize:10}}>{zgExpanded?"▲":"▼"}</span>
+            </button>
+            {selBuildings.length>0 && (
+              <button onClick={()=>setSelBuildings([])} style={{
+                background:"transparent",border:`1px solid ${T.border}`,
+                borderRadius:12,padding:"3px 8px",fontSize:11,
+                color:T.muted,cursor:"pointer",
+              }}>✕ Reset</button>
+            )}
+            {!isMobile && <span style={{fontSize:12,color:T.muted}}>{BUILDINGS.length} zgrada</span>}
           </div>
-          <span style={{fontSize:12,color:T.muted}}>{BUILDINGS.length} zgrada</span>
+
+          {(zgExpanded || !isMobile) && (
+            <div style={{display:"flex",flexWrap:"wrap",gap:6,marginBottom:8}}>
+              <FilterPill label="Sve" active={!selBuildings.length} color={T.navy}
+                onClick={()=>{setSelBuildings([]);setZgExpanded(false);}} />
+              {BUILDINGS.map(b=>(
+                <FilterPill key={b} label={b}
+                  active={selBuildings.includes(b)}
+                  color={BUILDING_COLORS[b]}
+                  onClick={()=>setSelBuildings(prev=>
+                    prev.includes(b)?prev.filter(x=>x!==b):[...prev,b])} />
+              ))}
+            </div>
+          )}
         </div>
 
-        <div style={{display:"flex",flexWrap:"wrap",gap:6,marginBottom:16}}>
-          <FilterPill label="Sve" active={!selBuildings.length} color={T.navy}
-            onClick={()=>{setSelBuildings([]);}} />
-          {BUILDINGS.map(b=>(
-            <FilterPill key={b} label={b}
-              active={selBuildings.includes(b)}
-              color={BUILDING_COLORS[b]}
-              onClick={()=>setSelBuildings(prev=>
-                prev.includes(b)?prev.filter(x=>x!==b):[...prev,b])} />
-          ))}
-        </div>
+        {/* FILTERI — Struktura (kolapsibilni na mobilnom) */}
+        <div style={{marginBottom:16}}>
+          <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:6}}>
+            <span style={{fontSize:12,fontWeight:600,color:T.muted,
+              textTransform:"uppercase",letterSpacing:".5px"}}>Tip</span>
+            <button onClick={()=>setStrExpanded(e=>!e)} style={{
+              background:selStruktura.length?T.navy:"transparent",
+              color:selStruktura.length?"#fff":T.muted,
+              padding:"4px 12px",borderRadius:20,fontSize:12,fontWeight:600,
+              cursor:"pointer",border:`1px solid ${selStruktura.length?T.navy:T.border}`,
+              display:"flex",alignItems:"center",gap:5,
+            }}>
+              {selStruktura.length ? selStruktura.map(s=>STRUKTURA_LABELS[s]).join(", ") : "Sve strukture"}
+              <span style={{fontSize:10}}>{strExpanded?"▲":"▼"}</span>
+            </button>
+            {selStruktura.length>0 && (
+              <button onClick={()=>setSelStruktura([])} style={{
+                background:"transparent",border:`1px solid ${T.border}`,
+                borderRadius:12,padding:"3px 8px",fontSize:11,
+                color:T.muted,cursor:"pointer",
+              }}>✕ Reset</button>
+            )}
+          </div>
 
-        {/* FILTERI — Struktura */}
-        <div style={{display:"flex",flexWrap:"wrap",gap:6,marginBottom:20}}>
-          <FilterPill label="Sve" active={!selStruktura.length} color={T.navy}
-            onClick={()=>setSelStruktura([])} />
-          {STRUKTURA_ORDER.map(s=>(
-            <FilterPill key={s} label={STRUKTURA_LABELS[s]}
-              active={selStruktura.includes(s)}
-              color={STRUKTURA_COLORS[s]}
-              onClick={()=>setSelStruktura(prev=>
-                prev.includes(s)?prev.filter(x=>x!==s):[...prev,s])} />
-          ))}
+          {(strExpanded || !isMobile) && (
+            <div style={{display:"flex",flexWrap:"wrap",gap:6,marginBottom:8}}>
+              <FilterPill label="Sve" active={!selStruktura.length} color={T.navy}
+                onClick={()=>{setSelStruktura([]);setStrExpanded(false);}} />
+              {STRUKTURA_ORDER.map(s=>(
+                <FilterPill key={s} label={STRUKTURA_LABELS[s]}
+                  active={selStruktura.includes(s)}
+                  color={STRUKTURA_COLORS[s]}
+                  onClick={()=>setSelStruktura(prev=>
+                    prev.includes(s)?prev.filter(x=>x!==s):[...prev,s])} />
+              ))}
+            </div>
+          )}
         </div>
 
         {/* TABOVI */}
         <div style={{display:"flex",gap:0,borderBottom:`2px solid ${T.border}`,
-          marginBottom:24}}>
+          marginBottom:24,overflowX:"auto",WebkitOverflowScrolling:"touch"}}>
           {TABS.map(t=>(
             <button key={t} onClick={()=>setTab(t)} style={{
-              padding:"10px 22px",fontSize:14,cursor:"pointer",
-              background:"transparent",border:"none",
+              padding:isMobile?"8px 14px":"10px 22px",
+              fontSize:isMobile?13:14,cursor:"pointer",
+              background:"transparent",border:"none",whiteSpace:"nowrap",
               color:tab===t?T.navy:T.muted,
               borderBottom:tab===t?`2px solid ${T.navy}`:"2px solid transparent",
               fontWeight:tab===t?700:400,marginBottom:-2,
