@@ -120,7 +120,11 @@ const T = {
 
 // ── Helpers ──────────────────────────────────────────────────────────────────
 const fmt  = n => n == null ? "–" : Math.round(n).toLocaleString("sr-RS");
-const fmtK = n => n == null ? "–" : `${Math.round(n/1000)}k`;
+const fmtK = n => {
+  if (n == null) return "–";
+  if (n >= 1_000_000) return `${(n/1_000_000).toFixed(1).replace(/\.0$/,"")}M`;
+  return `${Math.round(n/1000)}k`;
+};
 
 function median(arr) {
   if (!arr.length) return null;
@@ -641,7 +645,7 @@ export default function Dashboard() {
                       <div key={z.name}
                         style={{display:"grid",
                           gridTemplateColumns:"200px 1fr 90px 120px 60px",
-                          padding:"4px 20px",alignItems:"center",
+                          padding:"3px 20px",alignItems:"center",
                           borderBottom:`1px solid ${T.border}`,
                           background:i%2===0?"#fff":"#f8fafc",
                           transition:"background .1s",
