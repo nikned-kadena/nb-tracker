@@ -455,10 +455,10 @@ export default function Dashboard() {
                 color:T.muted,cursor:"pointer",
               }}>✕ Reset</button>
             )}
-            {!isMobile && <span style={{fontSize:12,color:T.muted}}>{BUILDINGS.length} zgrada</span>}
+            {!selBuildings.length && <span style={{fontSize:12,color:T.muted}}>{BUILDINGS.length} zgrada</span>}
           </div>
 
-          {(zgExpanded || !isMobile) && (
+          {zgExpanded && (
             <div style={{display:"flex",flexWrap:"wrap",gap:6,marginBottom:8}}>
               <FilterPill label="Sve" active={!selBuildings.length} color={T.navy}
                 onClick={()=>{setSelBuildings([]);setZgExpanded(false);}} />
@@ -497,7 +497,7 @@ export default function Dashboard() {
             )}
           </div>
 
-          {(strExpanded || !isMobile) && (
+          {strExpanded && (
             <div style={{display:"flex",flexWrap:"wrap",gap:6,marginBottom:8}}>
               <FilterPill label="Sve" active={!selStruktura.length} color={T.navy}
                 onClick={()=>{setSelStruktura([]);setStrExpanded(false);}} />
