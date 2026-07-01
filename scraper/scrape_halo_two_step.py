@@ -102,7 +102,7 @@ def scraper_get(url: str) -> requests.Response:
     return requests.get(SCRAPER_URL, params=params, timeout=60)
 
 
-def get_listing_urls(mode: str, max_pages: int = 50) -> list[str]:
+def get_listing_urls(mode: str, max_pages: int = 100) -> list[str]:
     """Korak 1: skupi sve URL-ove oglasa sa listing stranica."""
     all_urls = []
     seen = set()
@@ -296,7 +296,7 @@ def update_history(mode, raw, unique, prev_ids, curr_ids):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode", choices=["prodaja", "renta"], default="prodaja")
-    parser.add_argument("--max-pages", type=int, default=50)
+    parser.add_argument("--max-pages", type=int, default=100)
     args = parser.parse_args()
     mode = args.mode
 
