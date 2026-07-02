@@ -312,13 +312,14 @@ def scrape_oglas(pw_page, url: str) -> dict | None:
                 break
 
     # Detekcija zgrade — iz meta_desc koji sadrzi pun opis
-    combined = f"{naslov} {meta_desc} {page_title}"
+    meta_opts_content = meta_opts.get("content", "") if meta_opts else ""
+    combined = f"{naslov} {meta_desc} {page_title} {meta_opts_content}"
     zgrada = detect_building(combined)
 
     if not zgrada:
         return None
 
-    struktura = parse_struktura(naslov, meta_desc + " " + page_title)
+    struktura = parse_struktura(naslov, meta_desc + " " + page_title + " " + meta_opts_content)
 
     # Fallback: ako je struktura "ostalo", pokušaj da izvučeš broj soba
     # direktno iz HTML tabele karakteristika (npr. "Sobe: 5")
