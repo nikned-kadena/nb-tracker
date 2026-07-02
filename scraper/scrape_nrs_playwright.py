@@ -450,6 +450,19 @@ def main():
     unique = compute_dedup(all_raw)
     curr_ids = {l["id"] for l in unique}
 
+    # ── Zastita od loseg run-a (blokade, mrezni problemi...) ──
+    # Ako je novi rezultat drasticno manji od postojecih podataka, NE gazi ih.
+    # Zivi u scraperu (ne u bat-u) da vazi za SVAKI nacin pokretanja.
+    if latest_file.exists():
+        try:
+            prev_cnt = len(json.loads(latest_file.read_text(encoding="utf-8")).get("listings", []))
+        except Exception:
+            prev_cnt = 0
+        if prev_cnt >= 20 and len(unique) < prev_cnt * 0.5:
+            print(f"\nSTOP: novi rezultat ({len(unique)} oglasa) je manji od 50% "
+                  f"prethodnog ({prev_cnt}). Sumnja na los scrape — fajlovi NISU pisani.")
+            sys.exit(2)
+
     payload = {
         "date":         str(date.today()),
         "mode":         mode,
