@@ -334,6 +334,13 @@ def scrape_oglas(pw_page, url: str) -> dict | None:
         if sobe_td:
             sobe_to_str = {1:"garsonjera", 2:"2.0", 3:"3.0", 4:"4.0", 5:"5.0", 6:"5.0"}
             struktura = sobe_to_str.get(sobe_td, "ostalo")
+
+    # Fallback 2: veliki stanovi bez podatka o sobama -> 5.0 (Petosoban+)
+    # Agencije cesto ne popune broj soba za luksuzne stanove; na Novom
+    # Beogradu 130+ m² je pouzdano petosoban ili veci (4.5 ide do ~125 m²).
+    if struktura == "ostalo" and m2 and m2 >= 130:
+        struktura = "5.0"
+
     cena_m2 = round(cena / m2) if cena and m2 and m2 > 5 else None
     listing_id = normalize_id(url)
 
