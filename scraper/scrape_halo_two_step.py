@@ -239,6 +239,12 @@ def scrape_oglas(url: str, ag_from_card: str | None = None) -> dict | None:
     else:
         struktura = parse_struktura(naslov, opis)
 
+    # Fallback: veliki stanovi bez podatka o sobama -> 5.0 (Petosoban+)
+    # Isto kao u NRS scraperu — agencije cesto ne popune broj soba za
+    # luksuzne stanove; na Novom Beogradu 130+ m² je pouzdano petosoban+.
+    if struktura == "ostalo" and m2 and m2 >= 130:
+        struktura = "5.0"
+
     cena_m2 = round(cena / m2) if cena and m2 and m2 > 5 else None
 
     # Agencija — slug izvučen sa listing kartice u Koraku 1
