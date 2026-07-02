@@ -319,6 +319,20 @@ def scrape_oglas(pw_page, url: str) -> dict | None:
         return None
 
     struktura = parse_struktura(naslov, meta_desc + " " + page_title)
+
+    # Fallback: ako je struktura "ostalo", pokušaj da izvučeš broj soba
+    # direktno iz HTML tabele karakteristika (npr. "Sobe: 5")
+    if struktura == "ostalo":
+        sobe_td = None
+        for el in soup.select("div, span, td, li"):
+            txt = el.get_text(" ", strip=True)
+            m_sobe = re.search(r"Sobe[:\s]+(\d+)", txt, re.IGNORECASE)
+            if m_sobe:
+                sobe_td = int(m_sobe.group(1))
+                break
+        if sobe_td:
+            sobe_to_str = {1:"garsonjera", 2:"2.0", 3:"3.0", 4:"4.0", 5:"5.0", 6:"5.0"}
+            struktura = sobe_to_str.get(sobe_td, "ostalo")
     cena_m2 = round(cena / m2) if cena and m2 and m2 > 5 else None
     listing_id = normalize_id(url)
 
@@ -339,10 +353,16 @@ def scrape_oglas(pw_page, url: str) -> dict | None:
 
 
 def compute_dedup(listings):
+    """
+    Dedup po (zgrada, m2 zaokruzen, cena) — agencije ponekad
+    zaokruzuju kvadraturu drugacije (140 vs 140.5), pa koristimo
+    round() da uhvatimo te slucajeve kao isti stan.
+    """
     seen = set()
     unique = []
     for l in listings:
-        key = (l["zgrada"], l["m2"], l["cena"])
+        m2_rounded = round(l["m2"]) if l["m2"] else None
+        key = (l["zgrada"], m2_rounded, l["cena"])
         if key not in seen:
             seen.add(key)
             unique.append(l)
