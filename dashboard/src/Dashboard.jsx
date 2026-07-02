@@ -234,8 +234,8 @@ function StrukCard({ s, listings, mode }) {
         </div>
         <RangeBar color={color}/>
         <div style={{display:"flex",justifyContent:"space-between",fontSize:12,fontWeight:600,color:T.text}}>
-          <span>{fmtK(Math.min(...cene))} €</span>
-          <span>{fmtK(Math.max(...cene))} €</span>
+          <span>{mode==="renta" ? fmt(Math.min(...cene)) : fmtK(Math.min(...cene))} €</span>
+          <span>{mode==="renta" ? fmt(Math.max(...cene)) : fmtK(Math.max(...cene))} €</span>
         </div>
       </>}
       {cm2s.length>0 && mode==="prodaja" && <>
@@ -336,6 +336,8 @@ export default function Dashboard() {
     ? fmtPct((lastH.avg_cena-prevH.avg_cena)/prevH.avg_cena*100) : null;
   const dodRaw = (lastH?.avg_cena && prevH?.avg_cena)
     ? (lastH.avg_cena-prevH.avg_cena)/prevH.avg_cena*100 : null;
+  // Sakrij DOD ako je promena >50% — to su sumnjivi podaci (loš scrape run)
+  const dodValid = dodRaw != null && Math.abs(dodRaw) <= 50;
   // YTD — prvi zapis iz tekuće kalendarske godine, min 7 dana razlike
   const curYear = new Date().getFullYear().toString();
   const firstThisYear = sorted_h.find(h=>h.date?.startsWith(curYear));
@@ -547,12 +549,16 @@ export default function Dashboard() {
                 highlight={noviFilter?T.blue:undefined} />
               {cene.length>0 && (
                 <KpiCard label="Cena raspon"
-                  value={`${fmtK(Math.min(...cene))}–${fmtK(Math.max(...cene))} €`}
+                  value={cene.length
+                    ? (mode==="renta"
+                      ? `${fmt(Math.min(...cene))}–${fmt(Math.max(...cene))} €`
+                      : `${fmtK(Math.min(...cene))}–${fmtK(Math.max(...cene))} €`)
+                    : "–"}
                   sub="sve strukture" />
               )}
               <KpiCard label="Prosek €/m²" value={avgCM2?`${fmt(avgCM2)} €`:"–"}
                 sub="sve strukture" />
-              {dod!=null && (
+              {dodValid && (
                 <KpiCard label="DOD" value={dod}
                   sub="globalni indeks"
                   highlight={dodRaw>=0?T.green:T.red} />
@@ -789,7 +795,7 @@ export default function Dashboard() {
                       highlight={change24hRaw>=0?T.green:T.red}
                       sub="cena vs prethodni dan" />
                   )}
-                  {dod!=null && (
+                  {dodValid && (
                     <KpiCard label="DOD" value={dod}
                       sub="globalni indeks"
                       highlight={dodRaw>=0?T.green:T.red} />
@@ -984,7 +990,9 @@ export default function Dashboard() {
                           </td>
                           <td style={{padding:"9px 10px",fontSize:11,color:T.muted,
                             maxWidth:140,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>
-                            {l.agencija||"–"}
+                            {l.agencija
+                              ? (source==="halo" ? (HALO_AG_MAP[l.agencija] || l.agencija) : l.agencija)
+                              : "–"}
                           </td>
                           <td style={{padding:"9px 10px"}}>
                             <a href={l.url} target="_blank" rel="noreferrer"

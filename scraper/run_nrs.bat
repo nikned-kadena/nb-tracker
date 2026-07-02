@@ -6,9 +6,6 @@ echo  NB Tracker Scrape [%date% %time%]
 echo ============================================
 echo.
 
-REM SCRAPER_API_KEY mora biti postavljen trajno preko setx
-REM (jednom uradi: setx SCRAPER_API_KEY "tvoj_kljuc")
-
 echo [1/4] Halo Oglasi - Prodaja...
 python scraper\scrape_halo_two_step.py --mode prodaja
 if errorlevel 1 echo GRESKA: Halo prodaja
@@ -27,6 +24,46 @@ echo.
 echo [4/4] Nekretnine.rs - Renta...
 python scraper\scrape_nrs_playwright.py --mode renta
 if errorlevel 1 echo GRESKA: NRS renta
+
+echo.
+echo Proveravam kvalitet scrape rezultata...
+python -c "
+import json, sys
+
+thresholds = {
+    'data/latest_halo_prodaja.json': 50,
+    'data/latest_halo_renta.json':   50,
+    'data/latest_nrs_prodaja.json':  30,
+    'data/latest_nrs_renta.json':    30,
+}
+
+ok = True
+for f, min_count in thresholds.items():
+    try:
+        d = json.load(open(f, encoding='utf-8'))
+        count = d.get('total_unique', 0)
+        if count < min_count:
+            print(f'UPOZORENJE: {f} ima samo {count} oglasa (minimum: {min_count})')
+            ok = False
+        else:
+            print(f'OK: {f} - {count} oglasa')
+    except Exception as e:
+        print(f'GRESKA pri citanju {f}: {e}')
+        ok = False
+
+if not ok:
+    print('Scrape rezultati su sumnjivi - commit preskocen!')
+    sys.exit(1)
+print('Svi fajlovi validni - nastavljam sa commitom...')
+"
+if errorlevel 1 (
+    echo.
+    echo !! COMMIT PRESKOCEN zbog losih scrape rezultata !!
+    echo ============================================
+    echo  Gotovo sa greskom [%time%]
+    echo ============================================
+    exit /b 1
+)
 
 echo.
 echo Commitujem podatke na GitHub...
