@@ -1,82 +1,87 @@
 @echo off
+setlocal enabledelayedexpansion
 cd /d C:\nb-tracker
 
+set LOG=scraper\run.log
+echo. >> %LOG%
+echo ============================================ >> %LOG%
+echo   NB Tracker Scrape  %date% %time% >> %LOG%
+echo ============================================ >> %LOG%
+
 echo ============================================
-echo  NB Tracker Scrape [%date% %time%]
+echo   NB Tracker Scrape  %date% %time%
 echo ============================================
-echo.
+
+REM -- Povuci najnoviju verziju koda PRE scrape-a --
+echo [PULL] Povlacim najnoviju verziju koda... >> %LOG%
+git pull --rebase -X ours origin main >> %LOG% 2>&1
+
+REM -- Pokreni sva 4 scrapera. Svaki ima ugradjenu min-count zastitu --
+REM -- (exit 2 = STOP, los scrape; exit 1 = greska). Belezimo svaki ishod. --
+set FAIL=0
 
 echo [1/4] Halo Oglasi - Prodaja...
-python scraper\scrape_halo_two_step.py --mode prodaja
-if errorlevel 1 echo GRESKA: Halo prodaja
+echo [1/4] Halo Oglasi - Prodaja... >> %LOG%
+python scraper\scrape_halo_two_step.py --mode prodaja >> %LOG% 2>&1
+if errorlevel 1 ( echo    ^>^> NEUSPEH ^(exit !errorlevel!^) & echo    NEUSPEH Halo prodaja exit !errorlevel! >> %LOG% & set FAIL=1 )
 
-echo.
 echo [2/4] Halo Oglasi - Renta...
-python scraper\scrape_halo_two_step.py --mode renta
-if errorlevel 1 echo GRESKA: Halo renta
+echo [2/4] Halo Oglasi - Renta... >> %LOG%
+python scraper\scrape_halo_two_step.py --mode renta >> %LOG% 2>&1
+if errorlevel 1 ( echo    ^>^> NEUSPEH ^(exit !errorlevel!^) & echo    NEUSPEH Halo renta exit !errorlevel! >> %LOG% & set FAIL=1 )
 
-echo.
 echo [3/4] Nekretnine.rs - Prodaja...
-python scraper\scrape_nrs_playwright.py --mode prodaja
-if errorlevel 1 echo GRESKA: NRS prodaja
+echo [3/4] Nekretnine.rs - Prodaja... >> %LOG%
+python scraper\scrape_nrs_playwright.py --mode prodaja >> %LOG% 2>&1
+if errorlevel 1 ( echo    ^>^> NEUSPEH ^(exit !errorlevel!^) & echo    NEUSPEH NRS prodaja exit !errorlevel! >> %LOG% & set FAIL=1 )
 
-echo.
 echo [4/4] Nekretnine.rs - Renta...
-python scraper\scrape_nrs_playwright.py --mode renta
-if errorlevel 1 echo GRESKA: NRS renta
+echo [4/4] Nekretnine.rs - Renta... >> %LOG%
+python scraper\scrape_nrs_playwright.py --mode renta >> %LOG% 2>&1
+if errorlevel 1 ( echo    ^>^> NEUSPEH ^(exit !errorlevel!^) & echo    NEUSPEH NRS renta exit !errorlevel! >> %LOG% & set FAIL=1 )
 
-echo.
-echo Proveravam kvalitet scrape rezultata...
-python -c "
-import json, sys
-
-thresholds = {
-    'data/latest_halo_prodaja.json': 50,
-    'data/latest_halo_renta.json':   50,
-    'data/latest_nrs_prodaja.json':  30,
-    'data/latest_nrs_renta.json':    30,
-}
-
-ok = True
-for f, min_count in thresholds.items():
-    try:
-        d = json.load(open(f, encoding='utf-8'))
-        count = d.get('total_unique', 0)
-        if count < min_count:
-            print(f'UPOZORENJE: {f} ima samo {count} oglasa (minimum: {min_count})')
-            ok = False
-        else:
-            print(f'OK: {f} - {count} oglasa')
-    except Exception as e:
-        print(f'GRESKA pri citanju {f}: {e}')
-        ok = False
-
-if not ok:
-    print('Scrape rezultati su sumnjivi - commit preskocen!')
-    sys.exit(1)
-print('Svi fajlovi validni - nastavljam sa commitom...')
-"
-if errorlevel 1 (
+REM -- KLJUCNA BRANA: ako je BILO KOJI scraper pao, NE diramo git --
+if "%FAIL%"=="1" (
     echo.
-    echo !! COMMIT PRESKOCEN zbog losih scrape rezultata !!
-    echo ============================================
-    echo  Gotovo sa greskom [%time%]
-    echo ============================================
+    echo !! BAR JEDAN SCRAPER NIJE USPEO - GIT SE NE DIRA, PODACI OSTAJU NETAKNUTI !!
+    echo !! Detalji u scraper\run.log !!
+    echo.
+    echo [ABORT] Bar jedan scraper pao - commit preskocen, podaci netaknuti. >> %LOG%
+    echo ============================================ >> %LOG%
+    echo   Zavrseno SA GRESKOM  %time% >> %LOG%
+    echo ============================================ >> %LOG%
     exit /b 1
 )
 
+REM -- Svi scraperi uspeli - bezbedno je commitovati --
 echo.
-echo Commitujem podatke na GitHub...
+echo Svi scraperi uspesni. Commitujem na GitHub...
+echo [COMMIT] Svi scraperi uspeli, commitujem... >> %LOG%
 git add data\
-git diff --staged --quiet && echo "Nema promena u podacima." && goto :end
+git diff --cached --quiet && ( echo    Nema promena u podacima. & echo [SKIP] Nema promena. >> %LOG% & goto :petak )
 
-git commit -m "data: automatski scrape %date%"
-git pull --rebase -X ours origin main
-git push origin main
-echo Push uspesno.
+git commit -m "data: automatski scrape %date%" >> %LOG% 2>&1
+git pull --rebase -X ours origin main >> %LOG% 2>&1
+git push origin main >> %LOG% 2>&1
+echo    Push uspesan.
+echo [OK] Push uspesan. >> %LOG%
 
-:end
+:petak
+REM -- Petkom: nedeljni PDF izvestaj (posle scrape+push, bez novih kredita) --
+for /f %%d in ('python -c "import datetime; print(datetime.date.today().weekday())"') do set DOW=%%d
+if "%DOW%"=="4" (
+    echo [PETAK] Generisem nedeljni PDF izvestaj... >> %LOG%
+    echo Petak - generisem nedeljni PDF izvestaj...
+    cd /d C:\nb-tracker\scraper
+    python weekly_pdf_report.py >> run.log 2>&1
+    cd /d C:\nb-tracker
+)
+
 echo.
 echo ============================================
-echo  Gotovo [%time%]
+echo   Gotovo  %time%
 echo ============================================
+echo ============================================ >> %LOG%
+echo   Zavrseno OK  %time% >> %LOG%
+echo ============================================ >> %LOG%
+endlocal
