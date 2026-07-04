@@ -565,16 +565,6 @@ export default function Dashboard() {
               )}
               <KpiCard label="Prosek €/m²" value={avgCM2?`${fmt(avgCM2)} €`:"–"}
                 sub="sve strukture" />
-              {dod!=null && (
-                <KpiCard label="DOD" value={dod}
-                  sub="globalni indeks"
-                  highlight={dodRaw>=0?T.green:T.red} />
-              )}
-              {ytd!=null && (
-                <KpiCard label="YTD" value={ytd}
-                  sub="globalni indeks"
-                  highlight={ytdRaw>=0?T.green:T.red} />
-              )}
             </div>
 
             {/* Struktura kartice */}
@@ -802,16 +792,6 @@ export default function Dashboard() {
                     <KpiCard label="Promena 24h" value={change24h}
                       highlight={change24hRaw>=0?T.green:T.red}
                       sub="cena vs prethodni dan" />
-                  )}
-                  {dod!=null && (
-                    <KpiCard label="DOD" value={dod}
-                      sub="globalni indeks"
-                      highlight={dodRaw>=0?T.green:T.red} />
-                  )}
-                  {ytd!=null && (
-                    <KpiCard label="YTD" value={ytd}
-                      sub="globalni indeks"
-                      highlight={ytdRaw>=0?T.green:T.red} />
                   )}
                 </div>
 
