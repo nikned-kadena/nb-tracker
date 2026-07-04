@@ -1,12 +1,25 @@
 """
 NB Tracker — Halo Oglasi scraper za Novi Beograd, dva koraka (ScraperAPI)
+v2 — INKREMENTALNI Korak 2 (04.07.2026)
 
 Cloudflare blokira Playwright direktno (Turnstile na paginaciji),
 pa koristimo ScraperAPI koji ima svoj anti-bot bypass.
 
 Dva koraka:
-1. Listing stranice (sve, preko ?page=N) — skuplja URL-ove oglasa
-2. Za svaki oglas — ScraperAPI poziv da procita opis i karakteristike
+1. Listing stranice (sve, preko ?page=N) — skuplja URL-ove oglasa + cene sa kartica
+2. SAMO ZA NOVE oglase — ScraperAPI poziv da procita opis i karakteristike.
+   Poznati oglasi dolaze iz kesa (data/cache_halo_{mode}.json), a cena im se
+   svaki dan osvezava sa listing kartice — bez dodatnih requestova.
+
+Zasto: halooglasi.com kosta 10 ScraperAPI kredita PO REQUESTU. Stari pristup
+(svih ~1.000 oglasa dnevno) = ~20.000 kredita/dan. Inkrementalni = ~1.300/dan.
+
+Kes pamti i NERELEVANTNE oglase (marker bez podataka) — inace bismo ~800
+nerelevantnih placali svaki dan iznova.
+
+Full refresh (ceo set iznova, kes se gradi od nule):
+  - automatski NEDELJOM (osiguranje od tihog raspada kesa)
+  - rucno: python scrape_halo_two_step.py --mode prodaja --full
 
 Pokretanje:
   python scrape_halo_two_step.py --mode prodaja
@@ -104,14 +117,17 @@ def scraper_get(url: str) -> requests.Response:
     return requests.get(SCRAPER_URL, params=params, timeout=60)
 
 
-def get_listing_urls(mode: str, max_pages: int = 100) -> tuple[list[str], dict]:
+def get_listing_urls(mode: str, max_pages: int = 100) -> tuple[list[str], dict, dict, int]:
     """Korak 1: skupi sve URL-ove oglasa sa listing stranica.
-    Vraća (lista URL-ova, ag_map: url->agencija_slug).
-    Agencija slug se čita sa kartice dok smo na listing stranici.
+    Vraća (lista URL-ova, ag_map: url->agencija_slug, price_map: url->cena, broj requestova).
+    Agencija slug i cena se čitaju sa kartice dok smo na listing stranici —
+    cena služi za dnevno osvežavanje keširanih oglasa bez Koraka 2.
     """
     all_urls = []
     ag_map = {}
+    price_map = {}
     seen = set()
+    requests_count = 0
     base = BASE_URLS[mode]
 
     for page_num in range(1, max_pages + 1):
@@ -120,6 +136,7 @@ def get_listing_urls(mode: str, max_pages: int = 100) -> tuple[list[str], dict]:
 
         try:
             resp = scraper_get(url)
+            requests_count += 1
         except Exception as e:
             print(f"  GRESKA: {e}")
             break
@@ -148,6 +165,16 @@ def get_listing_urls(mode: str, max_pages: int = 100) -> tuple[list[str], dict]:
             all_urls.append(full_url)
             new_count += 1
 
+            # Cena sa kartice (data-value) — za dnevno osvezavanje kesa
+            price_el = card.select_one("span[data-value]")
+            if price_el:
+                try:
+                    pv = float(str(price_el.get("data-value", "")).replace(",", "."))
+                    if pv > 100:
+                        price_map[full_url] = pv
+                except Exception:
+                    pass
+
             # Agencija slug sa kartice — /oglasi/NAZIV href
             for a in card.find_all("a", href=re.compile(r"/oglasi/", re.I)):
                 m = re.search(r"/oglasi/([^/?#]+)", a.get("href", ""), re.I)
@@ -165,7 +192,7 @@ def get_listing_urls(mode: str, max_pages: int = 100) -> tuple[list[str], dict]:
 
         time.sleep(0.3)
 
-    return all_urls, ag_map
+    return all_urls, ag_map, price_map, requests_count
 
 
 def extract_classified_json(html: str) -> dict | None:
@@ -284,6 +311,35 @@ def compute_dedup(listings):
     return unique
 
 
+CACHE_TTL_DAYS = 30
+
+def load_cache(mode: str) -> dict:
+    """Kes presuda po oglasu: id -> {url, verdikt, listing|None, last_seen, scraped_at}.
+    verdikt: "relevantan" (u nasih 18 zgrada) ili "nerelevantan"."""
+    f = DATA / f"cache_halo_{mode}.json"
+    if f.exists():
+        try:
+            return json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            print("  UPOZORENJE: kes nije citljiv, gradim ispocetka.")
+    return {}
+
+
+def save_cache(mode: str, cache: dict):
+    danas = date.today()
+    ziv = {}
+    for k, v in cache.items():
+        try:
+            starost = (danas - date.fromisoformat(v.get("last_seen", str(danas)))).days
+        except Exception:
+            starost = 0
+        if starost <= CACHE_TTL_DAYS:
+            ziv[k] = v
+    (DATA / f"cache_halo_{mode}.json").write_text(
+        json.dumps(ziv, ensure_ascii=False), encoding="utf-8")
+    return len(cache) - len(ziv)
+
+
 def update_history(mode, raw, unique, prev_ids, curr_ids):
     hist_file = DATA / f"history_halo_{mode}.json"
     history = []
@@ -315,8 +371,13 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--mode", choices=["prodaja", "renta"], default="prodaja")
     parser.add_argument("--max-pages", type=int, default=100)
+    parser.add_argument("--full", action="store_true",
+                        help="Full refresh: ignorisi kes, scrape-uj sve oglase iznova")
     args = parser.parse_args()
     mode = args.mode
+
+    full_refresh = args.full or date.today().weekday() == 6  # nedelja = auto full
+    danas = str(date.today())
 
     if not SCRAPER_API_KEY:
         print("ERROR: SCRAPER_API_KEY nije postavljen.")
@@ -328,14 +389,47 @@ def main():
         prev = json.loads(latest_file.read_text(encoding="utf-8"))
         prev_ids = {l["id"] for l in prev.get("listings", [])}
 
-    print(f"\n=== NB Tracker - Halo Oglasi [dva koraka] [{mode}] ===")
+    rezim = "FULL REFRESH" + (" (nedelja)" if not args.full and full_refresh else "") if full_refresh else "inkrementalni"
+    print(f"\n=== NB Tracker - Halo Oglasi [dva koraka, {rezim}] [{mode}] ===")
 
     print(f"\n[Korak 1] Skupljam URL-ove oglasa...")
-    all_urls, ag_map = get_listing_urls(mode, args.max_pages)
+    all_urls, ag_map, price_map, k1_requests = get_listing_urls(mode, args.max_pages)
     print(f"\nUkupno URL-ova: {len(all_urls)} | Agencija pronađeno: {len(ag_map)}")
 
-    print(f"\n[Korak 2] Scrape-ujem {len(all_urls)} oglasa paralelno (8 threadova)...")
+    # ── Kes: poznate oglase citamo iz kesa, samo nove scrape-ujemo ──
+    cache = {} if full_refresh else load_cache(mode)
     all_raw = []
+    to_scrape = []
+    iz_kesa_rel = 0
+    iz_kesa_nerel = 0
+    cena_azurirana = 0
+
+    for url in all_urls:
+        lid = normalize_id(url)
+        c = cache.get(lid)
+        if c is None:
+            to_scrape.append(url)
+            continue
+        c["last_seen"] = danas
+        if c.get("verdikt") == "relevantan" and c.get("listing"):
+            l = dict(c["listing"])
+            nova_cena = price_map.get(url)
+            if nova_cena and nova_cena != l.get("cena"):
+                l["cena"] = nova_cena
+                if l.get("m2") and l["m2"] > 5:
+                    l["cena_m2"] = round(nova_cena / l["m2"])
+                c["listing"] = l
+                cena_azurirana += 1
+            all_raw.append(l)
+            iz_kesa_rel += 1
+        else:
+            iz_kesa_nerel += 1
+
+    print(f"[KES] Poznato: {iz_kesa_rel + iz_kesa_nerel} "
+          f"(relevantnih {iz_kesa_rel}, cena osvezeno {cena_azurirana}) | "
+          f"Novo za scrape: {len(to_scrape)}")
+
+    print(f"\n[Korak 2] Scrape-ujem {len(to_scrape)} oglasa paralelno (8 threadova)...")
     completed = 0
     lock = __import__("threading").Lock()
 
@@ -347,19 +441,28 @@ def main():
         with lock:
             completed += 1
             if completed % 20 == 0:
-                print(f"  {completed}/{len(all_urls)} oglasa ({len(all_raw)} relevantnih)...", flush=True)
+                print(f"  {completed}/{len(to_scrape)} oglasa ({len(all_raw)} relevantnih)...", flush=True)
         return result
 
     with ThreadPoolExecutor(max_workers=8) as executor:
-        futures = {executor.submit(scrape_with_progress, url): url for url in all_urls}
+        futures = {executor.submit(scrape_with_progress, url): url for url in to_scrape}
         for future in as_completed(futures):
+            url = futures[future]
+            listing = None
             try:
                 listing = future.result()
-                if listing:
-                    with lock:
-                        all_raw.append(listing)
-            except Exception as e:
+            except Exception:
                 pass
+            with lock:
+                cache[normalize_id(url)] = {
+                    "url": url,
+                    "verdikt": "relevantan" if listing else "nerelevantan",
+                    "listing": listing,
+                    "last_seen": danas,
+                    "scraped_at": danas,
+                }
+                if listing:
+                    all_raw.append(listing)
 
     unique = compute_dedup(all_raw)
     curr_ids = {l["id"] for l in unique}
@@ -393,6 +496,13 @@ def main():
     print(f"URL-ova: {len(all_urls)} | Relevantnih: {len(all_raw)} | Unique: {len(unique)}")
     print(f"Novi: {len(curr_ids - prev_ids)} | Skinutih: {len(prev_ids - curr_ids)}")
     update_history(mode, all_raw, unique, prev_ids, curr_ids)
+
+    ociscen = save_cache(mode, cache)
+    ukupno_req = k1_requests + len(to_scrape)
+    print(f"[KES] Sacuvano {len(cache) - ociscen} presuda"
+          + (f" (ociscen {ociscen} starijih od {CACHE_TTL_DAYS} dana)" if ociscen else ""))
+    print(f"[POTROSNJA] Korak 1: {k1_requests} req | Korak 2: {len(to_scrape)} req | "
+          f"Ukupno: {ukupno_req} req (~{ukupno_req * 10} kredita)")
 
 
 if __name__ == "__main__":
