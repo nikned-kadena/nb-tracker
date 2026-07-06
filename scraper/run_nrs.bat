@@ -1,6 +1,6 @@
 @echo off
 REM ============================================================
-REM NB Tracker Scrape - run_nrs.bat v2 (04.07.2026)
+REM NB Tracker Scrape - run_nrs.bat v2.1 (06.07.2026)
 REM Izmene u odnosu na v1 (lekcije iz BnV sesije 04.07):
 REM   1. PYTHONUTF8=1 - srpska slova u printovima ne obaraju scrapere
 REM   2. GIT_MERGE_AUTOEDIT=no - merge poruke prolaze bez Vim-a
@@ -18,11 +18,11 @@ cd /d C:\nb-tracker
 set LOG=scraper\run.log
 echo. >> %LOG%
 echo ============================================ >> %LOG%
-echo   NB Tracker Scrape v2  %date% %time% >> %LOG%
+echo   NB Tracker Scrape v2.1  %date% %time% >> %LOG%
 echo ============================================ >> %LOG%
 
 echo ============================================
-echo   NB Tracker Scrape v2  %date% %time%
+echo   NB Tracker Scrape v2.1  %date% %time%
 echo ============================================
 
 REM -- Povuci najnoviju verziju koda PRE scrape-a (merge, ne rebase) --
@@ -64,8 +64,9 @@ if "%FAIL%"=="1" (
 )
 
 REM -- KLJUCNA BRANA 2: svi latest_*.json moraju biti modifikovani DANAS --
-REM -- (BnV lekcija: scraper moze "uspeti" a ne upisati nista novo) --
-python -c "import os,sys,datetime; danas=datetime.date.today(); fajlovi=['data/latest_halo_prodaja.json','data/latest_halo_renta.json','data/latest_nrs_prodaja.json','data/latest_nrs_renta.json']; stari=[f for f in fajlovi if not os.path.exists(f) or datetime.date.fromtimestamp(os.path.getmtime(f))!=danas]; print('[BRANA] Svi fajlovi svezi ('+str(danas)+')' if not stari else '[BRANA] NISU svezi: '+', '.join(stari)); sys.exit(1 if stari else 0)" >> %LOG% 2>&1
+REM -- v2.1: logika zivi u check_svezina.py jer je cmd delayed expansion --
+REM -- unistavao znak uzvika u inline python komandi (SyntaxError 05-06.07) --
+python scraper\check_svezina.py >> %LOG% 2>&1
 if errorlevel 1 (
     echo.
     echo !! PODACI NISU SVEZI - commit preskocen, detalji u run.log !!
