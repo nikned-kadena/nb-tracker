@@ -683,8 +683,8 @@ export default function Dashboard() {
 
                   {/* Kolone header */}
                   <div style={{display:"grid",
-                    gridTemplateColumns:mode==="prodaja"?"200px 1fr 90px 120px 72px 60px":"200px 1fr 90px 120px 60px",
-                    padding:"6px 20px",borderBottom:`1px solid ${T.border}`,
+                    gridTemplateColumns:mode==="prodaja"?"200px 1fr 90px 120px 72px 72px":"200px 1fr 90px 120px 72px",
+                    padding:"6px 18px",borderBottom:`1px solid ${T.border}`,
                     background:"#f8fafc"}}>
                     <SortHeader col="name" label="ZGRADA" />
                     <div style={{fontSize:10,fontWeight:600,color:T.muted,letterSpacing:".6px"}}>DISTRIBUCIJA</div>
@@ -700,30 +700,30 @@ export default function Dashboard() {
                     return (
                       <div key={z.name}
                         style={{display:"grid",
-                          gridTemplateColumns:mode==="prodaja"?"200px 1fr 90px 120px 72px 60px":"200px 1fr 90px 120px 60px",
-                          padding:"3px 20px",alignItems:"center",
+                          gridTemplateColumns:mode==="prodaja"?"200px 1fr 90px 120px 72px 72px":"200px 1fr 90px 120px 72px",
+                          padding:"5px 18px",alignItems:"center",
                           borderBottom:`1px solid ${T.border}`,
                           background:i%2===0?"#fff":"#f8fafc",
-                          transition:"background .1s",
+                          transition:"background .1s",fontSize:13,
                         }}
                         onMouseEnter={e=>e.currentTarget.style.background="#f0f7ff"}
                         onMouseLeave={e=>e.currentTarget.style.background=i%2===0?"#fff":"#f8fafc"}
                       >
                         {/* Naziv zgrade sa color dot */}
                         <div style={{display:"flex",alignItems:"center",gap:8}}>
-                          <span style={{width:9,height:9,borderRadius:"50%",flexShrink:0,
+                          <span style={{width:8,height:8,borderRadius:"50%",flexShrink:0,
                             background:z.color,display:"inline-block"}}/>
-                          <span style={{fontWeight:600,fontSize:12,color:T.text}}>
+                          <span style={{fontWeight:600,fontSize:13,color:T.text,whiteSpace:"nowrap",overflow:"hidden",textOverflow:"ellipsis"}}>
                             {z.name}
                           </span>
                         </div>
 
                         {/* Bar */}
                         <div style={{paddingRight:16}}>
-                          <div style={{height:4,background:"#e2e8f0",borderRadius:4}}>
+                          <div style={{height:6,background:"#e2e8f0",borderRadius:6,overflow:"hidden"}}>
                             <div style={{
                               width:`${barW}%`,height:"100%",
-                              background:z.color,borderRadius:4,
+                              background:z.color,borderRadius:6,
                               transition:"width .4s ease",
                             }}/>
                           </div>
@@ -732,11 +732,10 @@ export default function Dashboard() {
                         {/* Broj */}
                         <div>
                           <span style={{
-                            background:z.color+"22",
+                            background:z.color+"1A",
                             color:z.color,
-                            border:`1px solid ${z.color}`,
-                            borderRadius:12,padding:"1px 8px",
-                            fontSize:12,fontWeight:700,
+                            borderRadius:20,padding:"2px 9px",
+                            fontSize:12,fontWeight:600,
                           }}>{z.count}</span>
                         </div>
 
@@ -765,10 +764,10 @@ export default function Dashboard() {
                             style={{
                               background:"transparent",
                               border:`1px solid ${T.border}`,
-                              borderRadius:6,padding:"4px 10px",
+                              borderRadius:6,padding:"3px 8px",
                               fontSize:11,cursor:"pointer",
                               color:T.blue,fontWeight:600,
-                              transition:"all .15s",
+                              transition:"all .15s",whiteSpace:"nowrap",
                             }}
                             onMouseEnter={e=>{
                               e.currentTarget.style.background=T.blue;
