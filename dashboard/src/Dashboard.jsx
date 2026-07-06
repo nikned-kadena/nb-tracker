@@ -298,6 +298,15 @@ export default function Dashboard() {
     return () => window.removeEventListener("resize", handler);
   }, []);
 
+  // Renta data — za yield kalkulaciju u prodaja modu (sidebar fetch)
+  const [rentaListings, setRentaListings] = useState([]);
+  useEffect(()=>{
+    if(mode !== "prodaja") { setRentaListings([]); return; }
+    fetchJSON(`${REPO_RAW}/latest_${source}_renta.json`)
+      .then(d => setRentaListings(d?.listings ?? []))
+      .catch(()=> setRentaListings([]));
+  },[mode, source]);
+
   // Fetch
   useEffect(()=>{
     setLoading(true); setError(null);
@@ -334,6 +343,22 @@ export default function Dashboard() {
       seen.add(k); return true;
     });
   },[filtered]);
+
+  // Prosek rente po (zgrada, struktura) — za yield u Zgrade tabu.
+  // Min 2 renta oglasa po kombinaciji, isti source kao prodaja.
+  const rentAvgMap = useMemo(()=>{
+    const grp = {};
+    for(const l of rentaListings){
+      if(!l.zgrada || !l.struktura || !l.cena) continue;
+      const k = `${l.zgrada}|${l.struktura}`;
+      (grp[k] = grp[k] || []).push(l.cena);
+    }
+    const map = {};
+    for(const [k,arr] of Object.entries(grp)){
+      if(arr.length >= 2) map[k] = arr.reduce((a,b)=>a+b,0)/arr.length;
+    }
+    return map;
+  },[rentaListings]);
 
   const cene   = useMemo(()=>uniq.map(l=>l.cena).filter(Boolean),[uniq]);
   const cm2s   = useMemo(()=>uniq.map(l=>l.cena_m2).filter(Boolean),[uniq]);
@@ -591,12 +616,22 @@ export default function Dashboard() {
                 const avgCM2b = cm2s.length
                   ? Math.round(cm2s.reduce((a,v)=>a+v,0)/cm2s.length)
                   : null;
-                return { name: b, count: items.length, avgCM2: avgCM2b, color: BUILDING_COLORS[b]||"#94a3b8" };
+                // Yield: (12 x prosecna renta iste zgrade i strukture) / prodajna cena.
+                // Sanity 0.5-15% filtrira anomalije. Min 2 renta oglasa vec obezbedjuje rentAvgMap.
+                const yields = mode==="prodaja" ? items.flatMap(l=>{
+                  if(!l.cena || !l.struktura) return [];
+                  const avgR = rentAvgMap[`${b}|${l.struktura}`];
+                  if(!avgR) return [];
+                  const y = (12*avgR)/l.cena*100;
+                  return (y>=0.5 && y<=15) ? [y] : [];
+                }) : [];
+                const avg_yield = yields.length ? yields.reduce((a,b)=>a+b,0)/yields.length : null;
+                return { name: b, count: items.length, avgCM2: avgCM2b, avg_yield, color: BUILDING_COLORS[b]||"#94a3b8" };
               })
               .filter(z => z.count > 0)
               .sort((a,b) => {
-                const aV = zgSort.col==="name" ? a.name : zgSort.col==="avgCM2" ? (a.avgCM2||0) : a.count;
-                const bV = zgSort.col==="name" ? b.name : zgSort.col==="avgCM2" ? (b.avgCM2||0) : b.count;
+                const aV = zgSort.col==="name" ? a.name : zgSort.col==="avgCM2" ? (a.avgCM2||0) : zgSort.col==="yield" ? (a.avg_yield??-1) : a.count;
+                const bV = zgSort.col==="name" ? b.name : zgSort.col==="avgCM2" ? (b.avgCM2||0) : zgSort.col==="yield" ? (b.avg_yield??-1) : b.count;
                 if(zgSort.col==="name") return zgSort.dir==="asc" ? aV.localeCompare(bV) : bV.localeCompare(aV);
                 return zgSort.dir==="asc" ? aV-bV : bV-aV;
               });
@@ -647,13 +682,14 @@ export default function Dashboard() {
 
                   {/* Kolone header */}
                   <div style={{display:"grid",
-                    gridTemplateColumns:"200px 1fr 90px 120px 60px",
+                    gridTemplateColumns:mode==="prodaja"?"200px 1fr 90px 120px 72px 60px":"200px 1fr 90px 120px 60px",
                     padding:"6px 20px",borderBottom:`1px solid ${T.border}`,
                     background:"#f8fafc"}}>
                     <SortHeader col="name" label="ZGRADA" />
                     <div style={{fontSize:10,fontWeight:600,color:T.muted,letterSpacing:".6px"}}>DISTRIBUCIJA</div>
                     <SortHeader col="count" label="OGLASI" align="left" />
                     <SortHeader col="avgCM2" label={mode==="prodaja"?"PROSEK €/M²":"PROSEK €/MES"} align="left" />
+                    {mode==="prodaja" && <SortHeader col="yield" label="YIELD" align="left" />}
                     <div/>
                   </div>
 
@@ -663,7 +699,7 @@ export default function Dashboard() {
                     return (
                       <div key={z.name}
                         style={{display:"grid",
-                          gridTemplateColumns:"200px 1fr 90px 120px 60px",
+                          gridTemplateColumns:mode==="prodaja"?"200px 1fr 90px 120px 72px 60px":"200px 1fr 90px 120px 60px",
                           padding:"3px 20px",alignItems:"center",
                           borderBottom:`1px solid ${T.border}`,
                           background:i%2===0?"#fff":"#f8fafc",
@@ -707,6 +743,14 @@ export default function Dashboard() {
                         <div style={{fontSize:11,fontWeight:600,color:T.muted}}>
                           {z.avgCM2 ? `${fmt(z.avgCM2)} €` : "—"}
                         </div>
+
+                        {/* Yield — samo u prodaja modu */}
+                        {mode==="prodaja" && (
+                          <div style={{fontSize:11,fontWeight:700,
+                            color:z.avg_yield ? T.green : T.muted}}>
+                            {z.avg_yield ? `${z.avg_yield.toFixed(2)}%` : "/"}
+                          </div>
+                        )}
 
                         {/* Link → Listinzi filtrirani */}
                         <div>
