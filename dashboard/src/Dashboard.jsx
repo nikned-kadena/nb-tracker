@@ -579,7 +579,7 @@ export default function Dashboard() {
               <KpiCard label="Unique nekretnine" value={uniq.length}
                 sub={`od ${totalRaw} oglasa, ${dups} dup.`} />
               <KpiCard label="Duplikati" value={dups}
-                sub="ista nkrt, više agencija" />
+                sub={totalRaw > 0 ? `${(dups/totalRaw*100).toFixed(1)}% od ukupnih · ista nkrt, više agencija` : "ista nkrt, više agencija"} />
               <KpiCard label="Novi danas" value={`+${noveDanas.length}`}
                 sub={(data?.diff_removed?.length||0) > 0
                   ? `−${data.diff_removed.length} skinutih · klikni`
