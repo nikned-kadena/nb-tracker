@@ -337,7 +337,10 @@ export default function Dashboard() {
 
   const cene   = useMemo(()=>uniq.map(l=>l.cena).filter(Boolean),[uniq]);
   const cm2s   = useMemo(()=>uniq.map(l=>l.cena_m2).filter(Boolean),[uniq]);
-  const dups   = listings.length - (data?.total_unique||0);
+  // Duplikati: latest sadrzi vec DEDUPLIKOVANU listu, pa se broj duplikata
+  // cita iz total_raw (svi relevantni oglasi pre dedup-a) - ne iz listings.length
+  const totalRaw = data?.total_raw ?? listings.length;
+  const dups   = totalRaw - (data?.total_unique || listings.length);
 
   const avgCM2 = cm2s.length ? Math.round(cm2s.reduce((a,b)=>a+b,0)/cm2s.length) : null;
 
@@ -550,11 +553,13 @@ export default function Dashboard() {
             {/* KPI row */}
             <div style={{display:"flex",flexWrap:"wrap",gap:12,marginBottom:24}}>
               <KpiCard label="Unique nekretnine" value={uniq.length}
-                sub={`${listings.length} oglasa, ${dups} dup.`} />
+                sub={`od ${totalRaw} oglasa, ${dups} dup.`} />
               <KpiCard label="Duplikati" value={dups}
                 sub="ista nkrt, više agencija" />
               <KpiCard label="Novi danas" value={`+${noveDanas.length}`}
-                sub={`−${data?.diff_removed?.length||0} skinutih · klikni`}
+                sub={(data?.diff_removed?.length||0) > 0
+                  ? `−${data.diff_removed.length} skinutih · klikni`
+                  : "klikni za filter"}
                 subColor={T.blue}
                 onClick={()=>{setNoviFilter(f=>!f);setSelBuildings([]);setSelStruktura([]);}}
                 highlight={noviFilter?T.blue:undefined} />
