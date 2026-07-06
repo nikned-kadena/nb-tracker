@@ -573,9 +573,8 @@ export default function Dashboard() {
 
         {!loading && !error && <>
 
-          {/* ═══ SEGMENTACIJA ═══ */}
-          {tab==="Segmentacija" && <>
-            {/* KPI row */}
+          {/* ═══ GLOBALNI KPI ROW — vidljiv u svim tabovima OSIM Agencije ═══ */}
+          {tab!=="Agencije" && (
             <div style={{display:"flex",flexWrap:"wrap",gap:12,marginBottom:24}}>
               <KpiCard label="Unique nekretnine" value={uniq.length}
                 sub={`od ${totalRaw} oglasa, ${dups} dup.`} />
@@ -596,15 +595,17 @@ export default function Dashboard() {
               <KpiCard label="Prosek €/m²" value={avgCM2?`${fmt(avgCM2)} €`:"–"}
                 sub="sve strukture" />
             </div>
+          )}
 
-            {/* Struktura kartice */}
+          {/* ═══ SEGMENTACIJA — samo strukturne kartice ═══ */}
+          {tab==="Segmentacija" && (
             <div style={{display:"grid",
               gridTemplateColumns:"repeat(auto-fill,minmax(260px,1fr))",gap:14}}>
               {STRUKTURA_ORDER.map(s=>(
                 <StrukCard key={s} s={s} listings={uniq} mode={mode} />
               ))}
             </div>
-          </>}
+          )}
 
           {/* ═══ ZGRADE ═══ */}
           {tab==="Zgrade" && (()=>{
