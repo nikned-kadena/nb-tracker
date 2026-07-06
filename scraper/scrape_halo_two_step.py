@@ -165,15 +165,19 @@ def get_listing_urls(mode: str, max_pages: int = 100) -> tuple[list[str], dict, 
             all_urls.append(full_url)
             new_count += 1
 
-            # Cena sa kartice (data-value) — za dnevno osvezavanje kesa
-            price_el = card.select_one("span[data-value]")
-            if price_el:
+            # Cena sa kartice — kartica ima VISE data-value elemenata (ukupna
+            # cena i cena po m2); uzimamo NAJVECI jer je ukupna cena uvek veca.
+            # (Bug 05-06.07: select_one je uzimao prvi = cena po m2 i kvario kes.)
+            kandidati = []
+            for pel in card.select("span[data-value]"):
                 try:
-                    pv = float(str(price_el.get("data-value", "")).replace(",", "."))
+                    pv = float(str(pel.get("data-value", "")).replace(",", "."))
                     if pv > 100:
-                        price_map[full_url] = pv
+                        kandidati.append(pv)
                 except Exception:
                     pass
+            if kandidati:
+                price_map[full_url] = max(kandidati)
 
             # Agencija slug sa kartice — /oglasi/NAZIV href
             for a in card.find_all("a", href=re.compile(r"/oglasi/", re.I)):
@@ -414,7 +418,14 @@ def main():
         if c.get("verdikt") == "relevantan" and c.get("listing"):
             l = dict(c["listing"])
             nova_cena = price_map.get(url)
-            if nova_cena and nova_cena != l.get("cena"):
+            stara_cena = l.get("cena")
+            # Ratio guard: prihvati novu cenu SAMO ako je 50-200% stare.
+            # Realne korekcije cena prolaze; pogresno ocitavanje sa kartice
+            # (npr. cena po m2 = ~2% ukupne) automatski se odbija.
+            # Vece skokove pokupi nedeljni full refresh iz CurrentClassified.
+            if (nova_cena and stara_cena
+                    and nova_cena != stara_cena
+                    and 0.5 <= nova_cena / stara_cena <= 2.0):
                 l["cena"] = nova_cena
                 if l.get("m2") and l["m2"] > 5:
                     l["cena_m2"] = round(nova_cena / l["m2"])
