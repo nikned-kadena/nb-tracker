@@ -250,8 +250,10 @@ def scrape_oglas(url: str, ag_from_card: str | None = None) -> dict | None:
         except Exception:
             pass
 
-    combined = f"{naslov} {opis}"
-    zgrada = detect_building(combined)
+    # Naslov ima prioritet nad opisom — resava kolizije kad opis spomene
+    # susedne zgrade ("u blizini A bloka", "kod Soul 64" i sl.).
+    # Blacklist (Ledine, Blok 62+, Zemun...) je unutar detect_building.
+    zgrada = detect_building(text=None, title=naslov, description=opis)
     if not zgrada:
         return None
 
