@@ -1,19 +1,29 @@
 {
-  "date": "2026-07-07",
+  "date": "2026-07-08",
   "mode": "prodaja",
   "source": "nrs",
-  "total_raw": 129,
-  "total_unique": 106,
+  "total_raw": 128,
+  "total_unique": 105,
   "diff_new": [
-    "3b660da6fc77",
-    "72d7d70aeb01",
-    "d8a1df82c6e9",
-    "5c48efa45bb3"
+    "975f123e55e8",
+    "5a50d2b04a83",
+    "3a0e2f1a5071",
+    "e49b7dd30ff4",
+    "19e8979ac108",
+    "e78fdb3ffe3d",
+    "80c5f88e83f1",
+    "6e0edd5bc4f0"
   ],
   "diff_removed": [
-    "531916724ea2",
-    "90476166305c",
-    "c5adb02b8fed"
+    "0c807634fd59",
+    "89ae64af6c73",
+    "b317d6e38a4d",
+    "248722d80a7b",
+    "03cc7cee0adc",
+    "ee537c27ab63",
+    "fec76072a7a6",
+    "e7ff4a577eaa",
+    "4e79bd9ab7a9"
   ],
   "listings": [
     {
@@ -129,6 +139,34 @@
       "izvor": "nrs"
     },
     {
+      "id": "2bcb0765201c",
+      "url": "https://www.nekretnine.rs/oglasi/1137939/",
+      "naslov": "Dvosobni stan Tadije Sondermajera, Airport City - Blok 60, Beograd",
+      "opis": "Novi Beograd, Blok 65 (Wellport) - Tadije Sondermajera  2.0, 57m2 (lođa 4m2), 2/12, CG, tri lifta, telefon, interfon, video nadzor, garaža  U ponudi nov, neuseljavan, luksuzno namešten dvosoban",
+      "zgrada": "Wellport",
+      "struktura": "2.0",
+      "cena": 300000.0,
+      "m2": 57.0,
+      "cena_m2": 5263,
+      "agencija": "MOJ KVADRAT",
+      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/1049/",
+      "izvor": "nrs"
+    },
+    {
+      "id": "f21d13854330",
+      "url": "https://www.nekretnine.rs/oglasi/1168449/",
+      "naslov": "Dvosobni stan Đorđa Stanojevića, Belvil, Beograd",
+      "opis": "Novi Beograd, Blok 67 (Belville) - Đorđa Stanojevića  1.5, 41m2 (lođa 4m2), 4/13, CG, dva lifta, telefon, interfon, parking  U ponudi očuvan izvorno jednosoban stan koji je adaptiran u",
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "cena": 208500.0,
+      "m2": 41.0,
+      "cena_m2": 5085,
+      "agencija": "MOJ KVADRAT",
+      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/1049/",
+      "izvor": "nrs"
+    },
+    {
       "id": "4e4bdfc60138",
       "url": "https://www.nekretnine.rs/oglasi/1133567/",
       "naslov": "Stan Ulica Omladinskih brigada 84g, Stari Aerodrom, Beograd",
@@ -154,20 +192,6 @@
       "cena_m2": 5000,
       "agencija": null,
       "agencija_url": null,
-      "izvor": "nrs"
-    },
-    {
-      "id": "4e79bd9ab7a9",
-      "url": "https://www.nekretnine.rs/oglasi/33703/",
-      "naslov": "Četvorosobni stan Džona Kenedija, Paviljoni - Pariske komune - Ikarus, Beograd",
-      "opis": "Retko u ponudi &ndash; ultra luksuzan, useljiv penthouse u kompleksu Kennedy Residence.&lt;/br&gt;\n\nStan se prodaje sa ugradnom Arrital kuhinjom i ugradnom tehnikom, ugradnim garderoberima Alf Dafre,",
-      "zgrada": "Kennedy Residence",
-      "struktura": "4.0",
-      "cena": 956880.0,
-      "m2": 167.0,
-      "cena_m2": 5730,
-      "agencija": "BRIMA REAL ESTATE",
-      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/529/",
       "izvor": "nrs"
     },
     {
@@ -238,6 +262,20 @@
       "cena_m2": null,
       "agencija": "Bel Mondo",
       "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/4845/",
+      "izvor": "nrs"
+    },
+    {
+      "id": "021b4ae11910",
+      "url": "https://www.nekretnine.rs/oglasi/1243439/",
+      "naslov": "Trosobni stan Omladinskih Brigada, Airport City - Blok 60, Beograd",
+      "opis": " Omladinskih brigada, 4/40, gas-Stvarna površina-95m2 , ugovorna površina-95m2,\nU ponudi je luksuzno opremljen trosoban stan u prestižnom kompleksu West 65.\nStan je dvostrano orijentisan",
+      "zgrada": "West 65",
+      "struktura": "3.0",
+      "cena": 590000.0,
+      "m2": 95.0,
+      "cena_m2": 6211,
+      "agencija": "GIGANT NEKRETNINE",
+      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/199/",
       "izvor": "nrs"
     },
     {
@@ -451,22 +489,8 @@
       "izvor": "nrs"
     },
     {
-      "id": "248722d80a7b",
-      "url": "https://www.nekretnine.rs/oglasi/1235265/",
-      "naslov": "Trosobni stan Jurija Gagarina, Mladost, Beograd",
-      "opis": "U luksuznom objektu Sakura park nalazi se ovaj trosoban stan od 76m2. Stan nije nikada useljavan. Prostorije: predsoblje, dve spavaće sobe, dnevni boravak sa kuhinjom, dva mokra čvora, lepa velika",
-      "zgrada": "Sakura Park",
-      "struktura": "3.0",
-      "cena": 350000.0,
-      "m2": 76.0,
-      "cena_m2": 4605,
-      "agencija": "ATAŠE NEKRETNINE",
-      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/783/",
-      "izvor": "nrs"
-    },
-    {
-      "id": "89ae64af6c73",
-      "url": "https://www.nekretnine.rs/oglasi/1235267/",
+      "id": "e78fdb3ffe3d",
+      "url": "https://www.nekretnine.rs/oglasi/1255967/",
       "naslov": "Trosobni stan Jurija Gagarina, Mladost, Beograd",
       "opis": "U luksuznom objektu Sakura park nalazi se ovaj trosoban stan od 84m2. Stan nije nikada useljavan. Prostorije: predsoblje, dve spavaće sobe, dnevni boravak sa kuhinjom, dva kompletna kupatila, lepa",
       "zgrada": "Sakura Park",
@@ -474,6 +498,20 @@
       "cena": 385000.0,
       "m2": 84.0,
       "cena_m2": 4583,
+      "agencija": "ATAŠE NEKRETNINE",
+      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/783/",
+      "izvor": "nrs"
+    },
+    {
+      "id": "19e8979ac108",
+      "url": "https://www.nekretnine.rs/oglasi/1255971/",
+      "naslov": "Trosobni stan Jurija Gagarina, Mladost, Beograd",
+      "opis": "U luksuznom objektu Sakura park nalazi se ovaj trosoban stan od 76m2. Stan nije nikada useljavan. Prostorije: predsoblje, dve spavaće sobe, dnevni boravak sa kuhinjom, dva mokra čvora, lepa velika",
+      "zgrada": "Sakura Park",
+      "struktura": "3.0",
+      "cena": 350000.0,
+      "m2": 76.0,
+      "cena_m2": 4605,
       "agencija": "ATAŠE NEKRETNINE",
       "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/783/",
       "izvor": "nrs"
@@ -493,8 +531,8 @@
       "izvor": "nrs"
     },
     {
-      "id": "e7ff4a577eaa",
-      "url": "https://www.nekretnine.rs/oglasi/1233673/",
+      "id": "3a0e2f1a5071",
+      "url": "https://www.nekretnine.rs/oglasi/1256265/",
       "naslov": "Četvorosobni stan Tadije Sondermajera, Airport City - Blok 60, Beograd",
       "opis": "Ekskluzivna ponuda, samo u našoj ponudi izuzetan četvorosoban stan u okviru kompleksa WEST 65, Novi Beograd.\nKula West 65 predstavlja jedan od simbola grada Beograda, sa svim potrebnim sadržajima",
       "zgrada": "West 65",
@@ -549,17 +587,17 @@
       "izvor": "nrs"
     },
     {
-      "id": "9ede3edd0f64",
-      "url": "https://www.nekretnine.rs/oglasi/88019/",
-      "naslov": "Dvosobni stan Tošin bunar, Bežanijska kosa, Beograd",
-      "opis": "SAVADA 3 je kompleks u mirnom delu bloka 65 i pruža savršeno okruženje za porodičan život. Moderno uređen i strateški povezan sa glavnim saobraćajnicama, školama, vrtićima i Delta City",
-      "zgrada": "Savada",
-      "struktura": "2.0",
-      "cena": 245000.0,
-      "m2": 51.0,
-      "cena_m2": 4804,
-      "agencija": "GAMA PROPERTY Beograd",
-      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/613/",
+      "id": "607d1c6f2acf",
+      "url": "https://www.nekretnine.rs/oglasi/1055595/",
+      "naslov": "Trosobni stan Omladinskih Brigada, Belvil, Beograd",
+      "opis": "Omladinskih brigada, West 65, trosoban, 100 m2, terasa, 3/6, uknjižen.\n\nU prilici smo da vam ponudimo izuzetan 3.0 stan na odličnoj lokaciji, sa dobrom infrastrukturom i svim potrebnim sadržajima",
+      "zgrada": "Belvil",
+      "struktura": "3.0",
+      "cena": 590000.0,
+      "m2": 100.0,
+      "cena_m2": 5900,
+      "agencija": "ZIDART",
+      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/155/",
       "izvor": "nrs"
     },
     {
@@ -577,17 +615,17 @@
       "izvor": "nrs"
     },
     {
-      "id": "607d1c6f2acf",
-      "url": "https://www.nekretnine.rs/oglasi/1055595/",
-      "naslov": "Trosobni stan Omladinskih Brigada, Belvil, Beograd",
-      "opis": "Omladinskih brigada, West 65, trosoban, 100 m2, terasa, 3/6, uknjižen.\n\nU prilici smo da vam ponudimo izuzetan 3.0 stan na odličnoj lokaciji, sa dobrom infrastrukturom i svim potrebnim sadržajima",
-      "zgrada": "Belvil",
-      "struktura": "3.0",
-      "cena": 590000.0,
-      "m2": 100.0,
-      "cena_m2": 5900,
-      "agencija": "ZIDART",
-      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/155/",
+      "id": "9ede3edd0f64",
+      "url": "https://www.nekretnine.rs/oglasi/88019/",
+      "naslov": "Dvosobni stan Tošin bunar, Bežanijska kosa, Beograd",
+      "opis": "SAVADA 3 je kompleks u mirnom delu bloka 65 i pruža savršeno okruženje za porodičan život. Moderno uređen i strateški povezan sa glavnim saobraćajnicama, školama, vrtićima i Delta City",
+      "zgrada": "Savada",
+      "struktura": "2.0",
+      "cena": 245000.0,
+      "m2": 51.0,
+      "cena_m2": 4804,
+      "agencija": "GAMA PROPERTY Beograd",
+      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/613/",
       "izvor": "nrs"
     },
     {
@@ -675,6 +713,20 @@
       "izvor": "nrs"
     },
     {
+      "id": "e49b7dd30ff4",
+      "url": "https://www.nekretnine.rs/oglasi/1011227/",
+      "naslov": "Dvosobni stan u dobrom stanju, peti sprat, Belvil, Beograd",
+      "opis": "Dvosoban stan, Airport Garden, Novi Beograd  U novom i modernom kompleksu Airport Garden prodaje se komforan dvosoban stan od 58m2 na petom spratu  odličan izbor za savremen način života ili kao",
+      "zgrada": "Airport Garden",
+      "struktura": "2.0",
+      "cena": 237800.0,
+      "m2": 58.0,
+      "cena_m2": 4100,
+      "agencija": "ETAGI COM",
+      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/1095/",
+      "izvor": "nrs"
+    },
+    {
       "id": "b3fc12a4ba68",
       "url": "https://www.nekretnine.rs/oglasi/64833/",
       "naslov": "Četvorosobni stan Tošin bunar, Airport City - Blok 60, Beograd",
@@ -684,20 +736,6 @@
       "cena": 302940.0,
       "m2": 84.0,
       "cena_m2": 3606,
-      "agencija": "MOJ KVADRAT",
-      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/1049/",
-      "izvor": "nrs"
-    },
-    {
-      "id": "2bcb0765201c",
-      "url": "https://www.nekretnine.rs/oglasi/1137939/",
-      "naslov": "Dvosobni stan Tadije Sondermajera, Airport City - Blok 60, Beograd",
-      "opis": "Novi Beograd, Blok 65 (Wellport) - Tadije Sondermajera  2.0, 57m2 (lođa 4m2), 2/12, CG, tri lifta, telefon, interfon, video nadzor, garaža  U ponudi nov, neuseljavan, luksuzno namešten dvosoban",
-      "zgrada": "Wellport",
-      "struktura": "2.0",
-      "cena": 300000.0,
-      "m2": 57.0,
-      "cena_m2": 5263,
       "agencija": "MOJ KVADRAT",
       "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/1049/",
       "izvor": "nrs"
@@ -784,20 +822,6 @@
       "cena_m2": 5000,
       "agencija": "ECONOMIC NET SYSTEM",
       "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/1021/",
-      "izvor": "nrs"
-    },
-    {
-      "id": "f21d13854330",
-      "url": "https://www.nekretnine.rs/oglasi/1168449/",
-      "naslov": "Dvosobni stan Đorđa Stanojevića, Belvil, Beograd",
-      "opis": "Novi Beograd, Blok 67 (Belville) - Đorđa Stanojevića  1.5, 41m2 (lođa 4m2), 4/13, CG, dva lifta, telefon, interfon, parking  U ponudi očuvan izvorno jednosoban stan koji je adaptiran u",
-      "zgrada": "Belvil",
-      "struktura": "2.0",
-      "cena": 208500.0,
-      "m2": 41.0,
-      "cena_m2": 5085,
-      "agencija": "MOJ KVADRAT",
-      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/1049/",
       "izvor": "nrs"
     },
     {
@@ -983,20 +1007,6 @@
       "izvor": "nrs"
     },
     {
-      "id": "fec76072a7a6",
-      "url": "https://www.nekretnine.rs/oglasi/1246945/",
-      "naslov": "Četvorosobni stan Tadije Sondermajera, Airport City - Blok 60, Beograd",
-      "opis": "MAGNAT 064.5.800.900 - u ulici Tadije Sondermajera, u kraju poznatom kao Wellport, na Opštini Novi Beograd, MAGNAT prodaje 3.5 soban stan od 106m2, na II spratu (od ukupno 12spr.) u zgradi iz",
-      "zgrada": "Wellport",
-      "struktura": "4.0",
-      "cena": 489888.0,
-      "m2": 106.0,
-      "cena_m2": 4622,
-      "agencija": "Magnat Kupac",
-      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/4051/",
-      "izvor": "nrs"
-    },
-    {
       "id": "5c48efa45bb3",
       "url": "https://www.nekretnine.rs/oglasi/1252745/",
       "naslov": "Stan Tadije Sondermajera, Airport City - Blok 60, Beograd",
@@ -1179,6 +1189,20 @@
       "izvor": "nrs"
     },
     {
+      "id": "5a50d2b04a83",
+      "url": "https://www.nekretnine.rs/oglasi/1254463/",
+      "naslov": "Dvosobni stan Jurija Gagarina, Mladost, Beograd",
+      "opis": "Odlican za stanovanje i kao investicija. Stan je istocno orijentisan, veoma svetao i osuncan, sa obiljem prirodne svetlosti. Nalazi se u novoizgradjenom kompleksu \"Lastavice\" na Novom Beogradu, preko",
+      "zgrada": "Lastavica",
+      "struktura": "2.0",
+      "cena": 199000.0,
+      "m2": 39.0,
+      "cena_m2": 5103,
+      "agencija": "EUROPOLIS REAL ESTATE",
+      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/579/",
+      "izvor": "nrs"
+    },
+    {
       "id": "d8a1df82c6e9",
       "url": "https://www.nekretnine.rs/oglasi/1250995/",
       "naslov": "Dvosobni stan Omladinskih brigada, Belvil, Beograd",
@@ -1263,8 +1287,8 @@
       "izvor": "nrs"
     },
     {
-      "id": "0c807634fd59",
-      "url": "https://www.nekretnine.rs/oglasi/1234817/",
+      "id": "80c5f88e83f1",
+      "url": "https://www.nekretnine.rs/oglasi/1255523/",
       "naslov": "Četvorosobni stan Tošin bunar, Stari Aerodrom, Beograd",
       "opis": "BEZ PROVIZIJE ZA KUPCA\nNew Minel Residence je novi biser moderne arhitektrure na Novom Beogradu. Stan poseduje 3 spavaće sobe, 2 mokra čvora, lođu, orijentisan je ka Tošinom bunaru. Centalno",
       "zgrada": "New Minel",
@@ -1291,20 +1315,6 @@
       "izvor": "nrs"
     },
     {
-      "id": "b317d6e38a4d",
-      "url": "https://www.nekretnine.rs/oglasi/1146493/",
-      "naslov": "Jednosoban stan Đorđa Stanojevića, Airport City - Blok 60, Beograd",
-      "opis": "Novo,novogradnja, Kompleks Airport Garden, garsonjera, 32 m2, Novi Beograd,recepcija, 4 lifta, parking prostor</br>U sveže useljivoj novogradnji stambeno-poslovnog kompleksa Airport Gardenu, na",
-      "zgrada": "Airport Garden",
-      "struktura": "garsonjera",
-      "cena": 159000.0,
-      "m2": 32.0,
-      "cena_m2": 4969,
-      "agencija": "KW CVETKOVIĆ ROŠKOV",
-      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/53/",
-      "izvor": "nrs"
-    },
-    {
       "id": "27c0501aae22",
       "url": "https://www.nekretnine.rs/oglasi/1245405/",
       "naslov": "Dvosobni stan Đorđa Stanojevića, Belvil, Beograd",
@@ -1319,8 +1329,8 @@
       "izvor": "nrs"
     },
     {
-      "id": "ee537c27ab63",
-      "url": "https://www.nekretnine.rs/oglasi/1234765/",
+      "id": "6e0edd5bc4f0",
+      "url": "https://www.nekretnine.rs/oglasi/1255483/",
       "naslov": "Četvorosobni stan Đorđa Stanojevića, Belvil, Beograd",
       "opis": "Na prodaju je stan u kompleksu Airport Garden, koji se nalazi iza tržnog centra Soul. Reč je o penthouse stanu na 12. spratu, poslednjem u zgradi, sa pogledom koji ostaje zauvek  nema mogućnosti",
       "zgrada": "Airport Garden",
@@ -1330,20 +1340,6 @@
       "cena_m2": 4104,
       "agencija": "ART NEKRETNINE",
       "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/241/",
-      "izvor": "nrs"
-    },
-    {
-      "id": "021b4ae11910",
-      "url": "https://www.nekretnine.rs/oglasi/1243439/",
-      "naslov": "Trosobni stan Omladinskih Brigada, Airport City - Blok 60, Beograd",
-      "opis": " Omladinskih brigada, 4/40, gas-Stvarna površina-95m2 , ugovorna površina-95m2,\nU ponudi je luksuzno opremljen trosoban stan u prestižnom kompleksu West 65.\nStan je dvostrano orijentisan",
-      "zgrada": "West 65",
-      "struktura": "3.0",
-      "cena": 590000.0,
-      "m2": 95.0,
-      "cena_m2": 6211,
-      "agencija": "GIGANT NEKRETNINE",
-      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/199/",
       "izvor": "nrs"
     },
     {
@@ -1417,8 +1413,8 @@
       "izvor": "nrs"
     },
     {
-      "id": "03cc7cee0adc",
-      "url": "https://www.nekretnine.rs/oglasi/1170569/",
+      "id": "975f123e55e8",
+      "url": "https://www.nekretnine.rs/oglasi/1257929/",
       "naslov": "Dvosobni stan Jurija Gagarina, Belvil, Beograd",
       "opis": "Agencijski ID: 132455, IX/X, lift, terasa, uknjižen, garaza, parking, podrum, stambena zgrada. Na super lokaciji u Belvilu se prodaje dvosoban stan. Idealan za život kao i informacija. Više",
       "zgrada": "Belvil",
