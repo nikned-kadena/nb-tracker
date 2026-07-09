@@ -419,6 +419,28 @@ def main():
         c["last_seen"] = danas
         if c.get("verdikt") == "relevantan" and c.get("listing"):
             l = dict(c["listing"])
+
+            # ── Re-klasifikacija zgrade po AKTUELNOM buildings.py ──
+            # Kes cuva zgradu iz trenutka kad je oglas prvi put video, ali
+            # buildings.py se moze menjati (blacklist novih naselja, nove
+            # zgrade, precizniji regexi). Na svakom runu, ponovo pokreni
+            # detekciju na kesiranom naslovu/opisu.
+            # (Bug otkriven 09.07.2026: A Blok pun oglasa sa "Ledine",
+            # "Blok 62", "Soul 64" jer su klasifikovani starim buildings.py)
+            nova_zgrada = detect_building(text=None,
+                                          title=l.get("naslov", ""),
+                                          description=l.get("opis", ""))
+            if nova_zgrada is None:
+                # Oglas vise nije relevantan (blacklist ili nema pogotka).
+                # Premarkiraj u kesu i preskoci ovaj run.
+                c["verdikt"] = "nerelevantan"
+                c["listing"] = None
+                iz_kesa_nerel += 1
+                continue
+            if nova_zgrada != l.get("zgrada"):
+                l["zgrada"] = nova_zgrada
+                c["listing"] = l  # ostane sinhronizovan sa svezom klasifikacijom
+
             nova_cena = price_map.get(url)
             stara_cena = l.get("cena")
             # Ratio guard: prihvati novu cenu SAMO ako je 50-200% stare.
