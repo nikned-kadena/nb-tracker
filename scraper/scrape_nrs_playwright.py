@@ -322,14 +322,25 @@ def scrape_oglas(pw_page, url: str) -> dict | None:
     struktura = parse_struktura(naslov, meta_desc + " " + page_title + " " + meta_opts_content)
 
     # Fallback: ako je struktura "ostalo", pokušaj da izvučeš broj soba
-    # direktno iz HTML tabele karakteristika (npr. "Sobe: 5")
+    # direktno iz HTML tabele karakteristika. Prosireno da hvata vise varijanti:
+    # "Sobe: 5", "Broj soba: 5", "5 soba", "5.0 soba"
     if struktura == "ostalo":
         sobe_td = None
         for el in soup.select("div, span, td, li"):
             txt = el.get_text(" ", strip=True)
-            m_sobe = re.search(r"Sobe[:\s]+(\d+)", txt, re.IGNORECASE)
+            # Varijanta 1: "Sobe: 5" ili "Broj soba: 5"
+            m_sobe = re.search(r"(?:Broj\s+soba|Sobe)[:\s]+(\d+(?:[.,]\d)?)",
+                                txt, re.IGNORECASE)
             if m_sobe:
-                sobe_td = int(m_sobe.group(1))
+                val = m_sobe.group(1).replace(",", ".")
+                sobe_td = int(float(val))
+                break
+            # Varijanta 2: "5 soba" ili "5.0 soba" (broj pre reci)
+            m_sobe2 = re.search(r"\b(\d+(?:[.,]\d)?)\s+sob[ae]\b",
+                                 txt, re.IGNORECASE)
+            if m_sobe2:
+                val = m_sobe2.group(1).replace(",", ".")
+                sobe_td = int(float(val))
                 break
         if sobe_td:
             sobe_to_str = {1:"garsonjera", 2:"2.0", 3:"3.0", 4:"4.0", 5:"5.0", 6:"5.0"}
@@ -338,6 +349,11 @@ def scrape_oglas(pw_page, url: str) -> dict | None:
     # Fallback 2: veliki stanovi bez podatka o sobama -> 5.0 (Petosoban+)
     # Agencije cesto ne popune broj soba za luksuzne stanove; na Novom
     # Beogradu 130+ m² je pouzdano petosoban ili veci (4.5 ide do ~125 m²).
+    # NAPOMENA (10.07.2026): probao sam da spustim na 110, ali je to
+    # kontaminiralo Petosoban+ sa 4.0 i 4.5 stanovima (110-130 m² je
+    # mesovito tržište). Ostavlja se 130 kao konservativan prag —
+    # 5-sobni stanovi u 110-125 m² zoni ostaju "ostalo" ako nemaju
+    # pouzdan tekstualni signal, sto je manja greska od kontaminacije.
     if struktura == "ostalo" and m2 and m2 >= 130:
         struktura = "5.0"
 
