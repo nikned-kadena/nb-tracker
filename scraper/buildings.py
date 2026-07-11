@@ -68,9 +68,23 @@ BUILDINGS = [
     # (bila je greška — reč "soul" je preterano labava)
     ("Soul 64",        [r"\bsoul\s*64\b"]),
     ("The One",        [r"\bthe\s*one\b"]),
-    ("Wellport",       [r"\bwellport\b"]),
+
+    # ── West 65 KOMPLEKS ─────────────────────────────────────────────────
+    # "West 65" je naziv kompleksa. Pod-zgrade unutar kompleksa
+    # (Wellport, Zepterra, West 65 Kula) moraju biti navedene PRE opšteg
+    # "West 65" jer naslovi oglasa cesto pominju oba imena zajedno
+    # ("West 65 Zeptera Penthouse", "West 65 Wellport 140m2").
+    # Argument (Nikola, 10.07.2026): "Ako je oglas stvarno za opšti
+    # West 65, niko neće u naslov staviti Zepteru ili Wellport." Dakle
+    # spomen pod-zgrade je uvek jaci signal od kompleksa.
+    # Redosled: sve pod-zgrade PRE "West 65".
+    #
+    # BUDUĆE PROŠIRENJE: ako se doda nova pod-zgrada West 65 kompleksa,
+    # STAVI JE OVDE (pre West 65), ne dole na kraj liste.
+    ("Wellport",       [r"\bwe?ll?port\b"]),  # hvata Wellport, Welport (tipfeler)
+    ("Zepterra",       [r"\bzepterr?a\b"]),  # hvata Zepterra, Zeptera
+    # (West 65 Kula je vec na vrhu liste — najspecificniji match)
     ("West 65",        [r"\bwest\s*65\b"]),
-    ("Zepterra",       [r"\bzepterr?a\b"]),
 ]
 
 # Nazivi koji se koriste u API responsu / JSON fajlovima
