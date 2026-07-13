@@ -1,23 +1,24 @@
 {
-  "date": "2026-07-12",
+  "date": "2026-07-13",
   "mode": "renta",
   "source": "nrs",
-  "total_raw": 121,
+  "total_raw": 119,
   "total_unique": 83,
   "diff_new": [
-    "9280565c4490",
-    "50bfdb730978",
-    "fec3b53c72cf",
-    "5e5def2dae7a"
+    "63515a065d8a",
+    "cede78717ddc",
+    "f6967f41ef74",
+    "450be5e8aa9e",
+    "1947d59e3851",
+    "8c6918500bc2"
   ],
   "diff_removed": [
-    "b68f9033d354",
-    "1e2da73787e2",
-    "ee480ae57dd9",
-    "7d91c28bfdcb",
-    "450be5e8aa9e",
-    "0a913f8c6dbe",
-    "3e8a87d1eb43"
+    "50bfdb730978",
+    "160a6e8e6850",
+    "4d235fbe4bbc",
+    "d99229e86d6a",
+    "952bf3651a33",
+    "7b59c5fb70d9"
   ],
   "listings": [
     {
@@ -343,8 +344,50 @@
       "izvor": "nrs"
     },
     {
-      "id": "7b59c5fb70d9",
-      "url": "https://www.nekretnine.rs/oglasi/1254331/",
+      "id": "5f90af6524ef",
+      "url": "https://www.nekretnine.rs/oglasi/1259141/",
+      "naslov": "Dvosobni stan Jurija Gagarina, Belvil, Beograd",
+      "opis": "U ponudi lep, svetao, istočno orijentisan stan. \n\nKompletno opremljen modernim nameštajem i kvalitetnom tehnikom. \n\nSastoji se od : hodnika, velike dnevne sobe, trpezarije, kuhinje, spavaće sobe,",
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "cena": null,
+      "m2": 65.0,
+      "cena_m2": null,
+      "agencija": "MEGASTAN",
+      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/1015/",
+      "izvor": "nrs"
+    },
+    {
+      "id": "0c31638c0dd5",
+      "url": "https://www.nekretnine.rs/oglasi/1232403/",
+      "naslov": "Trosobni stan Džona Kenedija, Paviljoni - Pariske komune - Ikarus, Beograd",
+      "opis": "Potpuno nov, stan u luksuznom stambeno-poslovnom objektu Kennedy Residence,sa 24/7 fizičko-tehničkim obezbeđenjem.Liftovi vode direktno do podzemne garaže i ostave koja ide uz stan.Stan se",
+      "zgrada": "Kennedy Residence",
+      "struktura": "3.0",
+      "cena": 1650.0,
+      "m2": 88.0,
+      "cena_m2": 19,
+      "agencija": "GAMA PROPERTY Beograd",
+      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/613/",
+      "izvor": "nrs"
+    },
+    {
+      "id": "f6967f41ef74",
+      "url": "https://www.nekretnine.rs/oglasi/1278227/",
+      "naslov": "Dvosobni stan Bulevar Crvene Armije, Belvil, Beograd",
+      "opis": "SRPSKI\n\nIzdaje se prijatan i funkcionalan stan u jednom od najtraženijih delova Novog Beograda  Belvilu. Stan se nalazi na odličnoj lokaciji, u neposrednoj blizini tržnog centra, marketa,",
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "cena": null,
+      "m2": 52.0,
+      "cena_m2": null,
+      "agencija": "ATAŠE NEKRETNINE",
+      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/783/",
+      "izvor": "nrs"
+    },
+    {
+      "id": "1947d59e3851",
+      "url": "https://www.nekretnine.rs/oglasi/1278191/",
       "naslov": "Dvosobni stan Omladinskih brigada, Belvil, Beograd",
       "opis": "Srpski\n\nRetko u ponudi | West 65\n\nElegantan dvosoban stan u centralnom delu kompleksa West 65, sa pogledom na mirno unutrašnje dvorište.\n\nKompletno opremljen vrhunskim nameštajem i premium belom",
       "zgrada": "Belvil",
@@ -371,62 +414,6 @@
       "izvor": "nrs"
     },
     {
-      "id": "5f90af6524ef",
-      "url": "https://www.nekretnine.rs/oglasi/1259141/",
-      "naslov": "Dvosobni stan Jurija Gagarina, Belvil, Beograd",
-      "opis": "U ponudi lep, svetao, istočno orijentisan stan. \n\nKompletno opremljen modernim nameštajem i kvalitetnom tehnikom. \n\nSastoji se od : hodnika, velike dnevne sobe, trpezarije, kuhinje, spavaće sobe,",
-      "zgrada": "Belvil",
-      "struktura": "2.0",
-      "cena": null,
-      "m2": 65.0,
-      "cena_m2": null,
-      "agencija": "MEGASTAN",
-      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/1015/",
-      "izvor": "nrs"
-    },
-    {
-      "id": "952bf3651a33",
-      "url": "https://www.nekretnine.rs/oglasi/1249715/",
-      "naslov": "Dvosobni stan Bulevar Crvene Armije, Belvil, Beograd",
-      "opis": "SRPSKI\n\nIzdaje se prijatan i funkcionalan stan u jednom od najtraženijih delova Novog Beograda  Belvilu. Stan se nalazi na odličnoj lokaciji, u neposrednoj blizini tržnog centra, marketa,",
-      "zgrada": "Belvil",
-      "struktura": "2.0",
-      "cena": null,
-      "m2": 52.0,
-      "cena_m2": null,
-      "agencija": "ATAŠE NEKRETNINE",
-      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/783/",
-      "izvor": "nrs"
-    },
-    {
-      "id": "0c31638c0dd5",
-      "url": "https://www.nekretnine.rs/oglasi/1232403/",
-      "naslov": "Trosobni stan Džona Kenedija, Paviljoni - Pariske komune - Ikarus, Beograd",
-      "opis": "Potpuno nov, stan u luksuznom stambeno-poslovnom objektu Kennedy Residence,sa 24/7 fizičko-tehničkim obezbeđenjem.Liftovi vode direktno do podzemne garaže i ostave koja ide uz stan.Stan se",
-      "zgrada": "Kennedy Residence",
-      "struktura": "3.0",
-      "cena": 1650.0,
-      "m2": 88.0,
-      "cena_m2": 19,
-      "agencija": "GAMA PROPERTY Beograd",
-      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/613/",
-      "izvor": "nrs"
-    },
-    {
-      "id": "4d235fbe4bbc",
-      "url": "https://www.nekretnine.rs/oglasi/1249713/",
-      "naslov": "Dvosobni stan Uroša Martinovića, Belvil, Beograd",
-      "opis": "SRPSKI\n\n\n\n\nA blok, Novi Beograd  luksuzan dvoiposoban stan od 65 m sa privatnim dvorištem/terasom od 30 m i garažnim mestom. Stan je kompletno namešten, nalazi se u prizemlju i odmah je",
-      "zgrada": "A Blok",
-      "struktura": "2.0",
-      "cena": 1000.0,
-      "m2": 65.0,
-      "cena_m2": 15,
-      "agencija": "ATAŠE NEKRETNINE",
-      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/783/",
-      "izvor": "nrs"
-    },
-    {
       "id": "709aa0515bdf",
       "url": "https://www.nekretnine.rs/oglasi/1252767/",
       "naslov": "Dvosobni stan Đorđa Stanojevića, Belvil, Beograd",
@@ -438,6 +425,20 @@
       "cena_m2": null,
       "agencija": "SQUARE BG NEKRETNINE",
       "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/283/",
+      "izvor": "nrs"
+    },
+    {
+      "id": "8c6918500bc2",
+      "url": "https://www.nekretnine.rs/oglasi/1278225/",
+      "naslov": "Dvosobni stan Uroša Martinovića, Belvil, Beograd",
+      "opis": "SRPSKI\n\n\n\n\nA blok, Novi Beograd  luksuzan dvoiposoban stan od 65 m sa privatnim dvorištem/terasom od 30 m i garažnim mestom. Stan je kompletno namešten, nalazi se u prizemlju i odmah je",
+      "zgrada": "A Blok",
+      "struktura": "2.0",
+      "cena": 1000.0,
+      "m2": 65.0,
+      "cena_m2": 15,
+      "agencija": "ATAŠE NEKRETNINE",
+      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/783/",
       "izvor": "nrs"
     },
     {
@@ -707,20 +708,6 @@
       "izvor": "nrs"
     },
     {
-      "id": "622962ef8d32",
-      "url": "https://www.nekretnine.rs/oglasi/1110639/",
-      "naslov": "Dvosobni stan treći sprat, Mladost, Beograd",
-      "opis": "Izdavanje stana u kompleksu The One, Novi Beograd.\nStan je funkcionalno organizovan i sastoji se od ulaznog hodnika, dnevnog boravka sa trpezarijom, kuhinje, spavaće sobe, kupatila i",
-      "zgrada": "The One",
-      "struktura": "2.0",
-      "cena": 1000.0,
-      "m2": 45.0,
-      "cena_m2": 22,
-      "agencija": "JD PROPERTIES AND CONSULTING DOO",
-      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/347/",
-      "izvor": "nrs"
-    },
-    {
       "id": "5e5def2dae7a",
       "url": "https://www.nekretnine.rs/oglasi/1271257/",
       "naslov": "Trosobni stan Đorđa Stanojevića, Belvil, Beograd",
@@ -732,6 +719,20 @@
       "cena_m2": 16,
       "agencija": "PROPERTY BROKER",
       "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/717/",
+      "izvor": "nrs"
+    },
+    {
+      "id": "622962ef8d32",
+      "url": "https://www.nekretnine.rs/oglasi/1110639/",
+      "naslov": "Dvosobni stan treći sprat, Mladost, Beograd",
+      "opis": "Izdavanje stana u kompleksu The One, Novi Beograd.\nStan je funkcionalno organizovan i sastoji se od ulaznog hodnika, dnevnog boravka sa trpezarijom, kuhinje, spavaće sobe, kupatila i",
+      "zgrada": "The One",
+      "struktura": "2.0",
+      "cena": 1000.0,
+      "m2": 45.0,
+      "cena_m2": 22,
+      "agencija": "JD PROPERTIES AND CONSULTING DOO",
+      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/347/",
       "izvor": "nrs"
     },
     {
@@ -903,8 +904,8 @@
       "izvor": "nrs"
     },
     {
-      "id": "50bfdb730978",
-      "url": "https://www.nekretnine.rs/oglasi/1222901/",
+      "id": "450be5e8aa9e",
+      "url": "https://www.nekretnine.rs/oglasi/1222903/",
       "naslov": "Trosobni stan novo, drugi sprat, Mladost, Beograd",
       "opis": "Ovaj izuzetno komforan i funkcionalan stan se nalazi na drugom spratu novog stambeno-poslovnog kompleksa Soul 64, na Novom Beogradu. Stan je dvostrano orijentisan i sastoji se od ulaznog hodnika,",
       "zgrada": "Soul 64",
@@ -917,8 +918,8 @@
       "izvor": "nrs"
     },
     {
-      "id": "d99229e86d6a",
-      "url": "https://www.nekretnine.rs/oglasi/1259101/",
+      "id": "cede78717ddc",
+      "url": "https://www.nekretnine.rs/oglasi/1278475/",
       "naslov": "Dvosobni stan Omladinskih brigada, Mladost, Beograd",
       "opis": "Soul 64,izdaje se lux polunamešten stan sa garažom.Stan ima opremljenu kuhinju.Useljiv od 10.jula.\nAgencijska provizija 50% od prve zakupnine.",
       "zgrada": "Soul 64",
@@ -973,6 +974,20 @@
       "izvor": "nrs"
     },
     {
+      "id": "cf518fdfe7f1",
+      "url": "https://www.nekretnine.rs/oglasi/1239587/",
+      "naslov": "Trosobni stan novo, 11, Belvil, Beograd",
+      "opis": "Na prestižnoj lokaciji čeka vas luksuzan penthouse, prava retkost na tržištu. Ovaj svetao i pažljivo pozicioniran dupleks otvara vrata ka životu ispunjenom komforom i stilom. Sa prostranim,",
+      "zgrada": "Belvil",
+      "struktura": "3.0",
+      "cena": 4500.0,
+      "m2": 147.0,
+      "cena_m2": 31,
+      "agencija": "LEVERAGE NEKRETNINE",
+      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/3427/",
+      "izvor": "nrs"
+    },
+    {
       "id": "307197a872b1",
       "url": "https://www.nekretnine.rs/oglasi/1136855/",
       "naslov": "Jednosoban stan novo, deseti sprat, Mladost, Beograd",
@@ -1012,20 +1027,6 @@
       "cena_m2": null,
       "agencija": "AS NEKRETNINE PRO",
       "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/417/",
-      "izvor": "nrs"
-    },
-    {
-      "id": "cf518fdfe7f1",
-      "url": "https://www.nekretnine.rs/oglasi/1239587/",
-      "naslov": "Trosobni stan novo, 11, Belvil, Beograd",
-      "opis": "Na prestižnoj lokaciji čeka vas luksuzan penthouse, prava retkost na tržištu. Ovaj svetao i pažljivo pozicioniran dupleks otvara vrata ka životu ispunjenom komforom i stilom. Sa prostranim,",
-      "zgrada": "Belvil",
-      "struktura": "3.0",
-      "cena": 4500.0,
-      "m2": 147.0,
-      "cena_m2": 31,
-      "agencija": "LEVERAGE NEKRETNINE",
-      "agencija_url": "https://www.nekretnine.rs/agencije-za-nekretnine/3427/",
       "izvor": "nrs"
     },
     {
@@ -1155,8 +1156,8 @@
       "izvor": "nrs"
     },
     {
-      "id": "160a6e8e6850",
-      "url": "https://www.nekretnine.rs/oglasi/1249209/",
+      "id": "63515a065d8a",
+      "url": "https://www.nekretnine.rs/oglasi/1277605/",
       "naslov": "Četvorosobni stan Omladinskih Brigada, Belvil, Beograd",
       "opis": "Agencijska provizija 50% od prve kirije. Za sve dodatne informacije, molimo da nas kontaktirate. ,",
       "zgrada": "Belvil",
