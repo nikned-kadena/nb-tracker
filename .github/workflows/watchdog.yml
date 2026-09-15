@@ -1,0 +1,73 @@
+name: Watchdog - svezina podataka
+
+# Zasto ovo postoji (13.07. i 11.09.2026):
+#   NB je stao dva puta bez ijednog signala: prvo je NRS pao na DataDome pa je
+#   brana svezine blokirala commit i ZDRAVIH Halo podataka, zatim je desktop
+#   Task Scheduler ("Interactive only") prestao da radi posle restarta masine.
+#   Oba puta smo saznali slucajno, nedeljama kasnije, a rupe u seriji su
+#   trajne - Halo ne drzi istoriju.
+#   Alarm zato NE SME da zivi na masini koja otkazuje. Ovo radi na GitHub-u.
+#   Kad workflow padne, GitHub salje mejl vlasniku repo-a. To je ceo alarm.
+
+on:
+  schedule:
+    - cron: '0 9 * * *'   # 09:00 UTC; GitHub odlaze zakazane runove 1-5h
+  workflow_dispatch:
+
+jobs:
+  provera:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Provera svezine latest_halo_*.json
+        run: |
+          python3 - <<'PY'
+          import json, os, sys, datetime
+
+          # SAMO Halo. NRS je namerno izostavljen - blokiran DataDome-om od
+          # 13.07.2026. Isti razlog zbog kog je check_svezina.py v2 suzen na
+          # Halo: NRS ne sme da obara alarm za zdrav Halo pipeline.
+          FAJLOVI = [
+              'data/latest_halo_prodaja.json',
+              'data/latest_halo_renta.json',
+          ]
+          TOLERANCIJA_DANA = 1   # 0 = mora biti danas; 1 = dozvoljen jedan promasen dan
+
+          danas = datetime.date.today()
+          problemi = []
+
+          for f in FAJLOVI:
+              if not os.path.exists(f):
+                  problemi.append(f'{f}: FAJL NE POSTOJI')
+                  continue
+
+              d = json.load(open(f, encoding='utf-8'))
+              raw = d.get('date')
+              if raw:
+                  datum = datetime.date.fromisoformat(str(raw)[:10])
+                  izvor = 'polje'
+              else:
+                  datum = datetime.date.fromtimestamp(os.path.getmtime(f))
+                  izvor = 'mtime'
+
+              starost = (danas - datum).days
+              broj = len(d.get('listings', []))
+              status = 'OK' if starost <= TOLERANCIJA_DANA else 'ZASTARELO'
+              print(f'{status:10} {f}  datum={datum} ({izvor})  starost={starost}d  oglasa={broj}')
+
+              if starost > TOLERANCIJA_DANA:
+                  problemi.append(f'{f}: podaci od {datum}, stari {starost} dana')
+
+          if problemi:
+              print('')
+              print('!! NB PIPELINE NE RADI !!')
+              for p in problemi:
+                  print('  - ' + p)
+              print('')
+              print('Provera: Actions tab -> "NB Halo Scrape" -> poslednji run')
+              sys.exit(1)
+
+          print('')
+          print('Svi fajlovi svezi. Pipeline radi.')
+          PY
