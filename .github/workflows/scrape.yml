@@ -1,0 +1,111 @@
+name: NB Halo Scrape
+
+# Zamena za Task Scheduler na desktopu.
+# Razlog (11.09.2026): NB je stao istog dana kad i BnV - ista masina,
+# "Interactive only" task, izgubljena sesija posle restarta. Bez greske,
+# bez signala. Halo scraper ide preko ScraperAPI i nema lokalnu zavisnost.
+#
+# KES: data/cache_halo_{mode}.json se commituje u repo, pa ga checkout
+# vraca na svakom runu - inkrementalni Korak 2 radi normalno (~1.300
+# kredita dnevno umesto ~20.000).
+#
+# NEDELJA: scraper sam radi FULL REFRESH (date.today().weekday() == 6).
+# Taj run traje znatno duze i trosi vise kredita - otuda timeout od 2h.
+
+on:
+  schedule:
+    - cron: '30 3 * * *'   # 03:30 UTC. GitHub zakazane runove odlaze 1-5h,
+                           # pa realno pada izmedju 06:00 i 10:00 po Beogradu.
+  workflow_dispatch:
+    inputs:
+      full:
+        description: 'Full refresh (ignorisi kes)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nb-scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalacija zavisnosti
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: Scrape prodaja
+        env:
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+        run: |
+          python scraper/scrape_halo_two_step.py --mode prodaja ${{ inputs.full && '--full' || '' }}
+
+      - name: Pauza
+        run: sleep 15
+
+      - name: Scrape renta
+        env:
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+        run: |
+          python scraper/scrape_halo_two_step.py --mode renta ${{ inputs.full && '--full' || '' }}
+
+      - name: Brana svezine
+        run: |
+          python3 - <<'PY'
+          import json, sys, datetime
+
+          # NAMERNO se NE koristi scraper/check_svezina.py.
+          # Ona gleda os.path.getmtime, a checkout na Actions runneru svakom
+          # fajlu postavi mtime na "sada" - brana bi uvek prolazila, i onda
+          # kad scrape nije upisao nista. Ovde citamo polje "date" iz JSON-a.
+          # Isti razlog zbog kog je v2 suzena samo na Halo: NRS je zamrznut
+          # od DataDome blokade 13.07.2026 i ne sme da obara zdrav Halo run.
+
+          PRAG = {'prodaja': 100, 'renta': 50}
+          danas = datetime.date.today().isoformat()
+          problemi = []
+
+          for mode, minimum in PRAG.items():
+              f = f'data/latest_halo_{mode}.json'
+              d = json.load(open(f, encoding='utf-8'))
+              datum = str(d.get('date', ''))[:10]
+              broj = len(d.get('listings', []))
+              print(f'{mode:8} datum={datum} oglasa={broj} (min {minimum})')
+              if datum != danas:
+                  problemi.append(f'{mode}: datum {datum}, ocekivan {danas}')
+              if broj < minimum:
+                  problemi.append(f'{mode}: samo {broj} oglasa, prag je {minimum}')
+
+          if problemi:
+              print('\nSTOP - podaci se NE commituju:')
+              for p in problemi:
+                  print('  - ' + p)
+              sys.exit(1)
+
+          print('\nBrana prosla.')
+          PY
+
+      - name: Commit i push
+        run: |
+          git config user.name  "nb-scraper-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Nema izmena u data/ - nista za commit."
+            exit 0
+          fi
+          git commit -m "data: automatski scrape $(date -u +%d-%b-%y) [actions]"
+          git pull --rebase --autostash origin main
+          git push origin main
+          echo "Pushano na GitHub."
