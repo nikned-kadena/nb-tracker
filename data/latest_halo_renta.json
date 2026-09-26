@@ -1,20 +1,18 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "mode": "renta",
   "source": "halo",
-  "total_raw": 111,
-  "total_unique": 93,
+  "total_raw": 114,
+  "total_unique": 95,
   "diff_new": [
-    "3c81e8f95108",
-    "defe7db78ff5",
-    "e98d6c4a95b2",
-    "2e4c051e27ad"
+    "3ea17013beae",
+    "62a49dce9c53",
+    "fe87da0fb9d7",
+    "691f70b9f215"
   ],
   "diff_removed": [
-    "3ea17013beae",
-    "003c295deb6d",
-    "0ad0aa221f90",
-    "ed9940fa447f"
+    "0547986e0581",
+    "8da09f11fbed"
   ],
   "listings": [
     {
@@ -24,9 +22,9 @@
       "opis": "50% od prve mesečne zakupnine",
       "zgrada": "Airport Garden",
       "struktura": "1.0",
-      "cena": 680.0,
+      "cena": 700.0,
       "m2": 39.0,
-      "cena_m2": 17,
+      "cena_m2": 18,
       "agencija": "beostan",
       "izvor": "halo"
     },
@@ -226,32 +224,6 @@
       "izvor": "halo"
     },
     {
-      "id": "8da09f11fbed",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/elixir-garden-2-0-lux-sa-garazom-id19541/5425647697839?kid=4",
-      "naslov": "Elixir Garden, 2.0, Lux sa garažom ID#19541",
-      "opis": "Izdaje se stan u kompleksu zatvorenog tipa, sa recepcijom i obezbeđenjem. Dvosoban, prazan, Lux. Poseduje samo kuhinjske elemente. Uz stan ide i garažno mesto koje je uključeno u cenu. Stan je useljiv od 1.oktobra. Agencijska provizija 50% od prve zakupnine.",
-      "zgrada": "Elixir Garden",
-      "struktura": "2.0",
-      "cena": 800.0,
-      "m2": 62.0,
-      "cena_m2": 13,
-      "agencija": "bilding-nekretnine-d-o-o",
-      "izvor": "halo"
-    },
-    {
-      "id": "0547986e0581",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65-luksuzan-komforan-garaze-id-21739/5425644122169?kid=4",
-      "naslov": "West 65, luksuzan, komforan, garaže, ID 21739",
-      "opis": "Veoma luksuzno i kvalitetno opremljen i sređen stan u modernom West 65 kompleksu. Stan je vrlo komforan, poseduje dve spavaće sobe, od kojih je jedna soba master sa sopstvenim kupatilom, dodatno kupatilo i prostrana terasa duž celog stana, grejanje na gas, zgrada pod video nadzorom i obezbeđenjem, jedno garažno mesto je uračunato u cenu, dok je drugo moguće zakupiti uz doplatu 100 eur. Agencijska provizija se plaća u iznosu od 50% + PDV dogovorene jednomesečne zakupnine za period zakupa u trajanju do 12 meseci",
-      "zgrada": "West 65",
-      "struktura": "3.0",
-      "cena": 1750.0,
-      "m2": 90.0,
-      "cena_m2": 19,
-      "agencija": "eminent-nekretnine",
-      "izvor": "halo"
-    },
-    {
       "id": "5b79d1ad48f9",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/newport---lux-dvosoban-garaza/5425647391910?kid=4",
       "naslov": "Newport - lux dvosoban + garaža",
@@ -278,6 +250,19 @@
       "izvor": "halo"
     },
     {
+      "id": "06857c2afeef",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-izdavanje-nov-lux-4-0-garazno-mesto/5425647137996?kid=3",
+      "naslov": "A blok, izdavanje, nov, lux 4.0, garažno mesto",
+      "opis": "Naselje A blok predstavlja jedinstvenu arhitektonsko-ambijentalnu celinu, koja predstavlja spoj savremene umetnosti i pejzažnog uređenja. Stanari i posetioci ovog kompleksa osećaju se zaštićeno i sigurno jer u kompleksu postoji 24h obezbeđenje. Kompleks se dnevno održava - zelenilo, higijena, sve odiše luksuzom. Izuzetna infrastruktura, povezanost sa svim delovima grada autobuskim i tramvajskim linijama. Stan je smešten na šestom spratu zgrade sa liftom, koja je uredna i održavana. Po strukturi, stan je četvorosoban, nov i luksuzan. Sastoji se iz ulaznog hodnika, dnevnog boravka sa kuhinjom i trpezarijom, tri spavaće sobe, kupatila i terase. U cenu je uračunato i garažno mesto. Odmah useljiv. Obavezan depozit prema zakupodavcu u visini rente + 50% provizija agencije za usluge posredovanja. 069/2191-847 i 011/2283-734",
+      "zgrada": "A Blok",
+      "struktura": "4.0",
+      "cena": 1500.0,
+      "m2": 88.0,
+      "cena_m2": 17,
+      "agencija": "city-hedonia-agencija-za-nekretnine",
+      "izvor": "halo"
+    },
+    {
       "id": "7253734b1918",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-75m2-2-garazna-mesta-jurija-gagarina/5425647718340?kid=3",
       "naslov": "A blok,75m2, 2 garažna mesta, Jurija Gagarina",
@@ -287,6 +272,19 @@
       "cena": 1350.0,
       "m2": 75.0,
       "cena_m2": 18,
+      "agencija": null,
+      "izvor": "halo"
+    },
+    {
+      "id": "3ea17013beae",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-39m2-i-cg/5425647715426?kid=3",
+      "naslov": "Airport Garden, 39m2, I, cg",
+      "opis": "Stvarna površina-39m2 , ugovorna površina-39.00m2, Moderan jednosoban stan u kompleksu Airport Garden na Novom Beogradu. Stan se nalazi na prvom spratu od ukupno deset. U blizini se nalaze tržni centar West 65, tržni centar Delta City, škola, vrtić, pijaca, kao i mnogobrojni restorani. Takođe dosta tramvajskih i autobuskih linija. U sklopu zgrade je fizičko obezbeđenje kao i video nadzor. Moguće je iznajmljivanje i garažnog mesta. Stan se može izdati i za potrebe poslovnog prostora. Pametna zgrada sa najvišim standardima gradnje. Efikasni sistem grejanja i hlađenja kojom se upravlja preko ekrana u stanu. Grejanje u sobi je zidno (bez radijatora), a u kupatilu i kuhinji je podno. Agencijska provizija koju plaća zakupac pri zakupu ove nepokretnosti iznosi 50% - 100% od ugovorene cene zakupa Oznaka na mapi pokazuje približnu lokaciju nekretnine ali ne i tačnu adresu",
+      "zgrada": "Airport Garden",
+      "struktura": "1.0",
+      "cena": 680.0,
+      "m2": 39.0,
+      "cena_m2": 17,
       "agencija": null,
       "izvor": "halo"
     },
@@ -395,16 +393,16 @@
       "izvor": "halo"
     },
     {
-      "id": "06857c2afeef",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-izdavanje-nov-lux-4-0-garazno-mesto/5425647137996?kid=3",
-      "naslov": "A blok, izdavanje, nov, lux 4.0, garažno mesto",
-      "opis": "Naselje A blok predstavlja jedinstvenu arhitektonsko-ambijentalnu celinu, koja predstavlja spoj savremene umetnosti i pejzažnog uređenja. Stanari i posetioci ovog kompleksa osećaju se zaštićeno i sigurno jer u kompleksu postoji 24h obezbeđenje. Kompleks se dnevno održava - zelenilo, higijena, sve odiše luksuzom. Izuzetna infrastruktura, povezanost sa svim delovima grada autobuskim i tramvajskim linijama. Stan je smešten na šestom spratu zgrade sa liftom, koja je uredna i održavana. Po strukturi, stan je četvorosoban, nov i luksuzan. Sastoji se iz ulaznog hodnika, dnevnog boravka sa kuhinjom i trpezarijom, tri spavaće sobe, kupatila i terase. U cenu je uračunato i garažno mesto. Odmah useljiv. Obavezan depozit prema zakupodavcu u visini rente + 50% provizija agencije za usluge posredovanja. 069/2191-847 i 011/2283-734",
-      "zgrada": "A Blok",
-      "struktura": "4.0",
-      "cena": 1500.0,
-      "m2": 88.0,
-      "cena_m2": 17,
-      "agencija": "city-hedonia-agencija-za-nekretnine",
+      "id": "3c81e8f95108",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/izdavanje-luksuznog-stana-west-65-kula-novi-b/5425647729889?kid=1",
+      "naslov": "Izdavanje luksuznog stana West 65 Kula Novi Beogra",
+      "opis": "Izdavanje luksuznog stana West 65 kula Novi Beograd. Izdaje se luksuzan stan u West 65 Kuli na Novom Beogradu, sa panoramskim pogledom na grad i izuzetno svetlim, moderno uređenim enterijerom. Stan se sastoji od ulaznog hodnika, prostranog dnevnog boravka sa kuhinjom i trpezarijom, dve master spavaće sobe sa sopstvenim kupatilima, gostinskog toaleta i ostave. Posebna pažnja posvećena je kvalitetu opremanja i funkcionalnosti prostora. Stan poseduje veliki broj pažljivo projektovanih ugradnih elemenata koji pružaju dosta prostora za odlaganje i organizaciju garderobe, dok velike staklene površine omogućavaju obilje prirodne svetlosti i impresivan panoramski pogled na Beograd. West 65 Kula pruža visok standard stanovanja na jednoj od najtraženijih lokacija Novog Beograda, sa odličnom povezanošću sa glavnim poslovnim zonama grada. U cenu zakupa uključeno je jedno parking mesto. ID2675",
+      "zgrada": "West 65 Kula",
+      "struktura": "3.0",
+      "cena": 3000.0,
+      "m2": 100.0,
+      "cena_m2": 30,
+      "agencija": "JDPropertiesandConsultingdoo",
       "izvor": "halo"
     },
     {
@@ -1214,16 +1212,42 @@
       "izvor": "halo"
     },
     {
-      "id": "3c81e8f95108",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/izdavanje-luksuznog-stana-west-65-kula-novi-b/5425647729889?kid=1",
-      "naslov": "Izdavanje luksuznog stana West 65 Kula Novi Beogra",
-      "opis": "Izdavanje luksuznog stana West 65 kula Novi Beograd. Izdaje se luksuzan stan u West 65 Kuli na Novom Beogradu, sa panoramskim pogledom na grad i izuzetno svetlim, moderno uređenim enterijerom. Stan se sastoji od ulaznog hodnika, prostranog dnevnog boravka sa kuhinjom i trpezarijom, dve master spavaće sobe sa sopstvenim kupatilima, gostinskog toaleta i ostave. Posebna pažnja posvećena je kvalitetu opremanja i funkcionalnosti prostora. Stan poseduje veliki broj pažljivo projektovanih ugradnih elemenata koji pružaju dosta prostora za odlaganje i organizaciju garderobe, dok velike staklene površine omogućavaju obilje prirodne svetlosti i impresivan panoramski pogled na Beograd. West 65 Kula pruža visok standard stanovanja na jednoj od najtraženijih lokacija Novog Beograda, sa odličnom povezanošću sa glavnim poslovnim zonama grada. U cenu zakupa uključeno je jedno parking mesto. ID2675",
-      "zgrada": "West 65 Kula",
-      "struktura": "3.0",
-      "cena": 3000.0,
-      "m2": 100.0,
-      "cena_m2": 30,
-      "agencija": "JDPropertiesandConsultingdoo",
+      "id": "62a49dce9c53",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/elixir-garden-2-0-lux-sa-garazom-id19541/5425647734704?kid=4",
+      "naslov": "Elixir Garden, 2.0, Lux sa garažom ID#19541",
+      "opis": "Izdaje se stan u kompleksu zatvorenog tipa, sa recepcijom i obezbeđenjem. Dvosoban, prazan, Lux. Poseduje samo kuhinjske elemente. Uz stan ide i garažno mesto koje je uključeno u cenu. Stan je useljiv od 1.oktobra. Agencijska provizija 50% od prve zakupnine.",
+      "zgrada": "Elixir Garden",
+      "struktura": "2.0",
+      "cena": 800.0,
+      "m2": 62.0,
+      "cena_m2": 13,
+      "agencija": "bilding-nekretnine-d-o-o",
+      "izvor": "halo"
+    },
+    {
+      "id": "fe87da0fb9d7",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-kula-69142/5425647722645?kid=4",
+      "naslov": "Novi Beograd - Wellport kula #69142",
+      "opis": "50% od prve mesečne zakupnine",
+      "zgrada": "Wellport",
+      "struktura": "1.0",
+      "cena": 650.0,
+      "m2": 35.0,
+      "cena_m2": 19,
+      "agencija": "beostan",
+      "izvor": "halo"
+    },
+    {
+      "id": "691f70b9f215",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-69024/5425647689529?kid=1",
+      "naslov": "Novi Beograd - Airport Garden #69024",
+      "opis": "50% od prve mesečne zakupnine",
+      "zgrada": "Airport Garden",
+      "struktura": "2.0",
+      "cena": 1100.0,
+      "m2": 51.0,
+      "cena_m2": 22,
+      "agencija": "beostan",
       "izvor": "halo"
     }
   ]
