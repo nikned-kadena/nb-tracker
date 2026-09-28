@@ -2,13 +2,17 @@
   "date": "2026-09-28",
   "mode": "renta",
   "source": "halo",
-  "total_raw": 125,
-  "total_unique": 96,
+  "total_raw": 124,
+  "total_unique": 94,
   "diff_new": [
-    "4a3dd059043a"
+    "dde6df207ad3",
+    "b8ca85e37424"
   ],
   "diff_removed": [
-    "e6d750d0a2fb"
+    "9ee4f8fe71d3",
+    "06857c2afeef",
+    "cabe558a785e",
+    "ab0fd645ed89"
   ],
   "listings": [
     {
@@ -246,45 +250,6 @@
       "izvor": "halo"
     },
     {
-      "id": "9ee4f8fe71d3",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---soul-64-69071/5425647709082?kid=4",
-      "naslov": "Novi Beograd - Soul 64 #69071",
-      "opis": "50% od prve mesečne zakupnine",
-      "zgrada": "Soul 64",
-      "struktura": "2.0",
-      "cena": 1200.0,
-      "m2": 55.0,
-      "cena_m2": 22,
-      "agencija": "beostan",
-      "izvor": "halo"
-    },
-    {
-      "id": "cabe558a785e",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-69024/5425647225546?kid=4",
-      "naslov": "Novi Beograd - Airport Garden #69024",
-      "opis": "50% od prve mesečne zakupnine",
-      "zgrada": "Airport Garden",
-      "struktura": "2.0",
-      "cena": 1100.0,
-      "m2": 51.0,
-      "cena_m2": 22,
-      "agencija": "beostan",
-      "izvor": "halo"
-    },
-    {
-      "id": "ab0fd645ed89",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-kula-lux-komforan-stan-garaza-id-227/5425644637085?kid=4",
-      "naslov": "Wellport Kula, lux, komforan stan, garaža,ID 22755",
-      "opis": "Komforan stan u Kuli Wellporta , odličnog rasporeda prostorija. Čine ga dnevni boravak sa trpezarijom, opremljena kuhinja, dve spavaće sobe odvojene u zaseban blok sa kupatilom i toalet, master spavaća soba u drugom delu stana koja poseduje sopstveno kupatilo i prostrana terasa. Grejanje je centralno, po utrošku . Zgrada poseduje visok nivo obezbeđenja i predstavlja zatvoren tip naselja, obezbeđeno kapijom. Postoji mogućnost zakupa do dva garažna mesta uz doplatu od 100 eur/mestu.. Stan je veoma pogodan i kao poslovni prostor . Useljiv od 01. oktobra 2026. godine &nbsp; Agencijska provizija za zakupca se plaća u iznosu od 50% + PDV dogovorene jednomesečne zakupnine za period zakupa u trajanju do 12 meseci",
-      "zgrada": "Wellport",
-      "struktura": "4.0",
-      "cena": 1650.0,
-      "m2": 107.0,
-      "cena_m2": 15,
-      "agencija": "eminent-nekretnine",
-      "izvor": "halo"
-    },
-    {
       "id": "ed9f6f130f45",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/belville-dvosoban-stan-kancelarija-garaza/5425647628663?kid=4",
       "naslov": "Belville – dvosoban stan / kancelarija, + garaža",
@@ -337,16 +302,16 @@
       "izvor": "halo"
     },
     {
-      "id": "06857c2afeef",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-izdavanje-nov-lux-4-0-garazno-mesto/5425647137996?kid=3",
-      "naslov": "A blok, izdavanje, nov, lux 4.0, garažno mesto",
-      "opis": "Naselje A blok predstavlja jedinstvenu arhitektonsko-ambijentalnu celinu, koja predstavlja spoj savremene umetnosti i pejzažnog uređenja. Stanari i posetioci ovog kompleksa osećaju se zaštićeno i sigurno jer u kompleksu postoji 24h obezbeđenje. Kompleks se dnevno održava - zelenilo, higijena, sve odiše luksuzom. Izuzetna infrastruktura, povezanost sa svim delovima grada autobuskim i tramvajskim linijama. Stan je smešten na šestom spratu zgrade sa liftom, koja je uredna i održavana. Po strukturi, stan je četvorosoban, nov i luksuzan. Sastoji se iz ulaznog hodnika, dnevnog boravka sa kuhinjom i trpezarijom, tri spavaće sobe, kupatila i terase. U cenu je uračunato i garažno mesto. Odmah useljiv. Obavezan depozit prema zakupodavcu u visini rente + 50% provizija agencije za usluge posredovanja. 069/2191-847 i 011/2283-734",
-      "zgrada": "A Blok",
-      "struktura": "4.0",
-      "cena": 1500.0,
-      "m2": 88.0,
+      "id": "4a3dd059043a",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-stan-belvil-sa-parking-mestom/5425647741874",
+      "naslov": "Lux stan Belvil sa parking mestom ",
+      "opis": "Lux sredjen stan u Belvilu, potpuno namešten, odvojena spavaca soba. Parking mesto ispred zgrade ukljucen u cenu. Zgrada sa video nadzorom. Bela tehnika komplet u stanu. Lepa zastakljena lodja. U stanu je dosta ugradnih plakara. &nbsp; Kucni ljubimci nisu dozvoljeni.&nbsp;",
+      "zgrada": "Belvil",
+      "struktura": "1.5",
+      "cena": 800.0,
+      "m2": 48.0,
       "cena_m2": 17,
-      "agencija": "city-hedonia-agencija-za-nekretnine",
+      "agencija": null,
       "izvor": "halo"
     },
     {
@@ -477,6 +442,19 @@
       "m2": 84.0,
       "cena_m2": 15,
       "agencija": "city-hedonia-agencija-za-nekretnine",
+      "izvor": "halo"
+    },
+    {
+      "id": "dde6df207ad3",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-2669024/5425647689529?kid=1",
+      "naslov": "Novi Beograd - Airport Garden #2669024",
+      "opis": "50% od prve mesečne zakupnine",
+      "zgrada": "Airport Garden",
+      "struktura": "2.0",
+      "cena": 1100.0,
+      "m2": 51.0,
+      "cena_m2": 22,
+      "agencija": "beostan",
       "izvor": "halo"
     },
     {
@@ -1247,16 +1225,16 @@
       "izvor": "halo"
     },
     {
-      "id": "4a3dd059043a",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-stan-belvil-sa-parking-mestom/5425647741874",
-      "naslov": "Lux stan Belvil sa parking mestom ",
-      "opis": "Lux sredjen stan u Belvilu, potpuno namešten, odvojena spavaca soba. Parking mesto ispred zgrade ukljucen u cenu. Zgrada sa video nadzorom. Bela tehnika komplet u stanu. Lepa zastakljena lodja. U stanu je dosta ugradnih plakara. &nbsp; Kucni ljubimci nisu dozvoljeni.&nbsp;",
-      "zgrada": "Belvil",
-      "struktura": "1.5",
-      "cena": 800.0,
-      "m2": 48.0,
-      "cena_m2": 17,
-      "agencija": null,
+      "id": "b8ca85e37424",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-namesten-useljiv-01-11-2026/5425647745330?kid=1",
+      "naslov": "Wellport, namešten, useljiv 01.11.2026.",
+      "opis": "Kondominijum Wellport, kompleks sa visokim nivoom privatnosti, obezbeđenje 24/7. Na atraktivnoj lokaciji, kod poslovnog centra Airport city, blizina tržnih centara, prevoza i glavnih saobraćajnica. Stan je kompletno namešten, sa jednom spavaćom sobom. Centralno grejanje po potrošnji. Dozvoljen manji kućni ljubimac. Uz stan je moguće zakupiti jedno garažno mesto. Useljiv od 01.11.2026. Wellport Condominium, high privacy complex, 24/7 security. It is located in an exceptional location, close to the Airport city business center, shopping centers, transportation and important roads. The apartment is fully furnished, with one bedroom. Central heating according to consumption. Small pet allowed. It is possible to rent a garage space with the apartment. Available from 01.11.2026.",
+      "zgrada": "Wellport",
+      "struktura": "2.0",
+      "cena": 950.0,
+      "m2": 51.0,
+      "cena_m2": 19,
+      "agencija": "akropola-nekretnine",
       "izvor": "halo"
     }
   ]

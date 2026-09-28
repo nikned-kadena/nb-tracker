@@ -2,16 +2,34 @@
   "date": "2026-09-28",
   "mode": "prodaja",
   "source": "halo",
-  "total_raw": 207,
-  "total_unique": 146,
-  "diff_new": [],
-  "diff_removed": [
-    "fe4d9e384144",
+  "total_raw": 209,
+  "total_unique": 150,
+  "diff_new": [
+    "7a59a8f699df",
     "96b5430eea6c",
-    "593b468e99a9",
-    "66969cacac8a"
+    "496117194d36",
+    "c0474b68fec1",
+    "fe4d9e384144",
+    "1f5ef5d2d280"
+  ],
+  "diff_removed": [
+    "598b423e2432",
+    "06c6f04f0497"
   ],
   "listings": [
+    {
+      "id": "fe4d9e384144",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/wellport-dvosoban-namesten/5425647630672?kid=4",
+      "naslov": "Wellport dvosoban namešten",
+      "opis": "U prilici smo da vam ponudimo odličan stan u kompleksu Wellport. Lepa i atraktivna lokacija, okružen poslovnim objektima i radnjama a istovremeno deo celine koja je kapijom odvojena od ulice. Prodaje se namešten.",
+      "zgrada": "Wellport",
+      "struktura": "2.0",
+      "cena": 225000.0,
+      "m2": 46.0,
+      "cena_m2": 4891,
+      "agencija": "Tenanekretnine",
+      "izvor": "halo"
+    },
     {
       "id": "3e4c2c8ccdf1",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/new-minel--novogradnja-bez-provizije/5425647734756?kid=4",
@@ -416,19 +434,6 @@
       "izvor": "halo"
     },
     {
-      "id": "06c6f04f0497",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-airport-garden-id1619/5425647665892?kid=4",
-      "naslov": "Novi Beograd-Airport Garden ID#1619",
-      "opis": "U ponudi je odlična garsonjera površine 33m², smeštena na 7. spratu od ukupno 8 spratova, u modernom kompleksu Airport Garden, u ulici Đorđa Stanojevića. Stan se prodaje kompletno namešten, sa kvalitetnim nameštajem rađenim po meri, što omogućava maksimalno iskorišćen prostor i funkcionalnost. Stan je odmah useljiv i predstavlja odličnu priliku kako za život, tako i za investiciju i izdavanje. Agencijska provizija 2%",
-      "zgrada": "Airport Garden",
-      "struktura": "1.0",
-      "cena": 170000.0,
-      "m2": 33.0,
-      "cena_m2": 5152,
-      "agencija": "bjanca",
-      "izvor": "halo"
-    },
-    {
       "id": "1bf365d717d2",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-city-belgrade---djordja-stanojevica/5425646828958?kid=4",
       "naslov": "Airport City Belgrade - Đorđa Stanojevića",
@@ -546,6 +551,19 @@
       "izvor": "halo"
     },
     {
+      "id": "c0474b68fec1",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/kompletno-opremljen-studio-airport-garden/5425647682121?kid=4",
+      "naslov": "Kompletno opremljen studio-Airport Garden",
+      "opis": "MAXIS GROUP DOO BEOGRAD Na prodaju je kompletno opremljen i funkcionalno organizovan studio u modernom kompleksu Airport Garden, na 6. spratu od ukupno 9 spratova, površine 33m2. Stan se prodaje sa kompletnim nameštajem i opremom, što ga čini odličnim izborom za život bez dodatnih ulaganja, ali i kao investiciju za izdavanje. Za grejanje i hlađenje ugrađen je sistem zidnog grejanja i hlađenja, koji pruža komfor tokom cele godine. Kuhinja je opremljena kvalitetnim uređajima i opremom: Beko frižider, Beko mašina za sudove, Bosch rerna, Airborne ploča za kuvanje, Pyramis sudopera i Aqua Cucina kuhinjska slavina. Za pranje i sušenje veša predviđena je kombinovana LG mašina, dok je za toplu vodu ugrađen Ariston Velis Evo bojler. Stan predstavlja odličnu priliku za kupce koji traže kompletno opremljen studio u savremenom kompleksu, bez potrebe za dodatnim ulaganjima. Cena: 170.000 evra. Agencijska provizija u skladu sa pravilima poslovanja.&nbsp; &nbsp;Pozovite nas i zakažite obilazak još danas! &nbsp;060/0660 428 Hercegovačka 15/303, BW Simfonija 2, III sprat, kancelarija 303, 011/770 6977",
+      "zgrada": "Airport Garden",
+      "struktura": "1.0",
+      "cena": 170000.0,
+      "m2": 33.0,
+      "cena_m2": 5152,
+      "agencija": "MaxisGroup1",
+      "izvor": "halo"
+    },
+    {
       "id": "47bc383cff7a",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-nov-lux-2-0-bez-pdv-dobra-pozi/5425646108405?kid=4",
       "naslov": "Airport Garden, Nov,Lux,2.0,Bez pdv,Dobra pozicija",
@@ -582,6 +600,19 @@
       "m2": 56.0,
       "cena_m2": 5179,
       "agencija": null,
+      "izvor": "halo"
+    },
+    {
+      "id": "96b5430eea6c",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok-iv-faza-nov-lux-4-0-retko-u-ponudi/5425647146884?kid=3",
+      "naslov": "A blok, IV faza, nov, lux, 4.0, retko u ponudi",
+      "opis": "Naselje A blok predstavlja jedinstvenu arhitektonsko-ambijentalnu celinu, koja predstavlja spoj savremene umetnosti i pejzažnog uređenja. Stanari i posetioci ovog kompleksa osećaju se zaštićeno i sigurno jer u kompleksu postoji 24h obezbeđenje. Kompleks se dnevno održava - zelenilo, higijena, sve odiše luksuzom. Izuzetna infrastruktura, povezanost sa svim delovima grada autobuskim i tramvajskim linijama. Stan je smešten na šestom spratu novogradnje - IV faza. Po strukturi je četvorosoban, nov i luksuzan. Južno je orijentisan, svetao i veoma funkcionalan. Sastoji se iz ulaznog hodnika, dnevnog boravka sa kuhinjom i trpezarijom, tri spavaće sobe, dva kupatila, ostave i terase. Mogućnost kupovine jednog ili dva parking mesta. Retko u ponudi! Agencijska provizija 2% 069/2191-847 i 011/2283-734",
+      "zgrada": "A Blok",
+      "struktura": "4.0",
+      "cena": 450000.0,
+      "m2": 88.0,
+      "cena_m2": 5114,
+      "agencija": "city-hedonia-agencija-za-nekretnine",
       "izvor": "halo"
     },
     {
@@ -780,6 +811,19 @@
       "izvor": "halo"
     },
     {
+      "id": "7a59a8f699df",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/wellport---izuzetan-pogled/5425646836759?kid=1",
+      "naslov": "Wellport - izuzetan pogled",
+      "opis": "Na prodaju moderan trosoban stan u prestižnom kompleksu Wellport, u ulici Tadije Sondermajera, na jednoj od najtraženijih lokacija Novog Beograda. Stan se nalazi na 18. spratu od ukupno 22, u savremenoj zgradi sa liftom, i prostire se na 78 m². Odlikuje ga izuzetno funkcionalan raspored prostorija, obilje prirodne svetlosti zahvaljujući visokoj spratnosti, kao i kvalitetna gradnja i završna obrada karakteristična za ovaj kompleks. Dnevni boravak je povezan sa trpezarijom i kuhinjom, dok su spavaće sobe komforne i pružaju maksimalnu privatnost. Stan je pažljivo uređen modernim nameštajem i prodaje se kompletno namešten, sa svim uređajima i tehnikom, spreman za useljenje bez dodatnih ulaganja. Grejanje je centralno po utrošku (kalorimetri), što omogućava potpunu kontrolu troškova i energetsku efikasnost. Kompleks Wellport nudi visok nivo bezbednosti, uređeno okruženje i odličnu povezanost sa svim delovima grada, što ovu nekretninu čini idealnim izborom kako za život, tako i kao investiciju. Prostorije; predsoblje, dnevni boravak sa kuhinjom, dve spavaće sobe, dva kupatila, lođa. Agencijska provizija 2%",
+      "zgrada": "Wellport",
+      "struktura": "3.0",
+      "cena": 425000.0,
+      "m2": 78.0,
+      "cena_m2": 5449,
+      "agencija": null,
+      "izvor": "halo"
+    },
+    {
       "id": "742b3876c091",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-lux-penthouse-id12044/5425645988713?kid=1",
       "naslov": "Airport Garden, lux penthouse ID#12044",
@@ -842,19 +886,6 @@
       "m2": 140.0,
       "cena_m2": 5643,
       "agencija": "art-nekretnine-d-o-o",
-      "izvor": "halo"
-    },
-    {
-      "id": "598b423e2432",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/porodican-stan-u-wellportu/5425647207921?kid=1",
-      "naslov": "Porodičan stan u Wellportu",
-      "opis": "Na prodaju moderan trosoban stan u prestižnom kompleksu Wellport, u ulici Tadije Sondermajera, na jednoj od najtraženijih lokacija Novog Beograda. Stan se nalazi na 18/22 spratu, površine 78 m², sa funkcionalnim rasporedom i obiljem prirodne svetlosti. Dnevni boravak je povezan sa trpezarijom i kuhinjom, dok su spavaće sobe komforne i izdvojene. Stan je moderno uređen i prodaje se kompletno namešten, spreman za useljenje bez ulaganja. Grejanje je centralno po utrošku (kalorimetri). Kompleks Wellport nudi visok nivo bezbednosti, uređeno okruženje i odličnu povezanost, što ga čini idealnim za život ili investiciju. Prostorije: predsoblje, dnevni boravak sa kuhinjom. dve spavaće sobe, 2 kupatila, lođa. Agencijska provizija 2%",
-      "zgrada": "Wellport",
-      "struktura": "3.0",
-      "cena": 425000.0,
-      "m2": 78.0,
-      "cena_m2": 5449,
-      "agencija": null,
       "izvor": "halo"
     },
     {
@@ -1908,6 +1939,32 @@
       "m2": 83.0,
       "cena_m2": 4578,
       "agencija": "EUROPOLISNEKRETNINE",
+      "izvor": "halo"
+    },
+    {
+      "id": "1f5ef5d2d280",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul64-3-0-stan-sa-bastom-i-pogledom-na-bazen/5425647228664?kid=4",
+      "naslov": "SOUL64 | 3.0 stan sa baštom i pogledom na bazen",
+      "opis": "SOUL 64 - JEDAN OD NAJBOLJIH TROSOBNIH PORODIČNIH STANOVA Na prodaju ekskluzivan porodični stan u prestižnom kompleksu Soul64, na jednoj od najpoželjnijih lokacija Novog Beograda. Stan raspolaže sa 108,97 m² unutrašnjeg stambenog prostora, terasom od 10,07 m² i privatnom baštom od 24,44 m², koja se nastavlja na terasu i zajedno sa njom formira jedinstvenu spoljašnju celinu površine preko 34 m². Ukupna uknjižena površina iznosi 119,04 m², dok stvarni životni prostor sa privatnom baštom dostiže impresivnih 143,48 m². Ono što ovaj stan čini zaista posebnim jeste njegova pozicija. Nalazi se na drugom spratu, direktno iznad centralnog dela kompleksa sa bazenom, pa se iz dnevnog boravka, svih spavaćih soba, terase i bašte pruža otvoren pogled na pažljivo uređeno zelenilo i bazenski kompleks. Terasa i privatna bašta povezane su u jednu celinu na koju izlaze sve prostorije stana, stvarajući osećaj života u kući, uz sve pogodnosti savremenog luksuznog kompleksa. Stan je zapadno orijentisan, što obezbeđuje obilje prirodnog svetla tokom većeg dela dana. Nakon podneva sve prostorije kupaju se u suncu, a zalasci sunca i pogled na zelenilo stvaraju izuzetno prijatnu atmosferu za svakodnevni živo",
+      "zgrada": "Soul 64",
+      "struktura": "3.0",
+      "cena": 570000.0,
+      "m2": 143.48,
+      "cena_m2": 3973,
+      "agencija": null,
+      "izvor": "halo"
+    },
+    {
+      "id": "496117194d36",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuzan-namesten-sa-2-parking-mesta/5425647062453?kid=1",
+      "naslov": "Luksuzan Namešten sa 2 parking mesta",
+      "opis": "Luksuzan neuseljavan dizajnerski stan kompletno namešten i opremljen svom tehnikom u okviru kompleksa LUX 51 sa dva garažna parking mesta i velikom ostavom od 14m2 koja se nalazi u garaži na nivou -2. Opremanje i završni radovi oko uređenja su u toku, stan je odmah useljiv. Stan se sastoji od predsoblja, velike dnevne sobe spojene sa kuhinjom i trpezarijom, dve spavaće sobe, velikog garderobera, dva kupatila, ostave i velike terase od 22m2.&nbsp; Ono što ovaj stan izdvaja od drugih tipskih stanova u ovom bloku je Chervon slog višeslojni hrastov parket prve klase, italijanska keramika postavljena u kuhinju i oba kupatila, Villeroy &amp; Boch sanitarije.&nbsp; Kuhinja i ostala stolarija u stanu izrađena je od kvalitetnog farbanog medijapana, u kuhinji ostaje potpuno nova Bosch bela tehnika. Radna ploča u kuhinji, trpezarijski sto kao i ploće u kupatilima su izrađene od granita. Nove zavese i draperje kontrolišete elektronski, putem daljinskog upravljača. Elektroinstalacije kao i rasveta u stanu su potpuno završeni tako da novom vlasniku ostaje samo da opremi stan nameštajem. 100m2 korisne površine + 22m2 terasa. Uknjižen na 110m2 Zapadno orijentisan, svetao stan. Za svaku preporuku. ",
+      "zgrada": "Lux 51",
+      "struktura": "4.0",
+      "cena": 520000.0,
+      "m2": 122.0,
+      "cena_m2": 4262,
+      "agencija": null,
       "izvor": "halo"
     }
   ]
