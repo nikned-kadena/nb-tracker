@@ -142,10 +142,41 @@ def _istorija(entries: list, mode: str) -> list:
     return out
 
 
+def _nekretnina(l: dict) -> tuple:
+    """Kljuc po kome dashboard razlikuje NEKRETNINE, a ne oglase.
+
+    Registar broji OGLASE: isti oglas vidjen na tri portala je jedan zapis.
+    Ali isti stan mogu da oglasavaju dve agencije, svaka svojim oglasom —
+    to su dva legitimna oglasa i jedna nekretnina. Za statistiku cena je
+    bitno ovo drugo, inace jedan atraktivan stan koji nudi pet agencija
+    pet puta ulazi u prosek.
+    """
+    return (l.get("zgrada"), l.get("m2"), l.get("cena"))
+
+
+def _prebroj(listings: list) -> tuple:
+    """(broj nekretnina, broj oglasa viska). Isti kljuc koji dashboard koristi."""
+    vidjeno = set()
+    n = 0
+    for l in listings:
+        k = _nekretnina(l)
+        if k in vidjeno:
+            continue
+        vidjeno.add(k)
+        n += 1
+    return n, len(listings) - n
+
+
 def _upisi(data_dir: Path, ime: str, entries: list, mode: str):
     aktivni = [e for e in entries if e.get("is_active")]
     listings = [_listing(e) for e in aktivni]
     danas = date.today().isoformat()
+
+    # Do 30.09.2026 je ovde stajalo total_unique = total_raw i total_dups = 0,
+    # pa je dashboard pisao "191 od 220 oglasa, 0 dup." — dve brojke koje same
+    # sebe demantuju. Sada se broji stvarno, istim kljucem koji dashboard vec
+    # koristi za svoj `uniq`, da se dva prikaza ne razilaze.
+    n_nekretnina, n_dupli = _prebroj(listings)
 
     payload = {
         "mode": mode,
@@ -153,8 +184,8 @@ def _upisi(data_dir: Path, ime: str, entries: list, mode: str):
         "date": danas,
         "scraped_at": danas,
         "total_raw": len(listings),
-        "total_unique": len(listings),
-        "total_dups": 0,
+        "total_unique": n_nekretnina,
+        "total_dups": n_dupli,
         "diff_new": [l["id"] for l in listings if l.get("first_seen") == danas],
         "diff_removed": [e.get("uid") for e in entries
                          if e.get("deactivated_at") == danas],
