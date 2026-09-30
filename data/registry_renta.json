@@ -3652,9 +3652,9 @@
     "4758a063e1411dc8": {
       "uid": "4758a063e1411dc8",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-03",
-      "is_active": false,
-      "deactivated_at": "2026-09-05",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "fdda7f028b67bbb2",
       "fp_strict_all": [
         "aa8817635b6cf145"
@@ -3678,7 +3678,7 @@
       "price_first": 3000.0,
       "price_current": 3000.0,
       "price_changes": [],
-      "days_listed": 65,
+      "days_listed": 90,
       "cena_m2": 18
     },
     "b3df394c7c20b0cd": {
@@ -5405,12 +5405,13 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "5e21f31f41c5"
+        "halo": "4df82950464f"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/new-minel-odmah-useljiv-garazno-mesto-id4306/5425646530011?kid=1",
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/new-minel-odmah-useljiv-garazno-mesto-id4813/5425647521418?kid=1",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/new-minel-odmah-useljiv-garazno-mesto-id4965/5425647744393?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/new-minel-odmah-useljiv-garazno-mesto-id4965/5425647744393?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/new-minel-odmah-useljiv-garazno-mesto-id4965/5425647744393?kid=4"
       ],
       "zgrada": "New Minel",
       "struktura": "3.0",
@@ -21693,13 +21694,14 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "dde6df207ad3"
+        "halo": "f11bddc6b518"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-69024/5425647689529?kid=4",
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-69024/5425647689529?kid=1",
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-69024/5425647225546?kid=4",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-2669024/5425647689529?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-2669024/5425647689529?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-69024/5425647752437?kid=4"
       ],
       "zgrada": "Airport Garden",
       "struktura": "2.0",
@@ -21707,7 +21709,7 @@
       "m2": 51.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - Airport Garden #2669024",
+      "naslov": "Novi Beograd - Airport Garden #69024",
       "price_first": 1100.0,
       "price_current": 1100.0,
       "price_changes": [],
@@ -23539,7 +23541,8 @@
       "price_first": 1650.0,
       "price_current": 1650.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 16
     },
     "aa44d55f27c4724b": {
       "uid": "aa44d55f27c4724b",
@@ -23570,7 +23573,8 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 26
     },
     "28e7c058875bd1cb": {
       "uid": "28e7c058875bd1cb",
@@ -23601,7 +23605,8 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 19
     },
     "4ba16920e1ac9170": {
       "uid": "4ba16920e1ac9170",
@@ -23632,7 +23637,8 @@
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 18
     },
     "ae55e968df22b226": {
       "uid": "ae55e968df22b226",
@@ -23663,8 +23669,133 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 17
+    },
+    "69f1ffcfc39aaec2": {
+      "uid": "69f1ffcfc39aaec2",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "87b088b57f9a36c7",
+      "fp_strict_all": [
+        "0e0115a92c0f49fb"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "source_ids": {
+        "halo": "9251169363f0"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-lux-welport-165m2-2-garazna-mesta/5425647487373?kid=4"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "5.0",
+      "str_label": null,
+      "m2": 165.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Nov, Lux, Welport 165m2, 2 Garažna mesta, ",
+      "price_first": 2600.0,
+      "price_current": 2600.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "533804f6a2b59765": {
+      "uid": "533804f6a2b59765",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "fdf3c8a20e0b1be0",
+      "fp_strict_all": [
+        "899cc6c0ebe6f41e"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "source_ids": {
+        "halo": "7f6a499f2b12"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/dvosoban-soul-64-novogradnja-garaza/5425647755221?kid=3"
+      ],
+      "zgrada": "Soul 64",
+      "struktura": "1.0",
+      "str_label": null,
+      "m2": 54.0,
+      "sprat": null,
+      "agencija": "KADENASothebys",
+      "naslov": "Dvosoban | Soul 64 | Novogradnja | Garaža",
+      "price_first": 1200.0,
+      "price_current": 1200.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "692522e620bd2a71": {
+      "uid": "692522e620bd2a71",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "0e4bff825c33432a",
+      "fp_strict_all": [
+        "e1caf55f92269672"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "source_ids": {
+        "halo": "6fe84a077d03"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-3-soban-68166/5425647752450?kid=1"
+      ],
+      "zgrada": "Airport Garden",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 77.0,
+      "sprat": null,
+      "agencija": "beostan",
+      "naslov": "Novi Beograd - Airport Garden 3 soban #68166",
+      "price_first": 1200.0,
+      "price_current": 1200.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "79f08b072098cba9": {
+      "uid": "79f08b072098cba9",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "d5447f273b1e597c",
+      "fp_strict_all": [
+        "6d7b5b2112ac4e82"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "source_ids": {
+        "halo": "70a3d8aaff40"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-stan-belvil-sa-parking-mestom/5425647741874?kid=3"
+      ],
+      "zgrada": "Belvil",
+      "struktura": "1.5",
+      "str_label": null,
+      "m2": 48.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Lux stan Belvil sa parking mestom ",
+      "price_first": 900.0,
+      "price_current": 900.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-09-30T11:20:38.194106+00:00"
+  "updated_at": "2026-09-30T11:24:42.714049+00:00"
 }

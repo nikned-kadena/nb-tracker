@@ -14251,9 +14251,9 @@
     "79409f6431aded62": {
       "uid": "79409f6431aded62",
       "first_seen": "2026-09-16",
-      "last_seen": "2026-09-25",
-      "is_active": false,
-      "deactivated_at": "2026-09-27",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "4a655d6a16aeb59b",
       "fp_strict_all": [
         "b57e452f291021d0"
@@ -14277,7 +14277,7 @@
       "price_first": 265000.0,
       "price_current": 265000.0,
       "price_changes": [],
-      "days_listed": 11,
+      "days_listed": 14,
       "cena_m2": 4077
     },
     "39d29f3d805ec5db": {
@@ -16012,7 +16012,8 @@
       "price_first": 238000.0,
       "price_current": 238000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4250
     },
     "d0328d95085adac0": {
       "uid": "d0328d95085adac0",
@@ -16043,7 +16044,8 @@
       "price_first": 31000.0,
       "price_current": 31000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 1192
     },
     "27a7d4cd43694f82": {
       "uid": "27a7d4cd43694f82",
@@ -16074,7 +16076,8 @@
       "price_first": 530400.0,
       "price_current": 530400.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4736
     },
     "cb422682082e62aa": {
       "uid": "cb422682082e62aa",
@@ -16105,8 +16108,102 @@
       "price_first": 549000.0,
       "price_current": 549000.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 5967
+    },
+    "e79f92ebbb50f3ac": {
+      "uid": "e79f92ebbb50f3ac",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "e61d0b8d7a2edb93",
+      "fp_strict_all": [
+        "004f79384cf0cb1c"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "source_ids": {
+        "halo": "b5de529c99ca"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/lastavice-novi-beograd-namesten-2-5-stan-id16/5425647615180?kid=4"
+      ],
+      "zgrada": "Lastavica",
+      "struktura": "2.5",
+      "str_label": null,
+      "m2": 61.0,
+      "sprat": null,
+      "agencija": "korisnik-ext-1805559187",
+      "naslov": "Lastavice, Novi Beograd, namešten 2.5 stan! ID#162",
+      "price_first": 299000.0,
+      "price_current": 299000.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "949347ce43de2973": {
+      "uid": "949347ce43de2973",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "e1edaaf5a03fe445",
+      "fp_strict_all": [
+        "fae0ba922f9eac41"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "source_ids": {
+        "halo": "a765c76e3ba2"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-nov-stan-useljiv/5425647725460?kid=4"
+      ],
+      "zgrada": "Airport Garden",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 55.36,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Airport garden, nov stan, useljiv ",
+      "price_first": 238000.0,
+      "price_current": 238000.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "c176e58503e022f5": {
+      "uid": "c176e58503e022f5",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "69e1eda80c322592",
+      "fp_strict_all": [
+        "0de1dabe75332cee"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "source_ids": {
+        "halo": "060c2ab9a3db"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuzan-namesten-3-0-stan-elixir-garden/5425647677574?kid=3"
+      ],
+      "zgrada": "Elixir Garden",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 65.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Luksuzan namešten 3.0 stan – Elixir Garden",
+      "price_first": 325600.0,
+      "price_current": 325600.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-09-30T11:20:36.309360+00:00"
+  "updated_at": "2026-09-30T11:24:00.183869+00:00"
 }
