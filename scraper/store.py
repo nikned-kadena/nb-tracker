@@ -36,9 +36,33 @@ pre nego sto ga proglasimo skinutim.
 
 ZASTITA OD LOSEG SCRAPE-A
 -------------------------
-Ako danasnji run donese manje od MIN_SEEN_RATIO aktivnih oglasa, deaktivacija
-se NE izvrsava uopste. Ista filozofija kao STOP guard u scraper-u: radije
-zastareli podaci nego pokvareni.
+Ako danasnji run donese manje od MIN_SEEN_RATIO aktivnih oglasa TOG IZVORA,
+deaktivacija se NE izvrsava uopste. Ista filozofija kao STOP guard u
+scraper-u: radije zastareli podaci nego pokvareni.
+
+DEAKTIVACIJA JE PO IZVORU (ispravljeno 30.09.2026)
+--------------------------------------------------
+Jedan run obilazi JEDAN portal. Prva verzija je poredila danasnje vidjene
+oglase sa SVIM aktivnim zapisima u registru, bez obzira na izvor — pa bi
+dnevni Halo run, koji nosi vecinu i lako prodje ratio prag, posle dva dana
+ugasio svaki oglas koji postoji samo na 4zida ili Nadji Dom-u. BnV registar
+rente je vec imao 40 takvih zapisa: da ovo nije popravljeno, ugasili bi se
+02.10. iako su zivi, i usli u DOM statistiku kao 40 lazno zavrsenih oglasa
+sa trajanjem od par dana. Isto vazi obrnuto — 4zida run ne sme da gasi
+Halo oglase.
+
+Zato registar pamti dva dodatna podatka:
+
+  reg["last_run"][izvor]        kad je taj portal poslednji put obidjen
+  e["last_seen_src"][izvor]     kad je taj oglas poslednji put vidjen na njemu
+
+Oglas se gasi tek kad je "mrtav" na SVIM svojim izvorima: za svaki izvor
+mora postojati obilazak posle poslednjeg vidjenja, i razmak mora biti bar
+GRACE_DAYS. Izvor koji odavno nije pokrenut (Nadji Dom se ne vrti dnevno)
+ne moze da ugasi nista — sto je tacno, jer o njemu nemamo novu informaciju.
+
+Stari zapisi nemaju `last_seen_src`; pri prvom prolazu se popunjava iz
+`last_seen` za sve izvore tog zapisa, pa migracija ne trazi backfill.
 """
 
 import json
@@ -138,9 +162,11 @@ def validan(l: dict, mode: str) -> tuple:
 def load_registry(data_dir: Path, mode: str) -> dict:
     p = data_dir / f"registry_{mode}.json"
     if not p.exists():
-        return {"schema_version": SCHEMA_VERSION, "mode": mode, "entries": {}}
+        return {"schema_version": SCHEMA_VERSION, "mode": mode,
+                "entries": {}, "last_run": {}}
     d = json.loads(p.read_text(encoding="utf-8"))
     d.setdefault("entries", {})
+    d.setdefault("last_run", {})     # izvor -> datum poslednjeg obilaska
     return d
 
 
@@ -217,6 +243,35 @@ def _match(l: dict, entries: dict, by_strict: dict, by_loose: dict,
     return None
 
 
+def _migriraj_last_seen_src(e: dict):
+    """Stari zapis nema `last_seen_src` — popuni ga iz `last_seen`.
+
+    Pretpostavka je konzervativna: svaki izvor tog zapisa je oglas video
+    poslednji put kad i registar u celini. Time nijedan stari oglas ne
+    postane odmah "mrtav na izvoru" samo zato sto polje nije postojalo.
+    """
+    if not e.get("last_seen_src"):
+        ls = e.get("last_seen")
+        e["last_seen_src"] = {s: ls for s in (e.get("sources") or ["halo"])}
+    else:
+        for s in (e.get("sources") or []):
+            e["last_seen_src"].setdefault(s, e.get("last_seen"))
+
+
+def _mrtav_na_izvoru(e: dict, izvor: str, last_run: dict, today: str) -> bool:
+    """Da li je oglas potvrdjeno nestao sa jednog portala."""
+    kad_obidjen = last_run.get(izvor)
+    if not kad_obidjen:
+        return False        # taj portal jos nije ni pokrenut — ne znamo nista
+    vidjen = (e.get("last_seen_src") or {}).get(izvor) or e.get("last_seen")
+    if not vidjen:
+        return False
+    if kad_obidjen <= vidjen:
+        return False        # nema novijeg obilaska od poslednjeg vidjenja
+    razmak = (date.fromisoformat(kad_obidjen) - date.fromisoformat(vidjen)).days
+    return razmak >= GRACE_DAYS
+
+
 def update(data_dir: Path, mode: str, listings: list, source: str = "halo",
            run_date: str = None, verbose: bool = True) -> dict:
     """Upise danasnji scrape u registar i vrati izvestaj.
@@ -253,6 +308,7 @@ def update(data_dir: Path, mode: str, listings: list, source: str = "halo",
                 "fp_loose": fp_l,
                 "fp_strict_all": [fp_s],
                 "sources": [source],
+                "last_seen_src": {source: today},
                 "source_ids": {source: ext_id},
                 "source_urls": [l.get("url")] if l.get("url") else [],
                 "zgrada": l.get("zgrada"),
@@ -280,6 +336,8 @@ def update(data_dir: Path, mode: str, listings: list, source: str = "halo",
             if source not in e.get("sources", []):
                 e.setdefault("sources", []).append(source)
                 n_merged += 1
+            _migriraj_last_seen_src(e)
+            e["last_seen_src"][source] = today
             e.setdefault("source_ids", {})[source] = ext_id
             if l.get("url") and l["url"] not in e.setdefault("source_urls", []):
                 e["source_urls"].append(l["url"])
@@ -306,26 +364,52 @@ def update(data_dir: Path, mode: str, listings: list, source: str = "halo",
         seen_uids.add(uid)
 
     # ── deaktivacija ─────────────────────────────────────────────────
-    active_before = [u for u, e in entries.items() if e.get("is_active")]
-    ratio = len(seen_uids) / len(active_before) if active_before else 1.0
+    # Prag se racuna SAMO nad oglasima koje ovaj izvor uopste moze da vidi.
+    # Ranije se poredilo sa celim registrom, pa je 4zida run sa 60 oglasa
+    # naspram 300 aktivnih uvek padao ispod praga i nikad nista nije gasio,
+    # dok je Halo run prolazio prag i gasio tudje oglase.
+    reg.setdefault("last_run", {})[source] = today
+
+    na_ovom_izvoru = [u for u, e in entries.items()
+                      if e.get("is_active") and source in (e.get("sources") or [])]
+    videni_ovde = seen_uids & set(na_ovom_izvoru)
+    ratio = (len(videni_ovde) / len(na_ovom_izvoru)) if na_ovom_izvoru else 1.0
 
     n_deact = 0
     skipped = False
-    if ratio < MIN_SEEN_RATIO and active_before:
+    if ratio < MIN_SEEN_RATIO and na_ovom_izvoru:
         skipped = True
         if verbose:
-            print(f"  [STORE] Videli smo samo {len(seen_uids)}/{len(active_before)} "
-                  f"aktivnih ({ratio:.0%}) — deaktivacija PRESKOCENA (sumnja na los scrape).")
+            print(f"  [STORE] Na izvoru '{source}' videli smo samo "
+                  f"{len(videni_ovde)}/{len(na_ovom_izvoru)} aktivnih ({ratio:.0%}) "
+                  f"— deaktivacija PRESKOCENA (sumnja na los scrape).")
     else:
-        for uid in active_before:
-            if uid in seen_uids:
+        for uid, e in entries.items():
+            if not e.get("is_active") or uid in seen_uids:
                 continue
-            e = entries[uid]
-            gap = (date.fromisoformat(today) - date.fromisoformat(e["last_seen"])).days
-            if gap >= GRACE_DAYS:
+            _migriraj_last_seen_src(e)
+            izvori = e.get("sources") or []
+            if not izvori:
+                continue
+            # gasi se tek kad ga nema ni na jednom svom portalu
+            if all(_mrtav_na_izvoru(e, s, reg["last_run"], today) for s in izvori):
                 e["is_active"] = False
                 e["deactivated_at"] = today
                 n_deact += 1
+                # Izvor koji se ne vrti dnevno (Nadji Dom, 4zida) ume da
+                # stoji nedeljama. Tada znamo da je oglas nestao NEGDE u tom
+                # razmaku, ne bas danas. Obelezi to da DOM statistika moze
+                # da odvoji pouzdane od procenjenih trajanja.
+                razmaci = []
+                for s in izvori:
+                    v = (e.get("last_seen_src") or {}).get(s)
+                    o = reg["last_run"].get(s)
+                    if v and o:
+                        razmaci.append(
+                            (date.fromisoformat(o) - date.fromisoformat(v)).days)
+                if razmaci and min(razmaci) > 2 * GRACE_DAYS:
+                    e["deactivation_uncertain"] = True
+                    e["deactivation_window_days"] = min(razmaci)
 
     for uid, e in entries.items():
         e["days_listed"] = days_listed(e, today)
@@ -365,3 +449,89 @@ def days_listed(e: dict, today: str = None) -> int:
     end = date.fromisoformat(e["deactivated_at"] or e.get("last_seen") or today) \
         if not e.get("is_active") else date.fromisoformat(today)
     return max((end - start).days, 0)
+
+
+# ── samotest ────────────────────────────────────────────────────────────
+# `python3 scraper/store.py` — provera pravila deaktivacije po izvoru.
+# Radi u privremenom folderu, ne dira data/.
+
+if __name__ == "__main__":
+    import tempfile
+
+    def _og(i, src):
+        return {"id": f"{src}:{i}", "url": f"http://{src}/{i}",
+                "naslov": f"stan {i}", "zgrada": "BW Perla",
+                "agencija": f"AG{i}", "struktura": "2.0",
+                "str_label": "Dvosoban", "m2": 60 + i, "cena": 1500 + i * 10,
+                "sprat": str(i % 10), "mode": "renta"}
+
+    palo = []
+    with tempfile.TemporaryDirectory() as tmp:
+        D = Path(tmp)
+        M = "renta"
+        update(D, M, [_og(i, "halo") for i in range(1, 11)],
+               source="halo", run_date="2026-09-01", verbose=False)
+        update(D, M, [_og(i, "4zida") for i in range(11, 15)],
+               source="4zida", run_date="2026-09-01", verbose=False)
+
+        # 1. tri dnevna Halo run-a ne smeju da ugase 4zida oglase
+        for d in ("2026-09-02", "2026-09-03", "2026-09-04"):
+            update(D, M, [_og(i, "halo") for i in range(1, 11)],
+                   source="halo", run_date=d, verbose=False)
+        reg = load_registry(D, M)
+        z = [e for e in reg["entries"].values() if e["sources"] == ["4zida"]]
+        if sum(1 for e in z if e["is_active"]) != 4:
+            palo.append("Halo run je ugasio 4zida oglase")
+
+        # 2. oglas skinut sa Halo-a se gasi posle GRACE_DAYS
+        for d in ("2026-09-05", "2026-09-06", "2026-09-07"):
+            update(D, M, [_og(i, "halo") for i in range(1, 10)],
+                   source="halo", run_date=d, verbose=False)
+        reg = load_registry(D, M)
+        h10 = [e for e in reg["entries"].values()
+               if e["source_ids"].get("halo") == "halo:10"][0]
+        if h10["is_active"] or h10["deactivated_at"] != "2026-09-06":
+            palo.append(f"Halo oglas #10 nije ugasen kako treba: {h10['deactivated_at']}")
+
+        # 3. redak izvor gasi svoje tek kad se ponovo pokrene, uz oznaku
+        update(D, M, [_og(i, "4zida") for i in (11, 12)],
+               source="4zida", run_date="2026-09-08", verbose=False)
+        reg = load_registry(D, M)
+        mrtvi = [e for e in reg["entries"].values()
+                 if e["sources"] == ["4zida"] and not e["is_active"]]
+        if len(mrtvi) != 2:
+            palo.append(f"4zida nije ugasio svoja dva oglasa (ugaseno {len(mrtvi)})")
+        elif not all(e.get("deactivation_uncertain") for e in mrtvi):
+            palo.append("nedostaje oznaka deactivation_uncertain za redak izvor")
+        if sum(1 for e in reg["entries"].values()
+               if "halo" in e["sources"] and e["is_active"]) != 9:
+            palo.append("4zida run je dirao Halo oglase")
+
+        # 4. oglas na dva portala se gasi tek kad ga OBA demantuju
+        update(D, M, [_og(20, "halo")], source="halo",
+               run_date="2026-09-09", verbose=False)
+        update(D, M, [dict(_og(20, "4zida"), m2=80, cena=1700)],
+               source="4zida", run_date="2026-09-09", verbose=False)
+        for d in ("2026-09-11", "2026-09-13", "2026-09-15"):
+            update(D, M, [_og(i, "halo") for i in range(1, 10)],
+                   source="halo", run_date=d, verbose=False)
+        reg = load_registry(D, M)
+        duo = [e for e in reg["entries"].values() if len(e["sources"]) > 1]
+        if len(duo) != 1:
+            palo.append(f"spajanje preko izvora nije radilo ({len(duo)} zapisa)")
+        elif not duo[0]["is_active"]:
+            palo.append("oglas na dva portala ugasen samo na osnovu Halo-a")
+        else:
+            update(D, M, [_og(i, "4zida") for i in (11, 12)],
+                   source="4zida", run_date="2026-09-16", verbose=False)
+            reg = load_registry(D, M)
+            duo = [e for e in reg["entries"].values() if len(e["sources"]) > 1]
+            if duo[0]["is_active"]:
+                palo.append("oglas nije ugasen ni kad su ga oba portala demantovala")
+
+    if palo:
+        print("PALO:")
+        for p in palo:
+            print("  -", p)
+        raise SystemExit(1)
+    print("store.py: sve provere deaktivacije po izvoru prolaze (4/4)")
