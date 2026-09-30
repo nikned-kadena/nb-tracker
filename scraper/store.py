@@ -92,6 +92,47 @@ def _price_close(a, b) -> bool:
     return abs(a - b) <= max(a, b) * PRICE_TOL
 
 
+# ────────────────────────── kapija ispravnosti ─────────────────────────
+
+# Opsezi preuzeti iz parse_price() u scraper-u — isti pragovi, jedno mesto.
+OPSEG_CENA = {"prodaja": (150_000, 5_000_000), "renta": (300, 50_000)}
+OPSEG_M2 = (8, 600)
+
+
+def validan(l: dict, mode: str) -> tuple:
+    """Da li zapis sme da udje u registar. Vraca (ok, razlog).
+
+    ZASTO POSTOJI — nalaz od 30.09.2026
+    -----------------------------------
+    Najstarija verzija latest_halo_prodaja.json u git istoriji ima DRUGACIJU
+    semu: polje `cena` tamo drzi EUR/m2, ne prodajnu cenu. Backfill je te
+    zapise uredno primio i u registru su se nasla 4 "stana od 2.422 EUR".
+    Jedan od njih ima i pogresnu zgradu i kvadraturu 192 m2 dok mu naslov
+    kaze 112 m2.
+
+    Bez ove kapije, svaka promena seme na bilo kom portalu tiho zatruje
+    registar — a registar je akumulativan, pa greska ostaje zauvek.
+    Radije odbaci zapis nego da ga upises.
+    """
+    cena = l.get("cena")
+    m2 = l.get("m2")
+    lo, hi = OPSEG_CENA.get(mode, (0, 10**9))
+
+    # granice UKLJUCIVE: penthouse od 443 m2 za tacno 5.000.000 EUR je
+    # realan (11.270 EUR/m2), a padao bi na strogoj nejednakosti.
+    if cena is not None and not (lo <= cena <= hi):
+        return False, f"cena {cena} van opsega {lo}-{hi} za {mode}"
+    if m2 is not None and not (OPSEG_M2[0] <= m2 <= OPSEG_M2[1]):
+        return False, f"m2 {m2} van opsega {OPSEG_M2[0]}-{OPSEG_M2[1]}"
+    if cena and m2:
+        pm2 = cena / m2
+        if mode == "prodaja" and not (1200 <= pm2 <= 25000):
+            return False, f"cena/m2 {pm2:.0f} nerealna za prodaju"
+        if mode == "renta" and not (3 <= pm2 <= 150):
+            return False, f"cena/m2 {pm2:.1f} nerealna za rentu"
+    return True, ""
+
+
 # ─────────────────────────────── registar ──────────────────────────────
 
 def load_registry(data_dir: Path, mode: str) -> dict:
@@ -190,8 +231,13 @@ def update(data_dir: Path, mode: str, listings: list, source: str = "halo",
 
     seen_uids = set()
     n_new = n_merged = n_price = n_reopened = 0
+    odbijeni = []
 
     for l in listings:
+        ok, razlog = validan(l, mode)
+        if not ok:
+            odbijeni.append((l.get("id"), razlog))
+            continue
         ext_id = str(l.get("id") or "")
         uid = _match(l, entries, by_strict, by_loose, source, ext_id)
         fp_s, fp_l = fingerprints(l)
@@ -286,8 +332,15 @@ def update(data_dir: Path, mode: str, listings: list, source: str = "halo",
 
     save_registry(data_dir, mode, reg)
 
+    if odbijeni:
+        print(f"  [STORE] ODBIJENO {len(odbijeni)} zapisa (neispravni podaci):")
+        for i, (oid, raz) in enumerate(odbijeni[:5]):
+            print(f"           {oid}: {raz}")
+        if len(odbijeni) > 5:
+            print(f"           ... i jos {len(odbijeni)-5}")
+
     rep = {
-        "date": today, "source": source,
+        "date": today, "source": source, "odbijeno": len(odbijeni),
         "u_registru": len(entries),
         "videno": len(seen_uids),
         "novi": n_new,
