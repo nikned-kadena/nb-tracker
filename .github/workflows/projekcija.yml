@@ -1,0 +1,95 @@
+name: Projekcija registra (rucno)
+
+# Cita data/registry_{mod}.json i pise fajlove koje dashboard ucitava:
+#   latest_all_{mod}.json       glavni prikaz "Svi izvori"
+#   latest_4zida_{mod}.json     prikaz po izvoru
+#   latest_nadjidom_{mod}.json
+#   history_*_{mod}.json        dnevna serija rekonstruisana iz registra
+#
+# NE dira registar, ne ide na internet, traje par sekundi. Bezbedno je
+# pokrenuti kad god dashboard javi "Ne mogu da ucitam podatke" a registar
+# postoji — sto se desi kad je registar azuriran skriptom koja ne zove
+# project.py na kraju.
+#
+# ZASTO POSTOJI (30.09.2026)
+# NB registar je punjen verzijom sources.py bez poziva project.build, pa su
+# registry_*.json i dom_*.json rasli, a latest_all_*.json nije ni nastao —
+# dashboard je na "Svi izvori" dobijao 404. Trajna popravka je nova
+# sources.py; ovaj workflow zatvara rupu odmah, bez ponovnog scrape-a.
+#
+# Ostaje korisno i posle toga: svaki put kad rucno diras registar ili
+# vratis backup, ovim jednim pokretanjem uskladis prikaz sa podacima.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: projekcija
+  cancel-in-progress: false
+
+jobs:
+  projekcija:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Sta imamo u registru
+        run: |
+          python3 - <<'PY'
+          import json, glob
+          nasao = False
+          for f in sorted(glob.glob('data/registry_*.json')):
+              nasao = True
+              e = json.load(open(f, encoding='utf-8')).get('entries', {})
+              akt = sum(1 for x in e.values() if x.get('is_active'))
+              izv = {}
+              for x in e.values():
+                  for s in x.get('sources', []):
+                      izv[s] = izv.get(s, 0) + 1
+              print(f"{f}: {len(e)} oglasa | {akt} aktivnih | po izvoru: {izv}")
+          if not nasao:
+              raise SystemExit("Nema nijednog data/registry_*.json — "
+                               "prvo pokreni backfill.")
+          PY
+
+      - name: Projekcija
+        run: python scraper/project.py data
+
+      - name: Sta je nastalo
+        run: |
+          ls -la data/latest_all_*.json data/history_all_*.json 2>/dev/null || true
+          python3 - <<'PY'
+          import json, glob
+          for f in sorted(glob.glob('data/latest_*.json')
+                          + glob.glob('data/history_all_*.json')):
+              d = json.load(open(f, encoding='utf-8'))
+              if isinstance(d, list):
+                  print(f"{f}: {len(d)} dana istorije"
+                        + (f" ({d[0]['date']} -> {d[-1]['date']})" if d else ""))
+              else:
+                  print(f"{f}: {len(d.get('listings', []))} oglasa "
+                        f"| datum {d.get('date')}")
+          PY
+
+      - name: Commit
+        run: |
+          git config user.name  "projekcija-bot"
+          git config user.email "actions@github.com"
+          git add data/latest_*.json data/history_*.json
+          if git diff --cached --quiet; then
+            echo "Nista novo za commit — projekcija je vec bila usaglasena."
+            exit 0
+          fi
+          git commit -m "data: projekcija registra za dashboard"
+          git pull --rebase --autostash origin main
+          git push origin main
+          echo "Pushano. Dashboard ce se osveziti za minut-dva."
