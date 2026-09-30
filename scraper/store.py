@@ -119,7 +119,12 @@ def _price_close(a, b) -> bool:
 # ────────────────────────── kapija ispravnosti ─────────────────────────
 
 # Opsezi preuzeti iz parse_price() u scraper-u — isti pragovi, jedno mesto.
-OPSEG_CENA = {"prodaja": (150_000, 5_000_000), "renta": (300, 50_000)}
+# Donja granica za prodaju je poslovna odluka, ne samo tehnicka: ispod
+# 100.000 EUR nema stanova u segmentu koji pratimo (BW i 18 novogradnji na
+# Novom Beogradu), pa je svaka takva vrednost ili tudji oglas ili pokvaren
+# podatak. Spustena sa 150.000 na 100.000 (30.09.2026) da manje garsonjere
+# ne ispadaju bez potrebe.
+OPSEG_CENA = {"prodaja": (100_000, 5_000_000), "renta": (300, 50_000)}
 OPSEG_M2 = (8, 600)
 
 
