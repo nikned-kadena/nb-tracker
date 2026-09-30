@@ -227,13 +227,22 @@ function KpiCard({ label, value, sub, subColor, onClick, highlight }) {
 
 // ── Pregled izvora ──────────────────────────────────────────────────────────
 // Vidljivo samo u spojenom prikazu ("Svi izvori"), jer je tek tamo pitanje
-// smisleno: u registru je isti stan sa tri portala JEDAN zapis, pa se iz
-// polja `izvori` vidi ko ga je doneo i koliko se portali preklapaju.
+// smisleno: u registru je isti stan sa vise portala JEDAN zapis, pa se iz
+// polja `izvori` vidi ko ga je doneo.
 //
-// "samo tu" je ono sto se stvarno isplati gledati. Portal koji donese 40
-// oglasa od kojih su 38 vec na Halo-u ne siri pokrivenost nego je potvrdjuje;
-// onaj koji donese 40 ekskluzivnih vredi drzati. Zato traka ima dva dela:
-// puna boja su oglasi koje ima samo taj portal, bleda su deljeni.
+// Prva kartica je ukupan broj jedinstvenih oglasa — imenilac za sve ostale.
+// Procenti po portalima se zato SABIRAJU NA VISE OD 100%: isti stan vidljiv
+// na dva portala racuna se kod oba. To nije greska nego sustina merenja —
+// bez preklapanja ne bi se videlo koliko koji portal zaista dodaje.
+//
+// Podnaslov "samo ovde" je ono sto odlucuje isplati li se portal drzati:
+// onaj koji donese 40 oglasa od kojih su 38 vec na Halo-u ne siri
+// pokrivenost nego je potvrdjuje.
+//
+// Racuna se na NEFILTRIRANOM skupu — pokrivenost portala je svojstvo izvora,
+// a ne trenutno izabranih zgrada ili struktura.
+const IZVOR_RED = ["halo", "nadjidom", "4zida"];
+
 function IzvoriPregled({ listings }) {
   const st = useMemo(() => {
     const po = {};
@@ -242,63 +251,63 @@ function IzvoriPregled({ listings }) {
       const izv = l.izvori || [];
       if (!izv.length) { bezOznake++; continue; }
       if (izv.length > 1) viseP++;
-      for (const s of izv) {
-        po[s] = po[s] || { ukupno: 0, samo: 0 };
-        po[s].ukupno++;
-        if (izv.length === 1) po[s].samo++;
+      for (const k of izv) {
+        po[k] = po[k] || { ukupno: 0, samo: 0 };
+        po[k].ukupno++;
+        if (izv.length === 1) po[k].samo++;
       }
     }
-    const red = Object.entries(po).sort((a, b) => b[1].ukupno - a[1].ukupno);
-    return { red, viseP, bezOznake, ukupno: listings.length };
+    // Fiksan redosled da kartice ne skacu kad se prebaci prodaja/renta;
+    // nepoznat izvor (ako se jednog dana doda) ide na kraj.
+    const kljucevi = [
+      ...IZVOR_RED.filter(k => po[k]),
+      ...Object.keys(po).filter(k => !IZVOR_RED.includes(k)),
+    ];
+    return { po, kljucevi, viseP, bezOznake, ukupno: listings.length };
   }, [listings]);
 
-  if (!st.red.length) return null;
-  const max = Math.max(...st.red.map(([, v]) => v.ukupno), 1);
-  const boje = { halo: "#2563eb", "4zida": "#16a34a", nadjidom: "#d97706" };
-  const pct = n => (st.ukupno ? Math.round(100 * n / st.ukupno) : 0);
+  if (!st.kljucevi.length) return null;
+  const boje = { halo: "#2563eb", nadjidom: "#d97706", "4zida": "#16a34a" };
+  const pct  = n => (st.ukupno ? Math.round(100 * n / st.ukupno) : 0);
+
+  const Kartica = ({ boja, ime, broj, procenat, sub }) => (
+    <div style={{
+      background:T.surface, border:`1px solid ${T.border}`, borderRadius:10,
+      padding:"18px 20px", boxShadow:"0 1px 3px rgba(0,0,0,.06)",
+      minWidth:130, flex:"1 1 130px",
+    }}>
+      <div style={{display:"flex",alignItems:"center",gap:7,marginBottom:6}}>
+        {boja && <span style={{width:8,height:8,borderRadius:"50%",
+          background:boja,flexShrink:0}}/>}
+        <span style={{fontSize:10,fontWeight:600,color:T.muted,letterSpacing:".6px",
+          textTransform:"uppercase"}}>{ime}</span>
+      </div>
+      <div style={{display:"flex",alignItems:"baseline",gap:8}}>
+        <span style={{fontSize:26,fontWeight:700,color:T.text,lineHeight:1.1}}>{broj}</span>
+        <span style={{fontSize:14,fontWeight:600,color:boja||T.muted}}>{procenat}%</span>
+      </div>
+      {sub && <div style={{fontSize:11,color:T.muted,marginTop:4}}>{sub}</div>}
+    </div>
+  );
 
   return (
-    <div style={{
-      background: T.surface, border: `1px solid ${T.border}`, borderRadius: 10,
-      padding: "18px 20px", marginBottom: 24, boxShadow: "0 1px 3px rgba(0,0,0,.06)",
-    }}>
-      <div style={{display:"flex",justifyContent:"space-between",alignItems:"baseline",
-        flexWrap:"wrap",gap:8,marginBottom:14}}>
-        <div style={{fontSize:10,fontWeight:600,color:T.muted,letterSpacing:".6px",
-          textTransform:"uppercase"}}>Oglasi po portalu</div>
-        <div style={{fontSize:11,color:T.muted}}>
-          {st.ukupno} jedinstvenih oglasa · {st.viseP} na više portala ({pct(st.viseP)}%)
-          {st.bezOznake > 0 && ` · ${st.bezOznake} bez oznake izvora`}
-        </div>
-      </div>
-
-      {st.red.map(([id, v]) => (
-        <div key={id} style={{marginBottom:11}}>
-          <div style={{display:"flex",justifyContent:"space-between",alignItems:"baseline",
-            gap:10,fontSize:12,marginBottom:5}}>
-            <span style={{fontWeight:600,color:T.text}}>{srcLabel(id)}</span>
-            <span style={{color:T.muted,textAlign:"right"}}>
-              <b style={{color:T.text,fontSize:14}}>{v.ukupno}</b>
-              {` oglasa · ${pct(v.ukupno)}% pokrivenosti · `}
-              <b style={{color: v.samo ? (boje[id] || T.text) : T.muted}}>{v.samo}</b>
-              {" samo ovde"}
-            </span>
-          </div>
-          <div style={{height:8,borderRadius:4,background:"#eef2f7",display:"flex",
-            overflow:"hidden"}}>
-            <div style={{width:`${100 * v.samo / max}%`,
-              background: boje[id] || T.navy}} />
-            <div style={{width:`${100 * (v.ukupno - v.samo) / max}%`,
-              background: boje[id] || T.navy, opacity:.32}} />
-          </div>
-        </div>
+    <div style={{display:"flex",flexWrap:"wrap",gap:12,marginBottom:24}}>
+      <Kartica
+        ime="Ukupno jedinstvenih"
+        broj={st.ukupno}
+        procenat={100}
+        sub={`${st.viseP} na više portala (${pct(st.viseP)}%)`
+          + (st.bezOznake > 0 ? ` · ${st.bezOznake} bez izvora` : "")}
+      />
+      {st.kljucevi.map(k => (
+        <Kartica key={k}
+          boja={boje[k] || T.navy}
+          ime={srcLabel(k)}
+          broj={st.po[k].ukupno}
+          procenat={pct(st.po[k].ukupno)}
+          sub={`${st.po[k].samo} samo ovde`}
+        />
       ))}
-
-      <div style={{fontSize:10,color:T.muted,marginTop:10,lineHeight:1.5}}>
-        Puna boja — oglasi koje ima samo taj portal. Bleda — isti stan vidljiv i na
-        drugom portalu. Zbir po portalima je veći od broja oglasa upravo za ta
-        preklapanja.
-      </div>
     </div>
   );
 }
