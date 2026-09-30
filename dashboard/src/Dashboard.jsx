@@ -7,6 +7,21 @@ import {
 // ── Data ────────────────────────────────────────────────────────────────────
 const REPO_RAW = "https://raw.githubusercontent.com/nikned-kadena/nb-tracker/main/data";
 
+// Izvori. Nekretnine.rs je izbacen 30.09.2026 — portal je presao na
+// Immobiliare.it platformu i uveo DataDome anti-bot 13.07.2026, pa je nas
+// NRS scraper od tada mrtav i fajlovi su zamrznuti na 13.07. Prikazivati ih
+// znacilo bi lagati korisnika svezim izgledom trom-esecnih podataka.
+//
+// "all" je spojeni prikaz iz registra: isti stan sa vise portala je JEDAN
+// zapis, ne tri. Zato je to podrazumevani izbor.
+const SOURCES = [
+  { id: "all",      label: "Svi izvori" },
+  { id: "halo",     label: "Halo Oglasi" },
+  { id: "4zida",    label: "4zida" },
+  { id: "nadjidom", label: "Nadji Dom" },
+];
+const srcLabel = id => (SOURCES.find(x=>x.id===id)||{}).label || id;
+
 const BUILDINGS = [
   "West 65 Kula","A Blok","Airport Garden","Bel Mondo",
   "Belvil","Kennedy Residence","Lastavica","Lux 51","New Minel","Pupinova palata",
@@ -272,7 +287,7 @@ const TABS = ["Segmentacija","Zgrade","Trend","Listinzi","Agencije"];
 // ── MAIN ─────────────────────────────────────────────────────────────────────
 export default function Dashboard() {
   const [mode,   setMode]   = useState("prodaja");
-  const [source, setSource] = useState("halo");
+  const [source, setSource] = useState("all");
   const [tab,    setTab]    = useState("Segmentacija");
   const [data,   setData]   = useState(null);
   const [history,setHistory]= useState([]);
@@ -306,6 +321,14 @@ export default function Dashboard() {
       .then(d => setRentaListings(d?.listings ?? []))
       .catch(()=> setRentaListings([]));
   },[mode, source]);
+
+  // Days on market — registar je jedan za sve izvore, pa ne zavisi od `source`
+  const [dom, setDom] = useState(null);
+  useEffect(()=>{
+    fetchJSON(`${REPO_RAW}/dom_${mode}.json`)
+      .then(d => setDom(d))
+      .catch(()=> setDom(null));
+  },[mode]);
 
   // Fetch
   useEffect(()=>{
@@ -431,7 +454,7 @@ export default function Dashboard() {
           <span style={{color:"#fff",fontWeight:600,fontSize:isMobile?13:15}}>Market Intelligence</span>
         </div>
         <div style={{display:"flex",alignItems:"center",gap:6,flexWrap:"wrap"}}>
-          {["halo","nrs"].map(s=>(
+          {SOURCES.map(({id:s})=>(
             <button key={s} onClick={()=>setSource(s)} style={{
               padding:isMobile?"3px 8px":"4px 12px",borderRadius:6,
               fontSize:isMobile?11:12,cursor:"pointer",
@@ -439,7 +462,7 @@ export default function Dashboard() {
               color: source===s?T.navy:"#94a3b8",
               border:`1px solid ${source===s?"#fff":"#475569"}`,
               fontWeight:source===s?600:400,
-            }}>{s==="halo"?"Halo Oglasi":"Nekretnine.rs"}</button>
+            }}>{srcLabel(s)}</button>
           ))}
           <div style={{width:1,height:20,background:"#334155",margin:"0 2px"}}/>
           {["prodaja","renta"].map(m=>(
@@ -463,7 +486,7 @@ export default function Dashboard() {
         <div style={{display:"flex",alignItems:"center",gap:10}}>
           <span style={{background:T.navy,color:"#fff",padding:"3px 10px",
             borderRadius:6,fontSize:12,fontWeight:500}}>
-            {source==="halo"?"Halo Oglasi":"Nekretnine.rs"}
+            {srcLabel(source)}
           </span>
           <span style={{fontSize:13,color:T.muted}}>
             📅 <b style={{color:T.text}}>{data?.date||"–"}</b>
@@ -594,6 +617,35 @@ export default function Dashboard() {
               )}
               <KpiCard label="Prosek €/m²" value={avgCM2?`${fmt(avgCM2)} €`:"–"}
                 sub="sve strukture" />
+
+              {/* Days on market — Kaplan-Meier procena iz registra.
+                  NE koristi prostu medijanu skinutih oglasa: ona izbacuje
+                  one koji su jos u ponudi, a bas su oni najduzi, pa je
+                  sistematski potcenjena (NB prodaja: 13 dana naspram 29). */}
+              {dom?.ukupno?.dom_medijana != null && (
+                <KpiCard
+                  label="Dana na tržištu"
+                  value={`${dom.ukupno.dom_medijana} dana`}
+                  sub={`medijana · ${dom.ukupno.n_zavrseni} skinutih, ${dom.ukupno.n_aktivni} u ponudi`}
+                  subColor={T.muted}
+                />
+              )}
+              {dom?.ukupno && dom.ukupno.dom_medijana == null && (
+                <KpiCard
+                  label="Dana na tržištu"
+                  value="—"
+                  sub={`još se meri · ${dom.ukupno.n_aktivni} u ponudi`}
+                  subColor={T.muted}
+                />
+              )}
+              {dom?.cene?.prosecno_snizenje_pct != null && (
+                <KpiCard
+                  label="Sniženja cene"
+                  value={`${dom.cene.ukupno_snizenja}`}
+                  sub={`prosečno −${dom.cene.prosecno_snizenje_pct}% · ${dom.cene.oglasa_sa_promenom} oglasa menjalo cenu`}
+                  subColor={T.muted}
+                />
+              )}
             </div>
           )}
 
@@ -1061,7 +1113,7 @@ export default function Dashboard() {
                 // Slug nije u mappingu — vrati ga malo sređen
                 return ag.replace(/[-_]/g," ").replace(/\b\w/g,c=>c.toUpperCase()).trim();
               }
-              // Za NRS — čišćenje "Prikaži telefon" i sličnih sufiksa
+              // Ostali portali — čišćenje "Prikaži telefon" i sličnih sufiksa
               const clean = ag
                 .replace(/Prika[zž]i\s*telefon/gi, "")
                 .replace(/Agencija\s*S\.\.\./gi, "")
