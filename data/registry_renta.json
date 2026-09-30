@@ -1846,14 +1846,17 @@
         "754411cd253faed3"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "43b199bf3ec4"
+        "halo": "43b199bf3ec4",
+        "4zida": "4zida:6a1972368920c84a8f06954a"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---jurija-gagarina---a-blok-69m2/5425647118467?kid=4",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---jurija-gagarina---a-blok-69m2/5425647118467?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---jurija-gagarina---a-blok-69m2/5425647118467?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/trosoban-stan/6a1972368920c84a8f06954a"
       ],
       "zgrada": "A Blok",
       "struktura": "3.0",
@@ -1861,7 +1864,7 @@
       "m2": 69.0,
       "sprat": null,
       "agencija": "Kalemnekretnine",
-      "naslov": "Novi Beograd - Jurija Gagarina - A blok 69m2 3.0 ",
+      "naslov": "Trosoban stan za izdavanje, Jurija Gagarina, 1.250€, 69m²",
       "price_first": 1250.0,
       "price_current": 1250.0,
       "price_changes": [],
@@ -8125,21 +8128,24 @@
     "ca20cc9e14f74d40": {
       "uid": "ca20cc9e14f74d40",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-09-02",
-      "is_active": false,
-      "deactivated_at": "2026-09-04",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "fcec1f5f03a85129",
       "fp_strict_all": [
         "0bf9d9ed082c4bdc"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "222c641fd053"
+        "halo": "222c641fd053",
+        "4zida": "4zida:6a4699c9eb38b984760cbbec"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-duplex-penthaus-garaza-id-22505/5425644503858?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-duplex-penthaus-garaza-id-22505/5425644503858?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/trosoban-stan/6a4699c9eb38b984760cbbec"
       ],
       "zgrada": "A Blok",
       "struktura": "3.0",
@@ -8147,11 +8153,11 @@
       "m2": 148.0,
       "sprat": null,
       "agencija": "eminent-nekretnine",
-      "naslov": "A blok, duplex, penthaus, garaža, ID 22505",
+      "naslov": "Trosoban stan za izdavanje, Jurija Gagarina, 4.500€, 148m²",
       "price_first": 4500.0,
       "price_current": 4500.0,
       "price_changes": [],
-      "days_listed": 63,
+      "days_listed": 89,
       "cena_m2": 30
     },
     "fdfefa7876c61af7": {
@@ -17538,21 +17544,25 @@
     "2e2dc74db409f85f": {
       "uid": "2e2dc74db409f85f",
       "first_seen": "2026-08-26",
-      "last_seen": "2026-09-08",
-      "is_active": false,
-      "deactivated_at": "2026-09-10",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "2a43da78029adf8c",
       "fp_strict_all": [
-        "bba2ddae25473851"
+        "bba2ddae25473851",
+        "0c93b38313636fa3"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "76cbb472ddce"
+        "halo": "76cbb472ddce",
+        "4zida": "4zida:6aba9dc52a2b259e080b76cb"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul-65-lux-neuseljavan-garaza-id-26004/5425647577954?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul-65-lux-neuseljavan-garaza-id-26004/5425647577954?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/dvosoban-stan/6aba9dc52a2b259e080b76cb"
       ],
       "zgrada": "A Blok",
       "struktura": "2.0",
@@ -17560,12 +17570,18 @@
       "m2": 55.0,
       "sprat": null,
       "agencija": "eminent-nekretnine",
-      "naslov": "Soul 65, lux, neuseljavan, garaža, ID 26004",
+      "naslov": "Dvosoban stan za izdavanje, Omladinskih brigada, 1.300€, 55m²",
       "price_first": 1250.0,
-      "price_current": 1250.0,
-      "price_changes": [],
-      "days_listed": 15,
-      "cena_m2": 23
+      "price_current": 1300,
+      "price_changes": [
+        {
+          "date": "2026-09-30",
+          "from": 1250.0,
+          "to": 1300
+        }
+      ],
+      "days_listed": 35,
+      "cena_m2": 24
     },
     "ecb9cace7374032d": {
       "uid": "ecb9cace7374032d",
@@ -23790,7 +23806,38 @@
       "price_current": 900.0,
       "price_changes": [],
       "days_listed": 0
+    },
+    "b16a4c209db47350": {
+      "uid": "b16a4c209db47350",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "2a43da78029adf8c",
+      "fp_strict_all": [
+        "16ea4cb53e78f473"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "source_ids": {
+        "4zida": "4zida:6aba9dc62a2b259e080b76ce"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/dvosoban-stan/6aba9dc62a2b259e080b76ce"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 55.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Dvosoban stan za izdavanje, Omladinskih brigada, 1.200€, 55m²",
+      "price_first": 1200,
+      "price_current": 1200,
+      "price_changes": [],
+      "days_listed": 0
     }
   },
-  "updated_at": "2026-09-30T12:08:26.527987+00:00"
+  "updated_at": "2026-09-30T12:09:44.314044+00:00"
 }
