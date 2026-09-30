@@ -186,7 +186,12 @@ def _index(entries: dict) -> tuple:
     for uid, e in entries.items():
         for fp in e.get("fp_strict_all", []):
             by_strict.setdefault(fp, uid)
-        by_loose.setdefault(e.get("fp_loose"), []).append(uid)
+        # Loose otisak sadrzi zgradu, a zgrada se moze naknadno prepoznati
+        # (vidi _bolja_zgrada). Zato se cuvaju SVE varijante, da oglas ostane
+        # spojiv i po starom otisku iz dana kad je bio neidentifikovan.
+        for fp in (e.get("fp_loose_all") or [e.get("fp_loose")]):
+            if fp:
+                by_loose.setdefault(fp, []).append(uid)
     return by_strict, by_loose
 
 
@@ -243,6 +248,30 @@ def _match(l: dict, entries: dict, by_strict: dict, by_loose: dict,
     return None
 
 
+def _neid(z) -> bool:
+    """Da li je vrednost zgrade prazna ili 'neidentifikovano'."""
+    return not z or "neidentifikovano" in str(z).lower()
+
+
+def _bolja_zgrada(stara, nova) -> bool:
+    """Sme li `nova` da zameni `staru`?
+
+    SAMO NAGORE — neidentifikovano/prazno -> konkretan naziv. Nikad obrnuto.
+
+    Zasto je ovo pravilo, a ne prosto prepisivanje (nadjeno 30.09.2026):
+    `zgrada` do sada uopste nije bila medju poljima koja se osvezavaju na
+    postojecem zapisu. Kad je uvedeno prepoznavanje zgrade iz opisa agenta,
+    ekstrakcija je radila (54/61 oglasa je dobilo pravi tekst), ali je u
+    registru i dalje stajalo staro "BW (neidentifikovano)" — pa je izgledalo
+    kao da ceo posao nije uspeo. Popravka mora biti jednosmerna: kad isti
+    stan dodje sa drugog portala gde naslov ne kaze zgradu, ne sme da obrise
+    zgradu koju je jaci izvor vec tacno prepoznao.
+    """
+    if not nova or _neid(nova):
+        return False
+    return _neid(stara)
+
+
 def _migriraj_last_seen_src(e: dict):
     """Stari zapis nema `last_seen_src` — popuni ga iz `last_seen`.
 
@@ -285,7 +314,7 @@ def update(data_dir: Path, mode: str, listings: list, source: str = "halo",
     by_strict, by_loose = _index(entries)
 
     seen_uids = set()
-    n_new = n_merged = n_price = n_reopened = 0
+    n_new = n_merged = n_price = n_reopened = n_zgrada = 0
     odbijeni = []
 
     for l in listings:
@@ -306,6 +335,7 @@ def update(data_dir: Path, mode: str, listings: list, source: str = "halo",
                 "is_active": True,
                 "deactivated_at": None,
                 "fp_loose": fp_l,
+                "fp_loose_all": [fp_l],
                 "fp_strict_all": [fp_s],
                 "sources": [source],
                 "last_seen_src": {source: today},
@@ -360,6 +390,18 @@ def update(data_dir: Path, mode: str, listings: list, source: str = "halo",
             for k in ("naslov", "agencija", "m2", "sprat", "cena_m2"):
                 if l.get(k) is not None:
                     e[k] = l[k]
+
+            # zgrada se osvezava samo nagore (vidi _bolja_zgrada)
+            if _bolja_zgrada(e.get("zgrada"), l.get("zgrada")):
+                e["zgrada"] = l["zgrada"]
+                n_zgrada += 1
+                # Nova zgrada = nov loose otisak. Stari se zadrzava u listi,
+                # da oglas ostane spojiv i preko zapisa koji jos nemaju
+                # prepoznatu zgradu.
+                if fp_l not in e.setdefault("fp_loose_all", [e.get("fp_loose")]):
+                    e["fp_loose_all"].append(fp_l)
+                    by_loose.setdefault(fp_l, []).append(uid)
+                e["fp_loose"] = fp_l
 
         seen_uids.add(uid)
 
@@ -431,6 +473,7 @@ def update(data_dir: Path, mode: str, listings: list, source: str = "halo",
         "spojeno_preko_izvora": n_merged,
         "promena_cene": n_price,
         "ponovo_aktivni": n_reopened,
+        "zgrada_dopunjena": n_zgrada,
         "deaktivirano": n_deact,
         "deaktivacija_preskocena": skipped,
         "aktivnih_sada": sum(1 for e in entries.values() if e.get("is_active")),
@@ -438,7 +481,9 @@ def update(data_dir: Path, mode: str, listings: list, source: str = "halo",
     if verbose:
         print(f"  [STORE] {mode}: u registru {rep['u_registru']}, videno {rep['videno']}, "
               f"novih {rep['novi']}, spojeno {rep['spojeno_preko_izvora']}, "
-              f"cena menjana {rep['promena_cene']}, deaktivirano {rep['deaktivirano']}")
+              f"cena menjana {rep['promena_cene']}, deaktivirano {rep['deaktivirano']}"
+              + (f", zgrada dopunjena {rep['zgrada_dopunjena']}"
+                 if rep['zgrada_dopunjena'] else ""))
     return rep
 
 
@@ -529,9 +574,33 @@ if __name__ == "__main__":
             if duo[0]["is_active"]:
                 palo.append("oglas nije ugasen ni kad su ga oba portala demantovala")
 
+        # 5. zgrada se dopunjuje naknadno, ali samo nagore
+        update(D, M, [dict(_og(30, "4zida"), zgrada="BW (neidentifikovano)")],
+               source="4zida", run_date="2026-09-17", verbose=False)
+        reg = load_registry(D, M)
+        u30 = [u for u, e in reg["entries"].items()
+               if e["source_ids"].get("4zida") == "4zida:30"][0]
+        if not _neid(reg["entries"][u30]["zgrada"]):
+            palo.append("test 5: pocetno stanje nije neidentifikovano")
+        # isti oglas, sad sa prepoznatom zgradom iz opisa
+        rep = update(D, M, [dict(_og(30, "4zida"), zgrada="BW Thalia")],
+                     source="4zida", run_date="2026-09-18", verbose=False)
+        reg = load_registry(D, M)
+        if reg["entries"][u30]["zgrada"] != "BW Thalia":
+            palo.append("zgrada NIJE dopunjena kad je prepoznata iz opisa")
+        if rep.get("zgrada_dopunjena") != 1:
+            palo.append("izvestaj ne broji dopunjene zgrade")
+        # drugi portal bez naziva ne sme da je obrise
+        update(D, M, [dict(_og(30, "halo"), m2=90, cena=1800,
+                           zgrada="BW (neidentifikovano)")],
+               source="halo", run_date="2026-09-18", verbose=False)
+        reg = load_registry(D, M)
+        if reg["entries"][u30]["zgrada"] != "BW Thalia":
+            palo.append("slabiji izvor je obrisao vec prepoznatu zgradu")
+
     if palo:
         print("PALO:")
         for p in palo:
             print("  -", p)
         raise SystemExit(1)
-    print("store.py: sve provere deaktivacije po izvoru prolaze (4/4)")
+    print("store.py: sve provere prolaze (5/5) — deaktivacija po izvoru + dopuna zgrade")
