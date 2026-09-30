@@ -67,6 +67,7 @@ Stari zapisi nemaju `last_seen_src`; pri prvom prolazu se popunjava iz
 
 import json
 import hashlib
+import re
 from datetime import date, datetime, timezone
 from pathlib import Path
 
@@ -83,18 +84,63 @@ def _h(*parts) -> str:
     return hashlib.sha256("|".join(str(p) for p in parts).encode("utf-8")).hexdigest()[:16]
 
 
-def fingerprints(l: dict) -> tuple:
-    """Vraca (fp_strict, fp_loose) za jedan oglas.
+# Sufiksi koji ne razlikuju agencije. "Benefit nekretnine " i "Benefit" su
+# ista kuca, kao i "EUROPOLIS NEKRETNINE" i "EUROPOLISNEKRETNINE" — portali
+# im dozvoljavaju da se predstave kako hoce, a razlika u zapisu je do
+# 30.09.2026 sprecavala spajanje istog oglasa objavljenog dvaput.
+_AG_SUFIKS = re.compile(
+    r"(nekretnine|nekretnina|realestate|realty|properties|property|estate"
+    r"|agencijazanekretnine|agencija|posredovanje|doo|dooo|pr|grupa|group)")
+_DIJAKRITICI = str.maketrans({
+    "č": "c", "ć": "c", "ž": "z", "š": "s", "đ": "d",
+    "Č": "c", "Ć": "c", "Ž": "z", "Š": "s", "Đ": "d",
+})
 
-    Dva nivoa jer isti stan na dva portala retko ima identican naslov, ali
+
+def norm_agencija(a) -> str:
+    """Uporedivi oblik imena agencije. Prazan string = nepoznata agencija.
+
+    Prazan rezultat se NIKAD ne poklapa sam sa sobom — dva oglasa bez
+    agencije nisu time isti oglas.
+    """
+    if not a:
+        return ""
+    s = str(a).translate(_DIJAKRITICI).lower()
+    s = re.sub(r"[^a-z0-9]", "", s)
+    s = _AG_SUFIKS.sub("", s)
+    return s
+
+
+def _ista_agencija(a, b) -> bool:
+    na, nb = norm_agencija(a), norm_agencija(b)
+    return bool(na) and na == nb
+
+
+def _ima_sprat(l: dict) -> bool:
+    s = l.get("sprat")
+    return bool(s) and str(s).strip() not in ("", "?", "None", "null")
+
+
+def fingerprints(l: dict) -> tuple:
+    """Vraca (fp_strict, fp_loose, fp_nosprat) za jedan oglas.
+
+    Tri nivoa jer isti stan na dva portala retko ima identican naslov, ali
     skoro uvek ima istu zgradu, strukturu i kvadraturu.
 
-      fp_strict = zgrada | struktura | m2 na jednu decimalu | cena
-                  -> isti stan, ista cena. Spaja se bez pitanja.
+      fp_strict  = zgrada | struktura | m2 na jednu decimalu | cena
+                   -> isti stan, ista cena. Spaja se bez pitanja.
 
-      fp_loose  = zgrada | struktura | m2 zaokruzen | sprat
-                  -> isti stan, cena se u medjuvremenu promenila.
-                     Spaja se samo ako je cena u krugu od PRICE_TOL.
+      fp_loose   = zgrada | struktura | m2 zaokruzen | sprat
+                   -> isti stan, cena se u medjuvremenu promenila.
+                      Spaja se samo ako je cena u krugu od PRICE_TOL.
+
+      fp_nosprat = isto, ali BEZ sprata.
+                   Koristi se SAMO kad jednom od dva zapisa sprat nedostaje.
+                   Nalaz od 30.09.2026: u 21 od 24 nespojene grupe u NB
+                   prodaji jedan zapis je imao sprat, drugi null — pa se
+                   fp_loose nije poklopio iako je oglas isti. Kad OBA znaju
+                   sprat a razlikuju se, to su razliciti stanovi i ovaj
+                   otisak se ne koristi.
 
     Namerno NE koristi naslov ni agenciju: naslov pise agent i razlicit je
     na svakom portalu, a isti stan cesto oglasavaju dve agencije.
@@ -107,7 +153,8 @@ def fingerprints(l: dict) -> tuple:
 
     fp_strict = _h("s", zgrada, stru, round(float(m2), 1), int(cena))
     fp_loose = _h("l", zgrada, stru, round(float(m2)), sprat)
-    return fp_strict, fp_loose
+    fp_nosprat = _h("n", zgrada, stru, round(float(m2)))
+    return fp_strict, fp_loose, fp_nosprat
 
 
 def _price_close(a, b) -> bool:
@@ -187,7 +234,7 @@ def save_registry(data_dir: Path, mode: str, reg: dict) -> Path:
 
 def _index(entries: dict) -> tuple:
     """Gradi indekse za brzo spajanje: po strict otisku i po loose otisku."""
-    by_strict, by_loose = {}, {}
+    by_strict, by_loose, by_nosprat = {}, {}, {}
     for uid, e in entries.items():
         for fp in e.get("fp_strict_all", []):
             by_strict.setdefault(fp, uid)
@@ -197,11 +244,14 @@ def _index(entries: dict) -> tuple:
         for fp in (e.get("fp_loose_all") or [e.get("fp_loose")]):
             if fp:
                 by_loose.setdefault(fp, []).append(uid)
-    return by_strict, by_loose
+        for fp in (e.get("fp_nosprat_all") or ([e["fp_nosprat"]]
+                                               if e.get("fp_nosprat") else [])):
+            by_nosprat.setdefault(fp, []).append(uid)
+    return by_strict, by_loose, by_nosprat
 
 
 def _match(l: dict, entries: dict, by_strict: dict, by_loose: dict,
-           source: str, ext_id: str):
+           by_nosprat: dict, source: str, ext_id: str):
     """Nadji postojeci zapis za ovaj oglas, ili None.
 
     PRAVILO KOJE SPRECAVA NAJGORU GRESKU
@@ -222,7 +272,7 @@ def _match(l: dict, entries: dict, by_strict: dict, by_loose: dict,
       - drugi portal                  -> spoji na strict, ili na loose ako je
                                          cena u toleranciji.
     """
-    fp_s, fp_l = fingerprints(l)
+    fp_s, fp_l, fp_n = fingerprints(l)
 
     # 1. isti portal, isti ID — najjaci signal, nema dvoumljenja
     for uid, e in entries.items():
@@ -239,8 +289,10 @@ def _match(l: dict, entries: dict, by_strict: dict, by_loose: dict,
         e = entries[uid]
         if not _isti_portal_drugi_id(e):
             return uid
-        # dupla objava na istom portalu — samo ako je i agencija ista
-        if e.get("agencija") and e.get("agencija") == l.get("agencija"):
+        # dupla objava na istom portalu — samo ako je i agencija ista.
+        # Poredjenje ide preko norm_agencija, jer ista kuca zna da se na
+        # istom portalu potpise i kao "Benefit" i kao "Benefit nekretnine ".
+        if _ista_agencija(e.get("agencija"), l.get("agencija")):
             return uid
 
     # 3. loose otisak + cena u toleranciji — SAMO preko izvora
@@ -249,6 +301,31 @@ def _match(l: dict, entries: dict, by_strict: dict, by_loose: dict,
         if _isti_portal_drugi_id(e):
             continue
         if _price_close(e.get("price_current"), l.get("cena")):
+            return uid
+
+    # 3b. isti stan, ali jednom od zapisa NEDOSTAJE sprat
+    #
+    # Portali cesto ne prenesu sprat (Halo ga nema u listingu, 4zida ponekad
+    # ni na detaljnoj strani). Zapis bez sprata ne moze da se poklopi po
+    # fp_loose, pa je isti oglas ostajao dvaput u registru.
+    #
+    # Uslov je namerno uzak, da se ne spoje dva RAZLICITA stana istog
+    # layouta na razlicitim spratovima — cest slucaj u novogradnji:
+    #   - bar jednom od dva zapisa sprat mora da fali
+    #     (ako oba znaju sprat a fp_loose se nije poklopio, spratovi su
+    #      razliciti i to su razliciti stanovi)
+    #   - cena mora biti u toleranciji
+    #   - i mora biti drugi portal ILI ista agencija na istom portalu
+    l_zna_sprat = _ima_sprat(l)
+    for uid in by_nosprat.get(fp_n, []):
+        e = entries[uid]
+        if l_zna_sprat and _ima_sprat(e):
+            continue
+        if not _price_close(e.get("price_current"), l.get("cena")):
+            continue
+        if not _isti_portal_drugi_id(e):
+            return uid
+        if _ista_agencija(e.get("agencija"), l.get("agencija")):
             return uid
     return None
 
@@ -316,7 +393,7 @@ def update(data_dir: Path, mode: str, listings: list, source: str = "halo",
     today = run_date or date.today().isoformat()
     reg = load_registry(data_dir, mode)
     entries = reg["entries"]
-    by_strict, by_loose = _index(entries)
+    by_strict, by_loose, by_nosprat = _index(entries)
 
     seen_uids = set()
     n_new = n_merged = n_price = n_reopened = n_zgrada = 0
@@ -328,8 +405,9 @@ def update(data_dir: Path, mode: str, listings: list, source: str = "halo",
             odbijeni.append((l.get("id"), razlog))
             continue
         ext_id = str(l.get("id") or "")
-        uid = _match(l, entries, by_strict, by_loose, source, ext_id)
-        fp_s, fp_l = fingerprints(l)
+        uid = _match(l, entries, by_strict, by_loose, by_nosprat,
+                     source, ext_id)
+        fp_s, fp_l, fp_n = fingerprints(l)
 
         if uid is None:
             uid = _h("uid", source, ext_id, fp_l)
@@ -341,6 +419,8 @@ def update(data_dir: Path, mode: str, listings: list, source: str = "halo",
                 "deactivated_at": None,
                 "fp_loose": fp_l,
                 "fp_loose_all": [fp_l],
+                "fp_nosprat": fp_n,
+                "fp_nosprat_all": [fp_n],
                 "fp_strict_all": [fp_s],
                 "sources": [source],
                 "last_seen_src": {source: today},
@@ -359,6 +439,7 @@ def update(data_dir: Path, mode: str, listings: list, source: str = "halo",
             }
             by_strict[fp_s] = uid
             by_loose.setdefault(fp_l, []).append(uid)
+            by_nosprat.setdefault(fp_n, []).append(uid)
             n_new += 1
         else:
             e = entries[uid]
@@ -379,6 +460,12 @@ def update(data_dir: Path, mode: str, listings: list, source: str = "halo",
             if fp_s not in e.setdefault("fp_strict_all", []):
                 e["fp_strict_all"].append(fp_s)
                 by_strict[fp_s] = uid
+            # Zapisi napravljeni pre 30.09.2026 nemaju fp_nosprat — dopuni ga
+            # pri prvom dodiru, da indeks ne ostane prazan za stari registar.
+            if fp_n not in e.setdefault("fp_nosprat_all", []):
+                e["fp_nosprat_all"].append(fp_n)
+                by_nosprat.setdefault(fp_n, []).append(uid)
+            e["fp_nosprat"] = e.get("fp_nosprat") or fp_n
 
             cena = l.get("cena")
             if cena and e.get("price_current") and cena != e["price_current"]:
@@ -407,6 +494,9 @@ def update(data_dir: Path, mode: str, listings: list, source: str = "halo",
                     e["fp_loose_all"].append(fp_l)
                     by_loose.setdefault(fp_l, []).append(uid)
                 e["fp_loose"] = fp_l
+                if fp_n not in e.setdefault("fp_nosprat_all", []):
+                    e["fp_nosprat_all"].append(fp_n)
+                    by_nosprat.setdefault(fp_n, []).append(uid)
 
         seen_uids.add(uid)
 
@@ -603,9 +693,53 @@ if __name__ == "__main__":
         if reg["entries"][u30]["zgrada"] != "BW Thalia":
             palo.append("slabiji izvor je obrisao vec prepoznatu zgradu")
 
+        # 6. isti oglas dvaput na istom portalu — razlicit zapis agencije
+        #    i sprat koji fali na jednom. Do 30.09.2026 su ostajala dva zapisa.
+        update(D, M, [dict(_og(40, "halo"), agencija="Benefit nekretnine ",
+                           sprat="5")],
+               source="halo", run_date="2026-09-20", verbose=False)
+        update(D, M, [dict(_og(41, "halo"), agencija="Benefit", sprat=None,
+                           m2=_og(40, "halo")["m2"], cena=_og(40, "halo")["cena"])],
+               source="halo", run_date="2026-09-20", verbose=False)
+        reg = load_registry(D, M)
+        benefit = [e for e in reg["entries"].values()
+                   if norm_agencija(e.get("agencija")) == "benefit"]
+        if len(benefit) != 1:
+            palo.append(f"dupla objava iste agencije nije spojena "
+                        f"({len(benefit)} zapisa umesto 1)")
+
+        # 7. RAZLICITI stanovi iste zgrade/kvadrature na poznatim, razlicitim
+        #    spratovima ne smeju da se spoje ni kad je agencija ista
+        update(D, M, [dict(_og(50, "halo"), agencija="Ipsum", sprat="3")],
+               source="halo", run_date="2026-09-21", verbose=False)
+        update(D, M, [dict(_og(51, "halo"), agencija="Ipsum", sprat="9",
+                           m2=_og(50, "halo")["m2"],
+                           cena=_og(50, "halo")["cena"] + 1)],
+               source="halo", run_date="2026-09-21", verbose=False)
+        reg = load_registry(D, M)
+        ipsum = [e for e in reg["entries"].values()
+                 if norm_agencija(e.get("agencija")) == "ipsum"]
+        if len(ipsum) != 2:
+            palo.append(f"dva razlicita sprata su spojena u jedan zapis "
+                        f"({len(ipsum)} umesto 2)")
+
+        # 8. dva oglasa BEZ agencije se ne spajaju samo zato sto su oba prazna
+        update(D, M, [dict(_og(60, "halo"), agencija=None, sprat=None)],
+               source="halo", run_date="2026-09-22", verbose=False)
+        update(D, M, [dict(_og(61, "halo"), agencija=None, sprat=None,
+                           m2=_og(60, "halo")["m2"],
+                           cena=_og(60, "halo")["cena"] + 1)],
+               source="halo", run_date="2026-09-22", verbose=False)
+        reg = load_registry(D, M)
+        bezag = [e for e in reg["entries"].values()
+                 if e.get("agencija") is None and e["m2"] == _og(60, "halo")["m2"]]
+        if len(bezag) != 2:
+            palo.append(f"dva oglasa bez agencije su spojena ({len(bezag)} umesto 2)")
+
     if palo:
         print("PALO:")
         for p in palo:
             print("  -", p)
         raise SystemExit(1)
-    print("store.py: sve provere prolaze (5/5) — deaktivacija po izvoru + dopuna zgrade")
+    print("store.py: sve provere prolaze (8/8) — deaktivacija po izvoru, "
+          "dopuna zgrade, spajanje duplih objava")
