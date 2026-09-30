@@ -85,6 +85,16 @@ def _listing(e: dict) -> dict:
                              and e["price_first"] != e["price_current"] else None),
         "first_seen": e.get("first_seen"),
         "last_seen": e.get("last_seen"),
+        # Kljuc po kome dashboard grupise oglase iste NEKRETNINE.
+        # BnV dashboard dedupira po `dedup_key || id`; posto projekcija taj
+        # kljuc nije upisivala, padao je na `id` (jedinstven po zapisu) pa
+        # dedupa nije ni bilo — KPI je pokazivao "726 nekretnina, 90 dup.",
+        # dve brojke koje se iskljucuju. NB dashboard racuna isti kljuc sam,
+        # pa mu ovo ne smeta, ali je sada svuda jedan izvor istine.
+        "dedup_key": "|".join(str(x) for x in _nekretnina({
+            "zgrada": e.get("zgrada"), "m2": e.get("m2"),
+            "cena": e.get("price_current"),
+        })),
     }
 
 
