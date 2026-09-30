@@ -29,6 +29,18 @@ izvora geokodiranje ne treba uopste — koordinata dolazi besplatno. Halo je
 ne daje, pa nam ovi oglasi sluze i kao referentni skup: kad isti stan
 vidimo i na Halo-u i na 4zida, koordinata sa 4zida se prenosi na spojeni
 zapis kroz store.py.
+
+OPIS AGENTA (dodato 30.09.2026)
+-------------------------------
+JSON-LD `description` na 4zida NIJE tekst agenta nego automatski generisan
+rezime bez naziva zgrade ("Trosoban stan u zgradi za izdavanje, Namesteno,
+Beograd na vodi, 140 m2, na 2. spratu, ima lift..."). Zato je 84% BnV
+oglasa sa 4zida padalo u "BW (neidentifikovano)".
+
+Pravi tekst agenta stoji u Next.js RSC toku (`self.__next_f`) i skoro uvek
+pocinje nazivom zgrade. `opis_agenta()` ga rekonstruise; klasifikacija ga
+onda daje modulu zgrada_iz_opisa.py. Provereno na 79 BnV oglasa za
+izdavanje: 79/79 ima tacno jedan takav blok, prosecno 928 znakova.
 """
 
 import json
@@ -43,6 +55,13 @@ from bs4 import BeautifulSoup
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 CACHE_TTL_DAYS = 30
+
+# Verzija parsera detaljne strane. Podigni je kad parse_detail pocne da
+# cita novo polje — kesirani zapisi stare verzije se tada automatski
+# preuzimaju ponovo. Bez ovoga bi posle uvodjenja `opis_agenta` svi
+# kesirani oglasi zadrzali stari, beskoristan JSON-LD opis dokle god kes
+# ne istekne (30 dana), pa bi prepoznavanje zgrade radilo samo za nove.
+PARSER_VERZIJA = 2
 PAGE_DELAY = 2.0
 DETAIL_DELAY = 1.0
 MAX_PAGES = 40
@@ -180,6 +199,97 @@ def _sobe_iz_url(url: str):
     return None
 
 
+# ── opis agenta iz Next.js RSC toka ─────────────────────────────────────
+# 4zida je Next.js App Router aplikacija. Serverski HTML nosi "flight"
+# tok isparcan na desetine skriptova:
+#
+#   <script>self.__next_f.push([1,"<escapirani deo toka>"])</script>
+#
+# Spojeni tok je niz redova "<id>:T<duzina_u_hex>,<sadrzaj>". Tekst agenta
+# stoji pod kljucem "text", ali cesto samo kao referenca ("$52") na red 52
+# gde je pravi tekst. Zato:
+#
+#   1. rekonstruisi ceo tok (JSON-dekodiraj svaki push i spoji),
+#   2. nadji prvi "text" koji lici na opis,
+#   3. ako je vrednost referenca, procitaj taj red po TACNOJ duzini iz T<hex>.
+#
+# Duzina je u BAJTOVIMA, ne u znakovima. Prvi pokusaj je rezao red do
+# sledeceg "\n<id>:" i tako povlacio i JSX iz sledeceg reda — u uzorku se
+# to videlo kao 31 pogodak na "aria" (bilo je to aria-label iz markupa).
+# Rezanje po bajtovima to resava deterministicki.
+
+_PUSH = 'self.__next_f.push([1,'
+_RX_TEXT = re.compile(r'"text":"((?:[^"\\]|\\.)*)"')
+_RX_REF = re.compile(r"^\$[0-9a-zA-Z]{1,6}$")
+_SUMNJIVO = ("className", '"@type"', "aria-", "<svg", "</", "{\"$\"")
+
+
+def _flight(html: str) -> str:
+    """Spoji sve self.__next_f.push delove u jedan tok."""
+    delovi, i = [], 0
+    while True:
+        i = html.find(_PUSH, i)
+        if i == -1:
+            break
+        j = i + len(_PUSH)
+        if j >= len(html) or html[j] != '"':
+            i = j
+            continue
+        k = j + 1
+        while k < len(html):
+            if html[k] == "\\":
+                k += 2
+                continue
+            if html[k] == '"':
+                break
+            k += 1
+        try:
+            delovi.append(json.loads(html[j:k + 1]))
+        except Exception:
+            pass
+        i = k + 1
+    return "".join(delovi)
+
+
+def _red(tok: str, rid: str):
+    """Sadrzaj reda '<rid>:T<hex>,' rezan po tacnoj duzini u bajtovima."""
+    m = re.search(r"(?:^|\n)" + re.escape(rid) + r":T([0-9a-f]+),", tok)
+    if not m:
+        return None
+    n = int(m.group(1), 16)
+    # n znakova je uvek >= n bajtova, pa je ovaj isecak dovoljno dug
+    return tok[m.end():m.end() + n].encode("utf-8")[:n].decode("utf-8", "ignore")
+
+
+def opis_agenta(html: str):
+    """Originalni tekst agenta, ili None ako ga nema (npr. Nadji Dom).
+
+    Uzima NAJDUZI kandidat, ne prvi. Kljuc "text" se u RSC toku javlja i
+    kao natpis na dugmetu ili aria oznaka; opis agenta je medju njima
+    ubedljivo najduzi (prosek 928 znakova na uzorku od 79 oglasa), pa je
+    duzina pouzdaniji kriterijum od redosleda u toku.
+    """
+    if _PUSH not in html:
+        return None
+    tok = _flight(html)
+    if not tok:
+        return None
+    kandidati = []
+    for m in _RX_TEXT.finditer(tok):
+        try:
+            v = json.loads('"' + m.group(1) + '"')
+        except Exception:
+            v = m.group(1)
+        if _RX_REF.match(v):
+            v = _red(tok, v[1:])
+        if not v or len(v) < 40:
+            continue
+        if any(x in v for x in _SUMNJIVO):
+            continue        # uhvacen markup, ne tekst
+        kandidati.append(v)
+    return max(kandidati, key=len) if kandidati else None
+
+
 def parse_detail(html: str, url: str, mode: str, source: str):
     """Vrati zapis u ISTOM obliku koji pravi Halo scraper."""
     blocks = json_ld_blocks(html)
@@ -235,7 +345,14 @@ def parse_detail(html: str, url: str, mode: str, source: str):
     sprat = (listing or {}).get("floorLevel") or core.get("floorLevel")
 
     naslov = (core.get("name") or (listing or {}).get("name") or "")[:160]
-    opis = (core.get("description") or (listing or {}).get("description") or "")[:400]
+
+    # Tekst agenta ima prednost nad JSON-LD opisom: JSON-LD je automatski
+    # generisan rezime bez naziva zgrade, a od naziva zgrade zavisi cela
+    # klasifikacija. JSON-LD ostaje rezerva (Nadji Dom nije Next.js).
+    opis_ld = (core.get("description") or (listing or {}).get("description") or "")
+    opis_ag = opis_agenta(html) or ""
+    opis = (opis_ag or opis_ld)[:1500]
+    opis_izvor = "agent" if opis_ag else ("jsonld" if opis_ld else "nema")
 
     ext_id = url.rstrip("/").split("/")[-1]
     if source == "nadjidom":
@@ -269,8 +386,10 @@ def parse_detail(html: str, url: str, mode: str, source: str):
         "lat": lat,
         "lon": lon,
         "opis": opis,
+        "opis_izvor": opis_izvor,
         "mode": mode,
         "source": source,
+        "pv": PARSER_VERZIJA,
         "scraped_at": datetime.now(timezone.utc).isoformat(),
     }
 
@@ -382,12 +501,15 @@ def scrape(source: str, tracker: str, mode: str, full_refresh: bool = False,
         return []
 
     cache = {} if full_refresh else load_cache(source, mode)
-    out, novi = [], 0
+    out, novi, zastareli = [], 0, 0
 
     for i, u in enumerate(urls, 1):
-        if u in cache:
-            out.append(cache[u])
-            continue
+        stari = cache.get(u)
+        if stari is not None:
+            if stari.get("pv") == PARSER_VERZIJA:
+                out.append(stari)
+                continue
+            zastareli += 1      # kesiran starim parserom — povuci ponovo
         html = fetch(u)
         if not html:
             continue
@@ -401,8 +523,16 @@ def scrape(source: str, tracker: str, mode: str, full_refresh: bool = False,
         time.sleep(DETAIL_DELAY)
 
     ociscen = save_cache(source, mode, cache)
+    izv = {}
+    for r in out:
+        k = r.get("opis_izvor", "?")
+        izv[k] = izv.get(k, 0) + 1
     print(f"  [{source}] URL-ova {len(urls)} | iz kesa {len(out)-novi} | "
-          f"novih {novi}" + (f" | ocisceno {ociscen}" if ociscen else ""))
+          f"novih {novi}"
+          + (f" | osvezeno (nov parser) {zastareli}" if zastareli else "")
+          + (f" | ocisceno {ociscen}" if ociscen else ""))
+    print(f"  [{source}] opis: " + " | ".join(f"{k}: {v}" for k, v in
+                                              sorted(izv.items())))
     return out
 
 
@@ -426,6 +556,18 @@ def klasifikuj(listings: list, scraper_dir: Path, tracker: str = "bnv"):
     Ta razlika nije kozmeticka: 4zida za Novi Beograd vrati preko 1.500
     oglasa iz cele opstine, a nas zanima 18 zgrada. Bez odbacivanja bi
     registar i DOM statistika bili razblazeni oglasima koji nas se ne ticu.
+
+    DRUGI PROLAZ PO OPISU (BnV, dodato 30.09.2026)
+    ----------------------------------------------
+    Naslov na 4zida je automatski generisan i nikad ne sadrzi naziv zgrade,
+    pa canonical_building nema sa cim da radi i vraca neidentifikovano.
+    Tek tekst agenta nosi naziv. Zato se, SAMO za oglase koji su ostali
+    neidentifikovani, radi drugi prolaz kroz zgrada_iz_opisa.py — modul
+    koji pogodak ocenjuje po kontekstu (kvalifikator, pozicija, cue
+    blizine, potpis agencije) umesto da prihvati svako ime u tekstu.
+
+    Prvi prolaz se NE preskace: kad naslov ili adresa jasno kazu zgradu
+    (Halo, i deo nadjidom oglasa), to je pouzdaniji signal od proze.
     """
     sys.path.insert(0, str(scraper_dir))
 
@@ -443,7 +585,15 @@ def klasifikuj(listings: list, scraper_dir: Path, tracker: str = "bnv"):
                   file=sys.stderr)
             return listings
 
-    out, odbaceno = [], 0
+    iz_opisa = None
+    if api == "bnv":
+        try:
+            from zgrada_iz_opisa import zgrada_iz_opisa as iz_opisa
+        except Exception as e:
+            print(f"  ⚠ zgrada_iz_opisa.py nedostupan ({e}) — bez drugog "
+                  f"prolaza po opisu.", file=sys.stderr)
+
+    out, odbaceno, spaseno = [], 0, 0
     for l in listings:
         naslov = l.get("naslov", "") or ""
         ulica = l.get("ulica") or ""
@@ -454,7 +604,14 @@ def klasifikuj(listings: list, scraper_dir: Path, tracker: str = "bnv"):
                 if blacklisted(naslov, ctx, ulica):
                     odbaceno += 1
                     continue
-                l["zgrada"] = canonical(naslov, ctx, ulica, l.get("sprat"))
+                z = canonical(naslov, ctx, ulica, l.get("sprat"))
+                if "neidentifikovano" in z and iz_opisa:
+                    z2 = iz_opisa(opis, l.get("sprat"))
+                    if z2:
+                        z = z2
+                        spaseno += 1
+                        l["zgrada_iz"] = "opis"
+                l["zgrada"] = z
             else:
                 z = detect(ctx, title=naslov, description=opis)
                 if not z:
@@ -467,13 +624,22 @@ def klasifikuj(listings: list, scraper_dir: Path, tracker: str = "bnv"):
             continue
         out.append(l)
 
-    print(f"  [ZGRADE] api={api} | zadrzano {len(out)} | odbaceno {odbaceno}")
+    print(f"  [ZGRADE] api={api} | zadrzano {len(out)} | odbaceno {odbaceno}"
+          + (f" | iz opisa {spaseno}" if spaseno else ""))
     if out:
         br = {}
         for l in out:
             br[l["zgrada"]] = br.get(l["zgrada"], 0) + 1
-        top = sorted(br.items(), key=lambda x: -x[1])[:8]
+        top = sorted(br.items(), key=lambda x: -x[1])[:10]
         print("           " + " | ".join(f"{k}: {v}" for k, v in top))
+        neid = sum(v for k, v in br.items() if "neidentifikovano" in k)
+        if neid:
+            print(f"           neidentifikovano: {neid} "
+                  f"({round(100 * neid / len(out))}%)")
+        # Uzorak onoga sto opis nije razresio — sluzi za dopunu sinonima.
+        ostali = [l for l in out if "neidentifikovano" in l["zgrada"]][:5]
+        for l in ostali:
+            print(f"           ? {(l.get('opis') or '')[:90]!r}")
     return out
 
 
@@ -496,6 +662,7 @@ if __name__ == "__main__":
         sys.exit(0)
 
     sys.path.insert(0, str(Path(__file__).parent))
-    import store, dom_stats
+    import store, dom_stats, project
     store.update(DATA_DIR, a.mode, recs, source=a.source)
     dom_stats.build(DATA_DIR, a.mode)
+    project.build(DATA_DIR, a.mode)   # latest_all_*.json za dashboard
