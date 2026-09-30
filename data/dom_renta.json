@@ -4,14 +4,14 @@
   "pocetak_pracenja": "2026-06-29",
   "ukupno": {
     "n_zavrseni": 618,
-    "n_aktivni": 109,
+    "n_aktivni": 168,
     "dom_medijana": 19,
     "metod": "kaplan-meier",
     "pouzdano": true,
     "naivna_medijana_samo_skinuti": 14,
-    "starost_aktivnih_medijana": 20,
+    "starost_aktivnih_medijana": 6,
     "udeo_jos_u_ponudi": 0.0414,
-    "udeo_aktivnih_pct": 15,
+    "udeo_aktivnih_pct": 21,
     "skinuti_p25": 6,
     "skinuti_p75": 27,
     "brzo_do_30d": 83,
@@ -1768,9 +1768,100 @@
           "preziveli": 0.0659
         }
       ]
+    },
+    "neidentifikovano": {
+      "n_zavrseni": 0,
+      "n_aktivni": 59,
+      "dom_medijana": null,
+      "metod": "kaplan-meier",
+      "pouzdano": false,
+      "naivna_medijana_samo_skinuti": null,
+      "starost_aktivnih_medijana": 0,
+      "udeo_jos_u_ponudi": 1.0,
+      "udeo_aktivnih_pct": 100,
+      "napomena_grupa": "Kriva prezivljavanja nije pala ispod 50% u posmatranom prozoru — vise od polovine oglasa je jos u ponudi, pa se medijana jos ne moze izmeriti. Nije ista stvar kao 'nema podataka'."
     }
   },
   "po_strukturi": {
+    "Dvoiposoban": {
+      "n_zavrseni": 0,
+      "n_aktivni": 1,
+      "dom_medijana": null,
+      "metod": "kaplan-meier",
+      "pouzdano": false,
+      "naivna_medijana_samo_skinuti": null,
+      "starost_aktivnih_medijana": 0,
+      "udeo_jos_u_ponudi": 1.0,
+      "udeo_aktivnih_pct": 100
+    },
+    "Dvosoban": {
+      "n_zavrseni": 0,
+      "n_aktivni": 17,
+      "dom_medijana": null,
+      "metod": "kaplan-meier",
+      "pouzdano": false,
+      "naivna_medijana_samo_skinuti": null,
+      "starost_aktivnih_medijana": 0,
+      "udeo_jos_u_ponudi": 1.0,
+      "udeo_aktivnih_pct": 100,
+      "napomena_grupa": "Kriva prezivljavanja nije pala ispod 50% u posmatranom prozoru — vise od polovine oglasa je jos u ponudi, pa se medijana jos ne moze izmeriti. Nije ista stvar kao 'nema podataka'."
+    },
+    "Garsonjera/Studio": {
+      "n_zavrseni": 0,
+      "n_aktivni": 2,
+      "dom_medijana": null,
+      "metod": "kaplan-meier",
+      "pouzdano": false,
+      "naivna_medijana_samo_skinuti": null,
+      "starost_aktivnih_medijana": 0,
+      "udeo_jos_u_ponudi": 1.0,
+      "udeo_aktivnih_pct": 100
+    },
+    "Jednoiposoban": {
+      "n_zavrseni": 0,
+      "n_aktivni": 2,
+      "dom_medijana": null,
+      "metod": "kaplan-meier",
+      "pouzdano": false,
+      "naivna_medijana_samo_skinuti": null,
+      "starost_aktivnih_medijana": 0,
+      "udeo_jos_u_ponudi": 1.0,
+      "udeo_aktivnih_pct": 100
+    },
+    "Petosoban+": {
+      "n_zavrseni": 0,
+      "n_aktivni": 1,
+      "dom_medijana": null,
+      "metod": "kaplan-meier",
+      "pouzdano": false,
+      "naivna_medijana_samo_skinuti": null,
+      "starost_aktivnih_medijana": 0,
+      "udeo_jos_u_ponudi": 1.0,
+      "udeo_aktivnih_pct": 100
+    },
+    "Troiposoban": {
+      "n_zavrseni": 0,
+      "n_aktivni": 2,
+      "dom_medijana": null,
+      "metod": "kaplan-meier",
+      "pouzdano": false,
+      "naivna_medijana_samo_skinuti": null,
+      "starost_aktivnih_medijana": 0,
+      "udeo_jos_u_ponudi": 1.0,
+      "udeo_aktivnih_pct": 100
+    },
+    "Trosoban": {
+      "n_zavrseni": 0,
+      "n_aktivni": 21,
+      "dom_medijana": null,
+      "metod": "kaplan-meier",
+      "pouzdano": false,
+      "naivna_medijana_samo_skinuti": null,
+      "starost_aktivnih_medijana": 0,
+      "udeo_jos_u_ponudi": 1.0,
+      "udeo_aktivnih_pct": 100,
+      "napomena_grupa": "Kriva prezivljavanja nije pala ispod 50% u posmatranom prozoru — vise od polovine oglasa je jos u ponudi, pa se medijana jos ne moze izmeriti. Nije ista stvar kao 'nema podataka'."
+    },
     "nepoznato": {
       "n_zavrseni": 618,
       "n_aktivni": 109,
@@ -2063,6 +2154,18 @@
           "preziveli": 0.0414
         }
       ]
+    },
+    "Četvorosoban": {
+      "n_zavrseni": 0,
+      "n_aktivni": 13,
+      "dom_medijana": null,
+      "metod": "kaplan-meier",
+      "pouzdano": false,
+      "naivna_medijana_samo_skinuti": null,
+      "starost_aktivnih_medijana": 0,
+      "udeo_jos_u_ponudi": 1.0,
+      "udeo_aktivnih_pct": 100,
+      "napomena_grupa": "Kriva prezivljavanja nije pala ispod 50% u posmatranom prozoru — vise od polovine oglasa je jos u ponudi, pa se medijana jos ne moze izmeriti. Nije ista stvar kao 'nema podataka'."
     }
   },
   "cena_vs_dom": [
@@ -2097,7 +2200,8 @@
     "prosecno_snizenje_pct": 10.3
   },
   "izvori": {
-    "halo": 727
+    "halo": 727,
+    "4zida": 59
   },
   "napomena": "dom_medijana je Kaplan-Meier procena i JEDINI broj koji se citira kao trajanje oglasa. Aktivni oglasi ulaze u racun kao cenzurisana opazanja (trajali su BAR toliko), umesto da se izbace. naivna_medijana_samo_skinuti je kontrolni broj koji gleda samo zatvorene oglase i sistematski je POTCENJEN — na NB prodaji je davao 13 dana naspram stvarnih 29. Ne citirati ga. starost_aktivnih_medijana je koliko vec stoje oglasi koji su jos u ponudi; to je donja granica, ne trajanje. Medijana se prikazuje tek od 5 oglasa u grupi."
 }
