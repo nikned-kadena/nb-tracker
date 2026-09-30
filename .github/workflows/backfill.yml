@@ -1,0 +1,96 @@
+name: Backfill registra (jednokratno)
+
+# JEDNOKRATNI workflow — pokrece se rucno, jednom, pa se moze obrisati.
+#
+# ZASTO POSTOJI
+# NB ne pise dnevne snapshot fajlove; prepisuje latest_halo_{mode}.json svaki
+# dan. Ali svaka dnevna verzija je commitovana, pa cela istorija po oglasu
+# lezi u git-u. Ovaj workflow je procita i sagradi registar unazad, sa
+# stvarnim datumima objave i skidanja.
+#
+# Bez ovoga, DOM statistika bi krenula od nule i bila upotrebljiva tek za
+# nekoliko meseci.
+#
+# fetch-depth: 0 je OBAVEZAN — bez njega checkout povlaci samo poslednji
+# commit i backfill nema sta da cita.
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Obrisi postojeci registar i gradi iz nule'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # puna istorija, ne samo poslednji commit
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Koliko commit-ova imamo
+        run: |
+          echo "Ukupno commit-ova u repo-u: $(git rev-list --count HEAD)"
+          echo "Commit-ova koji diraju latest_halo_prodaja.json: $(git rev-list --count HEAD -- data/latest_halo_prodaja.json)"
+          echo "Commit-ova koji diraju latest_halo_renta.json:   $(git rev-list --count HEAD -- data/latest_halo_renta.json)"
+
+      - name: Backfill prodaja
+        run: |
+          python scraper/backfill_from_git.py \
+            --file data/latest_halo_prodaja.json \
+            --mode prodaja \
+            ${{ inputs.force && '--force' || '' }}
+
+      - name: Backfill renta
+        run: |
+          python scraper/backfill_from_git.py \
+            --file data/latest_halo_renta.json \
+            --mode renta \
+            ${{ inputs.force && '--force' || '' }}
+
+      - name: Statistika trajanja
+        run: python scraper/dom_stats.py data
+
+      - name: Sazetak
+        run: |
+          python3 - <<'PY'
+          import json, glob
+          for f in sorted(glob.glob('data/registry_*.json')):
+              d = json.load(open(f, encoding='utf-8'))
+              e = d.get('entries', {})
+              akt = sum(1 for x in e.values() if x.get('is_active'))
+              nes = sum(1 for x in e.values() if x.get('deactivation_uncertain'))
+              prvi = min((x['first_seen'] for x in e.values()), default='-')
+              print(f"{f}: {len(e)} oglasa | {akt} aktivnih | {len(e)-akt} skinutih "
+                    f"| {nes} nesigurnih | od {prvi}")
+          for f in sorted(glob.glob('data/dom_*.json')):
+              d = json.load(open(f, encoding='utf-8'))
+              u = d['ukupno']
+              print(f"{f}: medijana trajanja {u['dom_medijana']} dana "
+                    f"(iz {u['n_zavrseni']} skinutih oglasa)")
+          PY
+
+      - name: Commit registra
+        run: |
+          git config user.name  "nb-backfill-bot"
+          git config user.email "actions@github.com"
+          git add data/registry_*.json data/dom_*.json
+          if git diff --cached --quiet; then
+            echo "Nista novo za commit."
+            exit 0
+          fi
+          git commit -m "data: registar rekonstruisan iz git istorije [backfill]"
+          git pull --rebase --autostash origin main
+          git push origin main
+          echo "Registar pushovan."
