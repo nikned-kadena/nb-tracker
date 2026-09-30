@@ -406,27 +406,74 @@ def scrape(source: str, tracker: str, mode: str, full_refresh: bool = False,
     return out
 
 
-def klasifikuj(listings: list, scraper_dir: Path):
-    """Propusti kroz buildings.py istog repo-a (BnV v6 / NB v4)."""
-    sys.path.insert(0, str(scraper_dir))
-    try:
-        from buildings import canonical_building, is_blacklisted
-    except Exception as e:
-        print(f"  ⚠ buildings.py nedostupan ({e}) — zgrada ostaje prazna.", file=sys.stderr)
-        return listings
+def klasifikuj(listings: list, scraper_dir: Path, tracker: str = "bnv"):
+    """Propusti kroz buildings.py istog repo-a.
 
-    out = []
-    for l in listings:
-        ctx = f"{l.get('naslov','')} {l.get('ulica','') or ''} {l.get('opis','')}"
-        ulica = l.get("ulica") or ""
+    DVA REPO-A, DVA RAZLICITA API-JA — provereno 30.09.2026
+    -------------------------------------------------------
+    BnV buildings.py v6:
+        canonical_building(naslov, kontekst, ulica, sprat) -> str
+        is_blacklisted(naslov, kontekst, ulica)           -> bool
+        Vraca "BW (neidentifikovano)" za sve sto ne prepozna, jer je CEO
+        BnV kompleks nas — samo ne znamo tacno koja zgrada.
+
+    NB buildings.py v2/v4:
+        detect_building(text, title=None, description=None) -> str | None
+        Vraca None i za blacklistu i za nepoznato. Tu None ZNACI "nije nasa
+        zgrada" — pratimo 18 imenovanih objekata, ne celu opstinu. Zato se
+        takvi oglasi ODBACUJU, ne cuvaju kao neidentifikovani.
+
+    Ta razlika nije kozmeticka: 4zida za Novi Beograd vrati preko 1.500
+    oglasa iz cele opstine, a nas zanima 18 zgrada. Bez odbacivanja bi
+    registar i DOM statistika bili razblazeni oglasima koji nas se ne ticu.
+    """
+    sys.path.insert(0, str(scraper_dir))
+
+    canonical = blacklisted = detect = None
+    try:
+        from buildings import canonical_building as canonical  # BnV
+        from buildings import is_blacklisted as blacklisted
+        api = "bnv"
+    except Exception:
         try:
-            if is_blacklisted(l.get("naslov", ""), ctx, ulica):
-                continue
-            l["zgrada"] = canonical_building(l.get("naslov", ""), ctx, ulica, l.get("sprat"))
+            from buildings import detect_building as detect     # NB
+            api = "nb"
+        except Exception as e:
+            print(f"  ⚠ buildings.py nedostupan ({e}) — zgrada ostaje prazna.",
+                  file=sys.stderr)
+            return listings
+
+    out, odbaceno = [], 0
+    for l in listings:
+        naslov = l.get("naslov", "") or ""
+        ulica = l.get("ulica") or ""
+        opis = l.get("opis", "") or ""
+        ctx = f"{naslov} {ulica} {opis}"
+        try:
+            if api == "bnv":
+                if blacklisted(naslov, ctx, ulica):
+                    odbaceno += 1
+                    continue
+                l["zgrada"] = canonical(naslov, ctx, ulica, l.get("sprat"))
+            else:
+                z = detect(ctx, title=naslov, description=opis)
+                if not z:
+                    odbaceno += 1      # nije jedna od pracenih zgrada
+                    continue
+                l["zgrada"] = z
         except Exception as e:
             print(f"  ⚠ klasifikacija pala za {l.get('id')}: {e}", file=sys.stderr)
-            l["zgrada"] = None
+            odbaceno += 1
+            continue
         out.append(l)
+
+    print(f"  [ZGRADE] api={api} | zadrzano {len(out)} | odbaceno {odbaceno}")
+    if out:
+        br = {}
+        for l in out:
+            br[l["zgrada"]] = br.get(l["zgrada"], 0) + 1
+        top = sorted(br.items(), key=lambda x: -x[1])[:8]
+        print("           " + " | ".join(f"{k}: {v}" for k, v in top))
     return out
 
 
@@ -441,7 +488,12 @@ if __name__ == "__main__":
     a = ap.parse_args()
 
     recs = scrape(a.source, a.tracker, a.mode, a.full, a.max_pages)
-    recs = klasifikuj(recs, Path(__file__).parent)
+    recs = klasifikuj(recs, Path(__file__).parent, a.tracker)
+
+    if not recs:
+        print("  ⚠ Nijedan oglas nije prosao klasifikaciju — registar se NE dira.",
+              file=sys.stderr)
+        sys.exit(0)
 
     sys.path.insert(0, str(Path(__file__).parent))
     import store, dom_stats
