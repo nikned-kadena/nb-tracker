@@ -13,6 +13,12 @@ name: Backfill registra (jednokratno)
 #
 # fetch-depth: 0 je OBAVEZAN — bez njega checkout povlaci samo poslednji
 # commit i backfill nema sta da cita.
+#
+# PROJEKCIJA (dodato 30.09.2026): posle backfilla se OBAVEZNO pokrece
+# project.py. Dashboard podrazumevano otvara prikaz "Svi izvori", koji cita
+# latest_all_{mod}.json — a taj fajl pravi projekcija iz registra. Kad je
+# prvi put nije bilo u ovom workflow-u, dashboard je posle force backfilla
+# pokazivao "Ne mogu da ucitam podatke" dok neki scrape nije prosao.
 
 on:
   workflow_dispatch:
@@ -59,8 +65,10 @@ jobs:
             --mode renta \
             ${{ inputs.force && '--force' || '' }}
 
-      - name: Statistika trajanja
-        run: python scraper/dom_stats.py data
+      - name: Statistika trajanja i projekcija
+        run: |
+          python scraper/dom_stats.py data
+          python scraper/project.py data
 
       - name: Sazetak
         run: |
@@ -85,7 +93,8 @@ jobs:
         run: |
           git config user.name  "nb-backfill-bot"
           git config user.email "actions@github.com"
-          git add data/registry_*.json data/dom_*.json
+          git add data/registry_*.json data/dom_*.json \
+                  data/latest_all_*.json data/history_all_*.json
           if git diff --cached --quiet; then
             echo "Nista novo za commit."
             exit 0
