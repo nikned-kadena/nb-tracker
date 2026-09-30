@@ -210,7 +210,6 @@ function KpiCard({ label, value, sub, subColor, onClick, highlight }) {
       background: T.surface, border:`1px solid ${T.border}`,
       borderRadius:10, padding:"18px 20px",
       cursor: onClick ? "pointer" : "default",
-      minWidth:130, flex:"1 1 130px",
       boxShadow:"0 1px 3px rgba(0,0,0,.06)",
       transition:"box-shadow .15s",
     }}
@@ -230,7 +229,11 @@ function KpiCard({ label, value, sub, subColor, onClick, highlight }) {
 // smisleno: u registru je isti stan sa vise portala JEDAN zapis, pa se iz
 // polja `izvori` vidi ko ga je doneo.
 //
-// Prva kartica je ukupan broj jedinstvenih oglasa — imenilac za sve ostale.
+// Prva kartica je ukupan broj OGLASA — imenilac za sve ostale. Namerno se
+// ne zove "jedinstvenih": KPI iznad ("Unique nekretnine") broji NEKRETNINE,
+// pa je isti stan koji nude dve agencije tamo jedan, a ovde dva. Dok su obe
+// kartice nosile rec "jedinstveno", izgledale su kao da protivrece jedna
+// drugoj (191 od 220 gore, 220 dole).
 // Procenti po portalima se zato SABIRAJU NA VISE OD 100%: isti stan vidljiv
 // na dva portala racuna se kod oba. To nije greska nego sustina merenja —
 // bez preklapanja ne bi se videlo koliko koji portal zaista dodaje.
@@ -274,7 +277,6 @@ function IzvoriPregled({ listings }) {
     <div style={{
       background:T.surface, border:`1px solid ${T.border}`, borderRadius:10,
       padding:"18px 20px", boxShadow:"0 1px 3px rgba(0,0,0,.06)",
-      minWidth:130, flex:"1 1 130px",
     }}>
       <div style={{display:"flex",alignItems:"center",gap:7,marginBottom:6}}>
         {boja && <span style={{width:8,height:8,borderRadius:"50%",
@@ -291,9 +293,14 @@ function IzvoriPregled({ listings }) {
   );
 
   return (
-    <div style={{display:"flex",flexWrap:"wrap",gap:12,marginBottom:24}}>
+    // auto-FILL, ne auto-fit: kad ima samo dve kartice (prodaja pre nego sto
+    // 4zida i Nadji Dom prodju), auto-fit bi ih razvukao preko pola ekrana.
+    // auto-fill ostavlja prazne kolone i kartica zadrzava normalnu sirinu.
+    <div style={{display:"grid",
+      gridTemplateColumns:"repeat(auto-fill,minmax(190px,1fr))",
+      gap:12,marginBottom:24}}>
       <Kartica
-        ime="Ukupno jedinstvenih"
+        ime="Ukupno oglasa"
         broj={st.ukupno}
         procenat={100}
         sub={`${st.viseP} na više portala (${pct(st.viseP)}%)`
