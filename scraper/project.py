@@ -36,6 +36,28 @@ from pathlib import Path
 
 IZVORI = ["4zida", "nadjidom"]
 
+# Ista definicija ispravnosti koju store.py primenjuje na ULAZU. Registar je
+# akumulativan i sadrzi zapise upisane pre nego sto je ta kapija postojala —
+# u NB prodaji su ostala dva Belvila od 26 m2 za 31.000 i 62.000 EUR, iz
+# backfilla po git istoriji. Dva zapisa na 222, ali povlace KPI raspon na
+# "31k–1,4M EUR" i minimum EUR/m2 na 1.192.
+#
+# Registar se NE dira: first_seen/last_seen tih oglasa su tacni i trajanje
+# im legitimno ulazi u DOM statistiku. Sakriva se samo iz prikaza, jer je
+# tamo pogresna cena stetna. Jedna definicija, uvezena iz store.py — da se
+# pragovi ne razidju izmedju ulaza i prikaza.
+try:
+    from store import validan as _validan
+except Exception:                                   # pragmaticno: bez store.py
+    _validan = None
+
+
+def _ispravan(e: dict, mode: str) -> bool:
+    if _validan is None:
+        return True
+    ok, _ = _validan({"cena": e.get("price_current"), "m2": e.get("m2")}, mode)
+    return ok
+
 
 def _listing(e: dict) -> dict:
     """Zapis iz registra -> oblik koji dashboard ocekuje u `listings`."""
@@ -156,6 +178,18 @@ def build(data_dir: Path, mode: str):
     if not entries:
         print(f"  [PROJ] Registar {mode} je prazan.", file=sys.stderr)
         return
+
+    sporni = [e for e in entries if not _ispravan(e, mode)]
+    if sporni:
+        entries = [e for e in entries if _ispravan(e, mode)]
+        akt = sum(1 for e in sporni if e.get("is_active"))
+        print(f"  [PROJ] {mode}: izostavljeno {len(sporni)} zapisa sa neispravnom "
+              f"cenom ({akt} aktivnih) — ostaju u registru, van prikaza:")
+        for e in sporni[:5]:
+            print(f"           {e.get('zgrada')} | {e.get('m2')} m2 | "
+                  f"{e.get('price_current')} EUR")
+        if len(sporni) > 5:
+            print(f"           ... i jos {len(sporni) - 5}")
 
     n_all = _upisi(data_dir, "all", entries, mode)
     red = [f"all: {n_all}"]
