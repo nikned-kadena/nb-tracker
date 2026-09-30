@@ -532,6 +532,20 @@ def main():
     print(f"Novi: {len(curr_ids - prev_ids)} | Skinutih: {len(prev_ids - curr_ids)}")
     update_history(mode, all_raw, unique, prev_ids, curr_ids)
 
+    # ── Registar sa zivotnim ciklusom (store.py) ──────────────────────
+    # latest_halo_{mode}.json gore ostaje netaknut — dashboard ga i dalje cita.
+    # Iznad njega se odrzava akumulativni registar: first_seen / last_seen /
+    # is_active / deactivated_at, promene cene i spajanje istog stana kad se
+    # pojavi na vise portala (Halo + 4zida + Nadji Dom).
+    # Ako store padne, scrape se NE rusi — podaci su vec upisani.
+    try:
+        sys.path.insert(0, str(Path(__file__).parent))
+        import store, dom_stats
+        store.update(DATA, mode, unique, source="halo", run_date=danas)
+        dom_stats.build(DATA, mode)
+    except Exception as e:
+        print(f"  ⚠ Registar/DOM preskocen: {e}", file=sys.stderr)
+
     ociscen = save_cache(mode, cache)
     ukupno_req = k1_requests + len(to_scrape)
     print(f"[KES] Sacuvano {len(cache) - ociscen} presuda"
