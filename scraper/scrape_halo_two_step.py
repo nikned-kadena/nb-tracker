@@ -540,9 +540,10 @@ def main():
     # Ako store padne, scrape se NE rusi — podaci su vec upisani.
     try:
         sys.path.insert(0, str(Path(__file__).parent))
-        import store, dom_stats
+        import store, dom_stats, project
         store.update(DATA, mode, unique, source="halo", run_date=danas)
         dom_stats.build(DATA, mode)
+        project.build(DATA, mode)   # latest_all_*.json za dashboard
     except Exception as e:
         print(f"  ⚠ Registar/DOM preskocen: {e}", file=sys.stderr)
 
