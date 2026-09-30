@@ -3,9 +3,9 @@
   "source": "all",
   "date": "2026-09-30",
   "scraped_at": "2026-09-30",
-  "total_raw": 220,
-  "total_unique": 220,
-  "total_dups": 0,
+  "total_raw": 269,
+  "total_unique": 215,
+  "total_dups": 54,
   "diff_new": [
     "2ec97b15fe92a801",
     "e79f92ebbb50f3ac",
@@ -49,7 +49,31 @@
     "ff4eac250f907ef2",
     "7da3952147d57663",
     "acc6e1024ebb8b6d",
-    "4f129af665f09dfc"
+    "4f129af665f09dfc",
+    "9e1a1c39e7355d9b",
+    "a31995cd31a3325e",
+    "efc82a17dbab2c58",
+    "bbae3109a63293d7",
+    "def13aeeae663068",
+    "dbab404e40b7b5c3",
+    "9b2be9ea621db9a7",
+    "00dd5f5a728f1492",
+    "a483ea19c64acf43",
+    "79df90896bdb5517",
+    "81178af10dbacbb8",
+    "2e0a7f28035f73db",
+    "c80e38e7bc08e0f7",
+    "edcfd1e1add01e2a",
+    "3d56852c737b90ed",
+    "07c4d27fdddeb026",
+    "fe3a3f355d7be730",
+    "74b18b6ff0d565eb",
+    "8969873f09f9610f",
+    "07cc6cc5227b7aa9",
+    "fc5f710841555246",
+    "a0861e032e6cdb9e",
+    "6c434ba68e59e74f",
+    "e1defeb531e64199"
   ],
   "diff_removed": [
     "65adbcd198cee987",
@@ -171,7 +195,7 @@
     {
       "id": "c10d422cd5f60438",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/izuzetan-lux-stan-wellport/5425647109276?kid=4",
-      "naslov": "Izuzetan Lux stan, Wellport",
+      "naslov": "Dvosoban stan na prodaju, Tadije Sondermajera, 275.000€, 55m²",
       "zgrada": "Wellport",
       "agencija": "BELIGRAD",
       "struktura": "2.0",
@@ -181,7 +205,8 @@
       "cena_m2": 5000,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 275000.0,
@@ -267,7 +292,8 @@
       "sprat": "9",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 430000.0,
@@ -361,6 +387,28 @@
       "last_seen": "2026-09-30"
     },
     {
+      "id": "508a6da3fa362be9",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-55-m-garazno-mesto-vrhunska-no/5425647329704?kid=3",
+      "naslov": "Dvosoban stan na prodaju, Đorđa Stanojevića, 247.500€, 55m²",
+      "zgrada": "Airport Garden",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 55.0,
+      "cena": 247500.0,
+      "cena_m2": 4500,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 92,
+      "prva_cena": 247500.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-09-30"
+    },
+    {
       "id": "5f8af7e9d9fbb1a9",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/sakura-park-03-podno-grejanje-centralni-fan-c/5425647004734?kid=3",
       "naslov": "Sakura, lux",
@@ -374,7 +422,8 @@
       "sprat": "3",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 410000.0,
@@ -396,7 +445,8 @@
       "sprat": "7",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 399000.0,
@@ -471,21 +521,22 @@
     {
       "id": "0603c67b3a397fb5",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/wellport---2-0---57-48m2/5425647225882?kid=3",
-      "naslov": "Wellport - 2.0 - 57,48m2",
+      "naslov": "Dvosoban stan na prodaju, Tadije Sondermajera, 285.000€, 57m²",
       "zgrada": "Wellport",
       "agencija": "Tectum",
       "struktura": "2.0",
       "str_label": null,
-      "m2": 57.48,
-      "cena": 287400.0,
+      "m2": 57.0,
+      "cena": 285000,
       "cena_m2": 5000,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 287400.0,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -0.8,
       "first_seen": "2026-06-30",
       "last_seen": "2026-09-30"
     },
@@ -532,6 +583,28 @@
       "last_seen": "2026-09-30"
     },
     {
+      "id": "c8427eb4905ec325",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/2-0-novi-beograd-belville-id2002/5425647350351?kid=1",
+      "naslov": "Dvosoban stan na prodaju, Đorđa Stanojevića, 227.000€, 52m²",
+      "zgrada": "Belvil",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 52.0,
+      "cena": 227000,
+      "cena_m2": 4365,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 92,
+      "prva_cena": 233000.0,
+      "promena_cene_pct": -2.6,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-09-30"
+    },
+    {
       "id": "3e0d8c51de4f53ef",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/welport-stan-sa-dvoristem-i-2-garazna-mesta/5425647052562?kid=1",
       "naslov": "- novi beograd sf 2635",
@@ -567,7 +640,8 @@
       "sprat": "4",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 380000.0,
@@ -589,7 +663,8 @@
       "sprat": "12",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 550000.0,
@@ -615,6 +690,28 @@
       "dana_na_trzistu": 92,
       "prva_cena": 530000.0,
       "promena_cene_pct": -9.8,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "5554c13716b91562",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novogradnja-114m2-3-0-luks-51-bezanijska-kosa/5425647086302?kid=1",
+      "naslov": "Trosoban stan na prodaju, Smolućska, 342.450€, 114m²",
+      "zgrada": "Lux 51",
+      "agencija": "DomInvestnekretnine",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 114.0,
+      "cena": 342450.0,
+      "cena_m2": 3004,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 92,
+      "prva_cena": 342450.0,
+      "promena_cene_pct": null,
       "first_seen": "2026-06-30",
       "last_seen": "2026-09-30"
     },
@@ -653,7 +750,8 @@
       "sprat": "19",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 790000.0,
@@ -675,10 +773,55 @@
       "sprat": "18",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 425000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "0bd9c20724a67e07",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd---belvil-107m2-dva-garazna-mesta/5425644943116?kid=1",
+      "naslov": "Trosoban stan na prodaju, Đorđa Stanojevića, 390.000€, 107m²",
+      "zgrada": "Belvil",
+      "agencija": "m-real-estate",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 107.0,
+      "cena": 390000.0,
+      "cena_m2": 3645,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 92,
+      "prva_cena": 399000.0,
+      "promena_cene_pct": -2.3,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "4001b790800e8d26",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-51-117m2-4-0-bezanijska-kosa/5425646824160?kid=1",
+      "naslov": "Četvorosoban stan na prodaju, Partizanske avijacije, 465.000€, 117m²",
+      "zgrada": "Lux 51",
+      "agencija": "DomInvestnekretnine",
+      "struktura": "4.0",
+      "str_label": null,
+      "m2": 117.0,
+      "cena": 465000.0,
+      "cena_m2": 3974,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 92,
+      "prva_cena": 465000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
       "last_seen": "2026-09-30"
@@ -719,7 +862,8 @@
       "sprat": "3",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 289000.0,
@@ -730,7 +874,7 @@
     {
       "id": "5cd4893567bbdf91",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-nov-lux-2-0-komforan-garaza/5425645610773?kid=1",
-      "naslov": "Airport Garden, nov, lux 2.0, komforan, garaža",
+      "naslov": "Dvosoban stan na prodaju, Đorđa Stanojevića, 282.000€, 65m²",
       "zgrada": "Airport Garden",
       "agencija": "city-hedonia-agencija-za-nekretnine",
       "struktura": "2.0",
@@ -740,7 +884,8 @@
       "cena_m2": 4338,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 282000.0,
@@ -751,7 +896,7 @@
     {
       "id": "f34d6687ca7a17aa",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-sakura-park-jurija-gagarina-76m2/5425646095237?kid=1",
-      "naslov": "Novi Beograd, Sakura park, Jurija Gagarina, 76m2 I",
+      "naslov": "Trosoban stan na prodaju, Jurija Gagarina, 350.000€, 76m²",
       "zgrada": "Sakura Park",
       "agencija": "atase-nekretnine-d-o-o",
       "struktura": "3.0",
@@ -761,7 +906,8 @@
       "cena_m2": 4605,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 350000.0,
@@ -792,6 +938,28 @@
       "last_seen": "2026-09-30"
     },
     {
+      "id": "e35d7c70e882c45f",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-ledine-belfortska-novogradnja-lu/5425646658796?kid=1",
+      "naslov": "Dvosoban stan na prodaju, Belfortska, 120.000€, 48m²",
+      "zgrada": "West 65",
+      "agencija": "atase-nekretnine-d-o-o",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 48.0,
+      "cena": 120000.0,
+      "cena_m2": 2500,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 92,
+      "prva_cena": 120000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-09-30"
+    },
+    {
       "id": "2ecfdfb69b2669bb",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/spektakularan-penthouse-sa-ocaravajucom-pogle/5425645666114?kid=1",
       "naslov": "Spektakularan penthouse sa očaravajućom pogledom",
@@ -815,28 +983,29 @@
     {
       "id": "dda2c58df1ed96c9",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/new-minel-84m/5425647032397?kid=1",
-      "naslov": "New Minel, 84m²",
+      "naslov": "Četvorosoban stan na prodaju, Tošin bunar, 347.119€, 84m²",
       "zgrada": "New Minel",
       "agencija": "PremiumRealEstate",
       "struktura": "4.0",
       "str_label": null,
-      "m2": 84.15,
-      "cena": 337000.0,
-      "cena_m2": 4005,
+      "m2": 84.0,
+      "cena": 347119,
+      "cena_m2": 4132,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 337000.0,
-      "promena_cene_pct": null,
+      "promena_cene_pct": 3.0,
       "first_seen": "2026-06-30",
       "last_seen": "2026-09-30"
     },
     {
       "id": "2f8f6b641f2637b1",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-tower-nov-luksuzan-petosoban-stan/5425642711886?kid=1",
-      "naslov": "West Tower, nov, luksuzan petosoban stan",
+      "naslov": "Petosoban stan na prodaju, Omladinskih brigada, 990.000€, 161m²",
       "zgrada": "West 65 Kula",
       "agencija": "city-hedonia-agencija-za-nekretnine",
       "struktura": "5.0",
@@ -846,11 +1015,78 @@
       "cena_m2": 6149,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 990000.0,
       "promena_cene_pct": null,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "6ae378fda3df1a70",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novogradnja-3-0-81m2-lux-51-b-kosa/5425646785994?kid=1",
+      "naslov": "Trosoban stan na prodaju, Partizanske avijacije, 312.000€, 81m²",
+      "zgrada": "Lux 51",
+      "agencija": "DomInvestnekretnine",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 81.0,
+      "cena": 312000.0,
+      "cena_m2": 3852,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 92,
+      "prva_cena": 312000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "9b2d296716509b46",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bel-mondo-lux-novogradnja-id15494/5425647299459?kid=1",
+      "naslov": "Trosoban stan na prodaju, Omladinskih brigada, 790.000€, 170m²",
+      "zgrada": "Bel Mondo",
+      "agencija": "art-nekretnine-d-o-o",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 170.0,
+      "cena": 790000.0,
+      "cena_m2": 4647,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 92,
+      "prva_cena": 870000.0,
+      "promena_cene_pct": -9.2,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "a2f6642fe9365e4a",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-stan-u-wellport-naselju-ceka-na-vas-id661/5425645001654?kid=1",
+      "naslov": "Petosoban stan na prodaju, Tadije Sondermajera, 790.000€, 140m²",
+      "zgrada": "Wellport",
+      "agencija": "EUROPOLISNEKRETNINE",
+      "struktura": "5.0",
+      "str_label": null,
+      "m2": 140.0,
+      "cena": 790000,
+      "cena_m2": 5643,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 92,
+      "prva_cena": 799000.0,
+      "promena_cene_pct": -1.1,
       "first_seen": "2026-06-30",
       "last_seen": "2026-09-30"
     },
@@ -890,7 +1126,8 @@
       "sprat": "3",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 625000.0,
@@ -923,7 +1160,7 @@
     {
       "id": "d8e55a49436d693d",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-trosobnog-stana-u-soul-64-parking-mes/5425646821464?kid=1",
-      "naslov": "Prodaja trosobnog stana u Soul 64, parking mesto",
+      "naslov": "Trosoban stan na prodaju, Omladinskih Brigada bb, 389.250€, 75m²",
       "zgrada": "Soul 64",
       "agencija": "divis-nekretnine",
       "struktura": "3.0",
@@ -933,7 +1170,8 @@
       "cena_m2": 5190,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 399000.0,
@@ -1039,7 +1277,8 @@
       "sprat": "14",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 399900.0,
@@ -1072,20 +1311,43 @@
     {
       "id": "5eb0738d360bdb75",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/kula-west-65/5425645803481?kid=1",
-      "naslov": "Kula West 65",
+      "naslov": "Dvosoban stan na prodaju, Omladinskih brigada, 390.000€, 61m²",
       "zgrada": "West 65",
       "agencija": "angazman.partner",
       "struktura": "2.0",
       "str_label": null,
       "m2": 61.0,
-      "cena": 380000.0,
-      "cena_m2": 6230,
+      "cena": 390000,
+      "cena_m2": 6393,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 92,
       "prva_cena": 380000.0,
+      "promena_cene_pct": 2.6,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "e5a6de99a051a0a8",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/petosoban-luksuzan-stan-u-wellportu-165m2/5425646085276?kid=1",
+      "naslov": "Petosoban stan na prodaju, Tadije Sondermajera, 790.000€, 165m²",
+      "zgrada": "Wellport",
+      "agencija": "divis-nekretnine",
+      "struktura": "5.0",
+      "str_label": null,
+      "m2": 165.0,
+      "cena": 790000.0,
+      "cena_m2": 4788,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 92,
+      "prva_cena": 790000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
       "last_seen": "2026-09-30"
@@ -1134,6 +1396,28 @@
       "last_seen": "2026-09-30"
     },
     {
+      "id": "c1c40dbff07a791b",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/penthaus-od-167-m2-u-kompleksu-kennedy-reside/5425646849946?kid=1",
+      "naslov": "Četvorosoban stan na prodaju, Džona Kenedija, 956.880€, 167m²",
+      "zgrada": "Kennedy Residence",
+      "agencija": "etagi3",
+      "struktura": "4.0",
+      "str_label": null,
+      "m2": 167.0,
+      "cena": 956880.0,
+      "cena_m2": 5730,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 92,
+      "prva_cena": 956880.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-09-30"
+    },
+    {
       "id": "a7c9181e19618999",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novogradnja-131m2-4-0-lux-51-b-kosa/5425647241392?kid=1",
       "naslov": "Novogradnja, 131m2, 4.0, Lux 51, B.kosa",
@@ -1176,9 +1460,31 @@
       "last_seen": "2026-09-30"
     },
     {
+      "id": "fb1b1db28e5f757c",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-savada-3/5425645249662?kid=1",
+      "naslov": "Trosoban stan na prodaju, Tošin Bunar, 335.840€, 84m²",
+      "zgrada": "Savada",
+      "agencija": "magnat-petrovic-doo",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 84.0,
+      "cena": 335840.0,
+      "cena_m2": 3998,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 92,
+      "prva_cena": 335840.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-09-30"
+    },
+    {
       "id": "bef959a9331be6c3",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-tower-nov-luksuzan-3-0-garaza/5425647113016?kid=3",
-      "naslov": "West Tower, nov, luksuzan 3.0, garaža",
+      "naslov": "Trosoban stan na prodaju, Omladinskih Brigada bb, 530.000€, 95m²",
       "zgrada": "West 65 Kula",
       "agencija": "city-hedonia-agencija-za-nekretnine",
       "struktura": "3.0",
@@ -1188,7 +1494,8 @@
       "cena_m2": 5579,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 90,
       "prva_cena": 550000.0,
@@ -1242,7 +1549,7 @@
     {
       "id": "e365866894ac9512",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/kula-west-65-lux-95m2-garaza-namesten/5425647122450?kid=4",
-      "naslov": "Kula West 65, lux, 95m2, garaža, namešten",
+      "naslov": "Trosoban stan na prodaju, Omladinskih brigada, 530.000€, 95m²",
       "zgrada": "West 65",
       "agencija": "MonaNekretnine",
       "struktura": "3.0",
@@ -1252,11 +1559,34 @@
       "cena_m2": 5579,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 89,
       "prva_cena": 550000.0,
       "promena_cene_pct": -3.6,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "e2082e9982a128b8",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/belvil-zgrada-ciklama/5425644751859?kid=4",
+      "naslov": "Trosoban stan na prodaju, Đorđa Stanojevića, 390.000€, 107m²",
+      "zgrada": "Belvil",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 107.0,
+      "cena": 390000.0,
+      "cena_m2": 3645,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 89,
+      "prva_cena": 399000.0,
+      "promena_cene_pct": -2.3,
       "first_seen": "2026-07-03",
       "last_seen": "2026-09-30"
     },
@@ -1274,7 +1604,8 @@
       "sprat": "10",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 40,
       "prva_cena": 569000.0,
@@ -1300,6 +1631,28 @@
       "dana_na_trzistu": 86,
       "prva_cena": 335000.0,
       "promena_cene_pct": 1.2,
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "eeb9540c6d8f8040",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/wellport-78m2-3-0-id8968/5425646723664?kid=1",
+      "naslov": "Trosoban stan na prodaju, Tadije Sondermajera, 425.000€, 78m²",
+      "zgrada": "Wellport",
+      "agencija": "EUROPOLISNEKRETNINE",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 78.0,
+      "cena": 425000.0,
+      "cena_m2": 5449,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 86,
+      "prva_cena": 425000.0,
+      "promena_cene_pct": null,
       "first_seen": "2026-07-06",
       "last_seen": "2026-09-30"
     },
@@ -1338,7 +1691,8 @@
       "sprat": "2",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 85,
       "prva_cena": 319200.0,
@@ -1347,23 +1701,46 @@
       "last_seen": "2026-09-30"
     },
     {
+      "id": "07090e386f030f9a",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-65-blok-65-wellport-2-0/5425647149266?kid=4",
+      "naslov": "Dvosoban stan na prodaju, Tadije Sondermajera, 275.000€, 55m²",
+      "zgrada": "Wellport",
+      "agencija": "agencija-favorit",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 55.0,
+      "cena": 275000.0,
+      "cena_m2": 5000,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 84,
+      "prva_cena": 275000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-09-30"
+    },
+    {
       "id": "96f41675749cdac2",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-65-zona-wellport-panoramski-pogled-luksu/5425646926001?kid=1",
-      "naslov": "West 65 zona /Wellport / Panoramski pogled luksuza",
+      "naslov": "Trosoban stan na prodaju, Tadije Sondermajera, 425.000€, 78m²",
       "zgrada": "Wellport",
       "agencija": "lusonekretnine",
       "struktura": "3.0",
       "str_label": null,
-      "m2": 77.55,
-      "cena": 440000.0,
-      "cena_m2": 5674,
+      "m2": 78.0,
+      "cena": 425000,
+      "cena_m2": 5449,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 84,
       "prva_cena": 425000.0,
-      "promena_cene_pct": 3.5,
+      "promena_cene_pct": null,
       "first_seen": "2026-07-08",
       "last_seen": "2026-09-30"
     },
@@ -1391,7 +1768,7 @@
     {
       "id": "3043ccfc2b302480",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novogradnja-2-0-59m2-b-kosa/5425647383592?kid=1",
-      "naslov": "Novogradnja, 2.0, 59m2, B.kosa",
+      "naslov": "Dvosoban stan na prodaju, Smolućska, 233.000€, 59m²",
       "zgrada": "Lux 51",
       "agencija": "DomInvestnekretnine",
       "struktura": "2.0",
@@ -1401,7 +1778,8 @@
       "cena_m2": 3949,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 83,
       "prva_cena": 233000.0,
@@ -1536,6 +1914,28 @@
       "last_seen": "2026-09-30"
     },
     {
+      "id": "c5d27585852bf788",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-b-4-0-lastavice-83m2-vlasnik/5425646361765?kid=1",
+      "naslov": "Četvorosoban stan na prodaju, Jurija Gagarina, 380.000€, 83m²",
+      "zgrada": "Lastavica",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": null,
+      "m2": 83.0,
+      "cena": 380000.0,
+      "cena_m2": 4578,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 80,
+      "prva_cena": 380000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-09-30"
+    },
+    {
       "id": "381730e326a3e46c",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-3-0-stana-u-west-65-90m2/5425647167035?kid=4",
       "naslov": "WEST 65 - lep trosoban stan",
@@ -1549,10 +1949,33 @@
       "sprat": "3",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 63,
       "prva_cena": 450000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "9c9bc37ed5c5984f",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/dvosoban-stan-airport-garden-potpuno-nov/5425647445057?kid=4",
+      "naslov": "Dvosoban stan na prodaju, Đorđa Stanojevića, 248.400€, 54m²",
+      "zgrada": "Airport Garden",
+      "agencija": "KADENASothebys",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 54.0,
+      "cena": 248400.0,
+      "cena_m2": 4600,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 63,
+      "prva_cena": 248400.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
       "last_seen": "2026-09-30"
@@ -1663,6 +2086,28 @@
       "last_seen": "2026-09-30"
     },
     {
+      "id": "50d4a81b4583ce6b",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/wellport---izuzetan-pogled/5425646836759?kid=3",
+      "naslov": "Trosoban stan na prodaju, Tadije Sondermajera, 425.000€, 78m²",
+      "zgrada": "Wellport",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 78.0,
+      "cena": 425000.0,
+      "cena_m2": 5449,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 63,
+      "prva_cena": 425000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-07-29",
+      "last_seen": "2026-09-30"
+    },
+    {
       "id": "509ce2c4da97e3b8",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/wellport-izuzetan-garazno-mesto-nov-useljiv/5425646936002?kid=1",
       "naslov": "Wellport, izuzetan, garažno mesto, nov, useljiv",
@@ -1728,7 +2173,7 @@
     {
       "id": "b8723e2cfdb7f470",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/nov-2-0-stan-sa-garazom-u-kompleksu-lux-51-60/5425646993670?kid=1",
-      "naslov": "Nov 2.0 stan sa garažom u kompleksu Lux 51, 60m2",
+      "naslov": "Dvosoban stan na prodaju, Partizanske Avijacije bb, 236.000€, 60m²",
       "zgrada": "Lux 51",
       "agencija": "divis-nekretnine",
       "struktura": "2.0",
@@ -1738,7 +2183,8 @@
       "cena_m2": 3933,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 63,
       "prva_cena": 236000.0,
@@ -1833,7 +2279,7 @@
     {
       "id": "38ca702577143121",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaje-se-nov-cetvorosoban-stan-new-minel-11/5425647454853?kid=4",
-      "naslov": "Prodaje se nov četvorosoban stan, New Minel 112m2",
+      "naslov": "Četvorosoban stan na prodaju, Tošin Bunar, 429.000€, 112m²",
       "zgrada": "New Minel",
       "agencija": "divis-nekretnine",
       "struktura": "4.0",
@@ -1843,7 +2289,8 @@
       "cena_m2": 3830,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 40,
       "prva_cena": 440000.0,
@@ -1894,6 +2341,50 @@
       "last_seen": "2026-09-30"
     },
     {
+      "id": "d9cc72fed67c4feb",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/delux-welport-165-m2-garaza-namesten-uknjizen/5425647511803?kid=1",
+      "naslov": "Petosoban stan na prodaju, Tadije Sondermajera, 790.000€, 165m²",
+      "zgrada": "Wellport",
+      "agencija": null,
+      "struktura": "5.0",
+      "str_label": null,
+      "m2": 165.0,
+      "cena": 790000.0,
+      "cena_m2": 4788,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 40,
+      "prva_cena": 790000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "55abdc09a1625af8",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/wellport-uknjizen-kompletno-namesten/5425646711968?kid=1",
+      "naslov": "Trosoban stan na prodaju, Tadije Sondermajera, 425.000€, 78m²",
+      "zgrada": "Wellport",
+      "agencija": "BELIGRAD",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 78.0,
+      "cena": 425000.0,
+      "cena_m2": 5449,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 40,
+      "prva_cena": 425000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-09-30"
+    },
+    {
       "id": "e50bcf80d3dd08c2",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-stanova-bez-ag-provizije-pupinova-pal/5425647458720?kid=1",
       "naslov": "Prodaja stanova bez ag. provizije, Pupinova Palata 118m2",
@@ -1907,7 +2398,8 @@
       "sprat": "8",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 40,
       "prva_cena": 435970.0,
@@ -1972,7 +2464,8 @@
       "sprat": "9",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 40,
       "prva_cena": 530000.0,
@@ -2026,23 +2519,24 @@
     {
       "id": "2a950f27ad62b467",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/trosoban-stan-u-kompleksu-new-minel-novogradn/5425646784544?kid=4",
-      "naslov": "Nov trosoban stan na Tošinom bunaru, 65m2",
+      "naslov": "Trosoban stan na prodaju, Tošin Bunar 270, 260.000€, 65m²",
       "zgrada": "New Minel",
       "agencija": "divis-nekretnine",
       "struktura": "3.0",
       "str_label": null,
       "m2": 65.0,
-      "cena": 265000.0,
-      "cena_m2": 4077,
+      "cena": 260000,
+      "cena_m2": 4000,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 40,
       "prva_cena": 265000.0,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -1.9,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-29"
+      "last_seen": "2026-09-30"
     },
     {
       "id": "f4491a6e9ff47be7",
@@ -2155,7 +2649,7 @@
     {
       "id": "8376043caf55ae15",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-tower-luksuzan-stan-garaza-id-25975/5425647530286?kid=1",
-      "naslov": "West Tower, luksuzan stan, garaža, ID 25975",
+      "naslov": "Četvorosoban stan na prodaju, Omladinskih brigada, 650.000€, 123m²",
       "zgrada": "West 65 Kula",
       "agencija": "eminent-nekretnine",
       "struktura": "4.0",
@@ -2165,7 +2659,8 @@
       "cena_m2": 5285,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 40,
       "prva_cena": 650000.0,
@@ -2280,6 +2775,28 @@
       "last_seen": "2026-09-30"
     },
     {
+      "id": "10c0a523f9985040",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-65-towertrosoban-stan105-m-x-sprat-id278/5425647359590?kid=1",
+      "naslov": "Trosoban stan na prodaju, Omladinskih brigada, 569.000€, 105m²",
+      "zgrada": "West 65 Kula",
+      "agencija": "BrickPro",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 105.0,
+      "cena": 569000.0,
+      "cena_m2": 5419,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 39,
+      "prva_cena": 620000.0,
+      "promena_cene_pct": -8.2,
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-09-30"
+    },
+    {
       "id": "3765f27a22400edb",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/dvosoban-stan-novogradnja-kod-airport-city-ja/5425643569585?kid=4",
       "naslov": "Dvosoban stan u novogradnji kod Airport City-ja, 70m2",
@@ -2293,7 +2810,8 @@
       "sprat": "2",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 38,
       "prva_cena": 280000.0,
@@ -2323,23 +2841,46 @@
       "last_seen": "2026-09-30"
     },
     {
+      "id": "1bde269c2c6482dd",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/new-minel---novogradnja---3-0---2-garazna-mes/5425647454691?kid=3",
+      "naslov": "Trosoban stan na prodaju, Tošin Bunar, 265.000€, 65m²",
+      "zgrada": "New Minel",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 65.0,
+      "cena": 265000.0,
+      "cena_m2": 4077,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 36,
+      "prva_cena": 265000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-08-25",
+      "last_seen": "2026-09-30"
+    },
+    {
       "id": "80da466c4a018826",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/lastavica-penthouse-kompletno-namesten/5425647570752?kid=1",
-      "naslov": "Lastavica, penthouse, kompletno namešten",
+      "naslov": "Dvoiposoban stan na prodaju, Jurija Gagarina, 429.000€, 88m²",
       "zgrada": "Lastavica",
       "agencija": null,
       "struktura": "2.5",
       "str_label": null,
       "m2": 88.0,
-      "cena": 449000.0,
-      "cena_m2": 5102,
+      "cena": 429000,
+      "cena_m2": 4875,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 36,
       "prva_cena": 449000.0,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -4.5,
       "first_seen": "2026-08-25",
       "last_seen": "2026-09-30"
     },
@@ -2363,6 +2904,28 @@
       "prva_cena": 360000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-26",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "1c08a86bd81d214b",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-65-kula-3-0-sa-otvorenim-pogledom-na-gra/5425647549311?kid=1",
+      "naslov": "Trosoban stan na prodaju, Omladinskih brigada, 569.000€, 105m²",
+      "zgrada": "West 65 Kula",
+      "agencija": "EUROPOLISNEKRETNINE",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 105.0,
+      "cena": 569000.0,
+      "cena_m2": 5419,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 34,
+      "prva_cena": 569000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-08-27",
       "last_seen": "2026-09-30"
     },
     {
@@ -2641,6 +3204,28 @@
       "last_seen": "2026-09-30"
     },
     {
+      "id": "2f178935228030ac",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-sakura/5425645303503?kid=1",
+      "naslov": "Trosoban stan na prodaju, Jurija Gagarina, 410.000€, 99m²",
+      "zgrada": "Sakura Park",
+      "agencija": "BELIGRAD",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 99.0,
+      "cena": 410000.0,
+      "cena_m2": 4141,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 23,
+      "prva_cena": 410000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-30"
+    },
+    {
       "id": "a1daf6ecd626296f",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/sakura-park-kompletno-opremljen-dvosoban-stan/5425646858816?kid=1",
       "naslov": "Sakura Park kompletno opremljen dvosoban stan",
@@ -2685,7 +3270,7 @@
     {
       "id": "877dc77c97fc7852",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-airport-garden-id1614/5425647626822?kid=4",
-      "naslov": "Novi Beograd-Airport Garden ID#1619",
+      "naslov": "Jednosoban stan na prodaju, Đorđa Stanojevića, 170.000€, 33m²",
       "zgrada": "Airport Garden",
       "agencija": "bjanca",
       "struktura": "1.0",
@@ -2695,7 +3280,8 @@
       "cena_m2": 5152,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 21,
       "prva_cena": 170000.0,
@@ -2760,7 +3346,8 @@
       "sprat": "5",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 20,
       "prva_cena": 515000.0,
@@ -2898,7 +3485,7 @@
     {
       "id": "c02da1e1543da87b",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-lux-80m2-nov-3-0-bez-buke-bazen-teras/5425647664408?kid=4",
-      "naslov": "Soul 64,Lux,80m2, Nov, 3.0, Bez buke,Bazen,Terasa",
+      "naslov": "Trosoban stan na prodaju, Omladinskih Brigada Soul 64, 399.000€, 80m²",
       "zgrada": "Soul 64",
       "agencija": null,
       "struktura": "3.0",
@@ -2908,7 +3495,8 @@
       "cena_m2": 4988,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 15,
       "prva_cena": 399000.0,
@@ -3129,21 +3717,22 @@
     {
       "id": "ce414a6ffcbac40d",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/dvosoban-stan-od-60-m-u-belvilu/5425647695767?kid=1",
-      "naslov": "Dvosoban stan od 60 m² u Belvilu",
+      "naslov": "Dvosoban stan na prodaju, Bulevar Crvene armije, 315.000€, 60m²",
       "zgrada": "Belvil",
       "agencija": "divis-nekretnine",
       "struktura": "2.0",
       "str_label": null,
       "m2": 60.0,
-      "cena": 325000.0,
-      "cena_m2": 5417,
+      "cena": 315000,
+      "cena_m2": 5250,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 11,
       "prva_cena": 325000.0,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -3.1,
       "first_seen": "2026-09-19",
       "last_seen": "2026-09-30"
     },
@@ -3203,12 +3792,35 @@
       "sprat": "8",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 9,
       "prva_cena": 227000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-21",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "0f92f936aa0698e9",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-belville-id1625/5425647700125?kid=4",
+      "naslov": "Četvorosoban stan na prodaju, Bulevar Crvene Armije, 391.000€, 94m²",
+      "zgrada": "Belvil",
+      "agencija": "bjanca",
+      "struktura": "4.0",
+      "str_label": null,
+      "m2": 94.0,
+      "cena": 391000.0,
+      "cena_m2": 4160,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 8,
+      "prva_cena": 391000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-22",
       "last_seen": "2026-09-30"
     },
     {
@@ -3289,7 +3901,8 @@
       "sprat": "2",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 7,
       "prva_cena": 160000.0,
@@ -3300,7 +3913,7 @@
     {
       "id": "40087c27ede91914",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/zepterra-05-west-65-terasa-garaza/5425647716043?kid=1",
-      "naslov": "ZepTerra 05 | West 65 | Terasa | Garaža",
+      "naslov": "Trosoban stan na prodaju, Bulevar heroja sa Košara, 470.400€, 112m²",
       "zgrada": "Zepterra",
       "agencija": "Kredium",
       "struktura": "3.0",
@@ -3310,7 +3923,8 @@
       "cena_m2": 4200,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 7,
       "prva_cena": 470400.0,
@@ -3342,7 +3956,7 @@
     {
       "id": "107f642e28cbc395",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/elixir-garden-west-65-stan-73m2/5425647715439?kid=1",
-      "naslov": "Elixir Garden-West 65, stan, 73m2 ",
+      "naslov": "Dvoiposoban stan na prodaju, TADIJE SONDERMAJERA, 335.000€, 73m²",
       "zgrada": "Elixir Garden",
       "agencija": "beoagent-doo",
       "struktura": "2.5",
@@ -3352,7 +3966,8 @@
       "cena_m2": 4589,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 7,
       "prva_cena": 335000.0,
@@ -3384,7 +3999,7 @@
     {
       "id": "fe1c60d85e8b2464",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/penthouse-terasa-70m-pogled-koji-guta-nebo/5425647723828?kid=4",
-      "naslov": "Penthouse. Terasa 70m². Pogled koji guta nebo.",
+      "naslov": "Četvorosoban stan na prodaju, Omladinskih Brigada, 807.000€, 205m²",
       "zgrada": "West 65",
       "agencija": "BebaRealEstate",
       "struktura": "4.0",
@@ -3394,7 +4009,8 @@
       "cena_m2": 3937,
       "sprat": null,
       "izvori": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "dana_na_trzistu": 6,
       "prva_cena": 807000.0,
@@ -3752,7 +4368,8 @@
       "sprat": "7",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 1,
       "prva_cena": 315000.0,
@@ -3900,7 +4517,8 @@
       "sprat": "8",
       "izvori": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 0,
       "prva_cena": 530400.0,
@@ -4300,7 +4918,8 @@
       "cena_m2": 3434,
       "sprat": "8",
       "izvori": [
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 0,
       "prva_cena": 388000,
@@ -4321,7 +4940,8 @@
       "cena_m2": 3373,
       "sprat": "8",
       "izvori": [
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 0,
       "prva_cena": 280000,
@@ -4405,7 +5025,8 @@
       "cena_m2": 3813,
       "sprat": "15",
       "izvori": [
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 0,
       "prva_cena": 530024,
@@ -4573,7 +5194,8 @@
       "cena_m2": 3738,
       "sprat": "10",
       "izvori": [
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 0,
       "prva_cena": 276620,
@@ -4594,7 +5216,8 @@
       "cena_m2": 3656,
       "sprat": "8",
       "izvori": [
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "dana_na_trzistu": 0,
       "prva_cena": 376534,
@@ -4724,6 +5347,510 @@
       ],
       "dana_na_trzistu": 0,
       "prva_cena": 329000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "9e1a1c39e7355d9b",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6aba979544948cdfe30f21e2",
+      "naslov": "Trosoban stan na prodaju, Bulevar Heroja Sa Košara, 474.600€, 113m²",
+      "zgrada": "West 65",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 113.0,
+      "cena": 474600,
+      "cena_m2": 4200,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 474600,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "a31995cd31a3325e",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/687b9c90ed7b101414016039",
+      "naslov": "Četvorosoban stan na prodaju, Djordja Stanojevića, 550.000€, 139m²",
+      "zgrada": "Airport Garden",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 139.0,
+      "cena": 550000,
+      "cena_m2": 3957,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 550000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "efc82a17dbab2c58",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-70-novi-beograd-beograd/dvosoban-stan/6abca152a487d10ff4022bef",
+      "naslov": "Dvosoban stan na prodaju, Jurija Gagarina, 176.000€, 44m²",
+      "zgrada": "A Blok",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 44.0,
+      "cena": 176000,
+      "cena_m2": 4000,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 176000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "bbae3109a63293d7",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-40-novi-beograd-beograd/trosoban-stan/6a60df03b2f34566e007130e",
+      "naslov": "Trosoban stan na prodaju, Omladinskih brigada, 530.000€, 120m²",
+      "zgrada": "Bel Mondo",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 120.0,
+      "cena": 530000,
+      "cena_m2": 4417,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 530000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "def13aeeae663068",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6a60bcae34682733db04964a",
+      "naslov": "Dvosoban stan na prodaju, Đorđa Stanojevića 37, 238.000€, 56m²",
+      "zgrada": "West 65",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 56.0,
+      "cena": 238000,
+      "cena_m2": 4250,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 238000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "dbab404e40b7b5c3",
+      "url": "https://www.4zida.rs/prodaja-stanova/bezanijska-kosa-1-novi-beograd-beograd/cetvorosoban-stan/6a7dd12191c9bcdb38002e02",
+      "naslov": "Četvorosoban stan na prodaju, Smolućska, 537.684€, 154m²",
+      "zgrada": "Lux 51",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 154.0,
+      "cena": 537684,
+      "cena_m2": 3491,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 537684,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "9b2be9ea621db9a7",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/637a75ae148c7d9db30d5e3e",
+      "naslov": "Trosoban stan na prodaju, Tošin Bunar 181, 300.000€, 63m²",
+      "zgrada": "Savada",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 63.0,
+      "cena": 300000,
+      "cena_m2": 4762,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 300000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "00dd5f5a728f1492",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6a590e8d1f499bb18902faa0",
+      "naslov": "Trosoban stan na prodaju, Tadije Sondermajera, 329.000€, 70m²",
+      "zgrada": "Zepterra",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 70.0,
+      "cena": 329000,
+      "cena_m2": 4700,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 329000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "a483ea19c64acf43",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6abce0862b9792d9cc050035",
+      "naslov": "Trosoban stan na prodaju, Bulevar heroja sa Košara, 530.400€, 112m²",
+      "zgrada": "West 65",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 112.0,
+      "cena": 530400,
+      "cena_m2": 4736,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 530400,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "79df90896bdb5517",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6abbd6badb15288e1e06c920",
+      "naslov": "Trosoban stan na prodaju, Bulevar heroja sa Košara, 530.400€, 112m²",
+      "zgrada": "West 65",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 112.0,
+      "cena": 530400,
+      "cena_m2": 4736,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 530400,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "81178af10dbacbb8",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-66-novi-beograd-beograd/cetvorosoban-stan/68b6fa68ddac81fa2a0f091d",
+      "naslov": "Četvorosoban stan na prodaju, Đorđa Stanojevića, 550.000€, 133m²",
+      "zgrada": "Airport Garden",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 133.0,
+      "cena": 550000,
+      "cena_m2": 4135,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 550000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "2e0a7f28035f73db",
+      "url": "https://www.4zida.rs/prodaja-stanova/tosin-bunar-novi-beograd-beograd/petosoban-stan/6ab7cbb7d306887b490b49c5",
+      "naslov": "Petosoban stan na prodaju, Tošin Bunar, 493.000€, 139m²",
+      "zgrada": "New Minel",
+      "agencija": null,
+      "struktura": "5.0",
+      "str_label": "Petosoban+",
+      "m2": 139.0,
+      "cena": 493000,
+      "cena_m2": 3547,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 493000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "c80e38e7bc08e0f7",
+      "url": "https://www.4zida.rs/prodaja-stanova/bezanijska-kosa-1-novi-beograd-beograd/petosoban-stan/69f0aab93742e5e6750b8194",
+      "naslov": "Petosoban stan na prodaju, Smolućska, 512.040€, 151m²",
+      "zgrada": "Lux 51",
+      "agencija": null,
+      "struktura": "5.0",
+      "str_label": "Petosoban+",
+      "m2": 151.0,
+      "cena": 512040,
+      "cena_m2": 3391,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 512040,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "edcfd1e1add01e2a",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/68da6a3fb8059a2f920f8b8c",
+      "naslov": "Četvorosoban stan na prodaju, Omladinskih brigada, 713.400€, 123m²",
+      "zgrada": "West 65 Kula",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 123.0,
+      "cena": 713400,
+      "cena_m2": 5800,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 713400,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "3d56852c737b90ed",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6a3e71061b91ed61cc0d7a08",
+      "naslov": "Dvosoban stan na prodaju, Đorđa Stanojevića, 170.000€, 33m²",
+      "zgrada": "Airport Garden",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 33.0,
+      "cena": 170000,
+      "cena_m2": 5152,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 170000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "07c4d27fdddeb026",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-67-belville-novi-beograd-beograd/trosoban-stan/694ea710901c3c0a97071491",
+      "naslov": "Trosoban stan na prodaju, Đorđa Stanojevića, 270.000€, 68m²",
+      "zgrada": "West 65",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 68.0,
+      "cena": 270000,
+      "cena_m2": 3971,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 270000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "fe3a3f355d7be730",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6483239bd17801ee170ab12c",
+      "naslov": "Trosoban stan na prodaju, Tošin Bunar, 300.000€, 64m²",
+      "zgrada": "Savada",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 64.0,
+      "cena": 300000,
+      "cena_m2": 4688,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 300000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "74b18b6ff0d565eb",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-58-novi-beograd-beograd/dvoiposoban-stan/6ab0c83df175df2076043a8a",
+      "naslov": "Dvoiposoban stan na prodaju, Jurija Gagarina, 299.000€, 61m²",
+      "zgrada": "A Blok",
+      "agencija": null,
+      "struktura": "2.5",
+      "str_label": "Dvoiposoban",
+      "m2": 61.0,
+      "cena": 299000,
+      "cena_m2": 4902,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 299000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "8969873f09f9610f",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/69bfcf07722d816b35065417",
+      "naslov": "Trosoban stan na prodaju, Tadije Sondermajera, 440.000€, 77m²",
+      "zgrada": "Wellport",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 77.0,
+      "cena": 440000,
+      "cena_m2": 5714,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 440000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "07cc6cc5227b7aa9",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/petosoban-stan/68d25cf7df1ce06c0d024b75",
+      "naslov": "Petosoban stan na prodaju, Tadije Sondermajera bb, 790.000€, 165m²",
+      "zgrada": "Wellport",
+      "agencija": null,
+      "struktura": "5.0",
+      "str_label": "Petosoban+",
+      "m2": 165.0,
+      "cena": 790000,
+      "cena_m2": 4788,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 790000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "fc5f710841555246",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6a3285f9c5da39cc4e04b91d",
+      "naslov": "Trosoban stan na prodaju, Tadije Sondermajera, 430.000€, 107m²",
+      "zgrada": "Zepterra",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 107.0,
+      "cena": 430000,
+      "cena_m2": 4019,
+      "sprat": null,
+      "izvori": [
+        "4zida"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 430000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "a0861e032e6cdb9e",
+      "url": "https://www.nadjidom.com/sr/details/2358046/Beograd-Novi+Beograd-Tosin+Bunar-Prodaja-Garsonjera.html",
+      "naslov": "Luksuzna garsonjera u kompleksu New Minel-u",
+      "zgrada": "New Minel",
+      "agencija": "DIKA REAL ESTATE  DOO BEOGRAD (NOVI BEOGRAD) ",
+      "struktura": "5.0",
+      "str_label": "Petosoban+",
+      "m2": 25.0,
+      "cena": 170000,
+      "cena_m2": 6800,
+      "sprat": "5",
+      "izvori": [
+        "nadjidom"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 170000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "6c434ba68e59e74f",
+      "url": "https://www.nadjidom.com/sr/details/2352696/Beograd-Novi+Beograd-Blok+65-Prodaja-Garsonjera.html",
+      "naslov": "Airport garden, 32m², luksuzan, opremljen",
+      "zgrada": "Airport Garden",
+      "agencija": "Borović Nekretnine ",
+      "struktura": "5.0",
+      "str_label": "Petosoban+",
+      "m2": 32.0,
+      "cena": 176500,
+      "cena_m2": 5516,
+      "sprat": "2",
+      "izvori": [
+        "nadjidom"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 176500,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30"
+    },
+    {
+      "id": "e1defeb531e64199",
+      "url": "https://www.nadjidom.com/sr/details/2280509/Beograd-Novi+Beograd-Blok+65-Prodaja-Stan.html",
+      "naslov": "Spektakularan Penthouse sa pogledom na ceo Grad",
+      "zgrada": "West 65",
+      "agencija": "Kuca i stan Doo ",
+      "struktura": "5.0",
+      "str_label": "Petosoban+",
+      "m2": 453.0,
+      "cena": 5000000,
+      "cena_m2": 11038,
+      "sprat": "39",
+      "izvori": [
+        "nadjidom"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 5000000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30"

@@ -1227,21 +1227,24 @@
     "39db93851bbb991f": {
       "uid": "39db93851bbb991f",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-07-06",
-      "is_active": false,
-      "deactivated_at": "2026-07-09",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "458f1d73c5028873",
       "fp_strict_all": [
         "379e0d51cb091ee0"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "9e0d2ae18cf2"
+        "halo": "9e0d2ae18cf2",
+        "4zida": "4zida:6a3158e5f1a39a36f402a9ac"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/dvosoban-stan-u-belvilu-sa-parking-mestom-id1/5425647318839?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/dvosoban-stan-u-belvilu-sa-parking-mestom-id1/5425647318839?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/blok-67-belville-novi-beograd-beograd/dvosoban-stan/6a3158e5f1a39a36f402a9ac"
       ],
       "zgrada": "Belvil",
       "struktura": "2.0",
@@ -1249,12 +1252,20 @@
       "m2": 68.0,
       "sprat": null,
       "agencija": "superstan1701002",
-      "naslov": "Dvosoban stan u Belvilu sa parking mestom ID#1217",
+      "naslov": "Dvosoban stan za izdavanje, Bulevar Crvene Armije 11, 850€, 68m²",
       "price_first": 850.0,
       "price_current": 850.0,
       "price_changes": [],
-      "days_listed": 7,
-      "cena_m2": 12
+      "days_listed": 90,
+      "cena_m2": 12,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "a687c746cc074821"
+      ],
+      "fp_nosprat": "a687c746cc074821"
     },
     "59b2c2010d2f8d07": {
       "uid": "59b2c2010d2f8d07",
@@ -1869,7 +1880,11 @@
       "price_current": 1250.0,
       "price_changes": [],
       "days_listed": 90,
-      "cena_m2": 18
+      "cena_m2": 18,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      }
     },
     "838b08ffa50f01e8": {
       "uid": "838b08ffa50f01e8",
@@ -2400,21 +2415,24 @@
     "47676266b240e89c": {
       "uid": "47676266b240e89c",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-07-08",
-      "is_active": false,
-      "deactivated_at": "2026-07-10",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "42bff82ce3404ee7",
       "fp_strict_all": [
         "3c2a6009f8843d27"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "ef05055727cd"
+        "halo": "ef05055727cd",
+        "4zida": "4zida:6a3a83b5f08f626efa09cbfa"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-neuseljavan-garaza---airport-garden/5425647320614?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-neuseljavan-garaza---airport-garden/5425647320614?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6a3a83b5f08f626efa09cbfa"
       ],
       "zgrada": "Airport Garden",
       "struktura": "3.0",
@@ -2422,12 +2440,20 @@
       "m2": 81.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "Nov, Neuseljavan, garaza - Airport garden",
+      "naslov": "Trosoban stan za izdavanje, Đorđa Stanojevića, 1.500€, 81m²",
       "price_first": 1500.0,
       "price_current": 1500.0,
       "price_changes": [],
-      "days_listed": 8,
-      "cena_m2": 19
+      "days_listed": 90,
+      "cena_m2": 19,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "f85b94faf6120943"
+      ],
+      "fp_nosprat": "f85b94faf6120943"
     },
     "bbcbe7467a9086c7": {
       "uid": "bbcbe7467a9086c7",
@@ -3132,14 +3158,17 @@
         "412ecfa3179000d7"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "732c30afcdb1"
+        "halo": "732c30afcdb1",
+        "4zida": "4zida:6a0193d7dfdda1f86008273d"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-tower-izdavanje-nov-lux-prostran-4-0-sta/5425645291321?kid=3",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-tower-izdavanje-nov-lux-prostran-4-0-sta/5425645291321?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-tower-izdavanje-nov-lux-prostran-4-0-sta/5425645291321?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6a0193d7dfdda1f86008273d"
       ],
       "zgrada": "West 65 Kula",
       "struktura": "4.0",
@@ -3147,12 +3176,20 @@
       "m2": 123.0,
       "sprat": null,
       "agencija": "city-hedonia-agencija-za-nekretnine",
-      "naslov": "West Tower, izdavanje, nov, lux, prostran 4.0 stan",
+      "naslov": "Četvorosoban stan za izdavanje, Omladinskih brigada, 3.000€, 123m²",
       "price_first": 3000.0,
       "price_current": 3000.0,
       "price_changes": [],
       "days_listed": 90,
-      "cena_m2": 24
+      "cena_m2": 24,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "1ebbb3aae1315f57"
+      ],
+      "fp_nosprat": "1ebbb3aae1315f57"
     },
     "53ad1be50aa0e52f": {
       "uid": "53ad1be50aa0e52f",
@@ -3452,7 +3489,10 @@
       "price_current": 2000.0,
       "price_changes": [],
       "days_listed": 90,
-      "cena_m2": 27
+      "cena_m2": 27,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "f59dcb34e28649d5": {
       "uid": "f59dcb34e28649d5",
@@ -3582,7 +3622,10 @@
       "price_current": 800.0,
       "price_changes": [],
       "days_listed": 90,
-      "cena_m2": 13
+      "cena_m2": 13,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "2e9cb0bf341d5c26": {
       "uid": "2e9cb0bf341d5c26",
@@ -3653,7 +3696,15 @@
       "price_changes": [],
       "days_listed": 90,
       "cena_m2": 17,
-      "deactivation_uncertain": true
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "37d12945f95a84bf"
+      ],
+      "fp_nosprat": "37d12945f95a84bf"
     },
     "4758a063e1411dc8": {
       "uid": "4758a063e1411dc8",
@@ -3691,7 +3742,16 @@
       "price_current": 3000.0,
       "price_changes": [],
       "days_listed": 90,
-      "cena_m2": 18
+      "cena_m2": 18,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30",
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "8e2035b715804056"
+      ],
+      "fp_nosprat": "8e2035b715804056"
     },
     "b3df394c7c20b0cd": {
       "uid": "b3df394c7c20b0cd",
@@ -3820,7 +3880,10 @@
       "price_current": 1200.0,
       "price_changes": [],
       "days_listed": 90,
-      "cena_m2": 15
+      "cena_m2": 15,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "30a3b59fa8d46092": {
       "uid": "30a3b59fa8d46092",
@@ -4066,7 +4129,15 @@
       "price_current": 950.0,
       "price_changes": [],
       "days_listed": 90,
-      "cena_m2": 15
+      "cena_m2": 15,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "4a571949a042e1ae"
+      ],
+      "fp_nosprat": "4a571949a042e1ae"
     },
     "eb896c4bc672ee1b": {
       "uid": "eb896c4bc672ee1b",
@@ -4135,21 +4206,24 @@
     "9541a60c256210ac": {
       "uid": "9541a60c256210ac",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-07-02",
-      "is_active": false,
-      "deactivated_at": "2026-07-04",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "d14d2440bd847973",
       "fp_strict_all": [
         "ac163342b43c7eda"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "6ae9b2aa15e9"
+        "halo": "6ae9b2aa15e9",
+        "4zida": "4zida:6a4bb133fb4a1b64fb0fac57"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65-lux-sa-garazom-id19424/5425647345953?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65-lux-sa-garazom-id19424/5425647345953?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6a4bb133fb4a1b64fb0fac57"
       ],
       "zgrada": "West 65",
       "struktura": "2.0",
@@ -4157,11 +4231,20 @@
       "m2": 53.0,
       "sprat": null,
       "agencija": "bilding-nekretnine-d-o-o",
-      "naslov": "West 65,lux,sa garažom ID#19424",
+      "naslov": "Dvosoban stan za izdavanje, Omladinskih brigada, 1.100€, 53m²",
       "price_first": 1100.0,
       "price_current": 1100.0,
       "price_changes": [],
-      "days_listed": 2
+      "days_listed": 90,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "a3853e5f119b0c3a"
+      ],
+      "fp_nosprat": "a3853e5f119b0c3a",
+      "cena_m2": 21
     },
     "2ca495f8854d8404": {
       "uid": "2ca495f8854d8404",
@@ -4490,7 +4573,10 @@
       "price_current": 900.0,
       "price_changes": [],
       "days_listed": 90,
-      "cena_m2": 18
+      "cena_m2": 18,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "5c3317376dadb5f8": {
       "uid": "5c3317376dadb5f8",
@@ -4855,21 +4941,24 @@
     "1133587949b83549": {
       "uid": "1133587949b83549",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-21",
-      "is_active": false,
-      "deactivated_at": "2026-09-23",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "d3f16812aadb6d31",
       "fp_strict_all": [
         "b321864f33d9c537"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "5652757362e5"
+        "halo": "5652757362e5",
+        "4zida": "4zida:69c40c99576e06af2906f3a5"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-1-0/5425646942031?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-1-0/5425646942031?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-67-belville-novi-beograd-beograd/jednosoban-stan/69c40c99576e06af2906f3a5"
       ],
       "zgrada": "Airport Garden",
       "struktura": "1.0",
@@ -4877,12 +4966,20 @@
       "m2": 33.0,
       "sprat": null,
       "agencija": "etagi3",
-      "naslov": "Airport garden 1.0",
+      "naslov": "Jednosoban stan za izdavanje, Đorđa Stanojevića, 850€, 33m²",
       "price_first": 850.0,
       "price_current": 850.0,
       "price_changes": [],
-      "days_listed": 83,
-      "cena_m2": 26
+      "days_listed": 90,
+      "cena_m2": 26,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "345d7d3761955305"
+      ],
+      "fp_nosprat": "345d7d3761955305"
     },
     "820823d06c60af10": {
       "uid": "820823d06c60af10",
@@ -5417,16 +5514,19 @@
         "c1bec1686ccfed95"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "4df82950464f"
+        "halo": "4df82950464f",
+        "4zida": "4zida:6aba592f61dbd05ad50f16ca"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/new-minel-odmah-useljiv-garazno-mesto-id4306/5425646530011?kid=1",
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/new-minel-odmah-useljiv-garazno-mesto-id4813/5425647521418?kid=1",
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/new-minel-odmah-useljiv-garazno-mesto-id4965/5425647744393?kid=1",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/new-minel-odmah-useljiv-garazno-mesto-id4965/5425647744393?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/new-minel-odmah-useljiv-garazno-mesto-id4965/5425647744393?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/tosin-bunar-novi-beograd-beograd/trosoban-stan/6aba592f61dbd05ad50f16ca"
       ],
       "zgrada": "New Minel",
       "struktura": "3.0",
@@ -5434,12 +5534,20 @@
       "m2": 63.0,
       "sprat": null,
       "agencija": "PropertyBroker",
-      "naslov": "New Minel, odmah useljiv, garažno mesto ID#4965",
+      "naslov": "Trosoban stan za izdavanje, Tošin bunar, 1.300€, 63m²",
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
       "days_listed": 90,
-      "cena_m2": 21
+      "cena_m2": 21,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "48b631fe320b6b42"
+      ],
+      "fp_nosprat": "48b631fe320b6b42"
     },
     "951c305312e91cca": {
       "uid": "951c305312e91cca",
@@ -5614,7 +5722,11 @@
       "price_current": 900.0,
       "price_changes": [],
       "days_listed": 90,
-      "cena_m2": 16
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "nadjidom": "2026-09-30"
+      }
     },
     "978cb6e9ae53f84c": {
       "uid": "978cb6e9ae53f84c",
@@ -5660,13 +5772,16 @@
         "850c03c9ab47830e"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "3d0ac0a862d8"
+        "halo": "3d0ac0a862d8",
+        "4zida": "4zida:6a0c5469043bcebaba0ad18b"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-dvosoban-prazan-stan-id2713/5425647165464?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-dvosoban-prazan-stan-id2713/5425647165464?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6a0c5469043bcebaba0ad18b"
       ],
       "zgrada": "Wellport",
       "struktura": "2.0",
@@ -5674,12 +5789,20 @@
       "m2": 52.0,
       "sprat": null,
       "agencija": "BrickPro",
-      "naslov": "Wellport, dvosoban prazan stan ID#2713",
+      "naslov": "Dvosoban stan za izdavanje, Tadije Sondermajera, 900€, 52m²",
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
       "days_listed": 90,
-      "cena_m2": 17
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "685b56f938fca277"
+      ],
+      "fp_nosprat": "685b56f938fca277"
     },
     "8c1a5edec450b011": {
       "uid": "8c1a5edec450b011",
@@ -5789,13 +5912,16 @@
         "8c179859aefa89fe"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "fcf87b726aa1"
+        "halo": "fcf87b726aa1",
+        "4zida": "4zida:6a0b048338682d44450cbaf6"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/stan-povrsine-120m2-novi-beograd/5425647161926?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/stan-povrsine-120m2-novi-beograd/5425647161926?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-64-novi-beograd-beograd/petosoban-stan/6a0b048338682d44450cbaf6"
       ],
       "zgrada": "The One",
       "struktura": "5.0",
@@ -5803,12 +5929,20 @@
       "m2": 120.0,
       "sprat": null,
       "agencija": "agencija-gradac",
-      "naslov": "Stan površine 120m2 Novi Beograd ",
+      "naslov": "Petosoban stan za izdavanje, Omladinskih Brigada, 2.700€, 120m²",
       "price_first": 2700.0,
       "price_current": 2700.0,
       "price_changes": [],
       "days_listed": 90,
-      "cena_m2": 22
+      "cena_m2": 22,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "9b787d335813bd25"
+      ],
+      "fp_nosprat": "9b787d335813bd25"
     },
     "a9a3ae289237094d": {
       "uid": "a9a3ae289237094d",
@@ -5946,21 +6080,24 @@
     "cd253b17ddf7d0d0": {
       "uid": "cd253b17ddf7d0d0",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-07-10",
-      "is_active": false,
-      "deactivated_at": "2026-07-12",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "0e4bff825c33432a",
       "fp_strict_all": [
         "e1caf55f92269672"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "59f555292609"
+        "halo": "59f555292609",
+        "4zida": "4zida:6a54da99c9bf26c8c702abcc"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-3-0-odmah-useljiv-id19386/5425647290124?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-3-0-odmah-useljiv-id19386/5425647290124?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6a54da99c9bf26c8c702abcc"
       ],
       "zgrada": "Airport Garden",
       "struktura": "3.0",
@@ -5968,12 +6105,20 @@
       "m2": 77.0,
       "sprat": null,
       "agencija": "bilding-nekretnine-d-o-o",
-      "naslov": "Airport Garden, 3.0, odmah useljiv ID#19386",
+      "naslov": "Trosoban stan za izdavanje, Đorđa Stanojevića, 1.200€, 77m²",
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 10,
-      "cena_m2": 16
+      "days_listed": 90,
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "395f60e1dfa970fb"
+      ],
+      "fp_nosprat": "395f60e1dfa970fb"
     },
     "75e01c5321bbc3d1": {
       "uid": "75e01c5321bbc3d1",
@@ -6307,7 +6452,7 @@
     "0b25809815cffdda": {
       "uid": "0b25809815cffdda",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-29",
+      "last_seen": "2026-09-30",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "41f2ddce126e0053",
@@ -6316,14 +6461,17 @@
         "a97497a55afe3b0c"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "888e41f93bbd"
+        "halo": "888e41f93bbd",
+        "4zida": "4zida:6758588a275ca46a3f09ba63"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/best-selection-of-exclusive-homes-and-propert/5425642631920?kid=1",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/best-selection-of-exclusive-homes-and-propert/5425642631920?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/best-selection-of-exclusive-homes-and-propert/5425642631920?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6758588a275ca46a3f09ba63"
       ],
       "zgrada": "West 65 Kula",
       "struktura": "4.0",
@@ -6331,7 +6479,7 @@
       "m2": 105.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "Best selection of exclusive homes and properties",
+      "naslov": "Četvorosoban stan za izdavanje, Omladinskih Brigada, 3.000€, 105m²",
       "price_first": 3500.0,
       "price_current": 3000.0,
       "price_changes": [
@@ -6342,7 +6490,15 @@
         }
       ],
       "days_listed": 90,
-      "cena_m2": 29
+      "cena_m2": 29,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "e511a59ced2862b1"
+      ],
+      "fp_nosprat": "e511a59ced2862b1"
     },
     "58b118654f40d341": {
       "uid": "58b118654f40d341",
@@ -7089,7 +7245,15 @@
       "price_changes": [],
       "days_listed": 90,
       "cena_m2": 22,
-      "deactivation_uncertain": true
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "baf3737ced00c4c7"
+      ],
+      "fp_nosprat": "baf3737ced00c4c7"
     },
     "5e0a6cd31e3dd5a0": {
       "uid": "5e0a6cd31e3dd5a0",
@@ -7166,13 +7330,16 @@
         "26ab793ed7c63b9d"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "9f1eb5fa6ff2"
+        "halo": "9f1eb5fa6ff2",
+        "4zida": "4zida:682b689848bf928c2a0f8255"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/2-0-garaza-west-65/5425645983246?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/2-0-garaza-west-65/5425645983246?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/682b689848bf928c2a0f8255"
       ],
       "zgrada": "West 65",
       "struktura": "2.0",
@@ -7180,12 +7347,20 @@
       "m2": 60.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "2.0 / garaza / West 65",
+      "naslov": "Dvosoban stan za izdavanje, Omladinskih Brigada, 1.000€, 60m²",
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
       "days_listed": 90,
-      "cena_m2": 17
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "9e8f785c45cb0f5a"
+      ],
+      "fp_nosprat": "9e8f785c45cb0f5a"
     },
     "d21c154a2bdbcc34": {
       "uid": "d21c154a2bdbcc34",
@@ -7252,7 +7427,15 @@
       "price_current": 3000.0,
       "price_changes": [],
       "days_listed": 90,
-      "cena_m2": 22
+      "cena_m2": 22,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "a5cb925a71d963db"
+      ],
+      "fp_nosprat": "a5cb925a71d963db"
     },
     "923dc26ef600c962": {
       "uid": "923dc26ef600c962",
@@ -7284,7 +7467,10 @@
       "price_current": 1500.0,
       "price_changes": [],
       "days_listed": 90,
-      "cena_m2": 16
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "755ef80bf0289ce6": {
       "uid": "755ef80bf0289ce6",
@@ -7362,13 +7548,16 @@
         "c1a3e176726f2c83"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "2cf8dd55662a"
+        "halo": "2cf8dd55662a",
+        "4zida": "4zida:67a3c47d2980a0787b049bb3"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/neuseljavan-stan-u-luksuznom-kompleksu-sakura/5425645204565?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/neuseljavan-stan-u-luksuznom-kompleksu-sakura/5425645204565?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-58-novi-beograd-beograd/cetvorosoban-stan/67a3c47d2980a0787b049bb3"
       ],
       "zgrada": "Sakura Park",
       "struktura": "4.0",
@@ -7376,12 +7565,20 @@
       "m2": 99.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "Neuseljavan stan u luksuznom kompleksu Sakura Park",
+      "naslov": "Četvorosoban stan za izdavanje, Jurija Gagarina, 1.800€, 99m²",
       "price_first": 1800.0,
       "price_current": 1800.0,
       "price_changes": [],
       "days_listed": 90,
-      "cena_m2": 18
+      "cena_m2": 18,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "9f95653293d005ac"
+      ],
+      "fp_nosprat": "9f95653293d005ac"
     },
     "0f3e9ec2abfd8f5f": {
       "uid": "0f3e9ec2abfd8f5f",
@@ -7547,7 +7744,11 @@
       "price_current": 3300.0,
       "price_changes": [],
       "days_listed": 90,
-      "cena_m2": 19
+      "cena_m2": 19,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      }
     },
     "4b6243c5fd3c348a": {
       "uid": "4b6243c5fd3c348a",
@@ -8183,7 +8384,15 @@
       "price_current": 4500.0,
       "price_changes": [],
       "days_listed": 89,
-      "cena_m2": 30
+      "cena_m2": 30,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "c2bd1345ba6b8f2c"
+      ],
+      "fp_nosprat": "c2bd1345ba6b8f2c"
     },
     "fdfefa7876c61af7": {
       "uid": "fdfefa7876c61af7",
@@ -8345,7 +8554,10 @@
       "price_current": 2000.0,
       "price_changes": [],
       "days_listed": 89,
-      "cena_m2": 18
+      "cena_m2": 18,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "054b8bb1c3bb2fbe": {
       "uid": "054b8bb1c3bb2fbe",
@@ -8776,21 +8988,25 @@
     "bceef7e729327843": {
       "uid": "bceef7e729327843",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-08",
-      "is_active": false,
-      "deactivated_at": "2026-07-10",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "d071e125d712e3cf",
       "fp_strict_all": [
-        "26ab793ed7c63b9d"
+        "26ab793ed7c63b9d",
+        "fcf238eceaff4090"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "bb80ce99cbe6"
+        "halo": "bb80ce99cbe6",
+        "4zida": "4zida:6a6cc7e4271e7716ce072a97"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---west-65-68092/5425647365953?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---west-65-68092/5425647365953?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6a6cc7e4271e7716ce072a97"
       ],
       "zgrada": "West 65",
       "struktura": "2.0",
@@ -8798,12 +9014,26 @@
       "m2": 60.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - West 65 #68092",
+      "naslov": "Dvosoban stan za izdavanje, Bulevar Heroja Sa Košara 2, 950€, 60m²",
       "price_first": 1000.0,
-      "price_current": 1000.0,
-      "price_changes": [],
-      "days_listed": 6,
-      "cena_m2": 17
+      "price_current": 950,
+      "price_changes": [
+        {
+          "date": "2026-09-30",
+          "from": 1000.0,
+          "to": 950
+        }
+      ],
+      "days_listed": 88,
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "9e8f785c45cb0f5a"
+      ],
+      "fp_nosprat": "9e8f785c45cb0f5a"
     },
     "b46642008e03d9ed": {
       "uid": "b46642008e03d9ed",
@@ -8942,7 +9172,16 @@
       "price_changes": [],
       "days_listed": 88,
       "cena_m2": 31,
-      "deactivation_uncertain": true
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30",
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "507cf8853612fed5"
+      ],
+      "fp_nosprat": "507cf8853612fed5"
     },
     "651e2cb6208cc541": {
       "uid": "651e2cb6208cc541",
@@ -9108,7 +9347,15 @@
       "price_current": 3000.0,
       "price_changes": [],
       "days_listed": 86,
-      "cena_m2": 18
+      "cena_m2": 18,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "8e2035b715804056"
+      ],
+      "fp_nosprat": "8e2035b715804056"
     },
     "b92676b8f166c65f": {
       "uid": "b92676b8f166c65f",
@@ -10601,7 +10848,10 @@
         }
       ],
       "days_listed": 83,
-      "cena_m2": 17
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "817e88103feb1f0d": {
       "uid": "817e88103feb1f0d",
@@ -11794,21 +12044,24 @@
     "7c4e7ed0a7fc528f": {
       "uid": "7c4e7ed0a7fc528f",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-09-08",
-      "is_active": false,
-      "deactivated_at": "2026-09-10",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "89fdbe3ac1af0a1b",
       "fp_strict_all": [
         "fafdb832300cb858"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "3c37d83e0ceb"
+        "halo": "3c37d83e0ceb",
+        "4zida": "4zida:6a5e3e4723cb1936c509c12a"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul64-lux-stan-80m2-vece-parking-mesto-spa/5425647420092?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul64-lux-stan-80m2-vece-parking-mesto-spa/5425647420092?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/blok-64-novi-beograd-beograd/trosoban-stan/6a5e3e4723cb1936c509c12a"
       ],
       "zgrada": "Soul 64",
       "struktura": "3.0",
@@ -11816,12 +12069,20 @@
       "m2": 78.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Soul64, LUX Stan 80m2, veće parking mesto + SPA",
+      "naslov": "Trosoban stan za izdavanje, Omladinskih Brigada, 2.000€, 78m²",
       "price_first": 2000.0,
       "price_current": 2000.0,
       "price_changes": [],
-      "days_listed": 43,
-      "cena_m2": 26
+      "days_listed": 63,
+      "cena_m2": 26,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "b43e1ecdc379c27c"
+      ],
+      "fp_nosprat": "b43e1ecdc379c27c"
     },
     "6e81b4cc9788a3b5": {
       "uid": "6e81b4cc9788a3b5",
@@ -12726,7 +12987,10 @@
       "price_current": 1300.0,
       "price_changes": [],
       "days_listed": 63,
-      "cena_m2": 15
+      "cena_m2": 15,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "0370ba84b7c1814b": {
       "uid": "0370ba84b7c1814b",
@@ -12758,7 +13022,10 @@
       "price_current": 1200.0,
       "price_changes": [],
       "days_listed": 63,
-      "cena_m2": 16
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-09-29"
+      }
     },
     "5d6a1e8c4a9d7750": {
       "uid": "5d6a1e8c4a9d7750",
@@ -13284,15 +13551,18 @@
       ],
       "sources": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "source_ids": {
         "halo": "e700302cf29c",
-        "nadjidom": "nadjidom:2328096"
+        "nadjidom": "nadjidom:2328096",
+        "4zida": "4zida:6a5a77448188521f7b09b17c"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65---lux-novogradnja-garaza/5425647438923?kid=1",
-        "https://www.nadjidom.com/sr/details/2328096/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html"
+        "https://www.nadjidom.com/sr/details/2328096/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6a5a77448188521f7b09b17c"
       ],
       "zgrada": "West 65",
       "struktura": "2.0",
@@ -13305,7 +13575,16 @@
       "price_current": 1200.0,
       "price_changes": [],
       "days_listed": 63,
-      "cena_m2": 20
+      "cena_m2": 20,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "nadjidom": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "21e354dba28e9324"
+      ],
+      "fp_nosprat": "21e354dba28e9324"
     },
     "8fc9ed48d167c55d": {
       "uid": "8fc9ed48d167c55d",
@@ -13433,7 +13712,10 @@
       "price_current": 2500.0,
       "price_changes": [],
       "days_listed": 63,
-      "cena_m2": 24
+      "cena_m2": 24,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "cb67f3338982fa58": {
       "uid": "cb67f3338982fa58",
@@ -13479,15 +13761,18 @@
       ],
       "sources": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "source_ids": {
         "halo": "78c39fa2760f",
-        "nadjidom": "nadjidom:2348751"
+        "nadjidom": "nadjidom:2348751",
+        "4zida": "4zida:6aa01873641dd8953a02a883"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/new-minel---direktno-od-vlasnika-samo-pravna/5425642020832?kid=1",
-        "https://www.nadjidom.com/sr/details/2348751/Beograd-Novi+Beograd-Tosin+Bunar-Izdavanje-Stan.html"
+        "https://www.nadjidom.com/sr/details/2348751/Beograd-Novi+Beograd-Tosin+Bunar-Izdavanje-Stan.html",
+        "https://www.4zida.rs/izdavanje-stanova/tosin-bunar-novi-beograd-beograd/dvosoban-stan/6aa01873641dd8953a02a883"
       ],
       "zgrada": "New Minel",
       "struktura": "2.0",
@@ -13500,7 +13785,16 @@
       "price_current": 680.0,
       "price_changes": [],
       "days_listed": 63,
-      "cena_m2": 15
+      "cena_m2": 15,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "nadjidom": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "479bd9003f5101bb"
+      ],
+      "fp_nosprat": "479bd9003f5101bb"
     },
     "39e46b63d26f8a36": {
       "uid": "39e46b63d26f8a36",
@@ -13539,7 +13833,10 @@
         }
       ],
       "days_listed": 63,
-      "cena_m2": 20
+      "cena_m2": 20,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "90cb251b54177fce": {
       "uid": "90cb251b54177fce",
@@ -13635,7 +13932,10 @@
       "price_current": 2000.0,
       "price_changes": [],
       "days_listed": 63,
-      "cena_m2": 17
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "8ff7a2aea5715045": {
       "uid": "8ff7a2aea5715045",
@@ -13955,27 +14255,33 @@
       "price_current": 800.0,
       "price_changes": [],
       "days_listed": 63,
-      "cena_m2": 15
+      "cena_m2": 15,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "6d6e4b530cb666a7": {
       "uid": "6d6e4b530cb666a7",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-09-27",
-      "is_active": false,
-      "deactivated_at": "2026-09-29",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "dea369a9296cba74",
       "fp_strict_all": [
         "41c62c8169b9457a"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "e6d750d0a2fb"
+        "halo": "e6d750d0a2fb",
+        "4zida": "4zida:6a68abbe7c6f9d4a3d09f729"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-neuseljavan-2-parking-mesta---wellport/5425647461215",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-neuseljavan-2-parking-mesta---wellport/5425647461215?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-neuseljavan-2-parking-mesta---wellport/5425647461215?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6a68abbe7c6f9d4a3d09f729"
       ],
       "zgrada": "Wellport",
       "struktura": "3.0",
@@ -13983,12 +14289,20 @@
       "m2": 89.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "Nov, neuseljavan, 2 parking mesta - Wellport",
+      "naslov": "Trosoban stan za izdavanje, Tadije Sondermajera, 1.600€, 89m²",
       "price_first": 1600.0,
       "price_current": 1600.0,
       "price_changes": [],
-      "days_listed": 62,
-      "cena_m2": 18
+      "days_listed": 63,
+      "cena_m2": 18,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "db51614dc86dc802"
+      ],
+      "fp_nosprat": "db51614dc86dc802"
     },
     "830351a027cd441c": {
       "uid": "830351a027cd441c",
@@ -14366,13 +14680,16 @@
         "936bbfe2acefb973"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "9bdfa481e379"
+        "halo": "9bdfa481e379",
+        "4zida": "4zida:6a74708a5f3c8e77980a9e2d"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-tower-izdavanje-3-0-nov-namesten/5425647494255?kid=3"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-tower-izdavanje-3-0-nov-namesten/5425647494255?kid=3",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6a74708a5f3c8e77980a9e2d"
       ],
       "zgrada": "West 65 Kula",
       "struktura": "3.0",
@@ -14380,12 +14697,20 @@
       "m2": 94.0,
       "sprat": null,
       "agencija": "city-hedonia-agencija-za-nekretnine",
-      "naslov": "West Tower, izdavanje, 3.0, nov, namešten",
+      "naslov": "Trosoban stan za izdavanje, Omladinskih brigada, 2.300€, 94m²",
       "price_first": 2300.0,
       "price_current": 2300.0,
       "price_changes": [],
       "days_listed": 40,
-      "cena_m2": 24
+      "cena_m2": 24,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "a862ccbf6e8c5ac7"
+      ],
+      "fp_nosprat": "a862ccbf6e8c5ac7"
     },
     "8da3f5e2ab5dbe5f": {
       "uid": "8da3f5e2ab5dbe5f",
@@ -14480,7 +14805,10 @@
       "price_current": 1200.0,
       "price_changes": [],
       "days_listed": 40,
-      "cena_m2": 22
+      "cena_m2": 22,
+      "last_seen_src": {
+        "halo": "2026-09-29"
+      }
     },
     "ad4414ca6a864a63": {
       "uid": "ad4414ca6a864a63",
@@ -14617,7 +14945,10 @@
       "price_current": 1200.0,
       "price_changes": [],
       "days_listed": 40,
-      "cena_m2": 20
+      "cena_m2": 20,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "9d3cc04ba68a84c8": {
       "uid": "9d3cc04ba68a84c8",
@@ -14686,21 +15017,25 @@
     "998839bbab9547b3": {
       "uid": "998839bbab9547b3",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-10",
-      "is_active": false,
-      "deactivated_at": "2026-09-15",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "70b6f77e9b4878a5",
       "fp_strict_all": [
-        "dee2d85b6a35d2d5"
+        "dee2d85b6a35d2d5",
+        "6ce34c658d7f7280"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "2bd4f990d1ca"
+        "halo": "2bd4f990d1ca",
+        "4zida": "4zida:6a674cddf59f6ae38b08fcaf"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzan-stan-sa-garazom-u-west-65-id-5032/5425647488933?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzan-stan-sa-garazom-u-west-65-id-5032/5425647488933?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6a674cddf59f6ae38b08fcaf"
       ],
       "zgrada": "West 65",
       "struktura": "3.0",
@@ -14708,13 +15043,27 @@
       "m2": 205.0,
       "sprat": null,
       "agencija": "symbol-properties-doo-beograd",
-      "naslov": "Luksuzan stan sa garažom u West 65, ID 5032",
+      "naslov": "Trosoban stan za izdavanje, WEST 65, 3.500€, 205m²",
       "price_first": 3600.0,
-      "price_current": 3600.0,
-      "price_changes": [],
-      "days_listed": 25,
-      "cena_m2": 18,
-      "deactivation_uncertain": true
+      "price_current": 3500,
+      "price_changes": [
+        {
+          "date": "2026-09-30",
+          "from": 3600.0,
+          "to": 3500
+        }
+      ],
+      "days_listed": 40,
+      "cena_m2": 17,
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "cc4ff238f33c92ae"
+      ],
+      "fp_nosprat": "cc4ff238f33c92ae"
     },
     "6846a9a4cd007695": {
       "uid": "6846a9a4cd007695",
@@ -14820,7 +15169,15 @@
       "price_current": 1000.0,
       "price_changes": [],
       "days_listed": 40,
-      "cena_m2": 16
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "9774c6a978c4a8b1"
+      ],
+      "fp_nosprat": "9774c6a978c4a8b1"
     },
     "9dc6d3aa9ad673d6": {
       "uid": "9dc6d3aa9ad673d6",
@@ -14916,7 +15273,10 @@
       "price_current": 800.0,
       "price_changes": [],
       "days_listed": 40,
-      "cena_m2": 13
+      "cena_m2": 13,
+      "last_seen_src": {
+        "halo": "2026-09-29"
+      }
     },
     "9cdb6064d4d6afbf": {
       "uid": "9cdb6064d4d6afbf",
@@ -15076,7 +15436,10 @@
       "price_current": 2000.0,
       "price_changes": [],
       "days_listed": 40,
-      "cena_m2": 26
+      "cena_m2": 26,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "5d97730431662914": {
       "uid": "5d97730431662914",
@@ -15327,7 +15690,10 @@
         }
       ],
       "days_listed": 40,
-      "cena_m2": 15
+      "cena_m2": 15,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "f56b9cecb79d4f2c": {
       "uid": "f56b9cecb79d4f2c",
@@ -15632,7 +15998,15 @@
       "price_current": 900.0,
       "price_changes": [],
       "days_listed": 40,
-      "cena_m2": 20
+      "cena_m2": 20,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "0893fbe9d66bd3d8"
+      ],
+      "fp_nosprat": "0893fbe9d66bd3d8"
     },
     "7342c4bb0ce27029": {
       "uid": "7342c4bb0ce27029",
@@ -15967,7 +16341,10 @@
       "price_current": 2900.0,
       "price_changes": [],
       "days_listed": 40,
-      "cena_m2": 16
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "817f736d14204207": {
       "uid": "817f736d14204207",
@@ -16032,7 +16409,10 @@
       "price_current": 3000.0,
       "price_changes": [],
       "days_listed": 40,
-      "cena_m2": 32
+      "cena_m2": 32,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "57de55efc9df0b0d": {
       "uid": "57de55efc9df0b0d",
@@ -16071,21 +16451,25 @@
     "9dbea9442568cdb1": {
       "uid": "9dbea9442568cdb1",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-08-25",
-      "is_active": false,
-      "deactivated_at": "2026-08-27",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "d865f41d549cb7ec",
       "fp_strict_all": [
-        "6e52ef40f9d67b1f"
+        "6e52ef40f9d67b1f",
+        "03546b44b478f3dc"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "711f03c7f4d2"
+        "halo": "711f03c7f4d2",
+        "4zida": "4zida:6a3b80ba138979556100cb23"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-58-m-2/5425647536136?kid=3"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-58-m-2/5425647536136?kid=3",
+        "https://www.4zida.rs/izdavanje-stanova/blok-64-novi-beograd-beograd/dvosoban-stan/6a3b80ba138979556100cb23"
       ],
       "zgrada": "Airport Garden",
       "struktura": "2.0",
@@ -16093,12 +16477,26 @@
       "m2": 58.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Airport garden , 58 m 2",
+      "naslov": "Dvosoban stan za izdavanje, Omladinskih Brigada, 1.000€, 58m²",
       "price_first": 1050.0,
-      "price_current": 1050.0,
-      "price_changes": [],
-      "days_listed": 6,
-      "cena_m2": 18
+      "price_current": 1000,
+      "price_changes": [
+        {
+          "date": "2026-09-30",
+          "from": 1050.0,
+          "to": 1000
+        }
+      ],
+      "days_listed": 40,
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "62ded267bfcfb700"
+      ],
+      "fp_nosprat": "62ded267bfcfb700"
     },
     "eb4baa750bf1ffba": {
       "uid": "eb4baa750bf1ffba",
@@ -16273,21 +16671,24 @@
     "debc374207677c48": {
       "uid": "debc374207677c48",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-02",
-      "is_active": false,
-      "deactivated_at": "2026-09-04",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "52d4e745338c53de",
       "fp_strict_all": [
         "6a5df06e3ee069c4"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "0856335bbb79"
+        "halo": "0856335bbb79",
+        "4zida": "4zida:6a588bd5645a207ab6013f19"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/welport-nov-2-0-svetao-miran-parking-poluname/5425647500486?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/welport-nov-2-0-svetao-miran-parking-poluname/5425647500486?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6a588bd5645a207ab6013f19"
       ],
       "zgrada": "Wellport",
       "struktura": "2.0",
@@ -16295,12 +16696,20 @@
       "m2": 54.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Welport Nov, 2.0,Svetao,Miran,Parking,Polunamesten",
+      "naslov": "Dvosoban stan za izdavanje, Tadije Sondermajera Wellport, 850€, 54m²",
       "price_first": 850.0,
       "price_current": 850.0,
       "price_changes": [],
-      "days_listed": 14,
-      "cena_m2": 16
+      "days_listed": 40,
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "a81a5fd372b9e61f"
+      ],
+      "fp_nosprat": "a81a5fd372b9e61f"
     },
     "a616df15a62518f7": {
       "uid": "a616df15a62518f7",
@@ -16436,7 +16845,10 @@
       "price_current": 1750.0,
       "price_changes": [],
       "days_listed": 40,
-      "cena_m2": 17
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "b9c123c990b901f9": {
       "uid": "b9c123c990b901f9",
@@ -16569,7 +16981,15 @@
       "price_changes": [],
       "days_listed": 40,
       "cena_m2": 17,
-      "deactivation_uncertain": true
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "3cb4cb5ea699f99a"
+      ],
+      "fp_nosprat": "3cb4cb5ea699f99a"
     },
     "b5bb358673c87018": {
       "uid": "b5bb358673c87018",
@@ -16838,15 +17258,18 @@
       ],
       "sources": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "source_ids": {
         "halo": "e76f65edcc45",
-        "nadjidom": "nadjidom:2337971"
+        "nadjidom": "nadjidom:2337971",
+        "4zida": "4zida:649efdc9411c27a018043d4e"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-penthouse-sa-2-garazna-mesta-west-65/5425647134490?kid=1",
-        "https://www.nadjidom.com/sr/details/2337971/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html"
+        "https://www.nadjidom.com/sr/details/2337971/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/649efdc9411c27a018043d4e"
       ],
       "zgrada": "West 65",
       "struktura": "3.0",
@@ -16866,7 +17289,16 @@
       ],
       "days_listed": 39,
       "cena_m2": 16,
-      "deactivation_uncertain": true
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "nadjidom": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "cc4ff238f33c92ae"
+      ],
+      "fp_nosprat": "cc4ff238f33c92ae"
     },
     "1d7719ba931860c8": {
       "uid": "1d7719ba931860c8",
@@ -17180,13 +17612,16 @@
         "cf728920883d8a0c"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "864ad2785237"
+        "halo": "864ad2785237",
+        "4zida": "4zida:6a688c2e6b796a8e900d4d80"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/penthouse-terasa-70m-pogled-koji-guta-nebo/5425644795712?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/penthouse-terasa-70m-pogled-koji-guta-nebo/5425644795712?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6a688c2e6b796a8e900d4d80"
       ],
       "zgrada": "West 65",
       "struktura": "3.0",
@@ -17194,7 +17629,7 @@
       "m2": 205.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "Penthouse. Terasa 70m². Pogled koji guta nebo.",
+      "naslov": "Trosoban stan za izdavanje, Omladinskih brigada, 3.300€, 205m²",
       "price_first": 3600.0,
       "price_current": 3300.0,
       "price_changes": [
@@ -17205,7 +17640,15 @@
         }
       ],
       "days_listed": 38,
-      "cena_m2": 16
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "cc4ff238f33c92ae"
+      ],
+      "fp_nosprat": "cc4ff238f33c92ae"
     },
     "64ceebef0d197bf7": {
       "uid": "64ceebef0d197bf7",
@@ -17633,7 +18076,15 @@
         }
       ],
       "days_listed": 35,
-      "cena_m2": 24
+      "cena_m2": 24,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "baeacd949868c517"
+      ],
+      "fp_nosprat": "baeacd949868c517"
     },
     "ecb9cace7374032d": {
       "uid": "ecb9cace7374032d",
@@ -17967,15 +18418,18 @@
       ],
       "sources": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "source_ids": {
         "halo": "2fefdf4c92f2",
-        "nadjidom": "nadjidom:2355448"
+        "nadjidom": "nadjidom:2355448",
+        "4zida": "4zida:6ab41b6c4e5a3e2fee07534a"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-68761/5425647587976?kid=4",
-        "https://www.nadjidom.com/sr/details/2355448/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html"
+        "https://www.nadjidom.com/sr/details/2355448/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6ab41b6c4e5a3e2fee07534a"
       ],
       "zgrada": "Wellport",
       "struktura": "4.0",
@@ -17988,7 +18442,16 @@
       "price_current": 2100.0,
       "price_changes": [],
       "days_listed": 33,
-      "cena_m2": 20
+      "cena_m2": 20,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "nadjidom": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "f6ee3bbd4d9d8ef0"
+      ],
+      "fp_nosprat": "f6ee3bbd4d9d8ef0"
     },
     "5d23326a4b02067b": {
       "uid": "5d23326a4b02067b",
@@ -18090,21 +18553,24 @@
     "fe3003690510ccf8": {
       "uid": "fe3003690510ccf8",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-08-30",
-      "is_active": false,
-      "deactivated_at": "2026-09-01",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "72175cc9d80175e7",
       "fp_strict_all": [
         "0418cb103139821f"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "140aeacca33e"
+        "halo": "140aeacca33e",
+        "4zida": "4zida:6a6b86534e0ba996c809b109"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul-64-dizajnerski-3-0-87-m-gm-sa-ev-bazen/5425647448671?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul-64-dizajnerski-3-0-87-m-gm-sa-ev-bazen/5425647448671?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/blok-64-novi-beograd-beograd/trosoban-stan/6a6b86534e0ba996c809b109"
       ],
       "zgrada": "Soul 64",
       "struktura": "3.0",
@@ -18112,12 +18578,20 @@
       "m2": 87.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "SOUL 64 | Dizajnerski 3.0 87 m² + GM sa EV + bazen",
+      "naslov": "Trosoban stan za izdavanje, Omladinskih Brigada, 1.800€, 87m²",
       "price_first": 1800.0,
       "price_current": 1800.0,
       "price_changes": [],
-      "days_listed": 3,
-      "cena_m2": 21
+      "days_listed": 32,
+      "cena_m2": 21,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "5cf526677b1d78f3"
+      ],
+      "fp_nosprat": "5cf526677b1d78f3"
     },
     "575c31b9153b4629": {
       "uid": "575c31b9153b4629",
@@ -18181,7 +18655,10 @@
       "price_current": 1300.0,
       "price_changes": [],
       "days_listed": 32,
-      "cena_m2": 23
+      "cena_m2": 23,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "db76c8e902c37b1f": {
       "uid": "db76c8e902c37b1f",
@@ -18246,7 +18723,10 @@
       "price_current": 1000.0,
       "price_changes": [],
       "days_listed": 32,
-      "cena_m2": 19
+      "cena_m2": 19,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "3785c0381759f630": {
       "uid": "3785c0381759f630",
@@ -18504,7 +18984,10 @@
       "price_current": 2200.0,
       "price_changes": [],
       "days_listed": 30,
-      "cena_m2": 27
+      "cena_m2": 27,
+      "last_seen_src": {
+        "halo": "2026-09-29"
+      }
     },
     "f56cd2a058ee1893": {
       "uid": "f56cd2a058ee1893",
@@ -18606,7 +19089,15 @@
       "price_current": 1000.0,
       "price_changes": [],
       "days_listed": 30,
-      "cena_m2": 17
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "70798649e858e049"
+      ],
+      "fp_nosprat": "70798649e858e049"
     },
     "21c2231b29298d35": {
       "uid": "21c2231b29298d35",
@@ -18733,7 +19224,10 @@
       "price_current": 1350.0,
       "price_changes": [],
       "days_listed": 29,
-      "cena_m2": 19
+      "cena_m2": 19,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "f6331596a8653781": {
       "uid": "f6331596a8653781",
@@ -18990,7 +19484,10 @@
       "price_current": 1100.0,
       "price_changes": [],
       "days_listed": 28,
-      "cena_m2": 20
+      "cena_m2": 20,
+      "last_seen_src": {
+        "halo": "2026-09-29"
+      }
     },
     "213c2e852e0e988b": {
       "uid": "213c2e852e0e988b",
@@ -19154,7 +19651,10 @@
       "price_current": 850.0,
       "price_changes": [],
       "days_listed": 27,
-      "cena_m2": 16
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "744f26bc7894d5ae": {
       "uid": "744f26bc7894d5ae",
@@ -19634,7 +20134,10 @@
       "price_current": 800.0,
       "price_changes": [],
       "days_listed": 25,
-      "cena_m2": 14
+      "cena_m2": 14,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "a894bcd108417c57": {
       "uid": "a894bcd108417c57",
@@ -19668,7 +20171,10 @@
       "price_current": 1300.0,
       "price_changes": [],
       "days_listed": 25,
-      "cena_m2": 16
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "a59c0d1b21f690ed": {
       "uid": "a59c0d1b21f690ed",
@@ -19715,15 +20221,18 @@
       ],
       "sources": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "source_ids": {
         "halo": "98829e414732",
-        "nadjidom": "nadjidom:2347532"
+        "nadjidom": "nadjidom:2347532",
+        "4zida": "4zida:6a9a96e5027106c3980aa86b"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/elixir-garden-4-0-130m2-v-sredjen-i-opremljen/5425647626791?kid=1",
-        "https://www.nadjidom.com/sr/details/2347532/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html"
+        "https://www.nadjidom.com/sr/details/2347532/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6a9a96e5027106c3980aa86b"
       ],
       "zgrada": "Elixir Garden",
       "struktura": "4.0",
@@ -19736,7 +20245,16 @@
       "price_current": 1900.0,
       "price_changes": [],
       "days_listed": 25,
-      "cena_m2": 14
+      "cena_m2": 14,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "nadjidom": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "698a9ff30696f45f"
+      ],
+      "fp_nosprat": "698a9ff30696f45f"
     },
     "986b516d885cc2d1": {
       "uid": "986b516d885cc2d1",
@@ -19841,7 +20359,10 @@
         }
       ],
       "days_listed": 24,
-      "cena_m2": 19
+      "cena_m2": 19,
+      "last_seen_src": {
+        "halo": "2026-09-29"
+      }
     },
     "a47f5eb9801a2997": {
       "uid": "a47f5eb9801a2997",
@@ -19938,7 +20459,10 @@
       "price_current": 1100.0,
       "price_changes": [],
       "days_listed": 24,
-      "cena_m2": 21
+      "cena_m2": 21,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "671ac49c0ecbacf1": {
       "uid": "671ac49c0ecbacf1",
@@ -20005,7 +20529,15 @@
       "price_current": 1250.0,
       "price_changes": [],
       "days_listed": 24,
-      "cena_m2": 18
+      "cena_m2": 18,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "bd755a0cf6bf8a59"
+      ],
+      "fp_nosprat": "bd755a0cf6bf8a59"
     },
     "bc2d4421f2ac9656": {
       "uid": "bc2d4421f2ac9656",
@@ -20167,7 +20699,10 @@
       "price_current": 1050.0,
       "price_changes": [],
       "days_listed": 22,
-      "cena_m2": 20
+      "cena_m2": 20,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "9d21a6b50e42094c": {
       "uid": "9d21a6b50e42094c",
@@ -20274,7 +20809,15 @@
         }
       ],
       "days_listed": 21,
-      "cena_m2": 14
+      "cena_m2": 14,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "0d207d4e06b5f7be"
+      ],
+      "fp_nosprat": "0d207d4e06b5f7be"
     },
     "58f4885b14f7ab01": {
       "uid": "58f4885b14f7ab01",
@@ -20310,21 +20853,24 @@
     "c8eca590c4fa7f16": {
       "uid": "c8eca590c4fa7f16",
       "first_seen": "2026-09-09",
-      "last_seen": "2026-09-15",
-      "is_active": false,
-      "deactivated_at": "2026-09-17",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "04c29522c0611848",
       "fp_strict_all": [
         "c63fd6ba437e7867"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "d8d0cd87a70e"
+        "halo": "d8d0cd87a70e",
+        "4zida": "4zida:689e199abd48ad61e309d815"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65---visina-ukusa-koja-ne-poznaje-kompro/5425645908553?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65---visina-ukusa-koja-ne-poznaje-kompro/5425645908553?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/689e199abd48ad61e309d815"
       ],
       "zgrada": "West 65",
       "struktura": "3.0",
@@ -20332,12 +20878,20 @@
       "m2": 97.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "West 65 - visina ukusa koja ne poznaje kompromis.",
+      "naslov": "Trosoban stan za izdavanje, Omladinskih Brigada, 2.700€, 97m²",
       "price_first": 2700.0,
       "price_current": 2700.0,
       "price_changes": [],
-      "days_listed": 8,
-      "cena_m2": 28
+      "days_listed": 21,
+      "cena_m2": 28,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "d13b44a03f648a27"
+      ],
+      "fp_nosprat": "d13b44a03f648a27"
     },
     "03bcef035951beda": {
       "uid": "03bcef035951beda",
@@ -20442,7 +20996,10 @@
       "price_current": 1000.0,
       "price_changes": [],
       "days_listed": 21,
-      "cena_m2": 17
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "9ac90841492481db": {
       "uid": "9ac90841492481db",
@@ -20536,7 +21093,10 @@
       "price_current": 1300.0,
       "price_changes": [],
       "days_listed": 21,
-      "cena_m2": 17
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "550d8a2ad95b85c3": {
       "uid": "550d8a2ad95b85c3",
@@ -20633,7 +21193,10 @@
       "price_current": 4000.0,
       "price_changes": [],
       "days_listed": 20,
-      "cena_m2": 19
+      "cena_m2": 19,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "d36352326d3531dc": {
       "uid": "d36352326d3531dc",
@@ -20665,7 +21228,10 @@
       "price_current": 1000.0,
       "price_changes": [],
       "days_listed": 20,
-      "cena_m2": 18
+      "cena_m2": 18,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "4f4e8d3fbf96a6ba": {
       "uid": "4f4e8d3fbf96a6ba",
@@ -20697,7 +21263,10 @@
       "price_current": 900.0,
       "price_changes": [],
       "days_listed": 20,
-      "cena_m2": 15
+      "cena_m2": 15,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "2c106904bf02e619": {
       "uid": "2c106904bf02e619",
@@ -20710,13 +21279,16 @@
         "b49b400170e8a6b3"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "e14bcee2c5b9"
+        "halo": "e14bcee2c5b9",
+        "4zida": "4zida:6a8fc7ff9438b409dd049faa"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-tower-2-0-lux-namesten-garaza-id6290/5425647585125?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-tower-2-0-lux-namesten-garaza-id6290/5425647585125?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6a8fc7ff9438b409dd049faa"
       ],
       "zgrada": "West 65 Kula",
       "struktura": "2.0",
@@ -20724,12 +21296,20 @@
       "m2": 61.0,
       "sprat": null,
       "agencija": "squarebgnekretnine2022",
-      "naslov": "West Tower, 2.0 lux namešten, garaža ID#6290",
+      "naslov": "Dvosoban stan za izdavanje, Omladinskih brigada, 1.500€, 61m²",
       "price_first": 1500.0,
       "price_current": 1500.0,
       "price_changes": [],
       "days_listed": 20,
-      "cena_m2": 25
+      "cena_m2": 25,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "18c58d7ca1326e3a"
+      ],
+      "fp_nosprat": "18c58d7ca1326e3a"
     },
     "9858e1d0f48297a9": {
       "uid": "9858e1d0f48297a9",
@@ -20765,7 +21345,15 @@
       "price_current": 3600.0,
       "price_changes": [],
       "days_listed": 20,
-      "cena_m2": 24
+      "cena_m2": 24,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "507cf8853612fed5"
+      ],
+      "fp_nosprat": "507cf8853612fed5"
     },
     "a68d83d19521a63b": {
       "uid": "a68d83d19521a63b",
@@ -21215,7 +21803,10 @@
       "price_current": 1050.0,
       "price_changes": [],
       "days_listed": 15,
-      "cena_m2": 27
+      "cena_m2": 27,
+      "last_seen_src": {
+        "halo": "2026-09-29"
+      }
     },
     "394ad4837bd53905": {
       "uid": "394ad4837bd53905",
@@ -21279,7 +21870,10 @@
       "price_current": 950.0,
       "price_changes": [],
       "days_listed": 15,
-      "cena_m2": 17
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "bd953045f5eb3db7": {
       "uid": "bd953045f5eb3db7",
@@ -21375,7 +21969,10 @@
       "price_current": 750.0,
       "price_changes": [],
       "days_listed": 15,
-      "cena_m2": 24
+      "cena_m2": 24,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "1533242886433114": {
       "uid": "1533242886433114",
@@ -21439,7 +22036,10 @@
       "price_current": 1500.0,
       "price_changes": [],
       "days_listed": 14,
-      "cena_m2": 27
+      "cena_m2": 27,
+      "last_seen_src": {
+        "halo": "2026-09-29"
+      }
     },
     "a536ff8a6b997fd3": {
       "uid": "a536ff8a6b997fd3",
@@ -21764,7 +22364,10 @@
       "price_current": 850.0,
       "price_changes": [],
       "days_listed": 12,
-      "cena_m2": 16
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "c7f1256a9437cd60": {
       "uid": "c7f1256a9437cd60",
@@ -21800,7 +22403,10 @@
       "price_current": 1100.0,
       "price_changes": [],
       "days_listed": 12,
-      "cena_m2": 22
+      "cena_m2": 22,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "5996bc787210fe45": {
       "uid": "5996bc787210fe45",
@@ -21832,7 +22438,10 @@
       "price_current": 1300.0,
       "price_changes": [],
       "days_listed": 12,
-      "cena_m2": 13
+      "cena_m2": 13,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "37b39143e341757e": {
       "uid": "37b39143e341757e",
@@ -21864,7 +22473,10 @@
       "price_current": 3000.0,
       "price_changes": [],
       "days_listed": 12,
-      "cena_m2": 22
+      "cena_m2": 22,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "ed2a78e6195afe00": {
       "uid": "ed2a78e6195afe00",
@@ -21928,7 +22540,10 @@
       "price_current": 2600.0,
       "price_changes": [],
       "days_listed": 12,
-      "cena_m2": 16
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-09-29"
+      }
     },
     "10c85d38a9e0466e": {
       "uid": "10c85d38a9e0466e",
@@ -22029,34 +22644,50 @@
     "dafc5f669061b35e": {
       "uid": "dafc5f669061b35e",
       "first_seen": "2026-09-19",
-      "last_seen": "2026-09-29",
+      "last_seen": "2026-09-30",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e6b3f456cb1f2a82",
       "fp_strict_all": [
-        "e4d7916081b9c240"
+        "e4d7916081b9c240",
+        "03fc9b18bd833d70"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "9de968f810c8"
+        "halo": "9de968f810c8",
+        "4zida": "4zida:6abcee7d6fc30198a404ffa0",
+        "nadjidom": "nadjidom:2358026"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-4-0---105m2/5425647698225?kid=3"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-4-0---105m2/5425647698225?kid=3",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6abcee7d6fc30198a404ffa0",
+        "https://www.nadjidom.com/sr/details/2358026/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html"
       ],
       "zgrada": "Wellport",
       "struktura": "4.0",
       "str_label": null,
-      "m2": 105.43,
-      "sprat": null,
-      "agencija": null,
-      "naslov": "Wellport 4.0 - 105m2",
+      "m2": 105.0,
+      "sprat": "2",
+      "agencija": "EUROPOLIS NEKRETNINE ",
+      "naslov": "Luksuzan 4.0 stan u Wellportu ID#10412",
       "price_first": 1650.0,
       "price_current": 1650.0,
       "price_changes": [],
       "days_listed": 11,
-      "cena_m2": 16
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30",
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "37552b49636f8d1c"
+      ],
+      "fp_nosprat": "37552b49636f8d1c"
     },
     "ecf073ac640f1d01": {
       "uid": "ecf073ac640f1d01",
@@ -22185,7 +22816,10 @@
       "price_current": 800.0,
       "price_changes": [],
       "days_listed": 11,
-      "cena_m2": 22
+      "cena_m2": 22,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "c92df85fb1f4defa": {
       "uid": "c92df85fb1f4defa",
@@ -22280,7 +22914,10 @@
       "price_current": 900.0,
       "price_changes": [],
       "days_listed": 9,
-      "cena_m2": 29
+      "cena_m2": 29,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "ac3a45c8087bb634": {
       "uid": "ac3a45c8087bb634",
@@ -22312,7 +22949,10 @@
       "price_current": 800.0,
       "price_changes": [],
       "days_listed": 8,
-      "cena_m2": 14
+      "cena_m2": 14,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "6a7c0b01528a1ee4": {
       "uid": "6a7c0b01528a1ee4",
@@ -22349,21 +22989,24 @@
     "19abcc35f775d380": {
       "uid": "19abcc35f775d380",
       "first_seen": "2026-09-22",
-      "last_seen": "2026-09-27",
-      "is_active": false,
-      "deactivated_at": "2026-09-29",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "0c6ac36ead38aa52",
       "fp_strict_all": [
         "266dcfe173683eba"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "9ee4f8fe71d3"
+        "halo": "9ee4f8fe71d3",
+        "4zida": "4zida:6ab38966d37d3a4db30694f0"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---soul-64-69071/5425647709082?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---soul-64-69071/5425647709082?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/blok-64-novi-beograd-beograd/dvosoban-stan/6ab38966d37d3a4db30694f0"
       ],
       "zgrada": "Soul 64",
       "struktura": "2.0",
@@ -22371,12 +23014,20 @@
       "m2": 55.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - Soul 64 #69071",
+      "naslov": "Dvosoban stan za izdavanje, Omladinskih brigada, 1.200€, 55m²",
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 7,
-      "cena_m2": 22
+      "days_listed": 8,
+      "cena_m2": 22,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "6ed4f1615ccd7ae4"
+      ],
+      "fp_nosprat": "6ed4f1615ccd7ae4"
     },
     "c076ed3867349e12": {
       "uid": "c076ed3867349e12",
@@ -22409,7 +23060,10 @@
       "price_current": 900.0,
       "price_changes": [],
       "days_listed": 8,
-      "cena_m2": 17
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "47c49e4625802406": {
       "uid": "47c49e4625802406",
@@ -22510,7 +23164,16 @@
       "price_current": 900.0,
       "price_changes": [],
       "days_listed": 8,
-      "cena_m2": 16
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30",
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "49b9ec9ce5b15a0f"
+      ],
+      "fp_nosprat": "49b9ec9ce5b15a0f"
     },
     "6ef349761f56d0cb": {
       "uid": "6ef349761f56d0cb",
@@ -22542,7 +23205,10 @@
       "price_current": 1400.0,
       "price_changes": [],
       "days_listed": 8,
-      "cena_m2": 23
+      "cena_m2": 23,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "54b33e27d51fd32d": {
       "uid": "54b33e27d51fd32d",
@@ -22574,7 +23240,10 @@
       "price_current": 1250.0,
       "price_changes": [],
       "days_listed": 8,
-      "cena_m2": 18
+      "cena_m2": 18,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "eb06a2fc6842f334": {
       "uid": "eb06a2fc6842f334",
@@ -22606,7 +23275,10 @@
       "price_current": 680.0,
       "price_changes": [],
       "days_listed": 8,
-      "cena_m2": 17
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "da179139174ca606": {
       "uid": "da179139174ca606",
@@ -22638,7 +23310,10 @@
       "price_current": 1650.0,
       "price_changes": [],
       "days_listed": 7,
-      "cena_m2": 16
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-09-29"
+      }
     },
     "79c484bc2e6eb406": {
       "uid": "79c484bc2e6eb406",
@@ -22651,13 +23326,16 @@
         "a1b434be21e58eb3"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "0ad0aa221f90"
+        "halo": "0ad0aa221f90",
+        "4zida": "4zida:6ab1634b83d1fec40c094969"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-nov-neuseljavan-komforan-id-26067/5425647715097?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-nov-neuseljavan-komforan-id-26067/5425647715097?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6ab1634b83d1fec40c094969"
       ],
       "zgrada": "Wellport",
       "struktura": "4.0",
@@ -22665,12 +23343,20 @@
       "m2": 105.0,
       "sprat": null,
       "agencija": "eminent-nekretnine",
-      "naslov": "Wellport, nov, neuseljavan, komforan, ID 26067",
+      "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera, 2.100€, 105m²",
       "price_first": 2100.0,
       "price_current": 2100.0,
       "price_changes": [],
       "days_listed": 7,
-      "cena_m2": 20
+      "cena_m2": 20,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "37552b49636f8d1c"
+      ],
+      "fp_nosprat": "37552b49636f8d1c"
     },
     "12cdf768ddc46d89": {
       "uid": "12cdf768ddc46d89",
@@ -22734,7 +23420,10 @@
       "price_current": 1350.0,
       "price_changes": [],
       "days_listed": 7,
-      "cena_m2": 18
+      "cena_m2": 18,
+      "last_seen_src": {
+        "halo": "2026-09-29"
+      }
     },
     "7c5042b69324b1e3": {
       "uid": "7c5042b69324b1e3",
@@ -22829,7 +23518,10 @@
       "price_current": 950.0,
       "price_changes": [],
       "days_listed": 6,
-      "cena_m2": 21
+      "cena_m2": 21,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "bc2e8c6e3ca04beb": {
       "uid": "bc2e8c6e3ca04beb",
@@ -22861,7 +23553,10 @@
       "price_current": 2100.0,
       "price_changes": [],
       "days_listed": 6,
-      "cena_m2": 20
+      "cena_m2": 20,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "c176cefd17dcdfa0": {
       "uid": "c176cefd17dcdfa0",
@@ -22874,14 +23569,17 @@
         "41b04c7285b63e26"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "2e4c051e27ad"
+        "halo": "2e4c051e27ad",
+        "4zida": "4zida:6ab3b391c640ec1d150d37dc"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-kompletno-namesten-odmah-uselj/5425647719316?kid=1",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-kompletno-namesten-odmah-uselj/5425647719316?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-kompletno-namesten-odmah-uselj/5425647719316?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6ab3b391c640ec1d150d37dc"
       ],
       "zgrada": "Airport Garden",
       "struktura": "3.0",
@@ -22889,12 +23587,20 @@
       "m2": 73.0,
       "sprat": null,
       "agencija": "PropertyBroker",
-      "naslov": "Airport Garden, kompletno namešten, odmah useljiv ",
+      "naslov": "Trosoban stan za izdavanje, Đorđa Stanojevića, 1.700€, 73m²",
       "price_first": 1700.0,
       "price_current": 1700.0,
       "price_changes": [],
       "days_listed": 6,
-      "cena_m2": 23
+      "cena_m2": 23,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "c7859d5175c51b9e"
+      ],
+      "fp_nosprat": "c7859d5175c51b9e"
     },
     "a62d15518d46abba": {
       "uid": "a62d15518d46abba",
@@ -22926,7 +23632,10 @@
       "price_current": 1800.0,
       "price_changes": [],
       "days_listed": 6,
-      "cena_m2": 19
+      "cena_m2": 19,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "b4e70c64e2290481": {
       "uid": "b4e70c64e2290481",
@@ -22958,7 +23667,10 @@
       "price_current": 850.0,
       "price_changes": [],
       "days_listed": 6,
-      "cena_m2": 15
+      "cena_m2": 15,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "bff26b2b53666d0c": {
       "uid": "bff26b2b53666d0c",
@@ -22990,7 +23702,10 @@
       "price_current": 680.0,
       "price_changes": [],
       "days_listed": 6,
-      "cena_m2": 15
+      "cena_m2": 15,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "9d2df7690e3947aa": {
       "uid": "9d2df7690e3947aa",
@@ -23029,26 +23744,32 @@
         }
       ],
       "days_listed": 5,
-      "cena_m2": 18
+      "cena_m2": 18,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "8a7eb204dff891fc": {
       "uid": "8a7eb204dff891fc",
       "first_seen": "2026-09-25",
-      "last_seen": "2026-09-25",
-      "is_active": false,
-      "deactivated_at": "2026-09-27",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "a5c0ba1031e6ac58",
       "fp_strict_all": [
         "bc93204d7f62fc88"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "6bc422105c2a"
+        "halo": "6bc422105c2a",
+        "4zida": "4zida:6ab55792bdde76bb110d92ce"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-lux-komforan-garaza-id-21719/5425644114135?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-lux-komforan-garaza-id-21719/5425644114135?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/petosoban-stan/6ab55792bdde76bb110d92ce"
       ],
       "zgrada": "Wellport",
       "struktura": "5.0",
@@ -23056,30 +23777,42 @@
       "m2": 160.0,
       "sprat": null,
       "agencija": "eminent-nekretnine",
-      "naslov": "Wellport, lux, komforan, garaža, ID 21719",
+      "naslov": "Petosoban stan za izdavanje, Tadije Sondermajera, 2.650€, 160m²",
       "price_first": 2650.0,
       "price_current": 2650.0,
       "price_changes": [],
-      "days_listed": 2
+      "days_listed": 5,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "d30ef1848c327fce"
+      ],
+      "fp_nosprat": "d30ef1848c327fce",
+      "cena_m2": 17
     },
     "7408c70bfff9e5f3": {
       "uid": "7408c70bfff9e5f3",
       "first_seen": "2026-09-25",
-      "last_seen": "2026-09-28",
-      "is_active": false,
-      "deactivated_at": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "e6b3f456cb1f2a82",
       "fp_strict_all": [
         "a1b434be21e58eb3"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "defe7db78ff5"
+        "halo": "defe7db78ff5",
+        "4zida": "4zida:6a96debece305ef8bf0592c7"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-kula-69124/5425647724731?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-kula-69124/5425647724731?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6a96debece305ef8bf0592c7"
       ],
       "zgrada": "Wellport",
       "struktura": "4.0",
@@ -23087,12 +23820,20 @@
       "m2": 105.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - Wellport kula #69124",
+      "naslov": "Četvorosoban stan za izdavanje, WELLPORT, 2.100€, 105m²",
       "price_first": 2100.0,
       "price_current": 2100.0,
       "price_changes": [],
       "days_listed": 5,
-      "cena_m2": 20
+      "cena_m2": 20,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "37552b49636f8d1c"
+      ],
+      "fp_nosprat": "37552b49636f8d1c"
     },
     "16c66ce7a6bcc29a": {
       "uid": "16c66ce7a6bcc29a",
@@ -23124,7 +23865,10 @@
       "price_current": 3000.0,
       "price_changes": [],
       "days_listed": 5,
-      "cena_m2": 30
+      "cena_m2": 30,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "dad715eb1abd8910": {
       "uid": "dad715eb1abd8910",
@@ -23156,7 +23900,10 @@
       "price_current": 800.0,
       "price_changes": [],
       "days_listed": 4,
-      "cena_m2": 13
+      "cena_m2": 13,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "7c59c45618913c97": {
       "uid": "7c59c45618913c97",
@@ -23169,13 +23916,16 @@
         "bc93204d7f62fc88"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "09aa7e9887f1"
+        "halo": "09aa7e9887f1",
+        "4zida": "4zida:6ab6404941e7970627004546"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-kula-petosoban-stan-2-garazna-mesta/5425647731014?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-kula-petosoban-stan-2-garazna-mesta/5425647731014?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/petosoban-stan/6ab6404941e7970627004546"
       ],
       "zgrada": "Wellport",
       "struktura": "5.0",
@@ -23183,12 +23933,20 @@
       "m2": 160.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Wellport Kula-Petosoban stan,2 garazna mesta",
+      "naslov": "Petosoban stan za izdavanje, Tadije Sondermajera Wellport Kula, 2.650€, 160m²",
       "price_first": 2650.0,
       "price_current": 2650.0,
       "price_changes": [],
       "days_listed": 4,
-      "cena_m2": 17
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "d30ef1848c327fce"
+      ],
+      "fp_nosprat": "d30ef1848c327fce"
     },
     "bda7128bb9006275": {
       "uid": "bda7128bb9006275",
@@ -23255,7 +24013,15 @@
       "price_current": 2800.0,
       "price_changes": [],
       "days_listed": 3,
-      "cena_m2": 16
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "14d368305ae371a2"
+      ],
+      "fp_nosprat": "14d368305ae371a2"
     },
     "253a039a0648cd3e": {
       "uid": "253a039a0648cd3e",
@@ -23287,7 +24053,10 @@
       "price_current": 800.0,
       "price_changes": [],
       "days_listed": 2,
-      "cena_m2": 17
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-09-29"
+      }
     },
     "48ec853bab158223": {
       "uid": "48ec853bab158223",
@@ -23319,7 +24088,10 @@
       "price_current": 950.0,
       "price_changes": [],
       "days_listed": 2,
-      "cena_m2": 19
+      "cena_m2": 19,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "1d155303b4880dad": {
       "uid": "1d155303b4880dad",
@@ -23351,7 +24123,10 @@
       "price_current": 1300.0,
       "price_changes": [],
       "days_listed": 1,
-      "cena_m2": 24
+      "cena_m2": 24,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "7aa5ad96b0b9e28e": {
       "uid": "7aa5ad96b0b9e28e",
@@ -23383,7 +24158,10 @@
       "price_current": 1200.0,
       "price_changes": [],
       "days_listed": 1,
-      "cena_m2": 22
+      "cena_m2": 22,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "4005daabbe5a2c0f": {
       "uid": "4005daabbe5a2c0f",
@@ -23415,7 +24193,10 @@
       "price_current": 800.0,
       "price_changes": [],
       "days_listed": 1,
-      "cena_m2": 17
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "27fa86731d9b41de": {
       "uid": "27fa86731d9b41de",
@@ -23447,7 +24228,10 @@
       "price_current": 1600.0,
       "price_changes": [],
       "days_listed": 1,
-      "cena_m2": 18
+      "cena_m2": 18,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "5f82145e89e21d24": {
       "uid": "5f82145e89e21d24",
@@ -23478,7 +24262,10 @@
       "price_first": 2100.0,
       "price_current": 2100.0,
       "price_changes": [],
-      "days_listed": 1
+      "days_listed": 1,
+      "last_seen_src": {
+        "halo": "2026-09-29"
+      }
     },
     "1bf4c261d9b1cd24": {
       "uid": "1bf4c261d9b1cd24",
@@ -23491,13 +24278,16 @@
         "9c23368d6dcc9965"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "486b19ca4ff9"
+        "halo": "486b19ca4ff9",
+        "4zida": "4zida:6aba885042048236950a41a4"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-izdavanje-nov-lux-2-0-namesten/5425647744797?kid=3"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-izdavanje-nov-lux-2-0-namesten/5425647744797?kid=3",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6aba885042048236950a41a4"
       ],
       "zgrada": "Wellport",
       "struktura": "2.0",
@@ -23505,12 +24295,20 @@
       "m2": 50.0,
       "sprat": null,
       "agencija": "city-hedonia-agencija-za-nekretnine",
-      "naslov": "Wellport, izdavanje, nov, lux, 2.0, namešten",
+      "naslov": "Dvosoban stan za izdavanje, Tadije Sondermajera, 900€, 50m²",
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
       "days_listed": 1,
-      "cena_m2": 18
+      "cena_m2": 18,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "d74648e35bce5c33"
+      ],
+      "fp_nosprat": "d74648e35bce5c33"
     },
     "bf89ed5cfab20a45": {
       "uid": "bf89ed5cfab20a45",
@@ -23541,7 +24339,10 @@
       "price_first": 750.0,
       "price_current": 750.0,
       "price_changes": [],
-      "days_listed": 1
+      "days_listed": 1,
+      "last_seen_src": {
+        "halo": "2026-09-29"
+      }
     },
     "7695be8b1151f3e2": {
       "uid": "7695be8b1151f3e2",
@@ -23573,7 +24374,10 @@
       "price_current": 1200.0,
       "price_changes": [],
       "days_listed": 1,
-      "cena_m2": 21
+      "cena_m2": 21,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "afad16a76053e8fd": {
       "uid": "afad16a76053e8fd",
@@ -23605,7 +24409,10 @@
       "price_current": 1200.0,
       "price_changes": [],
       "days_listed": 1,
-      "cena_m2": 20
+      "cena_m2": 20,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "aa44d55f27c4724b": {
       "uid": "aa44d55f27c4724b",
@@ -23636,7 +24443,10 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "69f1ffcfc39aaec2": {
       "uid": "69f1ffcfc39aaec2",
@@ -23667,7 +24477,10 @@
       "price_first": 2600.0,
       "price_current": 2600.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "4ba16920e1ac9170": {
       "uid": "4ba16920e1ac9170",
@@ -23698,7 +24511,10 @@
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "28e7c058875bd1cb": {
       "uid": "28e7c058875bd1cb",
@@ -23729,7 +24545,10 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "3cf0c0b491fe9fb3": {
       "uid": "3cf0c0b491fe9fb3",
@@ -23739,28 +24558,41 @@
       "deactivated_at": null,
       "fp_loose": "e6b3f456cb1f2a82",
       "fp_strict_all": [
-        "e4d7916081b9c240"
+        "e4d7916081b9c240",
+        "03fc9b18bd833d70"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "2ec427812d7e"
+        "halo": "2ec427812d7e",
+        "4zida": "4zida:6ab3df379a85163890006ac2"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nbg-wellport-tadije-sondermajera-105m2-4-0-46/5425647747284"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nbg-wellport-tadije-sondermajera-105m2-4-0-46/5425647747284",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6ab3df379a85163890006ac2"
       ],
       "zgrada": "Wellport",
       "struktura": "4.0",
       "str_label": null,
-      "m2": 105.4,
+      "m2": 105.0,
       "sprat": null,
       "agencija": "Rajicnekretnine",
-      "naslov": "NBG,Wellport,Tadije Sondermajera,105m2,4.0 #4623",
+      "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera, 1.650€, 105m²",
       "price_first": 1650.0,
       "price_current": 1650.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "37552b49636f8d1c"
+      ],
+      "fp_nosprat": "37552b49636f8d1c",
+      "cena_m2": 16
     },
     "533804f6a2b59765": {
       "uid": "533804f6a2b59765",
@@ -23791,7 +24623,10 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "ae55e968df22b226": {
       "uid": "ae55e968df22b226",
@@ -23805,15 +24640,18 @@
       ],
       "sources": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "source_ids": {
         "halo": "57c10018fc9b",
-        "nadjidom": "nadjidom:2357516"
+        "nadjidom": "nadjidom:2357516",
+        "4zida": "4zida:6abcec376fc30198a404ff2c"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---belville-69211/5425647754229?kid=1",
-        "https://www.nadjidom.com/sr/details/2357516/Beograd-Novi+Beograd-Blok+67+-+Belville-Izdavanje-Stan.html"
+        "https://www.nadjidom.com/sr/details/2357516/Beograd-Novi+Beograd-Blok+67+-+Belville-Izdavanje-Stan.html",
+        "https://www.4zida.rs/izdavanje-stanova/blok-67-belville-novi-beograd-beograd/dvosoban-stan/6abcec376fc30198a404ff2c"
       ],
       "zgrada": "Belvil",
       "struktura": "2.0",
@@ -23826,7 +24664,16 @@
       "price_current": 1200.0,
       "price_changes": [],
       "days_listed": 0,
-      "cena_m2": 17
+      "cena_m2": 17,
+      "last_seen_src": {
+        "halo": "2026-09-30",
+        "nadjidom": "2026-09-30",
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "b92ab16b612bc3a0"
+      ],
+      "fp_nosprat": "b92ab16b612bc3a0"
     },
     "692522e620bd2a71": {
       "uid": "692522e620bd2a71",
@@ -23857,7 +24704,10 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "79f08b072098cba9": {
       "uid": "79f08b072098cba9",
@@ -23888,7 +24738,10 @@
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "halo": "2026-09-30"
+      }
     },
     "b16a4c209db47350": {
       "uid": "b16a4c209db47350",
@@ -23920,7 +24773,14 @@
       "price_current": 1200,
       "price_changes": [],
       "days_listed": 0,
-      "cena_m2": 22
+      "cena_m2": 22,
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "baeacd949868c517"
+      ],
+      "fp_nosprat": "baeacd949868c517"
     },
     "861ec665b2cd50a9": {
       "uid": "861ec665b2cd50a9",
@@ -23930,7 +24790,8 @@
       "deactivated_at": null,
       "fp_loose": "a94207d74116b149",
       "fp_strict_all": [
-        "034cba86800b3b6c"
+        "034cba86800b3b6c",
+        "c57c085ba51993d6"
       ],
       "sources": [
         "4zida"
@@ -23951,7 +24812,15 @@
       "price_first": 1900,
       "price_current": 1900,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "9256512428ef195e"
+      ],
+      "fp_nosprat": "9256512428ef195e",
+      "cena_m2": 17
     },
     "91b1239be1ff63df": {
       "uid": "91b1239be1ff63df",
@@ -23982,7 +24851,15 @@
       "price_first": 1700,
       "price_current": 1700,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "7e8c1de595e12cd9"
+      ],
+      "fp_nosprat": "7e8c1de595e12cd9",
+      "cena_m2": 15
     },
     "bb7ff29dfc0864d8": {
       "uid": "bb7ff29dfc0864d8",
@@ -24013,7 +24890,10 @@
       "price_first": 1000,
       "price_current": 1000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      }
     },
     "8a48ffe66af54c78": {
       "uid": "8a48ffe66af54c78",
@@ -24044,7 +24924,10 @@
       "price_first": 2500,
       "price_current": 2500,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      }
     },
     "4a098b0e2a12aaa6": {
       "uid": "4a098b0e2a12aaa6",
@@ -24075,7 +24958,15 @@
       "price_first": 1250,
       "price_current": 1250,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "c9ad7618349a1c9e"
+      ],
+      "fp_nosprat": "c9ad7618349a1c9e",
+      "cena_m2": 18
     },
     "e7ee4243fda5f2ce": {
       "uid": "e7ee4243fda5f2ce",
@@ -24106,7 +24997,10 @@
       "price_first": 1280,
       "price_current": 1280,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      }
     },
     "81ce65428ed21a38": {
       "uid": "81ce65428ed21a38",
@@ -24116,7 +25010,8 @@
       "deactivated_at": null,
       "fp_loose": "3d7914bb458c8a34",
       "fp_strict_all": [
-        "d4827d8768661c08"
+        "d4827d8768661c08",
+        "8894f8feecc10959"
       ],
       "sources": [
         "4zida"
@@ -24137,7 +25032,15 @@
       "price_first": 1000,
       "price_current": 1000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "584c2a69bec494db"
+      ],
+      "fp_nosprat": "584c2a69bec494db",
+      "cena_m2": 17
     },
     "0ab0cbc5060843c5": {
       "uid": "0ab0cbc5060843c5",
@@ -24168,7 +25071,10 @@
       "price_first": 3500,
       "price_current": 3500,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      }
     },
     "d204de3bf8b8f9e8": {
       "uid": "d204de3bf8b8f9e8",
@@ -24199,7 +25105,15 @@
       "price_first": 680,
       "price_current": 680,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "21faa4da34752079"
+      ],
+      "fp_nosprat": "21faa4da34752079",
+      "cena_m2": 17
     },
     "f3068c8f57256b40": {
       "uid": "f3068c8f57256b40",
@@ -24230,7 +25144,15 @@
       "price_first": 1100,
       "price_current": 1100,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "e02cfe207d4f4e97"
+      ],
+      "fp_nosprat": "e02cfe207d4f4e97",
+      "cena_m2": 14
     },
     "cbf2c3c1ba91cffa": {
       "uid": "cbf2c3c1ba91cffa",
@@ -24261,7 +25183,15 @@
       "price_first": 800,
       "price_current": 800,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "394f7e13adb9bf15"
+      ],
+      "fp_nosprat": "394f7e13adb9bf15",
+      "cena_m2": 22
     },
     "ad5b2ad1ab0474ba": {
       "uid": "ad5b2ad1ab0474ba",
@@ -24292,7 +25222,15 @@
       "price_first": 2400,
       "price_current": 2400,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "3e617f19497c65c5"
+      ],
+      "fp_nosprat": "3e617f19497c65c5",
+      "cena_m2": 21
     },
     "fb5baa1207edc3a5": {
       "uid": "fb5baa1207edc3a5",
@@ -24323,7 +25261,15 @@
       "price_first": 1000,
       "price_current": 1000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "c6a9497b193cefa1"
+      ],
+      "fp_nosprat": "c6a9497b193cefa1",
+      "cena_m2": 18
     },
     "31e7d466d29f909c": {
       "uid": "31e7d466d29f909c",
@@ -24354,7 +25300,15 @@
       "price_first": 2000,
       "price_current": 2000,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "last_seen_src": {
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "162af985d78c9485"
+      ],
+      "fp_nosprat": "162af985d78c9485",
+      "cena_m2": 33
     },
     "95674d42abb6f579": {
       "uid": "95674d42abb6f579",
@@ -24385,8 +25339,1127 @@
       "price_first": 780,
       "price_current": 780,
       "price_changes": [],
+      "days_listed": 0,
+      "last_seen_src": {
+        "nadjidom": "2026-09-30"
+      },
+      "fp_nosprat_all": [
+        "81ffd353010bb71a"
+      ],
+      "fp_nosprat": "81ffd353010bb71a",
+      "cena_m2": 21
+    },
+    "25c476644712f120": {
+      "uid": "25c476644712f120",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "b1218b2d9059fee6",
+      "fp_loose_all": [
+        "b1218b2d9059fee6"
+      ],
+      "fp_nosprat": "33129f925360b7fe",
+      "fp_nosprat_all": [
+        "33129f925360b7fe"
+      ],
+      "fp_strict_all": [
+        "ac7ba9e504da87e3"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6ab1397af8c3a7de800a4482"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6ab1397af8c3a7de800a4482"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 104.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera, 2.100€, 104m²",
+      "price_first": 2100,
+      "price_current": 2100,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "8453bdd94334d953": {
+      "uid": "8453bdd94334d953",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "44b51dde19dd64e2",
+      "fp_loose_all": [
+        "44b51dde19dd64e2"
+      ],
+      "fp_nosprat": "c69b24930ae90fb3",
+      "fp_nosprat_all": [
+        "c69b24930ae90fb3"
+      ],
+      "fp_strict_all": [
+        "3170fe4395d6af3c"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6a96ac20b1b9100b880e5d53"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/bezanijska-kosa-1-novi-beograd-beograd/cetvorosoban-stan/6a96ac20b1b9100b880e5d53"
+      ],
+      "zgrada": "Lux 51",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 115.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Partizanske avijacije, 1.500€, 115m²",
+      "price_first": 1500,
+      "price_current": 1500,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "e67a3cda6ab2ea50": {
+      "uid": "e67a3cda6ab2ea50",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "00f3a3f2cdeaa001",
+      "fp_loose_all": [
+        "00f3a3f2cdeaa001"
+      ],
+      "fp_nosprat": "f6ee3bbd4d9d8ef0",
+      "fp_nosprat_all": [
+        "f6ee3bbd4d9d8ef0"
+      ],
+      "fp_strict_all": [
+        "9fc7abb41d47bc5d"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6abd0cf312a65e369000848a"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6abd0cf312a65e369000848a"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 106.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera, 1.650€, 106m²",
+      "price_first": 1650,
+      "price_current": 1650,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "8fe95d3f24a8327a": {
+      "uid": "8fe95d3f24a8327a",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "b57e42f12041efa0",
+      "fp_loose_all": [
+        "b57e42f12041efa0"
+      ],
+      "fp_nosprat": "b92ab16b612bc3a0",
+      "fp_nosprat_all": [
+        "b92ab16b612bc3a0"
+      ],
+      "fp_strict_all": [
+        "a56fcce11ab95e12"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6abbd59bcddf2f31ff0d0202"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-67-belville-novi-beograd-beograd/dvosoban-stan/6abbd59bcddf2f31ff0d0202"
+      ],
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 69.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Dvosoban stan za izdavanje, Jurija Gagarina, 1.200€, 69m²",
+      "price_first": 1200,
+      "price_current": 1200,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "2b12d09b164f1f20": {
+      "uid": "2b12d09b164f1f20",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "176f56a4a5781345",
+      "fp_loose_all": [
+        "176f56a4a5781345"
+      ],
+      "fp_nosprat": "8dacc1ba9a94f842",
+      "fp_nosprat_all": [
+        "8dacc1ba9a94f842"
+      ],
+      "fp_strict_all": [
+        "47a83abb9ad4c587"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:69a5b49bb39ffbde4e0637d6"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/69a5b49bb39ffbde4e0637d6"
+      ],
+      "zgrada": "Elixir Garden",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 100.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Bulevar Heroja Sa Košara, 1.700€, 100m²",
+      "price_first": 1700,
+      "price_current": 1700,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "a1fa83e43ff188cf": {
+      "uid": "a1fa83e43ff188cf",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "00f3a3f2cdeaa001",
+      "fp_loose_all": [
+        "00f3a3f2cdeaa001"
+      ],
+      "fp_nosprat": "f6ee3bbd4d9d8ef0",
+      "fp_nosprat_all": [
+        "f6ee3bbd4d9d8ef0"
+      ],
+      "fp_strict_all": [
+        "9fc7abb41d47bc5d"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6aba2f0df663f78617006a04"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6aba2f0df663f78617006a04"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 106.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera, 1.650€, 106m²",
+      "price_first": 1650,
+      "price_current": 1650,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "6c0f3502877780fc": {
+      "uid": "6c0f3502877780fc",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "ad7b6c2074c454f2",
+      "fp_loose_all": [
+        "ad7b6c2074c454f2"
+      ],
+      "fp_nosprat": "d175fc31b70d3763",
+      "fp_nosprat_all": [
+        "d175fc31b70d3763"
+      ],
+      "fp_strict_all": [
+        "a87ca7ed1df30bd0"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:63ee63d372f034908f00f16b"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-9a-novi-beograd-beograd/trosoban-stan/63ee63d372f034908f00f16b"
+      ],
+      "zgrada": "Kennedy Residence",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 87.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Trosoban stan za izdavanje, Džona Kenedija, 1.500€, 87m²",
+      "price_first": 1500,
+      "price_current": 1500,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "c38d5e98ab85f994": {
+      "uid": "c38d5e98ab85f994",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "104539f6f92e97fd",
+      "fp_loose_all": [
+        "104539f6f92e97fd"
+      ],
+      "fp_nosprat": "29c6b952a1e92ec5",
+      "fp_nosprat_all": [
+        "29c6b952a1e92ec5"
+      ],
+      "fp_strict_all": [
+        "b3ce08cd1427ba0e"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:66dacb358c9b7b735707c7f8"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/troiposoban-stan/66dacb358c9b7b735707c7f8"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "3.5",
+      "str_label": "Troiposoban",
+      "m2": 105.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Troiposoban stan za izdavanje, Tadije Sondermajera, 2.000€, 105m²",
+      "price_first": 2000,
+      "price_current": 2000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "2bbe651a6ca0077e": {
+      "uid": "2bbe651a6ca0077e",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "805e82c5f64e59ca",
+      "fp_loose_all": [
+        "805e82c5f64e59ca"
+      ],
+      "fp_nosprat": "b7525a77900d718c",
+      "fp_nosprat_all": [
+        "b7525a77900d718c"
+      ],
+      "fp_strict_all": [
+        "fe5e562ac02e1f45"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6ab64f07840a50090e03c58d"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6ab64f07840a50090e03c58d"
+      ],
+      "zgrada": "Airport Garden",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 136.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Djordja stanjevica 39, 3.000€, 136m²",
+      "price_first": 3000,
+      "price_current": 3000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "dcb972bfffc212cd": {
+      "uid": "dcb972bfffc212cd",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "00f3a3f2cdeaa001",
+      "fp_loose_all": [
+        "00f3a3f2cdeaa001"
+      ],
+      "fp_nosprat": "f6ee3bbd4d9d8ef0",
+      "fp_nosprat_all": [
+        "f6ee3bbd4d9d8ef0"
+      ],
+      "fp_strict_all": [
+        "9fc7abb41d47bc5d"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6ab635452fc5dbe18809111a"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6ab635452fc5dbe18809111a"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 106.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera, 1.650€, 106m²",
+      "price_first": 1650,
+      "price_current": 1650,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "63232cc321384ee7": {
+      "uid": "63232cc321384ee7",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "ba7b514dd77baa56",
+      "fp_loose_all": [
+        "ba7b514dd77baa56"
+      ],
+      "fp_nosprat": "addcfcbcc01cd8a9",
+      "fp_nosprat_all": [
+        "addcfcbcc01cd8a9"
+      ],
+      "fp_strict_all": [
+        "70963bbe53786fa3"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6ab5701d566a1e9a8902eed1"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-64-novi-beograd-beograd/cetvorosoban-stan/6ab5701d566a1e9a8902eed1"
+      ],
+      "zgrada": "Airport Garden",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 101.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Đorđa Stanojevića, 1.500€, 101m²",
+      "price_first": 1500,
+      "price_current": 1500,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "329aa49de85d9e98": {
+      "uid": "329aa49de85d9e98",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "00f3a3f2cdeaa001",
+      "fp_loose_all": [
+        "00f3a3f2cdeaa001"
+      ],
+      "fp_nosprat": "f6ee3bbd4d9d8ef0",
+      "fp_nosprat_all": [
+        "f6ee3bbd4d9d8ef0"
+      ],
+      "fp_strict_all": [
+        "9fc7abb41d47bc5d"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6ab500e1c5dbf46cda0fca79"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6ab500e1c5dbf46cda0fca79"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 106.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera, 1.650€, 106m²",
+      "price_first": 1650,
+      "price_current": 1650,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "e7696ee10a8235d1": {
+      "uid": "e7696ee10a8235d1",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "8dc7cc083fdcf9fd",
+      "fp_loose_all": [
+        "8dc7cc083fdcf9fd"
+      ],
+      "fp_nosprat": "9ff47b1180c4ed51",
+      "fp_nosprat_all": [
+        "9ff47b1180c4ed51"
+      ],
+      "fp_strict_all": [
+        "4408110e54d55c7f"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6ab4010fa9ae959f9407c02c"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-64-novi-beograd-beograd/dvosoban-stan/6ab4010fa9ae959f9407c02c"
+      ],
+      "zgrada": "Soul 64",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 56.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Dvosoban stan za izdavanje, Omladinskih Brigada, 1.200€, 56m²",
+      "price_first": 1200,
+      "price_current": 1200,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "96fc209440f9a5e9": {
+      "uid": "96fc209440f9a5e9",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "e6b3f456cb1f2a82",
+      "fp_loose_all": [
+        "e6b3f456cb1f2a82"
+      ],
+      "fp_nosprat": "37552b49636f8d1c",
+      "fp_nosprat_all": [
+        "37552b49636f8d1c"
+      ],
+      "fp_strict_all": [
+        "03fc9b18bd833d70"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6ab28c3f99214862e5093dd0"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6ab28c3f99214862e5093dd0"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 105.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera 5, 1.650€, 105m²",
+      "price_first": 1650,
+      "price_current": 1650,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "df06d7b0e146d16f": {
+      "uid": "df06d7b0e146d16f",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "a5c0ba1031e6ac58",
+      "fp_loose_all": [
+        "a5c0ba1031e6ac58"
+      ],
+      "fp_nosprat": "d30ef1848c327fce",
+      "fp_nosprat_all": [
+        "d30ef1848c327fce"
+      ],
+      "fp_strict_all": [
+        "bc93204d7f62fc88"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6ab27b81a4a55911f3080719"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/petosoban-stan/6ab27b81a4a55911f3080719"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "5.0",
+      "str_label": "Petosoban+",
+      "m2": 160.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Petosoban stan za izdavanje, Tadije Sondermajera Wellport Kula, 2.650€, 160m²",
+      "price_first": 2650,
+      "price_current": 2650,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "71f71d1aa05c33e8": {
+      "uid": "71f71d1aa05c33e8",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "667c95669f2f8009",
+      "fp_loose_all": [
+        "667c95669f2f8009"
+      ],
+      "fp_nosprat": "fe82f3c78ac39a6e",
+      "fp_nosprat_all": [
+        "fe82f3c78ac39a6e"
+      ],
+      "fp_strict_all": [
+        "2b711312e94a6b39"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:67c1e6c18ad886758b091e03"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/67c1e6c18ad886758b091e03"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 100.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera, 1.700€, 100m²",
+      "price_first": 1700,
+      "price_current": 1700,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "bee070d520b87b77": {
+      "uid": "bee070d520b87b77",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "5f93c8fd8c25203e",
+      "fp_loose_all": [
+        "5f93c8fd8c25203e"
+      ],
+      "fp_nosprat": "dc8302c290f73a3e",
+      "fp_nosprat_all": [
+        "dc8302c290f73a3e"
+      ],
+      "fp_strict_all": [
+        "4b7c0c8468db44d0"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6a3aab581191b1aa920ff945"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-67-belville-novi-beograd-beograd/trosoban-stan/6a3aab581191b1aa920ff945"
+      ],
+      "zgrada": "Belvil",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 101.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Trosoban stan za izdavanje, BELVILLE, 2.000€, 101m²",
+      "price_first": 2000,
+      "price_current": 2000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "2908a6e73f22b866": {
+      "uid": "2908a6e73f22b866",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "9b13a9b067c73ed8",
+      "fp_loose_all": [
+        "9b13a9b067c73ed8"
+      ],
+      "fp_nosprat": "7d03acc0fec7081d",
+      "fp_nosprat_all": [
+        "7d03acc0fec7081d"
+      ],
+      "fp_strict_all": [
+        "1f5cda4444cf4464"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6aae72b477ee53c6350366fb"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-64-novi-beograd-beograd/trosoban-stan/6aae72b477ee53c6350366fb"
+      ],
+      "zgrada": "Airport Garden",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 79.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Trosoban stan za izdavanje, Đorđa Stanojevića, 1.650€, 79m²",
+      "price_first": 1650,
+      "price_current": 1650,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "acb8ea1415f720f2": {
+      "uid": "acb8ea1415f720f2",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "fa2fde441cbd795f",
+      "fp_loose_all": [
+        "fa2fde441cbd795f"
+      ],
+      "fp_nosprat": "4d1828221a554836",
+      "fp_nosprat_all": [
+        "4d1828221a554836"
+      ],
+      "fp_strict_all": [
+        "f6917189283ea405"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6aad2a22a24890be7e011652"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/petosoban-stan/6aad2a22a24890be7e011652"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "5.0",
+      "str_label": "Petosoban+",
+      "m2": 161.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Petosoban stan za izdavanje, Tadije Sondermajera, 2.650€, 161m²",
+      "price_first": 2650,
+      "price_current": 2650,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "c4e2d1c35c455b88": {
+      "uid": "c4e2d1c35c455b88",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "520cdba7e7eef2bc",
+      "fp_loose_all": [
+        "520cdba7e7eef2bc"
+      ],
+      "fp_nosprat": "de99ac6aecc92135",
+      "fp_nosprat_all": [
+        "de99ac6aecc92135"
+      ],
+      "fp_strict_all": [
+        "cd1ebc4839bc5a89"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6aac186d9fd40a5c030a757d"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6aac186d9fd40a5c030a757d"
+      ],
+      "zgrada": "Savada",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 80.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Trosoban stan za izdavanje, Tosin Bunar, 1.400€, 80m²",
+      "price_first": 1400,
+      "price_current": 1400,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "f5c9b097f3b57c3a": {
+      "uid": "f5c9b097f3b57c3a",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "51dda3f3e0b37e07",
+      "fp_loose_all": [
+        "51dda3f3e0b37e07"
+      ],
+      "fp_nosprat": "9019397c8ebe3946",
+      "fp_nosprat_all": [
+        "9019397c8ebe3946"
+      ],
+      "fp_strict_all": [
+        "0af565bb5de3a1b1"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6a8020b970f0d72df601a453"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-67-belville-novi-beograd-beograd/dvosoban-stan/6a8020b970f0d72df601a453"
+      ],
+      "zgrada": "West 65 Kula",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 45.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Dvosoban stan za izdavanje, Jurija Gagarina 14, 750€, 45m²",
+      "price_first": 750,
+      "price_current": 750,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "1375d9fcd9b8c7b4": {
+      "uid": "1375d9fcd9b8c7b4",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "399283ae79b0930a",
+      "fp_loose_all": [
+        "399283ae79b0930a"
+      ],
+      "fp_nosprat": "6695c5522782a39e",
+      "fp_nosprat_all": [
+        "6695c5522782a39e"
+      ],
+      "fp_strict_all": [
+        "8831b80a8353d530"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:69b8111a7d18fc46aa0acfd6"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/cetvorosoban-stan/69b8111a7d18fc46aa0acfd6"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 174.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, A BLOK, 2.500€, 174m²",
+      "price_first": 2500,
+      "price_current": 2500,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "32a62734b085e3a6": {
+      "uid": "32a62734b085e3a6",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "d071e125d712e3cf",
+      "fp_loose_all": [
+        "d071e125d712e3cf"
+      ],
+      "fp_nosprat": "9e8f785c45cb0f5a",
+      "fp_nosprat_all": [
+        "9e8f785c45cb0f5a"
+      ],
+      "fp_strict_all": [
+        "37c6e8822f41ce82"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:69b7fbb81caaa80f720d54e7"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/69b7fbb81caaa80f720d54e7"
+      ],
+      "zgrada": "West 65",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 60.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Dvosoban stan za izdavanje, WEST 65, 1.400€, 60m²",
+      "price_first": 1400,
+      "price_current": 1400,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "f6c9bcd7286035d1": {
+      "uid": "f6c9bcd7286035d1",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "e6b3f456cb1f2a82",
+      "fp_loose_all": [
+        "e6b3f456cb1f2a82"
+      ],
+      "fp_nosprat": "37552b49636f8d1c",
+      "fp_nosprat_all": [
+        "37552b49636f8d1c"
+      ],
+      "fp_strict_all": [
+        "ecbf466240c64ba7"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6a05c486d73ddaec410afb8b"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6a05c486d73ddaec410afb8b"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 105.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera, 1.900€, 105m²",
+      "price_first": 1900,
+      "price_current": 1900,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "95ad6c387f77eba4": {
+      "uid": "95ad6c387f77eba4",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "4bef29b18a2503bc",
+      "fp_loose_all": [
+        "4bef29b18a2503bc"
+      ],
+      "fp_nosprat": "cdbff70a44403e52",
+      "fp_nosprat_all": [
+        "cdbff70a44403e52"
+      ],
+      "fp_strict_all": [
+        "7a01b0dadb3830db"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6a2a6a8e03c84af180066384"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6a2a6a8e03c84af180066384"
+      ],
+      "zgrada": "West 65 Kula",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 103.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Omladinskih Brigada West 65 Tower, 3.500€, 103m²",
+      "price_first": 3500,
+      "price_current": 3500,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "a26f4800a574e1bc": {
+      "uid": "a26f4800a574e1bc",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "3cca2d7e72a727eb",
+      "fp_loose_all": [
+        "3cca2d7e72a727eb"
+      ],
+      "fp_nosprat": "d9b35efd8ce75100",
+      "fp_nosprat_all": [
+        "d9b35efd8ce75100"
+      ],
+      "fp_strict_all": [
+        "4a5fb3f1b4e4cca3"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:661e7a4037db37849a052a03"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/661e7a4037db37849a052a03"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 107.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, TADIJE SONDERMAJERA, 2.200€, 107m²",
+      "price_first": 2200,
+      "price_current": 2200,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "57c076fba5004c42": {
+      "uid": "57c076fba5004c42",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "66fdc00920d07ae1",
+      "fp_loose_all": [
+        "66fdc00920d07ae1"
+      ],
+      "fp_nosprat": "f06e3aea0a4cc050",
+      "fp_nosprat_all": [
+        "f06e3aea0a4cc050"
+      ],
+      "fp_strict_all": [
+        "d0d731d82e9b0c0c"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-09-30"
+      },
+      "source_ids": {
+        "4zida": "4zida:6a1d3908c0bad38c5903db4f"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6a1d3908c0bad38c5903db4f"
+      ],
+      "zgrada": "West 65",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 55.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Dvosoban stan za izdavanje, Omladinskih Brigada, 1.000€, 55m²",
+      "price_first": 1000,
+      "price_current": 1000,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-09-30T13:31:25.451107+00:00"
+  "updated_at": "2026-09-30T18:50:42.074553+00:00",
+  "last_run": {
+    "4zida": "2026-09-30",
+    "nadjidom": "2026-09-30"
+  }
 }
