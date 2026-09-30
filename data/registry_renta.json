@@ -3621,22 +3621,25 @@
     "221c97ccc7af58a8": {
       "uid": "221c97ccc7af58a8",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-07-29",
-      "is_active": false,
-      "deactivated_at": "2026-08-21",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "24291ab8e362c11f",
       "fp_strict_all": [
         "74e8526379d83900"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "506f334d16e2"
+        "halo": "506f334d16e2",
+        "4zida": "4zida:69806ef6065a39cc0b0419c7"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-novogradnja-lux-dve-garaze-id-22586/5425644542399",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-novogradnja-lux-dve-garaze-id-22586/5425644542399?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-novogradnja-lux-dve-garaze-id-22586/5425644542399?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/cetvorosoban-stan/69806ef6065a39cc0b0419c7"
       ],
       "zgrada": "A Blok",
       "struktura": "4.0",
@@ -3644,11 +3647,11 @@
       "m2": 176.0,
       "sprat": null,
       "agencija": "eminent-nekretnine",
-      "naslov": "A blok, novogradnja, lux, dve garaže, ID 22586",
+      "naslov": "Četvorosoban stan za izdavanje, Urosa Martinovica, 3.000€, 176m²",
       "price_first": 3000.0,
       "price_current": 3000.0,
       "price_changes": [],
-      "days_listed": 50,
+      "days_listed": 90,
       "cena_m2": 17,
       "deactivation_uncertain": true
     },
@@ -3663,21 +3666,27 @@
         "aa8817635b6cf145"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "122d2ed351cd"
+        "halo": "122d2ed351cd",
+        "4zida": "4zida:697e020c235f6526f706d886",
+        "nadjidom": "nadjidom:2236886"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd-blok-a-168m2-2-g-mesta-id31019/5425646703133?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd-blok-a-168m2-2-g-mesta-id31019/5425646703133?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/cetvorosoban-stan/697e020c235f6526f706d886",
+        "https://www.nadjidom.com/sr/details/2236886/Beograd-Novi+Beograd-Blok+67a-Izdavanje-Stan.html"
       ],
       "zgrada": "A Blok",
       "struktura": "4.0",
       "str_label": null,
       "m2": 168.0,
-      "sprat": null,
-      "agencija": "atase-nekretnine-d-o-o",
-      "naslov": "Novi Beograd, Blok A, 168m2 + 2 g. mesta ID#31019",
+      "sprat": "7",
+      "agencija": "EUROPOLIS NEKRETNINE ",
+      "naslov": "Luksuzan, namešten, 2 garažna mesta ID#8971",
       "price_first": 3000.0,
       "price_current": 3000.0,
       "price_changes": [],
@@ -4027,33 +4036,36 @@
     "45ecaf62a2bca085": {
       "uid": "45ecaf62a2bca085",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-08-29",
-      "is_active": false,
-      "deactivated_at": "2026-08-31",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "2ff150a9be97eb03",
       "fp_strict_all": [
         "6e9fbb2f3353053d"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "dabbd69d6637"
+        "halo": "dabbd69d6637",
+        "nadjidom": "nadjidom:2330906"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/odlican-stan-sa-garazom-belvil-id-4616/5425647348514?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/odlican-stan-sa-garazom-belvil-id-4616/5425647348514?kid=1",
+        "https://www.nadjidom.com/sr/details/2330906/Beograd-Novi+Beograd-Blok+67+-+Belville-Izdavanje-Stan.html"
       ],
       "zgrada": "Belvil",
       "struktura": "2.0",
       "str_label": null,
       "m2": 62.0,
-      "sprat": null,
-      "agencija": "symbol-properties-doo-beograd",
-      "naslov": "Odličan stan sa garažom, Belvil, ID 4616",
+      "sprat": "7",
+      "agencija": "Best Real Estate ",
+      "naslov": "Stan sa jednom spavaćom sobom u naselju Belville",
       "price_first": 950.0,
       "price_current": 950.0,
       "price_changes": [],
-      "days_listed": 60,
+      "days_listed": 90,
       "cena_m2": 15
     },
     "eb896c4bc672ee1b": {
@@ -5580,21 +5592,24 @@
         "a10c20879693797b"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "d931c8c184a5"
+        "halo": "d931c8c184a5",
+        "nadjidom": "nadjidom:2293717"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/stan-u-novoizgradjenom-kompleksu-airport-gard/5425647166597?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/stan-u-novoizgradjenom-kompleksu-airport-gard/5425647166597?kid=1",
+        "https://www.nadjidom.com/sr/details/2293717/Beograd-Novi+Beograd-Airport+City+Belgrade-Izdavanje-Stan.html"
       ],
       "zgrada": "Airport Garden",
       "struktura": "2.0",
       "str_label": null,
       "m2": 55.0,
-      "sprat": null,
-      "agencija": "Gradnekretnine",
-      "naslov": "Stan u novoizgrađenom kompleksu Airport garden",
+      "sprat": "4",
+      "agencija": "Grad nekretnine ",
+      "naslov": "Stan u novoizgrađenom kompleksu AIRPORT GARDEN",
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
@@ -7042,33 +7057,37 @@
     "177fa01460b56541": {
       "uid": "177fa01460b56541",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-07-29",
-      "is_active": false,
-      "deactivated_at": "2026-08-21",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "039cbf70caf5dad0",
       "fp_strict_all": [
         "ba92cf005009d4dd"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "9735017b463e"
+        "halo": "9735017b463e",
+        "nadjidom": "nadjidom:2346784"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-stan-u-kompleksu-soul-64-garaza-id-9424/5425647258542?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-stan-u-kompleksu-soul-64-garaza-id-9424/5425647258542?kid=1",
+        "https://www.nadjidom.com/sr/details/2348639/Beograd-Novi+Beograd-Blok+64-Izdavanje-Stan.html",
+        "https://www.nadjidom.com/sr/details/2346784/Beograd-Novi+Beograd-Blok+64-Izdavanje-Stan.html"
       ],
       "zgrada": "Soul 64",
       "struktura": "2.0",
       "str_label": null,
       "m2": 54.0,
-      "sprat": null,
-      "agencija": "symbol-properties-doo-beograd",
-      "naslov": "Nov stan u kompleksu Soul 64, garaža, ID 9424",
+      "sprat": "2",
+      "agencija": "Kuca i stan Doo ",
+      "naslov": "Unpack This New App in Soul 64. Garage&amp;pool!",
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 50,
+      "days_listed": 90,
       "cena_m2": 22,
       "deactivation_uncertain": true
     },
@@ -7211,13 +7230,16 @@
         "1d2642b048be3cc8"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "49eaf8fcd0d3"
+        "halo": "49eaf8fcd0d3",
+        "4zida": "4zida:68dff9a6eaa4ec53c90926e6"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/dom-koji-dise-svetloscu-a-blok/5425646212412?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/dom-koji-dise-svetloscu-a-blok/5425646212412?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/cetvorosoban-stan/68dff9a6eaa4ec53c90926e6"
       ],
       "zgrada": "A Blok",
       "struktura": "4.0",
@@ -7225,7 +7247,7 @@
       "m2": 137.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "Dom koji diše svetlošću / A blok",
+      "naslov": "Četvorosoban stan za izdavanje, Jurija Gagarina, 3.000€, 137m²",
       "price_first": 3000.0,
       "price_current": 3000.0,
       "price_changes": [],
@@ -7503,13 +7525,16 @@
         "bbe1de54d0800fcc"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "3d65cc22882b"
+        "halo": "3d65cc22882b",
+        "4zida": "4zida:68aef786715eb490640d455c"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---a-blok-lux-penthouse-176m2-dva/5425645960915?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---a-blok-lux-penthouse-176m2-dva/5425645960915?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/cetvorosoban-stan/68aef786715eb490640d455c"
       ],
       "zgrada": "A Blok",
       "struktura": "4.0",
@@ -7517,7 +7542,7 @@
       "m2": 176.0,
       "sprat": null,
       "agencija": "m-real-estate",
-      "naslov": "Novi Beograd - A Blok-Lux-Penthouse-176m2-Dva gara",
+      "naslov": "Četvorosoban stan za izdavanje, Uroša Martinovića, 3.300€, 176m²",
       "price_first": 3300.0,
       "price_current": 3300.0,
       "price_changes": [],
@@ -8883,33 +8908,39 @@
     "7c303dfeb1978af0": {
       "uid": "7c303dfeb1978af0",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-07-29",
-      "is_active": false,
-      "deactivated_at": "2026-08-21",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "0a37c0826eacf08e",
       "fp_strict_all": [
         "32cfa2509d4a0e51"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "f5afdde438de"
+        "halo": "f5afdde438de",
+        "4zida": "4zida:6aba67a62b23dc4230045f4e",
+        "nadjidom": "nadjidom:2314729"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd-a-blok-147-m2/5425647359625"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd-a-blok-147-m2/5425647359625",
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/trosoban-stan/6aba67a62b23dc4230045f4e",
+        "https://www.nadjidom.com/sr/details/2314729/Beograd-Novi+Beograd-Blok+67a-Izdavanje-Stan.html"
       ],
       "zgrada": "A Blok",
       "struktura": "3.0",
       "str_label": null,
       "m2": 147.0,
-      "sprat": null,
-      "agencija": "Leverage",
+      "sprat": "11",
+      "agencija": "Leverage nekretnine doo ",
       "naslov": "Novi Beograd, A Blok, 147 m2",
       "price_first": 4500.0,
       "price_current": 4500.0,
       "price_changes": [],
-      "days_listed": 48,
+      "days_listed": 88,
       "cena_m2": 31,
       "deactivation_uncertain": true
     },
@@ -9047,7 +9078,7 @@
     "b347fcd01a6c5498": {
       "uid": "b347fcd01a6c5498",
       "first_seen": "2026-07-06",
-      "last_seen": "2026-09-29",
+      "last_seen": "2026-09-30",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "fdda7f028b67bbb2",
@@ -9055,13 +9086,16 @@
         "aa8817635b6cf145"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "9473c41ef835"
+        "halo": "9473c41ef835",
+        "4zida": "4zida:69847ae4d0a96efc3d07f395"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzan-namesten-2-garazna-mesta-id8971/5425646725669?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzan-namesten-2-garazna-mesta-id8971/5425646725669?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/cetvorosoban-stan/69847ae4d0a96efc3d07f395"
       ],
       "zgrada": "A Blok",
       "struktura": "4.0",
@@ -9069,7 +9103,7 @@
       "m2": 168.0,
       "sprat": null,
       "agencija": "EUROPOLISNEKRETNINE",
-      "naslov": "Luksuzan, namešten, 2 garažna mesta ID#8971",
+      "naslov": "Četvorosoban stan za izdavanje, Uroša Martinovića, 3.000€, 168m²",
       "price_first": 3000.0,
       "price_current": 3000.0,
       "price_changes": [],
@@ -13241,33 +13275,36 @@
     "6a51c9adacd86a43": {
       "uid": "6a51c9adacd86a43",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-09-23",
-      "is_active": false,
-      "deactivated_at": "2026-09-25",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "d2079561a44fd378",
       "fp_strict_all": [
         "935d43c2cbb66543"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "e700302cf29c"
+        "halo": "e700302cf29c",
+        "nadjidom": "nadjidom:2328096"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65---lux-novogradnja-garaza/5425647438923?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65---lux-novogradnja-garaza/5425647438923?kid=1",
+        "https://www.nadjidom.com/sr/details/2328096/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html"
       ],
       "zgrada": "West 65",
       "struktura": "2.0",
       "str_label": null,
       "m2": 61.0,
-      "sprat": null,
-      "agencija": null,
-      "naslov": "West 65 - lux novogradnja + GaraŽa",
+      "sprat": "2",
+      "agencija": "Leverage nekretnine doo ",
+      "naslov": "West 65, 61m2",
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 58,
+      "days_listed": 63,
       "cena_m2": 20
     },
     "8fc9ed48d167c55d": {
@@ -13433,33 +13470,36 @@
     "b4442c78817918eb": {
       "uid": "b4442c78817918eb",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-09-23",
-      "is_active": false,
-      "deactivated_at": "2026-09-25",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "a904e591f2fb646e",
       "fp_strict_all": [
         "b0d15f7478cb1942"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "78c39fa2760f"
+        "halo": "78c39fa2760f",
+        "nadjidom": "nadjidom:2348751"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/new-minel---direktno-od-vlasnika-samo-pravna/5425642020832?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/new-minel---direktno-od-vlasnika-samo-pravna/5425642020832?kid=1",
+        "https://www.nadjidom.com/sr/details/2348751/Beograd-Novi+Beograd-Tosin+Bunar-Izdavanje-Stan.html"
       ],
       "zgrada": "New Minel",
       "struktura": "2.0",
       "str_label": null,
       "m2": 45.0,
-      "sprat": null,
-      "agencija": null,
-      "naslov": "New Minel - Direktno od vlasnika samo pravna lica",
+      "sprat": "5",
+      "agencija": "Leverage nekretnine doo ",
+      "naslov": "New Minel, 45m2, cena + pdv",
       "price_first": 680.0,
       "price_current": 680.0,
       "price_changes": [],
-      "days_listed": 58,
+      "days_listed": 63,
       "cena_m2": 15
     },
     "39e46b63d26f8a36": {
@@ -14750,33 +14790,36 @@
     "6c64183ebb1231a7": {
       "uid": "6c64183ebb1231a7",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-05",
-      "is_active": false,
-      "deactivated_at": "2026-09-07",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "d0399d961ef497a3",
       "fp_strict_all": [
         "d3ceff55c4b2b5ad"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "6cf5833298b5"
+        "halo": "6cf5833298b5",
+        "nadjidom": "nadjidom:2334967"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65-dvosoban-stan-63-m-6-sprat/5425647483755?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65-dvosoban-stan-63-m-6-sprat/5425647483755?kid=1",
+        "https://www.nadjidom.com/sr/details/2334967/Beograd-Novi+Beograd-Izdavanje-Stan.html"
       ],
       "zgrada": "West 65",
       "struktura": "2.0",
       "str_label": null,
       "m2": 63.0,
-      "sprat": null,
-      "agencija": null,
+      "sprat": "6",
+      "agencija": "Leon Real Estate",
       "naslov": "West 65 Dvosoban stan 63 m², 6. sprat",
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
-      "days_listed": 17,
+      "days_listed": 40,
       "cena_m2": 16
     },
     "9dc6d3aa9ad673d6": {
@@ -15558,34 +15601,37 @@
     "f52c9e31d360c1d0": {
       "uid": "f52c9e31d360c1d0",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-08-26",
-      "is_active": false,
-      "deactivated_at": "2026-08-28",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "d3f454118ac57eba",
       "fp_strict_all": [
         "717104afdc5f56b3"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "8c9f3c9b04b0"
+        "halo": "8c9f3c9b04b0",
+        "nadjidom": "nadjidom:2337759"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---lastavice-68540/5425647499499?kid=4",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---lastavice-68540/5425647499499?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---lastavice-68540/5425647499499?kid=1",
+        "https://www.nadjidom.com/sr/details/2337759/Beograd-Novi+Beograd-Blok+58-Izdavanje-Stan.html"
       ],
       "zgrada": "Lastavica",
       "struktura": "2.0",
       "str_label": null,
       "m2": 46.0,
-      "sprat": null,
-      "agencija": "beostan",
-      "naslov": "Novi Beograd - Lastavice #68540",
+      "sprat": "8",
+      "agencija": "Jarić Nekretnine d.o.o ",
+      "naslov": "LASTAVICA 45M2.2.0. LUX!",
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
-      "days_listed": 7,
+      "days_listed": 40,
       "cena_m2": 20
     },
     "7342c4bb0ce27029": {
@@ -16492,33 +16538,36 @@
     "3a852d22de56bc76": {
       "uid": "3a852d22de56bc76",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-10",
-      "is_active": false,
-      "deactivated_at": "2026-09-15",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "639cd3f4e1b0c00d",
       "fp_strict_all": [
         "136b6f4a83619789"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "cae6860707b3"
+        "halo": "cae6860707b3",
+        "nadjidom": "nadjidom:2338037"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/omladinskih-brigada-luks-5-0-sa-garaznim-mest/5425647513337"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/omladinskih-brigada-luks-5-0-sa-garaznim-mest/5425647513337",
+        "https://www.nadjidom.com/sr/details/2338037/Beograd-Novi+Beograd-Blok+64-Izdavanje-Stan.html"
       ],
       "zgrada": "The One",
       "struktura": "5.0",
       "str_label": null,
       "m2": 121.0,
-      "sprat": null,
-      "agencija": "DIKAREALESTATE",
+      "sprat": "2",
+      "agencija": "DIKA REAL ESTATE  DOO BEOGRAD (NOVI BEOGRAD) ",
       "naslov": "Omladinskih brigada, luks, 5.0 sa garažnim mestom",
       "price_first": 2000.0,
       "price_current": 2000.0,
       "price_changes": [],
-      "days_listed": 25,
+      "days_listed": 40,
       "cena_m2": 17,
       "deactivation_uncertain": true
     },
@@ -16779,30 +16828,33 @@
     "08cd65d7dc57c791": {
       "uid": "08cd65d7dc57c791",
       "first_seen": "2026-08-22",
-      "last_seen": "2026-09-18",
-      "is_active": false,
-      "deactivated_at": "2026-09-21",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "70b6f77e9b4878a5",
       "fp_strict_all": [
         "dee2d85b6a35d2d5",
         "cf728920883d8a0c"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "e76f65edcc45"
+        "halo": "e76f65edcc45",
+        "nadjidom": "nadjidom:2337971"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-penthouse-sa-2-garazna-mesta-west-65/5425647134490?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-penthouse-sa-2-garazna-mesta-west-65/5425647134490?kid=1",
+        "https://www.nadjidom.com/sr/details/2337971/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html"
       ],
       "zgrada": "West 65",
       "struktura": "3.0",
       "str_label": null,
       "m2": 205.0,
-      "sprat": null,
-      "agencija": "SonataProperties",
-      "naslov": "Lux penthouse sa 2 garažna mesta, West 65",
+      "sprat": "7",
+      "agencija": "Best Real Estate ",
+      "naslov": "Luksuzno opremljen penthaus sa prelepom terasom",
       "price_first": 3600.0,
       "price_current": 3300.0,
       "price_changes": [
@@ -16812,7 +16864,7 @@
           "to": 3300.0
         }
       ],
-      "days_listed": 30,
+      "days_listed": 39,
       "cena_m2": 16,
       "deactivation_uncertain": true
     },
@@ -17906,33 +17958,36 @@
     "2b9edd7d5184062f": {
       "uid": "2b9edd7d5184062f",
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-01",
-      "is_active": false,
-      "deactivated_at": "2026-09-03",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "00f3a3f2cdeaa001",
       "fp_strict_all": [
         "2e50a741fa7199d8"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "2fefdf4c92f2"
+        "halo": "2fefdf4c92f2",
+        "nadjidom": "nadjidom:2355448"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-68761/5425647587976?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-68761/5425647587976?kid=4",
+        "https://www.nadjidom.com/sr/details/2355448/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html"
       ],
       "zgrada": "Wellport",
       "struktura": "4.0",
       "str_label": null,
       "m2": 106.0,
-      "sprat": null,
-      "agencija": "beostan",
-      "naslov": "Novi Beograd - Wellport #68761",
+      "sprat": "10",
+      "agencija": "ART nekretnine d.o.o. ",
+      "naslov": "Luksuzan 4.0 stan – Wellport ID#16445",
       "price_first": 2100.0,
       "price_current": 2100.0,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 33,
       "cena_m2": 20
     },
     "5d23326a4b02067b": {
@@ -18528,14 +18583,17 @@
         "d4827d8768661c08"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "2330c485dcf2"
+        "halo": "2330c485dcf2",
+        "4zida": "4zida:6a941ef7706c310c150d6582"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-67a-savada-2-0-namesten-garazno-mesto/5425647602999?kid=4",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-67a-savada-2-0-namesten-garazno-mesto/5425647602999?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-67a-savada-2-0-namesten-garazno-mesto/5425647602999?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/dvosoban-stan/6a941ef7706c310c150d6582"
       ],
       "zgrada": "A Blok",
       "struktura": "2.0",
@@ -18543,7 +18601,7 @@
       "m2": 58.0,
       "sprat": null,
       "agencija": "korisnik-243257",
-      "naslov": "A blok 67a , Savada, 2.0 namešten, garažno mesto",
+      "naslov": "Dvosoban stan za izdavanje, A Blok - Blok 67a, 1.000€, 58m²",
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
@@ -19656,20 +19714,23 @@
         "5f79d245796031ec"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "98829e414732"
+        "halo": "98829e414732",
+        "nadjidom": "nadjidom:2347532"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/elixir-garden-4-0-130m2-v-sredjen-i-opremljen/5425647626791?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/elixir-garden-4-0-130m2-v-sredjen-i-opremljen/5425647626791?kid=1",
+        "https://www.nadjidom.com/sr/details/2347532/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html"
       ],
       "zgrada": "Elixir Garden",
       "struktura": "4.0",
       "str_label": null,
       "m2": 132.0,
-      "sprat": null,
-      "agencija": "profitim",
+      "sprat": "5",
+      "agencija": "Profitim nekretnine ",
       "naslov": "Elixir garden, 4,0, 130m2, V, sređen i opremljen",
       "price_first": 1900.0,
       "price_current": 1900.0,
@@ -19914,33 +19975,36 @@
     "2e9e8faac1adecf4": {
       "uid": "2e9e8faac1adecf4",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-21",
-      "is_active": false,
-      "deactivated_at": "2026-09-23",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "97bf6e09f0b69e51",
       "fp_strict_all": [
         "3ec8848bde4ccfe5"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "b2e3dd2fa4c6"
+        "halo": "b2e3dd2fa4c6",
+        "nadjidom": "nadjidom:2347195"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/izdavanje-stana-u-airport-gardenu-71m2/5425647623557"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/izdavanje-stana-u-airport-gardenu-71m2/5425647623557",
+        "https://www.nadjidom.com/sr/details/2347195/Beograd-Novi+Beograd-Airport+City+Belgrade-Izdavanje-Stan.html"
       ],
       "zgrada": "Airport Garden",
       "struktura": "4.0",
       "str_label": null,
       "m2": 71.0,
-      "sprat": null,
-      "agencija": null,
+      "sprat": "7",
+      "agencija": "Lav nekretnine ",
       "naslov": "Izdavanje stana u Airport gardenu 71m2",
       "price_first": 1250.0,
       "price_current": 1250.0,
       "price_changes": [],
-      "days_listed": 17,
+      "days_listed": 24,
       "cena_m2": 18
     },
     "bc2d4421f2ac9656": {
@@ -20182,20 +20246,23 @@
         "75ee1c44fac1231c"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "bae64792d295"
+        "halo": "bae64792d295",
+        "nadjidom": "nadjidom:2348634"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65---lux-penthaus/5425647646062?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65---lux-penthaus/5425647646062?kid=4",
+        "https://www.nadjidom.com/sr/details/2348634/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html"
       ],
       "zgrada": "West 65",
       "struktura": "4.0",
       "str_label": null,
       "m2": 194.0,
-      "sprat": null,
-      "agencija": "Benefit",
+      "sprat": "7",
+      "agencija": "Benefit nekretnine ",
       "naslov": "West 65 - Lux penthaus",
       "price_first": 2900.0,
       "price_current": 2700.0,
@@ -20675,14 +20742,17 @@
         "603649efee0c55da"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "dab1ec9013aa"
+        "halo": "dab1ec9013aa",
+        "4zida": "4zida:6aa114165fb1a364080e68bb"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-vrhunski-penthouse-2-garaze-id4905/5425647651486?kid=1",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-vrhunski-penthouse-2-garaze-id4905/5425647651486?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-vrhunski-penthouse-2-garaze-id4905/5425647651486?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/trosoban-stan/6aa114165fb1a364080e68bb"
       ],
       "zgrada": "A Blok",
       "struktura": "3.0",
@@ -20690,7 +20760,7 @@
       "m2": 147.0,
       "sprat": null,
       "agencija": "PropertyBroker",
-      "naslov": "A blok, vrhunski penthouse, 2 garaže ID#4905",
+      "naslov": "Trosoban stan za izdavanje, Jurija Gagarina, 3.600€, 147m²",
       "price_first": 3600.0,
       "price_current": 3600.0,
       "price_changes": [],
@@ -22415,21 +22485,27 @@
         "86218050e19ce993"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "614fda877669"
+        "halo": "614fda877669",
+        "4zida": "4zida:6a171d8d2e1a8eae1b0e5ccc",
+        "nadjidom": "nadjidom:2298418"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/dvosoban-stan-za-izdavanje-airport-garden/5425647710872?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/dvosoban-stan-za-izdavanje-airport-garden/5425647710872?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/tosin-bunar-novi-beograd-beograd/dvosoban-stan/6a171d8d2e1a8eae1b0e5ccc",
+        "https://www.nadjidom.com/sr/details/2298418/Beograd-Novi+Beograd-Opstina-Izdavanje-Stan.html"
       ],
       "zgrada": "Airport Garden",
       "struktura": "2.0",
       "str_label": null,
       "m2": 56.0,
       "sprat": null,
-      "agencija": null,
-      "naslov": "Dvosoban stan za izdavanje, Airport Garden",
+      "agencija": "BEOCITY NEKRETNINE ",
+      "naslov": "Novi Beograd, Tošin bunar, Airport Garden Djordja Stanojevića, 2.0, 56m2, 900EUR",
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
@@ -23157,13 +23233,16 @@
         "2df7d2db58ea8f46"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "9b5435d73d16"
+        "halo": "9b5435d73d16",
+        "4zida": "4zida:6a272709a1c7b0770b0244a8"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---a-blok-59203/5425647722667?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---a-blok-59203/5425647722667?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/cetvorosoban-stan/6a272709a1c7b0770b0244a8"
       ],
       "zgrada": "A Blok",
       "struktura": "4.0",
@@ -23171,7 +23250,7 @@
       "m2": 175.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - A blok #59203",
+      "naslov": "Četvorosoban stan za izdavanje, Urosa Martinovica, 2.800€, 175m²",
       "price_first": 2800.0,
       "price_current": 2800.0,
       "price_changes": [],
@@ -23725,25 +23804,29 @@
         "a56fcce11ab95e12"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "57c10018fc9b"
+        "halo": "57c10018fc9b",
+        "nadjidom": "nadjidom:2357516"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---belville-69211/5425647754229?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---belville-69211/5425647754229?kid=1",
+        "https://www.nadjidom.com/sr/details/2357516/Beograd-Novi+Beograd-Blok+67+-+Belville-Izdavanje-Stan.html"
       ],
       "zgrada": "Belvil",
       "struktura": "2.0",
       "str_label": null,
       "m2": 69.0,
-      "sprat": null,
-      "agencija": "beostan",
-      "naslov": "Novi Beograd - Belville #69211",
+      "sprat": "2",
+      "agencija": "BG HOME real estate ",
+      "naslov": "Luksuzan dvosoban stan-Belville, Jurija Gagarina ID#3906",
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 17
     },
     "692522e620bd2a71": {
       "uid": "692522e620bd2a71",
@@ -23836,8 +23919,474 @@
       "price_first": 1200,
       "price_current": 1200,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 22
+    },
+    "861ec665b2cd50a9": {
+      "uid": "861ec665b2cd50a9",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "a94207d74116b149",
+      "fp_strict_all": [
+        "034cba86800b3b6c"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "source_ids": {
+        "4zida": "4zida:64b669716581ea2fd604e28c"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/cetvorosoban-stan/64b669716581ea2fd604e28c"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 112.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, OMLADINSKIH BRIGADA, 1.900€, 112m²",
+      "price_first": 1900,
+      "price_current": 1900,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "91b1239be1ff63df": {
+      "uid": "91b1239be1ff63df",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "b39989cacfe41ce8",
+      "fp_strict_all": [
+        "e58ecc93f4297ff6"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "source_ids": {
+        "4zida": "4zida:6409db724e6cfa75d009ab4c"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/cetvorosoban-stan/6409db724e6cfa75d009ab4c"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 110.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Jurija gagarina, 1.700€, 110m²",
+      "price_first": 1700,
+      "price_current": 1700,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "bb7ff29dfc0864d8": {
+      "uid": "bb7ff29dfc0864d8",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "2a43da78029adf8c",
+      "fp_strict_all": [
+        "8eac4716abafde2b"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "source_ids": {
+        "4zida": "4zida:6a5e42ac65406453bc0fd65e"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/dvosoban-stan/6a5e42ac65406453bc0fd65e"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 55.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Dvosoban stan za izdavanje, Jurija Gagarina, 1.000€, 55m²",
+      "price_first": 1000,
+      "price_current": 1000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "8a48ffe66af54c78": {
+      "uid": "8a48ffe66af54c78",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "7481a5449ad72488",
+      "fp_strict_all": [
+        "8fef309c8daa1479"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "source_ids": {
+        "4zida": "4zida:64a563501043cc13020d2dc9"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/cetvorosoban-stan/64a563501043cc13020d2dc9"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 121.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Jurija Gagarina, 2.500€, 121m²",
+      "price_first": 2500,
+      "price_current": 2500,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "4a098b0e2a12aaa6": {
+      "uid": "4a098b0e2a12aaa6",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "aaa6c976599fea6b",
+      "fp_strict_all": [
+        "754411cd253faed3"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "source_ids": {
+        "4zida": "4zida:69fcbac8a9ed481d760b93af"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/trosoban-stan/69fcbac8a9ed481d760b93af"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 69.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Trosoban stan za izdavanje, A Blok - Blok 67a, 1.250€, 69m²",
+      "price_first": 1250,
+      "price_current": 1250,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "e7ee4243fda5f2ce": {
+      "uid": "e7ee4243fda5f2ce",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "7f9d190031a7e713",
+      "fp_strict_all": [
+        "6a6e406fa702027d"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "source_ids": {
+        "4zida": "4zida:68ed31a51a5783492107ab6b"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/trosoban-stan/68ed31a51a5783492107ab6b"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 60.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Trosoban stan za izdavanje, Uroša Martinovića, 1.280€, 60m²",
+      "price_first": 1280,
+      "price_current": 1280,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "81ce65428ed21a38": {
+      "uid": "81ce65428ed21a38",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "3d7914bb458c8a34",
+      "fp_strict_all": [
+        "d4827d8768661c08"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "source_ids": {
+        "4zida": "4zida:6aa01867641dd8953a02a87e"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/dvosoban-stan/6aa01867641dd8953a02a87e"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 58.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Dvosoban stan za izdavanje, Uroša Martinovića, 1.000€, 58m²",
+      "price_first": 1000,
+      "price_current": 1000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "0ab0cbc5060843c5": {
+      "uid": "0ab0cbc5060843c5",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "6ae0b18c89cfd664",
+      "fp_strict_all": [
+        "1050b251671200c8"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "source_ids": {
+        "4zida": "4zida:66bcd69b943004a8540f4864"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/cetvorosoban-stan/66bcd69b943004a8540f4864"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 140.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Jurija Gagarina, 3.500€, 140m²",
+      "price_first": 3500,
+      "price_current": 3500,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "d204de3bf8b8f9e8": {
+      "uid": "d204de3bf8b8f9e8",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "0d45078b27c12c5b",
+      "fp_strict_all": [
+        "089c796a6c07df7b"
+      ],
+      "sources": [
+        "nadjidom"
+      ],
+      "source_ids": {
+        "nadjidom": "nadjidom:2355317"
+      },
+      "source_urls": [
+        "https://www.nadjidom.com/sr/details/2355317/Beograd-Novi+Beograd-Blok+65-Izdavanje-Garsonjera.html"
+      ],
+      "zgrada": "Airport Garden",
+      "struktura": "5.0",
+      "str_label": "Petosoban+",
+      "m2": 39.0,
+      "sprat": "1",
+      "agencija": "ART nekretnine d.o.o. ",
+      "naslov": "Airport Garden, nova, nenameštena garsonjera ID#16436",
+      "price_first": 680,
+      "price_current": 680,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "f3068c8f57256b40": {
+      "uid": "f3068c8f57256b40",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "afcd8d8cac11cc7f",
+      "fp_strict_all": [
+        "87d48a2989c421b0"
+      ],
+      "sources": [
+        "nadjidom"
+      ],
+      "source_ids": {
+        "nadjidom": "nadjidom:2354230"
+      },
+      "source_urls": [
+        "https://www.nadjidom.com/sr/details/2354230/Beograd-Novi+Beograd-Delta+City-Izdavanje-Stan.html"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 80.0,
+      "sprat": "1",
+      "agencija": "Kuca i stan Doo ",
+      "naslov": "A Blok. New 1-Bed Apt! Terrace",
+      "price_first": 1100,
+      "price_current": 1100,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "cbf2c3c1ba91cffa": {
+      "uid": "cbf2c3c1ba91cffa",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "912a56db15b90e89",
+      "fp_strict_all": [
+        "ac064451b3ba5301"
+      ],
+      "sources": [
+        "nadjidom"
+      ],
+      "source_ids": {
+        "nadjidom": "nadjidom:2353617"
+      },
+      "source_urls": [
+        "https://www.nadjidom.com/sr/details/2353617/Beograd-Novi+Beograd-Blok+67a-Izdavanje-Stan.html"
+      ],
+      "zgrada": "Savada",
+      "struktura": "15.0",
+      "str_label": "nepoznato",
+      "m2": 37.0,
+      "sprat": "2",
+      "agencija": "Jarić Nekretnine d.o.o ",
+      "naslov": "LUX 1.5 Savada | Blok 67a | 37m² sa garažom",
+      "price_first": 800,
+      "price_current": 800,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "ad5b2ad1ab0474ba": {
+      "uid": "ad5b2ad1ab0474ba",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "1c5fe6010d1c87ce",
+      "fp_strict_all": [
+        "52ee3c7df7b5bc12"
+      ],
+      "sources": [
+        "nadjidom"
+      ],
+      "source_ids": {
+        "nadjidom": "nadjidom:2306196"
+      },
+      "source_urls": [
+        "https://www.nadjidom.com/sr/details/2306196/Beograd-Savski+Venac-Izdavanje-Stan.html"
+      ],
+      "zgrada": "West 65",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 112.0,
+      "sprat": "8",
+      "agencija": "Bombyx nekretnine ",
+      "naslov": "Izdaje se Trosoban  112m prazan West 65 Novi  Beograd za kancelarije",
+      "price_first": 2400,
+      "price_current": 2400,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "fb5baa1207edc3a5": {
+      "uid": "fb5baa1207edc3a5",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "ae74c205bf30ef5d",
+      "fp_strict_all": [
+        "998d3fa2135727cd"
+      ],
+      "sources": [
+        "nadjidom"
+      ],
+      "source_ids": {
+        "nadjidom": "nadjidom:2328893"
+      },
+      "source_urls": [
+        "https://www.nadjidom.com/sr/details/2328893/Beograd-Novi+Beograd-Blok+67a-Izdavanje-Stan.html"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 56.0,
+      "sprat": "4",
+      "agencija": "Beo Street Nekretnine ",
+      "naslov": "sf 2750 Novi Beograd A blok",
+      "price_first": 1000,
+      "price_current": 1000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "31e7d466d29f909c": {
+      "uid": "31e7d466d29f909c",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "47d73534d6e905d1",
+      "fp_strict_all": [
+        "ef8e3b00249de1b1"
+      ],
+      "sources": [
+        "nadjidom"
+      ],
+      "source_ids": {
+        "nadjidom": "nadjidom:1411556"
+      },
+      "source_urls": [
+        "https://www.nadjidom.com/sr/details/1411556/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html"
+      ],
+      "zgrada": "West 65 Kula",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 60.0,
+      "sprat": "10",
+      "agencija": "SWEETHOME NEKRETNINE ",
+      "naslov": "+ NOVI BEOGRAD SF 10214",
+      "price_first": 2000,
+      "price_current": 2000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "95674d42abb6f579": {
+      "uid": "95674d42abb6f579",
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-09-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "ad70b6728ecf655c",
+      "fp_strict_all": [
+        "ba9219aac59d57eb"
+      ],
+      "sources": [
+        "nadjidom"
+      ],
+      "source_ids": {
+        "nadjidom": "nadjidom:2269373"
+      },
+      "source_urls": [
+        "https://www.nadjidom.com/sr/details/2269373/Beograd-Novi+Beograd-Blok+67+-+Belville-Izdavanje-Stan.html"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "15.0",
+      "str_label": "nepoznato",
+      "m2": 38.0,
+      "sprat": "4",
+      "agencija": "AS nekretnine pro ",
+      "naslov": "Izdavanje, Stan, Blok 67a, A blok, Jurija Gagarina",
+      "price_first": 780,
+      "price_current": 780,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-09-30T12:09:44.314044+00:00"
+  "updated_at": "2026-09-30T13:31:25.451107+00:00"
 }
