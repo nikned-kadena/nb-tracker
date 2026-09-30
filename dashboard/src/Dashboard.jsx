@@ -225,6 +225,84 @@ function KpiCard({ label, value, sub, subColor, onClick, highlight }) {
   );
 }
 
+// ── Pregled izvora ──────────────────────────────────────────────────────────
+// Vidljivo samo u spojenom prikazu ("Svi izvori"), jer je tek tamo pitanje
+// smisleno: u registru je isti stan sa tri portala JEDAN zapis, pa se iz
+// polja `izvori` vidi ko ga je doneo i koliko se portali preklapaju.
+//
+// "samo tu" je ono sto se stvarno isplati gledati. Portal koji donese 40
+// oglasa od kojih su 38 vec na Halo-u ne siri pokrivenost nego je potvrdjuje;
+// onaj koji donese 40 ekskluzivnih vredi drzati. Zato traka ima dva dela:
+// puna boja su oglasi koje ima samo taj portal, bleda su deljeni.
+function IzvoriPregled({ listings }) {
+  const st = useMemo(() => {
+    const po = {};
+    let viseP = 0, bezOznake = 0;
+    for (const l of listings) {
+      const izv = l.izvori || [];
+      if (!izv.length) { bezOznake++; continue; }
+      if (izv.length > 1) viseP++;
+      for (const s of izv) {
+        po[s] = po[s] || { ukupno: 0, samo: 0 };
+        po[s].ukupno++;
+        if (izv.length === 1) po[s].samo++;
+      }
+    }
+    const red = Object.entries(po).sort((a, b) => b[1].ukupno - a[1].ukupno);
+    return { red, viseP, bezOznake, ukupno: listings.length };
+  }, [listings]);
+
+  if (!st.red.length) return null;
+  const max = Math.max(...st.red.map(([, v]) => v.ukupno), 1);
+  const boje = { halo: "#2563eb", "4zida": "#16a34a", nadjidom: "#d97706" };
+  const pct = n => (st.ukupno ? Math.round(100 * n / st.ukupno) : 0);
+
+  return (
+    <div style={{
+      background: T.surface, border: `1px solid ${T.border}`, borderRadius: 10,
+      padding: "18px 20px", marginBottom: 24, boxShadow: "0 1px 3px rgba(0,0,0,.06)",
+    }}>
+      <div style={{display:"flex",justifyContent:"space-between",alignItems:"baseline",
+        flexWrap:"wrap",gap:8,marginBottom:14}}>
+        <div style={{fontSize:10,fontWeight:600,color:T.muted,letterSpacing:".6px",
+          textTransform:"uppercase"}}>Oglasi po portalu</div>
+        <div style={{fontSize:11,color:T.muted}}>
+          {st.ukupno} jedinstvenih oglasa · {st.viseP} na više portala ({pct(st.viseP)}%)
+          {st.bezOznake > 0 && ` · ${st.bezOznake} bez oznake izvora`}
+        </div>
+      </div>
+
+      {st.red.map(([id, v]) => (
+        <div key={id} style={{marginBottom:11}}>
+          <div style={{display:"flex",justifyContent:"space-between",alignItems:"baseline",
+            gap:10,fontSize:12,marginBottom:5}}>
+            <span style={{fontWeight:600,color:T.text}}>{srcLabel(id)}</span>
+            <span style={{color:T.muted,textAlign:"right"}}>
+              <b style={{color:T.text,fontSize:14}}>{v.ukupno}</b>
+              {` oglasa · ${pct(v.ukupno)}% pokrivenosti · `}
+              <b style={{color: v.samo ? (boje[id] || T.text) : T.muted}}>{v.samo}</b>
+              {" samo ovde"}
+            </span>
+          </div>
+          <div style={{height:8,borderRadius:4,background:"#eef2f7",display:"flex",
+            overflow:"hidden"}}>
+            <div style={{width:`${100 * v.samo / max}%`,
+              background: boje[id] || T.navy}} />
+            <div style={{width:`${100 * (v.ukupno - v.samo) / max}%`,
+              background: boje[id] || T.navy, opacity:.32}} />
+          </div>
+        </div>
+      ))}
+
+      <div style={{fontSize:10,color:T.muted,marginTop:10,lineHeight:1.5}}>
+        Puna boja — oglasi koje ima samo taj portal. Bleda — isti stan vidljiv i na
+        drugom portalu. Zbir po portalima je veći od broja oglasa upravo za ta
+        preklapanja.
+      </div>
+    </div>
+  );
+}
+
 function RangeBar({ color }) {
   return (
     <div style={{height:3,borderRadius:2,background:color,margin:"6px 0"}} />
@@ -647,6 +725,11 @@ export default function Dashboard() {
                 />
               )}
             </div>
+          )}
+
+          {/* ═══ PREGLED IZVORA — samo u spojenom prikazu ═══ */}
+          {source === "all" && tab !== "Agencije" && (
+            <IzvoriPregled listings={listings} />
           )}
 
           {/* ═══ SEGMENTACIJA — samo strukturne kartice ═══ */}
