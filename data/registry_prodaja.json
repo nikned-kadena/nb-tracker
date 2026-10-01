@@ -11174,9 +11174,9 @@
     "8607619777366369": {
       "uid": "8607619777366369",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-07",
-      "is_active": false,
-      "deactivated_at": "2026-09-09",
+      "last_seen": "2026-10-01",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "14d101c101e4f7b3",
       "fp_strict_all": [
         "37359a39a692a13f"
@@ -11200,8 +11200,15 @@
       "price_first": 389250.0,
       "price_current": 389250.0,
       "price_changes": [],
-      "days_listed": 19,
-      "cena_m2": 5190
+      "days_listed": 41,
+      "cena_m2": 5190,
+      "last_seen_src": {
+        "halo": "2026-10-01"
+      },
+      "fp_nosprat_all": [
+        "42278682e992d183"
+      ],
+      "fp_nosprat": "42278682e992d183"
     },
     "f91975317877a9af": {
       "uid": "f91975317877a9af",
@@ -12642,7 +12649,8 @@
       "price_first": 339000.0,
       "price_current": 339000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 6396
     },
     "30febe32aa0e170a": {
       "uid": "30febe32aa0e170a",
@@ -14857,7 +14865,7 @@
     "04e213f5f39c6815": {
       "uid": "04e213f5f39c6815",
       "first_seen": "2026-09-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "c931bf418130df6a",
@@ -14886,8 +14894,12 @@
       "days_listed": 22,
       "cena_m2": 5419,
       "last_seen_src": {
-        "halo": "2026-09-30"
-      }
+        "halo": "2026-10-01"
+      },
+      "fp_nosprat_all": [
+        "8b2261878b829bf6"
+      ],
+      "fp_nosprat": "8b2261878b829bf6"
     },
     "877dc77c97fc7852": {
       "uid": "877dc77c97fc7852",
@@ -20692,7 +20704,8 @@
       "price_first": 170000.0,
       "price_current": 170000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 6800
     },
     "6fbd7b36549683fd": {
       "uid": "6fbd7b36549683fd",
@@ -20733,7 +20746,8 @@
       "price_first": 325600.0,
       "price_current": 325600.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5009
     },
     "9dea5c86646a0505": {
       "uid": "9dea5c86646a0505",
@@ -20774,10 +20788,93 @@
       "price_first": 170000.0,
       "price_current": 170000.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 6538
+    },
+    "eee52dc458906ac1": {
+      "uid": "eee52dc458906ac1",
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "96a98bbc83bde424",
+      "fp_loose_all": [
+        "96a98bbc83bde424"
+      ],
+      "fp_nosprat": "76c20136eeb20785",
+      "fp_nosprat_all": [
+        "76c20136eeb20785"
+      ],
+      "fp_strict_all": [
+        "f29079c844d7b172"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-01"
+      },
+      "source_ids": {
+        "halo": "037f81b7874a"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-3-0-stan-dva-garazna-mesta-kompleks-zepte/5425647756645?kid=1"
+      ],
+      "zgrada": "Zepterra",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 112.0,
+      "sprat": null,
+      "agencija": "ARTOPOLIS369",
+      "naslov": "Lux 3.0 stan, dva garažna mesta, kompleks ZepTerra",
+      "price_first": 470400.0,
+      "price_current": 470400.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "39ca2a8e97bac9fe": {
+      "uid": "39ca2a8e97bac9fe",
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "ddb49dea790ef97c",
+      "fp_loose_all": [
+        "ddb49dea790ef97c"
+      ],
+      "fp_nosprat": "49b9ec9ce5b15a0f",
+      "fp_nosprat_all": [
+        "49b9ec9ce5b15a0f"
+      ],
+      "fp_strict_all": [
+        "43e4fa05c98c046f"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-01"
+      },
+      "source_ids": {
+        "halo": "d1b5eb0779ed"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novo-lux-airport-garden-2-0-56-m2-bez-pdv/5425646108405?kid=4"
+      ],
+      "zgrada": "Airport Garden",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 56.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Novo, Lux, Airport garden ,2.0, 56 m2, Bez PDV",
+      "price_first": 245000.0,
+      "price_current": 245000.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-01T04:01:47.916821+00:00",
+  "updated_at": "2026-10-01T10:23:03.721775+00:00",
   "last_run": {
     "4zida": "2026-09-30",
     "nadjidom": "2026-09-30",

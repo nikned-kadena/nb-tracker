@@ -21462,7 +21462,7 @@
         "4zida"
       ],
       "source_ids": {
-        "halo": "dab1ec9013aa",
+        "halo": "bf6727b04256",
         "4zida": "4zida:6aa114165fb1a364080e68bb"
       },
       "source_urls": [
@@ -24007,7 +24007,7 @@
     "7408c70bfff9e5f3": {
       "uid": "7408c70bfff9e5f3",
       "first_seen": "2026-09-25",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e6b3f456cb1f2a82",
@@ -24032,14 +24032,14 @@
       "m2": 105.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Četvorosoban stan za izdavanje, WELLPORT, 2.100€, 105m²",
+      "naslov": "Novi Beograd - Wellport kula #69124",
       "price_first": 2100.0,
       "price_current": 2100.0,
       "price_changes": [],
       "days_listed": 6,
       "cena_m2": 20,
       "last_seen_src": {
-        "halo": "2026-09-30",
+        "halo": "2026-10-01",
         "4zida": "2026-09-30"
       },
       "fp_nosprat_all": [
@@ -26779,10 +26779,93 @@
       "price_first": 850.0,
       "price_current": 850.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 15
+    },
+    "760e2ad8d80981ab": {
+      "uid": "760e2ad8d80981ab",
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "2dcd3414408f3594",
+      "fp_loose_all": [
+        "2dcd3414408f3594"
+      ],
+      "fp_nosprat": "1daffaea554e789e",
+      "fp_nosprat_all": [
+        "1daffaea554e789e"
+      ],
+      "fp_strict_all": [
+        "c6c75b294e2edba0"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-01"
+      },
+      "source_ids": {
+        "halo": "ac1e3d555d60"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-lux-2-0-stan--kennedy-residence/5425646381809?kid=4"
+      ],
+      "zgrada": "Kennedy Residence",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 60.0,
+      "sprat": null,
+      "agencija": "bg-immobilien",
+      "naslov": "Nov Lux 2.0 stan- Kennedy Residence",
+      "price_first": 1200.0,
+      "price_current": 1200.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "05ad0d8892c0cbb7": {
+      "uid": "05ad0d8892c0cbb7",
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "2ff150a9be97eb03",
+      "fp_loose_all": [
+        "2ff150a9be97eb03"
+      ],
+      "fp_nosprat": "4a571949a042e1ae",
+      "fp_nosprat_all": [
+        "4a571949a042e1ae"
+      ],
+      "fp_strict_all": [
+        "450b3711d38440d5"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-01"
+      },
+      "source_ids": {
+        "halo": "9108be766b67"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd-belvil-62m2-garaza-id3353/5425647756625"
+      ],
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 62.0,
+      "sprat": null,
+      "agencija": "m-real-estate",
+      "naslov": "Novi Beograd-Belvil-62m2-Garaža ID#3353",
+      "price_first": 800.0,
+      "price_current": 800.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-01T04:02:25.129738+00:00",
+  "updated_at": "2026-10-01T10:25:08.432903+00:00",
   "last_run": {
     "4zida": "2026-09-30",
     "nadjidom": "2026-09-30",

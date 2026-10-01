@@ -3,15 +3,17 @@
   "source": "all",
   "date": "2026-10-01",
   "scraped_at": "2026-10-01",
-  "total_raw": 262,
-  "total_unique": 217,
-  "total_dups": 45,
+  "total_raw": 265,
+  "total_unique": 218,
+  "total_dups": 47,
   "diff_new": [
     "9698a544dae10127",
     "aa1d322206c8befb",
     "6d57e7d6a0ecd161",
     "6fbd7b36549683fd",
-    "9dea5c86646a0505"
+    "9dea5c86646a0505",
+    "eee52dc458906ac1",
+    "39ca2a8e97bac9fe"
   ],
   "diff_removed": [
     "8b0b2fa52ef11567",
@@ -2344,6 +2346,28 @@
       "dedup_key": "Airport Garden|84.0|305000.0"
     },
     {
+      "id": "8607619777366369",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-trosobnog-stana-u-soul-64-parking-mes/5425646821464?kid=4",
+      "naslov": "Prodaja trosobnog stana u Soul 64, parking mesto",
+      "zgrada": "Soul 64",
+      "agencija": "divis-nekretnine",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 75.0,
+      "cena": 389250.0,
+      "cena_m2": 5190,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 41,
+      "prva_cena": 389250.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-10-01",
+      "dedup_key": "Soul 64|75.0|389250.0"
+    },
+    {
       "id": "7bc63ec895a9e979",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-airport-garden-djordja-stanojevi/5425647429062?kid=1",
       "naslov": "Novi Beograd, Airport garden, Đorđa Stanojevića ID",
@@ -3286,7 +3310,7 @@
       "prva_cena": 569000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "West 65 Kula|105.0|569000.0"
     },
     {
@@ -5910,6 +5934,50 @@
       "first_seen": "2026-10-01",
       "last_seen": "2026-10-01",
       "dedup_key": "New Minel|26.0|170000.0"
+    },
+    {
+      "id": "eee52dc458906ac1",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-3-0-stan-dva-garazna-mesta-kompleks-zepte/5425647756645?kid=1",
+      "naslov": "Lux 3.0 stan, dva garažna mesta, kompleks ZepTerra",
+      "zgrada": "Zepterra",
+      "agencija": "ARTOPOLIS369",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 112.0,
+      "cena": 470400.0,
+      "cena_m2": 4200,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 470400.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "dedup_key": "Zepterra|112.0|470400.0"
+    },
+    {
+      "id": "39ca2a8e97bac9fe",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novo-lux-airport-garden-2-0-56-m2-bez-pdv/5425646108405?kid=4",
+      "naslov": "Novo, Lux, Airport garden ,2.0, 56 m2, Bez PDV",
+      "zgrada": "Airport Garden",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 56.0,
+      "cena": 245000.0,
+      "cena_m2": 4375,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 245000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "dedup_key": "Airport Garden|56.0|245000.0"
     }
   ]
 }

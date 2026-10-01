@@ -3,11 +3,13 @@
   "source": "all",
   "date": "2026-10-01",
   "scraped_at": "2026-10-01",
-  "total_raw": 171,
-  "total_unique": 147,
-  "total_dups": 24,
+  "total_raw": 173,
+  "total_unique": 148,
+  "total_dups": 25,
   "diff_new": [
-    "33db780d75605486"
+    "33db780d75605486",
+    "760e2ad8d80981ab",
+    "05ad0d8892c0cbb7"
   ],
   "diff_removed": [
     "0370ba84b7c1814b",
@@ -2401,7 +2403,7 @@
     {
       "id": "7408c70bfff9e5f3",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-kula-69124/5425647724731?kid=4",
-      "naslov": "Četvorosoban stan za izdavanje, WELLPORT, 2.100€, 105m²",
+      "naslov": "Novi Beograd - Wellport kula #69124",
       "zgrada": "Wellport",
       "agencija": "beostan",
       "struktura": "4.0",
@@ -2418,7 +2420,7 @@
       "prva_cena": 2100.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-25",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-01",
       "dedup_key": "Wellport|105.0|2100.0"
     },
     {
@@ -3856,6 +3858,50 @@
       "first_seen": "2026-10-01",
       "last_seen": "2026-10-01",
       "dedup_key": "New Minel|55.0|850.0"
+    },
+    {
+      "id": "760e2ad8d80981ab",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-lux-2-0-stan--kennedy-residence/5425646381809?kid=4",
+      "naslov": "Nov Lux 2.0 stan- Kennedy Residence",
+      "zgrada": "Kennedy Residence",
+      "agencija": "bg-immobilien",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 60.0,
+      "cena": 1200.0,
+      "cena_m2": 20,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1200.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "dedup_key": "Kennedy Residence|60.0|1200.0"
+    },
+    {
+      "id": "05ad0d8892c0cbb7",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd-belvil-62m2-garaza-id3353/5425647756625",
+      "naslov": "Novi Beograd-Belvil-62m2-Garaža ID#3353",
+      "zgrada": "Belvil",
+      "agencija": "m-real-estate",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 62.0,
+      "cena": 800.0,
+      "cena_m2": 13,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 800.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-10-01",
+      "dedup_key": "Belvil|62.0|800.0"
     }
   ]
 }
