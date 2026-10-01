@@ -1,29 +1,20 @@
 {
   "mode": "renta",
   "source": "nadjidom",
-  "date": "2026-09-30",
-  "scraped_at": "2026-09-30",
+  "date": "2026-10-01",
+  "scraped_at": "2026-10-01",
   "total_raw": 25,
   "total_unique": 25,
   "total_dups": 0,
-  "diff_new": [
-    "ae55e968df22b226",
-    "d204de3bf8b8f9e8",
-    "f3068c8f57256b40",
-    "cbf2c3c1ba91cffa",
-    "ad5b2ad1ab0474ba",
-    "fb5baa1207edc3a5",
-    "31e7d466d29f909c",
-    "95674d42abb6f579"
-  ],
+  "diff_new": [],
   "diff_removed": [],
   "listings": [
     {
       "id": "4758a063e1411dc8",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd-blok-a-168m2-2-g-mesta-id31019/5425646703133?kid=1",
-      "naslov": "Luksuzan, namešten, 2 garažna mesta ID#8971",
+      "naslov": "Novi Beograd, Blok A, 168m2 + 2 g. mesta ID#31019",
       "zgrada": "A Blok",
-      "agencija": "EUROPOLIS NEKRETNINE ",
+      "agencija": "atase-nekretnine-d-o-o",
       "struktura": "4.0",
       "str_label": null,
       "m2": 168.0,
@@ -35,11 +26,12 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 90,
+      "dana_na_trzistu": 91,
       "prva_cena": 3000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-10-01",
+      "dedup_key": "A Blok|168.0|3000.0"
     },
     {
       "id": "45ecaf62a2bca085",
@@ -57,11 +49,12 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 90,
+      "dana_na_trzistu": 91,
       "prva_cena": 950.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "Belvil|62.0|950.0"
     },
     {
       "id": "1e3d0eac73cbd9da",
@@ -79,11 +72,12 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 90,
+      "dana_na_trzistu": 91,
       "prva_cena": 900.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "Airport Garden|55.0|900.0"
     },
     {
       "id": "177fa01460b56541",
@@ -101,18 +95,19 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 90,
+      "dana_na_trzistu": 91,
       "prva_cena": 1200.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "Soul 64|54.0|1200.0"
     },
     {
       "id": "7c303dfeb1978af0",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd-a-blok-147-m2/5425647359625",
       "naslov": "Novi Beograd, A Blok, 147 m2",
       "zgrada": "A Blok",
-      "agencija": "Leverage nekretnine doo ",
+      "agencija": "Leverage",
       "struktura": "3.0",
       "str_label": null,
       "m2": 147.0,
@@ -124,11 +119,12 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 88,
+      "dana_na_trzistu": 89,
       "prva_cena": 4500.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-04",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-10-01",
+      "dedup_key": "A Blok|147.0|4500.0"
     },
     {
       "id": "6a51c9adacd86a43",
@@ -147,11 +143,12 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 63,
+      "dana_na_trzistu": 64,
       "prva_cena": 1200.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "West 65|61.0|1200.0"
     },
     {
       "id": "b4442c78817918eb",
@@ -170,11 +167,12 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 63,
+      "dana_na_trzistu": 64,
       "prva_cena": 680.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "New Minel|45.0|680.0"
     },
     {
       "id": "6c64183ebb1231a7",
@@ -192,11 +190,12 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 40,
+      "dana_na_trzistu": 41,
       "prva_cena": 1000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "West 65|63.0|1000.0"
     },
     {
       "id": "f52c9e31d360c1d0",
@@ -214,11 +213,12 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 40,
+      "dana_na_trzistu": 41,
       "prva_cena": 900.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "Lastavica|46.0|900.0"
     },
     {
       "id": "3a852d22de56bc76",
@@ -236,11 +236,12 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 40,
+      "dana_na_trzistu": 41,
       "prva_cena": 2000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "The One|121.0|2000.0"
     },
     {
       "id": "08cd65d7dc57c791",
@@ -259,11 +260,12 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 3600.0,
       "promena_cene_pct": -8.3,
       "first_seen": "2026-08-22",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "West 65|205.0|3300.0"
     },
     {
       "id": "2b9edd7d5184062f",
@@ -282,18 +284,19 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 33,
+      "dana_na_trzistu": 34,
       "prva_cena": 2100.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-28",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "Wellport|106.0|2100.0"
     },
     {
       "id": "1faff5c692bda5fd",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/elixir-garden-4-0-130m2-v-sredjen-i-opremljen/5425647626791?kid=1",
       "naslov": "Elixir garden, 4,0, 130m2, V, sređen i opremljen",
       "zgrada": "Elixir Garden",
-      "agencija": "Profitim nekretnine ",
+      "agencija": "profitim",
       "struktura": "4.0",
       "str_label": null,
       "m2": 132.0,
@@ -305,11 +308,12 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 25,
+      "dana_na_trzistu": 26,
       "prva_cena": 1900.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-10-01",
+      "dedup_key": "Elixir Garden|132.0|1900.0"
     },
     {
       "id": "2e9e8faac1adecf4",
@@ -327,18 +331,19 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 24,
+      "dana_na_trzistu": 25,
       "prva_cena": 1250.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "Airport Garden|71.0|1250.0"
     },
     {
       "id": "e3bdc62ba34fa5aa",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65---lux-penthaus/5425647646062?kid=4",
       "naslov": "West 65 - Lux penthaus",
       "zgrada": "West 65",
-      "agencija": "Benefit nekretnine ",
+      "agencija": "Benefit",
       "struktura": "4.0",
       "str_label": null,
       "m2": 194.0,
@@ -349,11 +354,12 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 21,
+      "dana_na_trzistu": 22,
       "prva_cena": 2900.0,
       "promena_cene_pct": -6.9,
       "first_seen": "2026-09-09",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-10-01",
+      "dedup_key": "West 65|194.0|2700.0"
     },
     {
       "id": "dafc5f669061b35e",
@@ -372,16 +378,17 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1650.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-19",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "Wellport|105.0|1650.0"
     },
     {
       "id": "88f13afd0b5514d8",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/dvosoban-stan-za-izdavanje-airport-garden/5425647710872?kid=1",
-      "naslov": "Novi Beograd, Tošin bunar, Airport Garden Djordja Stanojevića, 2.0, 56m2, 900EUR",
+      "naslov": "Dvosoban stan za izdavanje, Airport Garden",
       "zgrada": "Airport Garden",
       "agencija": "BEOCITY NEKRETNINE ",
       "struktura": "2.0",
@@ -395,18 +402,19 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 8,
+      "dana_na_trzistu": 9,
       "prva_cena": 900.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-22",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-10-01",
+      "dedup_key": "Airport Garden|56.0|900.0"
     },
     {
       "id": "ae55e968df22b226",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---belville-69211/5425647754229?kid=1",
-      "naslov": "Luksuzan dvosoban stan-Belville, Jurija Gagarina ID#3906",
+      "naslov": "Luksuzan dvosoban stan-Belville, Jurija Gagarina I",
       "zgrada": "Belvil",
-      "agencija": "BG HOME real estate ",
+      "agencija": "BGHOME",
       "struktura": "2.0",
       "str_label": null,
       "m2": 69.0,
@@ -418,11 +426,12 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1200.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-10-01",
+      "dedup_key": "Belvil|69.0|1200.0"
     },
     {
       "id": "d204de3bf8b8f9e8",
@@ -439,11 +448,12 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 680,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "Airport Garden|39.0|680"
     },
     {
       "id": "f3068c8f57256b40",
@@ -460,11 +470,12 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1100,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "A Blok|80.0|1100"
     },
     {
       "id": "cbf2c3c1ba91cffa",
@@ -481,11 +492,12 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "Savada|37.0|800"
     },
     {
       "id": "ad5b2ad1ab0474ba",
@@ -502,11 +514,12 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 2400,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "West 65|112.0|2400"
     },
     {
       "id": "fb5baa1207edc3a5",
@@ -523,11 +536,12 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "A Blok|56.0|1000"
     },
     {
       "id": "31e7d466d29f909c",
@@ -544,11 +558,12 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "West 65 Kula|60.0|2000"
     },
     {
       "id": "95674d42abb6f579",
@@ -565,11 +580,12 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 780,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30"
+      "last_seen": "2026-09-30",
+      "dedup_key": "A Blok|38.0|780"
     }
   ]
 }
