@@ -1408,14 +1408,14 @@
     {
       "id": "1bde269c2c6482dd",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/new-minel---novogradnja---3-0---2-garazna-mes/5425647454691?kid=3",
-      "naslov": "Trosoban stan na prodaju, Tošin Bunar, 265.000€, 65m²",
+      "naslov": "New Minel - novogradnja - 3.0 - 2 garažna mesta",
       "zgrada": "New Minel",
       "agencija": null,
       "struktura": "3.0",
       "str_label": null,
       "m2": 65.0,
-      "cena": 265000.0,
-      "cena_m2": 4077,
+      "cena": 255000.0,
+      "cena_m2": 3923,
       "sprat": null,
       "izvori": [
         "halo",
@@ -1423,10 +1423,10 @@
       ],
       "dana_na_trzistu": 38,
       "prva_cena": 265000.0,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -3.8,
       "first_seen": "2026-08-25",
-      "last_seen": "2026-09-30",
-      "dedup_key": "New Minel|65.0|265000.0"
+      "last_seen": "2026-10-02",
+      "dedup_key": "New Minel|65.0|255000.0"
     },
     {
       "id": "80da466c4a018826",
@@ -2760,9 +2760,9 @@
     {
       "id": "fc5f710841555246",
       "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6a3285f9c5da39cc4e04b91d",
-      "naslov": "Trosoban stan na prodaju, Tadije Sondermajera, 430.000€, 107m²",
+      "naslov": "ZepTerra - 107kvm ",
       "zgrada": "Zepterra",
-      "agencija": null,
+      "agencija": "angazman.partner",
       "struktura": "3.0",
       "str_label": "Trosoban",
       "m2": 107.0,
@@ -2770,13 +2770,14 @@
       "cena_m2": 4019,
       "sprat": null,
       "izvori": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "dana_na_trzistu": 2,
       "prva_cena": 430000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-02",
       "dedup_key": "Zepterra|107.0|430000"
     }
   ]

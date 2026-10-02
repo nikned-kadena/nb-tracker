@@ -13353,12 +13353,13 @@
     "1bde269c2c6482dd": {
       "uid": "1bde269c2c6482dd",
       "first_seen": "2026-08-25",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-02",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "4a655d6a16aeb59b",
       "fp_strict_all": [
-        "b57e452f291021d0"
+        "b57e452f291021d0",
+        "37bde92899cc3464"
       ],
       "sources": [
         "halo",
@@ -13378,14 +13379,20 @@
       "m2": 65.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Trosoban stan na prodaju, Tošin Bunar, 265.000€, 65m²",
+      "naslov": "New Minel - novogradnja - 3.0 - 2 garažna mesta",
       "price_first": 265000.0,
-      "price_current": 265000.0,
-      "price_changes": [],
+      "price_current": 255000.0,
+      "price_changes": [
+        {
+          "date": "2026-10-02",
+          "from": 265000.0,
+          "to": 255000.0
+        }
+      ],
       "days_listed": 38,
-      "cena_m2": 4077,
+      "cena_m2": 3923,
       "last_seen_src": {
-        "halo": "2026-09-30",
+        "halo": "2026-10-02",
         "4zida": "2026-09-30"
       },
       "fp_nosprat_all": [
@@ -14797,9 +14804,9 @@
     "cdb912ec048a9b32": {
       "uid": "cdb912ec048a9b32",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-08",
-      "is_active": false,
-      "deactivated_at": "2026-09-10",
+      "last_seen": "2026-10-02",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "4058e97c49daf415",
       "fp_strict_all": [
         "db800a9d547d7393"
@@ -14823,8 +14830,15 @@
       "price_first": 399000.0,
       "price_current": 399000.0,
       "price_changes": [],
-      "days_listed": 4,
-      "cena_m2": 3764
+      "days_listed": 26,
+      "cena_m2": 3764,
+      "last_seen_src": {
+        "halo": "2026-10-02"
+      },
+      "fp_nosprat_all": [
+        "d2beffb2f3d12a3c"
+      ],
+      "fp_nosprat": "d2beffb2f3d12a3c"
     },
     "2f178935228030ac": {
       "uid": "2f178935228030ac",
@@ -20521,7 +20535,7 @@
     "fc5f710841555246": {
       "uid": "fc5f710841555246",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-02",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "20b3e452d794a8fa",
@@ -20536,28 +20550,33 @@
         "f67755443b3b8583"
       ],
       "sources": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-09-30",
+        "halo": "2026-10-02"
       },
       "source_ids": {
-        "4zida": "4zida:6a3285f9c5da39cc4e04b91d"
+        "4zida": "4zida:6a3285f9c5da39cc4e04b91d",
+        "halo": "5d5b51fec3bd"
       },
       "source_urls": [
-        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6a3285f9c5da39cc4e04b91d"
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6a3285f9c5da39cc4e04b91d",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/zepterra---107kvm/5425647759747?kid=1"
       ],
       "zgrada": "Zepterra",
       "struktura": "3.0",
       "str_label": "Trosoban",
       "m2": 107.0,
       "sprat": null,
-      "agencija": null,
-      "naslov": "Trosoban stan na prodaju, Tadije Sondermajera, 430.000€, 107m²",
+      "agencija": "angazman.partner",
+      "naslov": "ZepTerra - 107kvm ",
       "price_first": 430000,
       "price_current": 430000,
       "price_changes": [],
-      "days_listed": 2
+      "days_listed": 2,
+      "cena_m2": 4019
     },
     "a0861e032e6cdb9e": {
       "uid": "a0861e032e6cdb9e",
@@ -20973,7 +20992,8 @@
       "price_first": 279500.0,
       "price_current": 279500.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4737
     },
     "782bcf284620b178": {
       "uid": "782bcf284620b178",
@@ -21014,7 +21034,8 @@
       "price_first": 389000.0,
       "price_current": 389000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5221
     },
     "5f12e0b31c8822f0": {
       "uid": "5f12e0b31c8822f0",
@@ -21055,7 +21076,8 @@
       "price_first": 776000.0,
       "price_current": 776000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4592
     },
     "3f13703e2f53d68d": {
       "uid": "3f13703e2f53d68d",
@@ -21137,7 +21159,8 @@
       "price_first": 225000.0,
       "price_current": 225000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4592
     },
     "156aad0e7e10ba87": {
       "uid": "156aad0e7e10ba87",
@@ -21178,10 +21201,52 @@
       "price_first": 285000.0,
       "price_current": 285000.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 5089
+    },
+    "d1f8f32d0a08914d": {
+      "uid": "d1f8f32d0a08914d",
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "83902105c444acc0",
+      "fp_loose_all": [
+        "83902105c444acc0"
+      ],
+      "fp_nosprat": "91df0fe43d4d7ed8",
+      "fp_nosprat_all": [
+        "91df0fe43d4d7ed8"
+      ],
+      "fp_strict_all": [
+        "e0861c316026f999"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-02"
+      },
+      "source_ids": {
+        "halo": "9e040d98516e"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-bevil-61-m2-izuzetan-uknjizen-st/5425647765103?kid=4"
+      ],
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 61.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Novi Beograd, Bevil, 61 m2 izuzetan uknjižen stan",
+      "price_first": 239000.0,
+      "price_current": 239000.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-02T04:01:41.786534+00:00",
+  "updated_at": "2026-10-02T09:59:00.046746+00:00",
   "last_run": {
     "4zida": "2026-09-30",
     "nadjidom": "2026-09-30",

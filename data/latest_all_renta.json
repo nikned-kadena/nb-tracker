@@ -3,16 +3,18 @@
   "source": "all",
   "date": "2026-10-02",
   "scraped_at": "2026-10-02",
-  "total_raw": 176,
-  "total_unique": 151,
-  "total_dups": 25,
+  "total_raw": 179,
+  "total_unique": 152,
+  "total_dups": 27,
   "diff_new": [
     "567ecffd3bd30520",
     "da9aa3f5f78e08b2",
     "d2fbdf2c020c3ab8",
     "88c71b2e5ea930b8",
     "2d043d3f4c87d0c9",
-    "ed0a8b87a3db08a4"
+    "ed0a8b87a3db08a4",
+    "588e3c2a7d16bc52",
+    "a16c1cb175a22316"
   ],
   "diff_removed": [
     "0840da1d5ee5d559",
@@ -1923,6 +1925,28 @@
       "first_seen": "2026-09-19",
       "last_seen": "2026-09-30",
       "dedup_key": "Wellport|105.0|1650.0"
+    },
+    {
+      "id": "5cf507dde41c4f39",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65-izdavanje-luksuznog-stana-sa-parkingo/5425647690622?kid=3",
+      "naslov": "West 65 izdavanje luksuznog stana sa parkingom",
+      "zgrada": "West 65",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 205.0,
+      "cena": 3300.0,
+      "cena_m2": 16,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 13,
+      "prva_cena": 3300.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-10-02",
+      "dedup_key": "West 65|205.0|3300.0"
     },
     {
       "id": "f0a72725c1ee4121",
@@ -3960,6 +3984,50 @@
       "first_seen": "2026-10-02",
       "last_seen": "2026-10-02",
       "dedup_key": "Belvil|68.0|1200.0"
+    },
+    {
+      "id": "588e3c2a7d16bc52",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/zepterra-namesten-garaza-lux-id-25873/5425647764907?kid=4",
+      "naslov": "Zepterra, namešten, garaža, lux, ID 25873",
+      "zgrada": "Zepterra",
+      "agencija": "eminent-nekretnine",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 70.0,
+      "cena": 1400.0,
+      "cena_m2": 20,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1400.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02",
+      "dedup_key": "Zepterra|70.0|1400.0"
+    },
+    {
+      "id": "a16c1cb175a22316",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/izdaje-se-lux-dvosoban-stan-u-naselju-lux-51/5425647763588?kid=4",
+      "naslov": "Izdaje se lux dvosoban stan u naselju Lux 51",
+      "zgrada": "Lux 51",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 50.0,
+      "cena": 1100.0,
+      "cena_m2": 22,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1100.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02",
+      "dedup_key": "Lux 51|50.0|1100.0"
     }
   ]
 }

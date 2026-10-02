@@ -22886,9 +22886,9 @@
     "5cf507dde41c4f39": {
       "uid": "5cf507dde41c4f39",
       "first_seen": "2026-09-19",
-      "last_seen": "2026-09-26",
-      "is_active": false,
-      "deactivated_at": "2026-09-28",
+      "last_seen": "2026-10-02",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "70b6f77e9b4878a5",
       "fp_strict_all": [
         "cf728920883d8a0c"
@@ -22912,8 +22912,15 @@
       "price_first": 3300.0,
       "price_current": 3300.0,
       "price_changes": [],
-      "days_listed": 9,
-      "cena_m2": 16
+      "days_listed": 13,
+      "cena_m2": 16,
+      "last_seen_src": {
+        "halo": "2026-10-02"
+      },
+      "fp_nosprat_all": [
+        "cc4ff238f33c92ae"
+      ],
+      "fp_nosprat": "cc4ff238f33c92ae"
     },
     "a1d3fc4c5c20cf79": {
       "uid": "a1d3fc4c5c20cf79",
@@ -26908,7 +26915,8 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 16
     },
     "da9aa3f5f78e08b2": {
       "uid": "da9aa3f5f78e08b2",
@@ -26949,7 +26957,8 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 18
     },
     "d2fbdf2c020c3ab8": {
       "uid": "d2fbdf2c020c3ab8",
@@ -27031,7 +27040,8 @@
       "price_first": 1150.0,
       "price_current": 1150.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 19
     },
     "2d043d3f4c87d0c9": {
       "uid": "2d043d3f4c87d0c9",
@@ -27072,7 +27082,8 @@
       "price_first": 2000.0,
       "price_current": 2000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 36
     },
     "ed0a8b87a3db08a4": {
       "uid": "ed0a8b87a3db08a4",
@@ -27113,10 +27124,93 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 18
+    },
+    "588e3c2a7d16bc52": {
+      "uid": "588e3c2a7d16bc52",
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "26e886062439b033",
+      "fp_loose_all": [
+        "26e886062439b033"
+      ],
+      "fp_nosprat": "539007f6d4401e13",
+      "fp_nosprat_all": [
+        "539007f6d4401e13"
+      ],
+      "fp_strict_all": [
+        "402db2bfb05fc12a"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-02"
+      },
+      "source_ids": {
+        "halo": "6c665f47e686"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/zepterra-namesten-garaza-lux-id-25873/5425647764907?kid=4"
+      ],
+      "zgrada": "Zepterra",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 70.0,
+      "sprat": null,
+      "agencija": "eminent-nekretnine",
+      "naslov": "Zepterra, namešten, garaža, lux, ID 25873",
+      "price_first": 1400.0,
+      "price_current": 1400.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "a16c1cb175a22316": {
+      "uid": "a16c1cb175a22316",
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "36d72500fc1047a8",
+      "fp_loose_all": [
+        "36d72500fc1047a8"
+      ],
+      "fp_nosprat": "dd2af5ed78656a10",
+      "fp_nosprat_all": [
+        "dd2af5ed78656a10"
+      ],
+      "fp_strict_all": [
+        "cad5ffad3f6e2455"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-02"
+      },
+      "source_ids": {
+        "halo": "a177d5794b41"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/izdaje-se-lux-dvosoban-stan-u-naselju-lux-51/5425647763588?kid=4"
+      ],
+      "zgrada": "Lux 51",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 50.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Izdaje se lux dvosoban stan u naselju Lux 51",
+      "price_first": 1100.0,
+      "price_current": 1100.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-02T04:02:18.296283+00:00",
+  "updated_at": "2026-10-02T09:59:39.812860+00:00",
   "last_run": {
     "4zida": "2026-09-30",
     "nadjidom": "2026-09-30",

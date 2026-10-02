@@ -3,8 +3,8 @@
   "source": "all",
   "date": "2026-10-02",
   "scraped_at": "2026-10-02",
-  "total_raw": 271,
-  "total_unique": 219,
+  "total_raw": 273,
+  "total_unique": 221,
   "total_dups": 52,
   "diff_new": [
     "bc0c1109d2ac1d5e",
@@ -12,7 +12,8 @@
     "5f12e0b31c8822f0",
     "3f13703e2f53d68d",
     "8422e7bc7706132b",
-    "156aad0e7e10ba87"
+    "156aad0e7e10ba87",
+    "d1f8f32d0a08914d"
   ],
   "diff_removed": [
     "28312f012b463cd0",
@@ -2926,14 +2927,14 @@
     {
       "id": "1bde269c2c6482dd",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/new-minel---novogradnja---3-0---2-garazna-mes/5425647454691?kid=3",
-      "naslov": "Trosoban stan na prodaju, Tošin Bunar, 265.000€, 65m²",
+      "naslov": "New Minel - novogradnja - 3.0 - 2 garažna mesta",
       "zgrada": "New Minel",
       "agencija": null,
       "struktura": "3.0",
       "str_label": null,
       "m2": 65.0,
-      "cena": 265000.0,
-      "cena_m2": 4077,
+      "cena": 255000.0,
+      "cena_m2": 3923,
       "sprat": null,
       "izvori": [
         "halo",
@@ -2941,10 +2942,10 @@
       ],
       "dana_na_trzistu": 38,
       "prva_cena": 265000.0,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -3.8,
       "first_seen": "2026-08-25",
-      "last_seen": "2026-09-30",
-      "dedup_key": "New Minel|65.0|265000.0"
+      "last_seen": "2026-10-02",
+      "dedup_key": "New Minel|65.0|255000.0"
     },
     {
       "id": "80da466c4a018826",
@@ -3302,6 +3303,28 @@
       "first_seen": "2026-09-04",
       "last_seen": "2026-10-02",
       "dedup_key": "Zepterra|120.0|478000.0"
+    },
+    {
+      "id": "cdb912ec048a9b32",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaje-se-lux-stan---belvil-novi-beograd/5425647487073?kid=1",
+      "naslov": "Prodaje se lux stan - Belvil, Novi Beograd",
+      "zgrada": "Belvil",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 106.0,
+      "cena": 399000.0,
+      "cena_m2": 3764,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 26,
+      "prva_cena": 399000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-06",
+      "last_seen": "2026-10-02",
+      "dedup_key": "Belvil|106.0|399000.0"
     },
     {
       "id": "2f178935228030ac",
@@ -5755,9 +5778,9 @@
     {
       "id": "fc5f710841555246",
       "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6a3285f9c5da39cc4e04b91d",
-      "naslov": "Trosoban stan na prodaju, Tadije Sondermajera, 430.000€, 107m²",
+      "naslov": "ZepTerra - 107kvm ",
       "zgrada": "Zepterra",
-      "agencija": null,
+      "agencija": "angazman.partner",
       "struktura": "3.0",
       "str_label": "Trosoban",
       "m2": 107.0,
@@ -5765,13 +5788,14 @@
       "cena_m2": 4019,
       "sprat": null,
       "izvori": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "dana_na_trzistu": 2,
       "prva_cena": 430000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-02",
       "dedup_key": "Zepterra|107.0|430000"
     },
     {
@@ -6103,6 +6127,28 @@
       "first_seen": "2026-10-02",
       "last_seen": "2026-10-02",
       "dedup_key": "New Minel|56.0|285000.0"
+    },
+    {
+      "id": "d1f8f32d0a08914d",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-bevil-61-m2-izuzetan-uknjizen-st/5425647765103?kid=4",
+      "naslov": "Novi Beograd, Bevil, 61 m2 izuzetan uknjižen stan",
+      "zgrada": "Belvil",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 61.0,
+      "cena": 239000.0,
+      "cena_m2": 3918,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 239000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-02",
+      "last_seen": "2026-10-02",
+      "dedup_key": "Belvil|61.0|239000.0"
     }
   ]
 }
