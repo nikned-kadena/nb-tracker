@@ -3,13 +3,15 @@
   "source": "all",
   "date": "2026-10-03",
   "scraped_at": "2026-10-03",
-  "total_raw": 177,
+  "total_raw": 179,
   "total_unique": 152,
-  "total_dups": 25,
+  "total_dups": 27,
   "diff_new": [
     "8300b32e861d8d24",
     "43da7530f989175f",
-    "f91a80703f407491"
+    "f91a80703f407491",
+    "eed8fbc4acc6a0af",
+    "a35e34e62194efe1"
   ],
   "diff_removed": [
     "fb9caa046e44c605",
@@ -2412,7 +2414,7 @@
       "prva_cena": 800.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-26",
-      "last_seen": "2026-10-02",
+      "last_seen": "2026-10-03",
       "dedup_key": "Elixir Garden|62.0|800.0"
     },
     {
@@ -3982,6 +3984,50 @@
       "first_seen": "2026-10-03",
       "last_seen": "2026-10-03",
       "dedup_key": "Belvil|52.0|800.0"
+    },
+    {
+      "id": "eed8fbc4acc6a0af",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/belville---3-0-s-68-m2-luksuzno-uredjen/5425647245805?kid=4",
+      "naslov": "Belville - 3,0 s, 68 m2, luksuzno uredjen",
+      "zgrada": "Belvil",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 68.0,
+      "cena": 1000.0,
+      "cena_m2": 15,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03",
+      "dedup_key": "Belvil|68.0|1000.0"
+    },
+    {
+      "id": "a35e34e62194efe1",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul-64-premium-odmah-useljiv-id4977/5425647758860?kid=4",
+      "naslov": "Soul 64, premium, odmah useljiv ID#4977",
+      "zgrada": "Soul 64",
+      "agencija": "PropertyBroker",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 55.0,
+      "cena": 1300.0,
+      "cena_m2": 24,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1300.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-10-03",
+      "dedup_key": "Soul 64|55.0|1300.0"
     }
   ]
 }

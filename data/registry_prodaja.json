@@ -2852,11 +2852,12 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "05bbf80adff6"
+        "halo": "02119948dbdf"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/odlican-2-5-stan-od-75-62m2-sakura-park/5425646962262?kid=1",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/odlican-2-5-stan-od-75-62m2-sakura-park/5425646902733?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/odlican-2-5-stan-od-75-62m2-sakura-park/5425646902733?kid=1",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/odlican-2-5-stan-od-75-62m2-sakura-park/5425646902733?kid=4"
       ],
       "zgrada": "Belvil",
       "struktura": "2.5",
@@ -8957,9 +8958,9 @@
     "78836d9b3133e26d": {
       "uid": "78836d9b3133e26d",
       "first_seen": "2026-07-11",
-      "last_seen": "2026-09-26",
-      "is_active": false,
-      "deactivated_at": "2026-09-28",
+      "last_seen": "2026-10-03",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "c330b0f01ed3dc5e",
       "fp_strict_all": [
         "2fd774a5bbd23e4f",
@@ -8990,8 +8991,15 @@
           "to": 399900.0
         }
       ],
-      "days_listed": 79,
-      "cena_m2": 6450
+      "days_listed": 84,
+      "cena_m2": 6450,
+      "last_seen_src": {
+        "halo": "2026-10-03"
+      },
+      "fp_nosprat_all": [
+        "b3cdbed884193dde"
+      ],
+      "fp_nosprat": "b3cdbed884193dde"
     },
     "1e687ce733abb039": {
       "uid": "1e687ce733abb039",
@@ -17553,11 +17561,12 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "ebf35bca2852"
+        "halo": "15c95daa5e33"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-omladinskih-brigada/5425647734714?kid=4",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-omladinskih-brigada-soul-64/5425647734714?kid=4"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-omladinskih-brigada-soul-64/5425647734714?kid=4",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-omladinskih-brigada-soul-64/5425647734714?kid=1"
       ],
       "zgrada": "Soul 64",
       "struktura": "1.0",
@@ -21302,7 +21311,8 @@
       "price_first": 470400.0,
       "price_current": 470400.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4200
     },
     "78ac32202ad31a49": {
       "uid": "78ac32202ad31a49",
@@ -21343,10 +21353,11 @@
       "price_first": 185000.0,
       "price_current": 185000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4111
     }
   },
-  "updated_at": "2026-10-03T04:01:41.718425+00:00",
+  "updated_at": "2026-10-03T09:20:49.902857+00:00",
   "last_run": {
     "4zida": "2026-09-30",
     "nadjidom": "2026-09-30",

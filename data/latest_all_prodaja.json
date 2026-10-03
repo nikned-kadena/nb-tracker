@@ -3,8 +3,8 @@
   "source": "all",
   "date": "2026-10-03",
   "scraped_at": "2026-10-03",
-  "total_raw": 268,
-  "total_unique": 218,
+  "total_raw": 269,
+  "total_unique": 219,
   "total_dups": 50,
   "diff_new": [
     "7a5ba497e2b201c6",
@@ -1889,6 +1889,28 @@
       "first_seen": "2026-07-09",
       "last_seen": "2026-10-03",
       "dedup_key": "Wellport|54.0|275000.0"
+    },
+    {
+      "id": "78836d9b3133e26d",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-65-kula-62m2-nov-lux-2-0-panoramski-pogl/5425646053557?kid=1",
+      "naslov": "West 65 Kula,62m2, Nov, Lux,2.0, Panoramski pogled",
+      "zgrada": "West 65 Kula",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 62.0,
+      "cena": 399900.0,
+      "cena_m2": 6450,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 84,
+      "prva_cena": 399000.0,
+      "promena_cene_pct": 0.2,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-10-03",
+      "dedup_key": "West 65 Kula|62.0|399900.0"
     },
     {
       "id": "be0a6739a1395ef6",

@@ -3,14 +3,14 @@
   "generated": "2026-10-03",
   "pocetak_pracenja": "2026-06-29",
   "ukupno": {
-    "n_zavrseni": 295,
-    "n_aktivni": 268,
+    "n_zavrseni": 294,
+    "n_aktivni": 269,
     "dom_medijana": 38,
     "metod": "kaplan-meier",
     "pouzdano": true,
     "naivna_medijana_samo_skinuti": 13,
     "starost_aktivnih_medijana": 32,
-    "udeo_jos_u_ponudi": 0.292,
+    "udeo_jos_u_ponudi": 0.2951,
     "udeo_aktivnih_pct": 48,
     "skinuti_p25": 7,
     "skinuti_p75": 31,
@@ -234,44 +234,40 @@
         "preziveli": 0.3482
       },
       {
-        "dan": 79,
-        "preziveli": 0.3447
-      },
-      {
         "dan": 81,
-        "preziveli": 0.3308
+        "preziveli": 0.3343
       },
       {
         "dan": 83,
-        "preziveli": 0.3273
+        "preziveli": 0.3308
       },
       {
         "dan": 85,
-        "preziveli": 0.3237
+        "preziveli": 0.3271
       },
       {
         "dan": 86,
-        "preziveli": 0.3164
+        "preziveli": 0.3198
       },
       {
         "dan": 87,
-        "preziveli": 0.3088
+        "preziveli": 0.3121
       },
       {
         "dan": 88,
-        "preziveli": 0.3048
+        "preziveli": 0.308
       },
       {
         "dan": 90,
-        "preziveli": 0.3006
+        "preziveli": 0.3038
       },
       {
         "dan": 91,
-        "preziveli": 0.2964
+        "preziveli": 0.2996
       },
       {
         "dan": 93,
-        "preziveli": 0.292
+        "preziveli": 0.2951
       }
     ]
   },
@@ -1282,18 +1278,18 @@
       ]
     },
     "West 65 Kula": {
-      "n_zavrseni": 23,
-      "n_aktivni": 13,
+      "n_zavrseni": 22,
+      "n_aktivni": 14,
       "dom_medijana": 52,
       "metod": "kaplan-meier",
       "pouzdano": true,
-      "naivna_medijana_samo_skinuti": 23,
+      "naivna_medijana_samo_skinuti": 22,
       "starost_aktivnih_medijana": 43,
-      "udeo_jos_u_ponudi": 0.2251,
-      "udeo_aktivnih_pct": 36,
+      "udeo_jos_u_ponudi": 0.2701,
+      "udeo_aktivnih_pct": 39,
       "skinuti_p25": 3,
       "skinuti_p75": 52,
-      "brzo_do_30d": 61,
+      "brzo_do_30d": 64,
       "sporo_preko_180d": 0,
       "kriva": [
         {
@@ -1349,16 +1345,12 @@
           "preziveli": 0.3601
         },
         {
-          "dan": 79,
+          "dan": 81,
           "preziveli": 0.3151
         },
         {
-          "dan": 81,
-          "preziveli": 0.2701
-        },
-        {
           "dan": 83,
-          "preziveli": 0.2251
+          "preziveli": 0.2701
         }
       ]
     },
@@ -1456,15 +1448,15 @@
       "napomena_grupa": "Kriva prezivljavanja nije pala ispod 50% u posmatranom prozoru — vise od polovine oglasa je jos u ponudi, pa se medijana jos ne moze izmeriti. Nije ista stvar kao 'nema podataka'."
     },
     "nepoznato": {
-      "n_zavrseni": 295,
-      "n_aktivni": 208,
+      "n_zavrseni": 294,
+      "n_aktivni": 209,
       "dom_medijana": 33,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 13,
       "starost_aktivnih_medijana": 43,
-      "udeo_jos_u_ponudi": 0.289,
-      "udeo_aktivnih_pct": 41,
+      "udeo_jos_u_ponudi": 0.2921,
+      "udeo_aktivnih_pct": 42,
       "skinuti_p25": 7,
       "skinuti_p75": 31,
       "brzo_do_30d": 75,
@@ -1687,44 +1679,40 @@
           "preziveli": 0.3446
         },
         {
-          "dan": 79,
-          "preziveli": 0.3412
-        },
-        {
           "dan": 81,
-          "preziveli": 0.3274
+          "preziveli": 0.3308
         },
         {
           "dan": 83,
-          "preziveli": 0.3239
+          "preziveli": 0.3274
         },
         {
           "dan": 85,
-          "preziveli": 0.3203
+          "preziveli": 0.3237
         },
         {
           "dan": 86,
-          "preziveli": 0.3131
+          "preziveli": 0.3165
         },
         {
           "dan": 87,
-          "preziveli": 0.3056
+          "preziveli": 0.3088
         },
         {
           "dan": 88,
-          "preziveli": 0.3016
+          "preziveli": 0.3048
         },
         {
           "dan": 90,
-          "preziveli": 0.2975
+          "preziveli": 0.3007
         },
         {
           "dan": 91,
-          "preziveli": 0.2934
+          "preziveli": 0.2965
         },
         {
           "dan": 93,
-          "preziveli": 0.289
+          "preziveli": 0.2921
         }
       ]
     },
@@ -1762,8 +1750,8 @@
     },
     {
       "kvartil": "najskuplji 25%",
-      "n": 76,
-      "cena_medijana": 542495,
+      "n": 75,
+      "cena_medijana": 549990,
       "dom_medijana": 23
     }
   ],
