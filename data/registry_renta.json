@@ -23228,7 +23228,7 @@
     "c076ed3867349e12": {
       "uid": "c076ed3867349e12",
       "first_seen": "2026-09-22",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "758155bb9d440797",
@@ -23239,11 +23239,12 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "73525dbbc80d"
+        "halo": "ae9e35439e50"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-69080/5425647575121?kid=4",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-2169080/5425647712337?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-2169080/5425647712337?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-69080/5425647773295?kid=1"
       ],
       "zgrada": "Airport Garden",
       "struktura": "2.0",
@@ -23251,14 +23252,14 @@
       "m2": 54.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - Airport Garden #2169080",
+      "naslov": "Novi Beograd - Airport Garden #69080",
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
       "days_listed": 12,
       "cena_m2": 17,
       "last_seen_src": {
-        "halo": "2026-10-03"
+        "halo": "2026-10-04"
       },
       "fp_nosprat_all": [
         "37a75a21d23159e8"
@@ -23495,9 +23496,9 @@
     "da179139174ca606": {
       "uid": "da179139174ca606",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-09-29",
-      "is_active": false,
-      "deactivated_at": "2026-10-01",
+      "last_seen": "2026-10-04",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "b1218b2d9059fee6",
       "fp_strict_all": [
         "201741ae57838307"
@@ -23506,10 +23507,11 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "147baa4a1668"
+        "halo": "6741e430504a"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-kula-69083/5425647458681?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-kula-69083/5425647458681?kid=4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-kula-69083/5425647773294?kid=1"
       ],
       "zgrada": "Wellport",
       "struktura": "4.0",
@@ -23521,11 +23523,15 @@
       "price_first": 1650.0,
       "price_current": 1650.0,
       "price_changes": [],
-      "days_listed": 8,
+      "days_listed": 11,
       "cena_m2": 16,
       "last_seen_src": {
-        "halo": "2026-09-29"
-      }
+        "halo": "2026-10-04"
+      },
+      "fp_nosprat_all": [
+        "33129f925360b7fe"
+      ],
+      "fp_nosprat": "33129f925360b7fe"
     },
     "79c484bc2e6eb406": {
       "uid": "79c484bc2e6eb406",
@@ -27480,7 +27486,8 @@
       "price_first": 950.0,
       "price_current": 950.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 16
     },
     "37a727f9adebaf2b": {
       "uid": "37a727f9adebaf2b",
@@ -27521,7 +27528,8 @@
       "price_first": 750.0,
       "price_current": 750.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 21
     },
     "f8171857503ef0e4": {
       "uid": "f8171857503ef0e4",
@@ -27562,7 +27570,8 @@
       "price_first": 3600.0,
       "price_current": 3600.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 24
     },
     "c7bb4c859e2336f8": {
       "uid": "c7bb4c859e2336f8",
@@ -27603,10 +27612,11 @@
       "price_first": 1100.0,
       "price_current": 1100.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 16
     }
   },
-  "updated_at": "2026-10-04T04:05:41.596405+00:00",
+  "updated_at": "2026-10-04T10:04:13.559934+00:00",
   "last_run": {
     "4zida": "2026-09-30",
     "nadjidom": "2026-09-30",

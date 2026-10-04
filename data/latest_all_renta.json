@@ -3,8 +3,8 @@
   "source": "all",
   "date": "2026-10-04",
   "scraped_at": "2026-10-04",
-  "total_raw": 175,
-  "total_unique": 151,
+  "total_raw": 176,
+  "total_unique": 152,
   "total_dups": 24,
   "diff_new": [
     "d013939ef3c9c1df",
@@ -1931,7 +1931,7 @@
     {
       "id": "c076ed3867349e12",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-69080/5425647575121?kid=4",
-      "naslov": "Novi Beograd - Airport Garden #2169080",
+      "naslov": "Novi Beograd - Airport Garden #69080",
       "zgrada": "Airport Garden",
       "agencija": "beostan",
       "struktura": "2.0",
@@ -1947,7 +1947,7 @@
       "prva_cena": 900.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-22",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-04",
       "dedup_key": "Airport Garden|54.0|900.0"
     },
     {
@@ -2039,6 +2039,28 @@
       "first_seen": "2026-09-22",
       "last_seen": "2026-10-04",
       "dedup_key": "Airport Garden|39.0|680.0"
+    },
+    {
+      "id": "da179139174ca606",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-kula-69083/5425647458681?kid=4",
+      "naslov": "Novi Beograd - Wellport kula #69083",
+      "zgrada": "Wellport",
+      "agencija": "beostan",
+      "struktura": "4.0",
+      "str_label": null,
+      "m2": 104.0,
+      "cena": 1650.0,
+      "cena_m2": 16,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 11,
+      "prva_cena": 1650.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-23",
+      "last_seen": "2026-10-04",
+      "dedup_key": "Wellport|104.0|1650.0"
     },
     {
       "id": "79c484bc2e6eb406",
