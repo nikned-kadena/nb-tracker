@@ -51,6 +51,10 @@ try:
 except Exception:                                   # pragmaticno: bez store.py
     _validan = None
 
+# Ispravke oznake zgrade / tip prodaje / sumnjive cene — vidi klasifikacija.py.
+# Primenjuje se samo u projekciji; registar se ne dira.
+import klasifikacija as _kl
+
 
 def _ispravan(e: dict, mode: str) -> bool:
     if _validan is None:
@@ -59,13 +63,14 @@ def _ispravan(e: dict, mode: str) -> bool:
     return ok
 
 
-def _listing(e: dict) -> dict:
+def _listing(e: dict, mode: str = "prodaja") -> dict:
     """Zapis iz registra -> oblik koji dashboard ocekuje u `listings`."""
-    return {
+    zgrada, zgrada_izvor, zgrada_orig = _kl.ispravi_zgradu(e)
+    out = {
         "id": e.get("uid"),
         "url": (e.get("source_urls") or [None])[0],
         "naslov": e.get("naslov"),
-        "zgrada": e.get("zgrada"),
+        "zgrada": zgrada,
         "agencija": e.get("agencija"),
         "struktura": e.get("struktura"),
         "str_label": e.get("str_label"),
@@ -92,10 +97,16 @@ def _listing(e: dict) -> dict:
         # dve brojke koje se iskljucuju. NB dashboard racuna isti kljuc sam,
         # pa mu ovo ne smeta, ali je sada svuda jedan izvor istine.
         "dedup_key": "|".join(str(x) for x in _nekretnina({
-            "zgrada": e.get("zgrada"), "m2": e.get("m2"),
+            "zgrada": zgrada, "m2": e.get("m2"),
             "cena": e.get("price_current"),
         })),
+        # Novo (04.10.2026) — dashboard ih ignorise, izvestaji koriste:
+        "zgrada_izvor": zgrada_izvor,                 # naslov | ulica | opis | ispravljeno
+        "tip_prodaje": _kl.tip_prodaje(e.get("price_current"), mode),  # direktna | resale | None
     }
+    if zgrada_orig is not None:
+        out["zgrada_orig"] = zgrada_orig              # sta je registar imao pre ispravke
+    return out
 
 
 def _istorija(entries: list, mode: str) -> list:
@@ -179,7 +190,9 @@ def _prebroj(listings: list) -> tuple:
 
 def _upisi(data_dir: Path, ime: str, entries: list, mode: str):
     aktivni = [e for e in entries if e.get("is_active")]
-    listings = [_listing(e) for e in aktivni]
+    listings = [_listing(e, mode) for e in aktivni]
+    n_sumnjivih = _kl.oznaci_sumnjive(listings)
+    n_ispravljenih = sum(1 for l in listings if l.get("zgrada_orig") is not None)
     danas = date.today().isoformat()
 
     # Do 30.09.2026 je ovde stajalo total_unique = total_raw i total_dups = 0,
@@ -206,6 +219,13 @@ def _upisi(data_dir: Path, ime: str, entries: list, mode: str):
     (data_dir / f"history_{ime}_{mode}.json").write_text(
         json.dumps(_istorija(entries, mode), ensure_ascii=False, indent=2),
         encoding="utf-8")
+    if ime == "all":
+        print(f"  [PROJ] {mode}/{ime}: ispravljena oznaka zgrade na {n_ispravljenih} oglasa, "
+              f"{n_sumnjivih} sa sumnjivom cenom po m2 (oznaceno, ne uklonjeno)")
+        for l in listings:
+            if l.get("zgrada_orig") is not None:
+                print(f"           {l['zgrada_orig']} -> {l['zgrada']} | {l.get('m2')} m2 | "
+                      f"{l.get('cena')} EUR | {str(l.get('naslov'))[:60]}")
     return len(listings)
 
 
