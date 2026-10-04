@@ -24,13 +24,26 @@ PRAVILA (po prioritetu)
 2. Ako NASLOV imenuje zgradu, naslov pobedjuje sacuvanu oznaku.
    Izuzetak (NB): sacuvano "West 65 Kula", naslov "u kuli West 65" -> ostaje Kula.
 3. Ako naslov ne imenuje zgradu, a navodi samo ulicu koja ne odgovara St. Regis-u
-   (Hercegovacka, Luke Celovica), a sacuvano je "BW St. Regis" -> neidentifikovano.
-4. Inace ostaje sacuvana oznaka (potekla iz opisa/adrese oglasa, koje ovde
+   (Hercegovacka, Luke Celovica, ili Savska bez broja 1/3), a sacuvano je
+   "BW St. Regis" -> neidentifikovano.
+4. (04.10.2026, v2) Ako je oznaka i dalje "neidentifikovano", a opis oglasa
+   (keš 4zida/Nadji Dom) po strogim pravilima modula zgrada_iz_opisa.py
+   imenuje zgradu — uzima se ta zgrada (izvor `opis`, `zgrada_orig` cuva staro).
+   Halo opisi se ne cuvaju, pa se za Halo oglase ovaj korak preskace.
+5. Inace ostaje sacuvana oznaka (potekla iz opisa/adrese oglasa, koje ovde
    nemamo). Polje `zgrada_izvor` kaze koliko je oznaka proverljiva:
        naslov  - naslov imenuje tu zgradu (pouzdano)
        ulica   - naslov navodi samo ulicu, oznaka potice iz opisa (neproveren)
        opis    - naslov nema ni ime ni ulicu, oznaka potice iz opisa (neproveren)
        ispravljeno - oznaka je promenjena ovim modulom (vidi `zgrada_orig`)
+       opis_agenta - zgrada procitana iz opisa agenta (4zida/Nadji Dom), vidi `zgrada_orig`
+
+OGLASI KOJI NISU BW (v2)
+------------------------
+`van_bw(e)` — naslov ili ulica odgovara NOT_BW listi iz buildings.py (npr. Skyline
+Belgrade/Kneza Milosa, Kraljevica Marka, Bul. kralja Aleksandra). Takvi zapisi se
+izostavljaju iz projekcije (u registru ostaju), isto kao sto ih prijem odbacuje.
+Proverava se SAMO naslov i ulica, ne ceo opis (opis moze da pominje okolinu).
 
 TIP PRODAJE (samo BnV, samo prodaja)
 ------------------------------------
@@ -54,7 +67,13 @@ try:
 except Exception:                                    # pragmaticno: bez buildings.py
     _b = None
 
+try:
+    from zgrada_iz_opisa import zgrada_iz_opisa as _iz_opisa   # samo BnV
+except Exception:
+    _iz_opisa = None
+
 NEIDENT = "BW (neidentifikovano)"
+_OPISI = {}          # url -> tekst opisa (iz cache_*_{mode}.json), puni ucitaj_opise()
 # Direktna prodaja postoji samo u BnV (BnV buildings.py ima ALL_BUILDINGS).
 TIP_PRODAJE_AKTIVAN = bool(_b is not None and hasattr(_b, "ALL_BUILDINGS"))
 DONJA, GORNJA, MIN_UZORAK = 0.6, 1.7, 5
@@ -76,6 +95,48 @@ def iz_naslova(naslov, sprat=None):
     return None
 
 
+def ucitaj_opise(data_dir, mode):
+    """Napuni url->opis iz kesa scrapera (4zida, Nadji Dom). Halo nema opis."""
+    global _OPISI
+    import json
+    from pathlib import Path
+    _OPISI = {}
+    for f in sorted(Path(data_dir).glob(f"cache_*_{mode}.json")):
+        try:
+            for url, v in json.loads(f.read_text(encoding="utf-8")).items():
+                if isinstance(v, dict) and v.get("opis"):
+                    _OPISI[url] = v["opis"]
+        except Exception:
+            continue
+    return len(_OPISI)
+
+
+def _opis_za(e):
+    for u in (e.get("source_urls") or []):
+        if u in _OPISI:
+            return _OPISI[u]
+    return None
+
+
+def van_bw(e):
+    """True ako naslov/ulica oglasa odgovara NOT_BW listi (oglas nije u BW)."""
+    nb = getattr(_b, "NOT_BW", None) if _b else None
+    if not nb:
+        return False
+    tekst = ((e.get("naslov") or "") + " " + (e.get("ulica") or "")).lower()
+    return any(re.search(p, tekst, re.I) for p in nb)
+
+
+_SAVSKA = re.compile(r"\bsavska\b")
+_SAVSKA_1_3 = re.compile(r"\bsavska(?:\s+ulica)?\s+[13](?!\d|[.,]\d)")
+
+
+def _savska_bez_broja(t):
+    """Savska bez kucnog broja 1 ili 3 (St. Regis) — isto pravilo kao ADDRESS_MAP
+    u buildings.py: ulica bez broja ne dokazuje St. Regis."""
+    return bool(_SAVSKA.search(t)) and not _SAVSKA_1_3.search(t)
+
+
 def _ulice_u_naslovu(naslov):
     t = (naslov or "").lower()
     ulice = list(getattr(_b, "STREET_FALLBACK", {}).keys()) if _b else []
@@ -83,7 +144,24 @@ def _ulice_u_naslovu(naslov):
 
 
 def ispravi_zgradu(e):
-    """(zgrada, izvor, orig) za zapis iz registra. orig je None ako nije menjano."""
+    """(zgrada, izvor, orig) za zapis iz registra. orig je None ako nije menjano.
+
+    Prvo pravila 1-3 (naslov), pa pravilo 4: opis agenta za oglase koji su i
+    dalje neidentifikovani. Izvor `opis_agenta` = zgrada procitana iz opisa."""
+    zgrada, izvor, orig = _ispravi_po_naslovu(e)
+    if zgrada == NEIDENT and _iz_opisa is not None:
+        opis = _opis_za(e)
+        if opis:
+            try:
+                z = _iz_opisa(opis, e.get("sprat"))
+            except Exception:
+                z = None
+            if z and z != NEIDENT:
+                return z, "opis_agenta", e.get("zgrada")
+    return zgrada, izvor, orig
+
+
+def _ispravi_po_naslovu(e):
     sacuvana = e.get("zgrada")
     naslov = e.get("naslov") or ""
     zgrada = sacuvana
@@ -108,7 +186,8 @@ def ispravi_zgradu(e):
 
     # 3. ulica koja ne odgovara St. Regis-u
     t = naslov.lower()
-    if zgrada == "BW St. Regis" and not imenovana and any(u in t for u in ULICE_NIJE_ST_REGIS):
+    if zgrada == "BW St. Regis" and not imenovana and (
+            any(u in t for u in ULICE_NIJE_ST_REGIS) or _savska_bez_broja(t)):
         return NEIDENT, "ispravljeno", sacuvana
 
     if zgrada != sacuvana:

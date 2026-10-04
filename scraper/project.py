@@ -101,7 +101,7 @@ def _listing(e: dict, mode: str = "prodaja") -> dict:
             "cena": e.get("price_current"),
         })),
         # Novo (04.10.2026) — dashboard ih ignorise, izvestaji koriste:
-        "zgrada_izvor": zgrada_izvor,                 # naslov | ulica | opis | ispravljeno
+        "zgrada_izvor": zgrada_izvor,                 # naslov | ulica | opis | ispravljeno | opis_agenta
         "tip_prodaje": _kl.tip_prodaje(e.get("price_current"), mode),  # direktna | resale | None
     }
     if zgrada_orig is not None:
@@ -251,6 +251,20 @@ def build(data_dir: Path, mode: str):
                   f"{e.get('price_current')} EUR")
         if len(sporni) > 5:
             print(f"           ... i jos {len(sporni) - 5}")
+
+    # v2 (04.10.2026): opisi iz kesa scrapera za drugi prolaz klasifikacije,
+    # i izbacivanje oglasa koji nisu BW (NOT_BW) — oni ostaju u registru.
+    n_opisa = _kl.ucitaj_opise(data_dir, mode)
+    van = [e for e in entries if _kl.van_bw(e)]
+    if van:
+        entries = [e for e in entries if not _kl.van_bw(e)]
+        akt = sum(1 for e in van if e.get("is_active"))
+        print(f"  [PROJ] {mode}: izostavljeno {len(van)} zapisa koji nisu BW ({akt} aktivnih):")
+        for e in van[:8]:
+            if e.get("is_active"):
+                print(f"           {e.get('m2')} m2 | {e.get('price_current')} EUR | "
+                      f"{str(e.get('naslov'))[:70]}")
+    print(f"  [PROJ] {mode}: ucitano {n_opisa} opisa iz kesa")
 
     n_all = _upisi(data_dir, "all", entries, mode)
     red = [f"all: {n_all}"]
