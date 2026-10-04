@@ -134,14 +134,84 @@ def ime_agencije(opis):
     return None, None
 
 
+# ---------------------------------------------------------------------------
+# KANONIZACIJA IMENA — isto ime iz razlicitih izvora -> jedan prikazni oblik
+# ("MaxisGroup1" / "Maxis Group", "Kuca i stan Doo " / "kuca_i_stan", ...)
+# ---------------------------------------------------------------------------
+import json
+from pathlib import Path
+
+_GENERICNO = ("doo", "dooo", "nekretnine", "nekretnina", "realestate", "agencijazanekretnine",
+              "agencija", "posredovanje", "grupa", "group", "pr")
+EXTRA = {   # norm kljuc -> prikazno ime, za varijante koje mapping ne pokriva
+    "jaric": "Jaric Nekretnine", "galas": "Galas Nekretnine", "ambijent": "Ambijent Nekretnine",
+    "bghome": "BG Home", "teofil": "Teofil Nekretnine", "ikat": "Ikat Nekretnine",
+    "artopolis369": "Artopolis", "artopolis": "Artopolis",
+}
+
+
+def _nk(a: str) -> str:
+    s = re.sub(r"[^a-z0-9]", "", _n(a))
+    s = re.sub(r"d?o?o$", "", s) if s.endswith(("doo", "dooo")) else s
+    ponovo = True
+    while ponovo:                       # skida generike samo sa KRAJA
+        ponovo = False
+        for g in _GENERICNO:
+            if s.endswith(g) and len(s) > len(g) + 2:
+                s = s[: -len(g)]; ponovo = True
+    return re.sub(r"\d+$", "", s) if s.endswith("1") and len(s) > 4 else s
+
+
+_KANON_MAPA = None
+
+
+def _ucitaj_mapu():
+    global _KANON_MAPA
+    if _KANON_MAPA is not None:
+        return _KANON_MAPA
+    m = {}
+    slugovi = {}
+    for p in (Path(__file__).resolve().parent.parent / "data" / "agencije_mapping.json",):
+        try:
+            for slug, ime in json.load(open(p, encoding="utf-8")).items():
+                slugovi[slug.strip().lower()] = ime
+                m.setdefault(_nk(ime), ime)
+                m.setdefault(_nk(slug), ime)
+        except Exception:
+            pass
+    for ime in KANON:
+        m.setdefault(_nk(ime), ime)
+    m.update(EXTRA)
+    _KANON_MAPA = (m, slugovi)
+    return _KANON_MAPA
+
+
+def _lepo(a: str) -> str:
+    x = re.sub(r"[_\-]+", " ", a.strip())
+    x = re.sub(r"\b(d\.?\s?o\.?\s?o\.?|doo)\b\.?\s*$", "", x, flags=re.I).strip()
+    return " ".join(w if (w.isupper() and len(w) <= 3) else w[:1].upper() + w[1:].lower() for w in x.split())
+
+
+def kanon(a):
+    """Bilo koji oblik imena/sluga agencije -> jedno prikazno ime (None za prazno)."""
+    if not a or not str(a).strip():
+        return None
+    m, slugovi = _ucitaj_mapu()
+    a = str(a).strip()
+    if a.lower() in slugovi:
+        return slugovi[a.lower()]
+    k = _nk(a)
+    return m.get(k) or _lepo(a)
+
+
 def odredi(opis, agencija_postojeca=None):
     """-> (agencija, agencija_izvor, posrednik)  posrednik: True/False/None"""
     prov = ima_proviziju(opis)
     if agencija_postojeca:
-        return agencija_postojeca, "scraper", True
+        return kanon(agencija_postojeca), "scraper", True
     ime, izv = ime_agencije(opis)
     if ime and prov is not False:
-        return ime, "opis_" + izv, True
+        return (kanon(ime) if izv == "kanon" else ime), "opis_" + izv, True
     if prov is True:
         return None, None, True          # posrednik, ime nepoznato
     if prov is False:
