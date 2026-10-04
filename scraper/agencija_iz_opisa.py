@@ -147,6 +147,8 @@ EXTRA = {   # norm kljuc -> prikazno ime, za varijante koje mapping ne pokriva
     "jaric": "Jaric Nekretnine", "galas": "Galas Nekretnine", "ambijent": "Ambijent Nekretnine",
     "bghome": "BG Home", "teofil": "Teofil Nekretnine", "ikat": "Ikat Nekretnine",
     "artopolis369": "Artopolis", "artopolis": "Artopolis",
+    "benefit": "Benefit Nekretnine", "beba": "Beba Real Estate",
+    "premiumproperties": "Premium Real Estate",
 }
 
 
@@ -171,7 +173,10 @@ def _ucitaj_mapu():
         return _KANON_MAPA
     m = {}
     slugovi = {}
-    for p in (Path(__file__).resolve().parent.parent / "data" / "agencije_mapping.json",):
+    _r = Path(__file__).resolve().parent
+    for p in (_r.parent / "data" / "agencije_mapping.json",        # BnV
+              _r / "agencije_halo_mapping.json",                    # NB
+              _r.parent / "data" / "agencije_halo_mapping.json"):
         try:
             for slug, ime in json.load(open(p, encoding="utf-8")).items():
                 slugovi[slug.strip().lower()] = ime
@@ -198,6 +203,8 @@ def kanon(a):
         return None
     m, slugovi = _ucitaj_mapu()
     a = str(a).strip()
+    if _nk(a) in EXTRA:
+        return EXTRA[_nk(a)]
     if a.lower() in slugovi:
         return slugovi[a.lower()]
     k = _nk(a)
