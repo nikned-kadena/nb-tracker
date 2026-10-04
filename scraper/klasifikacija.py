@@ -183,7 +183,32 @@ def _ulice_u_naslovu(naslov):
     return [u for u in ulice if u in t]
 
 
+_HALO_SLUG = re.compile(r"halooglasi\.com/nekretnine/[^/]+/([^/?]+)/\d+")
+
+
+def _naslov_iz_url(e):
+    """Halo URL u sebi nosi naslov oglasa ("bw--simfonija-1-28m2-iii-namesten").
+    Spojeni zapis (Halo+4zida) cuva samo naslov sa 4zida, pa se ime zgrade iz
+    Halo naslova izgubi — ovde se vraca iz URL-a."""
+    for u in (e.get("source_urls") or []):
+        m = _HALO_SLUG.search(u or "")
+        if m:
+            z = iz_naslova(m.group(1).replace("-", " "), e.get("sprat"))
+            if z:
+                return z
+    return None
+
+
 def ispravi_zgradu(e):
+    z, izvor, orig = _ispravi_zgradu(e)
+    if z == NEIDENT:
+        zu = _naslov_iz_url(e)
+        if zu:
+            return zu, "naslov_url", e.get("zgrada")
+    return z, izvor, orig
+
+
+def _ispravi_zgradu(e):
     """(zgrada, izvor, orig) za zapis iz registra. orig je None ako nije menjano.
 
     Prvo pravila 1-3 (naslov), pa pravilo 4: opis agenta za oglase koji su i
