@@ -66,12 +66,13 @@ def _ispravan(e: dict, mode: str) -> bool:
 def _listing(e: dict, mode: str = "prodaja") -> dict:
     """Zapis iz registra -> oblik koji dashboard ocekuje u `listings`."""
     zgrada, zgrada_izvor, zgrada_orig = _kl.ispravi_zgradu(e)
+    agencija, ag_izvor, posrednik = _kl.agencija_za(e)
     out = {
         "id": e.get("uid"),
         "url": (e.get("source_urls") or [None])[0],
         "naslov": e.get("naslov"),
         "zgrada": zgrada,
-        "agencija": e.get("agencija"),
+        "agencija": agencija,
         "struktura": e.get("struktura"),
         "str_label": e.get("str_label"),
         "m2": e.get("m2"),
@@ -102,6 +103,8 @@ def _listing(e: dict, mode: str = "prodaja") -> dict:
         })),
         # Novo (04.10.2026) — dashboard ih ignorise, izvestaji koriste:
         "zgrada_izvor": zgrada_izvor,                 # naslov | ulica | opis | ispravljeno | opis_agenta
+        "agencija_izvor": ag_izvor,                   # scraper | opis_kanon | opis_doo
+        "posrednik": posrednik,                       # True | False | None (nepoznato)
         "tip_prodaje": _kl.tip_prodaje(e.get("price_current"), mode),  # direktna | resale | None
     }
     if zgrada_orig is not None:

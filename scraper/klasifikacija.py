@@ -118,6 +118,21 @@ def _opis_za(e):
     return None
 
 
+try:
+    from agencija_iz_opisa import odredi as _ag_odredi
+except Exception:                                   # bez modula: ponasanje kao pre
+    _ag_odredi = None
+
+
+def agencija_za(e):
+    """-> (agencija, agencija_izvor, posrednik). Scraperova agencija ima prednost;
+    inace se trazi u opisu. posrednik: True / False (investitor-vlasnik) / None."""
+    ag = e.get("agencija")
+    if _ag_odredi is None:
+        return ag, ("scraper" if ag else None), (True if ag else None)
+    return _ag_odredi(_opis_za(e), ag)
+
+
 def van_bw(e):
     """True ako naslov/ulica oglasa odgovara NOT_BW listi (oglas nije u BW)."""
     nb = getattr(_b, "NOT_BW", None) if _b else None
