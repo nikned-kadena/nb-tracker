@@ -164,15 +164,42 @@ def ispravi_zgradu(e):
     Prvo pravila 1-3 (naslov), pa pravilo 4: opis agenta za oglase koji su i
     dalje neidentifikovani. Izvor `opis_agenta` = zgrada procitana iz opisa."""
     zgrada, izvor, orig = _ispravi_po_naslovu(e)
-    if zgrada == NEIDENT and _iz_opisa is not None:
-        opis = _opis_za(e)
+    opis = _opis_za(e) if _iz_opisa is not None else None
+
+    def _strogo():
+        try:
+            z = _iz_opisa(opis, e.get("sprat"))
+        except Exception:
+            return None
+        return z if z and z != NEIDENT else None
+
+    if zgrada == NEIDENT and opis:
+        z = _strogo()
+        if z:
+            return z, "opis_agenta", e.get("zgrada")
+        return zgrada, izvor, orig
+
+    # PRAVILO "ULICA NE ODREDJUJE ZGRADU, OZNAKA BEZ DOKAZA NE VAZI" (04.10.2026)
+    # Zgrada se prihvata samo iz (1) naslova koji je imenuje ili (2) opisa
+    # agenta (strogo pravilo). Sacuvana oznaka iz registra koja nema takav
+    # dokaz poticala je iz ulice ("Bulevar Vudroa Vilsona" -> Iris/Hudson/
+    # Sava...), a to je pogadjanje: u 47 slucajeva opis imenuje DRUGU zgradu
+    # (BW Luna vodjena kao St. Regis), u dodatnih ~20 ne imenuje nijednu.
+    # Izuzetak: Halo oznaka (Halo scraper cita pun opis) kad ulica nije u
+    # naslovu — dok Halo scraper ne cuva opis, ne moze se proveriti.
+    if _iz_opisa is not None and zgrada not in (None, NEIDENT) and izvor in ("opis", "ulica"):
+        halo = "halo" in (e.get("sources") or [])
+        ulica_u_naslovu = izvor == "ulica" or bool(_ulice_u_naslovu(e.get("ulica") or ""))
         if opis:
-            try:
-                z = _iz_opisa(opis, e.get("sprat"))
-            except Exception:
-                z = None
-            if z and z != NEIDENT:
+            z = _strogo()
+            if z == zgrada:
+                return zgrada, "opis_agenta", orig
+            if z:
                 return z, "opis_agenta", e.get("zgrada")
+            if not halo or ulica_u_naslovu:
+                return NEIDENT, "bez_dokaza", e.get("zgrada")
+        elif not halo or ulica_u_naslovu:
+            return NEIDENT, "bez_dokaza", e.get("zgrada")
     return zgrada, izvor, orig
 
 
