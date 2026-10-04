@@ -95,11 +95,36 @@ def iz_naslova(naslov, sprat=None):
     return None
 
 
+_RUCNO = {}
+
+
+def _ucitaj_rucno(data_dir):
+    """data/zgrada_rucno.json: {halo_id_ili_deo_url: zgrada} — ruzna potvrda
+    osnivaca iz opisa oglasa. Ima prednost nad svim pravilima."""
+    global _RUCNO
+    import json
+    from pathlib import Path
+    try:
+        raw = json.loads((Path(data_dir) / "zgrada_rucno.json").read_text(encoding="utf-8"))
+        _RUCNO = {k: v for k, v in raw.items() if not k.startswith("_")}
+    except Exception:
+        _RUCNO = {}
+
+
+def rucna_zgrada(e):
+    for u in (e.get("source_urls") or []):
+        for kljuc, z in _RUCNO.items():
+            if kljuc in (u or ""):
+                return z
+    return None
+
+
 def ucitaj_opise(data_dir, mode):
     """Napuni url->opis iz kesa scrapera (4zida, Nadji Dom). Halo nema opis."""
     global _OPISI
     import json
     from pathlib import Path
+    _ucitaj_rucno(data_dir)
     _OPISI = {}
     for f in sorted(Path(data_dir).glob(f"cache_*_{mode}.json")):
         try:
@@ -163,6 +188,9 @@ def ispravi_zgradu(e):
 
     Prvo pravila 1-3 (naslov), pa pravilo 4: opis agenta za oglase koji su i
     dalje neidentifikovani. Izvor `opis_agenta` = zgrada procitana iz opisa."""
+    r = rucna_zgrada(e)
+    if r:
+        return r, "rucno", e.get("zgrada")
     zgrada, izvor, orig = _ispravi_po_naslovu(e)
     opis = _opis_za(e) if _iz_opisa is not None else None
 
