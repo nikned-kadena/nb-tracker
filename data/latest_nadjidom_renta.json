@@ -662,7 +662,7 @@
       "id": "31e7d466d29f909c",
       "url": "https://www.nadjidom.com/sr/details/1411556/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html",
       "naslov": "+ NOVI BEOGRAD SF 10214",
-      "zgrada": "West 65 Kula",
+      "zgrada": null,
       "agencija": "Sweethome Nekretnine",
       "struktura": "2.0",
       "str_label": "Dvosoban",
@@ -678,11 +678,12 @@
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "dedup_key": "West 65 Kula|60.0|2000",
-      "zgrada_izvor": "opis_agenta",
+      "dedup_key": "None|60.0|2000",
+      "zgrada_izvor": "bez_dokaza",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
+      "zgrada_orig": "West 65 Kula",
       "cena_m2_sumnjiva": false
     },
     {

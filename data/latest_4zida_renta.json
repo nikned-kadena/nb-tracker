@@ -4,8 +4,8 @@
   "date": "2026-10-05",
   "scraped_at": "2026-10-05",
   "total_raw": 87,
-  "total_unique": 76,
-  "total_dups": 11,
+  "total_unique": 75,
+  "total_dups": 12,
   "diff_new": [],
   "diff_removed": [],
   "listings": [
@@ -2403,7 +2403,7 @@
       "id": "57c076fba5004c42",
       "url": "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6a1d3908c0bad38c5903db4f",
       "naslov": "Dvosoban stan za izdavanje, Omladinskih Brigada, 1.000€, 55m²",
-      "zgrada": "West 65",
+      "zgrada": null,
       "agencija": "Etagi",
       "struktura": "2.0",
       "str_label": "Dvosoban",
@@ -2419,11 +2419,12 @@
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "dedup_key": "West 65|55.0|1000",
-      "zgrada_izvor": "opis_agenta",
+      "dedup_key": "None|55.0|1000",
+      "zgrada_izvor": "bez_dokaza",
       "agencija_izvor": "opis_kanon",
       "posrednik": true,
       "tip_prodaje": null,
+      "zgrada_orig": "West 65",
       "cena_m2_sumnjiva": false
     }
   ]
