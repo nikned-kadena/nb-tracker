@@ -1,26 +1,19 @@
 {
   "mode": "prodaja",
   "source": "all",
-  "date": "2026-10-04",
-  "scraped_at": "2026-10-04",
+  "date": "2026-10-05",
+  "scraped_at": "2026-10-05",
   "total_raw": 256,
-  "total_unique": 212,
-  "total_dups": 44,
-  "diff_new": [],
+  "total_unique": 211,
+  "total_dups": 45,
+  "diff_new": [
+    "5a9b605cde80721d",
+    "aefce1df9ba471ae"
+  ],
   "diff_removed": [
-    "ffd0a5842b6ec0ff",
-    "b8c0967367363891",
-    "88d8c406c06111d2",
-    "00beb784f0bd7543",
-    "505405e6ae5efd4a",
-    "2e59f39f63edf93f",
-    "1565dc2ed31497f2",
-    "cdb912ec048a9b32",
-    "060362a3e188f8b9",
-    "4d16bc998d75dbc4",
-    "80de7c981315e335",
-    "a3916ca72ff6202e",
-    "3f13703e2f53d68d"
+    "9af390bd0e404f5a",
+    "c28eb8b4e45979b9",
+    "eaea778eb26b2fab"
   ],
   "listings": [
     {
@@ -39,11 +32,11 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 255200.0,
       "promena_cene_pct": 2.3,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|58.0|261000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -66,11 +59,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 490000.0,
       "promena_cene_pct": -5.1,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Wellport|106.0|465000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -94,11 +87,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 465000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|192.0|465000.0",
       "zgrada_izvor": "ispravljeno",
       "agencija_izvor": "scraper",
@@ -122,11 +115,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 249000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|54.0|249000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -149,11 +142,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 410000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|83.0|410000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -177,7 +170,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 275000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -205,7 +198,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 371850.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -232,11 +225,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 179000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|39.11|179000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -259,11 +252,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 319352.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|84.04|319352.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -288,7 +281,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 430000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -315,11 +308,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 649000.0,
       "promena_cene_pct": -12.2,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|143.48|570000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -343,11 +336,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 450000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "A Blok|88.0|450000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -371,7 +364,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 247500.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -400,11 +393,11 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 410000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Sakura Park|99.0|410000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -429,7 +422,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 399000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -456,11 +449,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 225000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Sakura Park|45.0|225000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -483,11 +476,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 450000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|90.45|450000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -511,7 +504,7 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 399000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -539,7 +532,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 287400.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -566,7 +559,7 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 685000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -593,11 +586,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 429000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|86.0|429000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -621,11 +614,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 233000.0,
       "promena_cene_pct": -2.6,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Belvil|52.0|227000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -649,7 +642,7 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 330000.0,
       "promena_cene_pct": 4.5,
       "first_seen": "2026-06-30",
@@ -678,7 +671,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 380000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -707,11 +700,11 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 550000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|133.97|550000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -734,11 +727,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 530000.0,
       "promena_cene_pct": -9.8,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|125.0|478000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -762,7 +755,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 342450.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -789,11 +782,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 340000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Sakura Park|75.62|340000.0",
       "zgrada_izvor": "ispravljeno",
       "agencija_izvor": "scraper",
@@ -819,7 +812,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 790000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -848,7 +841,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 425000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -876,7 +869,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 399000.0,
       "promena_cene_pct": -2.3,
       "first_seen": "2026-06-30",
@@ -904,7 +897,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 465000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -932,7 +925,7 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 250000.0,
       "promena_cene_pct": -6.0,
       "first_seen": "2026-06-30",
@@ -961,11 +954,11 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 289000.0,
       "promena_cene_pct": 5.5,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Wellport|59.0|305000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -989,11 +982,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 282000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|65.0|282000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1017,11 +1010,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 350000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Sakura Park|76.0|350000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1045,11 +1038,11 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 379000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Lastavica|82.0|379000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1073,7 +1066,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 120000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -1100,11 +1093,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 1400000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65 Kula|213.0|1400000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -1128,11 +1121,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 337000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "New Minel|84.15|337000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1156,11 +1149,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 990000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65 Kula|161.0|990000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1184,7 +1177,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 312000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -1212,7 +1205,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 870000.0,
       "promena_cene_pct": -9.2,
       "first_seen": "2026-06-30",
@@ -1240,7 +1233,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 799000.0,
       "promena_cene_pct": -1.1,
       "first_seen": "2026-06-30",
@@ -1268,11 +1261,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 445000.0,
       "promena_cene_pct": -4.5,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|172.0|425000.0",
       "zgrada_izvor": "ispravljeno",
       "agencija_izvor": "scraper",
@@ -1298,11 +1291,11 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 625000.0,
       "promena_cene_pct": -5.6,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|100.0|590000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1326,11 +1319,11 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 280000.0,
       "promena_cene_pct": -1.8,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|53.0|275000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1354,7 +1347,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 399000.0,
       "promena_cene_pct": -2.4,
       "first_seen": "2026-06-30",
@@ -1381,11 +1374,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 549000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "New Minel|138.0|549000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1408,11 +1401,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 395000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Savada|97.0|395000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -1435,11 +1428,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 550000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|139.97|550000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -1462,11 +1455,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 286200.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|54.0|286200.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -1491,11 +1484,11 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 399900.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65 Kula|60.0|399900.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1519,11 +1512,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 525000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "A Blok|128.0|525000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1547,7 +1540,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 380000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -1575,7 +1568,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 790000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -1603,7 +1596,7 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 264000.0,
       "promena_cene_pct": -1.6,
       "first_seen": "2026-06-30",
@@ -1630,11 +1623,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 880000.0,
       "promena_cene_pct": -14.8,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|123.0|750000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1658,7 +1651,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 956880.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -1685,11 +1678,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 425458.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Lux 51|131.0|425458.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1712,11 +1705,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 336937.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "New Minel|84.15|336937.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1740,7 +1733,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 96,
+      "dana_na_trzistu": 97,
       "prva_cena": 335840.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
@@ -1768,11 +1761,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 94,
+      "dana_na_trzistu": 95,
       "prva_cena": 550000.0,
       "promena_cene_pct": -3.6,
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65 Kula|95.0|530000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1796,7 +1789,7 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 94,
+      "dana_na_trzistu": 95,
       "prva_cena": 949999.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
@@ -1823,7 +1816,7 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 94,
+      "dana_na_trzistu": 95,
       "prva_cena": 341066.0,
       "promena_cene_pct": 10.4,
       "first_seen": "2026-07-02",
@@ -1851,7 +1844,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 93,
+      "dana_na_trzistu": 94,
       "prva_cena": 550000.0,
       "promena_cene_pct": -3.6,
       "first_seen": "2026-07-03",
@@ -1879,7 +1872,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 93,
+      "dana_na_trzistu": 94,
       "prva_cena": 399000.0,
       "promena_cene_pct": -2.3,
       "first_seen": "2026-07-03",
@@ -1908,7 +1901,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 569000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
@@ -1935,11 +1928,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 92,
+      "dana_na_trzistu": 93,
       "prva_cena": 167000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-04",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|30.5|167000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1962,11 +1955,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 92,
+      "dana_na_trzistu": 93,
       "prva_cena": 183900.0,
       "promena_cene_pct": -13.0,
       "first_seen": "2026-07-04",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|33.0|160000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1989,11 +1982,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 90,
+      "dana_na_trzistu": 91,
       "prva_cena": 335000.0,
       "promena_cene_pct": 1.2,
       "first_seen": "2026-07-06",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|68.0|339000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -2017,15 +2010,42 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 90,
+      "dana_na_trzistu": 91,
       "prva_cena": 425000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-06",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Wellport|78.0|425000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "b632279c24b37637",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-65-95m2-iv-gas/5425647118487?kid=1",
+      "naslov": "West 65, 95m2, IV, gas",
+      "zgrada": "West 65 Kula",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 95.0,
+      "cena": 530000.0,
+      "cena_m2": 5579,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 90,
+      "prva_cena": 590000.0,
+      "promena_cene_pct": -10.2,
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-10-05",
+      "dedup_key": "West 65 Kula|95.0|530000.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     },
@@ -2046,7 +2066,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 89,
+      "dana_na_trzistu": 90,
       "prva_cena": 319200.0,
       "promena_cene_pct": -4.4,
       "first_seen": "2026-07-07",
@@ -2074,7 +2094,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 88,
+      "dana_na_trzistu": 89,
       "prva_cena": 275000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-08",
@@ -2102,11 +2122,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 88,
+      "dana_na_trzistu": 89,
       "prva_cena": 425000.0,
       "promena_cene_pct": 3.5,
       "first_seen": "2026-07-08",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Wellport|77.55|440000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2129,11 +2149,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 88,
+      "dana_na_trzistu": 89,
       "prva_cena": 263400.0,
       "promena_cene_pct": -1.4,
       "first_seen": "2026-07-08",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|60.0|259800.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -2156,11 +2176,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 88,
+      "dana_na_trzistu": 89,
       "prva_cena": 549990.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-08",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|134.0|549990.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -2184,11 +2204,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 87,
+      "dana_na_trzistu": 88,
       "prva_cena": 233000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-09",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Lux 51|59.0|233000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -2211,11 +2231,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 87,
+      "dana_na_trzistu": 88,
       "prva_cena": 790000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-09",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Wellport|140.0|790000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2238,11 +2258,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 87,
+      "dana_na_trzistu": 88,
       "prva_cena": 170000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-09",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|33.5|170000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2265,11 +2285,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 87,
+      "dana_na_trzistu": 88,
       "prva_cena": 275000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-09",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Wellport|54.0|275000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2292,11 +2312,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 85,
+      "dana_na_trzistu": 86,
       "prva_cena": 399000.0,
       "promena_cene_pct": 0.2,
       "first_seen": "2026-07-11",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65 Kula|62.0|399900.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -2319,11 +2339,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 85,
+      "dana_na_trzistu": 86,
       "prva_cena": 371850.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-11",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|74.0|371850.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2346,11 +2366,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 85,
+      "dana_na_trzistu": 86,
       "prva_cena": 166000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-11",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|30.0|166000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2373,11 +2393,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 84,
+      "dana_na_trzistu": 85,
       "prva_cena": 280000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-12",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|53.0|280000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -2401,7 +2421,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 84,
+      "dana_na_trzistu": 85,
       "prva_cena": 380000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-12",
@@ -2430,7 +2450,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 67,
+      "dana_na_trzistu": 68,
       "prva_cena": 450000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
@@ -2458,7 +2478,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 67,
+      "dana_na_trzistu": 68,
       "prva_cena": 248400.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
@@ -2485,11 +2505,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 67,
+      "dana_na_trzistu": 68,
       "prva_cena": 449000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|90.45|449000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2512,11 +2532,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 67,
+      "dana_na_trzistu": 68,
       "prva_cena": 329000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Zepterra|69.47|329000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2539,11 +2559,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 67,
+      "dana_na_trzistu": 68,
       "prva_cena": 240000.0,
       "promena_cene_pct": 40.8,
       "first_seen": "2026-07-29",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|84.0|338000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -2566,39 +2586,12 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 67,
+      "dana_na_trzistu": 68,
       "prva_cena": 339900.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|84.0|339900.0",
-      "zgrada_izvor": "naslov",
-      "agencija_izvor": null,
-      "posrednik": null,
-      "tip_prodaje": null,
-      "cena_m2_sumnjiva": false
-    },
-    {
-      "id": "9af390bd0e404f5a",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-moderna-oaza-na-novom-beogradu/5425647267682?kid=3",
-      "naslov": "Soul 64: Moderna oaza na Novom Beogradu",
-      "zgrada": "Soul 64",
-      "agencija": null,
-      "struktura": "2.0",
-      "str_label": null,
-      "m2": 54.0,
-      "cena": 272000.0,
-      "cena_m2": 5037,
-      "sprat": null,
-      "izvori": [
-        "halo"
-      ],
-      "dana_na_trzistu": 67,
-      "prva_cena": 279000.0,
-      "promena_cene_pct": -2.5,
-      "first_seen": "2026-07-29",
-      "last_seen": "2026-10-03",
-      "dedup_key": "Soul 64|54.0|272000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": null,
@@ -2621,7 +2614,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 67,
+      "dana_na_trzistu": 68,
       "prva_cena": 425000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
@@ -2648,11 +2641,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 67,
+      "dana_na_trzistu": 68,
       "prva_cena": 540000.0,
       "promena_cene_pct": -3.7,
       "first_seen": "2026-07-29",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Lux 51|122.0|520000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -2675,11 +2668,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 67,
+      "dana_na_trzistu": 68,
       "prva_cena": 530000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Bel Mondo|120.76|530000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -2703,7 +2696,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 67,
+      "dana_na_trzistu": 68,
       "prva_cena": 236000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
@@ -2730,11 +2723,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 67,
+      "dana_na_trzistu": 68,
       "prva_cena": 330000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|56.0|330000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -2757,11 +2750,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 67,
+      "dana_na_trzistu": 68,
       "prva_cena": 530000.0,
       "promena_cene_pct": -9.8,
       "first_seen": "2026-07-29",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|123.0|478000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2784,7 +2777,7 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 67,
+      "dana_na_trzistu": 68,
       "prva_cena": 276620.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
@@ -2811,11 +2804,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 285000.0,
       "promena_cene_pct": 1.4,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|50.0|289000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -2839,7 +2832,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 440000.0,
       "promena_cene_pct": -2.5,
       "first_seen": "2026-08-21",
@@ -2866,11 +2859,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 319200.0,
       "promena_cene_pct": -4.4,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|84.0|305000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -2893,11 +2886,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 389250.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|75.0|389250.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2920,11 +2913,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 248400.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|54.0|248400.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2948,7 +2941,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 790000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
@@ -2976,7 +2969,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 425000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
@@ -3005,7 +2998,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 435970.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
@@ -3033,7 +3026,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 279470.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
@@ -3060,7 +3053,7 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 530024.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
@@ -3089,7 +3082,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 530000.0,
       "promena_cene_pct": -9.8,
       "first_seen": "2026-08-21",
@@ -3116,11 +3109,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 380000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Belvil|83.0|380000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -3144,11 +3137,11 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 270000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Belvil|69.0|270000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -3172,7 +3165,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 265000.0,
       "promena_cene_pct": -1.9,
       "first_seen": "2026-08-21",
@@ -3199,11 +3192,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 380243.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "New Minel|99.54|380243.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -3226,39 +3219,12 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 314721.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "New Minel|84.15|314721.0",
-      "zgrada_izvor": "naslov",
-      "agencija_izvor": "scraper",
-      "posrednik": true,
-      "tip_prodaje": null,
-      "cena_m2_sumnjiva": false
-    },
-    {
-      "id": "c28eb8b4e45979b9",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/ekskluzivna-ponuda-west-65-kula-124m2-lux-4-0/5425647519774?kid=4",
-      "naslov": "Izuzetna ponuda, WEST 65 kula, 124m2, lux 4.0",
-      "zgrada": "West 65 Kula",
-      "agencija": "Ikat Nekretnine",
-      "struktura": "4.0",
-      "str_label": null,
-      "m2": 124.0,
-      "cena": 650000.0,
-      "cena_m2": 5242,
-      "sprat": null,
-      "izvori": [
-        "halo"
-      ],
-      "dana_na_trzistu": 44,
-      "prva_cena": 650000.0,
-      "promena_cene_pct": null,
-      "first_seen": "2026-08-21",
-      "last_seen": "2026-10-03",
-      "dedup_key": "West 65 Kula|124.0|650000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
@@ -3281,7 +3247,7 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 379000.0,
       "promena_cene_pct": -2.9,
       "first_seen": "2026-08-21",
@@ -3308,11 +3274,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 339000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "A Blok|53.0|339000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -3336,11 +3302,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 650000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65 Kula|123.0|650000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -3363,11 +3329,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 299000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|54.0|299000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -3391,7 +3357,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 44,
+      "dana_na_trzistu": 45,
       "prva_cena": 770000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
@@ -3418,11 +3384,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 43,
+      "dana_na_trzistu": 44,
       "prva_cena": 400000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-22",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65 Kula|62.0|400000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -3446,7 +3412,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 43,
+      "dana_na_trzistu": 44,
       "prva_cena": 620000.0,
       "promena_cene_pct": -8.2,
       "first_seen": "2026-08-22",
@@ -3475,7 +3441,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 42,
+      "dana_na_trzistu": 43,
       "prva_cena": 280000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-23",
@@ -3503,11 +3469,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 40,
+      "dana_na_trzistu": 41,
       "prva_cena": 265000.0,
       "promena_cene_pct": -3.8,
       "first_seen": "2026-08-25",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "New Minel|65.0|255000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -3531,11 +3497,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 40,
+      "dana_na_trzistu": 41,
       "prva_cena": 449000.0,
       "promena_cene_pct": -4.5,
       "first_seen": "2026-08-25",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Lastavica|88.0|429000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -3559,11 +3525,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 39,
+      "dana_na_trzistu": 40,
       "prva_cena": 360000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-26",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "A Blok|75.0|360000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -3587,7 +3553,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 38,
+      "dana_na_trzistu": 39,
       "prva_cena": 569000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-27",
@@ -3614,7 +3580,7 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 33,
+      "dana_na_trzistu": 34,
       "prva_cena": 530000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-01",
@@ -3642,11 +3608,11 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 33,
+      "dana_na_trzistu": 34,
       "prva_cena": 692000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-01",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "New Minel|176.0|692000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -3669,11 +3635,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 33,
+      "dana_na_trzistu": 34,
       "prva_cena": 260000.0,
       "promena_cene_pct": 5.0,
       "first_seen": "2026-09-01",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Zepterra|54.0|273000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -3697,7 +3663,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 33,
+      "dana_na_trzistu": 34,
       "prva_cena": 305000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-01",
@@ -3724,11 +3690,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 33,
+      "dana_na_trzistu": 34,
       "prva_cena": 241000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-01",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|55.0|241000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -3751,11 +3717,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 32,
+      "dana_na_trzistu": 33,
       "prva_cena": 478000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-02",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|119.0|478000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -3778,39 +3744,12 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 30,
+      "dana_na_trzistu": 31,
       "prva_cena": 340000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-04",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|83.0|340000.0",
-      "zgrada_izvor": "opis",
-      "agencija_izvor": "scraper",
-      "posrednik": true,
-      "tip_prodaje": null,
-      "cena_m2_sumnjiva": false
-    },
-    {
-      "id": "eaea778eb26b2fab",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novogradnja---hitna-prodaja-id137146/5425647500608?kid=1",
-      "naslov": "Novogradnja - hitna prodaja ID#137146",
-      "zgrada": "Zepterra",
-      "agencija": "Lider Nekretnine Winner",
-      "struktura": "4.0",
-      "str_label": null,
-      "m2": 120.0,
-      "cena": 478000.0,
-      "cena_m2": 3983,
-      "sprat": null,
-      "izvori": [
-        "halo"
-      ],
-      "dana_na_trzistu": 30,
-      "prva_cena": 478000.0,
-      "promena_cene_pct": null,
-      "first_seen": "2026-09-04",
-      "last_seen": "2026-10-03",
-      "dedup_key": "Zepterra|120.0|478000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
       "posrednik": true,
@@ -3833,7 +3772,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 27,
+      "dana_na_trzistu": 28,
       "prva_cena": 410000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-07",
@@ -3860,11 +3799,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 25,
+      "dana_na_trzistu": 26,
       "prva_cena": 569000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-09",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65 Kula|105.0|569000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -3888,7 +3827,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 25,
+      "dana_na_trzistu": 26,
       "prva_cena": 170000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-09",
@@ -3916,7 +3855,7 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 25,
+      "dana_na_trzistu": 26,
       "prva_cena": 380000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-09",
@@ -3943,11 +3882,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 25,
+      "dana_na_trzistu": 26,
       "prva_cena": 425000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-09",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|73.4|425000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -3972,11 +3911,11 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 24,
+      "dana_na_trzistu": 25,
       "prva_cena": 515000.0,
       "promena_cene_pct": -1.9,
       "first_seen": "2026-09-10",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Elixir Garden|132.0|505000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -3999,11 +3938,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 23,
+      "dana_na_trzistu": 24,
       "prva_cena": 874500.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-11",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|165.0|874500.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4027,7 +3966,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 19,
+      "dana_na_trzistu": 20,
       "prva_cena": 290000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-15",
@@ -4055,11 +3994,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 19,
+      "dana_na_trzistu": 20,
       "prva_cena": 399000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-15",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|80.0|399000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -4082,11 +4021,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 380000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-16",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Lastavica|83.0|380000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -4109,11 +4048,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 255200.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-16",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|58.0|255200.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4136,11 +4075,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 170000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-16",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|33.0|170000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4163,11 +4102,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 265000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-16",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "New Minel|65.0|265000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4190,11 +4129,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 16,
+      "dana_na_trzistu": 17,
       "prva_cena": 630000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-18",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|126.0|630000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -4217,11 +4156,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 16,
+      "dana_na_trzistu": 17,
       "prva_cena": 175000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-18",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Belvil|31.0|175000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -4244,11 +4183,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 15,
+      "dana_na_trzistu": 16,
       "prva_cena": 550000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-19",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Belvil|109.0|550000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -4272,11 +4211,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 15,
+      "dana_na_trzistu": 16,
       "prva_cena": 325000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-19",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Belvil|60.0|325000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -4299,11 +4238,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 13,
+      "dana_na_trzistu": 14,
       "prva_cena": 185000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-21",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|31.0|185000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4328,11 +4267,11 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 13,
+      "dana_na_trzistu": 14,
       "prva_cena": 227000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-21",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|55.0|227000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4356,7 +4295,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 391000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-22",
@@ -4383,11 +4322,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 247500.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-22",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|55.0|247500.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -4410,11 +4349,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 419000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-22",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Belvil|94.0|419000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -4438,11 +4377,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 242000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-23",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "A Blok|48.0|242000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4467,11 +4406,11 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 160000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-23",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|32.0|160000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4495,7 +4434,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 470400.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-23",
@@ -4522,11 +4461,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 176500.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-23",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|32.0|176500.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4550,11 +4489,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 335000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-23",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Elixir Garden|73.0|335000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4565,7 +4504,7 @@
     {
       "id": "fe1c60d85e8b2464",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/penthouse-terasa-70m-pogled-koji-guta-nebo/5425647723828?kid=4",
-      "naslov": "Četvorosoban stan na prodaju, Omladinskih Brigada, 807.000€, 205m²",
+      "naslov": "Penthouse. Terasa 70m². Pogled koji guta nebo.",
       "zgrada": "West 65",
       "agencija": "Beba Real Estate",
       "struktura": "4.0",
@@ -4578,11 +4517,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 807000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-24",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|205.0|807000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -4605,11 +4544,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 391000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-24",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Belvil|94.0|391000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -4632,11 +4571,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 340200.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-24",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Sakura Park|75.62|340200.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4659,11 +4598,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 10,
+      "dana_na_trzistu": 11,
       "prva_cena": 770000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-24",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "A Blok|176.0|770000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -4686,11 +4625,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 9,
+      "dana_na_trzistu": 10,
       "prva_cena": 430000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-25",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|107.0|430000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -4713,11 +4652,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 9,
+      "dana_na_trzistu": 10,
       "prva_cena": 178000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-25",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "New Minel|31.0|178000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4740,11 +4679,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 8,
+      "dana_na_trzistu": 9,
       "prva_cena": 790000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-26",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Bel Mondo|170.0|790000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4767,11 +4706,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 8,
+      "dana_na_trzistu": 9,
       "prva_cena": 222000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-26",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|40.0|222000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4794,11 +4733,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 7,
+      "dana_na_trzistu": 8,
       "prva_cena": 280000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-27",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "New Minel|83.24|280000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4821,11 +4760,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 7,
+      "dana_na_trzistu": 8,
       "prva_cena": 388000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-27",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "New Minel|113.32|388000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4848,11 +4787,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 7,
+      "dana_na_trzistu": 8,
       "prva_cena": 493000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-27",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "New Minel|139.62|493000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4875,11 +4814,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 280000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Wellport|55.0|280000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -4904,11 +4843,11 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 315000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Belvil|60.0|315000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4931,11 +4870,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 235000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Wellport|39.0|235000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4958,11 +4897,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 509310.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Sakura Park|113.18|509310.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -4985,11 +4924,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 299000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Lastavica|61.0|299000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -5014,7 +4953,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 530400.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5041,11 +4980,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 549000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|92.0|549000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -5068,7 +5007,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 225000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5095,7 +5034,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 369000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5122,7 +5061,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 210000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5149,7 +5088,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 379000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5176,7 +5115,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 360000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5203,7 +5142,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 380000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5230,7 +5169,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 360000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5257,7 +5196,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 379000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5284,7 +5223,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 410000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5311,7 +5250,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 340000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5338,7 +5277,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 222000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5365,7 +5304,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 259800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5392,7 +5331,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 379000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5420,7 +5359,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 377999,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5447,7 +5386,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 255200,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5474,7 +5413,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 493000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5502,7 +5441,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 388000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5530,7 +5469,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 280000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5557,7 +5496,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 480000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5584,7 +5523,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 170000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5612,11 +5551,11 @@
         "nadjidom",
         "halo"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 390000,
       "promena_cene_pct": -2.6,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Lastavica|83.0|379725.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -5640,7 +5579,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 530024,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5667,7 +5606,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 336937,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5694,7 +5633,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 335000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5721,7 +5660,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 336937,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5748,7 +5687,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 380000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5775,7 +5714,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 280000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5802,7 +5741,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 425000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5829,7 +5768,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 379000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5857,7 +5796,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 276620,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5885,7 +5824,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 376534,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5912,7 +5851,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 429000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5939,7 +5878,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 259800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5966,7 +5905,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 167000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -5993,7 +5932,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 530000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6020,7 +5959,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 380000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6047,7 +5986,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 329000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6074,7 +6013,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 474600,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6101,7 +6040,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 550000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6128,7 +6067,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 176000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6155,7 +6094,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 530000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6182,7 +6121,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 238000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6209,7 +6148,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 537684,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6236,7 +6175,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 300000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6263,7 +6202,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 329000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6291,11 +6230,11 @@
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 530400,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|112.0|530400",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -6318,7 +6257,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 530400,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6345,7 +6284,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 550000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6372,7 +6311,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 493000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6399,7 +6338,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 512040,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6426,7 +6365,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 713400,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6453,7 +6392,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 170000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6480,7 +6419,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 270000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6507,7 +6446,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 300000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6534,7 +6473,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 299000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6561,7 +6500,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 440000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6588,7 +6527,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 790000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6616,11 +6555,11 @@
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 430000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Zepterra|107.0|430000",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -6643,7 +6582,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 170000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6670,7 +6609,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 176500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6697,7 +6636,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 5000000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -6724,11 +6663,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 170000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "New Minel|25.0|170000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -6751,11 +6690,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 325600.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Elixir Garden|65.0|325600.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -6778,11 +6717,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 170000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "New Minel|26.0|170000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -6805,11 +6744,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 470400.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Zepterra|112.0|470400.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -6832,11 +6771,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 245000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|56.0|245000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -6859,11 +6798,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 279500.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Wellport|59.0|279500.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -6886,11 +6825,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 389000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Soul 64|74.51|389000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -6913,11 +6852,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 776000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Belvil|169.0|776000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -6940,11 +6879,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 225000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Airport Garden|49.0|225000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -6967,11 +6906,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 285000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "New Minel|56.0|285000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -6994,11 +6933,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 239000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Belvil|61.0|239000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -7021,11 +6960,11 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 1,
+      "dana_na_trzistu": 2,
       "prva_cena": 470400.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-03",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65|112.0|470400.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
@@ -7048,12 +6987,66 @@
       "izvori": [
         "halo"
       ],
-      "dana_na_trzistu": 1,
+      "dana_na_trzistu": 2,
       "prva_cena": 185000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-03",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "Lux 51|45.0|185000.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "5a9b605cde80721d",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bel-mondo-78-32m-2-0/5425647775315?kid=1",
+      "naslov": "Bel Mondo |78,32m² | 2.0",
+      "zgrada": "Bel Mondo",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 78.32,
+      "cena": 344608.0,
+      "cena_m2": 4400,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 344608.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "dedup_key": "Bel Mondo|78.32|344608.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "aefce1df9ba471ae",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bel-mondo-120-76-m-3-0/5425647773961?kid=1",
+      "naslov": "Bel Mondo |120,76 m² | 3.0",
+      "zgrada": "Bel Mondo",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 120.76,
+      "cena": 531344.0,
+      "cena_m2": 4400,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 531344.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "dedup_key": "Bel Mondo|120.76|531344.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": null,
