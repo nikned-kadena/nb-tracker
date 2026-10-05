@@ -3,12 +3,13 @@
   "source": "all",
   "date": "2026-10-05",
   "scraped_at": "2026-10-05",
-  "total_raw": 256,
+  "total_raw": 257,
   "total_unique": 211,
-  "total_dups": 45,
+  "total_dups": 46,
   "diff_new": [
     "5a9b605cde80721d",
-    "aefce1df9ba471ae"
+    "aefce1df9ba471ae",
+    "e8949b4baac13782"
   ],
   "diff_removed": [
     "9af390bd0e404f5a",
@@ -563,7 +564,7 @@
       "prva_cena": 685000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "dedup_key": "West 65 Kula|124.0|685000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -7050,6 +7051,33 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "e8949b4baac13782",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/retko-u-ponudi-1-5-stan-na-b-kosi-i-id2340/5425647773312?kid=4",
+      "naslov": "Retko u ponudi 1.5 stan na B.Kosi I ID#2340",
+      "zgrada": "Lux 51",
+      "agencija": "Milenijumnekretnine",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 45.0,
+      "cena": 185000.0,
+      "cena_m2": 4111,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 185000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "dedup_key": "Lux 51|45.0|185000.0",
+      "zgrada_izvor": "opis",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }

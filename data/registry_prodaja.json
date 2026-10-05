@@ -2106,7 +2106,7 @@
     "8a9ac2f007282b42": {
       "uid": "8a9ac2f007282b42",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-05",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e68d4008f8853fcb",
@@ -2136,7 +2136,7 @@
       "days_listed": 97,
       "cena_m2": 5524,
       "last_seen_src": {
-        "halo": "2026-10-04"
+        "halo": "2026-10-05"
       },
       "fp_nosprat_all": [
         "99e6275728ea65e8"
@@ -21421,7 +21421,8 @@
       "price_first": 344608.0,
       "price_current": 344608.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4400
     },
     "aefce1df9ba471ae": {
       "uid": "aefce1df9ba471ae",
@@ -21462,10 +21463,52 @@
       "price_first": 531344.0,
       "price_current": 531344.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 4400
+    },
+    "e8949b4baac13782": {
+      "uid": "e8949b4baac13782",
+      "first_seen": "2026-10-05",
+      "last_seen": "2026-10-05",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "fad523c809b84757",
+      "fp_loose_all": [
+        "fad523c809b84757"
+      ],
+      "fp_nosprat": "805761bd05d07033",
+      "fp_nosprat_all": [
+        "805761bd05d07033"
+      ],
+      "fp_strict_all": [
+        "2a719f98a1c42c1a"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-05"
+      },
+      "source_ids": {
+        "halo": "49300802d614"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/retko-u-ponudi-1-5-stan-na-b-kosi-i-id2340/5425647773312?kid=4"
+      ],
+      "zgrada": "Lux 51",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 45.0,
+      "sprat": null,
+      "agencija": "Milenijumnekretnine",
+      "naslov": "Retko u ponudi 1.5 stan na B.Kosi I ID#2340",
+      "price_first": 185000.0,
+      "price_current": 185000.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-05T04:01:41.280750+00:00",
+  "updated_at": "2026-10-05T10:44:27.938909+00:00",
   "last_run": {
     "4zida": "2026-09-30",
     "nadjidom": "2026-09-30",
