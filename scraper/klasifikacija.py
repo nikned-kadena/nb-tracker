@@ -211,6 +211,27 @@ def _naslov_iz_url(e):
 _LOK_A_BLOK = re.compile(r",\s*a[\s-]*blok(?:\s*-\s*blok\s*67a?)?\s*,", re.I)
 
 
+# Opis cesto pominje susedne zgrade kao orijentir ("nadomak A BLOK-a", "u blizini
+# Airport City-a", "preko puta Belvila"). To nije dokaz zgrade.
+_BLIZINA = re.compile(
+    r"(nadomak|blizin\w*|blizu|pored|kod|preko\s+puta|nedaleko|okolin\w*|"
+    r"udaljen\w*|u\s+susedstvu|do|od|ka|iza|ispred|naspram|u\s+okviru\s+naselja)"
+    r"\s+(?:\w+\s+){0,2}$", re.I)
+_PADEZ = re.compile(r"-\s?[a-zčćšžđ]{1,3}\b", re.I)    # "A BLOK-a", "Belvil-u"
+
+
+def _opis_imenuje(opis):
+    """Zgrada koju OPIS imenuje kao predmet oglasa, ne kao orijentir, ili None."""
+    for ime, obrasci in _b.BUILDINGS:
+        for pat in obrasci:
+            for m in re.finditer(pat, opis, re.I):
+                pre = opis[max(0, m.start() - 40):m.start()]
+                if _BLIZINA.search(pre) or _PADEZ.match(opis, m.end()):
+                    continue
+                return ime
+    return None
+
+
 def _nb_po_opisu(e):
     """NB: (zgrada, izvor, orig) kad naslov ne dokazuje zgradu a opis postoji,
     inace None. Samo NB klasifikator (_match_in), samo oglasi bez Halo izvora."""
@@ -226,7 +247,7 @@ def _nb_po_opisu(e):
     if imenovana and not (imenovana == "A Blok" and _LOK_A_BLOK.search(naslov)):
         return None                                   # naslov stvarno imenuje zgradu
     sacuvana = e.get("zgrada")
-    z = _b._match_in(opis)
+    z = _opis_imenuje(opis)
     if z:
         return z, "opis_agenta", (None if z == sacuvana else sacuvana)
     return None, "bez_dokaza", sacuvana
