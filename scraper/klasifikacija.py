@@ -30,6 +30,13 @@ PRAVILA (po prioritetu)
    (keš 4zida/Nadji Dom) po strogim pravilima modula zgrada_iz_opisa.py
    imenuje zgradu — uzima se ta zgrada (izvor `opis`, `zgrada_orig` cuva staro).
    Halo opisi se ne cuvaju, pa se za Halo oglase ovaj korak preskace.
+4b.(05.10.2026, NB) 4zida oglasu sam upisuje lokaciju ("A Blok - Blok 67a",
+   "A BLOK") koja je sira od zgrade A Blok i NIJE dokaz zgrade. Za oglase bez
+   Halo izvora (opis se cuva) naslov koji zgradu ne imenuje ili je imenuje samo
+   preko 4zida lokacije ne dokazuje nista: OPIS odlucuje. Opis imenuje zgradu
+   -> ta zgrada (izvor `opis_agenta`, `zgrada_orig` cuva staro); opis ne imenuje
+   nijednu -> zgrada = None, izvor `bez_dokaza`. Oglas bez opisa u kesu ostaje
+   kako je bio (nema sta da se proveri).
 5. Inace ostaje sacuvana oznaka (potekla iz opisa/adrese oglasa, koje ovde
    nemamo). Polje `zgrada_izvor` kaze koliko je oznaka proverljiva:
        naslov  - naslov imenuje tu zgradu (pouzdano)
@@ -199,6 +206,32 @@ def _naslov_iz_url(e):
     return None
 
 
+# 4zida sam dodaje lokaciju u naslov: "..., A Blok - Blok 67a, 255.200€, 58m²"
+# ili "..., A BLOK, 2.500€, 174m²". To je naziv lokacije, ne zgrade.
+_LOK_A_BLOK = re.compile(r",\s*a[\s-]*blok(?:\s*-\s*blok\s*67a?)?\s*,", re.I)
+
+
+def _nb_po_opisu(e):
+    """NB: (zgrada, izvor, orig) kad naslov ne dokazuje zgradu a opis postoji,
+    inace None. Samo NB klasifikator (_match_in), samo oglasi bez Halo izvora."""
+    if _b is None or not hasattr(_b, "_match_in") or hasattr(_b, "_find_by_direct_name"):
+        return None
+    if "halo" in (e.get("sources") or []):
+        return None
+    opis = _opis_za(e)
+    if not opis:
+        return None
+    naslov = e.get("naslov") or ""
+    imenovana = iz_naslova(naslov, e.get("sprat"))
+    if imenovana and not (imenovana == "A Blok" and _LOK_A_BLOK.search(naslov)):
+        return None                                   # naslov stvarno imenuje zgradu
+    sacuvana = e.get("zgrada")
+    z = _b._match_in(opis)
+    if z:
+        return z, "opis_agenta", (None if z == sacuvana else sacuvana)
+    return None, "bez_dokaza", sacuvana
+
+
 def ispravi_zgradu(e):
     z, izvor, orig = _ispravi_zgradu(e)
     if z == NEIDENT:
@@ -216,6 +249,9 @@ def _ispravi_zgradu(e):
     r = rucna_zgrada(e)
     if r:
         return r, "rucno", e.get("zgrada")
+    po_opisu = _nb_po_opisu(e)
+    if po_opisu is not None:
+        return po_opisu
     zgrada, izvor, orig = _ispravi_po_naslovu(e)
     opis = _opis_za(e) if _iz_opisa is not None else None
 
