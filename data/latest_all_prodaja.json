@@ -3,12 +3,13 @@
   "source": "all",
   "date": "2026-10-06",
   "scraped_at": "2026-10-06",
-  "total_raw": 260,
+  "total_raw": 262,
   "total_unique": 206,
-  "total_dups": 54,
+  "total_dups": 56,
   "diff_new": [
     "a49733f4d0c9c7a6",
-    "a4cfe7fab8cccfc8"
+    "a4cfe7fab8cccfc8",
+    "9be6cede513f17b6"
   ],
   "diff_removed": [
     "f127de4d9be9930f",
@@ -3614,7 +3615,7 @@
       "prva_cena": 305000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-01",
-      "last_seen": "2026-10-02",
+      "last_seen": "2026-10-06",
       "dedup_key": "A Blok|54.0|305000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -3918,6 +3919,33 @@
       "first_seen": "2026-09-11",
       "last_seen": "2026-10-06",
       "dedup_key": "West 65|165.0|874500.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "f1ea00faeeff6b60",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodajemo-2-0-nov-stan---soul-64/5425647620660?kid=1",
+      "naslov": "Prodajemo 2.0 nov stan - SOUL 64",
+      "zgrada": "Soul 64",
+      "agencija": "Nekretnine Obradovic",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 54.0,
+      "cena": 299000.0,
+      "cena_m2": 5537,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 21,
+      "prva_cena": 299000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-10-06",
+      "dedup_key": "Soul 64|54.0|299000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
@@ -7173,6 +7201,33 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "9be6cede513f17b6",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuz-i-komfor-na-sedmom-spratu-bel-mondo/5425647779852?kid=4",
+      "naslov": "Luksuz i komfor na sedmom spratu – Bel Mondo",
+      "zgrada": "Bel Mondo",
+      "agencija": "Turaquadra",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 120.76,
+      "cena": 531344.0,
+      "cena_m2": 4400,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 531344.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "dedup_key": "Bel Mondo|120.76|531344.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }

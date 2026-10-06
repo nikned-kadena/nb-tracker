@@ -16781,7 +16781,7 @@
     "debc374207677c48": {
       "uid": "debc374207677c48",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-06",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "52d4e745338c53de",
@@ -16806,14 +16806,14 @@
       "m2": 54.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Dvosoban stan za izdavanje, Tadije Sondermajera Wellport, 850€, 54m²",
+      "naslov": "Welport Nov, 2.0,Svetao,Miran,Parking,Polunamesten",
       "price_first": 850.0,
       "price_current": 850.0,
       "price_changes": [],
       "days_listed": 46,
       "cena_m2": 16,
       "last_seen_src": {
-        "halo": "2026-09-30",
+        "halo": "2026-10-06",
         "4zida": "2026-09-30"
       },
       "fp_nosprat_all": [
@@ -22835,7 +22835,7 @@
     "dafc5f669061b35e": {
       "uid": "dafc5f669061b35e",
       "first_seen": "2026-09-19",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-06",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e6b3f456cb1f2a82",
@@ -22849,21 +22849,22 @@
         "nadjidom"
       ],
       "source_ids": {
-        "halo": "9de968f810c8",
+        "halo": "f2837a35ca6e",
         "4zida": "4zida:6abcee7d6fc30198a404ffa0",
         "nadjidom": "nadjidom:2358026"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-4-0---105m2/5425647698225?kid=3",
         "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6abcee7d6fc30198a404ffa0",
-        "https://www.nadjidom.com/sr/details/2358026/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html"
+        "https://www.nadjidom.com/sr/details/2358026/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzan-4-0-stan-u-wellportu-id10412/5425647754277?kid=1"
       ],
       "zgrada": "Wellport",
       "struktura": "4.0",
       "str_label": null,
       "m2": 105.0,
       "sprat": "2",
-      "agencija": "EUROPOLIS NEKRETNINE ",
+      "agencija": "EUROPOLISNEKRETNINE",
       "naslov": "Luksuzan 4.0 stan u Wellportu ID#10412",
       "price_first": 1650.0,
       "price_current": 1650.0,
@@ -22871,7 +22872,7 @@
       "days_listed": 17,
       "cena_m2": 16,
       "last_seen_src": {
-        "halo": "2026-09-30",
+        "halo": "2026-10-06",
         "4zida": "2026-09-30",
         "nadjidom": "2026-09-30"
       },
@@ -23814,7 +23815,7 @@
         "4zida"
       ],
       "source_ids": {
-        "halo": "ed9940fa447f",
+        "halo": "2e4c051e27ad",
         "4zida": "4zida:6ab3b391c640ec1d150d37dc"
       },
       "source_urls": [
@@ -27837,7 +27838,8 @@
       "price_first": 3300.0,
       "price_current": 3300.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 16
     },
     "3db828b18bdf8984": {
       "uid": "3db828b18bdf8984",
@@ -27878,7 +27880,8 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 22
     },
     "d78a1e0bf05ac2f4": {
       "uid": "d78a1e0bf05ac2f4",
@@ -27919,7 +27922,8 @@
       "price_first": 1400.0,
       "price_current": 1400.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 13
     },
     "9c71d4df3c0d333e": {
       "uid": "9c71d4df3c0d333e",
@@ -27960,10 +27964,93 @@
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 19
+    },
+    "780c4faba56dbe39": {
+      "uid": "780c4faba56dbe39",
+      "first_seen": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "e1edaaf5a03fe445",
+      "fp_loose_all": [
+        "e1edaaf5a03fe445"
+      ],
+      "fp_nosprat": "69bc919b3bfcca7f",
+      "fp_nosprat_all": [
+        "69bc919b3bfcca7f"
+      ],
+      "fp_strict_all": [
+        "4de966d9c0b74f82"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-06"
+      },
+      "source_ids": {
+        "halo": "9a1ee84887f6"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden---potpuno-opremljen-stan---55/5425647784192"
+      ],
+      "zgrada": "Airport Garden",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 55.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Airport Garden - Potpuno Opremljen Stan - 55 m2",
+      "price_first": 1450.0,
+      "price_current": 1450.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "003b60d39fa15d90": {
+      "uid": "003b60d39fa15d90",
+      "first_seen": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "ce116bba6816de93",
+      "fp_loose_all": [
+        "ce116bba6816de93"
+      ],
+      "fp_nosprat": "05d0879da983ec1f",
+      "fp_nosprat_all": [
+        "05d0879da983ec1f"
+      ],
+      "fp_strict_all": [
+        "a650a7ade21ffdcc"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-06"
+      },
+      "source_ids": {
+        "halo": "45635e3c61e9"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-stan-wellport/5425647745367?kid=1"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "1.0",
+      "str_label": null,
+      "m2": 39.0,
+      "sprat": null,
+      "agencija": "avenia011",
+      "naslov": " Lux stan Wellport",
+      "price_first": 900.0,
+      "price_current": 900.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-06T04:02:27.126872+00:00",
+  "updated_at": "2026-10-06T10:38:31.458381+00:00",
   "last_run": {
     "4zida": "2026-09-30",
     "nadjidom": "2026-09-30",

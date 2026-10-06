@@ -4,7 +4,7 @@
   "pocetak_pracenja": "2026-06-29",
   "ukupno": {
     "n_zavrseni": 620,
-    "n_aktivni": 178,
+    "n_aktivni": 180,
     "dom_medijana": 20,
     "metod": "kaplan-meier",
     "pouzdano": true,
@@ -447,12 +447,12 @@
     },
     "Airport Garden": {
       "n_zavrseni": 73,
-      "n_aktivni": 25,
+      "n_aktivni": 26,
       "dom_medijana": 20,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 11,
-      "starost_aktivnih_medijana": 18,
+      "starost_aktivnih_medijana": 16,
       "udeo_jos_u_ponudi": 0.1109,
       "udeo_aktivnih_pct": 26,
       "skinuti_p25": 6,
@@ -1379,14 +1379,14 @@
     },
     "Wellport": {
       "n_zavrseni": 54,
-      "n_aktivni": 31,
+      "n_aktivni": 32,
       "dom_medijana": 23,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 21,
-      "starost_aktivnih_medijana": 7,
+      "starost_aktivnih_medijana": 6,
       "udeo_jos_u_ponudi": 0.0964,
-      "udeo_aktivnih_pct": 36,
+      "udeo_aktivnih_pct": 37,
       "skinuti_p25": 7,
       "skinuti_p75": 26,
       "brzo_do_30d": 91,
@@ -1835,7 +1835,7 @@
     },
     "nepoznato": {
       "n_zavrseni": 620,
-      "n_aktivni": 137,
+      "n_aktivni": 139,
       "dom_medijana": 20,
       "metod": "kaplan-meier",
       "pouzdano": true,
@@ -2179,7 +2179,7 @@
     "prosecno_snizenje_pct": 9.8
   },
   "izvori": {
-    "halo": 756,
+    "halo": 758,
     "4zida": 87,
     "nadjidom": 25
   },

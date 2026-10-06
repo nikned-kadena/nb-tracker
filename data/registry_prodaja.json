@@ -14245,7 +14245,7 @@
     "d7a6793d3f59887f": {
       "uid": "d7a6793d3f59887f",
       "first_seen": "2026-09-01",
-      "last_seen": "2026-10-02",
+      "last_seen": "2026-10-06",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d6cc486c716da066",
@@ -14279,7 +14279,7 @@
       "days_listed": 35,
       "cena_m2": 5648,
       "last_seen_src": {
-        "halo": "2026-10-02",
+        "halo": "2026-10-06",
         "4zida": "2026-09-30"
       },
       "fp_nosprat_all": [
@@ -15584,9 +15584,9 @@
     "f1ea00faeeff6b60": {
       "uid": "f1ea00faeeff6b60",
       "first_seen": "2026-09-15",
-      "last_seen": "2026-09-21",
-      "is_active": false,
-      "deactivated_at": "2026-09-23",
+      "last_seen": "2026-10-06",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "039cbf70caf5dad0",
       "fp_strict_all": [
         "92fa9945a51f4bbe"
@@ -15610,8 +15610,15 @@
       "price_first": 299000.0,
       "price_current": 299000.0,
       "price_changes": [],
-      "days_listed": 8,
-      "cena_m2": 5537
+      "days_listed": 21,
+      "cena_m2": 5537,
+      "last_seen_src": {
+        "halo": "2026-10-06"
+      },
+      "fp_nosprat_all": [
+        "baf3737ced00c4c7"
+      ],
+      "fp_nosprat": "baf3737ced00c4c7"
     },
     "62b94c05458e2b21": {
       "uid": "62b94c05458e2b21",
@@ -17434,10 +17441,11 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "c3108acec1de"
+        "halo": "264643ab2dff"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/garsonjera-novogradnja-31m2-new-minel-id2579/5425647724769?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/garsonjera-novogradnja-31m2-new-minel-id2579/5425647724769?kid=1",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/garsonjera-novogradnja-31m2-new-minel-id2579/5425647724769?kid=4"
       ],
       "zgrada": "New Minel",
       "struktura": "garsonjera",
@@ -18120,10 +18128,11 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "b5de529c99ca"
+        "halo": "f9d6e8a92284"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/lastavice-novi-beograd-namesten-2-5-stan-id16/5425647615180?kid=4"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/lastavice-novi-beograd-namesten-2-5-stan-id16/5425647615180?kid=4",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/lastavice-novi-beograd-namesten-2-5-stan-id16/5425647615180?kid=1"
       ],
       "zgrada": "Lastavica",
       "struktura": "2.5",
@@ -21580,7 +21589,8 @@
       "price_first": 430000.0,
       "price_current": 430000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4019
     },
     "a4cfe7fab8cccfc8": {
       "uid": "a4cfe7fab8cccfc8",
@@ -21621,10 +21631,52 @@
       "price_first": 315000.0,
       "price_current": 315000.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 5081
+    },
+    "9be6cede513f17b6": {
+      "uid": "9be6cede513f17b6",
+      "first_seen": "2026-10-06",
+      "last_seen": "2026-10-06",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "8426bd66b8d31eec",
+      "fp_loose_all": [
+        "8426bd66b8d31eec"
+      ],
+      "fp_nosprat": "9cdaebf963ded310",
+      "fp_nosprat_all": [
+        "9cdaebf963ded310"
+      ],
+      "fp_strict_all": [
+        "60c3d65005f1e910"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-06"
+      },
+      "source_ids": {
+        "halo": "203c8f0b7b59"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuz-i-komfor-na-sedmom-spratu-bel-mondo/5425647779852?kid=4"
+      ],
+      "zgrada": "Bel Mondo",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 120.76,
+      "sprat": null,
+      "agencija": "Turaquadra",
+      "naslov": "Luksuz i komfor na sedmom spratu – Bel Mondo",
+      "price_first": 531344.0,
+      "price_current": 531344.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-06T04:01:49.429242+00:00",
+  "updated_at": "2026-10-06T10:37:47.057525+00:00",
   "last_run": {
     "4zida": "2026-09-30",
     "nadjidom": "2026-09-30",
