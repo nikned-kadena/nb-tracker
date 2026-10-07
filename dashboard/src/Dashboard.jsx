@@ -133,6 +133,79 @@ const T = {
   blue:    "#2563eb",
 };
 
+// ── Grupisanje istih oglasa (isti pristup kao BnV dashboard) ─────────────────
+// 1) mergeDup: oglasi sa istim dedup_key = isti stan (dve agencije / dva portala) -> JEDAN red.
+//    Agencije i linkovi ostalih se pamte u _agencije / _urls da se ne izgube.
+const mergeDup = (list)=>{
+  const m=new Map();
+  for(const l of list){
+    const k=l.dedup_key||`${l.zgrada}|${l.m2}|${l.cena}`||l.id;
+    const ag=l.agencija||null;
+    const e=m.get(k);
+    if(!e){ m.set(k,{...l,_n:1,_agencije:ag?[ag]:[],_urls:l.url?[l.url]:[],_raw:[l]}); continue; }
+    e._n++; e._raw.push(l);
+    if(ag && !e._agencije.includes(ag)) e._agencije.push(ag);
+    if(l.url && !e._urls.includes(l.url)) e._urls.push(l.url);
+    if(!e.sprat && l.sprat) e.sprat=l.sprat;
+    if(!e.agencija && ag) e.agencija=ag;
+  }
+  return [...m.values()];
+};
+// Sprat -> broj (rimski ili arapski; "XXV/30" = sprat/ukupno spratova).
+const spratNum = (x)=>{
+  if(!x) return null;
+  const t=String(x).split("/")[0].trim().toUpperCase();
+  if(/^\d+$/.test(t)) return parseInt(t,10);
+  if(/^[IVXLC]+$/.test(t)){
+    const v={I:1,V:5,X:10,L:50,C:100}; let n=0;
+    for(let i=0;i<t.length;i++){ const a=v[t[i]], b=v[t[i+1]]||0; n+= a<b?-a:a; }
+    return n;
+  }
+  return null;
+};
+// 2) clusterListings: "isti stan" = ista zgrada+struktura, m2 u okviru 1 m2, cena u okviru 5%,
+//    sprat isti ili nepoznat kod bar jednog. Hvata isti stan koji dve agencije nude po razlicitoj ceni.
+const clusterListings = (list, maxRatio)=>{
+  const items=list.map(l=>({l,sp:spratNum(l.sprat)}))
+    .sort((a,b)=>(a.sp==null)-(b.sp==null) || (a.l.m2||0)-(b.l.m2||0));
+  const groups=[];
+  const ok=(g,it)=>g.items.every(x=>{
+    if(g.key!==(it.l.zgrada+"|"+it.l.struktura)) return false;
+    if(Math.abs((x.l.m2||0)-(it.l.m2||0))>1) return false;
+    if(x.sp!=null && it.sp!=null && x.sp!==it.sp) return false;
+    if(x.l.cena && it.l.cena){ const r=Math.max(x.l.cena,it.l.cena)/Math.min(x.l.cena,it.l.cena); if(r>maxRatio) return false; }
+    return true;
+  });
+  for(const it of items){
+    if(!it.l.m2) { groups.push({key:"x"+groups.length,items:[it]}); continue; }
+    const cands=groups.filter(g=>ok(g,it));
+    const best=cands.find(g=>g.items.some(x=>x.sp!=null&&x.sp===it.sp)) || cands[0];
+    if(best) best.items.push(it); else groups.push({key:it.l.zgrada+"|"+it.l.struktura,items:[it]});
+  }
+  return groups.map(g=>g.items.map(x=>x.l));
+};
+const DUP_RATIO = 1.05;   // DUPLIKAT = isti stan: cena do 5% razlike
+const mergeCluster = (arr)=>{
+  const r={...arr[0]};
+  r._n=arr.reduce((a,x)=>a+(x._n||1),0);
+  r._raw=arr.flatMap(x=>x._raw||[x]);
+  r._agencije=[...new Set(arr.flatMap(x=>x._agencije||[]))];
+  r._urls=[...new Set(arr.flatMap(x=>x._urls||[x.url]).filter(Boolean))];
+  r._cene=[...new Set(arr.map(x=>x.cena).filter(Boolean))].sort((a,b)=>a-b);
+  for(const x of arr){ if(!r.sprat && x.sprat) r.sprat=x.sprat; if(!r.agencija && x.agencija) r.agencija=x.agencija; }
+  return r;
+};
+const dedupeListings = (list)=>clusterListings(mergeDup(list),DUP_RATIO).map(c=>c.length>1?mergeCluster(c):c[0]);
+const GRP_COLORS=["#6366F1","#F59E0B","#10B981","#EF4444","#06B6D4","#A855F7","#84CC16","#F97316"];
+const fmtSprat = (x)=>{
+  if(!x) return "–";
+  const [a,...rest]=String(x).split("/");
+  const n=spratNum(a);
+  const tail=rest.map(r=>{const k=spratNum(r); return k!=null?String(k):r.trim();});
+  return [n!=null?String(n):a.trim(),...tail].join("/");
+};
+const srcTag = u=> /halooglasi/.test(u)?"H":/4zida/.test(u)?"4Z":/nadjidom/.test(u)?"ND":"↗";
+
 // ── Helpers ──────────────────────────────────────────────────────────────────
 const fmt  = n => n == null ? "–" : Math.round(n).toLocaleString("sr-RS");
 const fmtK = n => {
@@ -391,6 +464,7 @@ export default function Dashboard() {
   const [selBuildings, setSelBuildings] = useState([]);
   const [selStruktura, setSelStruktura] = useState([]);
   const [noviFilter,   setNoviFilter]   = useState(false);
+  const [grupisi, setGrupisi] = useState(true);   // mogući duplikati jedan ispod drugog (Listinzi)
 
   const [sortCol, setSortCol] = useState("cena");
   const [sortDir, setSortDir] = useState("asc");
@@ -452,14 +526,9 @@ export default function Dashboard() {
     return r;
   },[listings,noveDanas,noviFilter,selBuildings,selStruktura]);
 
-  const uniq = useMemo(()=>{
-    const seen=new Set();
-    return filtered.filter(l=>{
-      const k=`${l.zgrada}|${l.m2}|${l.cena}`;
-      if(seen.has(k)) return false;
-      seen.add(k); return true;
-    });
-  },[filtered]);
+  // Jedinstvene nekretnine: tacni duplikati (isti dedup_key) + isti stan sa cenom do 5% razlike
+  // (isti pristup kao BnV). Svaki red nosi _raw (svi originalni oglasi), _agencije, _urls, _cene.
+  const uniq = useMemo(()=>dedupeListings(filtered),[filtered]);
 
   // Prosek rente po (zgrada, struktura) — za yield u Zgrade tabu.
   // Min 2 renta oglasa po kombinaciji, isti source kao prodaja.
@@ -479,10 +548,9 @@ export default function Dashboard() {
 
   const cene   = useMemo(()=>uniq.map(l=>l.cena).filter(Boolean),[uniq]);
   const cm2s   = useMemo(()=>uniq.map(l=>l.cena_m2).filter(Boolean),[uniq]);
-  // Duplikati: latest sadrzi vec DEDUPLIKOVANU listu, pa se broj duplikata
-  // cita iz total_raw (svi relevantni oglasi pre dedup-a) - ne iz listings.length
-  const totalRaw = data?.total_raw ?? listings.length;
-  const dups   = totalRaw - (data?.total_unique || listings.length);
+  // Duplikati: oglasi u izabranom skupu minus jedinstvene nekretnine (posle grupisanja)
+  const totalRaw = filtered.length;
+  const dups   = totalRaw - uniq.length;
 
   const avgCM2 = cm2s.length ? Math.round(cm2s.reduce((a,b)=>a+b,0)/cm2s.length) : null;
 
@@ -508,15 +576,28 @@ export default function Dashboard() {
   const trendData = sorted_h.slice(-60);
 
   // Sort
+  // Svaki oglas ima SVOJ red. Isti stan (klaster) = _g (id grupe), _gn (broj oglasa u grupi).
   const sortedL = useMemo(()=>{
-    const r=[...uniq];
+    const r=uniq.flatMap((c,ci)=>{
+      const raw=c._raw&&c._raw.length>1?c._raw:null;
+      return (c._raw||[c]).map(x=>raw?{...x,_g:ci+1,_gn:raw.length}:x);
+    });
     r.sort((a,b)=>{
       let va=a[sortCol],vb=b[sortCol];
       if(va==null) return 1; if(vb==null) return -1;
       return sortDir==="asc"?(va>vb?1:-1):(va<vb?1:-1);
     });
-    return r;
-  },[uniq,sortCol,sortDir]);
+    if(!grupisi) return r;
+    // Grupa se pojavljuje na mestu svog prvog clana, clanovi redom po ceni.
+    const out=[]; const done=new Set();
+    for(const l of r){
+      if(!l._g){ out.push(l); continue; }
+      if(done.has(l._g)) continue;
+      done.add(l._g);
+      out.push(...r.filter(x=>x._g===l._g).sort((a,b)=>(a.cena||0)-(b.cena||0)));
+    }
+    return out;
+  },[uniq,sortCol,sortDir,grupisi]);
 
   function toggleSort(col){
     if(sortCol===col) setSortDir(d=>d==="asc"?"desc":"asc");
@@ -696,7 +777,7 @@ export default function Dashboard() {
               <KpiCard label="Unique nekretnine" value={uniq.length}
                 sub={`od ${totalRaw} oglasa, ${dups} dup.`} />
               <KpiCard label="Duplikati" value={dups}
-                sub={totalRaw > 0 ? `${(dups/totalRaw*100).toFixed(1)}% od ukupnih · ista nkrt, više agencija` : "ista nkrt, više agencija"} />
+                sub={totalRaw > 0 ? `${(dups/totalRaw*100).toFixed(1)}% od ukupnih · isti stan (cena do 5%), više agencija/portala` : "isti stan, više agencija/portala"} />
               <KpiCard label="Novi danas" value={`+${noveDanas.length}`}
                 sub={(data?.diff_removed?.length||0) > 0
                   ? `−${data.diff_removed.length} skinutih · klikni`
@@ -1106,10 +1187,16 @@ export default function Dashboard() {
           {/* ═══ LISTINZI ═══ */}
           {tab==="Listinzi" && (
             <div>
-              <div style={{fontSize:13,color:T.muted,marginBottom:12}}>
-                {sortedL.length} oglasa
-                {noviFilter&&<span style={{color:T.blue}}> · Samo novi danas</span>}
-                {selBuildings.length>0&&<span style={{color:T.navy}}> · Filtrirano po zgradi</span>}
+              <div style={{fontSize:13,color:T.muted,marginBottom:12,display:"flex",alignItems:"center",gap:14,flexWrap:"wrap"}}>
+                <span>
+                  {sortedL.length} oglasa · {uniq.length} nekretnina
+                  {noviFilter&&<span style={{color:T.blue}}> · Samo novi danas</span>}
+                  {selBuildings.length>0&&<span style={{color:T.navy}}> · Filtrirano po zgradi</span>}
+                </span>
+                <label style={{fontSize:12,display:"flex",alignItems:"center",gap:5,cursor:"pointer",whiteSpace:"nowrap"}}
+                  title="Isti stan (ista zgrada i struktura, m² u okviru 1, cena do 5%, isti sprat ili nepoznat) stoji jedan ispod drugog u okviru. Svaki oglas zadržava svoj red.">
+                  <input type="checkbox" checked={grupisi} onChange={e=>setGrupisi(e.target.checked)}/> Grupiši iste oglase
+                </label>
               </div>
               <div style={{background:T.surface,border:`1px solid ${T.border}`,
                 borderRadius:10,overflow:"hidden",
@@ -1125,6 +1212,7 @@ export default function Dashboard() {
                           {k:"m2","l":"m²"},
                           {k:"cena","l":mode==="prodaja"?"Cena (€)":"Kirija (€)"},
                           {k:"cena_m2","l":mode==="prodaja"?"€/m²":"€/m²/mes"},
+                          {k:"sprat","l":"Sprat"},
                           {k:"agencija","l":"Agencija"},
                         ].map(({k,l})=>(
                           <th key={k} onClick={()=>toggleSort(k)}
@@ -1139,10 +1227,19 @@ export default function Dashboard() {
                       </tr>
                     </thead>
                     <tbody>
-                      {sortedL.map((l,i)=>(
+                      {sortedL.map((l,i)=>{
+                        const inG = grupisi && !!l._g;
+                        const gCol = inG ? GRP_COLORS[(l._g-1)%GRP_COLORS.length] : null;
+                        const first = inG && sortedL[i-1]?._g!==l._g;
+                        const last  = inG && sortedL[i+1]?._g!==l._g;
+                        let gPos=1; if(inG){ for(let k=i-1;k>=0&&sortedL[k]._g===l._g;k--) gPos++; }
+                        const rowBg = inG ? gCol+"0F" : (i%2?"#f8fafc":"#fff");
+                        return (
                         <tr key={l.id}
-                          style={{background:i%2?"#f8fafc":"#fff",
-                            borderBottom:`1px solid ${T.border}`}}>
+                          style={{background:rowBg,
+                            borderBottom:last?`2px solid ${gCol}`:`1px solid ${inG?gCol+"33":T.border}`,
+                            borderTop:first?`2px solid ${gCol}`:undefined,
+                            boxShadow:inG?`inset 5px 0 0 ${gCol}`:"none"}}>
                           <td style={{padding:"9px 10px"}}>
                             <span style={{display:"inline-flex",alignItems:"center",gap:5,
                               fontSize:12,fontWeight:600,
@@ -1150,6 +1247,9 @@ export default function Dashboard() {
                               <span style={{width:7,height:7,borderRadius:"50%",flexShrink:0,
                                 background:BUILDING_COLORS[l.zgrada]||T.muted,display:"inline-block"}}/>
                               {l.zgrada||"–"}
+                              {inG&&<span title={`Isti stan: ${gPos}. od ${l._gn} oglasa`}
+                                style={{fontSize:10,fontWeight:700,color:gCol,marginLeft:2,whiteSpace:"nowrap"}}>
+                                dup {gPos}/{l._gn}</span>}
                             </span>
                           </td>
                           <td style={{padding:"9px 10px",maxWidth:260,overflow:"hidden",
@@ -1176,20 +1276,26 @@ export default function Dashboard() {
                           <td style={{padding:"9px 10px",textAlign:"right",fontSize:12}}>
                             {l.cena_m2?`${fmt(l.cena_m2)}`:"–"}
                           </td>
+                          <td style={{padding:"9px 10px",fontSize:12,color:T.muted,whiteSpace:"nowrap"}}>
+                            {fmtSprat(l.sprat)}
+                          </td>
                           <td style={{padding:"9px 10px",fontSize:11,color:T.muted,
                             maxWidth:140,overflow:"hidden",textOverflow:"ellipsis",whiteSpace:"nowrap"}}>
                             {displayAg(l.agencija, source)||"–"}
                           </td>
-                          <td style={{padding:"9px 10px"}}>
-                            <a href={l.url} target="_blank" rel="noreferrer"
-                              style={{color:T.blue,fontSize:12,textDecoration:"none",fontWeight:500}}>
-                              ↗
-                            </a>
+                          <td style={{padding:"9px 10px",whiteSpace:"nowrap"}}>
+                            {(l._urls&&l._urls.length>1?l._urls:[l.url]).filter(Boolean).map(u=>(
+                              <a key={u} href={u} target="_blank" rel="noreferrer" title={u}
+                                style={{color:T.blue,fontSize:l._urls&&l._urls.length>1?10:12,textDecoration:"none",fontWeight:600,marginRight:5}}>
+                                {l._urls&&l._urls.length>1?srcTag(u):"↗"}
+                              </a>
+                            ))}
                           </td>
                         </tr>
-                      ))}
+                        );
+                      })}
                       {!sortedL.length&&(
-                        <tr><td colSpan={8}
+                        <tr><td colSpan={9}
                           style={{padding:40,textAlign:"center",color:T.muted}}>
                           Nema oglasa za izabrane filtere.
                         </td></tr>
@@ -1227,15 +1333,24 @@ export default function Dashboard() {
               return clean;
             };
 
-            const withAg = uniq
-              .map(l=>({
-                ...l,
-                agencija: cleanAg(l.agencija, source),
-                agencija_url: source==="halo" && l.agencija
-                  ? `https://www.halooglasi.com/oglasi/${l.agencija}`
-                  : (l.agencija_url || null),
-              }))
-              .filter(l=>l.agencija);
+            // Isti stan koji nude vise agencija racuna se svakoj od njih (po jedan oglas), ali
+            // se u procentu "od ukupnih" broji jednom (nAgNekr).
+            const withAg = uniq.flatMap((l,ci)=>{
+              const raw = (l._raw&&l._raw.length) ? l._raw : [l];
+              const seenAg = new Set();
+              return raw.map(r=>({
+                ...r,
+                _ci: ci,
+                agencija: cleanAg(r.agencija, source),
+                agencija_url: source==="halo" && r.agencija
+                  ? `https://www.halooglasi.com/oglasi/${r.agencija}`
+                  : (r.agencija_url || null),
+              })).filter(r=>{
+                if(!r.agencija || seenAg.has(r.agencija)) return false;
+                seenAg.add(r.agencija); return true;
+              });
+            });
+            const nAgNekr = new Set(withAg.map(l=>l._ci)).size;
             const agMap = {};
             withAg.forEach(l=>{
               const ag = l.agencija.trim();
@@ -1247,7 +1362,7 @@ export default function Dashboard() {
             });
             const agList = Object.values(agMap).sort((a,b)=>b.count-a.count);
             const totalAg = agList.length;
-            const totalPrivatno = uniq.filter(l=>!l.agencija||!l.agencija.trim()).length;
+            const totalPrivatno = uniq.length - nAgNekr;
             const lider = agList[0];
             const top3count = agList.slice(0,3).reduce((s,a)=>s+a.count,0);
             const top3pct = withAg.length ? Math.round(top3count/withAg.length*100) : 0;
@@ -1260,7 +1375,7 @@ export default function Dashboard() {
                   <KpiCard label="Agencija aktivnih" value={totalAg}
                     sub="sa bar jednim oglasom" />
                   <KpiCard label="Oglasa preko agencija" value={withAg.length}
-                    sub={`${Math.round(withAg.length/Math.max(uniq.length,1)*100)}% od ukupnih ${uniq.length}`} />
+                    sub={`${nAgNekr} nekretnina · ${Math.round(nAgNekr/Math.max(uniq.length,1)*100)}% od ukupnih ${uniq.length}`} />
                   {lider && <KpiCard label="Lider tržišta" value={lider.name}
                     sub={`${lider.count} oglasa`} />}
                   <KpiCard label="Top 3 udeo" value={`${top3pct}%`}
