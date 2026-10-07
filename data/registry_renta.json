@@ -1227,7 +1227,7 @@
     "39db93851bbb991f": {
       "uid": "39db93851bbb991f",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "458f1d73c5028873",
@@ -1256,11 +1256,11 @@
       "price_first": 850.0,
       "price_current": 850.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 12,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "a687c746cc074821"
@@ -1879,7 +1879,7 @@
       "price_first": 1250.0,
       "price_current": 1250.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 18,
       "last_seen_src": {
         "halo": "2026-10-06",
@@ -2419,7 +2419,7 @@
     "47676266b240e89c": {
       "uid": "47676266b240e89c",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "42bff82ce3404ee7",
@@ -2448,11 +2448,11 @@
       "price_first": 1500.0,
       "price_current": 1500.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 19,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "f85b94faf6120943"
@@ -3154,7 +3154,7 @@
     "f4f37eeac9f92d76": {
       "uid": "f4f37eeac9f92d76",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "002dc3f95f725806",
@@ -3180,15 +3180,15 @@
       "m2": 123.0,
       "sprat": null,
       "agencija": "city-hedonia-agencija-za-nekretnine",
-      "naslov": "West Tower, izdavanje, nov, lux, prostran 4.0 stan",
+      "naslov": "Četvorosoban stan za izdavanje, Omladinskih brigada, 3.000€, 123m²",
       "price_first": 3000.0,
       "price_current": 3000.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 24,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "1ebbb3aae1315f57"
@@ -3262,21 +3262,24 @@
     "b062d07a7f62fe2d": {
       "uid": "b062d07a7f62fe2d",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-07-08",
-      "is_active": false,
-      "deactivated_at": "2026-07-10",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "180c5aa816614d78",
       "fp_strict_all": [
         "f3d1a833ebd5af80"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "b1e679b5f5a6"
+        "halo": "b1e679b5f5a6",
+        "4zida": "4zida:6ac54e9998926913df05ffcd"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzan-3-0-stan-za-izdavanjelastavice-blok/5425647328153?kid=3"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzan-3-0-stan-za-izdavanjelastavice-blok/5425647328153?kid=3",
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/trosoban-stan/6ac54e9998926913df05ffcd"
       ],
       "zgrada": "A Blok",
       "struktura": "3.0",
@@ -3284,12 +3287,20 @@
       "m2": 65.0,
       "sprat": null,
       "agencija": "EstateHUB",
-      "naslov": "Luksuzan 3.0 stan za izdavanje|Lastavice, blok 58",
+      "naslov": "Trosoban stan za izdavanje, Jurija Gagarina, 1.200€, 65m²",
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 8,
-      "cena_m2": 18
+      "days_listed": 97,
+      "cena_m2": 18,
+      "last_seen_src": {
+        "halo": "2026-10-07",
+        "4zida": "2026-10-07"
+      },
+      "fp_nosprat_all": [
+        "976bba30c3976e42"
+      ],
+      "fp_nosprat": "976bba30c3976e42"
     },
     "84d7c4bebe3f9a8a": {
       "uid": "84d7c4bebe3f9a8a",
@@ -3492,7 +3503,7 @@
       "price_first": 2000.0,
       "price_current": 2000.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 27,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -3629,7 +3640,7 @@
       "price_first": 800.0,
       "price_current": 800.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 13,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -3676,7 +3687,7 @@
     "221c97ccc7af58a8": {
       "uid": "221c97ccc7af58a8",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "24291ab8e362c11f",
@@ -3685,33 +3696,37 @@
       ],
       "sources": [
         "halo",
-        "4zida"
+        "4zida",
+        "nadjidom"
       ],
       "source_ids": {
         "halo": "506f334d16e2",
-        "4zida": "4zida:69806ef6065a39cc0b0419c7"
+        "4zida": "4zida:69806ef6065a39cc0b0419c7",
+        "nadjidom": "nadjidom:2234720"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-novogradnja-lux-dve-garaze-id-22586/5425644542399",
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-novogradnja-lux-dve-garaze-id-22586/5425644542399?kid=1",
-        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/cetvorosoban-stan/69806ef6065a39cc0b0419c7"
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/cetvorosoban-stan/69806ef6065a39cc0b0419c7",
+        "https://www.nadjidom.com/sr/details/2234720/Beograd-Novi+Beograd-Blok+67a-Izdavanje-Stan.html"
       ],
       "zgrada": "A Blok",
       "struktura": "4.0",
       "str_label": null,
       "m2": 176.0,
-      "sprat": null,
-      "agencija": "eminent-nekretnine",
-      "naslov": "Četvorosoban stan za izdavanje, Urosa Martinovica, 3.000€, 176m²",
+      "sprat": "7",
+      "agencija": "Agencija NEKRETNINE OBRADOVIC d.o.o ",
+      "naslov": "Stan 176m2, Novi Beograd, A Blok - Blok 67a",
       "price_first": 3000.0,
       "price_current": 3000.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 17,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07",
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "37d12945f95a84bf"
@@ -3721,7 +3736,7 @@
     "4758a063e1411dc8": {
       "uid": "4758a063e1411dc8",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "fdda7f028b67bbb2",
@@ -3748,17 +3763,17 @@
       "str_label": null,
       "m2": 168.0,
       "sprat": "7",
-      "agencija": "atase-nekretnine-d-o-o",
-      "naslov": "Novi Beograd, Blok A, 168m2 + 2 g. mesta ID#31019",
+      "agencija": "EUROPOLIS NEKRETNINE ",
+      "naslov": "Luksuzan, namešten, 2 garažna mesta ID#8971",
       "price_first": 3000.0,
       "price_current": 3000.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 18,
       "last_seen_src": {
         "halo": "2026-10-03",
-        "4zida": "2026-09-30",
-        "nadjidom": "2026-09-30"
+        "4zida": "2026-10-07",
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "8e2035b715804056"
@@ -3891,7 +3906,7 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 15,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -4115,7 +4130,7 @@
     "45ecaf62a2bca085": {
       "uid": "45ecaf62a2bca085",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "2ff150a9be97eb03",
@@ -4144,11 +4159,11 @@
       "price_first": 950.0,
       "price_current": 950.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 15,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "nadjidom": "2026-09-30"
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "4a571949a042e1ae"
@@ -4223,8 +4238,8 @@
       "uid": "9541a60c256210ac",
       "first_seen": "2026-07-02",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "d14d2440bd847973",
       "fp_strict_all": [
         "ac163342b43c7eda"
@@ -4251,7 +4266,7 @@
       "price_first": 1100.0,
       "price_current": 1100.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "last_seen_src": {
         "halo": "2026-09-30",
         "4zida": "2026-09-30"
@@ -4260,7 +4275,9 @@
         "a3853e5f119b0c3a"
       ],
       "fp_nosprat": "a3853e5f119b0c3a",
-      "cena_m2": 21
+      "cena_m2": 21,
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 6
     },
     "2ca495f8854d8404": {
       "uid": "2ca495f8854d8404",
@@ -4588,7 +4605,7 @@
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 18,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -4961,7 +4978,7 @@
     "1133587949b83549": {
       "uid": "1133587949b83549",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d3f16812aadb6d31",
@@ -4990,11 +5007,11 @@
       "price_first": 850.0,
       "price_current": 850.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 26,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "345d7d3761955305"
@@ -5526,7 +5543,7 @@
     "000a6a3b98a492a2": {
       "uid": "000a6a3b98a492a2",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "79de135932a02c7d",
@@ -5554,15 +5571,15 @@
       "m2": 63.0,
       "sprat": null,
       "agencija": "PropertyBroker",
-      "naslov": "New Minel, odmah useljiv, garažno mesto ID#4965",
+      "naslov": "Trosoban stan za izdavanje, Tošin bunar, 1.300€, 63m²",
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 21,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "48b631fe320b6b42"
@@ -5713,8 +5730,8 @@
       "uid": "1e3d0eac73cbd9da",
       "first_seen": "2026-07-02",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "e1edaaf5a03fe445",
       "fp_strict_all": [
         "a10c20879693797b"
@@ -5741,12 +5758,14 @@
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 16,
       "last_seen_src": {
         "halo": "2026-09-30",
         "nadjidom": "2026-09-30"
-      }
+      },
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 6
     },
     "978cb6e9ae53f84c": {
       "uid": "978cb6e9ae53f84c",
@@ -5784,7 +5803,7 @@
     "525ef3d0ff923500": {
       "uid": "525ef3d0ff923500",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "97fc773606d53256",
@@ -5809,15 +5828,15 @@
       "m2": 52.0,
       "sprat": null,
       "agencija": "BrickPro",
-      "naslov": "Wellport, dvosoban prazan stan ID#2713",
+      "naslov": "Dvosoban stan za izdavanje, Tadije Sondermajera, 900€, 52m²",
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 17,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "685b56f938fca277"
@@ -5924,7 +5943,7 @@
     "9c366aa84403249c": {
       "uid": "9c366aa84403249c",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "7facd56e33b4e943",
@@ -5949,15 +5968,15 @@
       "m2": 120.0,
       "sprat": null,
       "agencija": "agencija-gradac",
-      "naslov": "Stan površine 120m2 Novi Beograd ",
+      "naslov": "Petosoban stan za izdavanje, Omladinskih Brigada, 2.700€, 120m²",
       "price_first": 2700.0,
       "price_current": 2700.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 22,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "9b787d335813bd25"
@@ -6000,21 +6019,24 @@
     "c1ce4d9838ba758b": {
       "uid": "c1ce4d9838ba758b",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-07-13",
-      "is_active": false,
-      "deactivated_at": "2026-07-29",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "0c6ac36ead38aa52",
       "fp_strict_all": [
         "fc93be733829010c"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "8103dde182ae"
+        "halo": "8103dde182ae",
+        "4zida": "4zida:6abe2361d2b6d775a2007d91"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---soul-64-67914/5425647292084?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---soul-64-67914/5425647292084?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-64-novi-beograd-beograd/dvosoban-stan/6abe2361d2b6d775a2007d91"
       ],
       "zgrada": "Soul 64",
       "struktura": "2.0",
@@ -6022,13 +6044,21 @@
       "m2": 55.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - Soul 64 #67914",
+      "naslov": "Dvosoban stan za izdavanje, Omladinskih brigada, 1.300€, 55m²",
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 27,
+      "days_listed": 97,
       "cena_m2": 24,
-      "deactivation_uncertain": true
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-10-07",
+        "4zida": "2026-10-07"
+      },
+      "fp_nosprat_all": [
+        "6ed4f1615ccd7ae4"
+      ],
+      "fp_nosprat": "6ed4f1615ccd7ae4"
     },
     "6126cd17038bc1ab": {
       "uid": "6126cd17038bc1ab",
@@ -6100,7 +6130,7 @@
     "cd253b17ddf7d0d0": {
       "uid": "cd253b17ddf7d0d0",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0e4bff825c33432a",
@@ -6129,11 +6159,11 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 16,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "395f60e1dfa970fb"
@@ -6472,7 +6502,7 @@
     "0b25809815cffdda": {
       "uid": "0b25809815cffdda",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "41f2ddce126e0053",
@@ -6509,11 +6539,11 @@
           "to": 3000.0
         }
       ],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 29,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "e511a59ced2862b1"
@@ -6523,34 +6553,49 @@
     "58b118654f40d341": {
       "uid": "58b118654f40d341",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-08-26",
-      "is_active": false,
-      "deactivated_at": "2026-08-28",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "3b883ac60c1a2cf7",
       "fp_strict_all": [
         "de4aa209f84279ab"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida",
+        "nadjidom"
       ],
       "source_ids": {
-        "halo": "e3e5767f8763"
+        "halo": "e3e5767f8763",
+        "4zida": "4zida:6abe1b23235fb31e560f8962",
+        "nadjidom": "nadjidom:2277871"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65-34m2-id14750/5425647029547?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65-34m2-id14750/5425647029547?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/jednosoban-stan/6abe1b23235fb31e560f8962",
+        "https://www.nadjidom.com/sr/details/2277871/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html"
       ],
       "zgrada": "West 65",
       "struktura": "1.0",
       "str_label": null,
       "m2": 34.0,
-      "sprat": null,
-      "agencija": "art-nekretnine-d-o-o",
+      "sprat": "1",
+      "agencija": "ART nekretnine d.o.o. ",
       "naslov": "West 65, 34m2 ID#14750",
       "price_first": 650.0,
       "price_current": 650.0,
       "price_changes": [],
-      "days_listed": 57,
-      "cena_m2": 19
+      "days_listed": 97,
+      "cena_m2": 19,
+      "last_seen_src": {
+        "halo": "2026-10-07",
+        "4zida": "2026-10-07",
+        "nadjidom": "2026-10-07"
+      },
+      "fp_nosprat_all": [
+        "917b38b91e3da262"
+      ],
+      "fp_nosprat": "917b38b91e3da262"
     },
     "1e990efc9d7a3b45": {
       "uid": "1e990efc9d7a3b45",
@@ -7233,7 +7278,7 @@
     "177fa01460b56541": {
       "uid": "177fa01460b56541",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "039cbf70caf5dad0",
@@ -7263,12 +7308,12 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 22,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "nadjidom": "2026-09-30"
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "baf3737ced00c4c7"
@@ -7342,7 +7387,7 @@
     "c8fa43c64a1bb3ff": {
       "uid": "c8fa43c64a1bb3ff",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d071e125d712e3cf",
@@ -7367,15 +7412,15 @@
       "m2": 60.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "2.0 / garaza / West 65",
+      "naslov": "Dvosoban stan za izdavanje, Omladinskih Brigada, 1.000€, 60m²",
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 17,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "9e8f785c45cb0f5a"
@@ -7417,7 +7462,7 @@
     "c38ba086e128118a": {
       "uid": "c38ba086e128118a",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "34ee0a44c122236d",
@@ -7442,15 +7487,15 @@
       "m2": 137.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "Dom koji diše svetlošću / A blok",
+      "naslov": "Četvorosoban stan za izdavanje, Jurija Gagarina, 3.000€, 137m²",
       "price_first": 3000.0,
       "price_current": 3000.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 22,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "a5cb925a71d963db"
@@ -7486,7 +7531,7 @@
       "price_first": 1500.0,
       "price_current": 1500.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 16,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -7564,7 +7609,7 @@
     "efaa39f947dc10d0": {
       "uid": "efaa39f947dc10d0",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "43367ab60af4c76b",
@@ -7589,15 +7634,15 @@
       "m2": 99.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "Neuseljavan stan u luksuznom kompleksu Sakura Park",
+      "naslov": "Četvorosoban stan za izdavanje, Jurija Gagarina, 1.800€, 99m²",
       "price_first": 1800.0,
       "price_current": 1800.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 18,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "9f95653293d005ac"
@@ -7774,7 +7819,7 @@
       "price_first": 3300.0,
       "price_current": 3300.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 19,
       "last_seen_src": {
         "halo": "2026-10-06",
@@ -8389,7 +8434,7 @@
     "ca20cc9e14f74d40": {
       "uid": "ca20cc9e14f74d40",
       "first_seen": "2026-07-03",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "fcec1f5f03a85129",
@@ -8414,15 +8459,15 @@
       "m2": 148.0,
       "sprat": null,
       "agencija": "eminent-nekretnine",
-      "naslov": "A blok, duplex, penthaus, garaža, ID 22505",
+      "naslov": "Trosoban stan za izdavanje, Jurija Gagarina, 4.500€, 148m²",
       "price_first": 4500.0,
       "price_current": 4500.0,
       "price_changes": [],
-      "days_listed": 95,
+      "days_listed": 96,
       "cena_m2": 30,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "c2bd1345ba6b8f2c"
@@ -8588,7 +8633,7 @@
       "price_first": 2000.0,
       "price_current": 2000.0,
       "price_changes": [],
-      "days_listed": 95,
+      "days_listed": 96,
       "cena_m2": 18,
       "last_seen_src": {
         "halo": "2026-10-05"
@@ -9027,7 +9072,7 @@
     "bceef7e729327843": {
       "uid": "bceef7e729327843",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d071e125d712e3cf",
@@ -9063,11 +9108,11 @@
           "to": 950
         }
       ],
-      "days_listed": 94,
+      "days_listed": 95,
       "cena_m2": 16,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "9e8f785c45cb0f5a"
@@ -9177,7 +9222,7 @@
     "7c303dfeb1978af0": {
       "uid": "7c303dfeb1978af0",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0a37c0826eacf08e",
@@ -9205,18 +9250,18 @@
       "str_label": null,
       "m2": 147.0,
       "sprat": "11",
-      "agencija": "Leverage",
+      "agencija": "Leverage nekretnine doo ",
       "naslov": "Novi Beograd, A Blok, 147 m2",
       "price_first": 4500.0,
       "price_current": 4500.0,
       "price_changes": [],
-      "days_listed": 94,
+      "days_listed": 95,
       "cena_m2": 31,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30",
-        "nadjidom": "2026-09-30"
+        "4zida": "2026-10-07",
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "507cf8853612fed5"
@@ -9357,7 +9402,7 @@
     "b347fcd01a6c5498": {
       "uid": "b347fcd01a6c5498",
       "first_seen": "2026-07-06",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "fdda7f028b67bbb2",
@@ -9382,15 +9427,15 @@
       "m2": 168.0,
       "sprat": null,
       "agencija": "EUROPOLISNEKRETNINE",
-      "naslov": "Luksuzan, namešten, 2 garažna mesta ID#8971",
+      "naslov": "Četvorosoban stan za izdavanje, Uroša Martinovića, 3.000€, 168m²",
       "price_first": 3000.0,
       "price_current": 3000.0,
       "price_changes": [],
-      "days_listed": 92,
+      "days_listed": 93,
       "cena_m2": 18,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "8e2035b715804056"
@@ -10895,7 +10940,7 @@
           "to": 1400.0
         }
       ],
-      "days_listed": 89,
+      "days_listed": 90,
       "cena_m2": 17,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -11331,21 +11376,24 @@
     "2cd44cb85e5138ff": {
       "uid": "2cd44cb85e5138ff",
       "first_seen": "2026-07-10",
-      "last_seen": "2026-09-23",
-      "is_active": false,
-      "deactivated_at": "2026-09-25",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "fabae5839962c83b",
       "fp_strict_all": [
         "989d50d58bde132e"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "938bf0f53cab"
+        "halo": "938bf0f53cab",
+        "4zida": "4zida:6a54da9ac9bf26c8c702abcf"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-68167/5425647387543?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-68167/5425647387543?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6a54da9ac9bf26c8c702abcf"
       ],
       "zgrada": "Airport Garden",
       "struktura": "3.0",
@@ -11353,12 +11401,20 @@
       "m2": 84.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - Airport Garden #68167",
+      "naslov": "Trosoban stan za izdavanje, Đorđa Stanojevića, 1.300€, 84m²",
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 77,
-      "cena_m2": 15
+      "days_listed": 89,
+      "cena_m2": 15,
+      "last_seen_src": {
+        "halo": "2026-10-07",
+        "4zida": "2026-10-07"
+      },
+      "fp_nosprat_all": [
+        "bec4d07be4e89939"
+      ],
+      "fp_nosprat": "bec4d07be4e89939"
     },
     "be5bdbbf16039f07": {
       "uid": "be5bdbbf16039f07",
@@ -12096,7 +12152,7 @@
     "7c4e7ed0a7fc528f": {
       "uid": "7c4e7ed0a7fc528f",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "89fdbe3ac1af0a1b",
@@ -12125,11 +12181,11 @@
       "price_first": 2000.0,
       "price_current": 2000.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 26,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "b43e1ecdc379c27c"
@@ -13038,7 +13094,7 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 15,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -13240,7 +13296,7 @@
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 18,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -13414,7 +13470,7 @@
           "to": 800.0
         }
       ],
-      "days_listed": 69,
+      "days_listed": 70,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -13620,7 +13676,7 @@
     "6a51c9adacd86a43": {
       "uid": "6a51c9adacd86a43",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d2079561a44fd378",
@@ -13652,12 +13708,12 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 20,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "nadjidom": "2026-10-07",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "21e354dba28e9324"
@@ -13789,7 +13845,7 @@
       "price_first": 2500.0,
       "price_current": 2500.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 24,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -13834,7 +13890,7 @@
     "b4442c78817918eb": {
       "uid": "b4442c78817918eb",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a904e591f2fb646e",
@@ -13866,12 +13922,12 @@
       "price_first": 680.0,
       "price_current": 680.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 15,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "nadjidom": "2026-10-07",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "479bd9003f5101bb"
@@ -13914,7 +13970,7 @@
           "to": 1200.0
         }
       ],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 20,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -14017,7 +14073,7 @@
       "price_first": 2000.0,
       "price_current": 2000.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 17,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -14344,7 +14400,7 @@
       "price_first": 800.0,
       "price_current": 800.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 15,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -14357,7 +14413,7 @@
     "6d6e4b530cb666a7": {
       "uid": "6d6e4b530cb666a7",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "dea369a9296cba74",
@@ -14387,11 +14443,11 @@
       "price_first": 1600.0,
       "price_current": 1600.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 18,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "db51614dc86dc802"
@@ -14766,7 +14822,7 @@
     "bf6fc089db047ee3": {
       "uid": "bf6fc089db047ee3",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "cf3b8f33a504b91d",
@@ -14791,15 +14847,15 @@
       "m2": 94.0,
       "sprat": null,
       "agencija": "city-hedonia-agencija-za-nekretnine",
-      "naslov": "West Tower, izdavanje, 3.0, nov, namešten",
+      "naslov": "Trosoban stan za izdavanje, Omladinskih brigada, 2.300€, 94m²",
       "price_first": 2300.0,
       "price_current": 2300.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 24,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "a862ccbf6e8c5ac7"
@@ -15038,7 +15094,7 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 20,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -15115,7 +15171,7 @@
     "998839bbab9547b3": {
       "uid": "998839bbab9547b3",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "70b6f77e9b4878a5",
@@ -15151,12 +15207,12 @@
           "to": 3500
         }
       ],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 17,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "cc4ff238f33c92ae"
@@ -15237,7 +15293,7 @@
     "6c64183ebb1231a7": {
       "uid": "6c64183ebb1231a7",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d0399d961ef497a3",
@@ -15266,11 +15322,11 @@
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 16,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "nadjidom": "2026-09-30"
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "9774c6a978c4a8b1"
@@ -15533,7 +15589,7 @@
       "price_first": 2000.0,
       "price_current": 2000.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 26,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -15791,7 +15847,7 @@
           "to": 1650.0
         }
       ],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 15,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -16074,8 +16130,8 @@
       "uid": "f52c9e31d360c1d0",
       "first_seen": "2026-08-21",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "d3f454118ac57eba",
       "fp_strict_all": [
         "717104afdc5f56b3"
@@ -16103,7 +16159,7 @@
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 20,
       "last_seen_src": {
         "halo": "2026-09-30",
@@ -16112,7 +16168,9 @@
       "fp_nosprat_all": [
         "0893fbe9d66bd3d8"
       ],
-      "fp_nosprat": "0893fbe9d66bd3d8"
+      "fp_nosprat": "0893fbe9d66bd3d8",
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 6
     },
     "7342c4bb0ce27029": {
       "uid": "7342c4bb0ce27029",
@@ -16446,7 +16504,7 @@
       "price_first": 2900.0,
       "price_current": 2900.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 16,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -16561,7 +16619,7 @@
     "9dbea9442568cdb1": {
       "uid": "9dbea9442568cdb1",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d865f41d549cb7ec",
@@ -16597,11 +16655,11 @@
           "to": 1000
         }
       ],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 17,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "62ded267bfcfb700"
@@ -16781,7 +16839,7 @@
     "debc374207677c48": {
       "uid": "debc374207677c48",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "52d4e745338c53de",
@@ -16806,15 +16864,15 @@
       "m2": 54.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Welport Nov, 2.0,Svetao,Miran,Parking,Polunamesten",
+      "naslov": "Dvosoban stan za izdavanje, Tadije Sondermajera Wellport, 850€, 54m²",
       "price_first": 850.0,
       "price_current": 850.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 16,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "a81a5fd372b9e61f"
@@ -16954,7 +17012,7 @@
       "price_first": 1750.0,
       "price_current": 1750.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 17,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -17064,7 +17122,7 @@
     "3a852d22de56bc76": {
       "uid": "3a852d22de56bc76",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "639cd3f4e1b0c00d",
@@ -17093,12 +17151,12 @@
       "price_first": 2000.0,
       "price_current": 2000.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 17,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "nadjidom": "2026-09-30"
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "3cb4cb5ea699f99a"
@@ -17362,13 +17420,14 @@
     "08cd65d7dc57c791": {
       "uid": "08cd65d7dc57c791",
       "first_seen": "2026-08-22",
-      "last_seen": "2026-10-05",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "70b6f77e9b4878a5",
       "fp_strict_all": [
         "dee2d85b6a35d2d5",
-        "cf728920883d8a0c"
+        "cf728920883d8a0c",
+        "ba5f181bc8509845"
       ],
       "sources": [
         "halo",
@@ -17383,15 +17442,16 @@
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-penthouse-sa-2-garazna-mesta-west-65/5425647134490?kid=1",
         "https://www.nadjidom.com/sr/details/2337971/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html",
-        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/649efdc9411c27a018043d4e"
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/649efdc9411c27a018043d4e",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/649efdc9411c27a018043d4e"
       ],
       "zgrada": "West 65",
       "struktura": "3.0",
       "str_label": null,
       "m2": 205.0,
       "sprat": "7",
-      "agencija": "SonataProperties",
-      "naslov": "Lux penthouse sa 2 garažna mesta, West 65",
+      "agencija": "Best Real Estate ",
+      "naslov": "Luksuzno opremljen penthaus sa prelepom terasom",
       "price_first": 3600.0,
       "price_current": 3300.0,
       "price_changes": [
@@ -17401,16 +17461,17 @@
           "to": 3300.0
         }
       ],
-      "days_listed": 45,
+      "days_listed": 46,
       "cena_m2": 16,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-10-05",
-        "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "nadjidom": "2026-10-07",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
-        "cc4ff238f33c92ae"
+        "cc4ff238f33c92ae",
+        "04e21640cdd2d0c7"
       ],
       "fp_nosprat": "cc4ff238f33c92ae"
     },
@@ -17717,7 +17778,7 @@
     "08aa66180ef6a522": {
       "uid": "08aa66180ef6a522",
       "first_seen": "2026-08-23",
-      "last_seen": "2026-10-05",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "70b6f77e9b4878a5",
@@ -17743,7 +17804,7 @@
       "m2": 205.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "Penthouse. Terasa 70m². Pogled koji guta nebo.",
+      "naslov": "Trosoban stan za izdavanje, Omladinskih brigada, 3.300€, 205m²",
       "price_first": 3600.0,
       "price_current": 3300.0,
       "price_changes": [
@@ -17753,11 +17814,11 @@
           "to": 3300.0
         }
       ],
-      "days_listed": 44,
+      "days_listed": 45,
       "cena_m2": 16,
       "last_seen_src": {
         "halo": "2026-10-05",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "cc4ff238f33c92ae"
@@ -18153,7 +18214,7 @@
     "2e2dc74db409f85f": {
       "uid": "2e2dc74db409f85f",
       "first_seen": "2026-08-26",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "2a43da78029adf8c",
@@ -18189,11 +18250,11 @@
           "to": 1300
         }
       ],
-      "days_listed": 41,
+      "days_listed": 42,
       "cena_m2": 24,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "baeacd949868c517"
@@ -18524,8 +18585,8 @@
       "uid": "2b9edd7d5184062f",
       "first_seen": "2026-08-28",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "00f3a3f2cdeaa001",
       "fp_strict_all": [
         "2e50a741fa7199d8"
@@ -18555,7 +18616,7 @@
       "price_first": 2100.0,
       "price_current": 2100.0,
       "price_changes": [],
-      "days_listed": 39,
+      "days_listed": 40,
       "cena_m2": 20,
       "last_seen_src": {
         "halo": "2026-09-30",
@@ -18565,7 +18626,9 @@
       "fp_nosprat_all": [
         "f6ee3bbd4d9d8ef0"
       ],
-      "fp_nosprat": "f6ee3bbd4d9d8ef0"
+      "fp_nosprat": "f6ee3bbd4d9d8ef0",
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 6
     },
     "5d23326a4b02067b": {
       "uid": "5d23326a4b02067b",
@@ -18667,7 +18730,7 @@
     "fe3003690510ccf8": {
       "uid": "fe3003690510ccf8",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "72175cc9d80175e7",
@@ -18696,11 +18759,11 @@
       "price_first": 1800.0,
       "price_current": 1800.0,
       "price_changes": [],
-      "days_listed": 38,
+      "days_listed": 39,
       "cena_m2": 21,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "5cf526677b1d78f3"
@@ -18769,7 +18832,7 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 38,
+      "days_listed": 39,
       "cena_m2": 23,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -18842,7 +18905,7 @@
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
-      "days_listed": 38,
+      "days_listed": 39,
       "cena_m2": 19,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -19182,8 +19245,8 @@
       "uid": "a5a49234a9c511fb",
       "first_seen": "2026-08-31",
       "last_seen": "2026-10-04",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "ab26bf8c78bbd7ec",
       "fp_strict_all": [
         "43d312a5fbc3ce29",
@@ -19212,7 +19275,7 @@
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
-      "days_listed": 36,
+      "days_listed": 37,
       "cena_m2": 17,
       "last_seen_src": {
         "halo": "2026-10-04",
@@ -20302,7 +20365,7 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 31,
+      "days_listed": 32,
       "cena_m2": 16,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -20347,7 +20410,7 @@
     "1faff5c692bda5fd": {
       "uid": "1faff5c692bda5fd",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "00873500f032f27e",
@@ -20375,17 +20438,17 @@
       "str_label": null,
       "m2": 132.0,
       "sprat": "5",
-      "agencija": "profitim",
+      "agencija": "Profitim nekretnine ",
       "naslov": "Elixir garden, 4,0, 130m2, V, sređen i opremljen",
       "price_first": 1900.0,
       "price_current": 1900.0,
       "price_changes": [],
-      "days_listed": 31,
+      "days_listed": 32,
       "cena_m2": 14,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "nadjidom": "2026-10-07",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "698a9ff30696f45f"
@@ -20639,7 +20702,7 @@
     "2e9e8faac1adecf4": {
       "uid": "2e9e8faac1adecf4",
       "first_seen": "2026-09-06",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "97bf6e09f0b69e51",
@@ -20668,11 +20731,11 @@
       "price_first": 1250.0,
       "price_current": 1250.0,
       "price_changes": [],
-      "days_listed": 30,
+      "days_listed": 31,
       "cena_m2": 18,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "nadjidom": "2026-09-30"
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "bd755a0cf6bf8a59"
@@ -20838,7 +20901,7 @@
       "price_first": 1050.0,
       "price_current": 1050.0,
       "price_changes": [],
-      "days_listed": 28,
+      "days_listed": 29,
       "cena_m2": 20,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -20916,7 +20979,7 @@
     "e3bdc62ba34fa5aa": {
       "uid": "e3bdc62ba34fa5aa",
       "first_seen": "2026-09-09",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "6ed37da914100128",
@@ -20941,7 +21004,7 @@
       "str_label": null,
       "m2": 194.0,
       "sprat": "7",
-      "agencija": "Benefit",
+      "agencija": "Benefit nekretnine ",
       "naslov": "West 65 - Lux penthaus",
       "price_first": 2900.0,
       "price_current": 2700.0,
@@ -20952,11 +21015,11 @@
           "to": 2700.0
         }
       ],
-      "days_listed": 27,
+      "days_listed": 28,
       "cena_m2": 14,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "nadjidom": "2026-09-30"
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "0d207d4e06b5f7be"
@@ -20997,7 +21060,7 @@
     "c8eca590c4fa7f16": {
       "uid": "c8eca590c4fa7f16",
       "first_seen": "2026-09-09",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "04c29522c0611848",
@@ -21026,11 +21089,11 @@
       "price_first": 2700.0,
       "price_current": 2700.0,
       "price_changes": [],
-      "days_listed": 27,
+      "days_listed": 28,
       "cena_m2": 28,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "d13b44a03f648a27"
@@ -21139,7 +21202,7 @@
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
-      "days_listed": 27,
+      "days_listed": 28,
       "cena_m2": 17,
       "last_seen_src": {
         "halo": "2026-10-05"
@@ -21240,7 +21303,7 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 27,
+      "days_listed": 28,
       "cena_m2": 17,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -21344,7 +21407,7 @@
       "price_first": 4000.0,
       "price_current": 4000.0,
       "price_changes": [],
-      "days_listed": 26,
+      "days_listed": 27,
       "cena_m2": 19,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -21418,7 +21481,7 @@
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
-      "days_listed": 26,
+      "days_listed": 27,
       "cena_m2": 15,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -21432,8 +21495,8 @@
       "uid": "2c106904bf02e619",
       "first_seen": "2026-09-10",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "5763f120ec408fb4",
       "fp_strict_all": [
         "b49b400170e8a6b3"
@@ -21460,7 +21523,7 @@
       "price_first": 1500.0,
       "price_current": 1500.0,
       "price_changes": [],
-      "days_listed": 26,
+      "days_listed": 27,
       "cena_m2": 25,
       "last_seen_src": {
         "halo": "2026-09-30",
@@ -21469,12 +21532,14 @@
       "fp_nosprat_all": [
         "18c58d7ca1326e3a"
       ],
-      "fp_nosprat": "18c58d7ca1326e3a"
+      "fp_nosprat": "18c58d7ca1326e3a",
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 6
     },
     "9858e1d0f48297a9": {
       "uid": "9858e1d0f48297a9",
       "first_seen": "2026-09-10",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0a37c0826eacf08e",
@@ -21501,21 +21566,26 @@
       "m2": 147.0,
       "sprat": null,
       "agencija": "PropertyBroker",
-      "naslov": "A blok, vrhunski penthouse, 2 garaže ID#4905",
+      "naslov": "Trosoban stan za izdavanje, Jurija Gagarina, 3.600€, 147m²",
       "price_first": 3600.0,
-      "price_current": 4300.0,
+      "price_current": 3600,
       "price_changes": [
         {
           "date": "2026-10-04",
           "from": 3600.0,
           "to": 4300.0
+        },
+        {
+          "date": "2026-10-07",
+          "from": 4300.0,
+          "to": 3600
         }
       ],
-      "days_listed": 26,
-      "cena_m2": 29,
+      "days_listed": 27,
+      "cena_m2": 24,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "507cf8853612fed5"
@@ -22036,7 +22106,7 @@
       "price_first": 950.0,
       "price_current": 950.0,
       "price_changes": [],
-      "days_listed": 21,
+      "days_listed": 22,
       "cena_m2": 17,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -22139,7 +22209,7 @@
       "price_first": 750.0,
       "price_current": 750.0,
       "price_changes": [],
-      "days_listed": 21,
+      "days_listed": 22,
       "cena_m2": 24,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -22659,7 +22729,7 @@
       "price_first": 3000.0,
       "price_current": 3000.0,
       "price_changes": [],
-      "days_listed": 18,
+      "days_listed": 19,
       "cena_m2": 22,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -22835,7 +22905,7 @@
     "dafc5f669061b35e": {
       "uid": "dafc5f669061b35e",
       "first_seen": "2026-09-19",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e6b3f456cb1f2a82",
@@ -22864,17 +22934,17 @@
       "str_label": null,
       "m2": 105.0,
       "sprat": "2",
-      "agencija": "EUROPOLISNEKRETNINE",
+      "agencija": "EUROPOLIS NEKRETNINE ",
       "naslov": "Luksuzan 4.0 stan u Wellportu ID#10412",
       "price_first": 1650.0,
       "price_current": 1650.0,
       "price_changes": [],
-      "days_listed": 17,
+      "days_listed": 18,
       "cena_m2": 16,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30",
-        "nadjidom": "2026-09-30"
+        "4zida": "2026-10-07",
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "37552b49636f8d1c"
@@ -23014,7 +23084,7 @@
       "price_first": 800.0,
       "price_current": 800.0,
       "price_changes": [],
-      "days_listed": 17,
+      "days_listed": 18,
       "cena_m2": 22,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -23116,7 +23186,7 @@
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
-      "days_listed": 15,
+      "days_listed": 16,
       "cena_m2": 29,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -23155,7 +23225,7 @@
       "price_first": 800.0,
       "price_current": 800.0,
       "price_changes": [],
-      "days_listed": 14,
+      "days_listed": 15,
       "cena_m2": 14,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -23230,7 +23300,7 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 14,
+      "days_listed": 15,
       "cena_m2": 22,
       "last_seen_src": {
         "halo": "2026-10-06",
@@ -23272,7 +23342,7 @@
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
-      "days_listed": 14,
+      "days_listed": 15,
       "cena_m2": 17,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -23348,7 +23418,7 @@
     "88f13afd0b5514d8": {
       "uid": "88f13afd0b5514d8",
       "first_seen": "2026-09-22",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "ddb49dea790ef97c",
@@ -23376,16 +23446,16 @@
       "m2": 56.0,
       "sprat": null,
       "agencija": "BEOCITY NEKRETNINE ",
-      "naslov": "Dvosoban stan za izdavanje, Airport Garden",
+      "naslov": "Novi Beograd, Tošin bunar, Airport Garden Djordja Stanojevića, 2.0, 56m2, 900EUR",
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
-      "days_listed": 14,
+      "days_listed": 15,
       "cena_m2": 16,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30",
-        "nadjidom": "2026-09-30"
+        "4zida": "2026-10-07",
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "49b9ec9ce5b15a0f"
@@ -23421,7 +23491,7 @@
       "price_first": 1400.0,
       "price_current": 1400.0,
       "price_changes": [],
-      "days_listed": 14,
+      "days_listed": 15,
       "cena_m2": 23,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -23473,7 +23543,7 @@
     "eb06a2fc6842f334": {
       "uid": "eb06a2fc6842f334",
       "first_seen": "2026-09-22",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "2f653ab230912107",
@@ -23481,13 +23551,16 @@
         "36de3596737e91b6"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "3ea17013beae"
+        "halo": "3ea17013beae",
+        "4zida": "4zida:6ab26024c9c72b94fe0bd6e4"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-39m2-i-cg/5425647715426?kid=3"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-39m2-i-cg/5425647715426?kid=3",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/jednosoban-stan/6ab26024c9c72b94fe0bd6e4"
       ],
       "zgrada": "Airport Garden",
       "struktura": "1.0",
@@ -23495,14 +23568,15 @@
       "m2": 39.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Airport Garden, 39m2, I, cg",
+      "naslov": "Jednosoban stan za izdavanje, Đorđa Stanojevića, 680€, 39m²",
       "price_first": 680.0,
       "price_current": 680.0,
       "price_changes": [],
-      "days_listed": 14,
+      "days_listed": 15,
       "cena_m2": 17,
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "544398af27a647ce"
@@ -23512,7 +23586,7 @@
     "da179139174ca606": {
       "uid": "da179139174ca606",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "b1218b2d9059fee6",
@@ -23520,14 +23594,17 @@
         "201741ae57838307"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "6741e430504a"
+        "halo": "6741e430504a",
+        "4zida": "4zida:6ab11e95b7962b4647042263"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-kula-69083/5425647458681?kid=4",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-kula-69083/5425647773294?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-kula-69083/5425647773294?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6ab11e95b7962b4647042263"
       ],
       "zgrada": "Wellport",
       "struktura": "4.0",
@@ -23535,14 +23612,15 @@
       "m2": 104.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - Wellport kula #69083",
+      "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera, 1.650€, 104m²",
       "price_first": 1650.0,
       "price_current": 1650.0,
       "price_changes": [],
-      "days_listed": 13,
+      "days_listed": 14,
       "cena_m2": 16,
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "33129f925360b7fe"
@@ -23552,7 +23630,7 @@
     "79c484bc2e6eb406": {
       "uid": "79c484bc2e6eb406",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-10-01",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e6b3f456cb1f2a82",
@@ -23577,15 +23655,15 @@
       "m2": 105.0,
       "sprat": null,
       "agencija": "eminent-nekretnine",
-      "naslov": "Wellport, nov, neuseljavan, komforan, ID 26067",
+      "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera, 2.100€, 105m²",
       "price_first": 2100.0,
       "price_current": 2100.0,
       "price_changes": [],
-      "days_listed": 13,
+      "days_listed": 14,
       "cena_m2": 20,
       "last_seen_src": {
         "halo": "2026-10-01",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "37552b49636f8d1c"
@@ -23790,7 +23868,7 @@
       "price_first": 2100.0,
       "price_current": 2100.0,
       "price_changes": [],
-      "days_listed": 12,
+      "days_listed": 13,
       "cena_m2": 20,
       "last_seen_src": {
         "halo": "2026-10-05"
@@ -23803,7 +23881,7 @@
     "c176cefd17dcdfa0": {
       "uid": "c176cefd17dcdfa0",
       "first_seen": "2026-09-24",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "ceac404ec1de4f8e",
@@ -23829,15 +23907,15 @@
       "m2": 73.0,
       "sprat": null,
       "agencija": "PropertyBroker",
-      "naslov": "Airport Garden, kompletno namešten, odmah useljiv ",
+      "naslov": "Trosoban stan za izdavanje, Đorđa Stanojevića, 1.700€, 73m²",
       "price_first": 1700.0,
       "price_current": 1700.0,
       "price_changes": [],
-      "days_listed": 12,
+      "days_listed": 13,
       "cena_m2": 23,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "c7859d5175c51b9e"
@@ -23873,7 +23951,7 @@
       "price_first": 1800.0,
       "price_current": 1800.0,
       "price_changes": [],
-      "days_listed": 12,
+      "days_listed": 13,
       "cena_m2": 19,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -23912,7 +23990,7 @@
       "price_first": 850.0,
       "price_current": 850.0,
       "price_changes": [],
-      "days_listed": 12,
+      "days_listed": 13,
       "cena_m2": 15,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -23951,7 +24029,7 @@
       "price_first": 680.0,
       "price_current": 680.0,
       "price_changes": [],
-      "days_listed": 12,
+      "days_listed": 13,
       "cena_m2": 15,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -23998,7 +24076,7 @@
           "to": 700.0
         }
       ],
-      "days_listed": 11,
+      "days_listed": 12,
       "cena_m2": 18,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -24011,7 +24089,7 @@
     "8a7eb204dff891fc": {
       "uid": "8a7eb204dff891fc",
       "first_seen": "2026-09-25",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a5c0ba1031e6ac58",
@@ -24040,10 +24118,10 @@
       "price_first": 2650.0,
       "price_current": 2650.0,
       "price_changes": [],
-      "days_listed": 11,
+      "days_listed": 12,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "d30ef1848c327fce"
@@ -24054,7 +24132,7 @@
     "7408c70bfff9e5f3": {
       "uid": "7408c70bfff9e5f3",
       "first_seen": "2026-09-25",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e6b3f456cb1f2a82",
@@ -24079,15 +24157,15 @@
       "m2": 105.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - Wellport kula #69124",
+      "naslov": "Četvorosoban stan za izdavanje, WELLPORT, 2.100€, 105m²",
       "price_first": 2100.0,
       "price_current": 2100.0,
       "price_changes": [],
-      "days_listed": 11,
+      "days_listed": 12,
       "cena_m2": 20,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "37552b49636f8d1c"
@@ -24123,7 +24201,7 @@
       "price_first": 3000.0,
       "price_current": 3000.0,
       "price_changes": [],
-      "days_listed": 11,
+      "days_listed": 12,
       "cena_m2": 30,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -24163,7 +24241,7 @@
       "price_first": 800.0,
       "price_current": 800.0,
       "price_changes": [],
-      "days_listed": 10,
+      "days_listed": 11,
       "cena_m2": 13,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -24176,7 +24254,7 @@
     "7c59c45618913c97": {
       "uid": "7c59c45618913c97",
       "first_seen": "2026-09-26",
-      "last_seen": "2026-10-02",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a5c0ba1031e6ac58",
@@ -24201,15 +24279,15 @@
       "m2": 160.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Wellport Kula-Petosoban stan,2 garazna mesta",
+      "naslov": "Petosoban stan za izdavanje, Tadije Sondermajera Wellport Kula, 2.650€, 160m²",
       "price_first": 2650.0,
       "price_current": 2650.0,
       "price_changes": [],
-      "days_listed": 10,
+      "days_listed": 11,
       "cena_m2": 17,
       "last_seen_src": {
         "halo": "2026-10-02",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "d30ef1848c327fce"
@@ -24251,7 +24329,7 @@
     "fd2aa7d9b4bb16b5": {
       "uid": "fd2aa7d9b4bb16b5",
       "first_seen": "2026-09-27",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "219a9f4ee3d3cba9",
@@ -24277,15 +24355,15 @@
       "m2": 175.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - A blok #59203",
+      "naslov": "Četvorosoban stan za izdavanje, Urosa Martinovica, 2.800€, 175m²",
       "price_first": 2800.0,
       "price_current": 2800.0,
       "price_changes": [],
-      "days_listed": 9,
+      "days_listed": 10,
       "cena_m2": 16,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "14d368305ae371a2"
@@ -24395,7 +24473,7 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 7,
+      "days_listed": 8,
       "cena_m2": 24,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -24473,7 +24551,7 @@
       "price_first": 800.0,
       "price_current": 800.0,
       "price_changes": [],
-      "days_listed": 7,
+      "days_listed": 8,
       "cena_m2": 17,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -24512,7 +24590,7 @@
       "price_first": 1600.0,
       "price_current": 1600.0,
       "price_changes": [],
-      "days_listed": 7,
+      "days_listed": 8,
       "cena_m2": 18,
       "last_seen_src": {
         "halo": "2026-10-05"
@@ -24588,7 +24666,7 @@
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
-      "days_listed": 7,
+      "days_listed": 8,
       "cena_m2": 18,
       "last_seen_src": {
         "halo": "2026-10-05",
@@ -24714,7 +24792,7 @@
     "aa44d55f27c4724b": {
       "uid": "aa44d55f27c4724b",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-05",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "396a08c2e31fd7e7",
@@ -24722,13 +24800,16 @@
         "25acd1db08aca396"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "47e95aae3f1a"
+        "halo": "47e95aae3f1a",
+        "4zida": "4zida:6ac3a6eb9395e4bfc9077bec"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-69213/5425647754226?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-69213/5425647754226?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/blok-64-novi-beograd-beograd/dvosoban-stan/6ac3a6eb9395e4bfc9077bec"
       ],
       "zgrada": "Airport Garden",
       "struktura": "2.0",
@@ -24736,13 +24817,14 @@
       "m2": 46.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - Airport Garden #69213",
+      "naslov": "Dvosoban stan za izdavanje, Đorđa Stanojevića, 1.200€, 46m²",
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "halo": "2026-10-05"
+        "halo": "2026-10-05",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "5ae09634fc7c8370"
@@ -24779,7 +24861,7 @@
       "price_first": 2600.0,
       "price_current": 2600.0,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "halo": "2026-10-06"
       },
@@ -24818,7 +24900,7 @@
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "halo": "2026-10-06"
       },
@@ -24870,7 +24952,7 @@
     "3cf0c0b491fe9fb3": {
       "uid": "3cf0c0b491fe9fb3",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e6b3f456cb1f2a82",
@@ -24893,17 +24975,17 @@
       "zgrada": "Wellport",
       "struktura": "4.0",
       "str_label": null,
-      "m2": 105.4,
+      "m2": 105.0,
       "sprat": null,
       "agencija": "Rajicnekretnine",
-      "naslov": "NBG,Wellport,Tadije Sondermajera,105m2,4.0 #4623",
+      "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera, 1.650€, 105m²",
       "price_first": 1650.0,
       "price_current": 1650.0,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "37552b49636f8d1c"
@@ -24940,7 +25022,7 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "halo": "2026-10-06"
       },
@@ -24986,7 +25068,7 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "cena_m2": 17,
       "last_seen_src": {
         "halo": "2026-10-05",
@@ -25027,7 +25109,7 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "halo": "2026-10-06"
       },
@@ -25040,7 +25122,7 @@
     "79f08b072098cba9": {
       "uid": "79f08b072098cba9",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d5447f273b1e597c",
@@ -25048,13 +25130,16 @@
         "6d7b5b2112ac4e82"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "70a3d8aaff40"
+        "halo": "70a3d8aaff40",
+        "4zida": "4zida:6ac523862e00a05a7b0d2760"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-stan-belvil-sa-parking-mestom/5425647741874?kid=3"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-stan-belvil-sa-parking-mestom/5425647741874?kid=3",
+        "https://www.4zida.rs/izdavanje-stanova/blok-67-belville-novi-beograd-beograd/jednoiposoban-stan/6ac523862e00a05a7b0d2760"
       ],
       "zgrada": "Belvil",
       "struktura": "1.5",
@@ -25062,13 +25147,14 @@
       "m2": 48.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Lux stan Belvil sa parking mestom ",
+      "naslov": "Jednoiposoban stan za izdavanje, (Belvil)  -Jurija Gagarina, 900€, 48m²",
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "d0e46983c6d94ed7"
@@ -25080,8 +25166,8 @@
       "uid": "b16a4c209db47350",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "2a43da78029adf8c",
       "fp_strict_all": [
         "16ea4cb53e78f473"
@@ -25105,7 +25191,7 @@
       "price_first": 1200,
       "price_current": 1200,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "cena_m2": 22,
       "last_seen_src": {
         "4zida": "2026-09-30"
@@ -25113,12 +25199,14 @@
       "fp_nosprat_all": [
         "baeacd949868c517"
       ],
-      "fp_nosprat": "baeacd949868c517"
+      "fp_nosprat": "baeacd949868c517",
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "861ec665b2cd50a9": {
       "uid": "861ec665b2cd50a9",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a94207d74116b149",
@@ -25145,9 +25233,9 @@
       "price_first": 1900,
       "price_current": 1900,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "9256512428ef195e"
@@ -25158,7 +25246,7 @@
     "91b1239be1ff63df": {
       "uid": "91b1239be1ff63df",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "b39989cacfe41ce8",
@@ -25184,9 +25272,9 @@
       "price_first": 1700,
       "price_current": 1700,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "7e8c1de595e12cd9"
@@ -25198,8 +25286,8 @@
       "uid": "bb7ff29dfc0864d8",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "2a43da78029adf8c",
       "fp_strict_all": [
         "8eac4716abafde2b"
@@ -25223,17 +25311,19 @@
       "price_first": 1000,
       "price_current": 1000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "4zida": "2026-09-30"
-      }
+      },
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "8a48ffe66af54c78": {
       "uid": "8a48ffe66af54c78",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "7481a5449ad72488",
       "fp_strict_all": [
         "8fef309c8daa1479"
@@ -25257,15 +25347,17 @@
       "price_first": 2500,
       "price_current": 2500,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "4zida": "2026-09-30"
-      }
+      },
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "4a098b0e2a12aaa6": {
       "uid": "4a098b0e2a12aaa6",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "aaa6c976599fea6b",
@@ -25291,9 +25383,9 @@
       "price_first": 1250,
       "price_current": 1250,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "c9ad7618349a1c9e"
@@ -25305,8 +25397,8 @@
       "uid": "e7ee4243fda5f2ce",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "7f9d190031a7e713",
       "fp_strict_all": [
         "6a6e406fa702027d"
@@ -25330,17 +25422,19 @@
       "price_first": 1280,
       "price_current": 1280,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "4zida": "2026-09-30"
-      }
+      },
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "81ce65428ed21a38": {
       "uid": "81ce65428ed21a38",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "3d7914bb458c8a34",
       "fp_strict_all": [
         "d4827d8768661c08",
@@ -25365,7 +25459,7 @@
       "price_first": 1000,
       "price_current": 1000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "4zida": "2026-09-30"
       },
@@ -25373,14 +25467,16 @@
         "584c2a69bec494db"
       ],
       "fp_nosprat": "584c2a69bec494db",
-      "cena_m2": 17
+      "cena_m2": 17,
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "0ab0cbc5060843c5": {
       "uid": "0ab0cbc5060843c5",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "6ae0b18c89cfd664",
       "fp_strict_all": [
         "1050b251671200c8"
@@ -25404,15 +25500,17 @@
       "price_first": 3500,
       "price_current": 3500,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "4zida": "2026-09-30"
-      }
+      },
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "d204de3bf8b8f9e8": {
       "uid": "d204de3bf8b8f9e8",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0d45078b27c12c5b",
@@ -25438,9 +25536,9 @@
       "price_first": 680,
       "price_current": 680,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "nadjidom": "2026-09-30"
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "21faa4da34752079"
@@ -25451,7 +25549,7 @@
     "f3068c8f57256b40": {
       "uid": "f3068c8f57256b40",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "afcd8d8cac11cc7f",
@@ -25477,9 +25575,9 @@
       "price_first": 1100,
       "price_current": 1100,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "nadjidom": "2026-09-30"
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "e02cfe207d4f4e97"
@@ -25490,7 +25588,7 @@
     "cbf2c3c1ba91cffa": {
       "uid": "cbf2c3c1ba91cffa",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "912a56db15b90e89",
@@ -25516,9 +25614,9 @@
       "price_first": 800,
       "price_current": 800,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "nadjidom": "2026-09-30"
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "394f7e13adb9bf15"
@@ -25529,7 +25627,7 @@
     "ad5b2ad1ab0474ba": {
       "uid": "ad5b2ad1ab0474ba",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "1c5fe6010d1c87ce",
@@ -25555,9 +25653,9 @@
       "price_first": 2400,
       "price_current": 2400,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "nadjidom": "2026-09-30"
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "3e617f19497c65c5"
@@ -25569,8 +25667,8 @@
       "uid": "fb5baa1207edc3a5",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "ae74c205bf30ef5d",
       "fp_strict_all": [
         "998d3fa2135727cd"
@@ -25594,7 +25692,7 @@
       "price_first": 1000,
       "price_current": 1000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30"
       },
@@ -25602,12 +25700,14 @@
         "c6a9497b193cefa1"
       ],
       "fp_nosprat": "c6a9497b193cefa1",
-      "cena_m2": 18
+      "cena_m2": 18,
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "31e7d466d29f909c": {
       "uid": "31e7d466d29f909c",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "47d73534d6e905d1",
@@ -25633,9 +25733,9 @@
       "price_first": 2000,
       "price_current": 2000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "nadjidom": "2026-09-30"
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "162af985d78c9485"
@@ -25647,8 +25747,8 @@
       "uid": "95674d42abb6f579",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "ad70b6728ecf655c",
       "fp_strict_all": [
         "ba9219aac59d57eb"
@@ -25672,7 +25772,7 @@
       "price_first": 780,
       "price_current": 780,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30"
       },
@@ -25680,12 +25780,14 @@
         "81ffd353010bb71a"
       ],
       "fp_nosprat": "81ffd353010bb71a",
-      "cena_m2": 21
+      "cena_m2": 21,
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "25c476644712f120": {
       "uid": "25c476644712f120",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "b1218b2d9059fee6",
@@ -25703,7 +25805,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6ab1397af8c3a7de800a4482"
@@ -25721,12 +25823,13 @@
       "price_first": 2100,
       "price_current": 2100,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 20
     },
     "8453bdd94334d953": {
       "uid": "8453bdd94334d953",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "44b51dde19dd64e2",
@@ -25744,7 +25847,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6a96ac20b1b9100b880e5d53"
@@ -25762,12 +25865,13 @@
       "price_first": 1500,
       "price_current": 1500,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 13
     },
     "e67a3cda6ab2ea50": {
       "uid": "e67a3cda6ab2ea50",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "00f3a3f2cdeaa001",
@@ -25785,7 +25889,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6abd0cf312a65e369000848a"
@@ -25803,14 +25907,15 @@
       "price_first": 1650,
       "price_current": 1650,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 16
     },
     "8fe95d3f24a8327a": {
       "uid": "8fe95d3f24a8327a",
       "first_seen": "2026-09-30",
       "last_seen": "2026-10-04",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "b57e42f12041efa0",
       "fp_loose_all": [
         "b57e42f12041efa0"
@@ -25848,13 +25953,13 @@
       "price_first": 1200,
       "price_current": 1200,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "cena_m2": 17
     },
     "2b12d09b164f1f20": {
       "uid": "2b12d09b164f1f20",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "176f56a4a5781345",
@@ -25872,7 +25977,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:69a5b49bb39ffbde4e0637d6"
@@ -25890,12 +25995,13 @@
       "price_first": 1700,
       "price_current": 1700,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 17
     },
     "a1fa83e43ff188cf": {
       "uid": "a1fa83e43ff188cf",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "00f3a3f2cdeaa001",
@@ -25913,7 +26019,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6aba2f0df663f78617006a04"
@@ -25931,12 +26037,13 @@
       "price_first": 1650,
       "price_current": 1650,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 16
     },
     "6c0f3502877780fc": {
       "uid": "6c0f3502877780fc",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "ad7b6c2074c454f2",
@@ -25954,7 +26061,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:63ee63d372f034908f00f16b"
@@ -25972,12 +26079,13 @@
       "price_first": 1500,
       "price_current": 1500,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 17
     },
     "c38d5e98ab85f994": {
       "uid": "c38d5e98ab85f994",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "104539f6f92e97fd",
@@ -25995,7 +26103,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:66dacb358c9b7b735707c7f8"
@@ -26013,12 +26121,13 @@
       "price_first": 2000,
       "price_current": 2000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 19
     },
     "2bbe651a6ca0077e": {
       "uid": "2bbe651a6ca0077e",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "805e82c5f64e59ca",
@@ -26036,7 +26145,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6ab64f07840a50090e03c58d"
@@ -26054,12 +26163,13 @@
       "price_first": 3000,
       "price_current": 3000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 22
     },
     "dcb972bfffc212cd": {
       "uid": "dcb972bfffc212cd",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "00f3a3f2cdeaa001",
@@ -26077,7 +26187,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6ab635452fc5dbe18809111a"
@@ -26095,12 +26205,13 @@
       "price_first": 1650,
       "price_current": 1650,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 16
     },
     "63232cc321384ee7": {
       "uid": "63232cc321384ee7",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "ba7b514dd77baa56",
@@ -26118,7 +26229,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6ab5701d566a1e9a8902eed1"
@@ -26136,14 +26247,15 @@
       "price_first": 1500,
       "price_current": 1500,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 15
     },
     "329aa49de85d9e98": {
       "uid": "329aa49de85d9e98",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "00f3a3f2cdeaa001",
       "fp_loose_all": [
         "00f3a3f2cdeaa001"
@@ -26177,14 +26289,16 @@
       "price_first": 1650,
       "price_current": 1650,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "e7696ee10a8235d1": {
       "uid": "e7696ee10a8235d1",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "8dc7cc083fdcf9fd",
       "fp_loose_all": [
         "8dc7cc083fdcf9fd"
@@ -26218,12 +26332,14 @@
       "price_first": 1200,
       "price_current": 1200,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "96fc209440f9a5e9": {
       "uid": "96fc209440f9a5e9",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e6b3f456cb1f2a82",
@@ -26241,7 +26357,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6ab28c3f99214862e5093dd0"
@@ -26259,12 +26375,13 @@
       "price_first": 1650,
       "price_current": 1650,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 16
     },
     "df06d7b0e146d16f": {
       "uid": "df06d7b0e146d16f",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a5c0ba1031e6ac58",
@@ -26282,7 +26399,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6ab27b81a4a55911f3080719"
@@ -26300,12 +26417,13 @@
       "price_first": 2650,
       "price_current": 2650,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 17
     },
     "71f71d1aa05c33e8": {
       "uid": "71f71d1aa05c33e8",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "667c95669f2f8009",
@@ -26323,7 +26441,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:67c1e6c18ad886758b091e03"
@@ -26341,12 +26459,13 @@
       "price_first": 1700,
       "price_current": 1700,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 17
     },
     "bee070d520b87b77": {
       "uid": "bee070d520b87b77",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "5f93c8fd8c25203e",
@@ -26364,7 +26483,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6a3aab581191b1aa920ff945"
@@ -26382,12 +26501,13 @@
       "price_first": 2000,
       "price_current": 2000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 20
     },
     "2908a6e73f22b866": {
       "uid": "2908a6e73f22b866",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "9b13a9b067c73ed8",
@@ -26405,7 +26525,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6aae72b477ee53c6350366fb"
@@ -26423,12 +26543,13 @@
       "price_first": 1650,
       "price_current": 1650,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 21
     },
     "acb8ea1415f720f2": {
       "uid": "acb8ea1415f720f2",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "fa2fde441cbd795f",
@@ -26446,7 +26567,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6aad2a22a24890be7e011652"
@@ -26464,12 +26585,13 @@
       "price_first": 2650,
       "price_current": 2650,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 16
     },
     "c4e2d1c35c455b88": {
       "uid": "c4e2d1c35c455b88",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "520cdba7e7eef2bc",
@@ -26487,7 +26609,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6aac186d9fd40a5c030a757d"
@@ -26505,12 +26627,13 @@
       "price_first": 1400,
       "price_current": 1400,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 18
     },
     "f5c9b097f3b57c3a": {
       "uid": "f5c9b097f3b57c3a",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "51dda3f3e0b37e07",
@@ -26528,7 +26651,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6a8020b970f0d72df601a453"
@@ -26546,12 +26669,13 @@
       "price_first": 750,
       "price_current": 750,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 17
     },
     "1375d9fcd9b8c7b4": {
       "uid": "1375d9fcd9b8c7b4",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "399283ae79b0930a",
@@ -26569,7 +26693,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:69b8111a7d18fc46aa0acfd6"
@@ -26587,12 +26711,13 @@
       "price_first": 2500,
       "price_current": 2500,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 14
     },
     "32a62734b085e3a6": {
       "uid": "32a62734b085e3a6",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d071e125d712e3cf",
@@ -26610,7 +26735,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:69b7fbb81caaa80f720d54e7"
@@ -26628,12 +26753,13 @@
       "price_first": 1400,
       "price_current": 1400,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 23
     },
     "f6c9bcd7286035d1": {
       "uid": "f6c9bcd7286035d1",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e6b3f456cb1f2a82",
@@ -26651,7 +26777,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6a05c486d73ddaec410afb8b"
@@ -26669,12 +26795,13 @@
       "price_first": 1900,
       "price_current": 1900,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 18
     },
     "95ad6c387f77eba4": {
       "uid": "95ad6c387f77eba4",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "4bef29b18a2503bc",
@@ -26692,7 +26819,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6a2a6a8e03c84af180066384"
@@ -26710,12 +26837,13 @@
       "price_first": 3500,
       "price_current": 3500,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 34
     },
     "a26f4800a574e1bc": {
       "uid": "a26f4800a574e1bc",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "3cca2d7e72a727eb",
@@ -26733,7 +26861,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:661e7a4037db37849a052a03"
@@ -26751,12 +26879,13 @@
       "price_first": 2200,
       "price_current": 2200,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 21
     },
     "57c076fba5004c42": {
       "uid": "57c076fba5004c42",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "66fdc00920d07ae1",
@@ -26774,7 +26903,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6a1d3908c0bad38c5903db4f"
@@ -26792,7 +26921,8 @@
       "price_first": 1000,
       "price_current": 1000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 18
     },
     "33db780d75605486": {
       "uid": "33db780d75605486",
@@ -26833,7 +26963,7 @@
       "price_first": 850.0,
       "price_current": 850.0,
       "price_changes": [],
-      "days_listed": 5,
+      "days_listed": 6,
       "cena_m2": 15
     },
     "760e2ad8d80981ab": {
@@ -26875,7 +27005,7 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 5,
+      "days_listed": 6,
       "cena_m2": 20
     },
     "05ad0d8892c0cbb7": {
@@ -26958,7 +27088,7 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 4,
+      "days_listed": 5,
       "cena_m2": 16
     },
     "da9aa3f5f78e08b2": {
@@ -27083,7 +27213,7 @@
       "price_first": 1150.0,
       "price_current": 1150.0,
       "price_changes": [],
-      "days_listed": 4,
+      "days_listed": 5,
       "cena_m2": 19
     },
     "2d043d3f4c87d0c9": {
@@ -27125,13 +27255,13 @@
       "price_first": 2000.0,
       "price_current": 2000.0,
       "price_changes": [],
-      "days_listed": 4,
+      "days_listed": 5,
       "cena_m2": 36
     },
     "ed0a8b87a3db08a4": {
       "uid": "ed0a8b87a3db08a4",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "458f1d73c5028873",
@@ -27146,28 +27276,36 @@
         "30ac0769a3104364"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida",
+        "nadjidom"
       ],
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07",
+        "nadjidom": "2026-10-07"
       },
       "source_ids": {
-        "halo": "ccb0939e61cf"
+        "halo": "ccb0939e61cf",
+        "4zida": "4zida:6abe5340585e344ac80f0bee",
+        "nadjidom": "nadjidom:2358612"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/belville-2-0-stan-sa-garaznim-mestom-id16616/5425647758919?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/belville-2-0-stan-sa-garaznim-mestom-id16616/5425647758919?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-67-belville-novi-beograd-beograd/dvosoban-stan/6abe5340585e344ac80f0bee",
+        "https://www.nadjidom.com/sr/details/2358612/Beograd-Novi+Beograd-Blok+67+-+Belville-Izdavanje-Stan.html"
       ],
       "zgrada": "Belvil",
       "struktura": "2.0",
       "str_label": null,
       "m2": 68.0,
-      "sprat": null,
-      "agencija": "art-nekretnine-d-o-o",
+      "sprat": "2",
+      "agencija": "ART nekretnine d.o.o. ",
       "naslov": "Belville , 2.0 stan sa garažnim mestom ID#16616",
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 4,
+      "days_listed": 5,
       "cena_m2": 18
     },
     "588e3c2a7d16bc52": {
@@ -27292,7 +27430,7 @@
       "price_first": 850.0,
       "price_current": 850.0,
       "price_changes": [],
-      "days_listed": 3,
+      "days_listed": 4,
       "cena_m2": 21
     },
     "43da7530f989175f": {
@@ -27334,7 +27472,7 @@
       "price_first": 1700.0,
       "price_current": 1700.0,
       "price_changes": [],
-      "days_listed": 3,
+      "days_listed": 4,
       "cena_m2": 18
     },
     "f91a80703f407491": {
@@ -27376,7 +27514,7 @@
       "price_first": 800.0,
       "price_current": 800.0,
       "price_changes": [],
-      "days_listed": 3,
+      "days_listed": 4,
       "cena_m2": 15
     },
     "eed8fbc4acc6a0af": {
@@ -27418,7 +27556,7 @@
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
-      "days_listed": 3,
+      "days_listed": 4,
       "cena_m2": 15
     },
     "a35e34e62194efe1": {
@@ -27460,7 +27598,7 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 3,
+      "days_listed": 4,
       "cena_m2": 24
     },
     "d013939ef3c9c1df": {
@@ -27502,7 +27640,7 @@
       "price_first": 950.0,
       "price_current": 950.0,
       "price_changes": [],
-      "days_listed": 2,
+      "days_listed": 3,
       "cena_m2": 16
     },
     "37a727f9adebaf2b": {
@@ -27544,13 +27682,13 @@
       "price_first": 750.0,
       "price_current": 750.0,
       "price_changes": [],
-      "days_listed": 2,
+      "days_listed": 3,
       "cena_m2": 21
     },
     "f8171857503ef0e4": {
       "uid": "f8171857503ef0e4",
       "first_seen": "2026-10-04",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "fcec1f5f03a85129",
@@ -27565,17 +27703,21 @@
         "2833a909b9a3a379"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "source_ids": {
-        "halo": "bf80b2edb99c"
+        "halo": "bf80b2edb99c",
+        "4zida": "4zida:6ac0e4412cb08d1cf802d5c9"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/ekskluzivan-3-0-duplex-od-148m2-a-blok/5425647264776?kid=1",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/ekskluzivan-3-0-duplex-od-148m2-a-blok/5425647264776?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/ekskluzivan-3-0-duplex-od-148m2-a-blok/5425647264776?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/trosoban-stan/6ac0e4412cb08d1cf802d5c9"
       ],
       "zgrada": "A Blok",
       "struktura": "3.0",
@@ -27583,11 +27725,11 @@
       "m2": 148.0,
       "sprat": null,
       "agencija": "SonataProperties",
-      "naslov": "Ekskluzivan 3.0 duplex od 148m2, A Blok",
+      "naslov": "Trosoban stan za izdavanje, A Blok - Blok 67a, 3.600€, 148m²",
       "price_first": 3600.0,
       "price_current": 3600.0,
       "price_changes": [],
-      "days_listed": 2,
+      "days_listed": 3,
       "cena_m2": 24
     },
     "c7bb4c859e2336f8": {
@@ -27629,7 +27771,7 @@
       "price_first": 1100.0,
       "price_current": 1100.0,
       "price_changes": [],
-      "days_listed": 2,
+      "days_listed": 3,
       "cena_m2": 16
     },
     "e2180e3288376875": {
@@ -27671,7 +27813,7 @@
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
-      "days_listed": 1,
+      "days_listed": 2,
       "cena_m2": 18
     },
     "a9f690011a441482": {
@@ -27713,12 +27855,12 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 1
+      "days_listed": 2
     },
     "df4ec725bd6aec1f": {
       "uid": "df4ec725bd6aec1f",
       "first_seen": "2026-10-05",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "b57e42f12041efa0",
@@ -27733,16 +27875,20 @@
         "a56fcce11ab95e12"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "source_ids": {
-        "halo": "23b07833faaa"
+        "halo": "23b07833faaa",
+        "4zida": "4zida:6abe3a1d465a8e63590c90f3"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/belville-maslacak-2-0-lux-sa-garazom-id19093/5425647752395?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/belville-maslacak-2-0-lux-sa-garazom-id19093/5425647752395?kid=1",
+        "https://www.4zida.rs/izdavanje-stanova/blok-67-belville-novi-beograd-beograd/dvosoban-stan/6abe3a1d465a8e63590c90f3"
       ],
       "zgrada": "Belvil",
       "struktura": "2.0",
@@ -27750,11 +27896,11 @@
       "m2": 69.0,
       "sprat": null,
       "agencija": "bilding-nekretnine-d-o-o",
-      "naslov": "Belville,Maslačak,2.0,lux,sa garažom ID#19093",
+      "naslov": "Dvosoban stan za izdavanje, Jurija Gagarina, 1.200€, 69m²",
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 1,
+      "days_listed": 2,
       "cena_m2": 17
     },
     "922991ad6d552f4c": {
@@ -27796,7 +27942,7 @@
       "price_first": 730.0,
       "price_current": 730.0,
       "price_changes": [],
-      "days_listed": 1,
+      "days_listed": 2,
       "cena_m2": 18
     },
     "e52e1bb4a48a0a41": {
@@ -27838,7 +27984,7 @@
       "price_first": 3300.0,
       "price_current": 3300.0,
       "price_changes": [],
-      "days_listed": 0,
+      "days_listed": 1,
       "cena_m2": 16
     },
     "3db828b18bdf8984": {
@@ -27880,13 +28026,13 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 0,
+      "days_listed": 1,
       "cena_m2": 22
     },
     "d78a1e0bf05ac2f4": {
       "uid": "d78a1e0bf05ac2f4",
       "first_seen": "2026-10-06",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "4058e97c49daf415",
@@ -27901,16 +28047,20 @@
         "79c2d199bc9cd4d8"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "source_ids": {
-        "halo": "7464e73f8481"
+        "halo": "7464e73f8481",
+        "4zida": "4zida:6ac3b11ff6dcc9d6320d8f5c"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/belvil-106m2-dve-spavace-ciklama-id3008/5425647780295?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/belvil-106m2-dve-spavace-ciklama-id3008/5425647780295?kid=4",
+        "https://www.4zida.rs/izdavanje-stanova/blok-67-belville-novi-beograd-beograd/trosoban-stan/6ac3b11ff6dcc9d6320d8f5c"
       ],
       "zgrada": "Belvil",
       "struktura": "3.0",
@@ -27918,11 +28068,11 @@
       "m2": 106.0,
       "sprat": null,
       "agencija": "BrickPro",
-      "naslov": "Belvil 106m2-dve spavaće-Ciklama ID#3008",
+      "naslov": "Trosoban stan za izdavanje, Đorđa Stanojevića, 1.400€, 106m²",
       "price_first": 1400.0,
       "price_current": 1400.0,
       "price_changes": [],
-      "days_listed": 0,
+      "days_listed": 1,
       "cena_m2": 13
     },
     "9c71d4df3c0d333e": {
@@ -27964,7 +28114,7 @@
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
-      "days_listed": 0,
+      "days_listed": 1,
       "cena_m2": 19
     },
     "780c4faba56dbe39": {
@@ -28006,7 +28156,7 @@
       "price_first": 1450.0,
       "price_current": 1450.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 1
     },
     "003b60d39fa15d90": {
       "uid": "003b60d39fa15d90",
@@ -28047,13 +28197,382 @@
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
+      "days_listed": 1
+    },
+    "dfb4dea456a962e6": {
+      "uid": "dfb4dea456a962e6",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "2168d3d84ddb45b5",
+      "fp_loose_all": [
+        "2168d3d84ddb45b5"
+      ],
+      "fp_nosprat": "63635bf1a77d1cf4",
+      "fp_nosprat_all": [
+        "63635bf1a77d1cf4"
+      ],
+      "fp_strict_all": [
+        "ce67a2b8e293d11d"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-10-07"
+      },
+      "source_ids": {
+        "4zida": "4zida:6ac4cb4e62cf7ef44a06645f"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/a-blok-blok-67a-novi-beograd-beograd/dvosoban-stan/6ac4cb4e62cf7ef44a06645f"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 52.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Dvosoban stan za izdavanje, A BLOK, 1.000€, 52m²",
+      "price_first": 1000,
+      "price_current": 1000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "ce836c43a7e58bb4": {
+      "uid": "ce836c43a7e58bb4",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "1a49349a57f812a0",
+      "fp_loose_all": [
+        "1a49349a57f812a0"
+      ],
+      "fp_nosprat": "c8e0739001161a60",
+      "fp_nosprat_all": [
+        "c8e0739001161a60"
+      ],
+      "fp_strict_all": [
+        "c9a667fb961cd1c0"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-10-07"
+      },
+      "source_ids": {
+        "4zida": "4zida:6abf6e40b6c9772c3e03ac56"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/petosoban-stan/6abf6e40b6c9772c3e03ac56"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "5.0",
+      "str_label": "Petosoban+",
+      "m2": 162.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Petosoban stan za izdavanje, Tadije Sondermajera, 2.650€, 162m²",
+      "price_first": 2650,
+      "price_current": 2650,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "39891b6c35274fee": {
+      "uid": "39891b6c35274fee",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "b82e01203fe1357c",
+      "fp_loose_all": [
+        "b82e01203fe1357c"
+      ],
+      "fp_nosprat": "88bbdaf014215439",
+      "fp_nosprat_all": [
+        "88bbdaf014215439"
+      ],
+      "fp_strict_all": [
+        "7e9c1da01e08bb40"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-10-07"
+      },
+      "source_ids": {
+        "4zida": "4zida:6ac38ac4031c1a1afb054c57"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/jednosoban-stan/6ac38ac4031c1a1afb054c57"
+      ],
+      "zgrada": "West 65",
+      "struktura": "1.0",
+      "str_label": "Garsonjera/Studio",
+      "m2": 33.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Jednosoban stan za izdavanje, Đorđa Stanojevića, 700€, 33m²",
+      "price_first": 700,
+      "price_current": 700,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "91376a9882b02232": {
+      "uid": "91376a9882b02232",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "ddb49dea790ef97c",
+      "fp_loose_all": [
+        "ddb49dea790ef97c"
+      ],
+      "fp_nosprat": "49b9ec9ce5b15a0f",
+      "fp_nosprat_all": [
+        "49b9ec9ce5b15a0f"
+      ],
+      "fp_strict_all": [
+        "4db98244ed66b21b"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-10-07"
+      },
+      "source_ids": {
+        "4zida": "4zida:6ac4c03651ff3cbc1506c9f3"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6ac4c03651ff3cbc1506c9f3"
+      ],
+      "zgrada": "Airport Garden",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 56.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Dvosoban stan za izdavanje, Đorđa Stanojevića, 1.100€, 56m²",
+      "price_first": 1100,
+      "price_current": 1100,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "8b290f4604fa75c8": {
+      "uid": "8b290f4604fa75c8",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "00f3a3f2cdeaa001",
+      "fp_loose_all": [
+        "00f3a3f2cdeaa001"
+      ],
+      "fp_nosprat": "f6ee3bbd4d9d8ef0",
+      "fp_nosprat_all": [
+        "f6ee3bbd4d9d8ef0"
+      ],
+      "fp_strict_all": [
+        "9fc7abb41d47bc5d"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-10-07"
+      },
+      "source_ids": {
+        "4zida": "4zida:6ac3bc6f372362476806d737"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6ac3bc6f372362476806d737"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 106.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera, 1.650€, 106m²",
+      "price_first": 1650,
+      "price_current": 1650,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "6be7db83dccbd88c": {
+      "uid": "6be7db83dccbd88c",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "e30f3575c16c5d87",
+      "fp_loose_all": [
+        "e30f3575c16c5d87"
+      ],
+      "fp_nosprat": "2ba6da5b8be6e945",
+      "fp_nosprat_all": [
+        "2ba6da5b8be6e945"
+      ],
+      "fp_strict_all": [
+        "b8822aadafd9ad90"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-10-07"
+      },
+      "source_ids": {
+        "4zida": "4zida:6ac378e57685e410b00b5955"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-64-novi-beograd-beograd/dvosoban-stan/6ac378e57685e410b00b5955"
+      ],
+      "zgrada": "The One",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 49.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Dvosoban stan za izdavanje, Đorđa Stanojevića, 700€, 49m²",
+      "price_first": 700,
+      "price_current": 700,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "ffc6e3334c12e40d": {
+      "uid": "ffc6e3334c12e40d",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "0fa2170145982ce5",
+      "fp_loose_all": [
+        "0fa2170145982ce5"
+      ],
+      "fp_nosprat": "3bba0b6b8780d502",
+      "fp_nosprat_all": [
+        "3bba0b6b8780d502"
+      ],
+      "fp_strict_all": [
+        "77e027307bc35571"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-10-07"
+      },
+      "source_ids": {
+        "4zida": "4zida:6ac15cb0e72cef35cb0dce36"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-67-belville-novi-beograd-beograd/trosoban-stan/6ac15cb0e72cef35cb0dce36"
+      ],
+      "zgrada": "West 65 Kula",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 60.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Trosoban stan za izdavanje, Bulevar Crvene Armije, 950€, 60m²",
+      "price_first": 950,
+      "price_current": 950,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "5ba204e3a85b84f4": {
+      "uid": "5ba204e3a85b84f4",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "52d4e745338c53de",
+      "fp_loose_all": [
+        "52d4e745338c53de"
+      ],
+      "fp_nosprat": "a81a5fd372b9e61f",
+      "fp_nosprat_all": [
+        "a81a5fd372b9e61f"
+      ],
+      "fp_strict_all": [
+        "6c3bed630f7037eb"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-10-07"
+      },
+      "source_ids": {
+        "4zida": "4zida:6abfe3a5f7ccc18950029b1b"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6abfe3a5f7ccc18950029b1b"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 54.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Dvosoban stan za izdavanje, Tadije Sondermajera, 1.100€, 54m²",
+      "price_first": 1100,
+      "price_current": 1100,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "f75a82c68c9c11e6": {
+      "uid": "f75a82c68c9c11e6",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "d4e37497f8be2be4",
+      "fp_loose_all": [
+        "d4e37497f8be2be4"
+      ],
+      "fp_nosprat": "3a894ea9ef0fb38f",
+      "fp_nosprat_all": [
+        "3a894ea9ef0fb38f"
+      ],
+      "fp_strict_all": [
+        "98f4db35acd306ed"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-10-07"
+      },
+      "source_ids": {
+        "4zida": "4zida:69628a2a6a991b476d0e1a78"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/69628a2a6a991b476d0e1a78"
+      ],
+      "zgrada": "West 65",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 108.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Trosoban stan za izdavanje, Tadije Sondermajera, 1.700€, 108m²",
+      "price_first": 1700,
+      "price_current": 1700,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-06T10:38:31.458381+00:00",
+  "updated_at": "2026-10-07T08:10:07.908517+00:00",
   "last_run": {
-    "4zida": "2026-09-30",
-    "nadjidom": "2026-09-30",
+    "4zida": "2026-10-07",
+    "nadjidom": "2026-10-07",
     "halo": "2026-10-06"
   }
 }

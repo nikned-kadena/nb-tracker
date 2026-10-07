@@ -258,7 +258,7 @@
     "4a286f420402ecb8": {
       "uid": "4a286f420402ecb8",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d865f41d549cb7ec",
@@ -268,16 +268,19 @@
       ],
       "sources": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "source_ids": {
         "halo": "61c029f0f374",
-        "nadjidom": "nadjidom:2267950"
+        "nadjidom": "nadjidom:2267950",
+        "4zida": "4zida:69b59ddf71e0999b280b81b7"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-stana-airport-garden-novi-beograd-58/5425646905928?kid=4",
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-stana-airport-garden-novi-beograd-58/5425646905928?kid=3",
-        "https://www.nadjidom.com/sr/details/2267950/Beograd-Novi+Beograd-Blok+67a-Prodaja-Stan.html"
+        "https://www.nadjidom.com/sr/details/2267950/Beograd-Novi+Beograd-Blok+67a-Prodaja-Stan.html",
+        "https://www.4zida.rs/prodaja-stanova/blok-67-belville-novi-beograd-beograd/dvosoban-stan/69b59ddf71e0999b280b81b7"
       ],
       "zgrada": "Airport Garden",
       "struktura": "2.0",
@@ -285,7 +288,7 @@
       "m2": 58.0,
       "sprat": "5",
       "agencija": "JDPropertiesandConsultingdoo",
-      "naslov": "Prodaja stana Airport Garden Novi Beograd 58 m²",
+      "naslov": "Dvosoban stan na prodaju, Đorđa Stanojevića, 261.000€, 58m²",
       "price_first": 255200.0,
       "price_current": 261000.0,
       "price_changes": [
@@ -305,11 +308,12 @@
           "to": 261000.0
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4500,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "nadjidom": "2026-09-30"
+        "nadjidom": "2026-09-30",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "62ded267bfcfb700"
@@ -365,7 +369,7 @@
           "to": 465000.0
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4387,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -443,7 +447,7 @@
     "55365202e61a1aa4": {
       "uid": "55365202e61a1aa4",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "100fc9f28eaaeb8d",
@@ -471,15 +475,15 @@
       "m2": 192.0,
       "sprat": null,
       "agencija": "eminent-nekretnine",
-      "naslov": "Soul 64, lux, komforan, terasa 112m2, ID 24876",
+      "naslov": "Trosoban stan na prodaju, Omladinskih brigada, 465.000€, 192m²",
       "price_first": 465000.0,
       "price_current": 465000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 2422,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "7cfb78958b9c1f7e",
@@ -558,7 +562,7 @@
       "price_first": 249000.0,
       "price_current": 249000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4611,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -733,7 +737,7 @@
       "price_first": 410000.0,
       "price_current": 410000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4940,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -746,21 +750,25 @@
     "3314f7efdb4fa088": {
       "uid": "3314f7efdb4fa088",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-06-30",
-      "is_active": false,
-      "deactivated_at": "2026-07-02",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "08183aa08bc9aa87",
       "fp_strict_all": [
-        "19b4ede0b1680f13"
+        "19b4ede0b1680f13",
+        "37c4c68a5ce6050e"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "ecba2e26fdf7"
+        "halo": "ecba2e26fdf7",
+        "4zida": "4zida:69fccc63c2bbc1b6d7031bde"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-tower-lux-namesten-id15217/5425647202890?kid=4"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-tower-lux-namesten-id15217/5425647202890?kid=4",
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/69fccc63c2bbc1b6d7031bde"
       ],
       "zgrada": "West 65 Kula",
       "struktura": "3.0",
@@ -768,11 +776,26 @@
       "m2": 95.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "West Tower, lux, namešten ID#15217",
+      "naslov": "Trosoban stan na prodaju, Omladinskih brigada, 530.000€, 95m²",
       "price_first": 550000.0,
-      "price_current": 550000.0,
-      "price_changes": [],
-      "days_listed": 2
+      "price_current": 530000,
+      "price_changes": [
+        {
+          "date": "2026-10-07",
+          "from": 550000.0,
+          "to": 530000
+        }
+      ],
+      "days_listed": 99,
+      "last_seen_src": {
+        "halo": "2026-10-07",
+        "4zida": "2026-10-07"
+      },
+      "fp_nosprat_all": [
+        "ab5c9a15d6629a94"
+      ],
+      "fp_nosprat": "ab5c9a15d6629a94",
+      "cena_m2": 5579
     },
     "ea91f63214e7a15e": {
       "uid": "ea91f63214e7a15e",
@@ -871,7 +894,7 @@
       "price_first": 275000.0,
       "price_current": 275000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 5000,
       "last_seen_src": {
         "halo": "2026-10-06",
@@ -885,7 +908,7 @@
     "17000714154f8c58": {
       "uid": "17000714154f8c58",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "44d54922f5b2255e",
@@ -914,11 +937,11 @@
       "price_first": 371850.0,
       "price_current": 371850.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 5025,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "8617491716f3c8aa"
@@ -1123,7 +1146,7 @@
       "price_first": 179000.0,
       "price_current": 179000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4577,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -1264,7 +1287,7 @@
       "price_first": 319352.0,
       "price_current": 319352.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 3800,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -1277,7 +1300,7 @@
     "132ce302c78fa93d": {
       "uid": "132ce302c78fa93d",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "20b3e452d794a8fa",
@@ -1321,13 +1344,13 @@
           "to": 430000
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4019,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "nadjidom": "2026-10-07",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "49b94209e51a9f10"
@@ -1370,7 +1393,7 @@
           "to": 570000.0
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 3973,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -1506,7 +1529,7 @@
       "price_first": 450000.0,
       "price_current": 450000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 5114,
       "last_seen_src": {
         "halo": "2026-10-06",
@@ -1661,7 +1684,7 @@
     "508a6da3fa362be9": {
       "uid": "508a6da3fa362be9",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e1edaaf5a03fe445",
@@ -1690,11 +1713,11 @@
       "price_first": 247500.0,
       "price_current": 247500.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4500,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "69bc919b3bfcca7f"
@@ -1704,7 +1727,7 @@
     "5f8af7e9d9fbb1a9": {
       "uid": "5f8af7e9d9fbb1a9",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "43b3b0322cf8b13b",
@@ -1732,16 +1755,16 @@
       "m2": 99.0,
       "sprat": "3",
       "agencija": "Kredium",
-      "naslov": "Sakura Park 03 | Podno grejanje | Centralni fan co",
+      "naslov": "Trosoban stan na prodaju, Jurija Gagarina, 410.000€, 99m²",
       "price_first": 410000.0,
       "price_current": 410000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4141,
       "last_seen_src": {
         "halo": "2026-10-06",
         "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "ca9f6a90edf8083e"
@@ -1815,7 +1838,7 @@
       "price_first": 399000.0,
       "price_current": 399000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 3764,
       "last_seen_src": {
         "halo": "2026-09-30",
@@ -1894,7 +1917,7 @@
     "1f7ee0b9dff6f9a2": {
       "uid": "1f7ee0b9dff6f9a2",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "aff0e8d4c784ed76",
@@ -1902,14 +1925,17 @@
         "104162d178ffff64"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "c70aa261487c"
+        "halo": "c70aa261487c",
+        "4zida": "4zida:69ac5a130f8868178500ed2f"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/sakura-park-nov-2-0-lux-namesten-svetao/5425646869236?kid=3",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/sakura-park-nov-2-0-lux-namesten-svetao/5425646869236?kid=4"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/sakura-park-nov-2-0-lux-namesten-svetao/5425646869236?kid=4",
+        "https://www.4zida.rs/prodaja-stanova/blok-58-novi-beograd-beograd/dvosoban-stan/69ac5a130f8868178500ed2f"
       ],
       "zgrada": "Sakura Park",
       "struktura": "2.0",
@@ -1917,14 +1943,15 @@
       "m2": 45.0,
       "sprat": null,
       "agencija": "city-hedonia-agencija-za-nekretnine",
-      "naslov": "Sakura Park, nov, 2.0, lux, namešten, svetao",
+      "naslov": "Dvosoban stan na prodaju, Jurija Gagarina, 225.000€, 45m²",
       "price_first": 225000.0,
       "price_current": 225000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 5000,
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "5772dceb9e412863"
@@ -1993,7 +2020,7 @@
       "price_first": 450000.0,
       "price_current": 450000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4975,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -2036,7 +2063,7 @@
       "price_first": 399000.0,
       "price_current": 399000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 5320,
       "deactivation_uncertain": true,
       "last_seen_src": {
@@ -2052,8 +2079,8 @@
       "uid": "0603c67b3a397fb5",
       "first_seen": "2026-06-30",
       "last_seen": "2026-10-03",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "80e1ec104326a8ff",
       "fp_strict_all": [
         "dbbb5886e7427178",
@@ -2092,7 +2119,7 @@
           "to": 287400.0
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 5000,
       "last_seen_src": {
         "halo": "2026-10-03",
@@ -2106,7 +2133,7 @@
     "8a9ac2f007282b42": {
       "uid": "8a9ac2f007282b42",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e68d4008f8853fcb",
@@ -2114,14 +2141,17 @@
         "9277ad321cd449d3"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "067db5195f5e"
+        "halo": "067db5195f5e",
+        "4zida": "4zida:6a4e5f3c27414c377403b83f"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-tower-nov-lux-4-0-opremljen-caroban/5425646306057?kid=3",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-tower-nov-lux-4-0-opremljen-caroban/5425646306057?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-tower-nov-lux-4-0-opremljen-caroban/5425646306057?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6a4e5f3c27414c377403b83f"
       ],
       "zgrada": "West 65 Kula",
       "struktura": "4.0",
@@ -2129,14 +2159,15 @@
       "m2": 124.0,
       "sprat": null,
       "agencija": "city-hedonia-agencija-za-nekretnine",
-      "naslov": "West Tower, nov, lux 4.0, opremljen, čaroban",
+      "naslov": "Četvorosoban stan na prodaju, Omladinskih brigada, 685.000€, 124m²",
       "price_first": 685000.0,
       "price_current": 685000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 5524,
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "99e6275728ea65e8"
@@ -2238,7 +2269,7 @@
       "price_first": 429000.0,
       "price_current": 429000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4988,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -2352,7 +2383,7 @@
     "c8427eb4905ec325": {
       "uid": "c8427eb4905ec325",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-05",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "9a42ae8de59d98f6",
@@ -2379,7 +2410,7 @@
       "m2": 52.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "2.0 Novi Beograd, Belville ID#2002",
+      "naslov": "Dvosoban stan na prodaju, Đorđa Stanojevića, 227.000€, 52m²",
       "price_first": 233000.0,
       "price_current": 227000.0,
       "price_changes": [
@@ -2404,12 +2435,12 @@
           "to": 227000.0
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4365,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-10-05",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "aba9e6c3c25f35e0"
@@ -2487,7 +2518,7 @@
           "to": 344999
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 3791,
       "last_seen_src": {
         "halo": "2026-09-30",
@@ -2534,7 +2565,7 @@
     "a87468bd312c0a49": {
       "uid": "a87468bd312c0a49",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "b42b1146bd6d6c66",
@@ -2562,16 +2593,16 @@
       "m2": 83.0,
       "sprat": "4",
       "agencija": "EUROPOLIS NEKRETNINE ",
-      "naslov": "Novogradnja - Preko puta Delta City-ja, kompleks Lastavice ID#9836",
+      "naslov": "Četvorosoban stan na prodaju, Jurija Gagarina, 380.000€, 83m²",
       "price_first": 380000.0,
       "price_current": 380000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4578,
       "last_seen_src": {
         "halo": "2026-09-30",
         "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "77e18135ebadabc7"
@@ -2613,7 +2644,7 @@
     "bf549f72888a3506": {
       "uid": "bf549f72888a3506",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "14c4e09589810084",
@@ -2638,19 +2669,19 @@
       "zgrada": "Airport Garden",
       "struktura": "4.0",
       "str_label": null,
-      "m2": 133.97,
+      "m2": 134.0,
       "sprat": "12",
       "agencija": "art-nekretnine-d-o-o",
-      "naslov": "Airport Garden, lux penthouse ID#12044",
+      "naslov": "Četvorosoban stan na prodaju, Đorđa Stanojevića, 550.000€, 134m²",
       "price_first": 550000.0,
       "price_current": 550000.0,
       "price_changes": [],
-      "days_listed": 98,
-      "cena_m2": 4105,
+      "days_listed": 99,
+      "cena_m2": 4104,
       "last_seen_src": {
         "halo": "2026-10-06",
         "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "5c8d7b917153cbdf"
@@ -2693,7 +2724,7 @@
           "to": 478000.0
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 3824,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -2802,7 +2833,7 @@
     "5554c13716b91562": {
       "uid": "5554c13716b91562",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "04d9a273afbd984c",
@@ -2831,11 +2862,11 @@
       "price_first": 342450.0,
       "price_current": 342450.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 3004,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "5ac3911861e542b1"
@@ -2874,7 +2905,7 @@
       "price_first": 340000.0,
       "price_current": 340000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4496,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -2919,7 +2950,7 @@
       "price_first": 790000.0,
       "price_current": 790000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 5643,
       "last_seen_src": {
         "halo": "2026-09-30",
@@ -2934,7 +2965,7 @@
     "2fde6642b4a092cf": {
       "uid": "2fde6642b4a092cf",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "971270c9a1612ddd",
@@ -2962,16 +2993,16 @@
       "m2": 78.0,
       "sprat": "18",
       "agencija": "EUROPOLIS NEKRETNINE ",
-      "naslov": "Wellport, 78m2,3,0 ID#8968",
+      "naslov": "Trosoban stan na prodaju, Tadije Sondermajera, 425.000€, 78m²",
       "price_first": 425000.0,
       "price_current": 425000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 5449,
       "last_seen_src": {
         "halo": "2026-09-30",
         "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "5d294f637852b660"
@@ -2981,7 +3012,7 @@
     "0bd9c20724a67e07": {
       "uid": "0bd9c20724a67e07",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "066dc4c34bf52283",
@@ -3017,11 +3048,11 @@
           "to": 390000.0
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 3645,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "ce39b88b03d91531"
@@ -3063,21 +3094,25 @@
     "609f9590a753521f": {
       "uid": "609f9590a753521f",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-03",
-      "is_active": false,
-      "deactivated_at": "2026-07-06",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "96a7e6fadc13240b",
       "fp_strict_all": [
-        "0eb37de5b8b7e554"
+        "0eb37de5b8b7e554",
+        "37049c4f715dd9e6"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "d43c46c48e58"
+        "halo": "d43c46c48e58",
+        "4zida": "4zida:69f7abe63f559b0b8f03bbf6"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-west-65---omladinskih-brigada-95/5425647072865?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-west-65---omladinskih-brigada-95/5425647072865?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/69f7abe63f559b0b8f03bbf6"
       ],
       "zgrada": "West 65",
       "struktura": "3.0",
@@ -3085,13 +3120,27 @@
       "m2": 95.0,
       "sprat": null,
       "agencija": "galerija-nekretnine",
-      "naslov": "Novi Beograd, West 65 - Omladinskih brigada 95m2",
+      "naslov": "Trosoban stan na prodaju, Omladinskih Brigada, 530.000€, 95m²",
       "price_first": 550000.0,
-      "price_current": 550000.0,
-      "price_changes": [],
-      "days_listed": 6,
-      "cena_m2": 5789,
-      "deactivation_uncertain": true
+      "price_current": 530000,
+      "price_changes": [
+        {
+          "date": "2026-10-07",
+          "from": 550000.0,
+          "to": 530000
+        }
+      ],
+      "days_listed": 99,
+      "cena_m2": 5579,
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-10-07",
+        "4zida": "2026-10-07"
+      },
+      "fp_nosprat_all": [
+        "ebf0bb16c9967d15"
+      ],
+      "fp_nosprat": "ebf0bb16c9967d15"
     },
     "cdc49a3607306e29": {
       "uid": "cdc49a3607306e29",
@@ -3128,7 +3177,7 @@
     "4001b790800e8d26": {
       "uid": "4001b790800e8d26",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "497fc2b36da16543",
@@ -3157,11 +3206,11 @@
       "price_first": 465000.0,
       "price_current": 465000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 3974,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "caff10766dbda6f9"
@@ -3305,7 +3354,7 @@
           "to": 235000.0
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4273,
       "last_seen_src": {
         "halo": "2026-09-30",
@@ -3348,7 +3397,7 @@
     "3b289b82fe002460": {
       "uid": "3b289b82fe002460",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d3edf6dd0eb77f06",
@@ -3376,8 +3425,8 @@
       "str_label": null,
       "m2": 59.0,
       "sprat": "3",
-      "agencija": "EUROPOLISNEKRETNINE",
-      "naslov": "Moderan stan površine 59m² u kompleksu Wellport ID",
+      "agencija": "EUROPOLIS NEKRETNINE ",
+      "naslov": "Moderan stan površine 59m² u kompleksu Wellport ID#9248",
       "price_first": 289000.0,
       "price_current": 305000.0,
       "price_changes": [
@@ -3387,12 +3436,12 @@
           "to": 305000.0
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 5169,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "nadjidom": "2026-10-07",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "1dc07a12f210417b"
@@ -3499,7 +3548,7 @@
     "5cd4893567bbdf91": {
       "uid": "5cd4893567bbdf91",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "1197c5135a2c08ba",
@@ -3524,15 +3573,15 @@
       "m2": 65.0,
       "sprat": null,
       "agencija": "city-hedonia-agencija-za-nekretnine",
-      "naslov": "Airport Garden, nov, lux 2.0, komforan, garaža",
+      "naslov": "Dvosoban stan na prodaju, Đorđa Stanojevića, 282.000€, 65m²",
       "price_first": 282000.0,
       "price_current": 282000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4338,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "c9d83e0d80551ad4"
@@ -3636,7 +3685,7 @@
       "price_first": 350000.0,
       "price_current": 350000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4605,
       "last_seen_src": {
         "halo": "2026-10-06",
@@ -3748,7 +3797,7 @@
     "2956aa3f828dcfad": {
       "uid": "2956aa3f828dcfad",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "2d0afae64bf0a8b3",
@@ -3772,16 +3821,16 @@
       "str_label": null,
       "m2": 82.0,
       "sprat": "4",
-      "agencija": "DomInvestnekretnine",
-      "naslov": "Luksuzno opremljen, 3.0, 82m2, Lastavica",
+      "agencija": "EUROPOLIS NEKRETNINE ",
+      "naslov": "Jurija Gagarina, Novi Beograd, Delta city ID#7290",
       "price_first": 379000.0,
       "price_current": 379000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4622,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "nadjidom": "2026-09-30"
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "9000093f2405156f"
@@ -3792,8 +3841,8 @@
       "uid": "e35d7c70e882c45f",
       "first_seen": "2026-06-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "8edd7084277c0d23",
       "fp_strict_all": [
         "03305336dbe388f9"
@@ -3820,7 +3869,7 @@
       "price_first": 120000.0,
       "price_current": 120000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 2500,
       "last_seen_src": {
         "halo": "2026-09-30",
@@ -3829,7 +3878,9 @@
       "fp_nosprat_all": [
         "18a4276133d1a875"
       ],
-      "fp_nosprat": "18a4276133d1a875"
+      "fp_nosprat": "18a4276133d1a875",
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 6
     },
     "5d26d92161616235": {
       "uid": "5d26d92161616235",
@@ -3895,7 +3946,7 @@
       "price_first": 1400000.0,
       "price_current": 1400000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 6573,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -4037,7 +4088,7 @@
     "dda2c58df1ed96c9": {
       "uid": "dda2c58df1ed96c9",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "495299d6636d9b10",
@@ -4060,12 +4111,12 @@
       "zgrada": "New Minel",
       "struktura": "4.0",
       "str_label": null,
-      "m2": 84.15,
+      "m2": 84.0,
       "sprat": null,
       "agencija": "PremiumRealEstate",
-      "naslov": "New Minel, 84m²",
+      "naslov": "Četvorosoban stan na prodaju, Tošin bunar, 347.119€, 84m²",
       "price_first": 337000.0,
-      "price_current": 337000.0,
+      "price_current": 347119,
       "price_changes": [
         {
           "date": "2026-09-30",
@@ -4076,13 +4127,18 @@
           "date": "2026-10-01",
           "from": 347119,
           "to": 337000.0
+        },
+        {
+          "date": "2026-10-07",
+          "from": 337000.0,
+          "to": 347119
         }
       ],
-      "days_listed": 98,
-      "cena_m2": 4005,
+      "days_listed": 99,
+      "cena_m2": 4132,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "bf9a55f1b3cbf459"
@@ -4264,7 +4320,7 @@
       "price_first": 990000.0,
       "price_current": 990000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 6149,
       "last_seen_src": {
         "halo": "2026-10-06",
@@ -4278,7 +4334,7 @@
     "6ae378fda3df1a70": {
       "uid": "6ae378fda3df1a70",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a27f961b74593b42",
@@ -4307,12 +4363,12 @@
       "price_first": 312000.0,
       "price_current": 312000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 3852,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "bd1c9da0bac11ac3"
@@ -4322,21 +4378,25 @@
     "63016721a5c98c3a": {
       "uid": "63016721a5c98c3a",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-07-29",
-      "is_active": false,
-      "deactivated_at": "2026-08-21",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "039cbf70caf5dad0",
       "fp_strict_all": [
-        "c953ae768ea407c4"
+        "c953ae768ea407c4",
+        "c515352af7d21490"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "f0e5ff409807"
+        "halo": "f0e5ff409807",
+        "4zida": "4zida:6a89d62c12b91f4cc80dfdf1"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-54m2-2-0-odmah-useljiv-sa-garaznim-me/5425647171324?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-54m2-2-0-odmah-useljiv-sa-garaznim-me/5425647171324?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/blok-64-novi-beograd-beograd/dvosoban-stan/6a89d62c12b91f4cc80dfdf1"
       ],
       "zgrada": "Soul 64",
       "struktura": "2.0",
@@ -4344,18 +4404,32 @@
       "m2": 54.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Soul 64-54m2-2.0-odmah useljiv-sa garažnim mestom",
+      "naslov": "Dvosoban stan na prodaju, Omladinskih brigada, 286.000€, 54m²",
       "price_first": 275000.0,
-      "price_current": 275000.0,
-      "price_changes": [],
-      "days_listed": 52,
-      "cena_m2": 5093,
-      "deactivation_uncertain": true
+      "price_current": 286000,
+      "price_changes": [
+        {
+          "date": "2026-10-07",
+          "from": 275000.0,
+          "to": 286000
+        }
+      ],
+      "days_listed": 99,
+      "cena_m2": 5296,
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-10-07",
+        "4zida": "2026-10-07"
+      },
+      "fp_nosprat_all": [
+        "baf3737ced00c4c7"
+      ],
+      "fp_nosprat": "baf3737ced00c4c7"
     },
     "9b2d296716509b46": {
       "uid": "9b2d296716509b46",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "283bdd077744c875",
@@ -4391,12 +4465,12 @@
           "to": 790000.0
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4647,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "60a4debe48a726e5"
@@ -4406,7 +4480,7 @@
     "a2f6642fe9365e4a": {
       "uid": "a2f6642fe9365e4a",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "cdfeef561ac0821d",
@@ -4442,11 +4516,11 @@
           "to": 790000
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 5643,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "b36dcb974c32fa36"
@@ -4456,7 +4530,7 @@
     "84fe06bf3213459d": {
       "uid": "84fe06bf3213459d",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "f8d5c0cd074311e1",
@@ -4484,7 +4558,7 @@
       "m2": 172.0,
       "sprat": null,
       "agencija": "eminent-nekretnine",
-      "naslov": "Soul 64, lux, novogradnja, ID 25107",
+      "naslov": "Trosoban stan na prodaju, Omladinskih brigada, 425.000€, 172m²",
       "price_first": 445000.0,
       "price_current": 425000.0,
       "price_changes": [
@@ -4494,11 +4568,11 @@
           "to": 425000.0
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 2471,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "bd8c420a4bd45805",
@@ -4575,7 +4649,7 @@
     "f035154bfbbcfa02": {
       "uid": "f035154bfbbcfa02",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "f173cd1c90220d85",
@@ -4604,7 +4678,7 @@
       "m2": 100.0,
       "sprat": "3",
       "agencija": "zidart",
-      "naslov": "Novi Beograd, West 65, trosoban stan, 100 m2",
+      "naslov": "Trosoban stan na prodaju, Omladinskih Brigada, 590.000€, 100m²",
       "price_first": 625000.0,
       "price_current": 590000.0,
       "price_changes": [
@@ -4614,12 +4688,12 @@
           "to": 590000.0
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 5900,
       "last_seen_src": {
         "halo": "2026-10-06",
         "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "7b092b45c4958ab2"
@@ -4735,7 +4809,7 @@
     "4e0bd8607ec5d082": {
       "uid": "4e0bd8607ec5d082",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-05",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0a8eaa61f25dfae7",
@@ -4745,11 +4819,13 @@
       ],
       "sources": [
         "halo",
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "source_ids": {
         "halo": "1815e0f01d2d",
-        "nadjidom": "nadjidom:2235571"
+        "nadjidom": "nadjidom:2235571",
+        "4zida": "4zida:69d7989bc7899841e308bc8b"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64---novogradnja-odlican-dvosoban-stan-5/5425646717963?kid=1",
@@ -4757,7 +4833,8 @@
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64---novogradnja-odlican-dvosoban-stan-5/5425646994260?kid=4",
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64---novogradnja-odlican-dvosoban-stan-5/5425646994260?kid=3",
         "https://www.nadjidom.com/sr/details/2273860/Beograd-Novi+Beograd-Blok+64-Prodaja-Stan.html",
-        "https://www.nadjidom.com/sr/details/2235571/Beograd-Novi+Beograd-Blok+67a-Prodaja-Stan.html"
+        "https://www.nadjidom.com/sr/details/2235571/Beograd-Novi+Beograd-Blok+67a-Prodaja-Stan.html",
+        "https://www.4zida.rs/prodaja-stanova/blok-64-novi-beograd-beograd/dvosoban-stan/69d7989bc7899841e308bc8b"
       ],
       "zgrada": "Soul 64",
       "struktura": "2.0",
@@ -4765,21 +4842,27 @@
       "m2": 53.0,
       "sprat": "7",
       "agencija": "Benefit",
-      "naslov": "Soul 64 - novogradnja, odličan dvosoban stan, 53m2",
+      "naslov": "Dvosoban stan na prodaju, Omladinskih brigada, 280.000€, 53m²",
       "price_first": 280000.0,
-      "price_current": 275000.0,
+      "price_current": 280000,
       "price_changes": [
         {
           "date": "2026-08-30",
           "from": 280000.0,
           "to": 275000.0
+        },
+        {
+          "date": "2026-10-07",
+          "from": 275000.0,
+          "to": 280000
         }
       ],
-      "days_listed": 98,
-      "cena_m2": 5189,
+      "days_listed": 99,
+      "cena_m2": 5283,
       "last_seen_src": {
         "halo": "2026-10-05",
-        "nadjidom": "2026-09-30"
+        "nadjidom": "2026-09-30",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "6b9e94a6a12d9596"
@@ -4822,7 +4905,7 @@
     "d8e55a49436d693d": {
       "uid": "d8e55a49436d693d",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-01",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "14d101c101e4f7b3",
@@ -4848,7 +4931,7 @@
       "m2": 75.0,
       "sprat": null,
       "agencija": "divis-nekretnine",
-      "naslov": "Prodaja trosobnog stana u Soul 64, parking mesto",
+      "naslov": "Trosoban stan na prodaju, Omladinskih Brigada bb, 389.250€, 75m²",
       "price_first": 399000.0,
       "price_current": 389250.0,
       "price_changes": [
@@ -4858,11 +4941,11 @@
           "to": 389250.0
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 5190,
       "last_seen_src": {
         "halo": "2026-10-01",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "42278682e992d183"
@@ -4898,7 +4981,7 @@
       "price_first": 549000.0,
       "price_current": 549000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 3978,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -5131,7 +5214,7 @@
       "price_first": 395000.0,
       "price_current": 395000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4072,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -5202,7 +5285,7 @@
       "price_first": 550000.0,
       "price_current": 550000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 3929,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -5305,7 +5388,7 @@
       "price_first": 286200.0,
       "price_current": 286200.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 5300,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -5383,7 +5466,7 @@
     "058763e2e6f795f7": {
       "uid": "058763e2e6f795f7",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "1ef90903c1cac4f7",
@@ -5411,17 +5494,17 @@
       "str_label": null,
       "m2": 60.0,
       "sprat": "14",
-      "agencija": "EUROPOLISNEKRETNINE",
-      "naslov": "Lux namešten stan sa garažom u kuli West 65 ID#797",
+      "agencija": "EUROPOLIS NEKRETNINE ",
+      "naslov": "Lux namešten stan sa garažom u kuli West 65 ID#7972",
       "price_first": 399900.0,
       "price_current": 399900.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 6665,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "nadjidom": "2026-10-07",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "162af985d78c9485",
@@ -5461,7 +5544,7 @@
       "price_first": 525000.0,
       "price_current": 525000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4102,
       "last_seen_src": {
         "halo": "2026-10-06",
@@ -5476,8 +5559,8 @@
       "uid": "5eb0738d360bdb75",
       "first_seen": "2026-06-30",
       "last_seen": "2026-10-04",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "d2079561a44fd378",
       "fp_strict_all": [
         "c3349a2ffe5dc722",
@@ -5516,7 +5599,7 @@
           "to": 380000.0
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 6230,
       "last_seen_src": {
         "halo": "2026-10-04",
@@ -5658,7 +5741,7 @@
     "e5a6de99a051a0a8": {
       "uid": "e5a6de99a051a0a8",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "87b088b57f9a36c7",
@@ -5687,11 +5770,11 @@
       "price_first": 790000.0,
       "price_current": 790000.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4788,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "c53a2b7aa6144d6a"
@@ -5733,21 +5816,25 @@
     "6b3efd7cf244530d": {
       "uid": "6b3efd7cf244530d",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-06-30",
-      "is_active": false,
-      "deactivated_at": "2026-07-02",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "4bc9a963c8569b1c",
       "fp_strict_all": [
-        "c9f6a0a870dce318"
+        "c9f6a0a870dce318",
+        "2b385ff899d80769"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "123c2548ebd3"
+        "halo": "123c2548ebd3",
+        "4zida": "4zida:69a92f2a471ef680ee0af345"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/fantastican-penthouse-u-kennedy-residences/5425646879473?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/fantastican-penthouse-u-kennedy-residences/5425646879473?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/blok-9a-novi-beograd-beograd/cetvorosoban-stan/69a92f2a471ef680ee0af345"
       ],
       "zgrada": "Kennedy Residence",
       "struktura": "4.0",
@@ -5755,11 +5842,26 @@
       "m2": 167.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Fantastičan penthouse u Kennedy Residences",
+      "naslov": "Četvorosoban stan na prodaju, Džona Kenedija, 956.880€, 167m²",
       "price_first": 954000.0,
-      "price_current": 954000.0,
-      "price_changes": [],
-      "days_listed": 2
+      "price_current": 956880,
+      "price_changes": [
+        {
+          "date": "2026-10-07",
+          "from": 954000.0,
+          "to": 956880
+        }
+      ],
+      "days_listed": 99,
+      "last_seen_src": {
+        "halo": "2026-10-07",
+        "4zida": "2026-10-07"
+      },
+      "fp_nosprat_all": [
+        "c5de1e116462c498"
+      ],
+      "fp_nosprat": "c5de1e116462c498",
+      "cena_m2": 5730
     },
     "214e3ecde1d83957": {
       "uid": "214e3ecde1d83957",
@@ -5866,7 +5968,7 @@
           "to": 259800.0
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4330,
       "deactivation_uncertain": true,
       "last_seen_src": {
@@ -5945,7 +6047,7 @@
     "a70b284c84c778f6": {
       "uid": "a70b284c84c778f6",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "ac0905529d7fc01a",
@@ -5954,13 +6056,16 @@
         "9a9501287ebf3b7f"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "4f81efca18ad"
+        "halo": "4f81efca18ad",
+        "4zida": "4zida:68c28a22cee6a1ae560fc4d6"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/jedinstev-i-luksuzan-stan-u-kuli-west-65/5425646031260?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/jedinstev-i-luksuzan-stan-u-kuli-west-65/5425646031260?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/68c28a22cee6a1ae560fc4d6"
       ],
       "zgrada": "West 65",
       "struktura": "3.0",
@@ -5968,7 +6073,7 @@
       "m2": 123.0,
       "sprat": null,
       "agencija": "agencija-gradac",
-      "naslov": "Jedinstev i Luksuzan Stan u Kuli West 65 ",
+      "naslov": "Trosoban stan na prodaju, Omladinskih Brigada, 750.000€, 123m²",
       "price_first": 880000.0,
       "price_current": 750000.0,
       "price_changes": [
@@ -5978,10 +6083,11 @@
           "to": 750000.0
         }
       ],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 6098,
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "79f1f0f30603c13f"
@@ -6023,7 +6129,7 @@
     "c1c40dbff07a791b": {
       "uid": "c1c40dbff07a791b",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "4bc9a963c8569b1c",
@@ -6052,11 +6158,11 @@
       "price_first": 956880.0,
       "price_current": 956880.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 5730,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "c5de1e116462c498"
@@ -6066,21 +6172,25 @@
     "089a0fb348af6c2d": {
       "uid": "089a0fb348af6c2d",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-09-24",
-      "is_active": false,
-      "deactivated_at": "2026-09-26",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "14c4e09589810084",
       "fp_strict_all": [
-        "dad11415755c59a3"
+        "dad11415755c59a3",
+        "c02abf924239bdb3"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "456f1d7420ed"
+        "halo": "456f1d7420ed",
+        "4zida": "4zida:689d929e4411777e6306c013"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/najbolji-pent-house-lux-na-novom-bg/5425645784567?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/najbolji-pent-house-lux-na-novom-bg/5425645784567?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/689d929e4411777e6306c013"
       ],
       "zgrada": "Airport Garden",
       "struktura": "4.0",
@@ -6088,12 +6198,26 @@
       "m2": 134.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Najbolji Pent House Lux na Novom Bg!!!",
+      "naslov": "Četvorosoban stan na prodaju, Đorđa Stanojevića, 550.000€, 134m²",
       "price_first": 549990.0,
-      "price_current": 549990.0,
-      "price_changes": [],
-      "days_listed": 88,
-      "cena_m2": 4104
+      "price_current": 550000,
+      "price_changes": [
+        {
+          "date": "2026-10-07",
+          "from": 549990.0,
+          "to": 550000
+        }
+      ],
+      "days_listed": 99,
+      "cena_m2": 4104,
+      "last_seen_src": {
+        "halo": "2026-10-07",
+        "4zida": "2026-10-07"
+      },
+      "fp_nosprat_all": [
+        "5c8d7b917153cbdf"
+      ],
+      "fp_nosprat": "5c8d7b917153cbdf"
     },
     "2a6a2130fe35d6fa": {
       "uid": "2a6a2130fe35d6fa",
@@ -6163,21 +6287,24 @@
     "823bd9e187811cc5": {
       "uid": "823bd9e187811cc5",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-09-04",
-      "is_active": false,
-      "deactivated_at": "2026-09-06",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "758155bb9d440797",
       "fp_strict_all": [
         "e621ffca899d704f"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "dafdaede4e4f"
+        "halo": "dafdaede4e4f",
+        "4zida": "4zida:6a996b2951467b77f508ba21"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-id43312/5425647241412?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-id43312/5425647241412?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/blok-64-novi-beograd-beograd/dvosoban-stan/6a996b2951467b77f508ba21"
       ],
       "zgrada": "Airport Garden",
       "struktura": "2.0",
@@ -6185,12 +6312,20 @@
       "m2": 54.0,
       "sprat": null,
       "agencija": "avangardanekretnine",
-      "naslov": "Airport Garden ID#43312",
+      "naslov": "Dvosoban stan na prodaju, Đorđa Stanojevića, 248.500€, 54m²",
       "price_first": 248500.0,
       "price_current": 248500.0,
       "price_changes": [],
-      "days_listed": 68,
-      "cena_m2": 4602
+      "days_listed": 99,
+      "cena_m2": 4602,
+      "last_seen_src": {
+        "halo": "2026-10-07",
+        "4zida": "2026-10-07"
+      },
+      "fp_nosprat_all": [
+        "37a75a21d23159e8"
+      ],
+      "fp_nosprat": "37a75a21d23159e8"
     },
     "c9bfec8fb47f1c5c": {
       "uid": "c9bfec8fb47f1c5c",
@@ -6227,7 +6362,7 @@
     "a7c9181e19618999": {
       "uid": "a7c9181e19618999",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "7a7b39a508c48858",
@@ -6235,13 +6370,16 @@
         "004f426855d6aedd"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "7d3a98969ada"
+        "halo": "7d3a98969ada",
+        "4zida": "4zida:6a22af130f2bc6aae60bd93a"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novogradnja-131m2-4-0-lux-51-b-kosa/5425647241392?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novogradnja-131m2-4-0-lux-51-b-kosa/5425647241392?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/bezanijska-kosa-1-novi-beograd-beograd/cetvorosoban-stan/6a22af130f2bc6aae60bd93a"
       ],
       "zgrada": "Lux 51",
       "struktura": "4.0",
@@ -6249,14 +6387,15 @@
       "m2": 131.0,
       "sprat": null,
       "agencija": "DomInvestnekretnine",
-      "naslov": "Novogradnja, 131m2, 4.0, Lux 51, B.kosa",
+      "naslov": "Četvorosoban stan na prodaju, Smolućska, 425.458€, 131m²",
       "price_first": 425458.0,
       "price_current": 425458.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 3248,
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "ecb1b972a870dc30"
@@ -6292,7 +6431,7 @@
       "price_first": 336937.0,
       "price_current": 336937.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 4004,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -6339,8 +6478,8 @@
       "uid": "fb1b1db28e5f757c",
       "first_seen": "2026-06-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "589fd9e2f74c873d",
       "fp_strict_all": [
         "c710642e7c874822"
@@ -6367,7 +6506,7 @@
       "price_first": 335840.0,
       "price_current": 335840.0,
       "price_changes": [],
-      "days_listed": 98,
+      "days_listed": 99,
       "cena_m2": 3998,
       "last_seen_src": {
         "halo": "2026-09-30",
@@ -6376,7 +6515,9 @@
       "fp_nosprat_all": [
         "099a84d6478fb432"
       ],
-      "fp_nosprat": "099a84d6478fb432"
+      "fp_nosprat": "099a84d6478fb432",
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 6
     },
     "5f49ec24e0201184": {
       "uid": "5f49ec24e0201184",
@@ -6713,7 +6854,7 @@
     "bef959a9331be6c3": {
       "uid": "bef959a9331be6c3",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "08183aa08bc9aa87",
@@ -6739,7 +6880,7 @@
       "m2": 95.0,
       "sprat": null,
       "agencija": "city-hedonia-agencija-za-nekretnine",
-      "naslov": "West Tower, nov, luksuzan 3.0, garaža",
+      "naslov": "Trosoban stan na prodaju, Omladinskih Brigada bb, 530.000€, 95m²",
       "price_first": 550000.0,
       "price_current": 530000.0,
       "price_changes": [
@@ -6749,11 +6890,11 @@
           "to": 530000.0
         }
       ],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 5579,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "ab5c9a15d6629a94"
@@ -6796,7 +6937,7 @@
     "77e73956787f7d68": {
       "uid": "77e73956787f7d68",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "4bc9a963c8569b1c",
@@ -6825,11 +6966,11 @@
       "price_first": 949999.0,
       "price_current": 949999.0,
       "price_changes": [],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 5689,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "nadjidom": "2026-09-30"
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "c5de1e116462c498"
@@ -7115,8 +7256,8 @@
       "uid": "e365866894ac9512",
       "first_seen": "2026-07-03",
       "last_seen": "2026-10-01",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "96a7e6fadc13240b",
       "fp_strict_all": [
         "0eb37de5b8b7e554",
@@ -7150,7 +7291,7 @@
           "to": 530000.0
         }
       ],
-      "days_listed": 95,
+      "days_listed": 96,
       "cena_m2": 5579,
       "last_seen_src": {
         "halo": "2026-10-01",
@@ -7159,14 +7300,16 @@
       "fp_nosprat_all": [
         "ebf0bb16c9967d15"
       ],
-      "fp_nosprat": "ebf0bb16c9967d15"
+      "fp_nosprat": "ebf0bb16c9967d15",
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 5
     },
     "e2082e9982a128b8": {
       "uid": "e2082e9982a128b8",
       "first_seen": "2026-07-03",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "066dc4c34bf52283",
       "fp_strict_all": [
         "a4788317519a7509",
@@ -7200,7 +7343,7 @@
           "to": 390000.0
         }
       ],
-      "days_listed": 95,
+      "days_listed": 96,
       "cena_m2": 3645,
       "last_seen_src": {
         "halo": "2026-09-30",
@@ -7209,12 +7352,14 @@
       "fp_nosprat_all": [
         "ce39b88b03d91531"
       ],
-      "fp_nosprat": "ce39b88b03d91531"
+      "fp_nosprat": "ce39b88b03d91531",
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 6
     },
     "f42fc46723327469": {
       "uid": "f42fc46723327469",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "c931bf418130df6a",
@@ -7246,12 +7391,12 @@
       "price_first": 569000.0,
       "price_current": 569000.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 5419,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "nadjidom": "2026-10-07",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "8b2261878b829bf6"
@@ -7327,7 +7472,7 @@
       "price_first": 167000.0,
       "price_current": 167000.0,
       "price_changes": [],
-      "days_listed": 94,
+      "days_listed": 95,
       "cena_m2": 5475,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -7372,7 +7517,7 @@
     "ef21824b818ede64": {
       "uid": "ef21824b818ede64",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d3f16812aadb6d31",
@@ -7381,13 +7526,16 @@
         "c5c6c91ead8b5290"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "39c6bf06266d"
+        "halo": "39c6bf06266d",
+        "4zida": "4zida:6a480b20bbfd156ba20a2534"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-kompletno-namesten-neuseljavan/5425647364106?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-kompletno-namesten-neuseljavan/5425647364106?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/jednosoban-stan/6a480b20bbfd156ba20a2534"
       ],
       "zgrada": "Airport Garden",
       "struktura": "1.0",
@@ -7395,7 +7543,7 @@
       "m2": 33.0,
       "sprat": null,
       "agencija": "ARTOPOLIS369",
-      "naslov": "Airport Garden, kompletno namešten, neuseljavan ID",
+      "naslov": "Jednosoban stan na prodaju, Đorđa Stanojevića, 160.000€, 33m²",
       "price_first": 183900.0,
       "price_current": 160000.0,
       "price_changes": [
@@ -7405,10 +7553,11 @@
           "to": 160000.0
         }
       ],
-      "days_listed": 94,
+      "days_listed": 95,
       "cena_m2": 4848,
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "345d7d3761955305"
@@ -7418,22 +7567,25 @@
     "498ec4b342a5be00": {
       "uid": "498ec4b342a5be00",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-09-26",
-      "is_active": false,
-      "deactivated_at": "2026-09-28",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "43a61d4a00f75ece",
       "fp_strict_all": [
         "a454f2486446cc47",
         "f873de6071dd7d66"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "3a516fab5a3c"
+        "halo": "3a516fab5a3c",
+        "4zida": "4zida:6a20546a83f668ee5509378f"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/idealan-porodican-stan-u-wellportu/5425647235151?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/idealan-porodican-stan-u-wellportu/5425647235151?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/troiposoban-stan/6a20546a83f668ee5509378f"
       ],
       "zgrada": "Wellport",
       "struktura": "3.5",
@@ -7441,7 +7593,7 @@
       "m2": 106.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Idealan porodičan stan u Wellportu",
+      "naslov": "Troiposoban stan na prodaju, Tadije Sondermajera, 465.000€, 106m²",
       "price_first": 490000.0,
       "price_current": 465000.0,
       "price_changes": [
@@ -7451,8 +7603,16 @@
           "to": 465000.0
         }
       ],
-      "days_listed": 86,
-      "cena_m2": 4387
+      "days_listed": 95,
+      "cena_m2": 4387,
+      "last_seen_src": {
+        "halo": "2026-10-07",
+        "4zida": "2026-10-07"
+      },
+      "fp_nosprat_all": [
+        "a8145a2fee1f8b04"
+      ],
+      "fp_nosprat": "a8145a2fee1f8b04"
     },
     "9f409e541842c5f2": {
       "uid": "9f409e541842c5f2",
@@ -7761,7 +7921,7 @@
           "to": 339000.0
         }
       ],
-      "days_listed": 92,
+      "days_listed": 93,
       "cena_m2": 4985,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -7837,7 +7997,7 @@
     "eeb9540c6d8f8040": {
       "uid": "eeb9540c6d8f8040",
       "first_seen": "2026-07-06",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "971270c9a1612ddd",
@@ -7862,15 +8022,15 @@
       "m2": 78.0,
       "sprat": null,
       "agencija": "EUROPOLISNEKRETNINE",
-      "naslov": "Wellport, 78m2,3,0 ID#8968",
+      "naslov": "Trosoban stan na prodaju, Tadije Sondermajera, 425.000€, 78m²",
       "price_first": 425000.0,
       "price_current": 425000.0,
       "price_changes": [],
-      "days_listed": 92,
+      "days_listed": 93,
       "cena_m2": 5449,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "5d294f637852b660"
@@ -7944,21 +8104,25 @@
     "0d148180c15b091f": {
       "uid": "0d148180c15b091f",
       "first_seen": "2026-07-06",
-      "last_seen": "2026-07-07",
-      "is_active": false,
-      "deactivated_at": "2026-07-09",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "08183aa08bc9aa87",
       "fp_strict_all": [
-        "19b4ede0b1680f13"
+        "19b4ede0b1680f13",
+        "37c4c68a5ce6050e"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "068a46bc8973"
+        "halo": "068a46bc8973",
+        "4zida": "4zida:69fb348e5791d740ce0fc661"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-tower-blok-65-lux-stan/5425647051438?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-tower-blok-65-lux-stan/5425647051438?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/69fb348e5791d740ce0fc661"
       ],
       "zgrada": "West 65 Kula",
       "struktura": "3.0",
@@ -7966,12 +8130,26 @@
       "m2": 95.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "West Tower Blok 65, lux stan",
+      "naslov": "Trosoban stan na prodaju, Omladinskih brigada, 530.000€, 95m²",
       "price_first": 550000.0,
-      "price_current": 550000.0,
-      "price_changes": [],
-      "days_listed": 3,
-      "cena_m2": 5789
+      "price_current": 530000,
+      "price_changes": [
+        {
+          "date": "2026-10-07",
+          "from": 550000.0,
+          "to": 530000
+        }
+      ],
+      "days_listed": 93,
+      "cena_m2": 5579,
+      "last_seen_src": {
+        "halo": "2026-10-07",
+        "4zida": "2026-10-07"
+      },
+      "fp_nosprat_all": [
+        "ab5c9a15d6629a94"
+      ],
+      "fp_nosprat": "ab5c9a15d6629a94"
     },
     "b632279c24b37637": {
       "uid": "b632279c24b37637",
@@ -8010,7 +8188,7 @@
           "to": 530000.0
         }
       ],
-      "days_listed": 91,
+      "days_listed": 92,
       "cena_m2": 5579,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -8131,7 +8309,7 @@
     "b248560a3fe6ca9a": {
       "uid": "b248560a3fe6ca9a",
       "first_seen": "2026-07-07",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "fabae5839962c83b",
@@ -8170,13 +8348,13 @@
           "to": 305000.0
         }
       ],
-      "days_listed": 91,
+      "days_listed": 92,
       "cena_m2": 3631,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "nadjidom": "2026-10-07",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "bec4d07be4e89939"
@@ -8285,7 +8463,7 @@
     "07090e386f030f9a": {
       "uid": "07090e386f030f9a",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "cfb417341d0338b5",
@@ -8314,10 +8492,10 @@
       "price_first": 275000.0,
       "price_current": 275000.0,
       "price_changes": [],
-      "days_listed": 90,
+      "days_listed": 91,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "13b33425338db41b"
@@ -8328,7 +8506,7 @@
     "96f41675749cdac2": {
       "uid": "96f41675749cdac2",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "971270c9a1612ddd",
@@ -8352,12 +8530,12 @@
       "zgrada": "Wellport",
       "struktura": "3.0",
       "str_label": null,
-      "m2": 77.55,
+      "m2": 78.0,
       "sprat": null,
       "agencija": "lusonekretnine",
-      "naslov": "West 65 zona /Wellport / Panoramski pogled luksuza",
+      "naslov": "Trosoban stan na prodaju, Tadije Sondermajera, 425.000€, 78m²",
       "price_first": 425000.0,
-      "price_current": 440000.0,
+      "price_current": 425000,
       "price_changes": [
         {
           "date": "2026-07-29",
@@ -8373,13 +8551,18 @@
           "date": "2026-10-01",
           "from": 425000,
           "to": 440000.0
+        },
+        {
+          "date": "2026-10-07",
+          "from": 440000.0,
+          "to": 425000
         }
       ],
-      "days_listed": 90,
-      "cena_m2": 5674,
+      "days_listed": 91,
+      "cena_m2": 5449,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "5d294f637852b660"
@@ -8422,7 +8605,7 @@
           "to": 259800.0
         }
       ],
-      "days_listed": 90,
+      "days_listed": 91,
       "cena_m2": 4330,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -8501,21 +8684,25 @@
     "8e154d83778da640": {
       "uid": "8e154d83778da640",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "14c4e09589810084",
       "fp_strict_all": [
-        "dad11415755c59a3"
+        "dad11415755c59a3",
+        "c02abf924239bdb3"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "ff842e54ede8"
+        "halo": "ff842e54ede8",
+        "4zida": "4zida:68a6d8856a061ecf020cb8c3"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/najbolji-pent-house-lux-na-novom-bg/5425645784567?kid=4"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/najbolji-pent-house-lux-na-novom-bg/5425645784567?kid=4",
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/68a6d8856a061ecf020cb8c3"
       ],
       "zgrada": "Airport Garden",
       "struktura": "4.0",
@@ -8523,14 +8710,21 @@
       "m2": 134.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Najbolji Pent House Lux na Novom Bg!!!",
+      "naslov": "Četvorosoban stan na prodaju, Đorđa Stanojevića, 550.000€, 134m²",
       "price_first": 549990.0,
-      "price_current": 549990.0,
-      "price_changes": [],
-      "days_listed": 90,
+      "price_current": 550000,
+      "price_changes": [
+        {
+          "date": "2026-10-07",
+          "from": 549990.0,
+          "to": 550000
+        }
+      ],
+      "days_listed": 91,
       "cena_m2": 4104,
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "5c8d7b917153cbdf"
@@ -8566,7 +8760,7 @@
       "price_first": 400000.0,
       "price_current": 400000.0,
       "price_changes": [],
-      "days_listed": 90,
+      "days_listed": 91,
       "cena_m2": 6452,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -8717,7 +8911,7 @@
     "3043ccfc2b302480": {
       "uid": "3043ccfc2b302480",
       "first_seen": "2026-07-09",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "c34dcdfafc45468e",
@@ -8742,15 +8936,15 @@
       "m2": 59.0,
       "sprat": null,
       "agencija": "DomInvestnekretnine",
-      "naslov": "Novogradnja, 2.0, 59m2, B.kosa",
+      "naslov": "Dvosoban stan na prodaju, Smolućska, 233.000€, 59m²",
       "price_first": 233000.0,
       "price_current": 233000.0,
       "price_changes": [],
-      "days_listed": 89,
+      "days_listed": 90,
       "cena_m2": 3949,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "a8b70a6f21f402ad"
@@ -8786,7 +8980,7 @@
       "price_first": 790000.0,
       "price_current": 790000.0,
       "price_changes": [],
-      "days_listed": 89,
+      "days_listed": 90,
       "cena_m2": 5643,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -8858,7 +9052,7 @@
       "price_first": 170000.0,
       "price_current": 170000.0,
       "price_changes": [],
-      "days_listed": 89,
+      "days_listed": 90,
       "cena_m2": 5075,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -8897,7 +9091,7 @@
       "price_first": 275000.0,
       "price_current": 275000.0,
       "price_changes": [],
-      "days_listed": 89,
+      "days_listed": 90,
       "cena_m2": 5093,
       "last_seen_src": {
         "halo": "2026-10-05"
@@ -9010,7 +9204,7 @@
           "to": 399900.0
         }
       ],
-      "days_listed": 87,
+      "days_listed": 88,
       "cena_m2": 6450,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -9089,7 +9283,7 @@
       "price_first": 371850.0,
       "price_current": 371850.0,
       "price_changes": [],
-      "days_listed": 87,
+      "days_listed": 88,
       "cena_m2": 5025,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -9236,7 +9430,7 @@
       "price_first": 166000.0,
       "price_current": 166000.0,
       "price_changes": [],
-      "days_listed": 87,
+      "days_listed": 88,
       "cena_m2": 5533,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -9275,7 +9469,7 @@
       "price_first": 280000.0,
       "price_current": 280000.0,
       "price_changes": [],
-      "days_listed": 86,
+      "days_listed": 87,
       "cena_m2": 5283,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -9288,7 +9482,7 @@
     "c5d27585852bf788": {
       "uid": "c5d27585852bf788",
       "first_seen": "2026-07-12",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "b42b1146bd6d6c66",
@@ -9317,12 +9511,12 @@
       "price_first": 380000.0,
       "price_current": 380000.0,
       "price_changes": [],
-      "days_listed": 86,
+      "days_listed": 87,
       "cena_m2": 4578,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "77e18135ebadabc7"
@@ -9572,7 +9766,7 @@
           "to": 770000.0
         }
       ],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 4375,
       "deactivation_uncertain": true,
       "last_seen_src": {
@@ -9682,7 +9876,7 @@
       "price_first": 450000.0,
       "price_current": 450000.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "deactivation_uncertain": true,
       "cena_m2": 5000,
       "last_seen_src": {
@@ -9731,8 +9925,8 @@
       "uid": "9c9bc37ed5c5984f",
       "first_seen": "2026-07-29",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "758155bb9d440797",
       "fp_strict_all": [
         "9172228cac975845"
@@ -9761,7 +9955,7 @@
       "price_first": 248400.0,
       "price_current": 248400.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 4600,
       "deactivation_uncertain": true,
       "last_seen_src": {
@@ -9771,26 +9965,30 @@
       "fp_nosprat_all": [
         "37a75a21d23159e8"
       ],
-      "fp_nosprat": "37a75a21d23159e8"
+      "fp_nosprat": "37a75a21d23159e8",
+      "deactivation_window_days": 6
     },
     "a2c61b04abb4c730": {
       "uid": "a2c61b04abb4c730",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-08-22",
-      "is_active": false,
-      "deactivated_at": "2026-08-24",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "e1edaaf5a03fe445",
       "fp_strict_all": [
         "16d856023dc14e87"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "74768786535f"
+        "halo": "74768786535f",
+        "4zida": "4zida:6a996b2751467b77f508ba0f"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/dvosoban-stan-airport-garden-novogradnja/5425647442529?kid=4"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/dvosoban-stan-airport-garden-novogradnja/5425647442529?kid=4",
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6a996b2751467b77f508ba0f"
       ],
       "zgrada": "Airport Garden",
       "struktura": "2.0",
@@ -9798,12 +9996,20 @@
       "m2": 55.0,
       "sprat": null,
       "agencija": "KADENASothebys",
-      "naslov": "Dvosoban stan | Airport Garden | Novogradnja",
+      "naslov": "Dvosoban stan na prodaju, Đorđa Stanojevića, 247.500€, 55m²",
       "price_first": 247500.0,
       "price_current": 247500.0,
       "price_changes": [],
-      "days_listed": 26,
-      "cena_m2": 4500
+      "days_listed": 70,
+      "cena_m2": 4500,
+      "last_seen_src": {
+        "halo": "2026-10-07",
+        "4zida": "2026-10-07"
+      },
+      "fp_nosprat_all": [
+        "69bc919b3bfcca7f"
+      ],
+      "fp_nosprat": "69bc919b3bfcca7f"
     },
     "0230daff3f4a37a9": {
       "uid": "0230daff3f4a37a9",
@@ -9906,7 +10112,7 @@
       "price_first": 449000.0,
       "price_current": 449000.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 4964,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -10050,7 +10256,7 @@
       "price_first": 329000.0,
       "price_current": 329000.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 4736,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -10096,7 +10302,7 @@
           "to": 338000.0
         }
       ],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 4024,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -10207,7 +10413,7 @@
       "price_first": 339900.0,
       "price_current": 339900.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 4046,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -10401,7 +10607,7 @@
     "50d4a81b4583ce6b": {
       "uid": "50d4a81b4583ce6b",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "971270c9a1612ddd",
@@ -10430,11 +10636,11 @@
       "price_first": 425000.0,
       "price_current": 425000.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "deactivation_uncertain": true,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "5d294f637852b660"
@@ -10445,23 +10651,26 @@
     "509ce2c4da97e3b8": {
       "uid": "509ce2c4da97e3b8",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-10-01",
-      "is_active": false,
-      "deactivated_at": "2026-10-03",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "d3edf6dd0eb77f06",
       "fp_strict_all": [
         "54612c3e303674a5",
         "678b4d7ed0c0855c"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "71862239a514"
+        "halo": "71862239a514",
+        "4zida": "4zida:6abe3693465a8e63590c9083"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/wellport-izuzetan-garazno-mesto-nov-useljiv/5425646936002?kid=1",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/wellport-izuzetan-garazno-mesto-nov-useljiv/5425646936002"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/wellport-izuzetan-garazno-mesto-nov-useljiv/5425646936002",
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6abe3693465a8e63590c9083"
       ],
       "zgrada": "Wellport",
       "struktura": "2.0",
@@ -10469,7 +10678,7 @@
       "m2": 59.0,
       "sprat": null,
       "agencija": "UrbanNekretnineDoo",
-      "naslov": "Wellport, izuzetan, garažno mesto, nov, useljiv",
+      "naslov": "Dvosoban stan na prodaju, Tadije Sondermajera, 279.500€, 59m²",
       "price_first": 305000.0,
       "price_current": 279500.0,
       "price_changes": [
@@ -10479,10 +10688,11 @@
           "to": 279500.0
         }
       ],
-      "days_listed": 66,
+      "days_listed": 70,
       "cena_m2": 4737,
       "last_seen_src": {
-        "halo": "2026-10-01"
+        "halo": "2026-10-01",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "1dc07a12f210417b"
@@ -10525,7 +10735,7 @@
           "to": 520000.0
         }
       ],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 4262,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -10628,7 +10838,7 @@
       "price_first": 530000.0,
       "price_current": 530000.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 4389,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -10681,8 +10891,8 @@
       "uid": "b8723e2cfdb7f470",
       "first_seen": "2026-07-29",
       "last_seen": "2026-10-04",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "d7b7d215305f7aec",
       "fp_strict_all": [
         "32f8886dc0f292bb"
@@ -10710,7 +10920,7 @@
       "price_first": 236000.0,
       "price_current": 236000.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 3933,
       "last_seen_src": {
         "halo": "2026-10-04",
@@ -10763,21 +10973,24 @@
     "0ac0910f1c158427": {
       "uid": "0ac0910f1c158427",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-09-15",
-      "is_active": false,
-      "deactivated_at": "2026-09-17",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "b42b1146bd6d6c66",
       "fp_strict_all": [
         "d62e22384fad072a"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "5b471b2aa07b"
+        "halo": "5b471b2aa07b",
+        "4zida": "4zida:69b03ba154ef83143908c506"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/nov-useljiv-luksuzan-komforan/5425647416679?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/nov-useljiv-luksuzan-komforan/5425647416679?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/blok-58-novi-beograd-beograd/cetvorosoban-stan/69b03ba154ef83143908c506"
       ],
       "zgrada": "Lastavica",
       "struktura": "4.0",
@@ -10785,12 +10998,20 @@
       "m2": 83.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Nov, useljiv, luksuzan, komforan",
+      "naslov": "Četvorosoban stan na prodaju, Jurija Gagarina, 380.000€, 83m²",
       "price_first": 380000.0,
       "price_current": 380000.0,
       "price_changes": [],
-      "days_listed": 50,
-      "cena_m2": 4578
+      "days_listed": 70,
+      "cena_m2": 4578,
+      "last_seen_src": {
+        "halo": "2026-10-07",
+        "4zida": "2026-10-07"
+      },
+      "fp_nosprat_all": [
+        "77e18135ebadabc7"
+      ],
+      "fp_nosprat": "77e18135ebadabc7"
     },
     "3ffcafc69ecc042b": {
       "uid": "3ffcafc69ecc042b",
@@ -10853,7 +11074,7 @@
       "price_first": 330000.0,
       "price_current": 330000.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 5893,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -10932,7 +11153,7 @@
           "to": 478000.0
         }
       ],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 3886,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -11114,7 +11335,7 @@
           "to": 289000.0
         }
       ],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 5780,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -11159,7 +11380,7 @@
     "38ca702577143121": {
       "uid": "38ca702577143121",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-02",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "7574c24e2f38889b",
@@ -11185,7 +11406,7 @@
       "m2": 112.0,
       "sprat": null,
       "agencija": "divis-nekretnine",
-      "naslov": "Prodaje se nov četvorosoban stan, New Minel 112m2",
+      "naslov": "Četvorosoban stan na prodaju, Tošin Bunar, 429.000€, 112m²",
       "price_first": 440000.0,
       "price_current": 429000.0,
       "price_changes": [
@@ -11195,11 +11416,11 @@
           "to": 429000.0
         }
       ],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 3830,
       "last_seen_src": {
         "halo": "2026-10-02",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "59d998cb325825b9"
@@ -11242,7 +11463,7 @@
           "to": 305000.0
         }
       ],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 3631,
       "last_seen_src": {
         "halo": "2026-10-05"
@@ -11281,7 +11502,7 @@
       "price_first": 389250.0,
       "price_current": 389250.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 5190,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -11450,7 +11671,7 @@
       "price_first": 248400.0,
       "price_current": 248400.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 4600,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -11463,21 +11684,24 @@
     "a874dbe09176919c": {
       "uid": "a874dbe09176919c",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-08-22",
-      "is_active": false,
-      "deactivated_at": "2026-08-24",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "b42b1146bd6d6c66",
       "fp_strict_all": [
         "d62e22384fad072a"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "b1ea97e0401a"
+        "halo": "b1ea97e0401a",
+        "4zida": "4zida:69fb69f0a808c86fc60fa2ae"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/lastavice-jurija-gagarina-83-m2/5425646872862?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/lastavice-jurija-gagarina-83-m2/5425646872862?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/blok-58-novi-beograd-beograd/cetvorosoban-stan/69fb69f0a808c86fc60fa2ae"
       ],
       "zgrada": "Lastavica",
       "struktura": "4.0",
@@ -11485,12 +11709,20 @@
       "m2": 83.0,
       "sprat": null,
       "agencija": "Leverage",
-      "naslov": "Lastavice, Jurija Gagarina, 83 m2",
+      "naslov": "Četvorosoban stan na prodaju, Jurija Gagarina, 380.000€, 83m²",
       "price_first": 380000.0,
       "price_current": 380000.0,
       "price_changes": [],
-      "days_listed": 3,
-      "cena_m2": 4578
+      "days_listed": 47,
+      "cena_m2": 4578,
+      "last_seen_src": {
+        "halo": "2026-10-07",
+        "4zida": "2026-10-07"
+      },
+      "fp_nosprat_all": [
+        "77e18135ebadabc7"
+      ],
+      "fp_nosprat": "77e18135ebadabc7"
     },
     "89412db05f4f0025": {
       "uid": "89412db05f4f0025",
@@ -11528,8 +11760,8 @@
       "uid": "d9cc72fed67c4feb",
       "first_seen": "2026-08-21",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "87b088b57f9a36c7",
       "fp_strict_all": [
         "0eae2093b43c355b"
@@ -11556,7 +11788,7 @@
       "price_first": 790000.0,
       "price_current": 790000.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 4788,
       "last_seen_src": {
         "halo": "2026-09-30",
@@ -11565,7 +11797,9 @@
       "fp_nosprat_all": [
         "c53a2b7aa6144d6a"
       ],
-      "fp_nosprat": "c53a2b7aa6144d6a"
+      "fp_nosprat": "c53a2b7aa6144d6a",
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 6
     },
     "ad5f0b887f0bfc0e": {
       "uid": "ad5f0b887f0bfc0e",
@@ -11634,7 +11868,7 @@
     "55abdc09a1625af8": {
       "uid": "55abdc09a1625af8",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "971270c9a1612ddd",
@@ -11663,11 +11897,11 @@
       "price_first": 425000.0,
       "price_current": 425000.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 5449,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "5d294f637852b660"
@@ -11773,7 +12007,7 @@
     "e50bcf80d3dd08c2": {
       "uid": "e50bcf80d3dd08c2",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-04",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "7b48097b994a3db8",
@@ -11801,16 +12035,16 @@
       "m2": 118.0,
       "sprat": "8",
       "agencija": "feniks-sistem-d-o-o",
-      "naslov": "Prodaja stanova bez ag. provizije, Pupinova Palata",
+      "naslov": "Četvorosoban stan na prodaju, Tošin bunar, 435.970€, 118m²",
       "price_first": 435970.0,
       "price_current": 435970.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 3695,
       "last_seen_src": {
         "halo": "2026-10-04",
         "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "4d993a2a29b8c657"
@@ -11820,7 +12054,7 @@
     "dcda503da11d0732": {
       "uid": "dcda503da11d0732",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "cffd91004e71ec75",
@@ -11850,11 +12084,11 @@
       "price_first": 279470.0,
       "price_current": 279470.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 3677,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "60e58be5137bdab4"
@@ -11968,7 +12202,7 @@
     "5233dcc2fa550ddc": {
       "uid": "5233dcc2fa550ddc",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-01",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "4187c8fe212064c2",
@@ -11997,7 +12231,7 @@
       "m2": 119.0,
       "sprat": "9",
       "agencija": "art-nekretnine-d-o-o",
-      "naslov": "Luksuzan Penthouse 125m2 - West 65 ID#15868",
+      "naslov": "Četvorosoban stan na prodaju, Bulevar heroja sa Košara, 478.000€, 119m²",
       "price_first": 530000.0,
       "price_current": 478000.0,
       "price_changes": [
@@ -12007,12 +12241,12 @@
           "to": 478000.0
         }
       ],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 4017,
       "last_seen_src": {
         "halo": "2026-10-01",
         "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "881134f73af0f228"
@@ -12048,7 +12282,7 @@
       "price_first": 380000.0,
       "price_current": 380000.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 4578,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -12090,7 +12324,7 @@
       "price_first": 270000.0,
       "price_current": 270000.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 3913,
       "last_seen_src": {
         "halo": "2026-10-06",
@@ -12202,8 +12436,8 @@
       "uid": "2a950f27ad62b467",
       "first_seen": "2026-08-21",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "4a655d6a16aeb59b",
       "fp_strict_all": [
         "b57e452f291021d0",
@@ -12239,7 +12473,7 @@
           "to": 260000
         }
       ],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 4000,
       "last_seen_src": {
         "halo": "2026-09-30",
@@ -12248,7 +12482,9 @@
       "fp_nosprat_all": [
         "8e81b5eea828ad53"
       ],
-      "fp_nosprat": "8e81b5eea828ad53"
+      "fp_nosprat": "8e81b5eea828ad53",
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 6
     },
     "defb284dff647bef": {
       "uid": "defb284dff647bef",
@@ -12386,7 +12622,7 @@
       "price_first": 380243.0,
       "price_current": 380243.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 3820,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -12492,7 +12728,7 @@
       "price_first": 314721.0,
       "price_current": 314721.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 3740,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -12615,7 +12851,7 @@
           "to": 368000.0
         }
       ],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 4907,
       "last_seen_src": {
         "halo": "2026-10-02",
@@ -12694,7 +12930,7 @@
     "9698a544dae10127": {
       "uid": "9698a544dae10127",
       "first_seen": "2026-10-01",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "f708526fa04b3c8f",
@@ -12709,16 +12945,20 @@
         "03ee1ff7e0e07205"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "source_ids": {
-        "halo": "0df51a0c0ba9"
+        "halo": "0df51a0c0ba9",
+        "4zida": "4zida:6a8574887e8425974f0dfc82"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok-lux-izuzetan-stan/5425647546574?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok-lux-izuzetan-stan/5425647546574?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/a-blok-blok-67a-novi-beograd-beograd/dvosoban-stan/6a8574887e8425974f0dfc82"
       ],
       "zgrada": "A Blok",
       "struktura": "2.0",
@@ -12726,11 +12966,11 @@
       "m2": 53.0,
       "sprat": null,
       "agencija": "gligoricnekretnine",
-      "naslov": "A blok-Lux-izuzetan stan",
+      "naslov": "Dvosoban stan na prodaju, Uroša Martinovića, 339.000€, 53m²",
       "price_first": 339000.0,
       "price_current": 339000.0,
       "price_changes": [],
-      "days_listed": 5,
+      "days_listed": 6,
       "cena_m2": 6396
     },
     "30febe32aa0e170a": {
@@ -12833,7 +13073,7 @@
     "8376043caf55ae15": {
       "uid": "8376043caf55ae15",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "002dc3f95f725806",
@@ -12858,15 +13098,15 @@
       "m2": 123.0,
       "sprat": null,
       "agencija": "eminent-nekretnine",
-      "naslov": "West Tower, luksuzan stan, garaža, ID 25975",
+      "naslov": "Četvorosoban stan na prodaju, Omladinskih brigada, 650.000€, 123m²",
       "price_first": 650000.0,
       "price_current": 650000.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 5285,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "1ebbb3aae1315f57"
@@ -12876,21 +13116,24 @@
     "8e4c6ace0f532893": {
       "uid": "8e4c6ace0f532893",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-01",
-      "is_active": false,
-      "deactivated_at": "2026-10-03",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "9538b7796dc96579",
       "fp_strict_all": [
         "9646ee15e45282d0"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "52ae5a895879"
+        "halo": "52ae5a895879",
+        "4zida": "4zida:6a7f38f1b394d36c7806557a"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuzan-useljiv-kompletno-opremljen/5425647527706?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuzan-useljiv-kompletno-opremljen/5425647527706?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/tosin-bunar-novi-beograd-beograd/dvosoban-stan/6a7f38f1b394d36c7806557a"
       ],
       "zgrada": "New Minel",
       "struktura": "2.0",
@@ -12898,14 +13141,15 @@
       "m2": 56.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Luksuzan, useljiv, kompletno opremljen",
+      "naslov": "Dvosoban stan na prodaju, Tošin Bunar, 285.000€, 56m²",
       "price_first": 285000.0,
       "price_current": 285000.0,
       "price_changes": [],
-      "days_listed": 43,
+      "days_listed": 47,
       "cena_m2": 5089,
       "last_seen_src": {
-        "halo": "2026-10-01"
+        "halo": "2026-10-01",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "4e321b5eea04269f"
@@ -12941,7 +13185,7 @@
       "price_first": 299000.0,
       "price_current": 299000.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 5537,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -12986,7 +13230,7 @@
     "7095e9e983aadfda": {
       "uid": "7095e9e983aadfda",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "24291ab8e362c11f",
@@ -13015,11 +13259,11 @@
       "price_first": 770000.0,
       "price_current": 770000.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 4375,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "37d12945f95a84bf"
@@ -13193,7 +13437,7 @@
       "price_first": 400000.0,
       "price_current": 400000.0,
       "price_changes": [],
-      "days_listed": 45,
+      "days_listed": 46,
       "cena_m2": 6452,
       "last_seen_src": {
         "halo": "2026-10-05"
@@ -13206,7 +13450,7 @@
     "10c0a523f9985040": {
       "uid": "10c0a523f9985040",
       "first_seen": "2026-08-22",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "c931bf418130df6a",
@@ -13242,11 +13486,11 @@
           "to": 569000.0
         }
       ],
-      "days_listed": 45,
+      "days_listed": 46,
       "cena_m2": 5419,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "8b2261878b829bf6"
@@ -13256,7 +13500,7 @@
     "3765f27a22400edb": {
       "uid": "3765f27a22400edb",
       "first_seen": "2026-08-23",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e5b951f5d56aa5c2",
@@ -13288,11 +13532,11 @@
       "price_first": 280000.0,
       "price_current": 280000.0,
       "price_changes": [],
-      "days_listed": 44,
+      "days_listed": 45,
       "cena_m2": 4000,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "nadjidom": "2026-09-30",
+        "nadjidom": "2026-10-07",
         "4zida": "2026-09-30"
       },
       "fp_nosprat_all": [
@@ -13442,7 +13686,7 @@
           "to": 255000.0
         }
       ],
-      "days_listed": 42,
+      "days_listed": 43,
       "cena_m2": 3923,
       "last_seen_src": {
         "halo": "2026-10-06",
@@ -13456,7 +13700,7 @@
     "80da466c4a018826": {
       "uid": "80da466c4a018826",
       "first_seen": "2026-08-25",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a445f6cdb043d026",
@@ -13482,7 +13726,7 @@
       "m2": 88.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Lastavica, penthouse, kompletno namešten",
+      "naslov": "Dvoiposoban stan na prodaju, Jurija Gagarina, 429.000€, 88m²",
       "price_first": 449000.0,
       "price_current": 429000.0,
       "price_changes": [
@@ -13502,11 +13746,11 @@
           "to": 429000.0
         }
       ],
-      "days_listed": 42,
+      "days_listed": 43,
       "cena_m2": 4875,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "b3d83e8e7fdacea7"
@@ -13580,7 +13824,7 @@
     "2d3682a7209443ee": {
       "uid": "2d3682a7209443ee",
       "first_seen": "2026-08-26",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "fb87e1e95f78855d",
@@ -13605,15 +13849,15 @@
       "m2": 75.0,
       "sprat": null,
       "agencija": "m-real-estate",
-      "naslov": "Novi Beograd-A blok-75m2-Garaža-Uknjižen ID#3332",
+      "naslov": "Dvoiposoban stan na prodaju, Jurija Gagarina, 360.000€, 75m²",
       "price_first": 360000.0,
       "price_current": 360000.0,
       "price_changes": [],
-      "days_listed": 41,
+      "days_listed": 42,
       "cena_m2": 4800,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "63392691edf228b6"
@@ -13623,21 +13867,24 @@
     "38fb2d0dadf4af04": {
       "uid": "38fb2d0dadf4af04",
       "first_seen": "2026-08-26",
-      "last_seen": "2026-09-09",
-      "is_active": false,
-      "deactivated_at": "2026-09-11",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "4b1a2f6b7647f20d",
       "fp_strict_all": [
         "b02230a602e890ca"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "49ba18f83ab5"
+        "halo": "49ba18f83ab5",
+        "4zida": "4zida:698768e995588ab9d505b63e"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-stan-lastavice/5425647579173?kid=3"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-stan-lastavice/5425647579173?kid=3",
+        "https://www.4zida.rs/prodaja-stanova/blok-58-novi-beograd-beograd/dvosoban-stan/698768e995588ab9d505b63e"
       ],
       "zgrada": "Lastavica",
       "struktura": "2.0",
@@ -13645,12 +13892,20 @@
       "m2": 62.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Lux stan Lastavice",
+      "naslov": "Dvosoban stan na prodaju, Jurija Gagarina, 345.000€, 62m²",
       "price_first": 345000.0,
       "price_current": 345000.0,
       "price_changes": [],
-      "days_listed": 16,
-      "cena_m2": 5565
+      "days_listed": 42,
+      "cena_m2": 5565,
+      "last_seen_src": {
+        "halo": "2026-10-07",
+        "4zida": "2026-10-07"
+      },
+      "fp_nosprat_all": [
+        "5d483fc39357e850"
+      ],
+      "fp_nosprat": "5d483fc39357e850"
     },
     "00beb784f0bd7543": {
       "uid": "00beb784f0bd7543",
@@ -13701,7 +13956,7 @@
     "1c08a86bd81d214b": {
       "uid": "1c08a86bd81d214b",
       "first_seen": "2026-08-27",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "c931bf418130df6a",
@@ -13730,11 +13985,11 @@
       "price_first": 569000.0,
       "price_current": 569000.0,
       "price_changes": [],
-      "days_listed": 40,
+      "days_listed": 41,
       "cena_m2": 5419,
       "last_seen_src": {
         "halo": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "8b2261878b829bf6"
@@ -14153,7 +14408,7 @@
       "price_first": 692000.0,
       "price_current": 692000.0,
       "price_changes": [],
-      "days_listed": 35,
+      "days_listed": 36,
       "cena_m2": 3932,
       "last_seen_src": {
         "halo": "2026-10-06",
@@ -14232,7 +14487,7 @@
           "to": 273000.0
         }
       ],
-      "days_listed": 35,
+      "days_listed": 36,
       "cena_m2": 5056,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -14245,7 +14500,7 @@
     "d7a6793d3f59887f": {
       "uid": "d7a6793d3f59887f",
       "first_seen": "2026-09-01",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d6cc486c716da066",
@@ -14272,15 +14527,15 @@
       "m2": 54.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "Luksuzno opremljen stan u A bloku - Retko u ponudi",
+      "naslov": "Dvosoban stan na prodaju, A Blok - Blok 67a, 305.000€, 54m²",
       "price_first": 305000.0,
       "price_current": 305000.0,
       "price_changes": [],
-      "days_listed": 35,
+      "days_listed": 36,
       "cena_m2": 5648,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "0f3afc752ba47e43"
@@ -14290,7 +14545,7 @@
     "c7e76dc2ee199ea5": {
       "uid": "c7e76dc2ee199ea5",
       "first_seen": "2026-09-01",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e1edaaf5a03fe445",
@@ -14298,13 +14553,16 @@
         "365971f5658bde30"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "0a6de1540e7c"
+        "halo": "0a6de1540e7c",
+        "4zida": "4zida:6a955e3d1d4621268e06270b"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/moderan-funkcionalan-2-0-stan-airport-garden/5425647607196?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/moderan-funkcionalan-2-0-stan-airport-garden/5425647607196?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6a955e3d1d4621268e06270b"
       ],
       "zgrada": "Airport Garden",
       "struktura": "2.0",
@@ -14312,14 +14570,15 @@
       "m2": 55.0,
       "sprat": null,
       "agencija": "etagi3",
-      "naslov": "Moderan funkcionalan 2.0 stan Airport Garden",
+      "naslov": "Dvosoban stan na prodaju, Đorđa Stanojevića, 241.000€, 55m²",
       "price_first": 241000.0,
       "price_current": 241000.0,
       "price_changes": [],
-      "days_listed": 35,
+      "days_listed": 36,
       "cena_m2": 4382,
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "69bc919b3bfcca7f"
@@ -14388,7 +14647,7 @@
       "price_first": 478000.0,
       "price_current": 478000.0,
       "price_changes": [],
-      "days_listed": 34,
+      "days_listed": 35,
       "cena_m2": 4017,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -14685,7 +14944,7 @@
     "90effbfaedb5d3b9": {
       "uid": "90effbfaedb5d3b9",
       "first_seen": "2026-09-04",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "562294eccd422843",
@@ -14693,13 +14952,16 @@
         "b34578a5edd91ffe"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "6cfbeb19d626"
+        "halo": "6cfbeb19d626",
+        "4zida": "4zida:6a987506e61b63fc4e0fbeed"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-soul-83m2-garaza-id3340/5425647620649?kid=4"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-soul-83m2-garaza-id3340/5425647620649?kid=4",
+        "https://www.4zida.rs/prodaja-stanova/blok-64-novi-beograd-beograd/dvosoban-stan/6a987506e61b63fc4e0fbeed"
       ],
       "zgrada": "Soul 64",
       "struktura": "2.0",
@@ -14707,14 +14969,15 @@
       "m2": 83.0,
       "sprat": null,
       "agencija": "m-real-estate",
-      "naslov": "Novi Beograd-Soul-83m2-Garaža ID#3340",
+      "naslov": "Dvosoban stan na prodaju, Omladinskih Brigada, 340.000€, 83m²",
       "price_first": 340000.0,
       "price_current": 340000.0,
       "price_changes": [],
-      "days_listed": 32,
+      "days_listed": 33,
       "cena_m2": 4096,
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "9f2e2467353ff8f0"
@@ -14750,7 +15013,7 @@
       "price_first": 478000.0,
       "price_current": 478000.0,
       "price_changes": [],
-      "days_listed": 32,
+      "days_listed": 33,
       "cena_m2": 3983,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -14910,8 +15173,8 @@
       "uid": "2f178935228030ac",
       "first_seen": "2026-09-07",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "43b3b0322cf8b13b",
       "fp_strict_all": [
         "04106d6380d30fd0"
@@ -14938,7 +15201,7 @@
       "price_first": 410000.0,
       "price_current": 410000.0,
       "price_changes": [],
-      "days_listed": 29,
+      "days_listed": 30,
       "last_seen_src": {
         "halo": "2026-09-30",
         "4zida": "2026-09-30"
@@ -14947,7 +15210,9 @@
         "ca9f6a90edf8083e"
       ],
       "fp_nosprat": "ca9f6a90edf8083e",
-      "cena_m2": 4141
+      "cena_m2": 4141,
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 6
     },
     "a1daf6ecd626296f": {
       "uid": "a1daf6ecd626296f",
@@ -15013,7 +15278,7 @@
       "price_first": 569000.0,
       "price_current": 569000.0,
       "price_changes": [],
-      "days_listed": 27,
+      "days_listed": 28,
       "cena_m2": 5419,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -15026,7 +15291,7 @@
     "877dc77c97fc7852": {
       "uid": "877dc77c97fc7852",
       "first_seen": "2026-09-09",
-      "last_seen": "2026-10-02",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d3f16812aadb6d31",
@@ -15052,15 +15317,15 @@
       "m2": 33.0,
       "sprat": null,
       "agencija": "bjanca",
-      "naslov": "Novi Beograd-Airport Garden ID#1619",
+      "naslov": "Jednosoban stan na prodaju, Đorđa Stanojevića, 170.000€, 33m²",
       "price_first": 170000.0,
       "price_current": 170000.0,
       "price_changes": [],
-      "days_listed": 27,
+      "days_listed": 28,
       "cena_m2": 5152,
       "last_seen_src": {
         "halo": "2026-10-02",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "345d7d3761955305"
@@ -15131,7 +15396,7 @@
       "price_first": 380000.0,
       "price_current": 380000.0,
       "price_changes": [],
-      "days_listed": 27,
+      "days_listed": 28,
       "cena_m2": 3585,
       "last_seen_src": {
         "halo": "2026-10-02",
@@ -15171,7 +15436,7 @@
       "price_first": 425000.0,
       "price_current": 425000.0,
       "price_changes": [],
-      "days_listed": 27,
+      "days_listed": 28,
       "cena_m2": 5790,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -15289,7 +15554,7 @@
           "to": 505000.0
         }
       ],
-      "days_listed": 26,
+      "days_listed": 27,
       "cena_m2": 3826,
       "last_seen_src": {
         "halo": "2026-10-06",
@@ -15402,7 +15667,7 @@
       "price_first": 874500.0,
       "price_current": 874500.0,
       "price_changes": [],
-      "days_listed": 25,
+      "days_listed": 26,
       "cena_m2": 5300,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -15610,7 +15875,7 @@
       "price_first": 299000.0,
       "price_current": 299000.0,
       "price_changes": [],
-      "days_listed": 21,
+      "days_listed": 22,
       "cena_m2": 5537,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -15767,8 +16032,8 @@
       "uid": "df2a8b46cc596b7a",
       "first_seen": "2026-09-15",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "0318d92382d932ee",
       "fp_strict_all": [
         "05c177933802c5ff"
@@ -15795,17 +16060,19 @@
       "price_first": 290000.0,
       "price_current": 290000.0,
       "price_changes": [],
-      "days_listed": 21,
+      "days_listed": 22,
       "cena_m2": 5179,
       "last_seen_src": {
         "halo": "2026-09-30",
         "4zida": "2026-09-30"
-      }
+      },
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 6
     },
     "c02da1e1543da87b": {
       "uid": "c02da1e1543da87b",
       "first_seen": "2026-09-15",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "5809605ad21ce9b0",
@@ -15830,15 +16097,15 @@
       "m2": 80.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Soul 64,Lux,80m2, Nov, 3.0, Bez buke,Bazen,Terasa",
+      "naslov": "Trosoban stan na prodaju, Omladinskih Brigada Soul 64, 399.000€, 80m²",
       "price_first": 399000.0,
       "price_current": 399000.0,
       "price_changes": [],
-      "days_listed": 21,
+      "days_listed": 22,
       "cena_m2": 4988,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "f198f1058dfa4202"
@@ -15906,7 +16173,7 @@
       "price_first": 380000.0,
       "price_current": 380000.0,
       "price_changes": [],
-      "days_listed": 20,
+      "days_listed": 21,
       "cena_m2": 4578,
       "last_seen_src": {
         "halo": "2026-10-05"
@@ -15945,7 +16212,7 @@
       "price_first": 255200.0,
       "price_current": 255200.0,
       "price_changes": [],
-      "days_listed": 20,
+      "days_listed": 21,
       "cena_m2": 4400,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -15984,7 +16251,7 @@
       "price_first": 170000.0,
       "price_current": 170000.0,
       "price_changes": [],
-      "days_listed": 20,
+      "days_listed": 21,
       "cena_m2": 5152,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -16023,7 +16290,7 @@
       "price_first": 265000.0,
       "price_current": 265000.0,
       "price_changes": [],
-      "days_listed": 20,
+      "days_listed": 21,
       "cena_m2": 4077,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -16198,7 +16465,7 @@
       "price_first": 630000.0,
       "price_current": 630000.0,
       "price_changes": [],
-      "days_listed": 18,
+      "days_listed": 19,
       "cena_m2": 5000,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -16276,7 +16543,7 @@
       "price_first": 175000.0,
       "price_current": 175000.0,
       "price_changes": [],
-      "days_listed": 18,
+      "days_listed": 19,
       "cena_m2": 5645,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -16457,7 +16724,7 @@
       "price_first": 550000.0,
       "price_current": 550000.0,
       "price_changes": [],
-      "days_listed": 17,
+      "days_listed": 18,
       "cena_m2": 5046,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -16470,7 +16737,7 @@
     "ce414a6ffcbac40d": {
       "uid": "ce414a6ffcbac40d",
       "first_seen": "2026-09-19",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "80ccf3a5b8b067a7",
@@ -16497,9 +16764,9 @@
       "m2": 60.0,
       "sprat": null,
       "agencija": "divis-nekretnine",
-      "naslov": "Dvosoban stan od 60 m² u Belvilu",
+      "naslov": "Dvosoban stan na prodaju, Bulevar Crvene armije, 315.000€, 60m²",
       "price_first": 325000.0,
-      "price_current": 325000.0,
+      "price_current": 315000,
       "price_changes": [
         {
           "date": "2026-09-30",
@@ -16510,13 +16777,18 @@
           "date": "2026-10-01",
           "from": 315000,
           "to": 325000.0
+        },
+        {
+          "date": "2026-10-07",
+          "from": 325000.0,
+          "to": 315000
         }
       ],
-      "days_listed": 17,
-      "cena_m2": 5417,
+      "days_listed": 18,
+      "cena_m2": 5250,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "5427f87dbdabb403"
@@ -16552,7 +16824,7 @@
       "price_first": 185000.0,
       "price_current": 185000.0,
       "price_changes": [],
-      "days_listed": 15,
+      "days_listed": 16,
       "cena_m2": 5968,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -16600,7 +16872,7 @@
     "b8a96ae10fd08f72": {
       "uid": "b8a96ae10fd08f72",
       "first_seen": "2026-09-21",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "66fdc00920d07ae1",
@@ -16628,16 +16900,16 @@
       "m2": 55.0,
       "sprat": "8",
       "agencija": "preduzece-menadzer-nekretnine-bgd-d-o-o",
-      "naslov": "West 65, novogradnja, odmah useljiv 2.0 CG 55m2, 8",
+      "naslov": "Dvosoban stan na prodaju, Đorđa Stanojevića, 227.000€, 55m²",
       "price_first": 227000.0,
       "price_current": 227000.0,
       "price_changes": [],
-      "days_listed": 15,
+      "days_listed": 16,
       "cena_m2": 4127,
       "last_seen_src": {
         "halo": "2026-10-06",
         "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "f06e3aea0a4cc050"
@@ -16673,7 +16945,7 @@
       "price_first": 368000.0,
       "price_current": 368000.0,
       "price_changes": [],
-      "days_listed": 14,
+      "days_listed": 15,
       "cena_m2": 4907,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -16687,8 +16959,8 @@
       "uid": "0f92f936aa0698e9",
       "first_seen": "2026-09-22",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "5ceec47a8e2f94fa",
       "fp_strict_all": [
         "82e7aee5e5a93cd2"
@@ -16715,7 +16987,7 @@
       "price_first": 391000.0,
       "price_current": 391000.0,
       "price_changes": [],
-      "days_listed": 14,
+      "days_listed": 15,
       "cena_m2": 4160,
       "last_seen_src": {
         "halo": "2026-09-30",
@@ -16724,7 +16996,9 @@
       "fp_nosprat_all": [
         "0ec7f9a5083e3ba9"
       ],
-      "fp_nosprat": "0ec7f9a5083e3ba9"
+      "fp_nosprat": "0ec7f9a5083e3ba9",
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 6
     },
     "bbfe1538c46e8866": {
       "uid": "bbfe1538c46e8866",
@@ -16755,7 +17029,7 @@
       "price_first": 247500.0,
       "price_current": 247500.0,
       "price_changes": [],
-      "days_listed": 14,
+      "days_listed": 15,
       "cena_m2": 4500,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -16794,7 +17068,7 @@
       "price_first": 419000.0,
       "price_current": 419000.0,
       "price_changes": [],
-      "days_listed": 14,
+      "days_listed": 15,
       "cena_m2": 4457,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -16807,7 +17081,7 @@
     "2cc59d8f0dbf7680": {
       "uid": "2cc59d8f0dbf7680",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "3f7154c8daea2ccb",
@@ -16832,15 +17106,15 @@
       "m2": 48.0,
       "sprat": null,
       "agencija": "eminent-nekretnine",
-      "naslov": "A blok, lux, funkcionalan stan, ID 26072",
+      "naslov": "Dvosoban stan na prodaju, Uroša Martinovića, 242.000€, 48m²",
       "price_first": 242000.0,
       "price_current": 242000.0,
       "price_changes": [],
-      "days_listed": 13,
+      "days_listed": 14,
       "cena_m2": 5042,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "24a30e5c1860137b"
@@ -16850,7 +17124,7 @@
     "177bdc57a0c92cd1": {
       "uid": "177bdc57a0c92cd1",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "08ab58384c624fc7",
@@ -16878,16 +17152,16 @@
       "m2": 32.0,
       "sprat": "2",
       "agencija": "EUROPOLISNEKRETNINE",
-      "naslov": "Airport Garden, lux kompletno namešten ID#10341",
+      "naslov": "Jednosoban stan na prodaju, Đorđa Stanojevića, 160.000€, 32m²",
       "price_first": 160000.0,
       "price_current": 160000.0,
       "price_changes": [],
-      "days_listed": 13,
+      "days_listed": 14,
       "cena_m2": 5000,
       "last_seen_src": {
         "halo": "2026-10-06",
         "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "6c6476de69a54fde"
@@ -16897,7 +17171,7 @@
     "40087c27ede91914": {
       "uid": "40087c27ede91914",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-10-01",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "96a98bbc83bde424",
@@ -16922,15 +17196,15 @@
       "m2": 112.0,
       "sprat": null,
       "agencija": "Kredium",
-      "naslov": "ZepTerra 05 | West 65 | Terasa | Garaža",
+      "naslov": "Trosoban stan na prodaju, Bulevar heroja sa Košara, 470.400€, 112m²",
       "price_first": 470400.0,
       "price_current": 470400.0,
       "price_changes": [],
-      "days_listed": 13,
+      "days_listed": 14,
       "cena_m2": 4200,
       "last_seen_src": {
         "halo": "2026-10-01",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "76c20136eeb20785"
@@ -16966,7 +17240,7 @@
       "price_first": 176500.0,
       "price_current": 176500.0,
       "price_changes": [],
-      "days_listed": 13,
+      "days_listed": 14,
       "cena_m2": 5516,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -16979,7 +17253,7 @@
     "107f642e28cbc395": {
       "uid": "107f642e28cbc395",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "f17458448bdc7009",
@@ -17005,15 +17279,15 @@
       "m2": 73.0,
       "sprat": null,
       "agencija": "beoagent-doo",
-      "naslov": "West 65-Elixir Garden, stan, 73m2 ",
+      "naslov": "Dvoiposoban stan na prodaju, TADIJE SONDERMAJERA, 335.000€, 73m²",
       "price_first": 335000.0,
       "price_current": 335000.0,
       "price_changes": [],
-      "days_listed": 13,
+      "days_listed": 14,
       "cena_m2": 4589,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "b151eea3e1dbab42"
@@ -17058,7 +17332,7 @@
     "fe1c60d85e8b2464": {
       "uid": "fe1c60d85e8b2464",
       "first_seen": "2026-09-24",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a9da63d2c0300f77",
@@ -17083,15 +17357,15 @@
       "m2": 205.0,
       "sprat": null,
       "agencija": "BebaRealEstate",
-      "naslov": "Penthouse. Terasa 70m². Pogled koji guta nebo.",
+      "naslov": "Četvorosoban stan na prodaju, Omladinskih Brigada, 807.000€, 205m²",
       "price_first": 807000.0,
       "price_current": 807000.0,
       "price_changes": [],
-      "days_listed": 12,
+      "days_listed": 13,
       "cena_m2": 3937,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "04e21640cdd2d0c7"
@@ -17127,7 +17401,7 @@
       "price_first": 391000.0,
       "price_current": 391000.0,
       "price_changes": [],
-      "days_listed": 12,
+      "days_listed": 13,
       "cena_m2": 4160,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -17198,7 +17472,7 @@
       "price_first": 340200.0,
       "price_current": 340200.0,
       "price_changes": [],
-      "days_listed": 12,
+      "days_listed": 13,
       "cena_m2": 4499,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -17237,7 +17511,7 @@
       "price_first": 770000.0,
       "price_current": 770000.0,
       "price_changes": [],
-      "days_listed": 12,
+      "days_listed": 13,
       "cena_m2": 4375,
       "last_seen_src": {
         "halo": "2026-10-05"
@@ -17250,21 +17524,24 @@
     "80de7c981315e335": {
       "uid": "80de7c981315e335",
       "first_seen": "2026-09-24",
-      "last_seen": "2026-10-02",
-      "is_active": false,
-      "deactivated_at": "2026-10-04",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "066dc4c34bf52283",
       "fp_strict_all": [
         "cc0a25f8949784e2"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
-        "halo": "f44e668bc0ac"
+        "halo": "f44e668bc0ac",
+        "4zida": "4zida:6a9adbb2bbba0e34b304c595"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaje-se-stan-belvil-id1758/5425647446224?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaje-se-stan-belvil-id1758/5425647446224?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/blok-67-belville-novi-beograd-beograd/trosoban-stan/6a9adbb2bbba0e34b304c595"
       ],
       "zgrada": "Belvil",
       "struktura": "3.0",
@@ -17272,14 +17549,15 @@
       "m2": 107.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Prodaje se stan,Belvil ID#1758",
+      "naslov": "Trosoban stan na prodaju, Đorđa Stanojevića, 390.000€, 107m²",
       "price_first": 390000.0,
       "price_current": 390000.0,
       "price_changes": [],
-      "days_listed": 10,
+      "days_listed": 13,
       "cena_m2": 3645,
       "last_seen_src": {
-        "halo": "2026-10-02"
+        "halo": "2026-10-02",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "ce39b88b03d91531"
@@ -17385,7 +17663,7 @@
       "price_first": 430000.0,
       "price_current": 430000.0,
       "price_changes": [],
-      "days_listed": 11,
+      "days_listed": 12,
       "cena_m2": 4019,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -17457,7 +17735,7 @@
       "price_first": 178000.0,
       "price_current": 178000.0,
       "price_changes": [],
-      "days_listed": 11,
+      "days_listed": 12,
       "cena_m2": 5742,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -17560,7 +17838,7 @@
       "price_first": 790000.0,
       "price_current": 790000.0,
       "price_changes": [],
-      "days_listed": 10,
+      "days_listed": 11,
       "cena_m2": 4647,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -17640,7 +17918,7 @@
       "price_first": 222000.0,
       "price_current": 222000.0,
       "price_changes": [],
-      "days_listed": 10,
+      "days_listed": 11,
       "cena_m2": 5550,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -17679,7 +17957,7 @@
       "price_first": 280000.0,
       "price_current": 280000.0,
       "price_changes": [],
-      "days_listed": 9,
+      "days_listed": 10,
       "cena_m2": 3364,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -17718,7 +17996,7 @@
       "price_first": 388000.0,
       "price_current": 388000.0,
       "price_changes": [],
-      "days_listed": 9,
+      "days_listed": 10,
       "cena_m2": 3424,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -17757,7 +18035,7 @@
       "price_first": 493000.0,
       "price_current": 493000.0,
       "price_changes": [],
-      "days_listed": 9,
+      "days_listed": 10,
       "cena_m2": 3531,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -17867,7 +18145,7 @@
       "price_first": 380000.0,
       "price_current": 380000.0,
       "price_changes": [],
-      "days_listed": 7,
+      "days_listed": 8,
       "last_seen_src": {
         "halo": "2026-10-06"
       },
@@ -17906,7 +18184,7 @@
       "price_first": 280000.0,
       "price_current": 280000.0,
       "price_changes": [],
-      "days_listed": 7,
+      "days_listed": 8,
       "cena_m2": 5091,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -17919,7 +18197,7 @@
     "f27508329a44ac31": {
       "uid": "f27508329a44ac31",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "80ccf3a5b8b067a7",
@@ -17947,16 +18225,16 @@
       "m2": 60.0,
       "sprat": "7",
       "agencija": "MOJ KVADRAT D.O.O. ",
-      "naslov": "Novi Beograd, Belville - Bulevar Crvene armije",
+      "naslov": "Novi Beograd, Belville - Bulevar Crvene armije, 60m2",
       "price_first": 315000.0,
       "price_current": 315000.0,
       "price_changes": [],
-      "days_listed": 7,
+      "days_listed": 8,
       "cena_m2": 5250,
       "last_seen_src": {
         "halo": "2026-10-06",
-        "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "nadjidom": "2026-10-07",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "5427f87dbdabb403"
@@ -17992,7 +18270,7 @@
       "price_first": 235000.0,
       "price_current": 235000.0,
       "price_changes": [],
-      "days_listed": 7,
+      "days_listed": 8,
       "cena_m2": 6026,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -18065,7 +18343,7 @@
       "price_first": 509310.0,
       "price_current": 509310.0,
       "price_changes": [],
-      "days_listed": 7,
+      "days_listed": 8,
       "cena_m2": 4500,
       "last_seen_src": {
         "halo": "2026-10-06"
@@ -18144,7 +18422,7 @@
       "price_first": 299000.0,
       "price_current": 299000.0,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "halo": "2026-10-06"
       },
@@ -18225,7 +18503,7 @@
     "27a7d4cd43694f82": {
       "uid": "27a7d4cd43694f82",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-01",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "9c2daebe7d444d9e",
@@ -18253,16 +18531,16 @@
       "m2": 112.0,
       "sprat": "8",
       "agencija": "STAJIĆ GRUPA ",
-      "naslov": "Trosoban stan na prodaju, Bulevar Heroja Sa Košara",
+      "naslov": "Trosoban stan na prodaju, Bulevar Heroja Sa Košara 6, 530.400€, 112m²",
       "price_first": 530400.0,
       "price_current": 530400.0,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "cena_m2": 4736,
       "last_seen_src": {
         "halo": "2026-10-01",
         "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "3e617f19497c65c5"
@@ -18298,7 +18576,7 @@
       "price_first": 549000.0,
       "price_current": 549000.0,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "halo": "2026-10-06"
       },
@@ -18345,7 +18623,7 @@
     "ba120d84702de0a6": {
       "uid": "ba120d84702de0a6",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "ef6e8c8cd248bca1",
@@ -18372,9 +18650,9 @@
       "price_first": 225000,
       "price_current": 225000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "5772dceb9e412863"
@@ -18385,7 +18663,7 @@
     "ba85c06f4bb38b97": {
       "uid": "ba85c06f4bb38b97",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "aaa6c976599fea6b",
@@ -18411,9 +18689,9 @@
       "price_first": 369000,
       "price_current": 369000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "c9ad7618349a1c9e"
@@ -18424,7 +18702,7 @@
     "d2f37b9ff10ef120": {
       "uid": "d2f37b9ff10ef120",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a0ae9b25f9921535",
@@ -18450,9 +18728,9 @@
       "price_first": 210000,
       "price_current": 210000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "5f2aeecb9d62f715"
@@ -18463,7 +18741,7 @@
     "fa96f89a2c145a13": {
       "uid": "fa96f89a2c145a13",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "371e44345f0fa095",
@@ -18489,9 +18767,9 @@
       "price_first": 379000,
       "price_current": 379000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "c7cfe295d40bb1cf"
@@ -18502,7 +18780,7 @@
     "2fb1c566257a83f5": {
       "uid": "2fb1c566257a83f5",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0751436d8c5bc0bd",
@@ -18529,9 +18807,9 @@
       "price_first": 360000,
       "price_current": 360000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "4876db1e108e1b6a"
@@ -18542,7 +18820,7 @@
     "30ee83230b030262": {
       "uid": "30ee83230b030262",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "c246a9b4d5682c4a",
@@ -18569,9 +18847,9 @@
       "price_first": 380000,
       "price_current": 380000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "057b6d89b48f6865"
@@ -18583,8 +18861,8 @@
       "uid": "499eb4aec7edd4d7",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "0751436d8c5bc0bd",
       "fp_strict_all": [
         "ed914f93894c9c58"
@@ -18608,15 +18886,17 @@
       "price_first": 360000,
       "price_current": 360000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "4zida": "2026-09-30"
-      }
+      },
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "7faba6a2dfe1cbcd": {
       "uid": "7faba6a2dfe1cbcd",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "371e44345f0fa095",
@@ -18643,9 +18923,9 @@
       "price_first": 379000,
       "price_current": 379000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "9000093f2405156f"
@@ -18657,8 +18937,8 @@
       "uid": "1958ac5896c8e3dc",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "33e37165126116d3",
       "fp_strict_all": [
         "0ef98515c8b2d2c5"
@@ -18682,15 +18962,17 @@
       "price_first": 410000,
       "price_current": 410000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "4zida": "2026-09-30"
-      }
+      },
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "309cd651109015f7": {
       "uid": "309cd651109015f7",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "fb87e1e95f78855d",
@@ -18716,9 +18998,9 @@
       "price_first": 340000,
       "price_current": 340000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "63392691edf228b6"
@@ -18729,7 +19011,7 @@
     "645fbe5f14b4d691": {
       "uid": "645fbe5f14b4d691",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a0ae9b25f9921535",
@@ -18756,9 +19038,9 @@
       "price_first": 222000,
       "price_current": 222000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "7e159ae80df680fc"
@@ -18770,8 +19052,8 @@
       "uid": "e216f108d2a94047",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "b5f8e987b989eca9",
       "fp_strict_all": [
         "8afa02528c506119"
@@ -18795,17 +19077,19 @@
       "price_first": 259800,
       "price_current": 259800,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "4zida": "2026-09-30"
-      }
+      },
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "54b4028181d1d711": {
       "uid": "54b4028181d1d711",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "371e44345f0fa095",
       "fp_strict_all": [
         "de63794e58fdd7e0",
@@ -18830,7 +19114,7 @@
       "price_first": 379000,
       "price_current": 379000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "4zida": "2026-09-30"
       },
@@ -18838,7 +19122,9 @@
         "9000093f2405156f"
       ],
       "fp_nosprat": "9000093f2405156f",
-      "cena_m2": 4622
+      "cena_m2": 4622,
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "57cc5ddba65f5628": {
       "uid": "57cc5ddba65f5628",
@@ -18872,7 +19158,7 @@
       "price_first": 377999,
       "price_current": 377999,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "cena_m2": 3937,
       "last_seen_src": {
         "4zida": "2026-09-30",
@@ -18887,8 +19173,8 @@
       "uid": "533163d18d28ceff",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "3d7914bb458c8a34",
       "fp_strict_all": [
         "4d0eba70a4255c0a"
@@ -18912,7 +19198,7 @@
       "price_first": 255200,
       "price_current": 255200,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "4zida": "2026-09-30"
       },
@@ -18920,7 +19206,9 @@
         "70798649e858e049"
       ],
       "fp_nosprat": "70798649e858e049",
-      "cena_m2": 4400
+      "cena_m2": 4400,
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "067ca0789c5c70a5": {
       "uid": "067ca0789c5c70a5",
@@ -18951,7 +19239,7 @@
       "price_first": 493000,
       "price_current": 493000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30"
       },
@@ -18964,7 +19252,7 @@
     "36dc48da25070697": {
       "uid": "36dc48da25070697",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "b14cc2a3eb3ad879",
@@ -18989,14 +19277,14 @@
       "m2": 113.0,
       "sprat": "8",
       "agencija": "Benefit nekretnine ",
-      "naslov": "NEW MINEL- novogradnja, bez provizije",
+      "naslov": "Petosoban stan na prodaju, Tošin Bunar, 388.000€, 113m²",
       "price_first": 388000,
       "price_current": 388000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "08d5aa98eb616c8a"
@@ -19007,7 +19295,7 @@
     "be0cfd04d8a02119": {
       "uid": "be0cfd04d8a02119",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "12e166e985ca9aa7",
@@ -19032,14 +19320,14 @@
       "m2": 83.0,
       "sprat": "8",
       "agencija": "Benefit nekretnine ",
-      "naslov": "NEW MINEL- novogradnja, bez provizije",
+      "naslov": "Trosoban stan na prodaju, Tošin Bunar, 280.000€, 83m²",
       "price_first": 280000,
       "price_current": 280000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "a049962fea151755"
@@ -19076,7 +19364,7 @@
       "price_first": 480000,
       "price_current": 480000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30"
       }
@@ -19110,7 +19398,7 @@
       "price_first": 170000,
       "price_current": 170000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30"
       },
@@ -19123,7 +19411,7 @@
     "cc398521187e1edc": {
       "uid": "cc398521187e1edc",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a335f84e25badcba",
@@ -19133,15 +19421,18 @@
       ],
       "sources": [
         "nadjidom",
-        "halo"
+        "halo",
+        "4zida"
       ],
       "source_ids": {
         "nadjidom": "nadjidom:2234605",
-        "halo": "a10d9a362f77"
+        "halo": "a10d9a362f77",
+        "4zida": "4zida:6abe44d75eb693ebe7053da5"
       },
       "source_urls": [
         "https://www.nadjidom.com/sr/details/2234605/Beograd-Novi+Beograd-Blok+58-Prodaja-Stan.html",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/delta-city-na-200m-2-garazna-m-juzna-orjentac/5425647758898?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/delta-city-na-200m-2-garazna-m-juzna-orjentac/5425647758898?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/blok-58-novi-beograd-beograd/cetvorosoban-stan/6abe44d75eb693ebe7053da5"
       ],
       "zgrada": "Lastavica",
       "struktura": "4.0",
@@ -19149,7 +19440,7 @@
       "m2": 83.0,
       "sprat": "4",
       "agencija": "atase-nekretnine-d-o-o",
-      "naslov": "Delta City na 200m. 2 garažna m. Južna orjentacija",
+      "naslov": "Četvorosoban stan na prodaju, Jurija Gagarina, 379.725€, 83m²",
       "price_first": 390000,
       "price_current": 379725.0,
       "price_changes": [
@@ -19159,10 +19450,11 @@
           "to": 379725.0
         }
       ],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30",
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "77e18135ebadabc7"
@@ -19173,7 +19465,7 @@
     "d880804688fae808": {
       "uid": "d880804688fae808",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "e2dc18f973b1ebf1",
@@ -19198,14 +19490,14 @@
       "m2": 139.0,
       "sprat": "15",
       "agencija": "Feniks sistem ",
-      "naslov": "Novogradnja New Minel bez provizije za kupce",
+      "naslov": "Petosoban stan na prodaju, Tošin bunar, 530.024€, 139m²",
       "price_first": 530024,
       "price_current": 530024,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30",
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "57b0e7f29914aed3"
@@ -19216,7 +19508,7 @@
     "6bf4c29b47cc8ce1": {
       "uid": "6bf4c29b47cc8ce1",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "1f35f20a1a6f68ff",
@@ -19224,13 +19516,16 @@
         "20004df69941c4b0"
       ],
       "sources": [
-        "nadjidom"
+        "nadjidom",
+        "4zida"
       ],
       "source_ids": {
-        "nadjidom": "nadjidom:2155057"
+        "nadjidom": "nadjidom:2155057",
+        "4zida": "4zida:6896210e51718832740e3416"
       },
       "source_urls": [
-        "https://www.nadjidom.com/sr/details/2155057/Beograd-Novi+Beograd-Tosin+Bunar-Prodaja-Stan.html"
+        "https://www.nadjidom.com/sr/details/2155057/Beograd-Novi+Beograd-Tosin+Bunar-Prodaja-Stan.html",
+        "https://www.4zida.rs/prodaja-stanova/tosin-bunar-novi-beograd-beograd/cetvorosoban-stan/6896210e51718832740e3416"
       ],
       "zgrada": "New Minel",
       "struktura": "4.0",
@@ -19238,13 +19533,14 @@
       "m2": 84.0,
       "sprat": "14",
       "agencija": "ART nekretnine d.o.o. ",
-      "naslov": "New Minel, 84m2, povrat PDVa za kupce prvog stana ID#11833",
+      "naslov": "Četvorosoban stan na prodaju, Tošin bunar, 336.937€, 84m²",
       "price_first": 336937,
       "price_current": 336937,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "nadjidom": "2026-09-30"
+        "nadjidom": "2026-09-30",
+        "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
         "bf9a55f1b3cbf459"
@@ -19281,7 +19577,7 @@
       "price_first": 335000,
       "price_current": 335000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30"
       },
@@ -19294,7 +19590,7 @@
     "b8a619046a786194": {
       "uid": "b8a619046a786194",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "1f35f20a1a6f68ff",
@@ -19320,9 +19616,9 @@
       "price_first": 336937,
       "price_current": 336937,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
-        "nadjidom": "2026-09-30"
+        "nadjidom": "2026-10-07"
       },
       "fp_nosprat_all": [
         "bf9a55f1b3cbf459"
@@ -19359,7 +19655,7 @@
       "price_first": 380000,
       "price_current": 380000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30"
       },
@@ -19398,7 +19694,7 @@
       "price_first": 280000,
       "price_current": 280000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30"
       },
@@ -19437,7 +19733,7 @@
       "price_first": 425000,
       "price_current": 425000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30"
       },
@@ -19476,7 +19772,7 @@
       "price_first": 379000,
       "price_current": 379000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30"
       },
@@ -19518,7 +19814,7 @@
       "price_first": 276620,
       "price_current": 276620,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30",
         "4zida": "2026-09-30"
@@ -19561,7 +19857,7 @@
       "price_first": 376534,
       "price_current": 376534,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30",
         "4zida": "2026-09-30"
@@ -19601,7 +19897,7 @@
       "price_first": 429000,
       "price_current": 429000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30"
       },
@@ -19640,7 +19936,7 @@
       "price_first": 259800,
       "price_current": 259800,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30"
       },
@@ -19679,7 +19975,7 @@
       "price_first": 167000,
       "price_current": 167000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30"
       },
@@ -19718,7 +20014,7 @@
       "price_first": 530000,
       "price_current": 530000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30"
       }
@@ -19752,7 +20048,7 @@
       "price_first": 380000,
       "price_current": 380000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30"
       },
@@ -19791,7 +20087,7 @@
       "price_first": 329000,
       "price_current": 329000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "last_seen_src": {
         "nadjidom": "2026-09-30"
       },
@@ -19804,7 +20100,7 @@
     "9e1a1c39e7355d9b": {
       "uid": "9e1a1c39e7355d9b",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "cdaffdc62d38fb4c",
@@ -19822,7 +20118,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6aba979544948cdfe30f21e2"
@@ -19840,12 +20136,13 @@
       "price_first": 474600,
       "price_current": 474600,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 4200
     },
     "a31995cd31a3325e": {
       "uid": "a31995cd31a3325e",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "966b1b3abc970900",
@@ -19863,7 +20160,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:687b9c90ed7b101414016039"
@@ -19881,14 +20178,15 @@
       "price_first": 550000,
       "price_current": 550000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 3957
     },
     "efc82a17dbab2c58": {
       "uid": "efc82a17dbab2c58",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "2d1b711f4973964f",
       "fp_loose_all": [
         "2d1b711f4973964f"
@@ -19922,12 +20220,14 @@
       "price_first": 176000,
       "price_current": 176000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "bbae3109a63293d7": {
       "uid": "bbae3109a63293d7",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "33ddfc1053d356c0",
@@ -19945,7 +20245,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6a60df03b2f34566e007130e"
@@ -19963,12 +20263,13 @@
       "price_first": 530000,
       "price_current": 530000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 4417
     },
     "def13aeeae663068": {
       "uid": "def13aeeae663068",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "5533dff53e2509cd",
@@ -19986,7 +20287,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6a60bcae34682733db04964a"
@@ -20004,14 +20305,15 @@
       "price_first": 238000,
       "price_current": 238000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 4250
     },
     "dbab404e40b7b5c3": {
       "uid": "dbab404e40b7b5c3",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "aa01acf6bdf1d4d3",
       "fp_loose_all": [
         "aa01acf6bdf1d4d3"
@@ -20045,12 +20347,14 @@
       "price_first": 537684,
       "price_current": 537684,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "9b2be9ea621db9a7": {
       "uid": "9b2be9ea621db9a7",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "89876a25a391802f",
@@ -20068,7 +20372,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:637a75ae148c7d9db30d5e3e"
@@ -20086,14 +20390,15 @@
       "price_first": 300000,
       "price_current": 300000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 4762
     },
     "00dd5f5a728f1492": {
       "uid": "00dd5f5a728f1492",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "26e886062439b033",
       "fp_loose_all": [
         "26e886062439b033"
@@ -20127,12 +20432,14 @@
       "price_first": 329000,
       "price_current": 329000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "a483ea19c64acf43": {
       "uid": "a483ea19c64acf43",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "9c2daebe7d444d9e",
@@ -20151,7 +20458,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30",
+        "4zida": "2026-10-07",
         "halo": "2026-10-06"
       },
       "source_ids": {
@@ -20168,17 +20475,17 @@
       "m2": 112.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Zepter, West 65",
+      "naslov": "Trosoban stan na prodaju, Bulevar heroja sa Košara, 530.400€, 112m²",
       "price_first": 530400,
       "price_current": 530400,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "cena_m2": 4736
     },
     "79df90896bdb5517": {
       "uid": "79df90896bdb5517",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "9c2daebe7d444d9e",
@@ -20196,7 +20503,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6abbd6badb15288e1e06c920"
@@ -20214,12 +20521,13 @@
       "price_first": 530400,
       "price_current": 530400,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 4736
     },
     "81178af10dbacbb8": {
       "uid": "81178af10dbacbb8",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "3405bfd2c292014a",
@@ -20237,7 +20545,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:68b6fa68ddac81fa2a0f091d"
@@ -20255,12 +20563,13 @@
       "price_first": 550000,
       "price_current": 550000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 4135
     },
     "2e0a7f28035f73db": {
       "uid": "2e0a7f28035f73db",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d9bf55c041deec3b",
@@ -20278,7 +20587,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6ab7cbb7d306887b490b49c5"
@@ -20296,12 +20605,13 @@
       "price_first": 493000,
       "price_current": 493000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 3547
     },
     "c80e38e7bc08e0f7": {
       "uid": "c80e38e7bc08e0f7",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "c5a3ba57a0caea61",
@@ -20319,7 +20629,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:69f0aab93742e5e6750b8194"
@@ -20337,12 +20647,13 @@
       "price_first": 512040,
       "price_current": 512040,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 3391
     },
     "edcfd1e1add01e2a": {
       "uid": "edcfd1e1add01e2a",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "002dc3f95f725806",
@@ -20360,7 +20671,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:68da6a3fb8059a2f920f8b8c"
@@ -20378,12 +20689,13 @@
       "price_first": 713400,
       "price_current": 713400,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 5800
     },
     "3d56852c737b90ed": {
       "uid": "3d56852c737b90ed",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "ba8129b968ae3d8f",
@@ -20401,7 +20713,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-10-07"
       },
       "source_ids": {
         "4zida": "4zida:6a3e71061b91ed61cc0d7a08"
@@ -20419,14 +20731,15 @@
       "price_first": 170000,
       "price_current": 170000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "cena_m2": 5152
     },
     "07c4d27fdddeb026": {
       "uid": "07c4d27fdddeb026",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "a3863a26f340a2e2",
       "fp_loose_all": [
         "a3863a26f340a2e2"
@@ -20460,14 +20773,16 @@
       "price_first": 270000,
       "price_current": 270000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "fe3a3f355d7be730": {
       "uid": "fe3a3f355d7be730",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "4b5879084ea89023",
       "fp_loose_all": [
         "4b5879084ea89023"
@@ -20501,14 +20816,16 @@
       "price_first": 300000,
       "price_current": 300000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "74b18b6ff0d565eb": {
       "uid": "74b18b6ff0d565eb",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "d096d210fb02460d",
       "fp_loose_all": [
         "d096d210fb02460d"
@@ -20542,14 +20859,16 @@
       "price_first": 299000,
       "price_current": 299000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "8969873f09f9610f": {
       "uid": "8969873f09f9610f",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "07ecad3a7b835ec1",
       "fp_loose_all": [
         "07ecad3a7b835ec1"
@@ -20583,14 +20902,16 @@
       "price_first": 440000,
       "price_current": 440000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "07cc6cc5227b7aa9": {
       "uid": "07cc6cc5227b7aa9",
       "first_seen": "2026-09-30",
       "last_seen": "2026-09-30",
-      "is_active": true,
-      "deactivated_at": null,
+      "is_active": false,
+      "deactivated_at": "2026-10-07",
       "fp_loose": "87b088b57f9a36c7",
       "fp_loose_all": [
         "87b088b57f9a36c7"
@@ -20624,7 +20945,9 @@
       "price_first": 790000,
       "price_current": 790000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7,
+      "deactivation_uncertain": true,
+      "deactivation_window_days": 7
     },
     "fc5f710841555246": {
       "uid": "fc5f710841555246",
@@ -20669,7 +20992,7 @@
       "price_first": 430000,
       "price_current": 430000,
       "price_changes": [],
-      "days_listed": 6,
+      "days_listed": 7,
       "cena_m2": 4019
     },
     "a0861e032e6cdb9e": {
@@ -20711,7 +21034,7 @@
       "price_first": 170000,
       "price_current": 170000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7
     },
     "6c434ba68e59e74f": {
       "uid": "6c434ba68e59e74f",
@@ -20752,7 +21075,7 @@
       "price_first": 176500,
       "price_current": 176500,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7
     },
     "e1defeb531e64199": {
       "uid": "e1defeb531e64199",
@@ -20793,7 +21116,7 @@
       "price_first": 5000000,
       "price_current": 5000000,
       "price_changes": [],
-      "days_listed": 6
+      "days_listed": 7
     },
     "aa1d322206c8befb": {
       "uid": "aa1d322206c8befb",
@@ -20875,7 +21198,7 @@
       "price_first": 170000.0,
       "price_current": 170000.0,
       "price_changes": [],
-      "days_listed": 5,
+      "days_listed": 6,
       "cena_m2": 6800
     },
     "6fbd7b36549683fd": {
@@ -20917,7 +21240,7 @@
       "price_first": 325600.0,
       "price_current": 325600.0,
       "price_changes": [],
-      "days_listed": 5,
+      "days_listed": 6,
       "cena_m2": 5009
     },
     "9dea5c86646a0505": {
@@ -20959,7 +21282,7 @@
       "price_first": 170000.0,
       "price_current": 170000.0,
       "price_changes": [],
-      "days_listed": 5,
+      "days_listed": 6,
       "cena_m2": 6538
     },
     "eee52dc458906ac1": {
@@ -21002,7 +21325,7 @@
       "price_first": 470400.0,
       "price_current": 470400.0,
       "price_changes": [],
-      "days_listed": 5,
+      "days_listed": 6,
       "cena_m2": 4200
     },
     "39ca2a8e97bac9fe": {
@@ -21044,7 +21367,7 @@
       "price_first": 245000.0,
       "price_current": 245000.0,
       "price_changes": [],
-      "days_listed": 5,
+      "days_listed": 6,
       "cena_m2": 4375
     },
     "bc0c1109d2ac1d5e": {
@@ -21086,7 +21409,7 @@
       "price_first": 279500.0,
       "price_current": 279500.0,
       "price_changes": [],
-      "days_listed": 4,
+      "days_listed": 5,
       "cena_m2": 4737
     },
     "782bcf284620b178": {
@@ -21128,7 +21451,7 @@
       "price_first": 389000.0,
       "price_current": 389000.0,
       "price_changes": [],
-      "days_listed": 4,
+      "days_listed": 5,
       "cena_m2": 5221
     },
     "5f12e0b31c8822f0": {
@@ -21170,7 +21493,7 @@
       "price_first": 776000.0,
       "price_current": 776000.0,
       "price_changes": [],
-      "days_listed": 4,
+      "days_listed": 5,
       "cena_m2": 4592
     },
     "3f13703e2f53d68d": {
@@ -21217,7 +21540,7 @@
     "8422e7bc7706132b": {
       "uid": "8422e7bc7706132b",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "266853a4c91de879",
@@ -21232,28 +21555,36 @@
         "58166e87c0683033"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida",
+        "nadjidom"
       ],
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07",
+        "nadjidom": "2026-10-07"
       },
       "source_ids": {
-        "halo": "12ca658c2ecd"
+        "halo": "12ca658c2ecd",
+        "4zida": "4zida:6abe83dd8405435c6c0065aa",
+        "nadjidom": "nadjidom:2251472"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-city-belgrade---djordja-stanojevica/5425647762482?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-city-belgrade---djordja-stanojevica/5425647762482?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6abe83dd8405435c6c0065aa",
+        "https://www.nadjidom.com/sr/details/2251472/Beograd-Novi+Beograd-Airport+City+Belgrade-Prodaja-Stan.html"
       ],
       "zgrada": "Airport Garden",
       "struktura": "2.0",
       "str_label": null,
       "m2": 49.0,
-      "sprat": null,
-      "agencija": null,
-      "naslov": "Airport City Belgrade - Đorđa Stanojevića",
+      "sprat": "2",
+      "agencija": "MOJ KVADRAT D.O.O. ",
+      "naslov": "Novi Beograd, Airport City Belgrade - Đorđa Stanojevića, 49m2",
       "price_first": 225000.0,
       "price_current": 225000.0,
       "price_changes": [],
-      "days_listed": 4,
+      "days_listed": 5,
       "cena_m2": 4592
     },
     "156aad0e7e10ba87": {
@@ -21295,7 +21626,7 @@
       "price_first": 285000.0,
       "price_current": 285000.0,
       "price_changes": [],
-      "days_listed": 4,
+      "days_listed": 5,
       "cena_m2": 5089
     },
     "d1f8f32d0a08914d": {
@@ -21337,7 +21668,7 @@
       "price_first": 239000.0,
       "price_current": 239000.0,
       "price_changes": [],
-      "days_listed": 4,
+      "days_listed": 5,
       "cena_m2": 3918
     },
     "7a5ba497e2b201c6": {
@@ -21379,13 +21710,13 @@
       "price_first": 470400.0,
       "price_current": 470400.0,
       "price_changes": [],
-      "days_listed": 3,
+      "days_listed": 4,
       "cena_m2": 4200
     },
     "78ac32202ad31a49": {
       "uid": "78ac32202ad31a49",
       "first_seen": "2026-10-03",
-      "last_seen": "2026-10-05",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "7852d4d19319bbc0",
@@ -21400,16 +21731,20 @@
         "5852fb1cb021915a"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-10-05"
+        "halo": "2026-10-05",
+        "4zida": "2026-10-07"
       },
       "source_ids": {
-        "halo": "7a267742631c"
+        "halo": "7a267742631c",
+        "4zida": "4zida:6ac4b91c8879a25de5074233"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/1-5-stan-sa-dve-ostave-lux51/5425647764941?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/1-5-stan-sa-dve-ostave-lux51/5425647764941?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/bezanijska-kosa-1-novi-beograd-beograd/jednoiposoban-stan/6ac4b91c8879a25de5074233"
       ],
       "zgrada": "Lux 51",
       "struktura": "1.5",
@@ -21417,11 +21752,11 @@
       "m2": 45.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "1.5 stan sa dve ostave / Lux51",
+      "naslov": "Jednoiposoban stan na prodaju, Smolućska, 185.000€, 45m²",
       "price_first": 185000.0,
       "price_current": 185000.0,
       "price_changes": [],
-      "days_listed": 3,
+      "days_listed": 4,
       "cena_m2": 4111
     },
     "5a9b605cde80721d": {
@@ -21463,7 +21798,7 @@
       "price_first": 344608.0,
       "price_current": 344608.0,
       "price_changes": [],
-      "days_listed": 1,
+      "days_listed": 2,
       "cena_m2": 4400
     },
     "aefce1df9ba471ae": {
@@ -21505,13 +21840,13 @@
       "price_first": 531344.0,
       "price_current": 531344.0,
       "price_changes": [],
-      "days_listed": 1,
+      "days_listed": 2,
       "cena_m2": 4400
     },
     "e8949b4baac13782": {
       "uid": "e8949b4baac13782",
       "first_seen": "2026-10-05",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "fad523c809b84757",
@@ -21526,16 +21861,20 @@
         "2a719f98a1c42c1a"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "source_ids": {
-        "halo": "49300802d614"
+        "halo": "49300802d614",
+        "4zida": "4zida:6ac27adf9922c2c82d01a921"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/retko-u-ponudi-1-5-stan-na-b-kosi-i-id2340/5425647773312?kid=4"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/retko-u-ponudi-1-5-stan-na-b-kosi-i-id2340/5425647773312?kid=4",
+        "https://www.4zida.rs/prodaja-stanova/bezanijska-kosa-1-novi-beograd-beograd/dvosoban-stan/6ac27adf9922c2c82d01a921"
       ],
       "zgrada": "Lux 51",
       "struktura": "2.0",
@@ -21543,17 +21882,17 @@
       "m2": 45.0,
       "sprat": null,
       "agencija": "Milenijumnekretnine",
-      "naslov": "Retko u ponudi 1.5 stan na B.Kosi I ID#2340",
+      "naslov": "Dvosoban stan na prodaju, Smolućska, 185.000€, 45m²",
       "price_first": 185000.0,
       "price_current": 185000.0,
       "price_changes": [],
-      "days_listed": 1,
+      "days_listed": 2,
       "cena_m2": 4111
     },
     "a49733f4d0c9c7a6": {
       "uid": "a49733f4d0c9c7a6",
       "first_seen": "2026-10-06",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "20b3e452d794a8fa",
@@ -21568,16 +21907,20 @@
         "f67755443b3b8583"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07"
       },
       "source_ids": {
-        "halo": "ce89490a730c"
+        "halo": "ce89490a730c",
+        "4zida": "4zida:6ac37f3e90aa31742208122e"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuzan-trosoban-penthaus-od-107-m-u-zepterr/5425647759762?kid=4"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuzan-trosoban-penthaus-od-107-m-u-zepterr/5425647759762?kid=4",
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6ac37f3e90aa31742208122e"
       ],
       "zgrada": "Zepterra",
       "struktura": "3.0",
@@ -21585,17 +21928,17 @@
       "m2": 107.0,
       "sprat": null,
       "agencija": "divis-nekretnine",
-      "naslov": "Luksuzan trosoban penthaus od 107 m² u ZepTerri",
+      "naslov": "Trosoban stan na prodaju, Tadije Sondermajera, 430.000€, 107m²",
       "price_first": 430000.0,
       "price_current": 430000.0,
       "price_changes": [],
-      "days_listed": 0,
+      "days_listed": 1,
       "cena_m2": 4019
     },
     "a4cfe7fab8cccfc8": {
       "uid": "a4cfe7fab8cccfc8",
       "first_seen": "2026-10-06",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "4b1a2f6b7647f20d",
@@ -21610,28 +21953,36 @@
         "786ec45543b02c45"
       ],
       "sources": [
-        "halo"
+        "halo",
+        "4zida",
+        "nadjidom"
       ],
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-06",
+        "4zida": "2026-10-07",
+        "nadjidom": "2026-10-07"
       },
       "source_ids": {
-        "halo": "a3115fc04ae2"
+        "halo": "a3115fc04ae2",
+        "4zida": "4zida:6ac3d0cbc338ae0a6d0cd08d",
+        "nadjidom": "nadjidom:2247020"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/delta-city-lastavica---jurija-gagarina/5425647780096?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/delta-city-lastavica---jurija-gagarina/5425647780096?kid=1",
+        "https://www.4zida.rs/prodaja-stanova/blok-67-belville-novi-beograd-beograd/dvosoban-stan/6ac3d0cbc338ae0a6d0cd08d",
+        "https://www.nadjidom.com/sr/details/2247020/Beograd-Novi+Beograd-Delta+City-Prodaja-Stan.html"
       ],
       "zgrada": "Lastavica",
       "struktura": "2.0",
       "str_label": null,
       "m2": 62.0,
-      "sprat": null,
-      "agencija": null,
-      "naslov": "Delta city (Lastavica) - Jurija Gagarina",
+      "sprat": "2",
+      "agencija": "MOJ KVADRAT D.O.O. ",
+      "naslov": "Novi Beograd, Delta city (Lastavica) - Jurija Gagarina, 62m2",
       "price_first": 315000.0,
       "price_current": 315000.0,
       "price_changes": [],
-      "days_listed": 0,
+      "days_listed": 1,
       "cena_m2": 5081
     },
     "9be6cede513f17b6": {
@@ -21673,13 +22024,341 @@
       "price_first": 531344.0,
       "price_current": 531344.0,
       "price_changes": [],
+      "days_listed": 1
+    },
+    "8dac8a5c98c47135": {
+      "uid": "8dac8a5c98c47135",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "d5259c8c5d3f2785",
+      "fp_loose_all": [
+        "d5259c8c5d3f2785"
+      ],
+      "fp_nosprat": "51fe23174b2bc1a1",
+      "fp_nosprat_all": [
+        "51fe23174b2bc1a1"
+      ],
+      "fp_strict_all": [
+        "79a08afafe6e49c5"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-10-07"
+      },
+      "source_ids": {
+        "4zida": "4zida:6ac5483198926913df05ff38"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/prodaja-stanova/bezanijska-kosa-1-novi-beograd-beograd/trosoban-stan/6ac5483198926913df05ff38"
+      ],
+      "zgrada": "Lux 51",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 55.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Trosoban stan na prodaju, Smolućska, 212.000€, 55m²",
+      "price_first": 212000,
+      "price_current": 212000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "d1c7317661e85c39": {
+      "uid": "d1c7317661e85c39",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "99e96370e27ce478",
+      "fp_loose_all": [
+        "99e96370e27ce478"
+      ],
+      "fp_nosprat": "3c3511f4493d2345",
+      "fp_nosprat_all": [
+        "3c3511f4493d2345"
+      ],
+      "fp_strict_all": [
+        "7e53ae9074400e26"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-10-07"
+      },
+      "source_ids": {
+        "4zida": "4zida:6ac4ce0462cf7ef44a066489"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6ac4ce0462cf7ef44a066489"
+      ],
+      "zgrada": "Bel Mondo",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 88.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Trosoban stan na prodaju, Omladinskih brigada, 389.900€, 88m²",
+      "price_first": 389900,
+      "price_current": 389900,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "34c6e048d1137f16": {
+      "uid": "34c6e048d1137f16",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "b7a5998f8d86e458",
+      "fp_loose_all": [
+        "b7a5998f8d86e458"
+      ],
+      "fp_nosprat": "e0515b484868fbd3",
+      "fp_nosprat_all": [
+        "e0515b484868fbd3"
+      ],
+      "fp_strict_all": [
+        "2007f19d55d9b4d7"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-10-07"
+      },
+      "source_ids": {
+        "4zida": "4zida:6a4d2001de01a69491053498"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6a4d2001de01a69491053498"
+      ],
+      "zgrada": "West 65",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 62.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Dvosoban stan na prodaju, Omladinskih brigada, 400.000€, 62m²",
+      "price_first": 400000,
+      "price_current": 400000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "0d1687acd32ba031": {
+      "uid": "0d1687acd32ba031",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "2d609898ccd4124b",
+      "fp_loose_all": [
+        "2d609898ccd4124b"
+      ],
+      "fp_nosprat": "18862c373e3c4916",
+      "fp_nosprat_all": [
+        "18862c373e3c4916"
+      ],
+      "fp_strict_all": [
+        "185e2f294fd15c1f"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-10-07"
+      },
+      "source_ids": {
+        "4zida": "4zida:6a747ea39538a1eac30284ac"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6a747ea39538a1eac30284ac"
+      ],
+      "zgrada": "Bel Mondo",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 78.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Dvosoban stan na prodaju, Omladinskih brigada, 319.900€, 78m²",
+      "price_first": 319900,
+      "price_current": 319900,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "7aaf3ab37dd577a1": {
+      "uid": "7aaf3ab37dd577a1",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "8fad185be56cf93d",
+      "fp_loose_all": [
+        "8fad185be56cf93d"
+      ],
+      "fp_nosprat": "bcf729c7c2361559",
+      "fp_nosprat_all": [
+        "bcf729c7c2361559"
+      ],
+      "fp_strict_all": [
+        "074d5e9a81087a1b"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-10-07"
+      },
+      "source_ids": {
+        "4zida": "4zida:69fdd7987f5a5090ce096d13"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/69fdd7987f5a5090ce096d13"
+      ],
+      "zgrada": "Elixir Garden",
+      "struktura": "2.0",
+      "str_label": "Dvosoban",
+      "m2": 53.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Dvosoban stan na prodaju, Bulevar heroja sa Košara, 235.000€, 53m²",
+      "price_first": 235000,
+      "price_current": 235000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "e8df6b3d359bcb1b": {
+      "uid": "e8df6b3d359bcb1b",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "a4393944181c6b61",
+      "fp_loose_all": [
+        "a4393944181c6b61"
+      ],
+      "fp_nosprat": "fcb52befb67470d8",
+      "fp_nosprat_all": [
+        "fcb52befb67470d8"
+      ],
+      "fp_strict_all": [
+        "1c485b3f46293d4a"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-10-07"
+      },
+      "source_ids": {
+        "4zida": "4zida:69ef5eb267bf85d7f40a11c1"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/troiposoban-stan/69ef5eb267bf85d7f40a11c1"
+      ],
+      "zgrada": "West 65 Kula",
+      "struktura": "3.5",
+      "str_label": "Troiposoban",
+      "m2": 95.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Troiposoban stan na prodaju, Omladinskih Brigada, 530.000€, 95m²",
+      "price_first": 530000,
+      "price_current": 530000,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "3a41a7b8a6b1af3b": {
+      "uid": "3a41a7b8a6b1af3b",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "3405bfd2c292014a",
+      "fp_loose_all": [
+        "3405bfd2c292014a"
+      ],
+      "fp_nosprat": "871fe63bc46a1a1c",
+      "fp_nosprat_all": [
+        "871fe63bc46a1a1c"
+      ],
+      "fp_strict_all": [
+        "11d342fa1752851e"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-10-07"
+      },
+      "source_ids": {
+        "4zida": "4zida:6895d03c7ef135890d0b84f0"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/prodaja-stanova/blok-64-novi-beograd-beograd/cetvorosoban-stan/6895d03c7ef135890d0b84f0"
+      ],
+      "zgrada": "Airport Garden",
+      "struktura": "4.0",
+      "str_label": "Četvorosoban",
+      "m2": 133.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Četvorosoban stan na prodaju, Đorđa Stanojevića, 548.777€, 133m²",
+      "price_first": 548777,
+      "price_current": 548777,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "4fd5d5d69c48a647": {
+      "uid": "4fd5d5d69c48a647",
+      "first_seen": "2026-10-07",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "066dc4c34bf52283",
+      "fp_loose_all": [
+        "066dc4c34bf52283"
+      ],
+      "fp_nosprat": "ce39b88b03d91531",
+      "fp_nosprat_all": [
+        "ce39b88b03d91531"
+      ],
+      "fp_strict_all": [
+        "cc0a25f8949784e2"
+      ],
+      "sources": [
+        "4zida"
+      ],
+      "last_seen_src": {
+        "4zida": "2026-10-07"
+      },
+      "source_ids": {
+        "4zida": "4zida:6abe718699060dff1c0143e3"
+      },
+      "source_urls": [
+        "https://www.4zida.rs/prodaja-stanova/blok-67-belville-novi-beograd-beograd/trosoban-stan/6abe718699060dff1c0143e3"
+      ],
+      "zgrada": "Belvil",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 107.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Trosoban stan na prodaju, Đorđa Stanojevića, 390.000€, 107m²",
+      "price_first": 390000,
+      "price_current": 390000,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-06T10:37:47.057525+00:00",
+  "updated_at": "2026-10-07T08:05:26.264503+00:00",
   "last_run": {
-    "4zida": "2026-09-30",
-    "nadjidom": "2026-09-30",
+    "4zida": "2026-10-07",
+    "nadjidom": "2026-10-07",
     "halo": "2026-10-06"
   }
 }
