@@ -2583,7 +2583,7 @@
         "4zida"
       ],
       "source_ids": {
-        "halo": "eb1bc07e9226",
+        "halo": "8f4cc725773c",
         "nadjidom": "nadjidom:2333944",
         "4zida": "4zida:697b3b308546bffbf20fa643"
       },
@@ -6925,12 +6925,13 @@
         "4zida"
       ],
       "source_ids": {
-        "halo": "63636068a819",
+        "halo": "8371ade97cb9",
         "4zida": "4zida:69eb42acdf387951680b2d10"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-tower-nov-luksuzan-3-0-garaza/5425647113016?kid=3",
-        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/69eb42acdf387951680b2d10"
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/69eb42acdf387951680b2d10",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-tower-nov-luksuzan-3-0-garaza/5425647113016"
       ],
       "zgrada": "West 65 Kula",
       "struktura": "3.0",
@@ -7169,9 +7170,9 @@
     "f127de4d9be9930f": {
       "uid": "f127de4d9be9930f",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-04",
-      "is_active": false,
-      "deactivated_at": "2026-10-06",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "25d0a5b1561b9e80",
       "fp_strict_all": [
         "3052b9dc36792fe2",
@@ -7202,10 +7203,10 @@
           "to": 376534.0
         }
       ],
-      "days_listed": 96,
+      "days_listed": 97,
       "cena_m2": 3650,
       "last_seen_src": {
-        "halo": "2026-10-04"
+        "halo": "2026-10-07"
       },
       "fp_nosprat_all": [
         "cc06edb481c28d5e"
@@ -10456,7 +10457,7 @@
     "51ea26b862f8b5dd": {
       "uid": "51ea26b862f8b5dd",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-10-06",
+      "last_seen": "2026-10-07",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "fabae5839962c83b",
@@ -10485,7 +10486,7 @@
       "days_listed": 70,
       "cena_m2": 4046,
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-10-07"
       },
       "fp_nosprat_all": [
         "bec4d07be4e89939"
@@ -11337,9 +11338,9 @@
     "cb998124df85157d": {
       "uid": "cb998124df85157d",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-10-04",
-      "is_active": false,
-      "deactivated_at": "2026-10-06",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "16544b6a12774afb",
       "fp_strict_all": [
         "3ab0974949637755"
@@ -11363,10 +11364,10 @@
       "price_first": 276620.0,
       "price_current": 276620.0,
       "price_changes": [],
-      "days_listed": 69,
+      "days_listed": 70,
       "cena_m2": 3720,
       "last_seen_src": {
-        "halo": "2026-10-04"
+        "halo": "2026-10-07"
       },
       "fp_nosprat_all": [
         "a83e369731872677"
@@ -11492,7 +11493,8 @@
       "fp_loose": "7574c24e2f38889b",
       "fp_strict_all": [
         "6f2b0409d34827dc",
-        "30fa18cebc0f32bd"
+        "30fa18cebc0f32bd",
+        "ea85f3ae91d05881"
       ],
       "sources": [
         "halo",
@@ -11512,20 +11514,25 @@
       "m2": 112.0,
       "sprat": null,
       "agencija": "divis-nekretnine",
-      "naslov": "Četvorosoban stan na prodaju, Tošin Bunar, 429.000€, 112m²",
+      "naslov": "Prodaje se nov četvorosoban stan, New Minel 112m2",
       "price_first": 440000.0,
-      "price_current": 429000.0,
+      "price_current": 410000.0,
       "price_changes": [
         {
           "date": "2026-08-23",
           "from": 440000.0,
           "to": 429000.0
+        },
+        {
+          "date": "2026-10-07",
+          "from": 429000.0,
+          "to": 410000.0
         }
       ],
       "days_listed": 47,
-      "cena_m2": 3830,
+      "cena_m2": 3661,
       "last_seen_src": {
-        "halo": "2026-10-02",
+        "halo": "2026-10-07",
         "4zida": "2026-10-07"
       },
       "fp_nosprat_all": [
@@ -12149,14 +12156,14 @@
       "m2": 118.0,
       "sprat": "8",
       "agencija": "feniks-sistem-d-o-o",
-      "naslov": "Četvorosoban stan na prodaju, Tošin bunar, 435.970€, 118m²",
+      "naslov": "Prodaja stanova bez ag. provizije, Pupinova Palata",
       "price_first": 435970.0,
       "price_current": 435970.0,
       "price_changes": [],
       "days_listed": 47,
       "cena_m2": 3695,
       "last_seen_src": {
-        "halo": "2026-10-04",
+        "halo": "2026-10-07",
         "nadjidom": "2026-09-30",
         "4zida": "2026-10-07"
       },
@@ -12245,9 +12252,9 @@
     "56c6e59afddb747b": {
       "uid": "56c6e59afddb747b",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-04",
-      "is_active": false,
-      "deactivated_at": "2026-10-06",
+      "last_seen": "2026-10-07",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "d9bf55c041deec3b",
       "fp_strict_all": [
         "d3119d8c0f4eae97"
@@ -12271,10 +12278,10 @@
       "price_first": 530024.0,
       "price_current": 530024.0,
       "price_changes": [],
-      "days_listed": 46,
+      "days_listed": 47,
       "cena_m2": 3800,
       "last_seen_src": {
-        "halo": "2026-10-04"
+        "halo": "2026-10-07"
       },
       "fp_nosprat_all": [
         "57b0e7f29914aed3"
@@ -22615,7 +22622,8 @@
       "price_first": 549990.0,
       "price_current": 549990.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4104
     },
     "1fb00d84473c4a74": {
       "uid": "1fb00d84473c4a74",
@@ -22656,7 +22664,8 @@
       "price_first": 410000.0,
       "price_current": 410000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4141
     },
     "35e41dbbdad236e6": {
       "uid": "35e41dbbdad236e6",
@@ -22697,7 +22706,8 @@
       "price_first": 530400.0,
       "price_current": 530400.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4736
     },
     "2c871d2a13d12ad2": {
       "uid": "2c871d2a13d12ad2",
@@ -22738,7 +22748,8 @@
       "price_first": 530000.0,
       "price_current": 530000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5579
     },
     "fa305350f15bd43b": {
       "uid": "fa305350f15bd43b",
@@ -22779,10 +22790,11 @@
       "price_first": 530000.0,
       "price_current": 530000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5579
     }
   },
-  "updated_at": "2026-10-07T08:30:39.339141+00:00",
+  "updated_at": "2026-10-07T10:29:11.984719+00:00",
   "last_run": {
     "4zida": "2026-10-07",
     "nadjidom": "2026-10-07",
