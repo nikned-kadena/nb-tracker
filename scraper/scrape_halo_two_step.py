@@ -541,7 +541,15 @@ def main():
     try:
         sys.path.insert(0, str(Path(__file__).parent))
         import store, dom_stats, project
-        store.update(DATA, mode, unique, source="halo", run_date=danas)
+        # Registru idu SVI relevantni oglasi (all_raw), ne samo `unique`. compute_dedup
+        # gore sece po (zgrada, m2, cena) i zadrzava prvi — pa je isti stan koji nude
+        # dve agencije po istoj ceni gubio drugi oglas (npr. KADENA West 65 Kula 95 m2
+        # 530.000, ispao zbog Hedonia oglasa), taj se onda "gasio" posle grace perioda i
+        # agencijska statistika nije videla sve agencije. store.update sam spaja prave
+        # duple objave (ista agencija + isti otisak); razlicite agencije ostaju zasebni
+        # zapisi, a grupisu se tek pri prikazu (project.py / dashboard).
+        # latest_halo_{mode}.json gore ostaje deduplikovan, kao i do sada.
+        store.update(DATA, mode, all_raw, source="halo", run_date=danas)
         dom_stats.build(DATA, mode)
         project.build(DATA, mode)   # latest_all_*.json za dashboard
     except Exception as e:
