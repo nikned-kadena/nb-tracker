@@ -13,7 +13,20 @@ name: Novi izvori (4zida + Nadji Dom)
 # 4zida i Nadji Dom NEMAJU anti-bot zastitu (provereno 30.09.2026), pa ne
 # trose ScraperAPI kredite — idu direktnim pozivom.
 
+# AUTOMATIKA (dodato 07.10.2026): sources.yml se sam pokrece cim zavrsi Halo scrape
+# ("NB Halo Scrape"). Time se 4zida i Nadji Dom osvezavaju svaki dan, bez rucnog klika, i
+# nikad ne rade istovremeno sa Halo-m (oba pisu u data/registry_*.json — razdvojeni
+# runovi izbegavaju konflikt pri push-u). Pokrece se bez obzira na ishod Halo runa:
+# izvori su nezavisni, pa pad Halo-a ne treba da zamrzne 4zida/ND.
+# Dnevni run: oba izvora, oba rezima, 40 strana; kes (data/cache_*.json) cini da traje
+# nekoliko minuta jer se detaljne stranice povlace samo za nove oglase.
+# Rucno pokretanje (workflow_dispatch) radi kao i ranije, sa istim opcijama.
+
 on:
+  workflow_run:
+    workflows: ["NB Halo Scrape"]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
     inputs:
       source:
@@ -72,9 +85,9 @@ jobs:
       - name: Scrape
         run: |
           set -e
-          SRC="${{ inputs.source }}"
-          MOD="${{ inputs.mode }}"
-          MP="${{ inputs.max_pages }}"
+          SRC="${{ inputs.source || 'oba' }}"
+          MOD="${{ inputs.mode || 'oba' }}"
+          MP="${{ inputs.max_pages || '40' }}"
           FULL=""
           if [ "${{ inputs.full }}" = "true" ]; then FULL="--full"; fi
 
@@ -119,7 +132,7 @@ jobs:
             echo "Nema izmena."
             exit 0
           fi
-          git commit -m "data: ${{ inputs.source }} ${{ inputs.mode }} [novi izvori]"
+          git commit -m "data: ${{ inputs.source || 'oba' }} ${{ inputs.mode || 'oba' }} [novi izvori]"
           git pull --rebase --autostash origin main
           git push origin main
           echo "Pushano."
