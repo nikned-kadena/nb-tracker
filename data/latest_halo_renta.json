@@ -1,22 +1,49 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "mode": "renta",
   "source": "halo",
-  "total_raw": 107,
-  "total_unique": 85,
+  "total_raw": 109,
+  "total_unique": 86,
   "diff_new": [
-    "7c2d3ddec4ed",
-    "5e21f31f41c5",
-    "a9fa33dc40d6"
+    "584e2db9bb03",
+    "1cc6955f4aea",
+    "4f6da02c3a5b",
+    "de760450a4e0",
+    "8e4da9dca809"
   ],
   "diff_removed": [
-    "9bdfa481e379",
-    "de760450a4e0",
-    "38def40d1700",
-    "ae9e35439e50",
-    "4df82950464f"
+    "964eeba783d6",
+    "22c8c8ac93df",
+    "dd7ce147d66e",
+    "797865efe2a3"
   ],
   "listings": [
+    {
+      "id": "00dfa3f398f7",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---bel-mondo-west-65-69207/5425647756646?kid=4",
+      "naslov": "Novi Beograd - Bel Mondo West 65 #69207",
+      "opis": "50% od prve mesečne zakupnine",
+      "zgrada": "Bel Mondo",
+      "struktura": "2.0",
+      "cena": 1300.0,
+      "m2": 80.0,
+      "cena_m2": 16,
+      "agencija": "beostan",
+      "izvor": "halo"
+    },
+    {
+      "id": "de760450a4e0",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---bel-mondo-west-65-69208/5425647754239?kid=4",
+      "naslov": "Novi Beograd - Bel Mondo West 65 #69208",
+      "opis": "50% od prve mesečne zakupnine",
+      "zgrada": "Bel Mondo",
+      "struktura": "3.0",
+      "cena": 1700.0,
+      "m2": 95.0,
+      "cena_m2": 18,
+      "agencija": "beostan",
+      "izvor": "halo"
+    },
     {
       "id": "a9fa33dc40d6",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-69080/5425647773295?kid=4",
@@ -70,9 +97,9 @@
       "izvor": "halo"
     },
     {
-      "id": "22c8c8ac93df",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---belville-64688/5425647744364?kid=4",
-      "naslov": "Novi Beograd - Belville #64688",
+      "id": "1cc6955f4aea",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---belville-69265/5425647773305?kid=4",
+      "naslov": "Novi Beograd - Belville #69265",
       "opis": "50% od prve mesečne zakupnine",
       "zgrada": "Belvil",
       "struktura": "2.0",
@@ -239,32 +266,6 @@
       "izvor": "halo"
     },
     {
-      "id": "00dfa3f398f7",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---bel-mondo-west-65-69207/5425647756646?kid=4",
-      "naslov": "Novi Beograd - Bel Mondo West 65 #69207",
-      "opis": "50% od prve mesečne zakupnine",
-      "zgrada": "Bel Mondo",
-      "struktura": "2.0",
-      "cena": 1300.0,
-      "m2": 80.0,
-      "cena_m2": 16,
-      "agencija": "beostan",
-      "izvor": "halo"
-    },
-    {
-      "id": "dd7ce147d66e",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/neuseljavan-lux-1-0-wellport-west-65/5425647772678?kid=3",
-      "naslov": "Neuseljavan Lux 1.0 Wellport (West 65)",
-      "opis": "U ponudi renoviran i neuseljavan jednosoban stan u kondominijuma Wellport na Novom Beogradu. Na 50m od naselja West 65 sa supermarketom, tržnim centrom, restoranima, sportskim sadržajem. U okviru kompleksa Wellport se nalazi zajedničko dvorište sa portirom. Sav nameštaj i tehnika su potpuno novi i pod garancijom. Velika ugaona garnitura na razvlačenje, TV 55\" i klimom inverter. Potpuno opremljena kuhinja sa sudomašinom i velikim frižiderom. Kupatilo sa novom keramikom i vešmašinom zapremine 9kg. Stan je svetao, orijentisan jugo-istočno. Izlaz na prostranu terasu sa pogledom na park i West kulu.&nbsp; Odmah useljiv. Depozit u visini jedne mesečne kirije. Izdaje vlasnik direktno tako da nema agencijske provizije. Mesečni troskovi za stan: - Upravnik: 1000 RSD - Odrzavanje kompleksa: 3000 RSD - Infostan: 5000 RSD - Struja i internet: Vaš ugovor",
-      "zgrada": "Wellport",
-      "struktura": "1.0",
-      "cena": 750.0,
-      "m2": 35.0,
-      "cena_m2": 21,
-      "agencija": null,
-      "izvor": "halo"
-    },
-    {
       "id": "7f6a499f2b12",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/dvosoban-soul-64-novogradnja-garaza/5425647755221?kid=3",
       "naslov": "Dvosoban | Soul 64 | Novogradnja | Garaža",
@@ -288,6 +289,32 @@
       "m2": 48.0,
       "cena_m2": 19,
       "agencija": null,
+      "izvor": "halo"
+    },
+    {
+      "id": "4f6da02c3a5b",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/izdaje-se-veci-prazan-stan-na-novom-beogradu/5425647359617?kid=1",
+      "naslov": "Izdaje se veći prazan stan na Novom Beogradu",
+      "opis": "Izdaje se stan na Novom Beogradu u ulici Heroja sa Košara koji je je trosoban,sa mogućnošću odvajanja četvrte prostorije. Stan je prazan sa opremljenom kuhinjom, južna strana,8 sprat Sve prostorije izlaze na terasu. Idealano za poslovni prostor,kancelarije i sl. Zgrada je pod video nadzorom Zeptera. Uz stan se izdaju dva parking mesta ispod zgrade. Kvadratura stana je 112m2, novogradnja, lux, Cg, klima,video nadzor,parking,internet. Način plaćanja je mesečno, odmah useljiv. Cena stana je 2000 eura+ depozit Agencijska provizija je 50% jednokratno od prve kirije. Za dalji info pozvati 0698500703 ili 0612098881 Lav nekretnine",
+      "zgrada": "Zepterra",
+      "struktura": "3.0",
+      "cena": 2000.0,
+      "m2": 112.0,
+      "cena_m2": 18,
+      "agencija": null,
+      "izvor": "halo"
+    },
+    {
+      "id": "cbc38b73c37e",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-polunamesten-sa-garazom-ideal/5425647255106?kid=1",
+      "naslov": "Airport Garden | Polunamešten | Sa garažom | Ideal",
+      "opis": "Izdaje se moderno koncipiran stan koji je idealan za poslovni prostor u okviru kompleksa Airport Garden , ukupne površine 81 m² . Nekretnina se nalazi na prvom spratu , što je čini izuzetno praktičnom i pogodnom za kancelarijsko poslovanje, IT firme, konsultantske delatnosti, agencije i druge profesionalne namene. &nbsp; Stan je u fazi finalnog opremanja i biće predat kao polunamešten prostor , sa već postavljenom rasvetom i ugradnim plakarima koji tek treba da budu kompletirani i montirani , dok će kuhinja biti funkcionalno opremljena. Ovakav koncept omogućava budućem zakupcu da prostor prilagodi svojim poslovnim potrebama i identitetu firme. &nbsp; Raspored prostora je veoma funkcionalan i omogućava laku organizaciju radnih zona, uz dovoljno prirodnog svetla i prijatnu radnu atmosferu. Upravo zbog pozicije u zgradi i spratnosti, prostor je posebno pogodan za miran i efikasan rad bez buke i ometanja. &nbsp; Kompleks Airport Garden odlikuje se modernom gradnjom, dobrom povezanošću sa glavnim saobraćajnicama i brzim pristupom aerodromu, Novom Beogradu i centralnim gradskim zonama, što dodatno doprinosi atraktivnosti ove lokacije za poslovne korisnike. &nbsp; Kredium je prepoznat kao",
+      "zgrada": "Airport Garden",
+      "struktura": "3.0",
+      "cena": 1400.0,
+      "m2": 81.0,
+      "cena_m2": 17,
+      "agencija": "Kredium",
       "izvor": "halo"
     },
     {
@@ -418,19 +445,6 @@
       "m2": 99.0,
       "cena_m2": 18,
       "agencija": "BebaRealEstate",
-      "izvor": "halo"
-    },
-    {
-      "id": "797865efe2a3",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/zepterra-id43397/5425647773325?kid=1",
-      "naslov": "Zepterra ID#43397",
-      "opis": "Mogućnost iznajmljiva garažnog mesta uz doplatu od 100e. Useljiv od 01.11. Agencijska provizija 50%",
-      "zgrada": "Zepterra",
-      "struktura": "2.0",
-      "cena": 1000.0,
-      "m2": 55.0,
-      "cena_m2": 18,
-      "agencija": "avangardanekretnine",
       "izvor": "halo"
     },
     {
@@ -603,6 +617,19 @@
       "izvor": "halo"
     },
     {
+      "id": "7c2d3ddec4ed",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---a-blok-59203/5425647754226?kid=1",
+      "naslov": "Novi Beograd - A blok #59203",
+      "opis": "50% od prve mesečne zakupnine",
+      "zgrada": "A Blok",
+      "struktura": "4.0",
+      "cena": 2800.0,
+      "m2": 175.0,
+      "cena_m2": 16,
+      "agencija": "beostan",
+      "izvor": "halo"
+    },
+    {
       "id": "c9dbbd8ac671",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---soul-64-69071/5425647752451?kid=1",
       "naslov": "Novi Beograd - Soul 64 #69071",
@@ -743,19 +770,6 @@
       "m2": 56.0,
       "cena_m2": 15,
       "agencija": "eminent-nekretnine",
-      "izvor": "halo"
-    },
-    {
-      "id": "964eeba783d6",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-669086/5425647716061?kid=1",
-      "naslov": "Novi Beograd - Airport Garden #669086",
-      "opis": "50% od prve mesečne zakupnine",
-      "zgrada": "Airport Garden",
-      "struktura": "1.0",
-      "cena": 700.0,
-      "m2": 39.0,
-      "cena_m2": 18,
-      "agencija": "beostan",
       "izvor": "halo"
     },
     {
@@ -1097,28 +1111,28 @@
       "izvor": "halo"
     },
     {
-      "id": "cbc38b73c37e",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-polunamesten-sa-garazom-ideal/5425647255106?kid=1",
-      "naslov": "Airport Garden | Polunamešten | Sa garažom | Ideal",
-      "opis": "Izdaje se moderno koncipiran stan koji je idealan za poslovni prostor u okviru kompleksa Airport Garden , ukupne površine 81 m² . Nekretnina se nalazi na prvom spratu , što je čini izuzetno praktičnom i pogodnom za kancelarijsko poslovanje, IT firme, konsultantske delatnosti, agencije i druge profesionalne namene. &nbsp; Stan je u fazi finalnog opremanja i biće predat kao polunamešten prostor , sa već postavljenom rasvetom i ugradnim plakarima koji tek treba da budu kompletirani i montirani , dok će kuhinja biti funkcionalno opremljena. Ovakav koncept omogućava budućem zakupcu da prostor prilagodi svojim poslovnim potrebama i identitetu firme. &nbsp; Raspored prostora je veoma funkcionalan i omogućava laku organizaciju radnih zona, uz dovoljno prirodnog svetla i prijatnu radnu atmosferu. Upravo zbog pozicije u zgradi i spratnosti, prostor je posebno pogodan za miran i efikasan rad bez buke i ometanja. &nbsp; Kompleks Airport Garden odlikuje se modernom gradnjom, dobrom povezanošću sa glavnim saobraćajnicama i brzim pristupom aerodromu, Novom Beogradu i centralnim gradskim zonama, što dodatno doprinosi atraktivnosti ove lokacije za poslovne korisnike. &nbsp; Kredium je prepoznat kao",
+      "id": "584e2db9bb03",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/penthaus-4-0-od-134m2/5425647790365?kid=3",
+      "naslov": "Penthaus 4.0 od 134m2",
+      "opis": "Za izdavanje luksuzan penthouse u kompleksu Airport Garden na Novom Beogradu. Stan je pozicioniran u mirnijem i povučenom delu kompleksa, iza Soul-a i preko puta Rode, sa otvorenim panoramskim pogledom. Stan se sastoji od prostranog dnevnog boravka sa kuhinjom i trpezarijom, tri spavaće sobe, dva kupatila, gostinskog toaleta i posebne vešernice. Iz dnevnog boravka i sve tri spavaće sobe izlazi se na terasu. Master spavaća soba ima sopstveno kupatilo i garderober. Stan je opremljen kvalitetnim materijalima i opremom, uključujući italijansku keramiku i Grohe sanitarije i armaturu. Uz stan se izdaje i garažno mesto po ceni od 150 evra mesečno. Zgrada poseduje video nadzor, kontrolu pristupa i profesionalno održavanje. Grejanje i hlađenje obezbeđeni su autonomnim sistemom toplotnih pumpi koji radi 24 časa dnevno. Airport Garden je moderan stambeno-poslovni kompleks sa restoranima, kafićima, supermarketima i drugim sadržajima. MAXIS GROUP DOO BEOGRAD Broj u registru posrednika:1850 064/060-0033",
       "zgrada": "Airport Garden",
-      "struktura": "3.0",
-      "cena": 1400.0,
-      "m2": 81.0,
-      "cena_m2": 17,
-      "agencija": "Kredium",
+      "struktura": "4.0",
+      "cena": 3000.0,
+      "m2": 134.0,
+      "cena_m2": 22,
+      "agencija": "MaxisGroup1",
       "izvor": "halo"
     },
     {
-      "id": "7c2d3ddec4ed",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---a-blok-59203/5425647754226?kid=1",
-      "naslov": "Novi Beograd - A blok #59203",
+      "id": "8e4da9dca809",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-69086/5425647792276?kid=1",
+      "naslov": "Novi Beograd - Airport Garden #69086",
       "opis": "50% od prve mesečne zakupnine",
-      "zgrada": "A Blok",
-      "struktura": "4.0",
-      "cena": 2800.0,
-      "m2": 175.0,
-      "cena_m2": 16,
+      "zgrada": "Airport Garden",
+      "struktura": "1.0",
+      "cena": 700.0,
+      "m2": 39.0,
+      "cena_m2": 18,
       "agencija": "beostan",
       "izvor": "halo"
     }
