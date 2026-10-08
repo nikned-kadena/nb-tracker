@@ -2894,7 +2894,7 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "9f050b0d43e2"
+        "halo": "02119948dbdf"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/odlican-2-5-stan-od-75-62m2-sakura-park/5425646962262?kid=1",
@@ -14440,9 +14440,9 @@
     "4f1629cf7b6765d1": {
       "uid": "4f1629cf7b6765d1",
       "first_seen": "2026-08-31",
-      "last_seen": "2026-09-29",
-      "is_active": false,
-      "deactivated_at": "2026-10-01",
+      "last_seen": "2026-10-08",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "a290696c5cd00d75",
       "fp_strict_all": [
         "30d53dd598c483ed"
@@ -14466,11 +14466,15 @@
       "price_first": 334551.0,
       "price_current": 334551.0,
       "price_changes": [],
-      "days_listed": 31,
+      "days_listed": 38,
       "cena_m2": 4450,
       "last_seen_src": {
-        "halo": "2026-09-29"
-      }
+        "halo": "2026-10-08"
+      },
+      "fp_nosprat_all": [
+        "cd8f9dcf029ad00a"
+      ],
+      "fp_nosprat": "cd8f9dcf029ad00a"
     },
     "bd47afc55d903be0": {
       "uid": "bd47afc55d903be0",
@@ -22833,7 +22837,8 @@
       "price_first": 297000.0,
       "price_current": 297000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5121
     },
     "06723a0d5f46b3b7": {
       "uid": "06723a0d5f46b3b7",
@@ -22874,7 +22879,8 @@
       "price_first": 549990.0,
       "price_current": 549990.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4104
     },
     "29de4d845ac49f59": {
       "uid": "29de4d845ac49f59",
@@ -22915,10 +22921,216 @@
       "price_first": 223000.0,
       "price_current": 223000.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 5718
+    },
+    "8e535130ecbb306e": {
+      "uid": "8e535130ecbb306e",
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "5cf675cc4c60074e",
+      "fp_loose_all": [
+        "5cf675cc4c60074e"
+      ],
+      "fp_nosprat": "e4113c2421c52623",
+      "fp_nosprat_all": [
+        "e4113c2421c52623"
+      ],
+      "fp_strict_all": [
+        "4d9c2d40487a9500"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-08"
+      },
+      "source_ids": {
+        "halo": "9ef4f8b45135"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/trosoban-sakura-park-novogradnja/5425647794395?kid=4"
+      ],
+      "zgrada": "Sakura Park",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 66.76,
+      "sprat": null,
+      "agencija": "KADENASothebys",
+      "naslov": "Trosoban | Sakura Park | Novogradnja",
+      "price_first": 383400.0,
+      "price_current": 383400.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "2511fb6ae624b47a": {
+      "uid": "2511fb6ae624b47a",
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "039cbf70caf5dad0",
+      "fp_loose_all": [
+        "039cbf70caf5dad0"
+      ],
+      "fp_nosprat": "baf3737ced00c4c7",
+      "fp_nosprat_all": [
+        "baf3737ced00c4c7"
+      ],
+      "fp_strict_all": [
+        "d1d6d80e11052019"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-08"
+      },
+      "source_ids": {
+        "halo": "1dda1ad8e13b"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/dvosoban-soul-64-novogradnja/5425647794299?kid=4"
+      ],
+      "zgrada": "Soul 64",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 54.0,
+      "sprat": null,
+      "agencija": "KADENASothebys",
+      "naslov": "Dvosoban | Soul 64 | Novogradnja",
+      "price_first": 275400.0,
+      "price_current": 275400.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "a507954da3c287ef": {
+      "uid": "a507954da3c287ef",
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "0c6ac36ead38aa52",
+      "fp_loose_all": [
+        "0c6ac36ead38aa52"
+      ],
+      "fp_nosprat": "6ed4f1615ccd7ae4",
+      "fp_nosprat_all": [
+        "6ed4f1615ccd7ae4"
+      ],
+      "fp_strict_all": [
+        "3350fb5251e428a1"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-08"
+      },
+      "source_ids": {
+        "halo": "732cdfa33046"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/dvosoban-stan-na-novom-beogradu-55m2-25m2-ter/5425647792328?kid=1"
+      ],
+      "zgrada": "Soul 64",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 55.0,
+      "sprat": null,
+      "agencija": "Ambijent_nekretnine",
+      "naslov": "Dvosoban stan na Novom Beogradu, 55m2 + 25m2 teras",
+      "price_first": 359000.0,
+      "price_current": 359000.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "2d790a181064cee5": {
+      "uid": "2d790a181064cee5",
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "df4ac933c1379b0a",
+      "fp_loose_all": [
+        "df4ac933c1379b0a"
+      ],
+      "fp_nosprat": "a422e940934096bc",
+      "fp_nosprat_all": [
+        "a422e940934096bc"
+      ],
+      "fp_strict_all": [
+        "87c91cbc6bcc4d6c"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-08"
+      },
+      "source_ids": {
+        "halo": "60773685542e"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-65-3-bdrm-96-00-m2/5425647792287?kid=1"
+      ],
+      "zgrada": "West 65",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 96.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "West 65, 3 bdrm, 96,00 m2",
+      "price_first": 495000.0,
+      "price_current": 495000.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "469ad765c6740723": {
+      "uid": "469ad765c6740723",
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "b12ed5f0aded04c0",
+      "fp_loose_all": [
+        "b12ed5f0aded04c0"
+      ],
+      "fp_nosprat": "147892ecf4f4ef5e",
+      "fp_nosprat_all": [
+        "147892ecf4f4ef5e"
+      ],
+      "fp_strict_all": [
+        "18443d90cb4be2a5"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-08"
+      },
+      "source_ids": {
+        "halo": "457e21a17687"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/trosoban-stan-sakura-park-top-lokacija/5425647794193?kid=4"
+      ],
+      "zgrada": "Sakura Park",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 83.75,
+      "sprat": null,
+      "agencija": "KADENASothebys",
+      "naslov": "Trosoban stan | Sakura Park | Top lokacija",
+      "price_first": 376650.0,
+      "price_current": 376650.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-08T04:01:52.916117+00:00",
+  "updated_at": "2026-10-08T10:49:50.056864+00:00",
   "last_run": {
     "4zida": "2026-10-07",
     "nadjidom": "2026-10-07",

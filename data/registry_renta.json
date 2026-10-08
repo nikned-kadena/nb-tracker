@@ -24384,7 +24384,7 @@
         "4zida"
       ],
       "source_ids": {
-        "halo": "abdc3b1c36c5",
+        "halo": "4fe5d87877d5",
         "4zida": "4zida:6a272709a1c7b0770b0244a8"
       },
       "source_urls": [
@@ -24401,7 +24401,7 @@
       "m2": 175.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - A blok #59203",
+      "naslov": "Novi Beograd - A blok #2459203",
       "price_first": 2800.0,
       "price_current": 2800.0,
       "price_changes": [],
@@ -24612,9 +24612,9 @@
     "27fa86731d9b41de": {
       "uid": "27fa86731d9b41de",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-05",
-      "is_active": false,
-      "deactivated_at": "2026-10-07",
+      "last_seen": "2026-10-08",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "558bd74ba2c109f7",
       "fp_strict_all": [
         "e3a6bd2ef4d0a788"
@@ -24623,10 +24623,11 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "2e8984b00af6"
+        "halo": "53946e4637c7"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-id43290/5425647744355?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-id43290/5425647744355?kid=4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-id43290/5425647744355?kid=1"
       ],
       "zgrada": "Wellport",
       "struktura": "3.0",
@@ -24638,10 +24639,10 @@
       "price_first": 1600.0,
       "price_current": 1600.0,
       "price_changes": [],
-      "days_listed": 8,
+      "days_listed": 9,
       "cena_m2": 18,
       "last_seen_src": {
-        "halo": "2026-10-05"
+        "halo": "2026-10-08"
       },
       "fp_nosprat_all": [
         "472a591a5d1ac7bf"
@@ -27631,11 +27632,12 @@
         "halo": "2026-10-08"
       },
       "source_ids": {
-        "halo": "e922e9503363"
+        "halo": "a27b575286a7"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul-64-premium-odmah-useljiv-id4977/5425647758860?kid=4",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul-64-premium-odmah-useljiv-id4977/5425647758860?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul-64-premium-odmah-useljiv-id4977/5425647758860?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul-64-premium-odmah-useljiv-id4997/5425647792289?kid=1"
       ],
       "zgrada": "Soul 64",
       "struktura": "2.0",
@@ -27643,7 +27645,7 @@
       "m2": 55.0,
       "sprat": null,
       "agencija": "PropertyBroker",
-      "naslov": "Soul 64, premium, odmah useljiv ID#4977",
+      "naslov": "Soul 64, premium, odmah useljiv ID#4997",
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
@@ -28812,7 +28814,7 @@
         "halo": "2026-10-08"
       },
       "source_ids": {
-        "halo": "461faf3327c1"
+        "halo": "5c4729f86df7"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-dvosoban-namesten-sa-parking-mestom/5425647788336?kid=1",
@@ -28912,10 +28914,216 @@
       "price_first": 3000.0,
       "price_current": 3000.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 22
+    },
+    "6d97280fcc9225e6": {
+      "uid": "6d97280fcc9225e6",
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "aaa6c976599fea6b",
+      "fp_loose_all": [
+        "aaa6c976599fea6b"
+      ],
+      "fp_nosprat": "c9ad7618349a1c9e",
+      "fp_nosprat_all": [
+        "c9ad7618349a1c9e"
+      ],
+      "fp_strict_all": [
+        "7bf853b653de900c"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-08"
+      },
+      "source_ids": {
+        "halo": "af0110dad743"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-novogradnja-odlican-za-pp-id-17468/5425645244042?kid=4"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 69.0,
+      "sprat": null,
+      "agencija": "eminent-nekretnine",
+      "naslov": "A blok, novogradnja, odličan za pp, ID 17468",
+      "price_first": 1150.0,
+      "price_current": 1150.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "f621c23b14a49f14": {
+      "uid": "f621c23b14a49f14",
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "79fbd52af6a64bcf",
+      "fp_loose_all": [
+        "79fbd52af6a64bcf"
+      ],
+      "fp_nosprat": "d4388a8c6dcf2984",
+      "fp_nosprat_all": [
+        "d4388a8c6dcf2984"
+      ],
+      "fp_strict_all": [
+        "c50b39bc3979042e"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-08"
+      },
+      "source_ids": {
+        "halo": "82c2b1772cc0"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd-nov-stan-sa-garazom/5425647783211?kid=4"
+      ],
+      "zgrada": "Lastavica",
+      "struktura": "1.5",
+      "str_label": null,
+      "m2": 45.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Novi Beograd, nov stan sa garažom",
+      "price_first": 700.0,
+      "price_current": 700.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "a1d182a83f6ab895": {
+      "uid": "a1d182a83f6ab895",
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "2683212a61dc91c9",
+      "fp_loose_all": [
+        "2683212a61dc91c9"
+      ],
+      "fp_nosprat": "41bab572290a860d",
+      "fp_nosprat_all": [
+        "41bab572290a860d"
+      ],
+      "fp_strict_all": [
+        "e3bf9a271d5c886c"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-08"
+      },
+      "source_ids": {
+        "halo": "e16a151fe520"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/savada-3-lux-stan-teresa-sa-djakuzijem-id-261/5425647792995?kid=4"
+      ],
+      "zgrada": "Savada",
+      "struktura": "1.0",
+      "str_label": null,
+      "m2": 62.0,
+      "sprat": null,
+      "agencija": "eminent-nekretnine",
+      "naslov": "Savada 3, lux stan, teresa sa đakuzijem, ID 26143",
+      "price_first": 1000.0,
+      "price_current": 1000.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "24823e06bd90d78d": {
+      "uid": "24823e06bd90d78d",
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "d071e125d712e3cf",
+      "fp_loose_all": [
+        "d071e125d712e3cf"
+      ],
+      "fp_nosprat": "9e8f785c45cb0f5a",
+      "fp_nosprat_all": [
+        "9e8f785c45cb0f5a"
+      ],
+      "fp_strict_all": [
+        "8048e4ce6830583c"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-08"
+      },
+      "source_ids": {
+        "halo": "707da8207f9e"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65-lux-stan-sa-garazom-id-7623/5425645952678?kid=1"
+      ],
+      "zgrada": "West 65",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 60.0,
+      "sprat": null,
+      "agencija": "symbol-properties-doo-beograd",
+      "naslov": "West 65, lux stan sa garažom, ID 7623",
+      "price_first": 1200.0,
+      "price_current": 1200.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "d8b59634e863f66a": {
+      "uid": "d8b59634e863f66a",
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-10-08",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "fdf3c8a20e0b1be0",
+      "fp_loose_all": [
+        "fdf3c8a20e0b1be0"
+      ],
+      "fp_nosprat": "df75b856e06f99a4",
+      "fp_nosprat_all": [
+        "df75b856e06f99a4"
+      ],
+      "fp_strict_all": [
+        "e69af7aafb1e858c"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-08"
+      },
+      "source_ids": {
+        "halo": "ea4dd88816df"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul-64-1-bdrm-54-48-m2/5425647792288?kid=1"
+      ],
+      "zgrada": "Soul 64",
+      "struktura": "1.0",
+      "str_label": null,
+      "m2": 54.48,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Soul 64, 1 bdrm, 54,48 m2",
+      "price_first": 1000.0,
+      "price_current": 1000.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-08T04:02:30.875606+00:00",
+  "updated_at": "2026-10-08T10:50:32.927707+00:00",
   "last_run": {
     "4zida": "2026-10-07",
     "nadjidom": "2026-10-07",
