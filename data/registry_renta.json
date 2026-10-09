@@ -28597,7 +28597,7 @@
     "5ba204e3a85b84f4": {
       "uid": "5ba204e3a85b84f4",
       "first_seen": "2026-10-07",
-      "last_seen": "2026-10-08",
+      "last_seen": "2026-10-09",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "52d4e745338c53de",
@@ -28612,24 +28612,28 @@
         "6c3bed630f7037eb"
       ],
       "sources": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-10-08"
+        "4zida": "2026-10-08",
+        "halo": "2026-10-09"
       },
       "source_ids": {
-        "4zida": "4zida:6abfe3a5f7ccc18950029b1b"
+        "4zida": "4zida:6abfe3a5f7ccc18950029b1b",
+        "halo": "4fd4f4e7d9b1"
       },
       "source_urls": [
-        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6abfe3a5f7ccc18950029b1b"
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6abfe3a5f7ccc18950029b1b",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-novogradnja-parking-mesto-id-23030/5425644776558?kid=4"
       ],
       "zgrada": "Wellport",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 54.0,
       "sprat": null,
-      "agencija": null,
-      "naslov": "Dvosoban stan za izdavanje, Tadije Sondermajera, 1.100€, 54m²",
+      "agencija": "eminent-nekretnine",
+      "naslov": "Wellport, novogradnja, parking mesto, ID 23030",
       "price_first": 1100,
       "price_current": 1100,
       "price_changes": [],
@@ -29267,9 +29271,132 @@
       "price_current": 1650,
       "price_changes": [],
       "days_listed": 1
+    },
+    "a2c85844d9bd36d2": {
+      "uid": "a2c85844d9bd36d2",
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "27f28d50e9983d0c",
+      "fp_loose_all": [
+        "27f28d50e9983d0c"
+      ],
+      "fp_nosprat": "d3eef2dd821b4774",
+      "fp_nosprat_all": [
+        "d3eef2dd821b4774"
+      ],
+      "fp_strict_all": [
+        "1aa12b4daeee34bb"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-09"
+      },
+      "source_ids": {
+        "halo": "cfa2328fbd70"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-elixir-garden-polunamesten-2-sobe-terasa/5425645271235?kid=3"
+      ],
+      "zgrada": "Elixir Garden",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 52.0,
+      "sprat": null,
+      "agencija": "Bliss",
+      "naslov": "Nov, Elixir garden, polunamesten, 2 sobe, terasa",
+      "price_first": 800.0,
+      "price_current": 800.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "1e600638b2567659": {
+      "uid": "1e600638b2567659",
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "e140bf7ccbb9d368",
+      "fp_loose_all": [
+        "e140bf7ccbb9d368"
+      ],
+      "fp_nosprat": "86e8f4efbbe5fd8d",
+      "fp_nosprat_all": [
+        "86e8f4efbbe5fd8d"
+      ],
+      "fp_strict_all": [
+        "e61d41fbe3bdd68c"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-09"
+      },
+      "source_ids": {
+        "halo": "3723f5868da6"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-lux-165-m2-garazno-mesto-bez-buke-svetao/5425647798341"
+      ],
+      "zgrada": "West 65",
+      "struktura": "5.0",
+      "str_label": null,
+      "m2": 165.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Nov, Lux,165 m2 ,Garažno mesto,Bez buke, Svetao",
+      "price_first": 2600.0,
+      "price_current": 2600.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "7604cf70962b9825": {
+      "uid": "7604cf70962b9825",
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "1a82feb3c20ff971",
+      "fp_loose_all": [
+        "1a82feb3c20ff971"
+      ],
+      "fp_nosprat": "cd263b13f838ce70",
+      "fp_nosprat_all": [
+        "cd263b13f838ce70"
+      ],
+      "fp_strict_all": [
+        "25a5ae8fb4296759"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-09"
+      },
+      "source_ids": {
+        "halo": "297342dbc3d0"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65---lux-jednosoban-stan/5425647797874?kid=4"
+      ],
+      "zgrada": "West 65",
+      "struktura": "1.0",
+      "str_label": null,
+      "m2": 58.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "West 65 - lux jednosoban stan ",
+      "price_first": 1000.0,
+      "price_current": 1000.0,
+      "price_changes": [],
+      "days_listed": 0
     }
   },
-  "updated_at": "2026-10-09T04:02:20.363167+00:00",
+  "updated_at": "2026-10-09T10:50:12.932282+00:00",
   "last_run": {
     "4zida": "2026-10-08",
     "nadjidom": "2026-10-08",

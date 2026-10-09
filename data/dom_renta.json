@@ -4,7 +4,7 @@
   "pocetak_pracenja": "2026-06-29",
   "ukupno": {
     "n_zavrseni": 645,
-    "n_aktivni": 178,
+    "n_aktivni": 181,
     "dom_medijana": 20,
     "metod": "kaplan-meier",
     "pouzdano": true,
@@ -758,14 +758,14 @@
     },
     "Elixir Garden": {
       "n_zavrseni": 23,
-      "n_aktivni": 3,
+      "n_aktivni": 4,
       "dom_medijana": 23,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 17,
-      "starost_aktivnih_medijana": 13,
+      "starost_aktivnih_medijana": 11,
       "udeo_jos_u_ponudi": 0.0,
-      "udeo_aktivnih_pct": 12,
+      "udeo_aktivnih_pct": 15,
       "skinuti_p25": 7,
       "skinuti_p75": 47,
       "brzo_do_30d": 65,
@@ -1504,14 +1504,14 @@
     },
     "West 65": {
       "n_zavrseni": 63,
-      "n_aktivni": 24,
+      "n_aktivni": 26,
       "dom_medijana": 23,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 20,
-      "starost_aktivnih_medijana": 30,
+      "starost_aktivnih_medijana": 26,
       "udeo_jos_u_ponudi": 0.1142,
-      "udeo_aktivnih_pct": 28,
+      "udeo_aktivnih_pct": 29,
       "skinuti_p25": 6,
       "skinuti_p75": 25,
       "brzo_do_30d": 86,
@@ -1885,7 +1885,7 @@
     },
     "nepoznato": {
       "n_zavrseni": 635,
-      "n_aktivni": 136,
+      "n_aktivni": 139,
       "dom_medijana": 20,
       "metod": "kaplan-meier",
       "pouzdano": true,
@@ -2247,7 +2247,7 @@
     "prosecno_snizenje_pct": 9.7
   },
   "izvori": {
-    "halo": 771,
+    "halo": 775,
     "4zida": 113,
     "nadjidom": 28
   },

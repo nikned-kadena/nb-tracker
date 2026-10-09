@@ -2597,9 +2597,9 @@
     {
       "id": "5ba204e3a85b84f4",
       "url": "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6abfe3a5f7ccc18950029b1b",
-      "naslov": "Dvosoban stan za izdavanje, Tadije Sondermajera, 1.100€, 54m²",
+      "naslov": "Wellport, novogradnja, parking mesto, ID 23030",
       "zgrada": "Wellport",
-      "agencija": null,
+      "agencija": "Eminent Nekretnine",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 54.0,
@@ -2607,16 +2607,17 @@
       "cena_m2": 20,
       "sprat": null,
       "izvori": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "dana_na_trzistu": 2,
       "prva_cena": 1100,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
-      "last_seen": "2026-10-08",
+      "last_seen": "2026-10-09",
       "dedup_key": "Wellport|54.0|1100",
-      "zgrada_izvor": "opis_agenta",
-      "agencija_izvor": null,
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false

@@ -2587,7 +2587,7 @@
         "4zida"
       ],
       "source_ids": {
-        "halo": "8f4cc725773c",
+        "halo": "eb1bc07e9226",
         "nadjidom": "nadjidom:2333944",
         "4zida": "4zida:697b3b308546bffbf20fa643"
       },
@@ -2898,7 +2898,7 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "02119948dbdf"
+        "halo": "1c951baf9ca9"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/odlican-2-5-stan-od-75-62m2-sakura-park/5425646962262?kid=1",
@@ -23287,10 +23287,93 @@
       "price_first": 299000.0,
       "price_current": 299000.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 5436
+    },
+    "54082b72cb740e0b": {
+      "uid": "54082b72cb740e0b",
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "4de89c601408691e",
+      "fp_loose_all": [
+        "4de89c601408691e"
+      ],
+      "fp_nosprat": "68dc49c3e81be8d8",
+      "fp_nosprat_all": [
+        "68dc49c3e81be8d8"
+      ],
+      "fp_strict_all": [
+        "28c27d1e7083849f"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-09"
+      },
+      "source_ids": {
+        "halo": "eb81eaaacec1"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/kennedy-residence---dzona-kenedija-116m2-lux/5425647798337?kid=1"
+      ],
+      "zgrada": "Kennedy Residence",
+      "struktura": "4.0",
+      "str_label": null,
+      "m2": 116.0,
+      "sprat": null,
+      "agencija": "BorovicNekretnine",
+      "naslov": "Kennedy Residence - Džona Kenedija, 116m2, lux",
+      "price_first": 626500.0,
+      "price_current": 626500.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "e15f7be8e99139c2": {
+      "uid": "e15f7be8e99139c2",
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-09",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "c330b0f01ed3dc5e",
+      "fp_loose_all": [
+        "c330b0f01ed3dc5e"
+      ],
+      "fp_nosprat": "b3cdbed884193dde",
+      "fp_nosprat_all": [
+        "b3cdbed884193dde"
+      ],
+      "fp_strict_all": [
+        "bced86dcbae344ca"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-09"
+      },
+      "source_ids": {
+        "halo": "bf438d96e4f4"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-65-kula-62m2-nov-lux-2-0-panoramski-pogl/5425646053557"
+      ],
+      "zgrada": "West 65 Kula",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 62.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "West 65 Kula,62m2, Nov, Lux,2.0, Panoramski pogled",
+      "price_first": 399900.0,
+      "price_current": 399900.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-09T04:01:45.957147+00:00",
+  "updated_at": "2026-10-09T10:49:28.451816+00:00",
   "last_run": {
     "4zida": "2026-10-08",
     "nadjidom": "2026-10-08",
