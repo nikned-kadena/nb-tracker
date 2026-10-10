@@ -3,18 +3,18 @@
   "generated": "2026-10-10",
   "pocetak_pracenja": "2026-06-29",
   "ukupno": {
-    "n_zavrseni": 334,
-    "n_aktivni": 264,
+    "n_zavrseni": 335,
+    "n_aktivni": 263,
     "dom_medijana": 39,
     "metod": "kaplan-meier",
     "pouzdano": true,
     "naivna_medijana_samo_skinuti": 13,
-    "starost_aktivnih_medijana": 43,
-    "udeo_jos_u_ponudi": 0.2682,
+    "starost_aktivnih_medijana": 42,
+    "udeo_jos_u_ponudi": 0.2652,
     "udeo_aktivnih_pct": 44,
     "skinuti_p25": 7,
     "skinuti_p75": 31,
-    "brzo_do_30d": 74,
+    "brzo_do_30d": 73,
     "sporo_preko_180d": 0,
     "kriva": [
       {
@@ -278,16 +278,20 @@
         "preziveli": 0.3269
       },
       {
+        "dan": 94,
+        "preziveli": 0.3233
+      },
+      {
         "dan": 96,
-        "preziveli": 0.3192
+        "preziveli": 0.3157
       },
       {
         "dan": 99,
-        "preziveli": 0.286
+        "preziveli": 0.2829
       },
       {
         "dan": 101,
-        "preziveli": 0.2682
+        "preziveli": 0.2652
       }
     ]
   },
@@ -1141,18 +1145,18 @@
       ]
     },
     "Wellport": {
-      "n_zavrseni": 31,
-      "n_aktivni": 19,
+      "n_zavrseni": 32,
+      "n_aktivni": 18,
       "dom_medijana": 63,
       "metod": "kaplan-meier",
       "pouzdano": true,
-      "naivna_medijana_samo_skinuti": 14,
-      "starost_aktivnih_medijana": 94,
-      "udeo_jos_u_ponudi": 0.2647,
-      "udeo_aktivnih_pct": 38,
-      "skinuti_p25": 6,
-      "skinuti_p75": 63,
-      "brzo_do_30d": 65,
+      "naivna_medijana_samo_skinuti": 16,
+      "starost_aktivnih_medijana": 95,
+      "udeo_jos_u_ponudi": 0.2458,
+      "udeo_aktivnih_pct": 36,
+      "skinuti_p25": 7,
+      "skinuti_p75": 81,
+      "brzo_do_30d": 62,
       "sporo_preko_180d": 0,
       "kriva": [
         {
@@ -1232,8 +1236,12 @@
           "preziveli": 0.3782
         },
         {
+          "dan": 94,
+          "preziveli": 0.3512
+        },
+        {
           "dan": 99,
-          "preziveli": 0.2647
+          "preziveli": 0.2458
         }
       ]
     },
@@ -1591,14 +1599,14 @@
       ]
     },
     "nepoznato": {
-      "n_zavrseni": 303,
-      "n_aktivni": 227,
+      "n_zavrseni": 304,
+      "n_aktivni": 226,
       "dom_medijana": 44,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 16,
       "starost_aktivnih_medijana": 50,
-      "udeo_jos_u_ponudi": 0.2784,
+      "udeo_jos_u_ponudi": 0.2754,
       "udeo_aktivnih_pct": 43,
       "skinuti_p25": 7,
       "skinuti_p75": 39,
@@ -1866,16 +1874,20 @@
           "preziveli": 0.3394
         },
         {
+          "dan": 94,
+          "preziveli": 0.3357
+        },
+        {
           "dan": 96,
-          "preziveli": 0.3314
+          "preziveli": 0.3278
         },
         {
           "dan": 99,
-          "preziveli": 0.297
+          "preziveli": 0.2937
         },
         {
           "dan": 101,
-          "preziveli": 0.2784
+          "preziveli": 0.2754
         }
       ]
     },
@@ -1918,25 +1930,25 @@
     {
       "kvartil": "50-75%",
       "n": 83,
-      "cena_medijana": 376000,
+      "cena_medijana": 375000,
       "dom_medijana": 12
     },
     {
       "kvartil": "najskuplji 25%",
-      "n": 85,
+      "n": 86,
       "cena_medijana": 530000,
-      "dom_medijana": 21
+      "dom_medijana": 20
     }
   ],
   "cene": {
     "oglasa_sa_promenom": 92,
-    "ukupno_snizenja": 93,
+    "ukupno_snizenja": 95,
     "prosecno_snizenje_pct": 4.5
   },
   "izvori": {
     "halo": 536,
-    "nadjidom": 63,
-    "4zida": 168
+    "nadjidom": 64,
+    "4zida": 169
   },
   "napomena": "dom_medijana je Kaplan-Meier procena i JEDINI broj koji se citira kao trajanje oglasa. Aktivni oglasi ulaze u racun kao cenzurisana opazanja (trajali su BAR toliko), umesto da se izbace. naivna_medijana_samo_skinuti je kontrolni broj koji gleda samo zatvorene oglase i sistematski je POTCENJEN — na NB prodaji je davao 13 dana naspram stvarnih 29. Ne citirati ga. starost_aktivnih_medijana je koliko vec stoje oglasi koji su jos u ponudi; to je donja granica, ne trajanje. Medijana se prikazuje tek od 5 oglasa u grupi."
 }
