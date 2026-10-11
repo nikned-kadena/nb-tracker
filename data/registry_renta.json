@@ -9613,12 +9613,13 @@
     "699628769ef56273": {
       "uid": "699628769ef56273",
       "first_seen": "2026-07-06",
-      "last_seen": "2026-07-29",
-      "is_active": false,
-      "deactivated_at": "2026-08-21",
+      "last_seen": "2026-10-11",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "0a37c0826eacf08e",
       "fp_strict_all": [
-        "487716480cce6e8b"
+        "487716480cce6e8b",
+        "8484efdbf317abee"
       ],
       "sources": [
         "halo"
@@ -9637,11 +9638,24 @@
       "agencija": "amainvestdoo",
       "naslov": "A Blok- luksuzan penthaus /Duplex/ 2 parking mesta",
       "price_first": 4600.0,
-      "price_current": 4600.0,
-      "price_changes": [],
-      "days_listed": 46,
-      "cena_m2": 31,
-      "deactivation_uncertain": true
+      "price_current": 3600.0,
+      "price_changes": [
+        {
+          "date": "2026-10-11",
+          "from": 4600.0,
+          "to": 3600.0
+        }
+      ],
+      "days_listed": 97,
+      "cena_m2": 24,
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-10-11"
+      },
+      "fp_nosprat_all": [
+        "507cf8853612fed5"
+      ],
+      "fp_nosprat": "507cf8853612fed5"
     },
     "6059922081ee3aba": {
       "uid": "6059922081ee3aba",
@@ -21620,7 +21634,7 @@
     "9858e1d0f48297a9": {
       "uid": "9858e1d0f48297a9",
       "first_seen": "2026-09-10",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0a37c0826eacf08e",
@@ -21647,9 +21661,9 @@
       "m2": 147.0,
       "sprat": null,
       "agencija": "PropertyBroker",
-      "naslov": "Trosoban stan za izdavanje, Jurija Gagarina, 3.600€, 147m²",
+      "naslov": "A blok, vrhunski penthouse, 2 garaže ID#4905",
       "price_first": 3600.0,
-      "price_current": 3600,
+      "price_current": 4300.0,
       "price_changes": [
         {
           "date": "2026-10-04",
@@ -21690,12 +21704,17 @@
           "date": "2026-10-10",
           "from": 4300.0,
           "to": 3600
+        },
+        {
+          "date": "2026-10-11",
+          "from": 3600,
+          "to": 4300.0
         }
       ],
       "days_listed": 31,
-      "cena_m2": 24,
+      "cena_m2": 29,
       "last_seen_src": {
-        "halo": "2026-10-10",
+        "halo": "2026-10-11",
         "4zida": "2026-10-10"
       },
       "fp_nosprat_all": [
@@ -24352,7 +24371,7 @@
     "dad715eb1abd8910": {
       "uid": "dad715eb1abd8910",
       "first_seen": "2026-09-26",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-11",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "99ab634fa1485ff8",
@@ -24363,11 +24382,12 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "11678c6589b1"
+        "halo": "151071a05a38"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/elixir-garden-2-0-lux-sa-garazom-id19541/5425647734704?kid=4",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/elixir-garden-2-0-lux-sa-garazom-id19541/5425647769249?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/elixir-garden-2-0-lux-sa-garazom-id19541/5425647769249?kid=4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/elixir-garden-2-0-lux-sa-garazom-id19541/5425647806414?kid=4"
       ],
       "zgrada": "Elixir Garden",
       "struktura": "2.0",
@@ -24382,7 +24402,7 @@
       "days_listed": 15,
       "cena_m2": 13,
       "last_seen_src": {
-        "halo": "2026-10-10"
+        "halo": "2026-10-11"
       },
       "fp_nosprat_all": [
         "12d9ef86559b2171"
@@ -29643,7 +29663,7 @@
       "cena_m2": 16
     }
   },
-  "updated_at": "2026-10-11T04:05:53.740591+00:00",
+  "updated_at": "2026-10-11T10:17:54.736818+00:00",
   "last_run": {
     "4zida": "2026-10-10",
     "nadjidom": "2026-10-10",
