@@ -2,18 +2,31 @@
   "date": "2026-10-12",
   "mode": "renta",
   "source": "halo",
-  "total_raw": 101,
-  "total_unique": 81,
+  "total_raw": 100,
+  "total_unique": 80,
   "diff_new": [
+    "e5b8fa154a8c",
+    "864ad2785237"
+  ],
+  "diff_removed": [
+    "b6478f7c5492",
     "222c641fd053",
     "3fb5f85063eb"
   ],
-  "diff_removed": [
-    "864ad2785237",
-    "bf80b2edb99c",
-    "1cc6955f4aea"
-  ],
   "listings": [
+    {
+      "id": "864ad2785237",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/penthouse-terasa-70m-pogled-koji-guta-nebo/5425644795712?kid=4",
+      "naslov": "Penthouse. Terasa 70m². Pogled koji guta nebo.",
+      "opis": "Nije za svakoga. I ne pokušava da bude. Ovaj penthouse u West 65 kompleksu ne nudi iluziju luksuza, već njegovo ogoljeno, suštinsko lice. Sedamdeset kvadrata terase nije prostor za zabave niti za cvetne garniture, već za tišinu koja ima težinu, za pogled koji ne popušta i ne prašta. Horizont se ne kiti, on se osvaja. Unutrašnjost odbacuje dekor kao slabost. Mermer u kupatilu hladno odbija svaku banalnost, kuhinja stoji kao skulptura kojoj nije potrebna potvrda. Svetlost u dnevnom boravku nije romantična - ona je brutalno iskrena, otkriva proporcije, podvlači linije, testira vaš ukus. Ovo nije stan za kolekcionare kvadrata, niti za one kojima luksuz znači pozlaćene ivice i nameštaj koji viče. Ovo je prostor za malobrojne, za one koji razlikuju supstancu od scenografije. Za one kojima je mir merilo moći. Ovaj penthouse ne zavodi. On eliminiše. Ako treba da vas ubeđuje - nije za vas. 2 garazna mesta * * It is not for everyone. And it does not try to be. This penthouse in the West 65 complex does not offer the illusion of luxury, but its stripped, essential face. Seventy square meters of terrace is not a space for parties or floral furniture, but for silence that carries weight, for a ",
+      "zgrada": "West 65",
+      "struktura": "3.0",
+      "cena": 3300.0,
+      "m2": 205.0,
+      "cena_m2": 16,
+      "agencija": "BebaRealEstate",
+      "izvor": "halo"
+    },
     {
       "id": "ec51389a8822",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok--luksuzan-penthaus-duplex-2-parking-me/5425647371206?kid=4",
@@ -272,19 +285,6 @@
       "m2": 73.0,
       "cena_m2": 23,
       "agencija": "PropertyBroker",
-      "izvor": "halo"
-    },
-    {
-      "id": "3fb5f85063eb",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65-izdavanje-luksuznog-stana-sa-parkingo/5425647690622?kid=4",
-      "naslov": "West 65 izdavanje luksuznog stana sa parkingom",
-      "opis": "Luksuzan stan u West 65 od 205m2, dve spavace sobe, dva kupatila, dnevni boravak, trpezarija, terasa, gosstinjski toalet, kuhinja&nbsp; Stan se izdaje kompletno namesten&nbsp; Odmah useljiv&nbsp; U cenu zakupasu ukljucena I dva parking mesta u podzemnoj garazi&nbsp; Cena mesecne rente je 3300 eur&nbsp; Depozit 3 kirije&nbsp; Agencijska provizija iznosi 50% od iznosa prve mesecne rente I placa se jednokratno&nbsp; Reg.br 1474&nbsp; 0692870854",
-      "zgrada": "West 65",
-      "struktura": "3.0",
-      "cena": 3300.0,
-      "m2": 205.0,
-      "cena_m2": 16,
-      "agencija": null,
       "izvor": "halo"
     },
     {
@@ -613,6 +613,19 @@
       "izvor": "halo"
     },
     {
+      "id": "e5b8fa154a8c",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/ekskluzivan-3-0-duplex-od-148m2-a-blok/5425647264776?kid=1",
+      "naslov": "Ekskluzivan 3.0 duplex od 148m2, A Blok",
+      "opis": "Ekskluzivan trosoban duplex površine 148m2 u IV fazi poslovno-stambenog kompleksa A Blok na 11. spratu. Komforan dnevni boravak, kuhinja sa trpezarijom, dve spavaće sobe na drugom nivou, dva kupatila, toalet i terasa duž celog stana sa izuzetnim pogledom. Potpuno opremljen luksuznim nameštajem, tehnikom i tehnologijom, komforan, odlično pozicioniran sa mnogo prirodnog svetla, dvostrano je orijentisan. Portirska služba 00-24. Vlasnik stana pravno lice. Dva garažna mesta na nivou -2 uz doplatu 200eur po mestu. Za sve informacije pozovite. Agencijska provizija iznosi 50% od cene prve mesečne zakupnine.",
+      "zgrada": "A Blok",
+      "struktura": "3.0",
+      "cena": 3600.0,
+      "m2": 148.0,
+      "cena_m2": 24,
+      "agencija": "SonataProperties",
+      "izvor": "halo"
+    },
+    {
       "id": "9473c41ef835",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzan-namesten-2-garazna-mesta-id8971/5425646725669?kid=1",
       "naslov": "Luksuzan, namešten, 2 garažna mesta ID#8971",
@@ -714,19 +727,6 @@
       "m2": 147.0,
       "cena_m2": 28,
       "agencija": "Leverage",
-      "izvor": "halo"
-    },
-    {
-      "id": "222c641fd053",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-duplex-penthaus-garaza-id-22505/5425644503858?kid=1",
-      "naslov": "A blok, duplex, penthaus, garaža, ID 22505",
-      "opis": "Izuzetan stan za svaku preporuku koji se retko nađe u ponudi stanova! Deluxe sređen penthaus duplex u luksuznom naselju A blok, kompletno opremljen izuzetnim nameštajem iz uvoza, odličnog rasporeda prostorija. Čine ga, u prizemlju prostrani open space koncept - kuhinja, trpezarija i dnevna soba sa izlazom na terasu. Na spratu se nalazi spavaći blok sa dve spavaće sobe, od kojih je jedna master sa sopstvenim kupatilom , druga sa izlazom na drugu terasu, još jedno kupatilo i vešeraj kao posebna prostorija . Grejanje je centralno, po utrošku, a zgrada je pokrivena video nadzorom. Uz stan se izdaju i dva garažna mesta po ceni od 250 eur po mestu. Vlasnik nekretnine je pravno lice, pdv nije uračunat u cenu. Agencijska provizija za zakupca se plaća u iznosu od 50% + PDV dogovorene jednomesečne zakupnine za period zakupa u trajanju do 12 meseci",
-      "zgrada": "A Blok",
-      "struktura": "3.0",
-      "cena": 3600.0,
-      "m2": 148.0,
-      "cena_m2": 24,
-      "agencija": "eminent-nekretnine",
       "izvor": "halo"
     },
     {
@@ -844,19 +844,6 @@
       "m2": 93.0,
       "cena_m2": 19,
       "agencija": null,
-      "izvor": "halo"
-    },
-    {
-      "id": "b6478f7c5492",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/belvil-novogradnja-moze-kao-pp-id-26074/5425647720978?kid=1",
-      "naslov": "Belvil, novogradnja, može kao pp, ID 26074",
-      "opis": "Komforan stan u stambeno-poslovnom naselju Belvil. Stan je opremljen kancelarijskim nameštajem, ali postoji mogućnost iznošenja istog, te je stan pogodan kao kao poslovni, tako i kao stambeni prostor. Poseduje dnevni boravak, trpezariju, kuhinju, odvojenu spavaću sobu, kupatilo i terasu. U cenu je uračunato i garažno mesto. &nbsp; Agencijska provizija za zakupca se plaća u iznosu od 50% + PDV dogovorene jednomesečne zakupnine za period zakupa u trajanju do 12 meseci",
-      "zgrada": "Belvil",
-      "struktura": "2.0",
-      "cena": 850.0,
-      "m2": 56.0,
-      "cena_m2": 15,
-      "agencija": "eminent-nekretnine",
       "izvor": "halo"
     },
     {
