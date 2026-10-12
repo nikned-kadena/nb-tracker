@@ -1,17 +1,14 @@
 {
   "mode": "renta",
   "source": "4zida",
-  "date": "2026-10-11",
-  "scraped_at": "2026-10-11",
-  "total_raw": 89,
-  "total_unique": 77,
-  "total_dups": 12,
-  "diff_new": [
-    "9945c6e4075c366a"
-  ],
+  "date": "2026-10-12",
+  "scraped_at": "2026-10-12",
+  "total_raw": 88,
+  "total_unique": 75,
+  "total_dups": 13,
+  "diff_new": [],
   "diff_removed": [
-    "f621c23b14a49f14",
-    "a1d182a83f6ab895"
+    "46123e7f87c06e24"
   ],
   "listings": [
     {
@@ -30,7 +27,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 850.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
@@ -45,7 +42,7 @@
     {
       "id": "179b70455dfe7ceb",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---a-blok-59203/5425647256304?kid=4",
-      "naslov": "Četvorosoban stan za izdavanje, Urosa Martinovica, 2.800€, 175m²",
+      "naslov": "Novi Beograd - A blok #59203",
       "zgrada": "A Blok",
       "agencija": "Beostan",
       "struktura": "4.0",
@@ -58,40 +55,12 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 2500.0,
       "promena_cene_pct": 12.0,
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "A Blok|175.0|2800",
-      "zgrada_izvor": "opis",
-      "agencija_izvor": "scraper",
-      "posrednik": true,
-      "tip_prodaje": null,
-      "cena_m2_sumnjiva": false
-    },
-    {
-      "id": "46123e7f87c06e24",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---jurija-gagarina---a-blok-69m2/5425647118467?kid=4",
-      "naslov": "Novi Beograd - Jurija Gagarina - A blok 69m2 3.0 ",
-      "zgrada": "A Blok",
-      "agencija": "Kalem Nekretnine",
-      "struktura": "3.0",
-      "str_label": null,
-      "m2": 69.0,
-      "cena": 1250.0,
-      "cena_m2": 18,
-      "sprat": null,
-      "izvori": [
-        "halo",
-        "4zida"
-      ],
-      "dana_na_trzistu": 101,
-      "prva_cena": 1250.0,
-      "promena_cene_pct": null,
-      "first_seen": "2026-07-02",
-      "last_seen": "2026-10-10",
-      "dedup_key": "A Blok|69.0|1250.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
@@ -114,7 +83,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 1500.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
@@ -129,7 +98,7 @@
     {
       "id": "f4f37eeac9f92d76",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-tower-izdavanje-nov-lux-prostran-4-0-sta/5425645291321?kid=3",
-      "naslov": "Četvorosoban stan za izdavanje, Omladinskih brigada, 3.000€, 123m²",
+      "naslov": "West Tower, izdavanje, nov, lux, prostran 4.0 stan",
       "zgrada": "West 65 Kula",
       "agencija": "Hedonia",
       "struktura": "4.0",
@@ -142,13 +111,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 3000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "West 65 Kula|123.0|3000.0",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -171,7 +140,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 3000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
@@ -186,9 +155,9 @@
     {
       "id": "4758a063e1411dc8",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd-blok-a-168m2-2-g-mesta-id31019/5425646703133?kid=1",
-      "naslov": "Luksuzan, namešten, 2 garažna mesta ID#8971",
+      "naslov": "Novi Beograd, Blok A, 168m2 + 2 g. mesta ID#31019",
       "zgrada": "A Blok",
-      "agencija": "Europolis Nekretnine",
+      "agencija": "Atase Nekretnine",
       "struktura": "4.0",
       "str_label": null,
       "m2": 168.0,
@@ -200,11 +169,11 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 3000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "A Blok|168.0|3000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -228,7 +197,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 850.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
@@ -243,7 +212,7 @@
     {
       "id": "000a6a3b98a492a2",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/new-minel-odmah-useljiv-garazno-mesto-id4306/5425646530011?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Tošin bunar, 1.300€, 63m²",
+      "naslov": "New Minel, odmah useljiv, garažno mesto ID#4965",
       "zgrada": "New Minel",
       "agencija": "Property Broker",
       "struktura": "3.0",
@@ -256,13 +225,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 1300.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "New Minel|63.0|1300.0",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -271,7 +240,7 @@
     {
       "id": "525ef3d0ff923500",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-dvosoban-prazan-stan-id2713/5425647165464?kid=1",
-      "naslov": "Dvosoban stan za izdavanje, Tadije Sondermajera, 900€, 52m²",
+      "naslov": "Wellport, dvosoban prazan stan ID#2713",
       "zgrada": "Wellport",
       "agencija": "Brickpro",
       "struktura": "2.0",
@@ -284,13 +253,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 900.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Wellport|52.0|900.0",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -299,7 +268,7 @@
     {
       "id": "9c366aa84403249c",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/stan-povrsine-120m2-novi-beograd/5425647161926?kid=1",
-      "naslov": "Petosoban stan za izdavanje, Omladinskih Brigada, 2.700€, 120m²",
+      "naslov": "Stan površine 120m2 Novi Beograd ",
       "zgrada": "The One",
       "agencija": "Agencija Gradac",
       "struktura": "5.0",
@@ -312,11 +281,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 2700.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "The One|120.0|2700.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -340,7 +309,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 1200.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
@@ -355,7 +324,7 @@
     {
       "id": "0b25809815cffdda",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/best-selection-of-exclusive-homes-and-propert/5425642631920?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Omladinskih Brigada, 3.000€, 105m²",
+      "naslov": "Best selection of exclusive homes and properties",
       "zgrada": "West 65 Kula",
       "agencija": "Beba Real Estate",
       "struktura": "4.0",
@@ -368,11 +337,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 3500.0,
       "promena_cene_pct": -14.3,
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "West 65 Kula|105.0|3000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -383,7 +352,7 @@
     {
       "id": "c8fa43c64a1bb3ff",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/2-0-garaza-west-65/5425645983246?kid=1",
-      "naslov": "Dvosoban stan za izdavanje, Omladinskih Brigada, 1.000€, 60m²",
+      "naslov": "2.0 / garaza / West 65",
       "zgrada": "West 65",
       "agencija": "Beba Real Estate",
       "struktura": "2.0",
@@ -396,13 +365,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 1000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "West 65|60.0|1000.0",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -411,7 +380,7 @@
     {
       "id": "c38ba086e128118a",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/dom-koji-dise-svetloscu-a-blok/5425646212412?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Jurija Gagarina, 3.000€, 137m²",
+      "naslov": "Dom koji diše svetlošću / A blok",
       "zgrada": "A Blok",
       "agencija": "Beba Real Estate",
       "struktura": "4.0",
@@ -424,13 +393,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 3000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "A Blok|137.0|3000.0",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -439,7 +408,7 @@
     {
       "id": "efaa39f947dc10d0",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/neuseljavan-stan-u-luksuznom-kompleksu-sakura/5425645204565?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Jurija Gagarina, 1.800€, 99m²",
+      "naslov": "Neuseljavan stan u luksuznom kompleksu Sakura Park",
       "zgrada": "Sakura Park",
       "agencija": "Beba Real Estate",
       "struktura": "4.0",
@@ -452,13 +421,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 1800.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Sakura Park|99.0|1800.0",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -480,11 +449,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 101,
+      "dana_na_trzistu": 102,
       "prva_cena": 3300.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "A Blok|176.0|3300.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -495,26 +464,26 @@
     {
       "id": "ca20cc9e14f74d40",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-duplex-penthaus-garaza-id-22505/5425644503858?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Jurija Gagarina, 4.500€, 148m²",
+      "naslov": "A blok, duplex, penthaus, garaža, ID 22505",
       "zgrada": "A Blok",
       "agencija": "Eminent Nekretnine",
       "struktura": "3.0",
       "str_label": null,
       "m2": 148.0,
-      "cena": 4500,
-      "cena_m2": 30,
+      "cena": 3600.0,
+      "cena_m2": 24,
       "sprat": null,
       "izvori": [
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 100,
+      "dana_na_trzistu": 101,
       "prva_cena": 4500.0,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -20.0,
       "first_seen": "2026-07-03",
-      "last_seen": "2026-10-11",
-      "dedup_key": "A Blok|148.0|4500",
-      "zgrada_izvor": "opis",
+      "last_seen": "2026-10-12",
+      "dedup_key": "A Blok|148.0|3600.0",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -536,7 +505,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 99,
+      "dana_na_trzistu": 100,
       "prva_cena": 1000.0,
       "promena_cene_pct": -5.0,
       "first_seen": "2026-07-04",
@@ -557,20 +526,20 @@
       "struktura": "3.0",
       "str_label": null,
       "m2": 147.0,
-      "cena": 4500,
-      "cena_m2": 31,
+      "cena": 4100.0,
+      "cena_m2": 28,
       "sprat": "11",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 99,
+      "dana_na_trzistu": 100,
       "prva_cena": 4500.0,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -8.9,
       "first_seen": "2026-07-04",
-      "last_seen": "2026-10-11",
-      "dedup_key": "A Blok|147.0|4500",
+      "last_seen": "2026-10-12",
+      "dedup_key": "A Blok|147.0|4100.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
@@ -580,7 +549,7 @@
     {
       "id": "b347fcd01a6c5498",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzan-namesten-2-garazna-mesta-id8971/5425646725669?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Uroša Martinovića, 3.000€, 168m²",
+      "naslov": "Luksuzan, namešten, 2 garažna mesta ID#8971",
       "zgrada": "A Blok",
       "agencija": "Europolis Nekretnine",
       "struktura": "4.0",
@@ -593,11 +562,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 97,
+      "dana_na_trzistu": 98,
       "prva_cena": 3000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-06",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "A Blok|168.0|3000.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -621,7 +590,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 74,
+      "dana_na_trzistu": 75,
       "prva_cena": 2000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
@@ -650,7 +619,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 74,
+      "dana_na_trzistu": 75,
       "prva_cena": 1200.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
@@ -665,7 +634,7 @@
     {
       "id": "6d6e4b530cb666a7",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-neuseljavan-2-parking-mesta---wellport/5425647461215",
-      "naslov": "Trosoban stan za izdavanje, Tadije Sondermajera, 1.600€, 89m²",
+      "naslov": "Nov, neuseljavan, 2 parking mesta - Wellport",
       "zgrada": "Wellport",
       "agencija": "Beba Real Estate",
       "struktura": "3.0",
@@ -678,13 +647,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 74,
+      "dana_na_trzistu": 75,
       "prva_cena": 1600.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-29",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Wellport|89.0|1600.0",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -693,25 +662,25 @@
     {
       "id": "998839bbab9547b3",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzan-stan-sa-garazom-u-west-65-id-5032/5425647488933?kid=1",
-      "naslov": "Trosoban stan za izdavanje, WEST 65, 3.500€, 205m²",
+      "naslov": "Luksuzan stan sa garažom u West 65, ID 5032",
       "zgrada": "West 65",
       "agencija": "Symbol Properties Doo Beograd",
       "struktura": "3.0",
       "str_label": null,
       "m2": 205.0,
-      "cena": 3500,
-      "cena_m2": 17,
+      "cena": 3300.0,
+      "cena_m2": 16,
       "sprat": null,
       "izvori": [
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 51,
+      "dana_na_trzistu": 52,
       "prva_cena": 3600.0,
-      "promena_cene_pct": -2.8,
+      "promena_cene_pct": -8.3,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-11",
-      "dedup_key": "West 65|205.0|3500",
+      "last_seen": "2026-10-12",
+      "dedup_key": "West 65|205.0|3300.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
@@ -734,7 +703,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 51,
+      "dana_na_trzistu": 52,
       "prva_cena": 1050.0,
       "promena_cene_pct": -4.8,
       "first_seen": "2026-08-21",
@@ -749,7 +718,7 @@
     {
       "id": "debc374207677c48",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/welport-nov-2-0-svetao-miran-parking-poluname/5425647500486?kid=1",
-      "naslov": "Dvosoban stan za izdavanje, Tadije Sondermajera Wellport, 850€, 54m²",
+      "naslov": "Welport Nov, 2.0,Svetao,Miran,Parking,Polunamesten",
       "zgrada": "Wellport",
       "agencija": null,
       "struktura": "2.0",
@@ -762,11 +731,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 51,
+      "dana_na_trzistu": 52,
       "prva_cena": 850.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Wellport|54.0|850.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -777,9 +746,9 @@
     {
       "id": "08cd65d7dc57c791",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-penthouse-sa-2-garazna-mesta-west-65/5425647134490?kid=1",
-      "naslov": "Luksuzno opremljen penthaus sa prelepom terasom",
+      "naslov": "Lux penthouse sa 2 garažna mesta, West 65",
       "zgrada": "West 65",
-      "agencija": "Best Real Estate",
+      "agencija": "Sonata Properties",
       "struktura": "3.0",
       "str_label": null,
       "m2": 205.0,
@@ -791,13 +760,13 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 50,
+      "dana_na_trzistu": 51,
       "prva_cena": 3600.0,
       "promena_cene_pct": -8.3,
       "first_seen": "2026-08-22",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "West 65|205.0|3300.0",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -819,7 +788,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 49,
+      "dana_na_trzistu": 50,
       "prva_cena": 3600.0,
       "promena_cene_pct": -8.3,
       "first_seen": "2026-08-23",
@@ -847,7 +816,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 46,
+      "dana_na_trzistu": 47,
       "prva_cena": 1250.0,
       "promena_cene_pct": 4.0,
       "first_seen": "2026-08-26",
@@ -875,7 +844,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 43,
+      "dana_na_trzistu": 44,
       "prva_cena": 1800.0,
       "promena_cene_pct": null,
       "first_seen": "2026-08-29",
@@ -892,7 +861,7 @@
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/elixir-garden-4-0-130m2-v-sredjen-i-opremljen/5425647626791?kid=1",
       "naslov": "Elixir garden, 4,0, 130m2, V, sređen i opremljen",
       "zgrada": "Elixir Garden",
-      "agencija": "Profitim Nekretnine",
+      "agencija": "Profitim",
       "struktura": "4.0",
       "str_label": null,
       "m2": 132.0,
@@ -904,11 +873,11 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 36,
+      "dana_na_trzistu": 37,
       "prva_cena": 1900.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-05",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Elixir Garden|132.0|1900.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -932,7 +901,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 32,
+      "dana_na_trzistu": 33,
       "prva_cena": 2700.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-09",
@@ -947,26 +916,26 @@
     {
       "id": "9858e1d0f48297a9",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-vrhunski-penthouse-2-garaze-id4905/5425647651486?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Jurija Gagarina, 3.600€, 147m²",
+      "naslov": "A blok, vrhunski penthouse, 2 garaže ID#4905",
       "zgrada": "A Blok",
       "agencija": "Property Broker",
       "struktura": "3.0",
       "str_label": null,
       "m2": 147.0,
-      "cena": 3600,
-      "cena_m2": 24,
+      "cena": 4300.0,
+      "cena_m2": 29,
       "sprat": null,
       "izvori": [
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 31,
+      "dana_na_trzistu": 32,
       "prva_cena": 3600.0,
-      "promena_cene_pct": null,
+      "promena_cene_pct": 19.4,
       "first_seen": "2026-09-10",
-      "last_seen": "2026-10-11",
-      "dedup_key": "A Blok|147.0|3600",
-      "zgrada_izvor": "opis",
+      "last_seen": "2026-10-12",
+      "dedup_key": "A Blok|147.0|4300.0",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -989,11 +958,11 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 22,
+      "dana_na_trzistu": 23,
       "prva_cena": 1650.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-19",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Wellport|105.0|1650.0",
       "zgrada_izvor": "opis",
       "agencija_izvor": "scraper",
@@ -1017,11 +986,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 19,
+      "dana_na_trzistu": 20,
       "prva_cena": 1200.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-22",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Soul 64|55.0|1200.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1032,7 +1001,7 @@
     {
       "id": "88f13afd0b5514d8",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/dvosoban-stan-za-izdavanje-airport-garden/5425647710872?kid=1",
-      "naslov": "Novi Beograd, Tošin bunar, Airport Garden Djordja Stanojevića, 2.0, 56m2, 900EUR",
+      "naslov": "Dvosoban stan za izdavanje, Airport Garden",
       "zgrada": "Airport Garden",
       "agencija": "Beocity Nekretnine",
       "struktura": "2.0",
@@ -1046,11 +1015,11 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 19,
+      "dana_na_trzistu": 20,
       "prva_cena": 900.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-22",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Airport Garden|56.0|900.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1074,7 +1043,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 19,
+      "dana_na_trzistu": 20,
       "prva_cena": 680.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-22",
@@ -1089,7 +1058,7 @@
     {
       "id": "da179139174ca606",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-kula-69083/5425647458681?kid=4",
-      "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera, 1.650€, 104m²",
+      "naslov": "Novi Beograd - Wellport kula #69083",
       "zgrada": "Wellport",
       "agencija": "Beostan",
       "struktura": "4.0",
@@ -1102,13 +1071,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 1650.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-23",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Wellport|104.0|1650.0",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -1117,7 +1086,7 @@
     {
       "id": "79c484bc2e6eb406",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-nov-neuseljavan-komforan-id-26067/5425647715097?kid=4",
-      "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera, 2.100€, 105m²",
+      "naslov": "Wellport, nov, neuseljavan, komforan, ID 26067",
       "zgrada": "Wellport",
       "agencija": "Eminent Nekretnine",
       "struktura": "4.0",
@@ -1130,13 +1099,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 18,
+      "dana_na_trzistu": 19,
       "prva_cena": 2100.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-23",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Wellport|105.0|2100.0",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -1145,7 +1114,7 @@
     {
       "id": "c176cefd17dcdfa0",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-kompletno-namesten-odmah-uselj/5425647719316?kid=1",
-      "naslov": "Trosoban stan za izdavanje, Đorđa Stanojevića, 1.700€, 73m²",
+      "naslov": "Airport Garden, kompletno namešten, odmah useljiv ",
       "zgrada": "Airport Garden",
       "agencija": "Property Broker",
       "struktura": "3.0",
@@ -1158,13 +1127,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 17,
+      "dana_na_trzistu": 18,
       "prva_cena": 1700.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-24",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Airport Garden|73.0|1700.0",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -1186,7 +1155,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 16,
+      "dana_na_trzistu": 17,
       "prva_cena": 2650.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-25",
@@ -1201,7 +1170,7 @@
     {
       "id": "7408c70bfff9e5f3",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-kula-69124/5425647724731?kid=4",
-      "naslov": "Četvorosoban stan za izdavanje, WELLPORT, 2.100€, 105m²",
+      "naslov": "Novi Beograd - Wellport kula #69124",
       "zgrada": "Wellport",
       "agencija": "Beostan",
       "struktura": "4.0",
@@ -1214,11 +1183,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 16,
+      "dana_na_trzistu": 17,
       "prva_cena": 2100.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-25",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Wellport|105.0|2100.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -1242,7 +1211,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 15,
+      "dana_na_trzistu": 16,
       "prva_cena": 2650.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-26",
@@ -1257,7 +1226,7 @@
     {
       "id": "fd2aa7d9b4bb16b5",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---a-blok-59203/5425647722667?kid=4",
-      "naslov": "Četvorosoban stan za izdavanje, Urosa Martinovica, 2.800€, 175m²",
+      "naslov": "Novi Beograd - A blok #2459203",
       "zgrada": "A Blok",
       "agencija": "Beostan",
       "struktura": "4.0",
@@ -1270,13 +1239,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 14,
+      "dana_na_trzistu": 15,
       "prva_cena": 2800.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-27",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "A Blok|175.0|2800.0",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -1285,7 +1254,7 @@
     {
       "id": "1d155303b4880dad",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul-64-lux-neuseljavan-terasa-35m2-id-26104/5425647747529?kid=4",
-      "naslov": "Dvosoban stan za izdavanje, Omladinskih brigada, 1.300€, 55m²",
+      "naslov": "Soul 64, lux, neuseljavan, terasa 35m2, ID 26104",
       "zgrada": "Soul 64",
       "agencija": "Eminent Nekretnine",
       "struktura": "2.0",
@@ -1298,13 +1267,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 12,
+      "dana_na_trzistu": 13,
       "prva_cena": 1300.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-29",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Soul 64|55.0|1300.0",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -1326,7 +1295,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1200.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1354,7 +1323,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1650.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1382,7 +1351,7 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 900.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1409,7 +1378,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1900,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1437,7 +1406,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1464,7 +1433,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1250,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1491,7 +1460,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 2100,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1518,7 +1487,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1545,7 +1514,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1650,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1572,7 +1541,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1599,7 +1568,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1626,7 +1595,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1653,7 +1622,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1680,7 +1649,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1695,7 +1664,7 @@
     {
       "id": "df06d7b0e146d16f",
       "url": "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/petosoban-stan/6ab27b81a4a55911f3080719",
-      "naslov": "Petosoban stan za izdavanje, Tadije Sondermajera Wellport Kula, 2.650€, 160m²",
+      "naslov": "Wellport Kula-Petosoban stan,2 garazna mesta",
       "zgrada": "Wellport",
       "agencija": null,
       "struktura": "5.0",
@@ -1708,11 +1677,11 @@
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 2650,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Wellport|160.0|2650",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
@@ -1735,7 +1704,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1762,7 +1731,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1789,7 +1758,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1650,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1816,7 +1785,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 2650,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1843,7 +1812,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1400,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1870,7 +1839,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 750,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1897,7 +1866,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 2500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1925,7 +1894,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1400,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1952,7 +1921,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1900,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -1979,7 +1948,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 3500,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -2006,7 +1975,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 2200,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -2033,7 +2002,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 11,
+      "dana_na_trzistu": 12,
       "prva_cena": 1000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -2049,7 +2018,7 @@
     {
       "id": "f8171857503ef0e4",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/ekskluzivan-3-0-duplex-od-148m2-a-blok/5425647264776?kid=1",
-      "naslov": "Trosoban stan za izdavanje, A Blok - Blok 67a, 3.600€, 148m²",
+      "naslov": "Ekskluzivan 3.0 duplex od 148m2, A Blok",
       "zgrada": "A Blok",
       "agencija": "Sonata Properties",
       "struktura": "3.0",
@@ -2062,11 +2031,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 7,
+      "dana_na_trzistu": 8,
       "prva_cena": 3600.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-04",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "A Blok|148.0|3600.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2077,7 +2046,7 @@
     {
       "id": "df4ec725bd6aec1f",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/belville-maslacak-2-0-lux-sa-garazom-id19093/5425647752395?kid=1",
-      "naslov": "Dvosoban stan za izdavanje, Jurija Gagarina, 1.200€, 69m²",
+      "naslov": "Belville,Maslačak,2.0,lux,sa garažom ID#19093",
       "zgrada": "Belvil",
       "agencija": "Bilding Nekretnine",
       "struktura": "2.0",
@@ -2090,13 +2059,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 6,
+      "dana_na_trzistu": 7,
       "prva_cena": 1200.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-05",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Belvil|69.0|1200.0",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -2105,7 +2074,7 @@
     {
       "id": "d78a1e0bf05ac2f4",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/belvil-106m2-dve-spavace-ciklama-id3008/5425647780295?kid=4",
-      "naslov": "Trosoban stan za izdavanje, Đorđa Stanojevića, 1.400€, 106m²",
+      "naslov": "Belvil 106m2-dve spavaće-Ciklama ID#3008",
       "zgrada": "Belvil",
       "agencija": "Brickpro",
       "struktura": "3.0",
@@ -2118,13 +2087,13 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 1400.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-06",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Belvil|106.0|1400.0",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -2145,7 +2114,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
@@ -2160,7 +2129,7 @@
     {
       "id": "ce836c43a7e58bb4",
       "url": "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/petosoban-stan/6abf6e40b6c9772c3e03ac56",
-      "naslov": "Petosoban stan za izdavanje, Tadije Sondermajera, 2.650€, 162m²",
+      "naslov": "Novi Beograd,Wellport 5.0,garaza ",
       "zgrada": "Wellport",
       "agencija": "Beopro",
       "struktura": "5.0",
@@ -2173,13 +2142,13 @@
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 2650,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Wellport|162.0|2650",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -2200,7 +2169,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1100,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
@@ -2227,7 +2196,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1650,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
@@ -2254,7 +2223,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 700,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
@@ -2281,7 +2250,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 950,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
@@ -2296,7 +2265,7 @@
     {
       "id": "5ba204e3a85b84f4",
       "url": "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6abfe3a5f7ccc18950029b1b",
-      "naslov": "Dvosoban stan za izdavanje, Tadije Sondermajera, 1.100€, 54m²",
+      "naslov": "Wellport, novogradnja, parking mesto, ID 23030",
       "zgrada": "Wellport",
       "agencija": "Eminent Nekretnine",
       "struktura": "2.0",
@@ -2309,13 +2278,13 @@
         "4zida",
         "halo"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1100,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "Wellport|54.0|1100",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -2336,7 +2305,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 4,
+      "dana_na_trzistu": 5,
       "prva_cena": 1700,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
@@ -2351,7 +2320,7 @@
     {
       "id": "24823e06bd90d78d",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65-lux-stan-sa-garazom-id-7623/5425645952678?kid=1",
-      "naslov": "Dvosoban stan za izdavanje, Omladinskih Brigada West 65, 1.200€, 60m²",
+      "naslov": "West 65, lux stan sa garažom, ID 7623",
       "zgrada": "West 65",
       "agencija": "Symbol Properties Doo Beograd",
       "struktura": "2.0",
@@ -2364,11 +2333,11 @@
         "halo",
         "4zida"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1200.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-08",
-      "last_seen": "2026-10-11",
+      "last_seen": "2026-10-12",
       "dedup_key": "West 65|60.0|1200.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -2391,7 +2360,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 3000,
       "promena_cene_pct": null,
       "first_seen": "2026-10-08",
@@ -2418,7 +2387,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 3,
+      "dana_na_trzistu": 4,
       "prva_cena": 1650,
       "promena_cene_pct": null,
       "first_seen": "2026-10-08",
@@ -2445,7 +2414,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 1650,
       "promena_cene_pct": null,
       "first_seen": "2026-10-09",
@@ -2472,7 +2441,7 @@
       "izvori": [
         "4zida"
       ],
-      "dana_na_trzistu": 0,
+      "dana_na_trzistu": 1,
       "prva_cena": 1650,
       "promena_cene_pct": null,
       "first_seen": "2026-10-11",
