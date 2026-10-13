@@ -1516,12 +1516,13 @@
         "4zida"
       ],
       "source_ids": {
-        "halo": "96b5430eea6c",
+        "halo": "ee327afb7bc6",
         "4zida": "4zida:6a05ce98b990aaddeb02244c"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok-iv-faza-nov-lux-4-0-retko-u-ponudi/5425647146884?kid=3",
-        "https://www.4zida.rs/prodaja-stanova/a-blok-blok-67a-novi-beograd-beograd/cetvorosoban-stan/6a05ce98b990aaddeb02244c"
+        "https://www.4zida.rs/prodaja-stanova/a-blok-blok-67a-novi-beograd-beograd/cetvorosoban-stan/6a05ce98b990aaddeb02244c",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok-iv-faza-nov-lux-4-0-retko-u-ponudi/5425647146884"
       ],
       "zgrada": "A Blok",
       "struktura": "4.0",
@@ -24325,10 +24326,52 @@
       "price_first": 247500.0,
       "price_current": 247500.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 4500
+    },
+    "8f286c0263da34c8": {
+      "uid": "8f286c0263da34c8",
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "7852d4d19319bbc0",
+      "fp_loose_all": [
+        "7852d4d19319bbc0"
+      ],
+      "fp_nosprat": "58df8917b84325be",
+      "fp_nosprat_all": [
+        "58df8917b84325be"
+      ],
+      "fp_strict_all": [
+        "5852fb1cb021915a"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-13"
+      },
+      "source_ids": {
+        "halo": "d4bd279a51c1"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novogradnja-useljiv-garaza/5425647816533?kid=1"
+      ],
+      "zgrada": "Lux 51",
+      "struktura": "1.5",
+      "str_label": null,
+      "m2": 45.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Novogradnja, useljiv, garaža",
+      "price_first": 185000.0,
+      "price_current": 185000.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-13T04:02:20.614891+00:00",
+  "updated_at": "2026-10-13T10:53:52.722351+00:00",
   "last_run": {
     "4zida": "2026-10-12",
     "nadjidom": "2026-10-12",

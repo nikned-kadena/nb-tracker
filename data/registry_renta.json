@@ -24133,13 +24133,14 @@
         "4zida"
       ],
       "source_ids": {
-        "halo": "ed9940fa447f",
+        "halo": "90772de12098",
         "4zida": "4zida:6ab3b391c640ec1d150d37dc"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-kompletno-namesten-odmah-uselj/5425647719316?kid=1",
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-kompletno-namesten-odmah-uselj/5425647719316?kid=4",
-        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6ab3b391c640ec1d150d37dc"
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6ab3b391c640ec1d150d37dc",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-kompletno-namesten-odmah-uselj/5425647816544?kid=1"
       ],
       "zgrada": "Airport Garden",
       "struktura": "3.0",
@@ -29832,7 +29833,8 @@
       "price_first": 950.0,
       "price_current": 950.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 23
     },
     "3b363f3a5e6c19f8": {
       "uid": "3b363f3a5e6c19f8",
@@ -29916,7 +29918,8 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 24
     },
     "51a7672dc02e6c05": {
       "uid": "51a7672dc02e6c05",
@@ -29957,10 +29960,134 @@
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 17
+    },
+    "e38ef88fe5778c1f": {
+      "uid": "e38ef88fe5778c1f",
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "db1c57cfcb7bb91e",
+      "fp_loose_all": [
+        "db1c57cfcb7bb91e"
+      ],
+      "fp_nosprat": "d6ab8636d41bda23",
+      "fp_nosprat_all": [
+        "d6ab8636d41bda23"
+      ],
+      "fp_strict_all": [
+        "96b39000b4e221ee"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-13"
+      },
+      "source_ids": {
+        "halo": "6c3a8fcb1c3e"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---lastavice-69363/5425647816549?kid=1"
+      ],
+      "zgrada": "Lastavica",
+      "struktura": "1.0",
+      "str_label": null,
+      "m2": 31.0,
+      "sprat": null,
+      "agencija": "beostan",
+      "naslov": "Novi Beograd - Lastavice #69363",
+      "price_first": 650.0,
+      "price_current": 650.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "07effeb70d3aa95b": {
+      "uid": "07effeb70d3aa95b",
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "db1c57cfcb7bb91e",
+      "fp_loose_all": [
+        "db1c57cfcb7bb91e"
+      ],
+      "fp_nosprat": "d6ab8636d41bda23",
+      "fp_nosprat_all": [
+        "d6ab8636d41bda23"
+      ],
+      "fp_strict_all": [
+        "96b39000b4e221ee"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-13"
+      },
+      "source_ids": {
+        "halo": "a733a3390d52"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lastavice-jednosoban-nov-stan-id19598/5425647816559?kid=1"
+      ],
+      "zgrada": "Lastavica",
+      "struktura": "1.0",
+      "str_label": null,
+      "m2": 31.0,
+      "sprat": null,
+      "agencija": "bilding-nekretnine-d-o-o",
+      "naslov": "Lastavice,jednosoban,nov stan ID#19598",
+      "price_first": 650.0,
+      "price_current": 650.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "bbdb96c3c460b46b": {
+      "uid": "bbdb96c3c460b46b",
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "31f2a9d7c1a90b75",
+      "fp_loose_all": [
+        "31f2a9d7c1a90b75"
+      ],
+      "fp_nosprat": "bbfb2d5786beb8ee",
+      "fp_nosprat_all": [
+        "bbfb2d5786beb8ee"
+      ],
+      "fp_strict_all": [
+        "a4b1791870eb1c4a"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-13"
+      },
+      "source_ids": {
+        "halo": "fa0b344b261c"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65-ekskluzivna-kancelarija-na-30-spratu/5425647816539?kid=1"
+      ],
+      "zgrada": "West 65",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 66.0,
+      "sprat": null,
+      "agencija": "PremiumRealEstate",
+      "naslov": "West 65, ekskluzivna kancelarija na 30 spratu",
+      "price_first": 1800.0,
+      "price_current": 1800.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-13T04:02:58.158758+00:00",
+  "updated_at": "2026-10-13T10:54:38.876920+00:00",
   "last_run": {
     "4zida": "2026-10-12",
     "nadjidom": "2026-10-12",

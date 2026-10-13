@@ -4,7 +4,7 @@
   "pocetak_pracenja": "2026-06-29",
   "ukupno": {
     "n_zavrseni": 347,
-    "n_aktivni": 260,
+    "n_aktivni": 261,
     "dom_medijana": 39,
     "metod": "kaplan-meier",
     "pouzdano": true,
@@ -787,14 +787,14 @@
     },
     "Lux 51": {
       "n_zavrseni": 17,
-      "n_aktivni": 11,
+      "n_aktivni": 12,
       "dom_medijana": 52,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 12,
-      "starost_aktivnih_medijana": 76,
+      "starost_aktivnih_medijana": 44,
       "udeo_jos_u_ponudi": 0.2308,
-      "udeo_aktivnih_pct": 39,
+      "udeo_aktivnih_pct": 41,
       "skinuti_p25": 9,
       "skinuti_p75": 52,
       "brzo_do_30d": 71,
@@ -1660,7 +1660,7 @@
     },
     "nepoznato": {
       "n_zavrseni": 312,
-      "n_aktivni": 224,
+      "n_aktivni": 225,
       "dom_medijana": 45,
       "metod": "kaplan-meier",
       "pouzdano": true,
@@ -2025,7 +2025,7 @@
     "prosecno_snizenje_pct": 4.2
   },
   "izvori": {
-    "halo": 542,
+    "halo": 543,
     "nadjidom": 64,
     "4zida": 173
   },

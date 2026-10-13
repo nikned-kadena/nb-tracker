@@ -3,11 +3,12 @@
   "source": "all",
   "date": "2026-10-13",
   "scraped_at": "2026-10-13",
-  "total_raw": 260,
+  "total_raw": 261,
   "total_unique": 194,
-  "total_dups": 66,
+  "total_dups": 67,
   "diff_new": [
-    "41846a5a3fa2d08a"
+    "41846a5a3fa2d08a",
+    "8f286c0263da34c8"
   ],
   "diff_removed": [
     "7eba2ca16ec1069c",
@@ -7180,6 +7181,33 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "8f286c0263da34c8",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novogradnja-useljiv-garaza/5425647816533?kid=1",
+      "naslov": "Novogradnja, useljiv, garaža",
+      "zgrada": "Lux 51",
+      "agencija": null,
+      "struktura": "1.5",
+      "str_label": null,
+      "m2": 45.0,
+      "cena": 185000.0,
+      "cena_m2": 4111,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 185000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "dedup_key": "Lux 51|45.0|185000.0",
+      "zgrada_izvor": "opis",
+      "agencija_izvor": null,
+      "posrednik": null,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }

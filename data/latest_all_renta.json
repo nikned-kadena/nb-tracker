@@ -3,14 +3,17 @@
   "source": "all",
   "date": "2026-10-13",
   "scraped_at": "2026-10-13",
-  "total_raw": 158,
-  "total_unique": 133,
-  "total_dups": 25,
+  "total_raw": 161,
+  "total_unique": 135,
+  "total_dups": 26,
   "diff_new": [
     "bdb4b2e892a3a907",
     "3b363f3a5e6c19f8",
     "bd12204365b5699a",
-    "51a7672dc02e6c05"
+    "51a7672dc02e6c05",
+    "e38ef88fe5778c1f",
+    "07effeb70d3aa95b",
+    "bbdb96c3c460b46b"
   ],
   "diff_removed": [
     "4005daabbe5a2c0f"
@@ -1595,7 +1598,7 @@
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
-      "cena_m2_sumnjiva": true
+      "cena_m2_sumnjiva": false
     },
     {
       "id": "36c0c01797903050",
@@ -4350,6 +4353,87 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "e38ef88fe5778c1f",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---lastavice-69363/5425647816549?kid=1",
+      "naslov": "Novi Beograd - Lastavice #69363",
+      "zgrada": "Lastavica",
+      "agencija": "Beostan",
+      "struktura": "1.0",
+      "str_label": null,
+      "m2": 31.0,
+      "cena": 650.0,
+      "cena_m2": 21,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 650.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "dedup_key": "Lastavica|31.0|650.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "07effeb70d3aa95b",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lastavice-jednosoban-nov-stan-id19598/5425647816559?kid=1",
+      "naslov": "Lastavice,jednosoban,nov stan ID#19598",
+      "zgrada": "Lastavica",
+      "agencija": "Bilding Nekretnine",
+      "struktura": "1.0",
+      "str_label": null,
+      "m2": 31.0,
+      "cena": 650.0,
+      "cena_m2": 21,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 650.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "dedup_key": "Lastavica|31.0|650.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "bbdb96c3c460b46b",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65-ekskluzivna-kancelarija-na-30-spratu/5425647816539?kid=1",
+      "naslov": "West 65, ekskluzivna kancelarija na 30 spratu",
+      "zgrada": "West 65",
+      "agencija": "Premium Real Estate",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 66.0,
+      "cena": 1800.0,
+      "cena_m2": 27,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1800.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-13",
+      "dedup_key": "West 65|66.0|1800.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }
