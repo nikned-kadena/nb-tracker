@@ -2,21 +2,10 @@
   "date": "2026-10-14",
   "mode": "renta",
   "source": "halo",
-  "total_raw": 97,
+  "total_raw": 96,
   "total_unique": 78,
-  "diff_new": [
-    "a733a3390d52",
-    "3137d181f077",
-    "ae9e35439e50",
-    "7a64adfa2449",
-    "99de3b1025cd"
-  ],
-  "diff_removed": [
-    "a9fa33dc40d6",
-    "f2bfcd90b0d7",
-    "2fa747cfdc54",
-    "6c3a8fcb1c3e"
-  ],
+  "diff_new": [],
+  "diff_removed": [],
   "listings": [
     {
       "id": "bae64792d295",
@@ -29,6 +18,32 @@
       "m2": 194.0,
       "cena_m2": 14,
       "agencija": "Benefit",
+      "izvor": "halo"
+    },
+    {
+      "id": "99de3b1025cd",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---savada-3-69375/5425647819533?kid=4",
+      "naslov": "Novi Beograd - Savada 3 #69375",
+      "opis": "50% od prve mesečne zakupnine",
+      "zgrada": "Savada",
+      "struktura": "4.0",
+      "cena": 1600.0,
+      "m2": 98.0,
+      "cena_m2": 16,
+      "agencija": "beostan",
+      "izvor": "halo"
+    },
+    {
+      "id": "3137d181f077",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---bezanijska-kosa-i-lux-51-3-0-g/5425647816595?kid=4",
+      "naslov": "Novi Beograd - Bezanijska Kosa I-Lux 51-3.0-Garaža",
+      "opis": "Stan na atraktivnoj lokaciji u okviru prestiznog kompleksa Lux 51. Kompleks Lux 51 predstavlja savremeni kompleks visokog kvaliteta gradnje prilagodjen savremenom nacinu zivota. Objekat prepoznatljiv po elegantnoj arhitekturi, pazljivo biranim materijalima i funkcionalno organizovanim stanovima sa obiljem prirodnog svetla. Komforan dnevni boravak, kvalitetna stolarija, savremeni sistem grejanja i hladjenja i vrhunska zavrsna obrada pruzaju visok stepen udobnosti i privatnosti. Oglaseni stan po strukturi trosoban, svetao, dva kupatila, garazno mesto. Agencijska provizija 50% od prve kirije. Za sve dodatne informacije, molimo da nas kontaktirate. ,",
+      "zgrada": "Lux 51",
+      "struktura": "3.0",
+      "cena": 1100.0,
+      "m2": 78.0,
+      "cena_m2": 14,
+      "agencija": "m-real-estate",
       "izvor": "halo"
     },
     {
@@ -1004,32 +1019,6 @@
       "m2": 176.0,
       "cena_m2": 16,
       "agencija": "Kredium",
-      "izvor": "halo"
-    },
-    {
-      "id": "99de3b1025cd",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---savada-3-69375/5425647819533?kid=4",
-      "naslov": "Novi Beograd - Savada 3 #69375",
-      "opis": "50% od prve mesečne zakupnine",
-      "zgrada": "Savada",
-      "struktura": "4.0",
-      "cena": 1600.0,
-      "m2": 98.0,
-      "cena_m2": 16,
-      "agencija": "beostan",
-      "izvor": "halo"
-    },
-    {
-      "id": "3137d181f077",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---bezanijska-kosa-i-lux-51-3-0-g/5425647816595?kid=4",
-      "naslov": "Novi Beograd - Bezanijska Kosa I-Lux 51-3.0-Garaža",
-      "opis": "Stan na atraktivnoj lokaciji u okviru prestiznog kompleksa Lux 51. Kompleks Lux 51 predstavlja savremeni kompleks visokog kvaliteta gradnje prilagodjen savremenom nacinu zivota. Objekat prepoznatljiv po elegantnoj arhitekturi, pazljivo biranim materijalima i funkcionalno organizovanim stanovima sa obiljem prirodnog svetla. Komforan dnevni boravak, kvalitetna stolarija, savremeni sistem grejanja i hladjenja i vrhunska zavrsna obrada pruzaju visok stepen udobnosti i privatnosti. Oglaseni stan po strukturi trosoban, svetao, dva kupatila, garazno mesto. Agencijska provizija 50% od prve kirije. Za sve dodatne informacije, molimo da nas kontaktirate. ,",
-      "zgrada": "Lux 51",
-      "struktura": "3.0",
-      "cena": 1100.0,
-      "m2": 78.0,
-      "cena_m2": 14,
-      "agencija": "m-real-estate",
       "izvor": "halo"
     }
   ]
