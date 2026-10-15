@@ -1,12 +1,43 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "mode": "renta",
   "source": "halo",
-  "total_raw": 96,
-  "total_unique": 78,
-  "diff_new": [],
-  "diff_removed": [],
+  "total_raw": 99,
+  "total_unique": 82,
+  "diff_new": [
+    "9f1eb5fa6ff2",
+    "49eaf8fcd0d3",
+    "f48bd1d26987",
+    "dccb00f2b754",
+    "6c3a8fcb1c3e",
+    "7c2d3ddec4ed",
+    "816cd4ae90db",
+    "7479d2f4d0ce",
+    "a40c8be8cc33",
+    "2bf579a8b876"
+  ],
+  "diff_removed": [
+    "a733a3390d52",
+    "ab0fd645ed89",
+    "d5548dc62cbb",
+    "abdc3b1c36c5",
+    "7a64adfa2449",
+    "00dfa3f398f7"
+  ],
   "listings": [
+    {
+      "id": "de760450a4e0",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---bel-mondo-west-65-69208/5425647754239?kid=4",
+      "naslov": "Novi Beograd - Bel Mondo West 65 #69208",
+      "opis": "50% od prve mesečne zakupnine",
+      "zgrada": "Bel Mondo",
+      "struktura": "3.0",
+      "cena": 1700.0,
+      "m2": 95.0,
+      "cena_m2": 18,
+      "agencija": "beostan",
+      "izvor": "halo"
+    },
     {
       "id": "bae64792d295",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65---lux-penthaus/5425647646062?kid=4",
@@ -70,19 +101,6 @@
       "m2": 55.0,
       "cena_m2": 20,
       "agencija": "beostan",
-      "izvor": "halo"
-    },
-    {
-      "id": "ab0fd645ed89",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-kula-lux-komforan-stan-garaza-id-227/5425644637085?kid=4",
-      "naslov": "Wellport Kula, lux, komforan stan, garaža,ID 22755",
-      "opis": "Komforan stan u Kuli Wellporta , odličnog rasporeda prostorija. Čine ga dnevni boravak sa trpezarijom, opremljena kuhinja, dve spavaće sobe odvojene u zaseban blok sa kupatilom i toalet, master spavaća soba u drugom delu stana koja poseduje sopstveno kupatilo i prostrana terasa. Grejanje je centralno, po utrošku . Zgrada poseduje visok nivo obezbeđenja i predstavlja zatvoren tip naselja, obezbeđeno kapijom. Postoji mogućnost zakupa do dva garažna mesta uz doplatu od 100 eur/mestu.. Stan je veoma pogodan i kao poslovni prostor . Useljiv od 01. oktobra 2026. godine &nbsp; Agencijska provizija za zakupca se plaća u iznosu od 50% + PDV dogovorene jednomesečne zakupnine za period zakupa u trajanju do 12 meseci",
-      "zgrada": "Wellport",
-      "struktura": "4.0",
-      "cena": 1650.0,
-      "m2": 107.0,
-      "cena_m2": 15,
-      "agencija": "eminent-nekretnine",
       "izvor": "halo"
     },
     {
@@ -229,45 +247,6 @@
       "izvor": "halo"
     },
     {
-      "id": "00dfa3f398f7",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---bel-mondo-west-65-69207/5425647756646?kid=4",
-      "naslov": "Novi Beograd - Bel Mondo West 65 #69207",
-      "opis": "50% od prve mesečne zakupnine",
-      "zgrada": "Bel Mondo",
-      "struktura": "2.0",
-      "cena": 1300.0,
-      "m2": 80.0,
-      "cena_m2": 16,
-      "agencija": "beostan",
-      "izvor": "halo"
-    },
-    {
-      "id": "de760450a4e0",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---bel-mondo-west-65-69208/5425647754239?kid=4",
-      "naslov": "Novi Beograd - Bel Mondo West 65 #69208",
-      "opis": "50% od prve mesečne zakupnine",
-      "zgrada": "Bel Mondo",
-      "struktura": "3.0",
-      "cena": 1700.0,
-      "m2": 95.0,
-      "cena_m2": 18,
-      "agencija": "beostan",
-      "izvor": "halo"
-    },
-    {
-      "id": "abdc3b1c36c5",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---a-blok-59203/5425647754226?kid=4",
-      "naslov": "Novi Beograd - A blok #59203",
-      "opis": "50% od prve mesečne zakupnine",
-      "zgrada": "A Blok",
-      "struktura": "4.0",
-      "cena": 2800.0,
-      "m2": 175.0,
-      "cena_m2": 16,
-      "agencija": "beostan",
-      "izvor": "halo"
-    },
-    {
       "id": "c03d0fad82da",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/new-minel-dvoiposoban-luks-funkcionalan-names/5425646929236?kid=3",
       "naslov": "New Minel dvoiposoban luks funkcionalan namesten ",
@@ -333,16 +312,55 @@
       "izvor": "halo"
     },
     {
-      "id": "a733a3390d52",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lastavice-jednosoban-nov-stan-id19598/5425647816559?kid=1",
-      "naslov": "Lastavice,jednosoban,nov stan ID#19598",
-      "opis": "Izdaje se manji namešten nov stan u Lastavicama.Stan nema terasu,useljiv od 1.11. Ne izdaje se stranim državljanima.Kućni ljubimci nisu dozvoljeni. Agencijska provizija 50% od prve zakupnine.",
+      "id": "2bf579a8b876",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/moderan-3-0---garaza---kennedy-residence/5425645406469?kid=1",
+      "naslov": "Moderan 3.0 - garaza - Kennedy Residence",
+      "opis": "Luksuzan stan u novoizgradjenoj, visokokvalitetnoj zgradi Kennedy Residence na Novom Beogradu u bloku 9a. Stan se nalazi na jednoj od najpopularnijih lokacija u Beogradu. Zgrada je opremljena video nadzorom, a u holu zgrade nalazi se recepcija. Stan se sastoji od 2 spavaće sobe, velike dnevne sobe, kupatila i terase. Jedna od spavaćih soba je prazna, a ona se u dogovoru sa vlasnikom stana može opremiti u dečiju sobu, radnu sobu ili jos jednu spavaću sobu. Stan poseduje i jedno garažno mesto, uz doplatu 100eur.",
+      "zgrada": "Kennedy Residence",
+      "struktura": "3.0",
+      "cena": 1500.0,
+      "m2": 95.0,
+      "cena_m2": 16,
+      "agencija": "BebaRealEstate",
+      "izvor": "halo"
+    },
+    {
+      "id": "9f1eb5fa6ff2",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/2-0-garaza-west-65/5425645983246?kid=1",
+      "naslov": "2.0 / garaza / West 65",
+      "opis": "Prostor koji ne pretenduje da impresionira-već da zadrži pažnju. Na prvom spratu kompleksa West 65, ovaj stan nudi arhitekturu svakodnevice u svom najtišem obliku, jednostavno, promišljeno i čisto. Materijali su pažljivo usklađeni: topli tonovi drveta, mat bele površine i staklo koje prostor otvara bez potrebe za dramom. U dnevnoj zoni sve je podređeno lakoći kretanja i vizuelnom miru. Detalji nisu tu da privuku pogled već da ga zadrže. Vertikalne letvice u hodniku stvaraju suptilan ritam, dok zaobljeni sto i tapacirane stolice unose osećaj zaobljene udobnosti. Kuhinja u teksturi blede hrastovine nagoveštava funkcionalnost bez žrtvovanja estetike. To je prostor za tihe jutarnje rutine i večernje mirne sate. Spavaća soba je rasterećena, okrenuta zelenilu, u njoj dominira jednostavnost i svetlost. Kupatilo je izvedeno u nijansama peska i kamena, diskretno ali dosledno u izrazu. Balkon, iako kompaktan, otvara kadar ka urbanoj tišini: drveće, svetlo, malo ritma sa strane ulice. Stan dolazi sa garažnim mestom, kao logična tačka na svakodnevicu koja traži jednostavnost, red i lakoću. Kod 200",
+      "zgrada": "West 65",
+      "struktura": "2.0",
+      "cena": 1000.0,
+      "m2": 60.0,
+      "cena_m2": 17,
+      "agencija": "BebaRealEstate",
+      "izvor": "halo"
+    },
+    {
+      "id": "49eaf8fcd0d3",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/dom-koji-dise-svetloscu-a-blok/5425646212412?kid=1",
+      "naslov": "Dom koji diše svetlošću / A blok",
+      "opis": "U srcu prestižnog kompleksa A Blok, izdvaja se ovaj sofisticirani dupleks od 137 m², zamišljen kao savremeni manifest udobnosti i elegancije. Arhitektonski promišljen do detalja, stan se prostire na dva nivoa koji diskretno razdvajaju dnevnu dinamiku od privatnog prostora za odmor. Donji nivo: prozračna scena za život U prizemlju se otvara prostran dnevni boravak koji u jednom dahu spaja trpezariju i modernu kuhinju čistih linija. Centralni motiv je lebdeće stepenište -skulpturalni element koji prostoru daje prepoznatljiv identitet. Iz dnevne zone izlazi se na terasu sa panoramskim pogledom na Beograd, idealnu za jutarnju kafu ili večernji zalazak sunca. Gornji nivo: privatna oaza Na spratu je smešten spavaći blok sa tri sobe, uključujući i master apartman sa sopstvenim kupatilom i walk-in garderoberom. Tu su i dodatno kupatilo, kao i praktična vešernica, što stan čini ne samo luksuznim, već i izuzetno funkcionalnim. Stanari A Bloka uživaju u pažljivo planiranoj infrastrukturi: parkovima i igralištima, blizini škola, vrtića i renomiranih restorana, dok tržni centar i poslovne zone ostaju na svega nekoliko minuta hoda. Izvrsna saobraćajna povezanost omogućava lako kretanje kroz grad",
+      "zgrada": "A Blok",
+      "struktura": "4.0",
+      "cena": 3000.0,
+      "m2": 137.0,
+      "cena_m2": 22,
+      "agencija": "BebaRealEstate",
+      "izvor": "halo"
+    },
+    {
+      "id": "6c3a8fcb1c3e",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---lastavice-69363/5425647816549?kid=1",
+      "naslov": "Novi Beograd - Lastavice #69363",
+      "opis": "50% od prve mesečne zakupnine",
       "zgrada": "Lastavica",
       "struktura": "1.0",
       "cena": 650.0,
       "m2": 31.0,
       "cena_m2": 21,
-      "agencija": "bilding-nekretnine-d-o-o",
+      "agencija": "beostan",
       "izvor": "halo"
     },
     {
@@ -775,6 +793,19 @@
       "izvor": "halo"
     },
     {
+      "id": "7c2d3ddec4ed",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---a-blok-59203/5425647754226?kid=1",
+      "naslov": "Novi Beograd - A blok #59203",
+      "opis": "50% od prve mesečne zakupnine",
+      "zgrada": "A Blok",
+      "struktura": "4.0",
+      "cena": 2800.0,
+      "m2": 175.0,
+      "cena_m2": 16,
+      "agencija": "beostan",
+      "izvor": "halo"
+    },
+    {
       "id": "c9dbbd8ac671",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---soul-64-69071/5425647752451?kid=1",
       "naslov": "Novi Beograd - Soul 64 #69071",
@@ -784,19 +815,6 @@
       "cena": 1200.0,
       "m2": 55.0,
       "cena_m2": 22,
-      "agencija": "beostan",
-      "izvor": "halo"
-    },
-    {
-      "id": "7a64adfa2449",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-3-soban-2968166/5425647752450?kid=1",
-      "naslov": "Novi Beograd - Airport Garden 3 soban #2968166",
-      "opis": "50% od prve mesečne zakupnine",
-      "zgrada": "Airport Garden",
-      "struktura": "3.0",
-      "cena": 1200.0,
-      "m2": 77.0,
-      "cena_m2": 16,
       "agencija": "beostan",
       "izvor": "halo"
     },
@@ -837,6 +855,19 @@
       "m2": 39.0,
       "cena_m2": 23,
       "agencija": "avenia011",
+      "izvor": "halo"
+    },
+    {
+      "id": "dccb00f2b754",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-izdavanje-3-0-nov-prazan-parki/5425647404300?kid=1",
+      "naslov": "Airport Garden, izdavanje 3.0 nov, prazan, parking",
+      "opis": "Na ekskluzivnoj lokaciji na Novom Beogradu, u blizini West-a 65, optimalno udaljenoj od svih neophodnih infrastrukturnih sadržaja i najvažnijih saobraćajnica, nalazi se arhitektonski impresivan, estetski atraktivan i funkcionalno superioran rezidencijalni kompleks Airport Garden. Kompleks se u dizajniranju vodi vanvremenskim sofisticiranim formatima savremenog dizajna. Stan je po strukturi trosoban, nov, prazan, za izdavanje, smešten u zgradi sa recepcijom, obezbeđenjem i liftom, koja je uredna i održavana. Mogućnost opremanja stana. Odličan kako za stanovanje tako i kao poslovni prostor. Stan poseduje i parking mesto od 14m2. Useljiv od 01.09.2026.godine. Obavezan depozit prema zakupodavcu u visini rente + 50% provizija agencije za usluge posredovanja.&nbsp; 069/2191-847 i 011/2283-734",
+      "zgrada": "Airport Garden",
+      "struktura": "3.0",
+      "cena": 1200.0,
+      "m2": 77.0,
+      "cena_m2": 16,
+      "agencija": "city-hedonia-agencija-za-nekretnine",
       "izvor": "halo"
     },
     {
@@ -1009,16 +1040,55 @@
       "izvor": "halo"
     },
     {
-      "id": "d5548dc62cbb",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-13-ekskluzivan-cetvorosoban-stan/5425647482508?kid=1",
-      "naslov": "A Blok 13 | Ekskluzivan četvorosoban stan",
-      "opis": "U ponudi za izdavanje nalazi se četvorosoban stan površine 176 m² , smešten u prestižnom naselju A Blok , u Ulici Uroša Martinovića na Novom Beogradu . Stan se nalazi na 7. i ujedno poslednjem spratu moderne stambene zgrade, pri čemu je jedini stan na spratu , što budućim zakupcima pruža maksimalnu privatnost, mir i komfor. &nbsp; Odličan raspored prostorija i prostran enterijer čine ovu nekretninu idealnim izborom za porodični život ili poslovne korisnike koji traže reprezentativan prostor na jednoj od najtraženijih lokacija u Beogradu. Velike staklene površine omogućavaju obilje prirodne svetlosti tokom celog dana, dok savremena gradnja i kvalitetni materijali garantuju visok standard stanovanja. &nbsp; A Blok je jedno od najtraženijih stambenih naselja u Beogradu, prepoznatljivo po modernoj arhitekturi, uređenom okruženju i bogatoj ponudi sadržaja. U neposrednoj blizini nalaze se Delta City , Savski kej , brojni restorani, kafići, supermarketi, vrtići i drugi sadržaji koji svakodnevni život čine jednostavnim i prijatnim. Odlična saobraćajna povezanost omogućava brz pristup svim delovima grada. &nbsp; Ukoliko tražite stan za izdavanje na Novom Beogradu koji spaja prostranost, vrh",
-      "zgrada": "A Blok",
-      "struktura": "4.0",
-      "cena": 2900.0,
-      "m2": 176.0,
-      "cena_m2": 16,
-      "agencija": "Kredium",
+      "id": "7479d2f4d0ce",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/new-minel-lux-novogranja-garaza-id-25476/5425646933170?kid=4",
+      "naslov": "New Minel, lux, novogranja, garaža, ID 25476",
+      "opis": "Lepo uređen stan u lux kompleksu New Minel, potpuno opremljen, kvalitetan, funkcionalan, jugoistočno orijentisan, poseduje dve odvojene spavaće sobe, cg po utrošku, video nadzor. Uz stan se može zakupiti i garažno mesto, uz doplatu 100 eur. Kompleks poseduje visok stepen obezbeđenja, kao i lepo ureeđeno dvorište. &nbsp; Agencijska provizija za zakupca se plaća u iznosu od 50% + PDV dogovorene jednomesečne zakupnine za period zakupa u trajanju do 12 meseci",
+      "zgrada": "New Minel",
+      "struktura": "2.5",
+      "cena": 1100.0,
+      "m2": 60.0,
+      "cena_m2": 18,
+      "agencija": "eminent-nekretnine",
+      "izvor": "halo"
+    },
+    {
+      "id": "a40c8be8cc33",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---soul-64-69377/5425647821722?kid=4",
+      "naslov": "Novi Beograd - Soul 64 #69377",
+      "opis": "50% od prve mesečne zakupnine",
+      "zgrada": "Soul 64",
+      "struktura": "3.0",
+      "cena": 1800.0,
+      "m2": 88.0,
+      "cena_m2": 20,
+      "agencija": "beostan",
+      "izvor": "halo"
+    },
+    {
+      "id": "816cd4ae90db",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/new-minel/5425647822421?kid=4",
+      "naslov": "New Minel",
+      "opis": "Izdajem nov &nbsp;stan(dnevna i spavaca soba 42m2.) u New Minelu-Tosin Bunar.Prvi sprat,opremljen,grijanje, klima, garazno mjesto.",
+      "zgrada": "New Minel",
+      "struktura": "2.0",
+      "cena": 950.0,
+      "m2": 42.0,
+      "cena_m2": 23,
+      "agencija": null,
+      "izvor": "halo"
+    },
+    {
+      "id": "f48bd1d26987",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul-64-2bdrm-87-00-m2/5425647821754?kid=1",
+      "naslov": "Soul 64, 2bdrm, 87,00 m2",
+      "opis": "Izdaje se potpuno nov, do sada neuseljavan i moderno opremljen stan u prestižnom stambenom kompleksu SOUL 64 na Novom Beogradu. Stan odlikuju savremen dizajn, pažljivo odabran nameštaj i oprema, kao i funkcionalan raspored koji pruža visok nivo komfora i udobnosti. Stan se sastoji od prostranog dnevnog boravka, moderno opremljene kuhinje sa trpezarijskim delom, dve odvojene spavaće sobe, kupatila, dodatnog toaleta i dve terase koje pružaju dodatni prostor za odmor i uživanje. Enterijer je uređen u modernom i elegantnom stilu, sa posebnim akcentom na funkcionalnost i kvalitet. Nekretnina je u potpunosti nameštena i opremljena, spremna za useljenje bez dodatnih ulaganja. Idealan je izbor za one koji traže savremen, komforan i reprezentativan životni prostor na jednoj od atraktivnijih lokacija Novog Beograda. Uz stan je dostupno i veliko parking mesto, koje nije uracunato u cenu zakupa. Za više informacija i zakazivanje razgledanja, kontaktirajte nas.",
+      "zgrada": "Soul 64",
+      "struktura": "2.0",
+      "cena": 1900.0,
+      "m2": 87.0,
+      "cena_m2": 22,
+      "agencija": null,
       "izvor": "halo"
     }
   ]
