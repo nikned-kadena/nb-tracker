@@ -3,8 +3,8 @@
   "source": "all",
   "date": "2026-10-17",
   "scraped_at": "2026-10-17",
-  "total_raw": 161,
-  "total_unique": 133,
+  "total_raw": 163,
+  "total_unique": 135,
   "total_dups": 28,
   "diff_new": [
     "d0024c2268f5ce9b",
@@ -12,7 +12,9 @@
     "65b34fc3332d2da8",
     "990d81fd17149058",
     "b216c1b0f1f6e5ff",
-    "250cdc72f950a381"
+    "250cdc72f950a381",
+    "a4b2e15ddb9e822c",
+    "b8387e765163c000"
   ],
   "diff_removed": [
     "39e46b63d26f8a36",
@@ -4440,6 +4442,60 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "a4b2e15ddb9e822c",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/belville---garsonjera-32-m2-namestena-garaza/5425647837835?kid=1",
+      "naslov": "Belville - garsonjera 32 m2, nameštena, garaža",
+      "zgrada": "Belvil",
+      "agencija": null,
+      "struktura": "1.0",
+      "str_label": null,
+      "m2": 32.0,
+      "cena": 600.0,
+      "cena_m2": 19,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 600.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "dedup_key": "Belvil|32.0|600.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "b8387e765163c000",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/belvil-novi-beograd-izdaje-se-namestena-garso/5425641468465?kid=1",
+      "naslov": "Belvil Novi Beograd izdaje se nameštena garsonjera",
+      "zgrada": "Belvil",
+      "agencija": null,
+      "struktura": "garsonjera",
+      "str_label": null,
+      "m2": 32.0,
+      "cena": 550.0,
+      "cena_m2": 17,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 550.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "dedup_key": "Belvil|32.0|550.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }
