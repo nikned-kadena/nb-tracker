@@ -3,8 +3,8 @@
   "source": "all",
   "date": "2026-10-18",
   "scraped_at": "2026-10-18",
-  "total_raw": 162,
-  "total_unique": 133,
+  "total_raw": 163,
+  "total_unique": 134,
   "total_dups": 29,
   "diff_new": [
     "3b363f3a5e6c19f8",
@@ -15,7 +15,6 @@
     "383104c97527530e",
     "a19454e2c0064073",
     "43da7530f989175f",
-    "1c0299d3686b9f72",
     "e38ef88fe5778c1f",
     "bc6f42f10a7d280e"
   ],
@@ -3568,6 +3567,33 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "1c0299d3686b9f72",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-lux-165-m2-garazno-mesto-bez-buke-svetao/5425647798341?kid=4",
+      "naslov": "Nov, Lux,165 m2 ,Garažno mesto,Bez buke, Svetao",
+      "zgrada": "West 65",
+      "agencija": null,
+      "struktura": "5.0",
+      "str_label": null,
+      "m2": 165.0,
+      "cena": 2600.0,
+      "cena_m2": 16,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 8,
+      "prva_cena": 2600.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-18",
+      "dedup_key": "West 65|165.0|2600.0",
+      "zgrada_izvor": "opis",
+      "agencija_izvor": null,
+      "posrednik": null,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     },

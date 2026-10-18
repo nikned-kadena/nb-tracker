@@ -29936,9 +29936,9 @@
     "1c0299d3686b9f72": {
       "uid": "1c0299d3686b9f72",
       "first_seen": "2026-10-10",
-      "last_seen": "2026-10-16",
-      "is_active": false,
-      "deactivated_at": "2026-10-18",
+      "last_seen": "2026-10-18",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "e140bf7ccbb9d368",
       "fp_loose_all": [
         "e140bf7ccbb9d368"
@@ -29954,7 +29954,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-10-16"
+        "halo": "2026-10-18"
       },
       "source_ids": {
         "halo": "e0736a335498"
@@ -31602,7 +31602,8 @@
       "price_first": 670.0,
       "price_current": 670.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 24
     },
     "03e715205453fa85": {
       "uid": "03e715205453fa85",
@@ -31648,7 +31649,7 @@
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-18T04:06:08.538596+00:00",
+  "updated_at": "2026-10-18T08:18:05.551146+00:00",
   "last_run": {
     "4zida": "2026-10-17",
     "nadjidom": "2026-10-17",
