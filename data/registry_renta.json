@@ -4596,9 +4596,9 @@
     "383104c97527530e": {
       "uid": "383104c97527530e",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-10-16",
-      "is_active": false,
-      "deactivated_at": "2026-10-18",
+      "last_seen": "2026-10-19",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "3c796c53440bf91b",
       "fp_strict_all": [
         "45a4f8fd38729eaa"
@@ -4607,7 +4607,7 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "f44105989ae3"
+        "halo": "30dc407f8aee"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-2-0-stan-u-kompleksu-lastavica/5425645544546?kid=1",
@@ -4624,10 +4624,10 @@
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
-      "days_listed": 108,
+      "days_listed": 109,
       "cena_m2": 18,
       "last_seen_src": {
-        "halo": "2026-10-16"
+        "halo": "2026-10-19"
       },
       "fp_nosprat_all": [
         "50f0bbce59d64b69"
@@ -25644,7 +25644,7 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "4b65aadd2776"
+        "halo": "b742f231dca6"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-3-soban-68166/5425647752450?kid=1",
@@ -31762,10 +31762,52 @@
       "price_first": 700.0,
       "price_current": 700.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 14
+    },
+    "db06611aa55c8fa8": {
+      "uid": "db06611aa55c8fa8",
+      "first_seen": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "d61aaa53eda77543",
+      "fp_loose_all": [
+        "d61aaa53eda77543"
+      ],
+      "fp_nosprat": "0176a3ef165a6bf0",
+      "fp_nosprat_all": [
+        "0176a3ef165a6bf0"
+      ],
+      "fp_strict_all": [
+        "10b1426816663c10"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-19"
+      },
+      "source_ids": {
+        "halo": "bac4d57af752"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/elixir-garden-2-0-lux-id24194/5425647798342?kid=1"
+      ],
+      "zgrada": "Elixir Garden",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 60.0,
+      "sprat": null,
+      "agencija": "Beostil_nekretnine",
+      "naslov": "Elixir Garden, 2.0 lux ID#24194",
+      "price_first": 950.0,
+      "price_current": 950.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-19T04:02:30.222038+00:00",
+  "updated_at": "2026-10-19T09:12:27.913699+00:00",
   "last_run": {
     "4zida": "2026-10-18",
     "nadjidom": "2026-10-18",

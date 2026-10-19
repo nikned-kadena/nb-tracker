@@ -2,22 +2,42 @@
   "date": "2026-10-19",
   "mode": "prodaja",
   "source": "halo",
-  "total_raw": 200,
-  "total_unique": 143,
+  "total_raw": 202,
+  "total_unique": 144,
   "diff_new": [
-    "42d1ac4f1d70"
+    "48b552cc09dd",
+    "5d13993f1690"
   ],
   "diff_removed": [
-    "197a086d0bee",
-    "11e3b7f6b62f",
-    "c890205de7b0",
-    "95b22f53b6d0",
-    "8a5f9895c732",
-    "deb9eef6d126",
-    "50c56207a257",
-    "8ae97645265f"
+    "c8b682d7bbec"
   ],
   "listings": [
+    {
+      "id": "e6763101c9c8",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/penthouse-terasa-70m-pogled-koji-guta-nebo/5425647723828?kid=4",
+      "naslov": "Penthouse. Terasa 70m². Pogled koji guta nebo.",
+      "opis": "Nije za svakoga. I ne pokušava da bude. Ovaj penthouse u West 65 kompleksu ne nudi iluziju luksuza, već njegovo ogoljeno, suštinsko lice. Sedamdeset kvadrata terase nije prostor za zabave niti za cvetne garniture, već za tišinu koja ima težinu, za pogled koji ne popušta i ne prašta. Horizont se ne kiti, on se osvaja. Unutrašnjost odbacuje dekor kao slabost. Mermer u kupatilu hladno odbija svaku banalnost, kuhinja stoji kao skulptura kojoj nije potrebna potvrda. Svetlost u dnevnom boravku nije romantična - ona je brutalno iskrena, otkriva proporcije, podvlači linije, testira vaš ukus. Ovo nije stan za kolekcionare kvadrata, niti za one kojima luksuz znači pozlaćene ivice i nameštaj koji viče. Ovo je prostor za malobrojne, za one koji razlikuju supstancu od scenografije. Za one kojima je mir merilo moći. Penthouse West 65 ne zavodi. On eliminiše. Ako treba da vas ubeđuje - nije za vas. Stan se prodaje namesten. Cena sa 2 garazna mesta iznosi 890.000 EUR.",
+      "zgrada": "West 65",
+      "struktura": "4.0",
+      "cena": 807000.0,
+      "m2": 205.0,
+      "cena_m2": 3937,
+      "agencija": "BebaRealEstate",
+      "izvor": "halo"
+    },
+    {
+      "id": "42d1ac4f1d70",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-belville-id1656/5425647842126?kid=4",
+      "naslov": "Novi Beograd-Belville ID#1656",
+      "opis": "Na prodaju dvosoban stan površine 56 m², smešten u jednom od najtraženijih stambenih kompleksa na Novom Beogradu – Belville. Stan je uknjižen, što ga čini pogodnim kako za rešavanje stambenog pitanja, tako i za investiciju i izdavanje. Postoji mogućnost kupovine parking mesta, cena po dogovoru. Kompleks Belville odlikuju uređeno okruženje, odlična povezanost sa ostalim delovima grada i blizina brojnih sadržaja, uključujući prodavnice, restorane, kafiće i tržne centre. Za više informacija, pozovite. Agencijska provizija 2%",
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "cena": 273000.0,
+      "m2": 56.0,
+      "cena_m2": 4875,
+      "agencija": "bjanca",
+      "izvor": "halo"
+    },
     {
       "id": "2205e20e2f18",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/trosoban-stan-u-najtrazenijem-kompleksu-soul/5425647762174?kid=4",
@@ -172,6 +192,19 @@
       "m2": 58.0,
       "cena_m2": 5000,
       "agencija": "KADENASothebys",
+      "izvor": "halo"
+    },
+    {
+      "id": "5d13993f1690",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-blok-67a-a-blok-id91562/5425647761790?kid=4",
+      "naslov": "Novi Beograd-Blok 67a-A Blok ID#91562",
+      "opis": "Na prodaju ekskluzivan četvorosoban stan u prestižnom naselju A Blok, u ulici Uroša Martinovića, na Novom Beogradu. Stan se nalazi na 7. i ujedno poslednjem spratu moderne stambene zgrade, pružajući maksimalnu privatnost, mir i komfor. Ukupna površina stana iznosi 176m², a funkcionalan raspored prostorija i prostranost čine ga idealnim izborom za porodičan život ili kao luksuznu investiciju. Velike staklene površine omogućavaju obilje prirodne svetlosti, dok savremena gradnja i kvalitetni materijali garantuju visok standard stanovanja. A Blok je jedno od najtraženijih naselja u Beogradu, poznato po uređenom okruženju, zelenim površinama, restoranima, kafićima, supermarketima, vrtićima i odličnoj povezanosti sa svim delovima grada. U neposrednoj blizini nalaze se Delta City, Savski kej i brojne sadržaje koji svakodnevni život čine jednostavnim i prijatnim. Ukoliko tražite prostran i reprezentativan stan u jednoj od najatraktivnijih novogradnji na Novom Beogradu, ovo je prilika koju ne treba propustiti. Cena: 770.000 € Agencijska provizija 2%",
+      "zgrada": "A Blok",
+      "struktura": "4.0",
+      "cena": 770000.0,
+      "m2": 176.0,
+      "cena_m2": 4375,
+      "agencija": "bjanca",
       "izvor": "halo"
     },
     {
@@ -445,19 +478,6 @@
       "m2": 60.0,
       "cena_m2": 3933,
       "agencija": "divis-nekretnine",
-      "izvor": "halo"
-    },
-    {
-      "id": "e6763101c9c8",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/penthouse-terasa-70m-pogled-koji-guta-nebo/5425647723828?kid=4",
-      "naslov": "Penthouse. Terasa 70m². Pogled koji guta nebo.",
-      "opis": "Nije za svakoga. I ne pokušava da bude. Ovaj penthouse u West 65 kompleksu ne nudi iluziju luksuza, već njegovo ogoljeno, suštinsko lice. Sedamdeset kvadrata terase nije prostor za zabave niti za cvetne garniture, već za tišinu koja ima težinu, za pogled koji ne popušta i ne prašta. Horizont se ne kiti, on se osvaja. Unutrašnjost odbacuje dekor kao slabost. Mermer u kupatilu hladno odbija svaku banalnost, kuhinja stoji kao skulptura kojoj nije potrebna potvrda. Svetlost u dnevnom boravku nije romantična - ona je brutalno iskrena, otkriva proporcije, podvlači linije, testira vaš ukus. Ovo nije stan za kolekcionare kvadrata, niti za one kojima luksuz znači pozlaćene ivice i nameštaj koji viče. Ovo je prostor za malobrojne, za one koji razlikuju supstancu od scenografije. Za one kojima je mir merilo moći. Penthouse West 65 ne zavodi. On eliminiše. Ako treba da vas ubeđuje - nije za vas. Stan se prodaje namesten. Cena sa 2 garazna mesta iznosi 890.000 EUR.",
-      "zgrada": "West 65",
-      "struktura": "4.0",
-      "cena": 807000.0,
-      "m2": 205.0,
-      "cena_m2": 3937,
-      "agencija": "BebaRealEstate",
       "izvor": "halo"
     },
     {
@@ -1134,19 +1154,6 @@
       "m2": 55.0,
       "cena_m2": 5436,
       "agencija": null,
-      "izvor": "halo"
-    },
-    {
-      "id": "c8b682d7bbec",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-blok-67a-a-blok-id1562/5425647444269?kid=1",
-      "naslov": "Novi Beograd-Blok 67a-A Blok ID#1562",
-      "opis": "Na prodaju ekskluzivan četvorosoban stan u prestižnom naselju A Blok, u ulici Uroša Martinovića, na Novom Beogradu. Stan se nalazi na 7. i ujedno poslednjem spratu moderne stambene zgrade, pružajući maksimalnu privatnost, mir i komfor. Ukupna površina stana iznosi 176m², a funkcionalan raspored prostorija i prostranost čine ga idealnim izborom za porodičan život ili kao luksuznu investiciju. Velike staklene površine omogućavaju obilje prirodne svetlosti, dok savremena gradnja i kvalitetni materijali garantuju visok standard stanovanja. A Blok je jedno od najtraženijih naselja u Beogradu, poznato po uređenom okruženju, zelenim površinama, restoranima, kafićima, supermarketima, vrtićima i odličnoj povezanosti sa svim delovima grada. U neposrednoj blizini nalaze se Delta City, Savski kej i brojne sadržaje koji svakodnevni život čine jednostavnim i prijatnim. Ukoliko tražite prostran i reprezentativan stan u jednoj od najatraktivnijih novogradnji na Novom Beogradu, ovo je prilika koju ne treba propustiti. Cena: 770.000 € Agencijska provizija 2%",
-      "zgrada": "A Blok",
-      "struktura": "4.0",
-      "cena": 770000.0,
-      "m2": 176.0,
-      "cena_m2": 4375,
-      "agencija": "bjanca",
       "izvor": "halo"
     },
     {
@@ -1865,16 +1872,16 @@
       "izvor": "halo"
     },
     {
-      "id": "42d1ac4f1d70",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-belville-id1656/5425647842126?kid=4",
-      "naslov": "Novi Beograd-Belville ID#1656",
-      "opis": "Na prodaju dvosoban stan površine 56 m², smešten u jednom od najtraženijih stambenih kompleksa na Novom Beogradu – Belville. Stan je uknjižen, što ga čini pogodnim kako za rešavanje stambenog pitanja, tako i za investiciju i izdavanje. Postoji mogućnost kupovine parking mesta, cena po dogovoru. Kompleks Belville odlikuju uređeno okruženje, odlična povezanost sa ostalim delovima grada i blizina brojnih sadržaja, uključujući prodavnice, restorane, kafiće i tržne centre. Za više informacija, pozovite. Agencijska provizija 2%",
-      "zgrada": "Belvil",
-      "struktura": "2.0",
-      "cena": 273000.0,
-      "m2": 56.0,
-      "cena_m2": 4875,
-      "agencija": "bjanca",
+      "id": "48b552cc09dd",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-trosobnog-stana-u-soul-64-parking-mes/5425646821464?kid=1",
+      "naslov": "Prodaja trosobnog stana u Soul 64, parking mesto",
+      "opis": "Prodaje se moderan, luksuzno opremljen trosoban stan u prestižnom stambenom kompleksu „Soul 64” na Novom Beogradu. Stan se nalazi na šestom spratu zgrade sa fizičkim obezbeđenjem i video-nadzorom 24/7, što budućim vlasnicima garantuje visok nivo sigurnosti i privatnosti. U okviru kompleksa stanarima su na raspolaganju sportski centar sa bazenom, fitnes salom i teretanom, pružajući potpun komfor savremenog načina života. Funkcionalno organizovan prostor sastoji se od ulaznog dela, prostranog dnevnog boravka sa kuhinjsko-trpezarijskim delom u open space konceptu, dve spavaće sobe, dva kupatila, tehničke prostorije i terase. Stan je opremljen smart home sistemom koji omogućava upravljanje grejanjem i rasvetom putem aplikacije. Ugrađena je centralna klima, troslojni hrastov parket S klase, aluminijumska spoljna stolarija, „Bosal” unutrašnja stolarija, kao i sigurnosna vrata. Visina plafona iznosi 2,8 m, što dodatno doprinosi osećaju prostranosti. Centralno grejanje se plaća po potrošnji. Stan je dvostrano orjentisan. Postoji mogućnost kupovine parking mesta Posrednička naknada se obračunava prema Opštim uslovima poslovanja agencije \"DIVIS NEKRETNINE\" d.o.o.",
+      "zgrada": "Soul 64",
+      "struktura": "3.0",
+      "cena": 389250.0,
+      "m2": 75.0,
+      "cena_m2": 5190,
+      "agencija": "divis-nekretnine",
       "izvor": "halo"
     }
   ]

@@ -5122,9 +5122,9 @@
     "d8e55a49436d693d": {
       "uid": "d8e55a49436d693d",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-17",
-      "is_active": false,
-      "deactivated_at": "2026-10-19",
+      "last_seen": "2026-10-19",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "14d101c101e4f7b3",
       "fp_strict_all": [
         "30e6edb965602591",
@@ -5161,7 +5161,7 @@
       "days_listed": 111,
       "cena_m2": 5190,
       "last_seen_src": {
-        "halo": "2026-10-17",
+        "halo": "2026-10-19",
         "4zida": "2026-10-10"
       },
       "fp_nosprat_all": [
@@ -7809,12 +7809,13 @@
         "4zida"
       ],
       "source_ids": {
-        "halo": "39c6bf06266d",
+        "halo": "382030610a56",
         "4zida": "4zida:6a480b20bbfd156ba20a2534"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-kompletno-namesten-neuseljavan/5425647364106?kid=1",
-        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/jednosoban-stan/6a480b20bbfd156ba20a2534"
+        "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/jednosoban-stan/6a480b20bbfd156ba20a2534",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-kompletno-namesten-neuseljavan/5425647364106?kid=4"
       ],
       "zgrada": "Airport Garden",
       "struktura": "1.0",
@@ -26142,10 +26143,11 @@
       "price_first": 273000.0,
       "price_current": 273000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4875
     }
   },
-  "updated_at": "2026-10-19T04:01:54.430842+00:00",
+  "updated_at": "2026-10-19T09:11:44.691351+00:00",
   "last_run": {
     "4zida": "2026-10-18",
     "nadjidom": "2026-10-18",
