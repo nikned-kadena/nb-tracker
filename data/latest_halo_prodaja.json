@@ -2,32 +2,10 @@
   "date": "2026-10-20",
   "mode": "prodaja",
   "source": "halo",
-  "total_raw": 204,
+  "total_raw": 205,
   "total_unique": 152,
-  "diff_new": [
-    "49300802d614",
-    "b363289a31cb",
-    "17330092d853",
-    "1f15bfbffcd2",
-    "c3e181627f7a",
-    "7eb9e2a9e4f5",
-    "8ae97645265f",
-    "382030610a56",
-    "6489ba6c7a81",
-    "c3108acec1de",
-    "3a516fab5a3c",
-    "11e3b7f6b62f",
-    "a258d4140cd5",
-    "50c56207a257"
-  ],
-  "diff_removed": [
-    "1fb8d23fd906",
-    "32411e78bb20",
-    "264643ab2dff",
-    "39c6bf06266d",
-    "0e1089e301f8",
-    "ba346f0fc7d9"
-  ],
+  "diff_new": [],
+  "diff_removed": [],
   "listings": [
     {
       "id": "49300802d614",
@@ -40,6 +18,32 @@
       "m2": 45.0,
       "cena_m2": 4111,
       "agencija": "Milenijumnekretnine",
+      "izvor": "halo"
+    },
+    {
+      "id": "6489ba6c7a81",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-a-blok-75m2-garaza-uknjizen-id33/5425647575052?kid=4",
+      "naslov": "Novi Beograd-A blok-75m2-Garaža-Uknjižen ID#3332",
+      "opis": "Retko u ponudi. Stan u okviru popularnog naselja A Blok. Odlicnan za zivot ali isto tako nepogresivo dobra investicija. Dostupno garazno mesto izvan standarda velicine 19m2 po ceni od 40.000. Uknjizen. Za preporuku. Agencijska provizija 2%. Za sve dodatne informacije, molimo da nas kontaktirate. ,",
+      "zgrada": "A Blok",
+      "struktura": "2.5",
+      "cena": 360000.0,
+      "m2": 75.0,
+      "cena_m2": 4800,
+      "agencija": "m-real-estate",
+      "izvor": "halo"
+    },
+    {
+      "id": "17330092d853",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bezanijska-kosa-i-lux-51-cetvorosoban-garaza/5425647802148?kid=4",
+      "naslov": "Bezanijska Kosa I-Lux 51-Četvorosoban-Garaža ID#33",
+      "opis": "Stan na atraktivnoj lokaciji u okviru kompleksa Lux 51. Po strukturi cetvorosoban, dva kupatila, tri spavace sobe od kojih je jedna master sa sopstvenim kupatilom. Na raspolaganju i ostava velicine 5,5m2. Dva garazna mesta dostupna uz doplatu od 30.000 evra za jedno garazno mesto. Odlican prostor za zivot ali isto tako moze biti i nepogresiva dobra investicija. Uknjizen. Za preporuku. Agencijska provizija 2%. Za sve dodatne informacije, molimo da nas kontaktirate. ,",
+      "zgrada": "Lux 51",
+      "struktura": "4.0",
+      "cena": 399500.0,
+      "m2": 103.0,
+      "cena_m2": 3879,
+      "agencija": "m-real-estate",
       "izvor": "halo"
     },
     {
@@ -836,6 +840,32 @@
       "izvor": "halo"
     },
     {
+      "id": "a258d4140cd5",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/nov-useljiv-savada-3/5425647849659?kid=1",
+      "naslov": "Nov, useljiv, Savada 3",
+      "opis": "Odličan 3.0, funkcionalan, dvostrano orijentisan, prostran stan. Smešten u novoizgrađenom kompleksu Savada 3, vrhunski kvalitet gradnje i ugrađene opreme. Mogućnost kupovine garažnog mesta. Prostorije: predsoblje, dnevni boravak sa trpezarijom, kuhinja, 2 spavaće sobe, kupatilo toalet. Agencijska provizija 2%",
+      "zgrada": "Savada",
+      "struktura": "3.0",
+      "cena": 336000.0,
+      "m2": 84.0,
+      "cena_m2": 4000,
+      "agencija": null,
+      "izvor": "halo"
+    },
+    {
+      "id": "7eb9e2a9e4f5",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/nov-useljiv-savada-3/5425647849658?kid=1",
+      "naslov": "Nov, useljiv, Savada 3",
+      "opis": "Odličan 2.0 lako adaptibilan u 3.0, dvostrano orijentisan, svetao funkcionalan stan. Smešten u novoizgrađenom kompleksu Savada 3, vrhunski kvalitet gradnje i ugrađene opreme. Mogućnost kupovine garažnog mesta. Prostorije: predsoblje, dnevni boravak sa trpezarijom, kuhinja, soba, kupatilo, toalet. Agencijska provizija 2%",
+      "zgrada": "Savada",
+      "struktura": "2.0",
+      "cena": 280000.0,
+      "m2": 70.0,
+      "cena_m2": 4000,
+      "agencija": null,
+      "izvor": "halo"
+    },
+    {
       "id": "50c56207a257",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-jednosoban-ii-sprat-id-2642/5425647546626?kid=1",
       "naslov": "Soul 64, jednosoban II sprat ID 2642",
@@ -846,6 +876,19 @@
       "m2": 31.0,
       "cena_m2": 5968,
       "agencija": "JBLConceptRE",
+      "izvor": "halo"
+    },
+    {
+      "id": "c3e181627f7a",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-tower-nov-luksuzan-petosoban-stan/5425642711886",
+      "naslov": "West Tower, nov, luksuzan petosoban stan",
+      "opis": "West 65 Tower je najmlađi član stambeno - poslovnog kompleksa West 65, popularnog &ldquo;ostrva&rdquo; na Novom Beogradu. Prelep, čvrst, moderan, visok sa neograničenim panoramskim pogledom, vrhunskom arhitekturom na 40 bezbednih spratova, neodoljivim osećajem slobode. Koncept kompleksaWest 65, naročito Towera-a, jeste da, osim kvaliteta življenja, pravilnim investiranjem dobijete - vreme. Da budete bliže svom radnom mestu, &scaron;koli, vrtiću, da vas čeka parking mesto, a onda bezbedan i udoban dom u kome uživate sa svojom porodicom. Namenjen je vama koji hoćete da investirate u svoju budućnost i obezbedite način života u skladu sa najmodernijim zahtevima, a istovremeno sačuvate mir, sigurnost, udobnost. Život u Tower-u je bezbedan sa atmosferom prestižnog hotela, a ulazak isključivo stanari sa karticom. Na raspolaganju su SPA centar, (bazen dug 20m sa termalnom vodom, Jacuzzi, tursko kupatilo, sauna, gym), kozmetički i frizerski salon, bioskop kao i direktan pristup iz Tower-a u mall. Na vama je samo da uživate u luksuzu savremenog stanovanja i spektakularnoj panorami velegrada. West Tower je izrastao u simbol Novog Beograda. Stan je po strukturi petosoban i sastoji se od dnevno",
+      "zgrada": "West 65 Kula",
+      "struktura": "5.0",
+      "cena": 990000.0,
+      "m2": 161.0,
+      "cena_m2": 6149,
+      "agencija": "city-hedonia-agencija-za-nekretnine",
       "izvor": "halo"
     },
     {
@@ -1938,71 +1981,6 @@
       "m2": 213.0,
       "cena_m2": 6573,
       "agencija": null,
-      "izvor": "halo"
-    },
-    {
-      "id": "17330092d853",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bezanijska-kosa-i-lux-51-cetvorosoban-garaza/5425647802148?kid=4",
-      "naslov": "Bezanijska Kosa I-Lux 51-Četvorosoban-Garaža ID#33",
-      "opis": "Stan na atraktivnoj lokaciji u okviru kompleksa Lux 51. Po strukturi cetvorosoban, dva kupatila, tri spavace sobe od kojih je jedna master sa sopstvenim kupatilom. Na raspolaganju i ostava velicine 5,5m2. Dva garazna mesta dostupna uz doplatu od 30.000 evra za jedno garazno mesto. Odlican prostor za zivot ali isto tako moze biti i nepogresiva dobra investicija. Uknjizen. Za preporuku. Agencijska provizija 2%. Za sve dodatne informacije, molimo da nas kontaktirate. ,",
-      "zgrada": "Lux 51",
-      "struktura": "4.0",
-      "cena": 399500.0,
-      "m2": 103.0,
-      "cena_m2": 3879,
-      "agencija": "m-real-estate",
-      "izvor": "halo"
-    },
-    {
-      "id": "6489ba6c7a81",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-a-blok-75m2-garaza-uknjizen-id33/5425647575052?kid=4",
-      "naslov": "Novi Beograd-A blok-75m2-Garaža-Uknjižen ID#3332",
-      "opis": "Retko u ponudi. Stan u okviru popularnog naselja A Blok. Odlicnan za zivot ali isto tako nepogresivo dobra investicija. Dostupno garazno mesto izvan standarda velicine 19m2 po ceni od 40.000. Uknjizen. Za preporuku. Agencijska provizija 2%. Za sve dodatne informacije, molimo da nas kontaktirate. ,",
-      "zgrada": "A Blok",
-      "struktura": "2.5",
-      "cena": 360000.0,
-      "m2": 75.0,
-      "cena_m2": 4800,
-      "agencija": "m-real-estate",
-      "izvor": "halo"
-    },
-    {
-      "id": "a258d4140cd5",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/nov-useljiv-savada-3/5425647849659?kid=1",
-      "naslov": "Nov, useljiv, Savada 3",
-      "opis": "Odličan 3.0, funkcionalan, dvostrano orijentisan, prostran stan. Smešten u novoizgrađenom kompleksu Savada 3, vrhunski kvalitet gradnje i ugrađene opreme. Mogućnost kupovine garažnog mesta. Prostorije: predsoblje, dnevni boravak sa trpezarijom, kuhinja, 2 spavaće sobe, kupatilo toalet. Agencijska provizija 2%",
-      "zgrada": "Savada",
-      "struktura": "3.0",
-      "cena": 336000.0,
-      "m2": 84.0,
-      "cena_m2": 4000,
-      "agencija": null,
-      "izvor": "halo"
-    },
-    {
-      "id": "7eb9e2a9e4f5",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/nov-useljiv-savada-3/5425647849658?kid=1",
-      "naslov": "Nov, useljiv, Savada 3",
-      "opis": "Odličan 2.0 lako adaptibilan u 3.0, dvostrano orijentisan, svetao funkcionalan stan. Smešten u novoizgrađenom kompleksu Savada 3, vrhunski kvalitet gradnje i ugrađene opreme. Mogućnost kupovine garažnog mesta. Prostorije: predsoblje, dnevni boravak sa trpezarijom, kuhinja, soba, kupatilo, toalet. Agencijska provizija 2%",
-      "zgrada": "Savada",
-      "struktura": "2.0",
-      "cena": 280000.0,
-      "m2": 70.0,
-      "cena_m2": 4000,
-      "agencija": null,
-      "izvor": "halo"
-    },
-    {
-      "id": "c3e181627f7a",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-tower-nov-luksuzan-petosoban-stan/5425642711886",
-      "naslov": "West Tower, nov, luksuzan petosoban stan",
-      "opis": "West 65 Tower je najmlađi član stambeno - poslovnog kompleksa West 65, popularnog &ldquo;ostrva&rdquo; na Novom Beogradu. Prelep, čvrst, moderan, visok sa neograničenim panoramskim pogledom, vrhunskom arhitekturom na 40 bezbednih spratova, neodoljivim osećajem slobode. Koncept kompleksaWest 65, naročito Towera-a, jeste da, osim kvaliteta življenja, pravilnim investiranjem dobijete - vreme. Da budete bliže svom radnom mestu, &scaron;koli, vrtiću, da vas čeka parking mesto, a onda bezbedan i udoban dom u kome uživate sa svojom porodicom. Namenjen je vama koji hoćete da investirate u svoju budućnost i obezbedite način života u skladu sa najmodernijim zahtevima, a istovremeno sačuvate mir, sigurnost, udobnost. Život u Tower-u je bezbedan sa atmosferom prestižnog hotela, a ulazak isključivo stanari sa karticom. Na raspolaganju su SPA centar, (bazen dug 20m sa termalnom vodom, Jacuzzi, tursko kupatilo, sauna, gym), kozmetički i frizerski salon, bioskop kao i direktan pristup iz Tower-a u mall. Na vama je samo da uživate u luksuzu savremenog stanovanja i spektakularnoj panorami velegrada. West Tower je izrastao u simbol Novog Beograda. Stan je po strukturi petosoban i sastoji se od dnevno",
-      "zgrada": "West 65 Kula",
-      "struktura": "5.0",
-      "cena": 990000.0,
-      "m2": 161.0,
-      "cena_m2": 6149,
-      "agencija": "city-hedonia-agencija-za-nekretnine",
       "izvor": "halo"
     }
   ]

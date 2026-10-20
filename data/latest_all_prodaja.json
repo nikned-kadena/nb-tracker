@@ -3,11 +3,12 @@
   "source": "all",
   "date": "2026-10-20",
   "scraped_at": "2026-10-20",
-  "total_raw": 262,
+  "total_raw": 263,
   "total_unique": 193,
-  "total_dups": 69,
+  "total_dups": 70,
   "diff_new": [
-    "250984d3b4499b9f"
+    "250984d3b4499b9f",
+    "5683ea2e440a8abb"
   ],
   "diff_removed": [
     "d0a18cbccbd98b91",
@@ -7242,6 +7243,33 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "5683ea2e440a8abb",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-54m2-2-0-garaza-novogradnja/5425647852204?kid=4",
+      "naslov": "Soul 64, 54m2, 2.0, garaža, novogradnja",
+      "zgrada": "Soul 64",
+      "agencija": "Codex Nekretnine",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 54.0,
+      "cena": 275400.0,
+      "cena_m2": 5100,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 275400.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-10-20",
+      "dedup_key": "Soul 64|54.0|275400.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }
