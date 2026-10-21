@@ -8000,9 +8000,9 @@
     "a2694d19b75ea574": {
       "uid": "a2694d19b75ea574",
       "first_seen": "2026-07-04",
-      "last_seen": "2026-09-04",
-      "is_active": false,
-      "deactivated_at": "2026-09-06",
+      "last_seen": "2026-10-21",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "033f647346ac5c3f",
       "fp_strict_all": [
         "e8435cea55e8659a"
@@ -8026,8 +8026,15 @@
       "price_first": 440000.0,
       "price_current": 440000.0,
       "price_changes": [],
-      "days_listed": 64,
-      "cena_m2": 4074
+      "days_listed": 109,
+      "cena_m2": 4074,
+      "last_seen_src": {
+        "halo": "2026-10-21"
+      },
+      "fp_nosprat_all": [
+        "dc16d27f365f0594"
+      ],
+      "fp_nosprat": "dc16d27f365f0594"
     },
     "6e20133171e502db": {
       "uid": "6e20133171e502db",
@@ -18383,7 +18390,7 @@
         "4zida"
       ],
       "source_ids": {
-        "halo": "53ab3545e60e",
+        "halo": "13a21794723d",
         "4zida": "4zida:6ab4e875ca1d6e2a8706248e"
       },
       "source_urls": [
@@ -23729,7 +23736,7 @@
         "halo": "2026-10-21"
       },
       "source_ids": {
-        "halo": "b14f3c58591b"
+        "halo": "f3712cc37ac2"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuz-bez-kompromisa-west-65-kula-95m-trosob/5425647109244?kid=1",
@@ -24209,7 +24216,7 @@
         "nadjidom": "2026-10-17"
       },
       "source_ids": {
-        "halo": "eb01a71e1566",
+        "halo": "eb81eaaacec1",
         "nadjidom": "nadjidom:2361489"
       },
       "source_urls": [
@@ -26382,7 +26389,8 @@
       "price_first": 225000.0,
       "price_current": 225000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4592
     },
     "423fbed5d5d97493": {
       "uid": "423fbed5d5d97493",
@@ -26423,10 +26431,93 @@
       "price_first": 549990.0,
       "price_current": 549990.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 4104
+    },
+    "1332f9f9fde16eb6": {
+      "uid": "1332f9f9fde16eb6",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "7852d4d19319bbc0",
+      "fp_loose_all": [
+        "7852d4d19319bbc0"
+      ],
+      "fp_nosprat": "58df8917b84325be",
+      "fp_nosprat_all": [
+        "58df8917b84325be"
+      ],
+      "fp_strict_all": [
+        "5852fb1cb021915a"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-21"
+      },
+      "source_ids": {
+        "halo": "e9c0c93ad5a0"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd---bezanijska-kosa-i-lux-51-jedno/5425647856530?kid=4"
+      ],
+      "zgrada": "Lux 51",
+      "struktura": "1.5",
+      "str_label": null,
+      "m2": 45.0,
+      "sprat": null,
+      "agencija": "m-real-estate",
+      "naslov": "Novi Beograd - Bezanijska Kosa I-Lux 51-Jednoiposo",
+      "price_first": 185000.0,
+      "price_current": 185000.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "fb455f7b5dc0172e": {
+      "uid": "fb455f7b5dc0172e",
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-21",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "1f9117cf301b7f7f",
+      "fp_loose_all": [
+        "1f9117cf301b7f7f"
+      ],
+      "fp_nosprat": "922b74d33e92788e",
+      "fp_nosprat_all": [
+        "922b74d33e92788e"
+      ],
+      "fp_strict_all": [
+        "9b46414a62cb548b"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-21"
+      },
+      "source_ids": {
+        "halo": "40ea1c332044"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-i-05-omladinskih-brigada-prostran/5425647816572?kid=4"
+      ],
+      "zgrada": "Soul 64",
+      "struktura": "4.0",
+      "str_label": null,
+      "m2": 143.0,
+      "sprat": null,
+      "agencija": "Kredium",
+      "naslov": "SOUL 64 I 05 | Omladinskih brigada| Prostran",
+      "price_first": 535000.0,
+      "price_current": 535000.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-21T04:01:51.368423+00:00",
+  "updated_at": "2026-10-21T08:47:00.750076+00:00",
   "last_run": {
     "4zida": "2026-10-20",
     "nadjidom": "2026-10-20",
