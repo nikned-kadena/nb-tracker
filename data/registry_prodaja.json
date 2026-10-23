@@ -25071,7 +25071,7 @@
     "8f286c0263da34c8": {
       "uid": "8f286c0263da34c8",
       "first_seen": "2026-10-13",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "7852d4d19319bbc0",
@@ -25090,7 +25090,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-10-16",
+        "halo": "2026-10-23",
         "4zida": "2026-10-22"
       },
       "source_ids": {
@@ -25107,7 +25107,7 @@
       "m2": 45.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Jednoiposoban stan na prodaju, Smolućska, 185.000€, 45m²",
+      "naslov": "Novogradnja, useljiv, garaža",
       "price_first": 185000.0,
       "price_current": 185000.0,
       "price_changes": [],
@@ -26732,10 +26732,52 @@
       "price_first": 336776.0,
       "price_current": 336776.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 4300
+    },
+    "be242718b2e3c7d7": {
+      "uid": "be242718b2e3c7d7",
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "1f9117cf301b7f7f",
+      "fp_loose_all": [
+        "1f9117cf301b7f7f"
+      ],
+      "fp_nosprat": "922b74d33e92788e",
+      "fp_nosprat_all": [
+        "922b74d33e92788e"
+      ],
+      "fp_strict_all": [
+        "44bc065b50c3ff9b"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-23"
+      },
+      "source_ids": {
+        "halo": "1c061a9deccb"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/prestizan-stan-soul-64-4-0-sa-spa-centrom-i-v/5425647825344?kid=4"
+      ],
+      "zgrada": "Soul 64",
+      "struktura": "4.0",
+      "str_label": null,
+      "m2": 143.0,
+      "sprat": null,
+      "agencija": "zidart",
+      "naslov": "Prestižan stan SOUL 64 | 4.0 sa SPA centrom i veli",
+      "price_first": 534700.0,
+      "price_current": 534700.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-23T04:01:46.080391+00:00",
+  "updated_at": "2026-10-23T08:45:21.289287+00:00",
   "last_run": {
     "4zida": "2026-10-22",
     "nadjidom": "2026-10-22",

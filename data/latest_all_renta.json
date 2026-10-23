@@ -3,9 +3,9 @@
   "source": "all",
   "date": "2026-10-23",
   "scraped_at": "2026-10-23",
-  "total_raw": 181,
+  "total_raw": 183,
   "total_unique": 141,
-  "total_dups": 40,
+  "total_dups": 42,
   "diff_new": [
     "1ac546e64b6f77db",
     "479386fde72f0e2d",
@@ -15,7 +15,9 @@
     "2a52600d23ff98ba",
     "89590b3005fd9231",
     "2c9aecdff6fccc0b",
-    "9584830db416a918"
+    "9584830db416a918",
+    "b8b6120e25a92b79",
+    "cd56d96df48afc07"
   ],
   "diff_removed": [
     "c076ed3867349e12",
@@ -225,7 +227,7 @@
     {
       "id": "383104c97527530e",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-2-0-stan-u-kompleksu-lastavica/5425645544546?kid=1",
-      "naslov": "NOV 2.0 stan -Nbg zgrada Lastavica",
+      "naslov": "Nov 2.0 polunamesten stan Nbg-zgrada Lastavica",
       "zgrada": "Lastavica",
       "agencija": "Bg Immobilien",
       "struktura": "2.0",
@@ -4989,6 +4991,60 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "b8b6120e25a92b79",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/kompletno-opremljen-stan-48-m-kompleks-lastav/5425647866014?kid=1",
+      "naslov": "Kompletno opremljen stan 48 m² | Kompleks Lastavic",
+      "zgrada": "Lastavica",
+      "agencija": "Expo Real Estate",
+      "struktura": "1.5",
+      "str_label": null,
+      "m2": 48.0,
+      "cena": 800.0,
+      "cena_m2": 17,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 800.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "dedup_key": "Lastavica|48.0|800.0",
+      "zgrada_izvor": "opis",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "cd56d96df48afc07",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/kompleks-lastavica-lux-id13861/5425647575097?kid=1",
+      "naslov": "Kompleks Lastavica, lux ID#13861",
+      "zgrada": "Lastavica",
+      "agencija": "Art Nekretnine",
+      "struktura": "1.5",
+      "str_label": null,
+      "m2": 48.0,
+      "cena": 800.0,
+      "cena_m2": 17,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 800.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-23",
+      "last_seen": "2026-10-23",
+      "dedup_key": "Lastavica|48.0|800.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }

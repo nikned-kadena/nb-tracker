@@ -4,7 +4,7 @@
   "pocetak_pracenja": "2026-06-29",
   "ukupno": {
     "n_zavrseni": 725,
-    "n_aktivni": 181,
+    "n_aktivni": 183,
     "dom_medijana": 20,
     "metod": "kaplan-meier",
     "pouzdano": true,
@@ -824,14 +824,14 @@
     },
     "Lastavica": {
       "n_zavrseni": 24,
-      "n_aktivni": 5,
+      "n_aktivni": 7,
       "dom_medijana": 7,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 7,
       "starost_aktivnih_medijana": 0,
       "udeo_jos_u_ponudi": 0.0577,
-      "udeo_aktivnih_pct": 17,
+      "udeo_aktivnih_pct": 23,
       "skinuti_p25": 4,
       "skinuti_p75": 14,
       "brzo_do_30d": 83,
@@ -1980,12 +1980,12 @@
     },
     "nepoznato": {
       "n_zavrseni": 701,
-      "n_aktivni": 140,
+      "n_aktivni": 142,
       "dom_medijana": 20,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 14,
-      "starost_aktivnih_medijana": 25,
+      "starost_aktivnih_medijana": 24,
       "udeo_jos_u_ponudi": 0.0569,
       "udeo_aktivnih_pct": 17,
       "skinuti_p25": 5,
@@ -2234,11 +2234,11 @@
   ],
   "cene": {
     "oglasa_sa_promenom": 55,
-    "ukupno_snizenja": 117,
-    "prosecno_snizenje_pct": 10.6
+    "ukupno_snizenja": 118,
+    "prosecno_snizenje_pct": 10.7
   },
   "izvori": {
-    "halo": 846,
+    "halo": 848,
     "4zida": 146,
     "nadjidom": 34
   },
