@@ -3,12 +3,13 @@
   "source": "all",
   "date": "2026-10-24",
   "scraped_at": "2026-10-24",
-  "total_raw": 182,
+  "total_raw": 183,
   "total_unique": 140,
-  "total_dups": 42,
+  "total_dups": 43,
   "diff_new": [
     "e5c157c3fe8fdb3a",
-    "9e004d10f2c38225"
+    "9e004d10f2c38225",
+    "3b235104d7bd9e07"
   ],
   "diff_removed": [
     "f93f0846a9746a80",
@@ -5003,6 +5004,33 @@
       "first_seen": "2026-10-24",
       "last_seen": "2026-10-24",
       "dedup_key": "Belvil|35.0|500.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "3b235104d7bd9e07",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-69389/5425647871156?kid=1",
+      "naslov": "Novi Beograd - Wellport #69389",
+      "zgrada": "Wellport",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 54.0,
+      "cena": 1100.0,
+      "cena_m2": 20,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1100.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "dedup_key": "Wellport|54.0|1100.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": null,

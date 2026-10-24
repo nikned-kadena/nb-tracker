@@ -4,31 +4,8 @@
   "source": "halo",
   "total_raw": 193,
   "total_unique": 145,
-  "diff_new": [
-    "e37b69a8037c",
-    "6946ccafcf04",
-    "ba346f0fc7d9",
-    "d45d9dfada03",
-    "b2860d018b3b",
-    "2f6e6985688e",
-    "5d5b51fec3bd",
-    "63439a3e1228",
-    "9ea881fc8756"
-  ],
-  "diff_removed": [
-    "d2895979f747",
-    "9ef4f8b45135",
-    "9dc54f8a81a0",
-    "9cfa4200eb3a",
-    "a56f1b0b6c66",
-    "ac78bbdb65a8",
-    "457e21a17687",
-    "534ba91009c5",
-    "e9c0c93ad5a0",
-    "06c6f04f0497",
-    "d2ca3700cf2d",
-    "ce89490a730c"
-  ],
+  "diff_new": [],
+  "diff_removed": [],
   "listings": [
     {
       "id": "ba346f0fc7d9",
@@ -707,6 +684,19 @@
       "izvor": "halo"
     },
     {
+      "id": "9ea881fc8756",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden---namesten-neuseljivan/5425647636880?kid=1",
+      "naslov": "Airport Garden - Namesten neuseljivan",
+      "opis": "Prodaje se stan u Airport Gardenu , neuseljivan , sredjen , sa garaznim mestom, cena garaznog mesta je 30.000 eur",
+      "zgrada": "Airport Garden",
+      "struktura": "3.0",
+      "cena": 315000.0,
+      "m2": 72.0,
+      "cena_m2": 4375,
+      "agencija": null,
+      "izvor": "halo"
+    },
+    {
       "id": "245cc5b94317",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/moderan-stan-povrsine-59m-u-kompleksu-wellpor/5425646952514?kid=1",
       "naslov": "Moderan stan površine 59m² u kompleksu Wellport ID",
@@ -729,6 +719,19 @@
       "cena": 429000.0,
       "m2": 88.0,
       "cena_m2": 4875,
+      "agencija": null,
+      "izvor": "halo"
+    },
+    {
+      "id": "e37b69a8037c",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd---belville---2-0-s-68-m2-uknjize/5425647868732?kid=1",
+      "naslov": "Novi Beograd - Belville - 2,0 s, 68 m2, uknjižen",
+      "opis": "Prodaje se dvosoban uknjižen stan površine 68 m2, u koju je uključen terasa površine 11 m2. &lt; Dodatna ponua garažno mesto površine 12 m2 - 30.000.- EURA.",
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "cena": 259000.0,
+      "m2": 68.0,
+      "cena_m2": 3809,
       "agencija": null,
       "izvor": "halo"
     },
@@ -1887,32 +1890,6 @@
       "m2": 31.0,
       "cena_m2": 5742,
       "agencija": "apartman",
-      "izvor": "halo"
-    },
-    {
-      "id": "9ea881fc8756",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden---namesten-neuseljivan/5425647636880?kid=1",
-      "naslov": "Airport Garden - Namesten neuseljivan",
-      "opis": "Prodaje se stan u Airport Gardenu , neuseljivan , sredjen , sa garaznim mestom, cena garaznog mesta je 30.000 eur",
-      "zgrada": "Airport Garden",
-      "struktura": "3.0",
-      "cena": 315000.0,
-      "m2": 72.0,
-      "cena_m2": 4375,
-      "agencija": null,
-      "izvor": "halo"
-    },
-    {
-      "id": "e37b69a8037c",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd---belville---2-0-s-68-m2-uknjize/5425647868732?kid=1",
-      "naslov": "Novi Beograd - Belville - 2,0 s, 68 m2, uknjižen",
-      "opis": "Prodaje se dvosoban uknjižen stan površine 68 m2, u koju je uključen terasa površine 11 m2. &lt; Dodatna ponua garažno mesto površine 12 m2 - 30.000.- EURA.",
-      "zgrada": "Belvil",
-      "struktura": "2.0",
-      "cena": 259000.0,
-      "m2": 68.0,
-      "cena_m2": 3809,
-      "agencija": null,
       "izvor": "halo"
     }
   ]

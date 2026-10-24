@@ -22451,6 +22451,16 @@
           "date": "2026-10-24",
           "from": 3600,
           "to": 4300.0
+        },
+        {
+          "date": "2026-10-24",
+          "from": 4300.0,
+          "to": 3600.0
+        },
+        {
+          "date": "2026-10-24",
+          "from": 3600.0,
+          "to": 4300.0
         }
       ],
       "days_listed": 44,
@@ -34021,7 +34031,8 @@
       "price_first": 1500.0,
       "price_current": 1500.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 25
     },
     "9e004d10f2c38225": {
       "uid": "9e004d10f2c38225",
@@ -34062,10 +34073,52 @@
       "price_first": 500.0,
       "price_current": 500.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 14
+    },
+    "3b235104d7bd9e07": {
+      "uid": "3b235104d7bd9e07",
+      "first_seen": "2026-10-24",
+      "last_seen": "2026-10-24",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "52d4e745338c53de",
+      "fp_loose_all": [
+        "52d4e745338c53de"
+      ],
+      "fp_nosprat": "a81a5fd372b9e61f",
+      "fp_nosprat_all": [
+        "a81a5fd372b9e61f"
+      ],
+      "fp_strict_all": [
+        "6c3bed630f7037eb"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-24"
+      },
+      "source_ids": {
+        "halo": "97350ad55bc9"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-69389/5425647871156?kid=1"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 54.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Novi Beograd - Wellport #69389",
+      "price_first": 1100.0,
+      "price_current": 1100.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-24T04:02:21.451311+00:00",
+  "updated_at": "2026-10-24T08:20:15.162585+00:00",
   "last_run": {
     "4zida": "2026-10-23",
     "nadjidom": "2026-10-23",
