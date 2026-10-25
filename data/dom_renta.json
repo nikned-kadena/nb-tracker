@@ -3,14 +3,14 @@
   "generated": "2026-10-25",
   "pocetak_pracenja": "2026-06-29",
   "ukupno": {
-    "n_zavrseni": 734,
-    "n_aktivni": 185,
+    "n_zavrseni": 736,
+    "n_aktivni": 184,
     "dom_medijana": 20,
     "metod": "kaplan-meier",
     "pouzdano": true,
     "naivna_medijana_samo_skinuti": 13,
     "starost_aktivnih_medijana": 25,
-    "udeo_jos_u_ponudi": 0.0651,
+    "udeo_jos_u_ponudi": 0.0626,
     "udeo_aktivnih_pct": 20,
     "skinuti_p25": 6,
     "skinuti_p75": 27,
@@ -167,27 +167,27 @@
       },
       {
         "dan": 89,
-        "preziveli": 0.097
+        "preziveli": 0.0934
       },
       {
         "dan": 95,
-        "preziveli": 0.0925
+        "preziveli": 0.089
       },
       {
         "dan": 99,
-        "preziveli": 0.0835
+        "preziveli": 0.0803
       },
       {
         "dan": 101,
-        "preziveli": 0.0767
+        "preziveli": 0.0738
       },
       {
         "dan": 104,
-        "preziveli": 0.0699
+        "preziveli": 0.0673
       },
       {
         "dan": 112,
-        "preziveli": 0.0651
+        "preziveli": 0.0626
       }
     ]
   },
@@ -697,18 +697,18 @@
       ]
     },
     "Elixir Garden": {
-      "n_zavrseni": 23,
-      "n_aktivni": 8,
+      "n_zavrseni": 24,
+      "n_aktivni": 7,
       "dom_medijana": 27,
       "metod": "kaplan-meier",
       "pouzdano": true,
-      "naivna_medijana_samo_skinuti": 11,
-      "starost_aktivnih_medijana": 38,
-      "udeo_jos_u_ponudi": 0.1074,
-      "udeo_aktivnih_pct": 26,
+      "naivna_medijana_samo_skinuti": 14,
+      "starost_aktivnih_medijana": 25,
+      "udeo_jos_u_ponudi": 0.0537,
+      "udeo_aktivnih_pct": 23,
       "skinuti_p25": 7,
-      "skinuti_p75": 47,
-      "brzo_do_30d": 65,
+      "skinuti_p75": 50,
+      "brzo_do_30d": 62,
       "sporo_preko_180d": 0,
       "kriva": [
         {
@@ -778,6 +778,10 @@
         {
           "dan": 81,
           "preziveli": 0.1074
+        },
+        {
+          "dan": 88,
+          "preziveli": 0.0537
         }
       ]
     },
@@ -1523,18 +1527,18 @@
       ]
     },
     "West 65": {
-      "n_zavrseni": 74,
+      "n_zavrseni": 75,
       "n_aktivni": 20,
       "dom_medijana": 23,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 20,
-      "starost_aktivnih_medijana": 46,
-      "udeo_jos_u_ponudi": 0.0638,
+      "starost_aktivnih_medijana": 42,
+      "udeo_jos_u_ponudi": 0.0547,
       "udeo_aktivnih_pct": 21,
       "skinuti_p25": 6,
-      "skinuti_p75": 27,
-      "brzo_do_30d": 80,
+      "skinuti_p75": 28,
+      "brzo_do_30d": 79,
       "sporo_preko_180d": 0,
       "kriva": [
         {
@@ -1654,16 +1658,20 @@
           "preziveli": 0.1595
         },
         {
+          "dan": 88,
+          "preziveli": 0.1367
+        },
+        {
           "dan": 97,
-          "preziveli": 0.1276
+          "preziveli": 0.1094
         },
         {
           "dan": 100,
-          "preziveli": 0.0957
+          "preziveli": 0.082
         },
         {
           "dan": 102,
-          "preziveli": 0.0638
+          "preziveli": 0.0547
         }
       ]
     },
@@ -1882,14 +1890,14 @@
     },
     "Dvosoban": {
       "n_zavrseni": 10,
-      "n_aktivni": 12,
+      "n_aktivni": 13,
       "dom_medijana": 14,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 7,
       "starost_aktivnih_medijana": 18,
       "udeo_jos_u_ponudi": 0.4632,
-      "udeo_aktivnih_pct": 55,
+      "udeo_aktivnih_pct": 57,
       "skinuti_p25": 7,
       "skinuti_p75": 7,
       "brzo_do_30d": 100,
@@ -1995,14 +2003,14 @@
       ]
     },
     "nepoznato": {
-      "n_zavrseni": 707,
-      "n_aktivni": 144,
+      "n_zavrseni": 709,
+      "n_aktivni": 142,
       "dom_medijana": 20,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 14,
-      "starost_aktivnih_medijana": 30,
-      "udeo_jos_u_ponudi": 0.0631,
+      "starost_aktivnih_medijana": 28,
+      "udeo_jos_u_ponudi": 0.0607,
       "udeo_aktivnih_pct": 17,
       "skinuti_p25": 5,
       "skinuti_p75": 27,
@@ -2159,27 +2167,27 @@
         },
         {
           "dan": 89,
-          "preziveli": 0.0941
+          "preziveli": 0.0905
         },
         {
           "dan": 95,
-          "preziveli": 0.0897
+          "preziveli": 0.0863
         },
         {
           "dan": 99,
-          "preziveli": 0.0809
+          "preziveli": 0.0779
         },
         {
           "dan": 101,
-          "preziveli": 0.0744
+          "preziveli": 0.0716
         },
         {
           "dan": 104,
-          "preziveli": 0.0678
+          "preziveli": 0.0653
         },
         {
           "dan": 112,
-          "preziveli": 0.0631
+          "preziveli": 0.0607
         }
       ]
     },
@@ -2225,25 +2233,25 @@
   "cena_vs_dom": [
     {
       "kvartil": "najjeftiniji 25%",
-      "n": 177,
+      "n": 178,
       "cena_medijana": 750,
-      "dom_medijana": 9
+      "dom_medijana": 10
     },
     {
       "kvartil": "25-50%",
-      "n": 177,
+      "n": 178,
       "cena_medijana": 900,
-      "dom_medijana": 19
+      "dom_medijana": 20
     },
     {
       "kvartil": "50-75%",
-      "n": 177,
+      "n": 178,
       "cena_medijana": 1200,
       "dom_medijana": 9
     },
     {
       "kvartil": "najskuplji 25%",
-      "n": 180,
+      "n": 179,
       "cena_medijana": 1700,
       "dom_medijana": 16
     }
@@ -2255,7 +2263,7 @@
   },
   "izvori": {
     "halo": 855,
-    "4zida": 153,
+    "4zida": 155,
     "nadjidom": 35
   },
   "napomena": "dom_medijana je Kaplan-Meier procena i JEDINI broj koji se citira kao trajanje oglasa. Aktivni oglasi ulaze u racun kao cenzurisana opazanja (trajali su BAR toliko), umesto da se izbace. naivna_medijana_samo_skinuti je kontrolni broj koji gleda samo zatvorene oglase i sistematski je POTCENJEN — na NB prodaji je davao 13 dana naspram stvarnih 29. Ne citirati ga. starost_aktivnih_medijana je koliko vec stoje oglasi koji su jos u ponudi; to je donja granica, ne trajanje. Medijana se prikazuje tek od 5 oglasa u grupi."
