@@ -30444,7 +30444,7 @@
     "36b891de2d984096": {
       "uid": "36b891de2d984096",
       "first_seen": "2026-10-10",
-      "last_seen": "2026-10-24",
+      "last_seen": "2026-10-25",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "60965d3b9999b047",
@@ -30462,7 +30462,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-10-24"
+        "halo": "2026-10-25"
       },
       "source_ids": {
         "halo": "19665e92f8fa"
@@ -32965,9 +32965,9 @@
     "b6eb15abd9744697": {
       "uid": "b6eb15abd9744697",
       "first_seen": "2026-10-21",
-      "last_seen": "2026-10-21",
-      "is_active": false,
-      "deactivated_at": "2026-10-23",
+      "last_seen": "2026-10-25",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "6de1199bc2f5f6ed",
       "fp_loose_all": [
         "6de1199bc2f5f6ed"
@@ -32984,7 +32984,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-10-21",
+        "halo": "2026-10-25",
         "4zida": "2026-10-21"
       },
       "source_ids": {
@@ -33001,11 +33001,11 @@
       "m2": 40.0,
       "sprat": null,
       "agencija": "BrickPro",
-      "naslov": "Jednoiposoban stan za izdavanje, Partizanske avijacije, 950€, 40m²",
+      "naslov": "Lux 51 - namesten sa garazom ID#3046",
       "price_first": 950.0,
       "price_current": 950.0,
       "price_changes": [],
-      "days_listed": 2,
+      "days_listed": 4,
       "cena_m2": 24
     },
     "3b731a5f545a4969": {
@@ -34322,7 +34322,8 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 21
     },
     "5a022aa6881637dc": {
       "uid": "5a022aa6881637dc",
@@ -34363,7 +34364,8 @@
       "price_first": 1050.0,
       "price_current": 1050.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 20
     },
     "f72a6d8b82605821": {
       "uid": "f72a6d8b82605821",
@@ -34404,7 +34406,8 @@
       "price_first": 3000.0,
       "price_current": 3000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 22
     },
     "f8fc548fc5304d6a": {
       "uid": "f8fc548fc5304d6a",
@@ -34445,10 +34448,11 @@
       "price_first": 1180.0,
       "price_current": 1180.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 27
     }
   },
-  "updated_at": "2026-10-25T05:05:52.719938+00:00",
+  "updated_at": "2026-10-25T08:41:56.373353+00:00",
   "last_run": {
     "4zida": "2026-10-24",
     "nadjidom": "2026-10-24",
