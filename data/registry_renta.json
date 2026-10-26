@@ -33038,12 +33038,13 @@
         "4zida": "2026-10-25"
       },
       "source_ids": {
-        "halo": "551a03fc566a",
+        "halo": "39443c32459c",
         "4zida": "4zida:6ad7f5d7eda927031a0d1c0a"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-51---namesten-sa-garazom-id3046/5425647856513?kid=1",
-        "https://www.4zida.rs/izdavanje-stanova/bezanijska-kosa-1-novi-beograd-beograd/jednoiposoban-stan/6ad7f5d7eda927031a0d1c0a"
+        "https://www.4zida.rs/izdavanje-stanova/bezanijska-kosa-1-novi-beograd-beograd/jednoiposoban-stan/6ad7f5d7eda927031a0d1c0a",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-51---namesten-sa-garazom-id3046/5425647856513?kid=4"
       ],
       "zgrada": "Lux 51",
       "struktura": "1.5",
@@ -33284,9 +33285,9 @@
     "13f25d2bc71f3c0d": {
       "uid": "13f25d2bc71f3c0d",
       "first_seen": "2026-10-22",
-      "last_seen": "2026-10-22",
-      "is_active": false,
-      "deactivated_at": "2026-10-24",
+      "last_seen": "2026-10-26",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "ba3b8e6321ae5b9a",
       "fp_loose_all": [
         "ba3b8e6321ae5b9a"
@@ -33296,14 +33297,15 @@
         "604c82bbbcffc41b"
       ],
       "fp_strict_all": [
-        "6563554b72c2ff2d"
+        "6563554b72c2ff2d",
+        "61e3cea69738db1c"
       ],
       "sources": [
         "halo",
         "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-10-22",
+        "halo": "2026-10-26",
         "4zida": "2026-10-22"
       },
       "source_ids": {
@@ -33320,12 +33322,18 @@
       "m2": 37.0,
       "sprat": null,
       "agencija": "eminent-nekretnine",
-      "naslov": "Jednoiposoban stan za izdavanje, Partizanske avijacije, 900€, 37m²",
+      "naslov": "Lux 51, luksuzno sređen stan sa garažom, ID 26190",
       "price_first": 900.0,
-      "price_current": 900.0,
-      "price_changes": [],
-      "days_listed": 2,
-      "cena_m2": 24
+      "price_current": 950.0,
+      "price_changes": [
+        {
+          "date": "2026-10-26",
+          "from": 900.0,
+          "to": 950.0
+        }
+      ],
+      "days_listed": 4,
+      "cena_m2": 26
     },
     "cacc179027a2a2e4": {
       "uid": "cacc179027a2a2e4",
@@ -34592,7 +34600,8 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 20
     },
     "6f99dc61ec91b05f": {
       "uid": "6f99dc61ec91b05f",
@@ -34633,7 +34642,8 @@
       "price_first": 1100.0,
       "price_current": 1100.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 21
     },
     "efdb7c21df25021e": {
       "uid": "efdb7c21df25021e",
@@ -34674,10 +34684,11 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 20
     }
   },
-  "updated_at": "2026-10-26T05:02:25.025141+00:00",
+  "updated_at": "2026-10-26T09:15:24.626661+00:00",
   "last_run": {
     "4zida": "2026-10-25",
     "nadjidom": "2026-10-25",
