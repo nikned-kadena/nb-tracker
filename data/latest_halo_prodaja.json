@@ -1,11 +1,17 @@
 {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "mode": "prodaja",
   "source": "halo",
-  "total_raw": 191,
-  "total_unique": 143,
-  "diff_new": [],
-  "diff_removed": [],
+  "total_raw": 188,
+  "total_unique": 141,
+  "diff_new": [
+    "598b423e2432"
+  ],
+  "diff_removed": [
+    "7e5199420215",
+    "2670580705dc",
+    "b2860d018b3b"
+  ],
   "listings": [
     {
       "id": "1bf365d717d2",
@@ -177,19 +183,6 @@
       "izvor": "halo"
     },
     {
-      "id": "17330092d853",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bezanijska-kosa-i-lux-51-cetvorosoban-garaza/5425647802148?kid=4",
-      "naslov": "Bezanijska Kosa I-Lux 51-Četvorosoban-Garaža ID#33",
-      "opis": "Stan na atraktivnoj lokaciji u okviru kompleksa Lux 51. Po strukturi cetvorosoban, dva kupatila, tri spavace sobe od kojih je jedna master sa sopstvenim kupatilom. Na raspolaganju i ostava velicine 5,5m2. Dva garazna mesta dostupna uz doplatu od 30.000 evra za jedno garazno mesto. Odlican prostor za zivot ali isto tako moze biti i nepogresiva dobra investicija. Uknjizen. Za preporuku. Agencijska provizija 2%. Za sve dodatne informacije, molimo da nas kontaktirate. ,",
-      "zgrada": "Lux 51",
-      "struktura": "4.0",
-      "cena": 399500.0,
-      "m2": 103.0,
-      "cena_m2": 3879,
-      "agencija": "m-real-estate",
-      "izvor": "halo"
-    },
-    {
       "id": "6489ba6c7a81",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-a-blok-75m2-garaza-uknjizen-id33/5425647575052?kid=4",
       "naslov": "Novi Beograd-A blok-75m2-Garaža-Uknjižen ID#3332",
@@ -203,16 +196,16 @@
       "izvor": "halo"
     },
     {
-      "id": "382030610a56",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-kompletno-namesten-neuseljavan/5425647364106?kid=4",
-      "naslov": "Airport Garden, kompletno namešten, neuseljavan ID",
-      "opis": "- Izuzetan stan na prestižnoj lokaciji. - Airport Garden. . - Svi stanovi su predbeleženi u katastru nepokretnosti. - Uknjižena površina 32 m2. . - Funkcionalan raspored. - Orijentisan ka unutrašnjosti kompleksa. - Zaštićen od buke. - Severozapadna orijentacija. - Prijatan i svetao ambijent. . - Stan se prodaje isključivo kompletno namešten. - Cena nameštaja, po dogovoru. - Nikad useljavan. - Nameštaj i tehnika vrhunskog kvaliteta (Gorenje, Bosch). - Zidno i podno grejanje (geotermalno, Fan-coil sistem). - Smart home sistem. - Komarnici. - Bez ikakvih ulaganja. - Mogućnost kupovine garažnog mesta. . - Čak četiri lifta. - Recepcija i svi sadržaji unutar kompleksa. - Izuzetna lokacija. - Odlično povezan sa svim delovima grada. - Blizina autoputa, Beo-voza, West 65 i Roda mega marketa. . - Odlična prilika za izdavanje ili život. - Topla preporuka! Za sva dodatna pitanja i zakazivanje termina razgledanja nepokretnosti pozovite na broj 069 369 369 8. Agencija ARTOPOLIS 369 DOO BEOGRAD. Agencijska nadoknada iznosi 2%.",
-      "zgrada": "Airport Garden",
-      "struktura": "1.0",
-      "cena": 160000.0,
-      "m2": 33.0,
-      "cena_m2": 4848,
-      "agencija": "ARTOPOLIS369",
+      "id": "17330092d853",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bezanijska-kosa-i-lux-51-cetvorosoban-garaza/5425647802148?kid=4",
+      "naslov": "Bezanijska Kosa I-Lux 51-Četvorosoban-Garaža ID#33",
+      "opis": "Stan na atraktivnoj lokaciji u okviru kompleksa Lux 51. Po strukturi cetvorosoban, dva kupatila, tri spavace sobe od kojih je jedna master sa sopstvenim kupatilom. Na raspolaganju i ostava velicine 5,5m2. Dva garazna mesta dostupna uz doplatu od 30.000 evra za jedno garazno mesto. Odlican prostor za zivot ali isto tako moze biti i nepogresiva dobra investicija. Uknjizen. Za preporuku. Agencijska provizija 2%. Za sve dodatne informacije, molimo da nas kontaktirate. ,",
+      "zgrada": "Lux 51",
+      "struktura": "4.0",
+      "cena": 399500.0,
+      "m2": 103.0,
+      "cena_m2": 3879,
+      "agencija": "m-real-estate",
       "izvor": "halo"
     },
     {
@@ -226,6 +219,19 @@
       "m2": 170.0,
       "cena_m2": 4647,
       "agencija": "bjanca",
+      "izvor": "halo"
+    },
+    {
+      "id": "382030610a56",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-kompletno-namesten-neuseljavan/5425647364106?kid=4",
+      "naslov": "Airport Garden, kompletno namešten, neuseljavan ID",
+      "opis": "- Izuzetan stan na prestižnoj lokaciji. - Airport Garden. . - Svi stanovi su predbeleženi u katastru nepokretnosti. - Uknjižena površina 32 m2. . - Funkcionalan raspored. - Orijentisan ka unutrašnjosti kompleksa. - Zaštićen od buke. - Severozapadna orijentacija. - Prijatan i svetao ambijent. . - Stan se prodaje isključivo kompletno namešten. - Cena nameštaja, po dogovoru. - Nikad useljavan. - Nameštaj i tehnika vrhunskog kvaliteta (Gorenje, Bosch). - Zidno i podno grejanje (geotermalno, Fan-coil sistem). - Smart home sistem. - Komarnici. - Bez ikakvih ulaganja. - Mogućnost kupovine garažnog mesta. . - Čak četiri lifta. - Recepcija i svi sadržaji unutar kompleksa. - Izuzetna lokacija. - Odlično povezan sa svim delovima grada. - Blizina autoputa, Beo-voza, West 65 i Roda mega marketa. . - Odlična prilika za izdavanje ili život. - Topla preporuka! Za sva dodatna pitanja i zakazivanje termina razgledanja nepokretnosti pozovite na broj 069 369 369 8. Agencija ARTOPOLIS 369 DOO BEOGRAD. Agencijska nadoknada iznosi 2%.",
+      "zgrada": "Airport Garden",
+      "struktura": "1.0",
+      "cena": 160000.0,
+      "m2": 33.0,
+      "cena_m2": 4848,
+      "agencija": "ARTOPOLIS369",
       "izvor": "halo"
     },
     {
@@ -294,19 +300,6 @@
       "izvor": "halo"
     },
     {
-      "id": "30489a1c060e",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-04-omladinskih-brigada-odlicna-ponuda/5425647798392?kid=4",
-      "naslov": "SOUL 64 04 | Omladinskih brigada | Odlična ponuda",
-      "opis": "Na prodaju ekskluzivan, neuseljavan stan površine 80 m² , smešten na 5. spratu prestižnog stambenog kompleksa Soul 64 na Novom Beogradu . &nbsp; Stan odlikuju savremena arhitektura, pažljivo osmišljen stambeni prostor i orijentacija ka unutrašnjosti kompleksa, koja pruža prijatniji ambijent i dodatni osećaj privatnosti. Funkcionalan raspored sa dve spavaće sobe i terasom čini ovu nekretninu idealnim izborom za udoban porodični život, ali i za kupce koji traže kvalitetnu investiciju na jednoj od atraktivnih lokacija Novog Beograda. &nbsp; Stan je potpuno nov i nikada useljavan , što budućem vlasniku omogućava da svoj novi dom uredi u skladu sa sopstvenim stilom i preferencijama. &nbsp; Dodatne pogodnosti Garažno parking mesto sa električnim punjačem – uz doplatu od 40.000 €. Ostava – uz doplatu od 5.000 €. &nbsp; Soul 64 predstavlja spoj savremenog urbanog života, komfora i modernog stanovanja. Ova nekretnina namenjena je kupcima koji prepoznaju vrednost novogradnje, funkcionalnog rasporeda i kvalitetne lokacije. &nbsp; Površina: 80 m² Sprat: 5. Struktura: dve spavaće sobe Dodatno: terasa, mogućnost kupovine garažnog mesta sa električnim punjačem i ostave Stanje: potpuno nov, neusel",
-      "zgrada": "Soul 64",
-      "struktura": "3.0",
-      "cena": 395000.0,
-      "m2": 80.0,
-      "cena_m2": 4938,
-      "agencija": "Kredium",
-      "izvor": "halo"
-    },
-    {
       "id": "d44ed513aa66",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/dvosoban-soul-64-novogradnja-garaza/5425647829946?kid=4",
       "naslov": "Dvosoban | Soul 64 | Novogradnja | Garaža",
@@ -317,6 +310,19 @@
       "m2": 58.0,
       "cena_m2": 5000,
       "agencija": "KADENASothebys",
+      "izvor": "halo"
+    },
+    {
+      "id": "30489a1c060e",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-04-omladinskih-brigada-odlicna-ponuda/5425647798392?kid=4",
+      "naslov": "SOUL 64 04 | Omladinskih brigada | Odlična ponuda",
+      "opis": "Na prodaju ekskluzivan, neuseljavan stan površine 80 m² , smešten na 5. spratu prestižnog stambenog kompleksa Soul 64 na Novom Beogradu . &nbsp; Stan odlikuju savremena arhitektura, pažljivo osmišljen stambeni prostor i orijentacija ka unutrašnjosti kompleksa, koja pruža prijatniji ambijent i dodatni osećaj privatnosti. Funkcionalan raspored sa dve spavaće sobe i terasom čini ovu nekretninu idealnim izborom za udoban porodični život, ali i za kupce koji traže kvalitetnu investiciju na jednoj od atraktivnih lokacija Novog Beograda. &nbsp; Stan je potpuno nov i nikada useljavan , što budućem vlasniku omogućava da svoj novi dom uredi u skladu sa sopstvenim stilom i preferencijama. &nbsp; Dodatne pogodnosti Garažno parking mesto sa električnim punjačem – uz doplatu od 40.000 €. Ostava – uz doplatu od 5.000 €. &nbsp; Soul 64 predstavlja spoj savremenog urbanog života, komfora i modernog stanovanja. Ova nekretnina namenjena je kupcima koji prepoznaju vrednost novogradnje, funkcionalnog rasporeda i kvalitetne lokacije. &nbsp; Površina: 80 m² Sprat: 5. Struktura: dve spavaće sobe Dodatno: terasa, mogućnost kupovine garažnog mesta sa električnim punjačem i ostave Stanje: potpuno nov, neusel",
+      "zgrada": "Soul 64",
+      "struktura": "3.0",
+      "cena": 395000.0,
+      "m2": 80.0,
+      "cena_m2": 4938,
+      "agencija": "Kredium",
       "izvor": "halo"
     },
     {
@@ -424,19 +430,6 @@
       "izvor": "halo"
     },
     {
-      "id": "1e4722974386",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-airport-garden-novogradnja/5425646822521?kid=4",
-      "naslov": "Novi Beograd | Airport Garden | novogradnja",
-      "opis": "U srcu Novog Beograda, na ekskluzivnoj lokaciji, nalazi se impresivni i estetski stambeno-poslovni kompleks Airport Garden. Ovaj komlepks se odlikuje modernim arhitektonskim rešenjima, funkcionalnošću i elegantnim dizajnom. Vrhunski projektovani dizajnirani prostor i pažljivo odabrani sadržaji premijum kvaliteta, jedinstvena su formula za udoban život ali i kao sigurna investicija. Odmah useljiv. Prostorije u stanu: ulazni hodnik, dnevno-kuhinjsko-trpezarijski deo, kupatilo i terasa. Prestižna lokacija ovog kompleksa nudi nebrojene sadržaje za svakodnevni život i laku povezanost sa svim delovima grada. Dodatna pogodnost je blizina reke, sadržaji za opuštanje, šoping centri.... Agencijska provizija 2%.",
-      "zgrada": "Airport Garden",
-      "struktura": "1.0",
-      "cena": 179000.0,
-      "m2": 39.11,
-      "cena_m2": 4577,
-      "agencija": "magnat-petrovic-doo",
-      "izvor": "halo"
-    },
-    {
       "id": "3a45e818bad8",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-lux-gradnja/5425646843432?kid=4",
       "naslov": "Airport garden lux gradnja",
@@ -447,6 +440,19 @@
       "m2": 84.0,
       "cena_m2": 4024,
       "agencija": null,
+      "izvor": "halo"
+    },
+    {
+      "id": "1e4722974386",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-airport-garden-novogradnja/5425646822521?kid=4",
+      "naslov": "Novi Beograd | Airport Garden | novogradnja",
+      "opis": "U srcu Novog Beograda, na ekskluzivnoj lokaciji, nalazi se impresivni i estetski stambeno-poslovni kompleks Airport Garden. Ovaj komlepks se odlikuje modernim arhitektonskim rešenjima, funkcionalnošću i elegantnim dizajnom. Vrhunski projektovani dizajnirani prostor i pažljivo odabrani sadržaji premijum kvaliteta, jedinstvena su formula za udoban život ali i kao sigurna investicija. Odmah useljiv. Prostorije u stanu: ulazni hodnik, dnevno-kuhinjsko-trpezarijski deo, kupatilo i terasa. Prestižna lokacija ovog kompleksa nudi nebrojene sadržaje za svakodnevni život i laku povezanost sa svim delovima grada. Dodatna pogodnost je blizina reke, sadržaji za opuštanje, šoping centri.... Agencijska provizija 2%.",
+      "zgrada": "Airport Garden",
+      "struktura": "1.0",
+      "cena": 179000.0,
+      "m2": 39.11,
+      "cena_m2": 4577,
+      "agencija": "magnat-petrovic-doo",
       "izvor": "halo"
     },
     {
@@ -473,19 +479,6 @@
       "m2": 83.24,
       "cena_m2": 3364,
       "agencija": "Benefit",
-      "izvor": "halo"
-    },
-    {
-      "id": "2670580705dc",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/dvosoban-stan-u-prestiznom-projektu-airport-g/5425647803010?kid=4",
-      "naslov": "Dvosoban stan u prestižnom projektu Airport Garden",
-      "opis": "U okviru modernog stambeno-poslovnog kompleksa Airport Garden na Novom Beogradu, nalazi se ovaj fantastičan dvosoban stan ukupne površine 57,42 m², smešten na petom spratu. Pažljivo osmišljena struktura pruža funkcionalan prostor za život. Stan predstavlja odličan izbor za one koji traže kvalitetan dom na atraktivnoj gradskoj lokaciji, ali i za investicione kupce koji prepoznaju potencijal nekretnina na Novom Beogradu. Stan poseduje jednu spavaću sobu, prostranu dnevnu zonu sa trpezarisjkim delom i blago uvučenim prostorom za kuhinju i jedno kupatilo. Iz dnevne zone i spavaće sobe izlazi se na prostranu terasu. Uz stan se prodaje pripadajuće garažno mesto po ceni od dodatnih 32.000 EUR. Airport Garden predstavlja savremeni koncept stanovanja koji objedinjuje moderan arhitektonski pristup, funkcionalnost i dobru povezanost sa ključnim gradskim sadržajima. Savremen zidni sistem grejanja i hlađenja, vrhunski materijali i završne obrade čine ovaj projekat visokokvalitetnim, po čemu se izdvaja od ostalih na tržištu.",
-      "zgrada": "Airport Garden",
-      "struktura": "2.0",
-      "cena": 258390.0,
-      "m2": 57.42,
-      "cena_m2": 4500,
-      "agencija": "Turaquadra",
       "izvor": "halo"
     },
     {
@@ -619,19 +612,6 @@
       "izvor": "halo"
     },
     {
-      "id": "441246da2065",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-65-kula-70-m2-lux-garaza-zakupac-pogled/5425646538678?kid=3",
-      "naslov": "West 65 Kula,70 m2, Lux, Garaža,Zakupac,Pogled",
-      "opis": "Lux, moderan 69m2 stan, panoramskog pogleda,svetao , komletno opremljen kvalitetnim nameštajem, tehnikom i uređajima. U stanu je zakupac, koji želi da nastavi sa zakupom! Odlično saobraćajno povezan, brz pristup na velike bulevare, mostove, aerodrum 15 min, Veliki broj linija javnog prevoza u okruženju(autobus, tramvaj, mini bus, voz). Neposredna blizina Airport city, doma zdravlja, Lidla, Rode, Ideje, Maxi.,ruske škole, na pešačkoj udajenosti od Delta City, savskog šetališta... Sastoji se od velike dnevne sobe, povezane sa trpezarijom i kuhinjom, spavaće sobe ,kupatila, garderobera, toaleta, ostave. Nova i lepa zgrada, sa bazenom i tertetanom, saunom, bioskopom, obezbeđenjem 24/h/7, i kontrolisanim ulazom posetilaca. -Grejanje po potrošnji. -Sav nameštaj i tehnika ostaju budućem vlasniku! Garažno mesto 30.000 eur. Agencijska provizija u skladu sa uslovima poslovanja. Lux, modern 69m2 apartment, panoramic view, bright, fully equipped with quality furniture, appliances and devices. Excellent traffic connections, quick access to major boulevards, bridges, airport 15 min, Large number of public transport lines in the area (bus, tram, minibus, train). Close proximity to Airport City, h",
-      "zgrada": "West 65 Kula",
-      "struktura": "2.0",
-      "cena": 410000.0,
-      "m2": 69.0,
-      "cena_m2": 5942,
-      "agencija": null,
-      "izvor": "halo"
-    },
-    {
       "id": "63a5a5feb0d4",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-65-3-0-nov-praktican-brzo-useljiv/5425647822420?kid=3",
       "naslov": "West 65, 3.0, nov, praktičan, brzo useljiv",
@@ -642,6 +622,19 @@
       "m2": 80.0,
       "cena_m2": 5188,
       "agencija": "city-hedonia-agencija-za-nekretnine",
+      "izvor": "halo"
+    },
+    {
+      "id": "441246da2065",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-65-kula-70-m2-lux-garaza-zakupac-pogled/5425646538678?kid=3",
+      "naslov": "West 65 Kula,70 m2, Lux, Garaža,Zakupac,Pogled",
+      "opis": "Lux, moderan 69m2 stan, panoramskog pogleda,svetao , komletno opremljen kvalitetnim nameštajem, tehnikom i uređajima. U stanu je zakupac, koji želi da nastavi sa zakupom! Odlično saobraćajno povezan, brz pristup na velike bulevare, mostove, aerodrum 15 min, Veliki broj linija javnog prevoza u okruženju(autobus, tramvaj, mini bus, voz). Neposredna blizina Airport city, doma zdravlja, Lidla, Rode, Ideje, Maxi.,ruske škole, na pešačkoj udajenosti od Delta City, savskog šetališta... Sastoji se od velike dnevne sobe, povezane sa trpezarijom i kuhinjom, spavaće sobe ,kupatila, garderobera, toaleta, ostave. Nova i lepa zgrada, sa bazenom i tertetanom, saunom, bioskopom, obezbeđenjem 24/h/7, i kontrolisanim ulazom posetilaca. -Grejanje po potrošnji. -Sav nameštaj i tehnika ostaju budućem vlasniku! Garažno mesto 30.000 eur. Agencijska provizija u skladu sa uslovima poslovanja. Lux, modern 69m2 apartment, panoramic view, bright, fully equipped with quality furniture, appliances and devices. Excellent traffic connections, quick access to major boulevards, bridges, airport 15 min, Large number of public transport lines in the area (bus, tram, minibus, train). Close proximity to Airport City, h",
+      "zgrada": "West 65 Kula",
+      "struktura": "2.0",
+      "cena": 410000.0,
+      "m2": 69.0,
+      "cena_m2": 5942,
+      "agencija": null,
       "izvor": "halo"
     },
     {
@@ -658,16 +651,16 @@
       "izvor": "halo"
     },
     {
-      "id": "b2860d018b3b",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-65-4-0-nov-lux-izuzetno-atraktivan/5425647656794?kid=3",
-      "naslov": "West 65, 4.0, nov, lux, izuzetno atraktivan",
-      "opis": "Ovaj izuzetno kvalitetan i reprezentativan četvorosoban stan u zgradi sa liftom i centralnim grejanjem, nalazi se u prestižnom naselju na Novom Beogradu, West 65, koji je izvanredan primer spoja savremene umetnosti i arhitekture. Impresivna izgradnja je učinila da ovaj deo grada postane simbol uspešnosti i kreativnosti. U West-u 65 se, osim modernih, po najsavremenijoj tehnologiji građenih zgrada, vodilo računa i o pejzažnom uređenju. U centru kompleksa nalazi se prelepo osvetljena fontana, pa ćete se osećati kao na moru. Veseli žamor ljudi iz okolnih kafića i restorana, učiniće da se osećate zdravo i raspoloženo. Deca, stariji sugrađani kao i kućni ljubimci su zaštićeni i sigurni u ovom kompleksu koji je sinonim za oazu mira, udobnog života i sveukupne lepote. Kompleks ima dvadesetčetvoročasovno fizičko i video obezbeđenje. Stan je idealan za one koji traže prostran i luksuzan dom bez kompromisa, ali i za kupce koji prepoznaju vrednost nekretnine koja se veoma retko pojavljuje na tržištu. Ovo je nekretnina koja se izdvaja prostranošću, elegancijom, vrhunskim kvalitetom i pažljivo osmišljenim enterijerom. Svaki detalj je biran sa posebnom pažnjom, stvarajući ambijent koji pruža ose",
-      "zgrada": "West 65",
-      "struktura": "4.0",
-      "cena": 874500.0,
-      "m2": 165.0,
-      "cena_m2": 5300,
-      "agencija": "city-hedonia-agencija-za-nekretnine",
+      "id": "598b423e2432",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/porodican-stan-u-wellportu/5425647207921?kid=1",
+      "naslov": "Porodičan stan u Wellportu",
+      "opis": "Na prodaju moderan trosoban stan u prestižnom kompleksu Wellport, u ulici Tadije Sondermajera, na jednoj od najtraženijih lokacija Novog Beograda. Stan se nalazi na 18/22 spratu, površine 78 m², sa funkcionalnim rasporedom i obiljem prirodne svetlosti. Dnevni boravak je povezan sa trpezarijom i kuhinjom, dok su spavaće sobe komforne i izdvojene. Stan je moderno uređen i prodaje se kompletno namešten, spreman za useljenje bez ulaganja. Grejanje je centralno po utrošku (kalorimetri). Kompleks Wellport nudi visok nivo bezbednosti, uređeno okruženje i odličnu povezanost, što ga čini idealnim za život ili investiciju. Prostorije: predsoblje, dnevni boravak sa kuhinjom. dve spavaće sobe, 2 kupatila, lođa. Agencijska provizija 2%",
+      "zgrada": "Wellport",
+      "struktura": "3.0",
+      "cena": 425000.0,
+      "m2": 78.0,
+      "cena_m2": 5449,
+      "agencija": null,
       "izvor": "halo"
     },
     {
@@ -736,6 +729,19 @@
       "izvor": "halo"
     },
     {
+      "id": "80e867138b49",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-lux-kompletno-namesten-id10341/5425647717276?kid=1",
+      "naslov": "Airport Garden, lux kompletno namešten ID#10341",
+      "opis": "Luksuzan, nikada useljavan stan u prestižnom kompleksu Airport Garden. Predstavljamo vam izuzetan jednosoban stan površine 32 m², smešten u jednom od najtraženijih stambenih kompleksa na Novom Beogradu – Airport Garden. Zahvaljujući pažljivo osmišljenom rasporedu, vrhunskoj opremi i odličnoj lokaciji, predstavlja idealan izbor kako za život, tako i kao sigurna investicija za izdavanje. Nikada nije bio useljavan, tako da budući vlasnik dobija potpuno nov i besprekorno očuvan prostor, bez potrebe za bilo kakvim dodatnim ulaganjima. Orijentisan je ka unutrašnjosti kompleksa, što pruža mir, privatnost i zaštitu od gradske buke. Severozapadna orijentacija doprinosi prijatnom i svetlom ambijentu tokom celog dana. Stan je opremljen kvalitetnim nameštajem i tehnikom, poseduje Smart Home sistem, geotermalno zidno i podno grejanje putem Fan-coil sistema, kao i komarnike na prozorima i prodaje se isključivo kao kompletno namešten (cena nameštaja po dogovoru). Kompleks Airport Garden svojim stanarima pruža vrhunski komfor – četiri KONA lifta, recepciju i brojne sadržaje koji svakodnevni život čine jednostavnijim i prijatnijim. Postoji i mogućnost kupovine garažnog mesta površine 14,5 m². Lokac",
+      "zgrada": "Airport Garden",
+      "struktura": "1.0",
+      "cena": 160000.0,
+      "m2": 32.0,
+      "cena_m2": 5000,
+      "agencija": "EUROPOLISNEKRETNINE",
+      "izvor": "halo"
+    },
+    {
       "id": "892c0119874a",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bel-mondo-luksuzan-2-0-prelep-pogled/5425647860701?kid=1",
       "naslov": "Bel Mondo | Luksuzan 2.0 | Prelep pogled",
@@ -758,6 +764,19 @@
       "cena": 470400.0,
       "m2": 112.0,
       "cena_m2": 4200,
+      "agencija": "Kredium",
+      "izvor": "halo"
+    },
+    {
+      "id": "2f6e6985688e",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/lastavice-05-novoizgradjen-kompleks-polunames/5425647561017?kid=1",
+      "naslov": "Lastavice 05 | Novoizgrađen kompleks | Polunamešte",
+      "opis": "Na prodaju je četvorosoban stan u modernom stambenom kompleksu Lastavice na Novom Beogradu , namenjen kupcima koji traže funkcionalan porodični dom u uređenom i dobro povezanom okruženju. &nbsp; Stan raspolaže prostranim dnevnim boravkom sa trpezarijom, 3 spavaće sobe i 2 kupatila , što pruža dovoljno prostora za udoban porodični život. Dodatna soba može se koristiti i kao radni prostor ili gostinska soba, u zavisnosti od potreba budućih vlasnika. &nbsp; Nekretnina se prodaje polunameštena , a u cenu su uključeni opremljena kuhinja i ugradni plakari . Na taj način budući vlasnici dobijaju funkcionalnu osnovu, uz mogućnost da ostatak enterijera urede prema sopstvenom stilu i potrebama. &nbsp; Posebna pogodnost je mogućnost kupovine parking mesta po ceni od 27.000 € , što dodatno olakšava svakodnevni život na Novom Beogradu. &nbsp; Kompleks Lastavice pruža uređeno i prijatno okruženje za porodični život. Ispred zgrade nalaze se dečje igralište, sprave za rekreaciju i održavane zelene površine , dok su stanarima na raspolaganju 24-časovno obezbeđenje i portirska služba u ulazu. &nbsp; Zahvaljujući funkcionalnom rasporedu sa 3 spavaće sobe i 2 kupatila , uređenom okruženju i dobroj lok",
+      "zgrada": "Lastavica",
+      "struktura": "4.0",
+      "cena": 380000.0,
+      "m2": 83.0,
+      "cena_m2": 4578,
       "agencija": "Kredium",
       "izvor": "halo"
     },
@@ -785,19 +804,6 @@
       "m2": 108.0,
       "cena_m2": 4074,
       "agencija": "nekretninegavrilovic",
-      "izvor": "halo"
-    },
-    {
-      "id": "2f6e6985688e",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/lastavice-05-novoizgradjen-kompleks-polunames/5425647561017?kid=1",
-      "naslov": "Lastavice 05 | Novoizgrađen kompleks | Polunamešte",
-      "opis": "Na prodaju je četvorosoban stan u modernom stambenom kompleksu Lastavice na Novom Beogradu , namenjen kupcima koji traže funkcionalan porodični dom u uređenom i dobro povezanom okruženju. &nbsp; Stan raspolaže prostranim dnevnim boravkom sa trpezarijom, 3 spavaće sobe i 2 kupatila , što pruža dovoljno prostora za udoban porodični život. Dodatna soba može se koristiti i kao radni prostor ili gostinska soba, u zavisnosti od potreba budućih vlasnika. &nbsp; Nekretnina se prodaje polunameštena , a u cenu su uključeni opremljena kuhinja i ugradni plakari . Na taj način budući vlasnici dobijaju funkcionalnu osnovu, uz mogućnost da ostatak enterijera urede prema sopstvenom stilu i potrebama. &nbsp; Posebna pogodnost je mogućnost kupovine parking mesta po ceni od 27.000 € , što dodatno olakšava svakodnevni život na Novom Beogradu. &nbsp; Kompleks Lastavice pruža uređeno i prijatno okruženje za porodični život. Ispred zgrade nalaze se dečje igralište, sprave za rekreaciju i održavane zelene površine , dok su stanarima na raspolaganju 24-časovno obezbeđenje i portirska služba u ulazu. &nbsp; Zahvaljujući funkcionalnom rasporedu sa 3 spavaće sobe i 2 kupatila , uređenom okruženju i dobroj lok",
-      "zgrada": "Lastavica",
-      "struktura": "4.0",
-      "cena": 380000.0,
-      "m2": 83.0,
-      "cena_m2": 4578,
-      "agencija": "Kredium",
       "izvor": "halo"
     },
     {
@@ -876,19 +882,6 @@
       "m2": 213.0,
       "cena_m2": 6573,
       "agencija": null,
-      "izvor": "halo"
-    },
-    {
-      "id": "80e867138b49",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-lux-kompletno-namesten-id10341/5425647717276?kid=1",
-      "naslov": "Airport Garden, lux kompletno namešten ID#10341",
-      "opis": "Luksuzan, nikada useljavan stan u prestižnom kompleksu Airport Garden. Predstavljamo vam izuzetan jednosoban stan površine 32 m², smešten u jednom od najtraženijih stambenih kompleksa na Novom Beogradu – Airport Garden. Zahvaljujući pažljivo osmišljenom rasporedu, vrhunskoj opremi i odličnoj lokaciji, predstavlja idealan izbor kako za život, tako i kao sigurna investicija za izdavanje. Nikada nije bio useljavan, tako da budući vlasnik dobija potpuno nov i besprekorno očuvan prostor, bez potrebe za bilo kakvim dodatnim ulaganjima. Orijentisan je ka unutrašnjosti kompleksa, što pruža mir, privatnost i zaštitu od gradske buke. Severozapadna orijentacija doprinosi prijatnom i svetlom ambijentu tokom celog dana. Stan je opremljen kvalitetnim nameštajem i tehnikom, poseduje Smart Home sistem, geotermalno zidno i podno grejanje putem Fan-coil sistema, kao i komarnike na prozorima i prodaje se isključivo kao kompletno namešten (cena nameštaja po dogovoru). Kompleks Airport Garden svojim stanarima pruža vrhunski komfor – četiri KONA lifta, recepciju i brojne sadržaje koji svakodnevni život čine jednostavnijim i prijatnijim. Postoji i mogućnost kupovine garažnog mesta površine 14,5 m². Lokac",
-      "zgrada": "Airport Garden",
-      "struktura": "1.0",
-      "cena": 160000.0,
-      "m2": 32.0,
-      "cena_m2": 5000,
-      "agencija": "EUROPOLISNEKRETNINE",
       "izvor": "halo"
     },
     {
@@ -1022,19 +1015,6 @@
       "izvor": "halo"
     },
     {
-      "id": "226a730da6a7",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/new-minel---jedinstven-luksuzan-penthaus-id21/5425647000046?kid=1",
-      "naslov": "New Minel - jedinstven luksuzan penthaus! ID#2126",
-      "opis": "Luksuzan penthouse na 7. spratu vrlo kvalitetne Galensove zgrade visokog nivoa završne obrade. Dvostrano orijentisan sa prelepim panoramskim pogledom. Odličan raspored prostorija. Visina plafona 3,15m. Prostorije: U dnevnom bloku - hodnik, dnevni boravak otvorenog koncepta sa trpezarijom i kuhinjom, koji izlazi na prelepu terasu, ostava, prostorija za pranje i sušenje veša, gostinjski toalet. Spavaći blok čine hodnik, tri spavaće sobe, koje izlaze na terasu, dva kupatila i walk in garderober. Terasa spavaćih soba okrenuta je tihom gustom zelenilu ka Bežanijskoj kosi, dok terasa dnevnog boravka pruža raskošan pogled ka gradu. Ovaj luksuzni stan, za ljude koji znaju šta žele, prodaje se kompletno namešten, što nije uslov, i ima garažno mesto po ceni od 25.000 koje nije u ceni stana. Moguća je kupovina druge garaže. Posrednička naknada se obračunava u skladu sa Opštim uslovima poslovanja agencije.Kontakt telefon 0600993334. Hvala Vam na pregledu oglasa.Broj agencije u Registru posrednika 1347. Mapa je informativnog karaktera,ne prikazuje tačnu lokaciju nekretnine. Posrednička naknada se obračunava u skladu sa Opštim uslovima poslovanja agencije Apartman doo Beograd 2%",
-      "zgrada": "New Minel",
-      "struktura": "4.0",
-      "cena": 549000.0,
-      "m2": 138.0,
-      "cena_m2": 3978,
-      "agencija": "apartman",
-      "izvor": "halo"
-    },
-    {
       "id": "93c78acbcbf9",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/sakura-park-kompletno-opremljen-dvosoban-stan/5425646858816?kid=1",
       "naslov": "Sakura Park kompletno opremljen dvosoban stan",
@@ -1045,6 +1025,19 @@
       "m2": 45.0,
       "cena_m2": 5000,
       "agencija": "agencija-nekretnine-obradovic-doo",
+      "izvor": "halo"
+    },
+    {
+      "id": "226a730da6a7",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/new-minel---jedinstven-luksuzan-penthaus-id21/5425647000046?kid=1",
+      "naslov": "New Minel - jedinstven luksuzan penthaus! ID#2126",
+      "opis": "Luksuzan penthouse na 7. spratu vrlo kvalitetne Galensove zgrade visokog nivoa završne obrade. Dvostrano orijentisan sa prelepim panoramskim pogledom. Odličan raspored prostorija. Visina plafona 3,15m. Prostorije: U dnevnom bloku - hodnik, dnevni boravak otvorenog koncepta sa trpezarijom i kuhinjom, koji izlazi na prelepu terasu, ostava, prostorija za pranje i sušenje veša, gostinjski toalet. Spavaći blok čine hodnik, tri spavaće sobe, koje izlaze na terasu, dva kupatila i walk in garderober. Terasa spavaćih soba okrenuta je tihom gustom zelenilu ka Bežanijskoj kosi, dok terasa dnevnog boravka pruža raskošan pogled ka gradu. Ovaj luksuzni stan, za ljude koji znaju šta žele, prodaje se kompletno namešten, što nije uslov, i ima garažno mesto po ceni od 25.000 koje nije u ceni stana. Moguća je kupovina druge garaže. Posrednička naknada se obračunava u skladu sa Opštim uslovima poslovanja agencije.Kontakt telefon 0600993334. Hvala Vam na pregledu oglasa.Broj agencije u Registru posrednika 1347. Mapa je informativnog karaktera,ne prikazuje tačnu lokaciju nekretnine. Posrednička naknada se obračunava u skladu sa Opštim uslovima poslovanja agencije Apartman doo Beograd 2%",
+      "zgrada": "New Minel",
+      "struktura": "4.0",
+      "cena": 549000.0,
+      "m2": 138.0,
+      "cena_m2": 3978,
+      "agencija": "apartman",
       "izvor": "halo"
     },
     {
@@ -1191,19 +1184,6 @@
       "izvor": "halo"
     },
     {
-      "id": "f0ca9e0e0f73",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/new-minel--novogradnja-bez-provizije/5425647734757?kid=1",
-      "naslov": "New Minel- novogradnja, bez provizije",
-      "opis": "NEW MINEL Residence &amp; Office je luksuzan stambeno-poslovni kompleks duž ulice Tošin bunar, idealan za porodice i poslovne ljude koji traže najviši standard stanovanja. Kompleks karakteriše vrhunski kvalitet gradnje, funkcionalan prostor i maksimalna bezbednost (obezbeđenje, video nadzor, profesionalno održavanje). Sadržaji kompleksa: podzemna garaža (sa e-punjačima), dečije igralište, vrtić, market i lokalne prodavnice. Lokacija: Izuzetna povezanost sa ključnim saobraćajnicama i Mostom na Adi. Infrastruktura: autobuska stanica (20m), supermarket (10m), dom zdravlja (400m), osnovna škola (450m), železnička stanica i sportski centar (500m).U blizini: pijaca (1km), pošta (1.2km), policija (1.5km), aerodrom (9.3km). Petosoban stan površine 113.32m², funkcionalnog rasporeda koji obuhvata ulazni hodnik, dnevni boravak sa trpezarijom i kuhinjom, četiri spavaće sobe, dva kupatila, toalet, ostavu i terasu. Stan se nalazi na 8.spratu. Postoji mogućnost kupovine garaže u objektu. Useljenje početkom 2027. godine. Na navedenu cenu potrebno je dodati iznos PDV-a. Bez provizije za kupce! Agencija Benefit nekretnine - agent Luka",
-      "zgrada": "New Minel",
-      "struktura": "5.0",
-      "cena": 388000.0,
-      "m2": 113.32,
-      "cena_m2": 3424,
-      "agencija": "Benefit",
-      "izvor": "halo"
-    },
-    {
       "id": "efe90d51e51a",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-65-stan-sa-dva-garazna-mesta-id16703/5425647800104?kid=1",
       "naslov": "West 65,stan sa dva garažna mesta ID#16703",
@@ -1214,6 +1194,19 @@
       "m2": 110.0,
       "cena_m2": 4822,
       "agencija": "art-nekretnine-d-o-o",
+      "izvor": "halo"
+    },
+    {
+      "id": "f0ca9e0e0f73",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/new-minel--novogradnja-bez-provizije/5425647734757?kid=1",
+      "naslov": "New Minel- novogradnja, bez provizije",
+      "opis": "NEW MINEL Residence &amp; Office je luksuzan stambeno-poslovni kompleks duž ulice Tošin bunar, idealan za porodice i poslovne ljude koji traže najviši standard stanovanja. Kompleks karakteriše vrhunski kvalitet gradnje, funkcionalan prostor i maksimalna bezbednost (obezbeđenje, video nadzor, profesionalno održavanje). Sadržaji kompleksa: podzemna garaža (sa e-punjačima), dečije igralište, vrtić, market i lokalne prodavnice. Lokacija: Izuzetna povezanost sa ključnim saobraćajnicama i Mostom na Adi. Infrastruktura: autobuska stanica (20m), supermarket (10m), dom zdravlja (400m), osnovna škola (450m), železnička stanica i sportski centar (500m).U blizini: pijaca (1km), pošta (1.2km), policija (1.5km), aerodrom (9.3km). Petosoban stan površine 113.32m², funkcionalnog rasporeda koji obuhvata ulazni hodnik, dnevni boravak sa trpezarijom i kuhinjom, četiri spavaće sobe, dva kupatila, toalet, ostavu i terasu. Stan se nalazi na 8.spratu. Postoji mogućnost kupovine garaže u objektu. Useljenje početkom 2027. godine. Na navedenu cenu potrebno je dodati iznos PDV-a. Bez provizije za kupce! Agencija Benefit nekretnine - agent Luka",
+      "zgrada": "New Minel",
+      "struktura": "5.0",
+      "cena": 388000.0,
+      "m2": 113.32,
+      "cena_m2": 3424,
+      "agencija": "Benefit",
       "izvor": "halo"
     },
     {
@@ -1256,6 +1249,19 @@
       "izvor": "halo"
     },
     {
+      "id": "ded30823c324",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/nov-dvosoban-stan-sa-terasom-soul-64-55-m/5425647793139?kid=1",
+      "naslov": "Nov dvosoban stan sa terasom | Soul 64 | 55 m²",
+      "opis": "Na prodaju komforan, potpuno nov dvosoban stan u kompleksu Soul 64 na Novom Beogradu. Stan ima 55 m² i nalazi se na 7. spratu zgrade od ukupno 9 spratova, sa orijentacijom ka kompleksu The One. Odličan raspored čine prostrana dnevna soba, odvojena kuhinja, spavaća soba, kupatilo i zasebna servisna prostorija predviđena za bojler, mašine i odlaganje. Dodatnu prednost predstavlja komforna terasa pravilnog oblika. Stan je opremljen kvalitetnim materijalima i opremom: • Laufen sanitarije i Hansgrohe armature • Troslojna spoljna stolarija i električne roletne • Bosal ulazna vrata • Parket i keramika prve klase • Zasebna plafonska klima u dnevnoj i spavaćoj sobi Nova zgrada poseduje dva velika lifta i prostran, moderan lobi. Kompleks ima obezbeđenje 24/7, a stanarima su dostupni sportski centar sa bazenom, fitness i wellness sadržaji. Kafići, restorani i prodavnice u okviru kompleksa dodatno doprinose praktičnosti svakodnevnog života. Mogućnost kupovine garažnog mesta po ceni od 30.000 €. PDV je plaćen. Kupac plaća porez na prenos apsolutnih prava po stopi od 2,5%, osim ukoliko ostvaruje pravo na poresko oslobođenje. Za dodatne informacije i zakazivanje gledanja, kontaktirajte Polaris Pr",
+      "zgrada": "Soul 64",
+      "struktura": "2.0",
+      "cena": 299000.0,
+      "m2": 55.0,
+      "cena_m2": 5436,
+      "agencija": null,
+      "izvor": "halo"
+    },
+    {
       "id": "c8b682d7bbec",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-blok-67a-a-blok-id1562/5425647444269?kid=1",
       "naslov": "Novi Beograd-Blok 67a-A Blok ID#1562",
@@ -1269,15 +1275,15 @@
       "izvor": "halo"
     },
     {
-      "id": "ded30823c324",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/nov-dvosoban-stan-sa-terasom-soul-64-55-m/5425647793139?kid=1",
-      "naslov": "Nov dvosoban stan sa terasom | Soul 64 | 55 m²",
-      "opis": "Na prodaju komforan, potpuno nov dvosoban stan u kompleksu Soul 64 na Novom Beogradu. Stan ima 55 m² i nalazi se na 7. spratu zgrade od ukupno 9 spratova, sa orijentacijom ka kompleksu The One. Odličan raspored čine prostrana dnevna soba, odvojena kuhinja, spavaća soba, kupatilo i zasebna servisna prostorija predviđena za bojler, mašine i odlaganje. Dodatnu prednost predstavlja komforna terasa pravilnog oblika. Stan je opremljen kvalitetnim materijalima i opremom: • Laufen sanitarije i Hansgrohe armature • Troslojna spoljna stolarija i električne roletne • Bosal ulazna vrata • Parket i keramika prve klase • Zasebna plafonska klima u dnevnoj i spavaćoj sobi Nova zgrada poseduje dva velika lifta i prostran, moderan lobi. Kompleks ima obezbeđenje 24/7, a stanarima su dostupni sportski centar sa bazenom, fitness i wellness sadržaji. Kafići, restorani i prodavnice u okviru kompleksa dodatno doprinose praktičnosti svakodnevnog života. Mogućnost kupovine garažnog mesta po ceni od 30.000 €. PDV je plaćen. Kupac plaća porez na prenos apsolutnih prava po stopi od 2,5%, osim ukoliko ostvaruje pravo na poresko oslobođenje. Za dodatne informacije i zakazivanje gledanja, kontaktirajte Polaris Pr",
+      "id": "2fc48696f030",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul64velika-terasa3-0/5425647629706?kid=1",
+      "naslov": "Soul64/Velika terasa/3.0",
+      "opis": "U ponudi je prostran i funkcionalno organizovan trosoban stan u okviru ekskluzivnog kompleksa Soul 64. Stan ukupne površine 73,46 m², sa terasom od 5,82 m², odlikuje se pažljivo osmišljenim rasporedom i prijatnim ambijentom. Stan se sastoji od dnevnog boravka sa trpezarijom i kuhinjom, dve spavaće sobe, dva kupatila i terase. Jedna od spavaćih soba poseduje privatno kupatilo, pružajući dodatni komfor i privatnost. Posebna prednost stana je velika terasa – bašta površine 99,10 m², koja predstavlja idealan prostor za odmor, druženje i uživanje na otvorenom. Soul 64 je moderan stambeni kompleks koji pruža savremen koncept stanovanja, uz kvalitetnu arhitekturu, uređeno okruženje i sadržaje namenjene udobnom svakodnevnom životu. Postoji mogućnost kupovine garažnog mesta uz stan, uz doplatu. Agencijska provizija: 2.00 % Opis provizije: + PDV",
       "zgrada": "Soul 64",
-      "struktura": "2.0",
-      "cena": 299000.0,
-      "m2": 55.0,
-      "cena_m2": 5436,
+      "struktura": "3.0",
+      "cena": 425000.0,
+      "m2": 73.4,
+      "cena_m2": 5790,
       "agencija": null,
       "izvor": "halo"
     },
@@ -1295,15 +1301,15 @@
       "izvor": "halo"
     },
     {
-      "id": "2fc48696f030",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul64velika-terasa3-0/5425647629706?kid=1",
-      "naslov": "Soul64/Velika terasa/3.0",
-      "opis": "U ponudi je prostran i funkcionalno organizovan trosoban stan u okviru ekskluzivnog kompleksa Soul 64. Stan ukupne površine 73,46 m², sa terasom od 5,82 m², odlikuje se pažljivo osmišljenim rasporedom i prijatnim ambijentom. Stan se sastoji od dnevnog boravka sa trpezarijom i kuhinjom, dve spavaće sobe, dva kupatila i terase. Jedna od spavaćih soba poseduje privatno kupatilo, pružajući dodatni komfor i privatnost. Posebna prednost stana je velika terasa – bašta površine 99,10 m², koja predstavlja idealan prostor za odmor, druženje i uživanje na otvorenom. Soul 64 je moderan stambeni kompleks koji pruža savremen koncept stanovanja, uz kvalitetnu arhitekturu, uređeno okruženje i sadržaje namenjene udobnom svakodnevnom životu. Postoji mogućnost kupovine garažnog mesta uz stan, uz doplatu. Agencijska provizija: 2.00 % Opis provizije: + PDV",
-      "zgrada": "Soul 64",
+      "id": "83f6ccd9902c",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-lux-novogradnja-75-m2-3-0/5425647604325?kid=1",
+      "naslov": "Airport Garden, Lux, Novogradnja, 75 m2, 3.0",
+      "opis": "Airport Garden | Trosoban stan 75 m² | Bez agencijske provizije Prodaje se trosoban stan od 75,18 m² sa terasom u novoizgrađenom luksuznom stambenom kompleksu Airport Garden na Novom Beogradu. Stan je veoma funkcionalan, svetao, ima praktičan raspored prostorija, koji pruža maksimalnu iskorišćenost prostora. Opremljen je veoma kvalitetnom stolarijom, poseduje Smart home sistem a grejanje i hlađenje je regulisano sistemom toplotnih pumpi. Idealan za porodičan život ili investiciju. Atraktivna lokacija i kvalitetna novogradnja. Stan se sastoji iz predsoblja, gostinskog toaleta, dnevnog boravka sa kuhinjom i trpezarijom, 2 spavaće sobe, kupatila i natkrivene terase. Kompleks Airport Garden predstavlja spoj savremene arhitekture, kvalitetne gradnje i odlične lokacije, sa brzom povezanošću sa svim delovima grada, poslovnim zonama Novog Beograda, aerodromom i glavnim saobraćajnicama. Direktno od vlasnika, bez agencijske provizije za kupca.&nbsp; Kontakt za više informacija i razgledanje +381 63 275 033",
+      "zgrada": "Airport Garden",
       "struktura": "3.0",
-      "cena": 425000.0,
-      "m2": 73.4,
-      "cena_m2": 5790,
+      "cena": 334551.0,
+      "m2": 75.18,
+      "cena_m2": 4450,
       "agencija": null,
       "izvor": "halo"
     },
@@ -1321,19 +1327,6 @@
       "izvor": "halo"
     },
     {
-      "id": "83f6ccd9902c",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-lux-novogradnja-75-m2-3-0/5425647604325?kid=1",
-      "naslov": "Airport Garden, Lux, Novogradnja, 75 m2, 3.0",
-      "opis": "Airport Garden | Trosoban stan 75 m² | Bez agencijske provizije Prodaje se trosoban stan od 75,18 m² sa terasom u novoizgrađenom luksuznom stambenom kompleksu Airport Garden na Novom Beogradu. Stan je veoma funkcionalan, svetao, ima praktičan raspored prostorija, koji pruža maksimalnu iskorišćenost prostora. Opremljen je veoma kvalitetnom stolarijom, poseduje Smart home sistem a grejanje i hlađenje je regulisano sistemom toplotnih pumpi. Idealan za porodičan život ili investiciju. Atraktivna lokacija i kvalitetna novogradnja. Stan se sastoji iz predsoblja, gostinskog toaleta, dnevnog boravka sa kuhinjom i trpezarijom, 2 spavaće sobe, kupatila i natkrivene terase. Kompleks Airport Garden predstavlja spoj savremene arhitekture, kvalitetne gradnje i odlične lokacije, sa brzom povezanošću sa svim delovima grada, poslovnim zonama Novog Beograda, aerodromom i glavnim saobraćajnicama. Direktno od vlasnika, bez agencijske provizije za kupca.&nbsp; Kontakt za više informacija i razgledanje +381 63 275 033",
-      "zgrada": "Airport Garden",
-      "struktura": "3.0",
-      "cena": 334551.0,
-      "m2": 75.18,
-      "cena_m2": 4450,
-      "agencija": null,
-      "izvor": "halo"
-    },
-    {
       "id": "994b6cd464c6",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-novi-beograd-1-0-stan-39m-gar/5425647787687?kid=1",
       "naslov": "Airport Garden, Novi Beograd – 1.0 stan 39m² + Gar",
@@ -1344,6 +1337,19 @@
       "m2": 39.0,
       "cena_m2": 5718,
       "agencija": "Optimist",
+      "izvor": "halo"
+    },
+    {
+      "id": "da71fbc136d4",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-stanova-bez-ag-provizije-pupinova-pal/5425647458720?kid=1",
+      "naslov": "Prodaja stanova bez ag. provizije, Pupinova Palata",
+      "opis": "Pupinova palata na Novom Beogradu oslikava idealan spoj materijalizacije premium kvaliteta i najsavremenije tehnologije. Atraktivan izgled i moderan dizajn ovog objekta izuzetno doprinose funkcionalnosti i maksimalnoj iskorišćenosti prostora i lokacije. Odlično poslovno okruženje, koje podrazumeva blizinu nekih od najvećih biznis parkova, Pupinovu palatu čini optimalnim izborom za poslovni prostor. Pored velikog biznis potencijala, Pupinova palata na Novom Beogradu nudi komforan i funkcionalan životni prostor, stanove namenjene svima onima koji teže sadržajnom i kvalitetnom životu u atraktivnom i dinamičnom delu prestonice. Objekat se nalazi 50m od Airport City u neposrednoj blizini Delta City. &nbsp;Cena bez PDV-a",
+      "zgrada": "Pupinova palata",
+      "struktura": "4.0",
+      "cena": 435970.0,
+      "m2": 118.0,
+      "cena_m2": 3695,
+      "agencija": "feniks-sistem-d-o-o",
       "izvor": "halo"
     },
     {
@@ -1386,16 +1392,16 @@
       "izvor": "halo"
     },
     {
-      "id": "da71fbc136d4",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-stanova-bez-ag-provizije-pupinova-pal/5425647458720?kid=1",
-      "naslov": "Prodaja stanova bez ag. provizije, Pupinova Palata",
-      "opis": "Pupinova palata na Novom Beogradu oslikava idealan spoj materijalizacije premium kvaliteta i najsavremenije tehnologije. Atraktivan izgled i moderan dizajn ovog objekta izuzetno doprinose funkcionalnosti i maksimalnoj iskorišćenosti prostora i lokacije. Odlično poslovno okruženje, koje podrazumeva blizinu nekih od najvećih biznis parkova, Pupinovu palatu čini optimalnim izborom za poslovni prostor. Pored velikog biznis potencijala, Pupinova palata na Novom Beogradu nudi komforan i funkcionalan životni prostor, stanove namenjene svima onima koji teže sadržajnom i kvalitetnom životu u atraktivnom i dinamičnom delu prestonice. Objekat se nalazi 50m od Airport City u neposrednoj blizini Delta City. &nbsp;Cena bez PDV-a",
-      "zgrada": "Pupinova palata",
-      "struktura": "4.0",
-      "cena": 435970.0,
-      "m2": 118.0,
-      "cena_m2": 3695,
-      "agencija": "feniks-sistem-d-o-o",
+      "id": "4064aa66421d",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-stana-i-garaznog-mesta-airport-garden/5425647008400?kid=1",
+      "naslov": "Prodaja stana i garažnog mesta Airport Garden",
+      "opis": "Prodaja stana u kompleksu Airport Garden, Novi Beograd, dvosoban stan,dvostrano orijentisan, funkcionalan raspored, novogradnja. Stan se nalazi u kompleksu Airport Garden, poznatom po kvalitetu gradnje i savremenoj arhitekturi. Dvostrana orijentacija obezbeđuje optimalnu osvetljenost tokom celog dana i prijatan ambijent za stanovanje. Raspored prostora je maksimalno iskorišćen, sa jasno odvojenim dnevnim i spavaćim delom, što ga čini idealnim kako za život tako i za investiciju. Objekat poseduje ventilisanu fasadu, aluminijumsku stolariju visokog kvaliteta, energetsku efikasnost klase B i dobru zvučnu izolaciju. Autonomno grejanje i hlađenje omogućava potpunu kontrolu putem aplikacije, uz bešumni komfor bez radijatora i klasičnih klima uređaja. Zgrada je opremljena video nadzorom, kontrolom pristupa, optičkom mrežom i organizovanim održavanjem. Uz stan postoji mogućnost kupovine garažnog mesta uz doplatu, što dodatno povećava vrednost nekretnine na traženoj lokaciji Novog Beograda. id 2570",
+      "zgrada": "Airport Garden",
+      "struktura": "2.0",
+      "cena": 259800.0,
+      "m2": 60.42,
+      "cena_m2": 4300,
+      "agencija": "JDPropertiesandConsultingdoo",
       "izvor": "halo"
     },
     {
@@ -1409,19 +1415,6 @@
       "m2": 112.0,
       "cena_m2": 3661,
       "agencija": "divis-nekretnine",
-      "izvor": "halo"
-    },
-    {
-      "id": "4064aa66421d",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-stana-i-garaznog-mesta-airport-garden/5425647008400?kid=1",
-      "naslov": "Prodaja stana i garažnog mesta Airport Garden",
-      "opis": "Prodaja stana u kompleksu Airport Garden, Novi Beograd, dvosoban stan,dvostrano orijentisan, funkcionalan raspored, novogradnja. Stan se nalazi u kompleksu Airport Garden, poznatom po kvalitetu gradnje i savremenoj arhitekturi. Dvostrana orijentacija obezbeđuje optimalnu osvetljenost tokom celog dana i prijatan ambijent za stanovanje. Raspored prostora je maksimalno iskorišćen, sa jasno odvojenim dnevnim i spavaćim delom, što ga čini idealnim kako za život tako i za investiciju. Objekat poseduje ventilisanu fasadu, aluminijumsku stolariju visokog kvaliteta, energetsku efikasnost klase B i dobru zvučnu izolaciju. Autonomno grejanje i hlađenje omogućava potpunu kontrolu putem aplikacije, uz bešumni komfor bez radijatora i klasičnih klima uređaja. Zgrada je opremljena video nadzorom, kontrolom pristupa, optičkom mrežom i organizovanim održavanjem. Uz stan postoji mogućnost kupovine garažnog mesta uz doplatu, što dodatno povećava vrednost nekretnine na traženoj lokaciji Novog Beograda. id 2570",
-      "zgrada": "Airport Garden",
-      "struktura": "2.0",
-      "cena": 259800.0,
-      "m2": 60.42,
-      "cena_m2": 4300,
-      "agencija": "JDPropertiesandConsultingdoo",
       "izvor": "halo"
     },
     {
@@ -1529,19 +1522,6 @@
       "izvor": "halo"
     },
     {
-      "id": "2a6d0e337e75",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bel-mondo-78-32m-2-0/5425647775315?kid=1",
-      "naslov": "Bel Mondo |78,32m² | 2.0",
-      "opis": "Na prodaju je moderan i funkcionalan dvosoban stan površine 78,32 m², smešten na 2. spratu prestižnog kompleksa BEL MONDO na Novom Beogradu. Stan odlikuje prostran dnevni prostor povezan sa kuhinjom i trpezarijom, kvalitetna završna obrada, aluminijumska stolarija sa odličnom termoizolacijom, hrastov parket i savremeno opremljeno kupatilo. Poseban komfor pružaju podno grejanje, centralizovano hlađenje putem fancoil sistema, individualno merenje potrošnje i optički internet (FTTH). Kompleks dodatno nudi recepciju, 24h video-nadzor, kontrolu pristupa i uređeno zajedničko dvorište. Ukupna cena stana: 344.608 EUR Uz stan se prodaju dva parking mesta, od kojih jedno ima pripremu i priključak za elektro punjač. Cena dva parking mesta: 63.200 EUR UKUPNA CENA SA DVA PARKING MESTA: 407.808 EUR Planirani završetak izgradnje i primopredaja: 01.01.2027. Odličan izbor za kupce koji traže prostran dvosoban stan, savremeni standard gradnje i visok nivo komfora u jednom od atraktivnih kompleksa Novog Beograda. --- Продаётся современная и функциональная двухкомнатная квартира площадью 78,32 м², расположенная на 2-м этаже престижного комплекса BEL MONDO в Новом Белграде. Квартира отличается просторн",
-      "zgrada": "Bel Mondo",
-      "struktura": "2.0",
-      "cena": 344608.0,
-      "m2": 78.32,
-      "cena_m2": 4400,
-      "agencija": null,
-      "izvor": "halo"
-    },
-    {
       "id": "cb93faf8c39b",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bel-mondo-120-76-m-3-0/5425647773961?kid=1",
       "naslov": "Bel Mondo |120,76 m² | 3.0",
@@ -1550,6 +1530,19 @@
       "struktura": "3.0",
       "cena": 531344.0,
       "m2": 120.76,
+      "cena_m2": 4400,
+      "agencija": null,
+      "izvor": "halo"
+    },
+    {
+      "id": "2a6d0e337e75",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/bel-mondo-78-32m-2-0/5425647775315?kid=1",
+      "naslov": "Bel Mondo |78,32m² | 2.0",
+      "opis": "Na prodaju je moderan i funkcionalan dvosoban stan površine 78,32 m², smešten na 2. spratu prestižnog kompleksa BEL MONDO na Novom Beogradu. Stan odlikuje prostran dnevni prostor povezan sa kuhinjom i trpezarijom, kvalitetna završna obrada, aluminijumska stolarija sa odličnom termoizolacijom, hrastov parket i savremeno opremljeno kupatilo. Poseban komfor pružaju podno grejanje, centralizovano hlađenje putem fancoil sistema, individualno merenje potrošnje i optički internet (FTTH). Kompleks dodatno nudi recepciju, 24h video-nadzor, kontrolu pristupa i uređeno zajedničko dvorište. Ukupna cena stana: 344.608 EUR Uz stan se prodaju dva parking mesta, od kojih jedno ima pripremu i priključak za elektro punjač. Cena dva parking mesta: 63.200 EUR UKUPNA CENA SA DVA PARKING MESTA: 407.808 EUR Planirani završetak izgradnje i primopredaja: 01.01.2027. Odličan izbor za kupce koji traže prostran dvosoban stan, savremeni standard gradnje i visok nivo komfora u jednom od atraktivnih kompleksa Novog Beograda. --- Продаётся современная и функциональная двухкомнатная квартира площадью 78,32 м², расположенная на 2-м этаже престижного комплекса BEL MONDO в Новом Белграде. Квартира отличается просторн",
+      "zgrada": "Bel Mondo",
+      "struktura": "2.0",
+      "cena": 344608.0,
+      "m2": 78.32,
       "cena_m2": 4400,
       "agencija": null,
       "izvor": "halo"
@@ -1604,19 +1597,6 @@
       "m2": 84.15,
       "cena_m2": 4004,
       "agencija": "art-nekretnine-d-o-o",
-      "izvor": "halo"
-    },
-    {
-      "id": "7e5199420215",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/wellport-78m2-3-0-id8968/5425646723664?kid=1",
-      "naslov": "Wellport, 78m2,3,0 ID#8968",
-      "opis": "Na prodaju moderan trosoban stan u prestižnom stambenom kompleksu Wellport, površine 78 m², projektovan po savremenom konceptu stanovanja sa naglaskom na komfor, funkcionalnost i kvalitet. Stan poseduje lep, otvoren pogled i izuzetno je svetao zahvaljujući velikim prozorima. Struktura stana: • prostrana dnevna soba sa trpezarijom • dve spavaće sobe • kupatilo • zaseban toalet Zgrada je vrhunskog kvaliteta gradnje, sa 24-časovnim obezbeđenjem i kontrolisanim pristupom, što pruža visok nivo sigurnosti i privatnosti (zatvoren kompleks). Lokacija je izuzetno praktična — u neposrednoj blizini nalaze se svi sadržaji neophodni za udoban život: prodavnice, restorani, škole, vrtići, poslovni centri i saobraćajne veze. Idealna nekretnina za porodično stanovanje ili sigurnu investiciju. Agencijska nadoknada 2%. .",
-      "zgrada": "Wellport",
-      "struktura": "3.0",
-      "cena": 425000.0,
-      "m2": 78.0,
-      "cena_m2": 5449,
-      "agencija": "EUROPOLISNEKRETNINE",
       "izvor": "halo"
     },
     {
@@ -1789,19 +1769,6 @@
       "izvor": "halo"
     },
     {
-      "id": "207d9339fdb4",
-      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-belville---bulevar-crvene-armije/5425647746786?kid=1",
-      "naslov": "Novi Beograd, Belville - Bulevar Crvene armije",
-      "opis": "Novi Beograd, Belville - Bulevar Crvene armije 2.0, 60m2 (lođa 4m2), VII sprat, CG, lift, interfon, parking Na prodaju je dvosoban stan od 60m² na jednoj od najtraženijih lokacija Novog Beograda – u kompleksu Belvil. Stan se nalazi na sedmom spratu zgrade, koja je uredna i dobro održavana, sa dva lifta i video-nadzorom. Posebna prednost ove nekretnine je orijentacija ka unutrašnjem, mirnijem delu Belvila. Iz stana se pruža otvoren pogled na zelenilo i trim-stazu, bez direktnog pogleda na saobraćajnicu i gradsku gužvu. Stan je zbog toga veoma prijatan za svakodnevni život. Površina od 60m² je veoma dobro iskorišćena. Dnevni boravak je komforan, kuhinja je odvojena, a trpezarija predstavlja zasebnu funkcionalnu celinu. Tu su još spavaća soba, kupatilo, ulazni hodnik sa prostorom za garderober i lođa. Postojeći raspored daje i mogućnost formiranja dodatne sobe, odnosno adaptacije u dvoiposoban stan, što budućem vlasniku ostavlja prostor da nekretninu prilagodi sopstvenim potrebama. Stan je odlično očuvan i odmah useljiv, bez potrebe za renoviranjem ili većim ulaganjem. Sve što je potrebno za svakodnevni život nalazi se na nekoliko minuta od zgrade – Delta City, prodavnice, restorani, ",
-      "zgrada": "Belvil",
-      "struktura": "2.0",
-      "cena": 315000.0,
-      "m2": 60.0,
-      "cena_m2": 5250,
-      "agencija": null,
-      "izvor": "halo"
-    },
-    {
       "id": "0649613018e5",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novogradnja---preko-puta-delta-city-ja-komple/5425647468753?kid=1",
       "naslov": "Novogradnja - Preko puta Delta City-ja, kompleks L",
@@ -1812,6 +1779,19 @@
       "m2": 83.0,
       "cena_m2": 4578,
       "agencija": "EUROPOLISNEKRETNINE",
+      "izvor": "halo"
+    },
+    {
+      "id": "207d9339fdb4",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-belville---bulevar-crvene-armije/5425647746786?kid=1",
+      "naslov": "Novi Beograd, Belville - Bulevar Crvene armije",
+      "opis": "Novi Beograd, Belville - Bulevar Crvene armije 2.0, 60m2 (lođa 4m2), VII sprat, CG, lift, interfon, parking Na prodaju je dvosoban stan od 60m² na jednoj od najtraženijih lokacija Novog Beograda – u kompleksu Belvil. Stan se nalazi na sedmom spratu zgrade, koja je uredna i dobro održavana, sa dva lifta i video-nadzorom. Posebna prednost ove nekretnine je orijentacija ka unutrašnjem, mirnijem delu Belvila. Iz stana se pruža otvoren pogled na zelenilo i trim-stazu, bez direktnog pogleda na saobraćajnicu i gradsku gužvu. Stan je zbog toga veoma prijatan za svakodnevni život. Površina od 60m² je veoma dobro iskorišćena. Dnevni boravak je komforan, kuhinja je odvojena, a trpezarija predstavlja zasebnu funkcionalnu celinu. Tu su još spavaća soba, kupatilo, ulazni hodnik sa prostorom za garderober i lođa. Postojeći raspored daje i mogućnost formiranja dodatne sobe, odnosno adaptacije u dvoiposoban stan, što budućem vlasniku ostavlja prostor da nekretninu prilagodi sopstvenim potrebama. Stan je odlično očuvan i odmah useljiv, bez potrebe za renoviranjem ili većim ulaganjem. Sve što je potrebno za svakodnevni život nalazi se na nekoliko minuta od zgrade – Delta City, prodavnice, restorani, ",
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "cena": 315000.0,
+      "m2": 60.0,
+      "cena_m2": 5250,
+      "agencija": null,
       "izvor": "halo"
     },
     {
