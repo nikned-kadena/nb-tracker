@@ -258,7 +258,7 @@
     "4a286f420402ecb8": {
       "uid": "4a286f420402ecb8",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-26",
+      "last_seen": "2026-10-27",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "d865f41d549cb7ec",
@@ -288,7 +288,7 @@
       "m2": 58.0,
       "sprat": "5",
       "agencija": "JDPropertiesandConsultingdoo",
-      "naslov": "Dvosoban stan na prodaju, Đorđa Stanojevića, 261.000€, 58m²",
+      "naslov": "Prodaja stana Airport Garden Novi Beograd 58 m²",
       "price_first": 255200.0,
       "price_current": 261000.0,
       "price_changes": [
@@ -311,7 +311,7 @@
       "days_listed": 119,
       "cena_m2": 4500,
       "last_seen_src": {
-        "halo": "2026-10-22",
+        "halo": "2026-10-27",
         "nadjidom": "2026-09-30",
         "4zida": "2026-10-26"
       },
@@ -7055,12 +7055,13 @@
     "43338f4dee5a725b": {
       "uid": "43338f4dee5a725b",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-09-18",
-      "is_active": false,
-      "deactivated_at": "2026-09-21",
+      "last_seen": "2026-10-27",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "80e1ec104326a8ff",
       "fp_strict_all": [
-        "f20249419818a599"
+        "f20249419818a599",
+        "a001b2b062f8c4de"
       ],
       "sources": [
         "halo"
@@ -7074,16 +7075,29 @@
       "zgrada": "Wellport",
       "struktura": "2.0",
       "str_label": null,
-      "m2": 57.05,
+      "m2": 57.0,
       "sprat": null,
       "agencija": null,
       "naslov": "Prodaja dvosobnog stana, Wellport IV faza, 57m2",
       "price_first": 251000.0,
-      "price_current": 251000.0,
-      "price_changes": [],
-      "days_listed": 81,
-      "cena_m2": 4400,
-      "deactivation_uncertain": true
+      "price_current": 287000.0,
+      "price_changes": [
+        {
+          "date": "2026-10-27",
+          "from": 251000.0,
+          "to": 287000.0
+        }
+      ],
+      "days_listed": 117,
+      "cena_m2": 5035,
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-10-27"
+      },
+      "fp_nosprat_all": [
+        "15d3ad6788ee6516"
+      ],
+      "fp_nosprat": "15d3ad6788ee6516"
     },
     "a3ebbc5af08e35f9": {
       "uid": "a3ebbc5af08e35f9",
@@ -18558,9 +18572,9 @@
     "87f93813bbdccc11": {
       "uid": "87f93813bbdccc11",
       "first_seen": "2026-09-23",
-      "last_seen": "2026-10-22",
-      "is_active": false,
-      "deactivated_at": "2026-10-24",
+      "last_seen": "2026-10-27",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "9493f7fc77df8acf",
       "fp_strict_all": [
         "f6c96f5cfb2052c2"
@@ -18569,11 +18583,12 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "6a0a1ff023fd"
+        "halo": "d0362afbf7eb"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-32m-luksuzan-opremljen/5425647684702",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-32m-luksuzan-opremljen/5425647783219?kid=3"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-32m-luksuzan-opremljen/5425647783219?kid=3",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-32m-luksuzan-opremljen/5425647684702?kid=1"
       ],
       "zgrada": "Airport Garden",
       "struktura": "garsonjera",
@@ -18585,10 +18600,10 @@
       "price_first": 176500.0,
       "price_current": 176500.0,
       "price_changes": [],
-      "days_listed": 31,
+      "days_listed": 34,
       "cena_m2": 5516,
       "last_seen_src": {
-        "halo": "2026-10-22"
+        "halo": "2026-10-27"
       },
       "fp_nosprat_all": [
         "a9f3af95509aec68"
@@ -27159,7 +27174,8 @@
       "price_first": 155000.0,
       "price_current": 155000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5962
     },
     "861a0e37ee7aac45": {
       "uid": "861a0e37ee7aac45",
@@ -27200,10 +27216,52 @@
       "price_first": 539000.0,
       "price_current": 539000.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 5133
+    },
+    "2bb5c4bd16b6ed7f": {
+      "uid": "2bb5c4bd16b6ed7f",
+      "first_seen": "2026-10-27",
+      "last_seen": "2026-10-27",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "c931bf418130df6a",
+      "fp_loose_all": [
+        "c931bf418130df6a"
+      ],
+      "fp_nosprat": "8b2261878b829bf6",
+      "fp_nosprat_all": [
+        "8b2261878b829bf6"
+      ],
+      "fp_strict_all": [
+        "50be6d556024ff56"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-27"
+      },
+      "source_ids": {
+        "halo": "f7fae5b921cc"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuzan-trosoban-stan-u-kuli-west-65-tower/5425647615221"
+      ],
+      "zgrada": "West 65 Kula",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 105.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Luksuzan trosoban stan u kuli West 65 Tower",
+      "price_first": 569000.0,
+      "price_current": 569000.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-27T05:01:52.548511+00:00",
+  "updated_at": "2026-10-27T09:14:33.200207+00:00",
   "last_run": {
     "4zida": "2026-10-26",
     "nadjidom": "2026-10-26",
