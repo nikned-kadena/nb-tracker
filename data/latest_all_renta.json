@@ -3,16 +3,17 @@
   "source": "all",
   "date": "2026-10-29",
   "scraped_at": "2026-10-29",
-  "total_raw": 185,
-  "total_unique": 137,
+  "total_raw": 189,
+  "total_unique": 141,
   "total_dups": 48,
   "diff_new": [
     "c49470c5089af0d9",
     "d27c2382c03a9aff",
-    "e4c1c10745d88642"
+    "e4c1c10745d88642",
+    "db50d90ecbc85350",
+    "d4c0be854f9c593e"
   ],
   "diff_removed": [
-    "bd12204365b5699a",
     "9ebb8ca824231cd6",
     "0ff79c2e1703980f",
     "6f99dc61ec91b05f"
@@ -2803,7 +2804,7 @@
       "prva_cena": 900.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-06",
-      "last_seen": "2026-10-28",
+      "last_seen": "2026-10-29",
       "dedup_key": "Wellport|39.0|900.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -3168,6 +3169,33 @@
       "cena_m2_sumnjiva": false
     },
     {
+      "id": "1c0299d3686b9f72",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-lux-165-m2-garazno-mesto-bez-buke-svetao/5425647798341?kid=4",
+      "naslov": "Nov, Lux,165 m2 ,Garažno mesto,Bez buke, Svetao",
+      "zgrada": "West 65",
+      "agencija": null,
+      "struktura": "5.0",
+      "str_label": null,
+      "m2": 165.0,
+      "cena": 2600.0,
+      "cena_m2": 16,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 19,
+      "prva_cena": 2600.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-10",
+      "last_seen": "2026-10-29",
+      "dedup_key": "West 65|165.0|2600.0",
+      "zgrada_izvor": "opis",
+      "agencija_izvor": null,
+      "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
       "id": "9945c6e4075c366a",
       "url": "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6aca12e7064757422f08cdc9",
       "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera, 1.650€, 106m²",
@@ -3191,6 +3219,33 @@
       "zgrada_izvor": "opis_agenta",
       "agencija_izvor": null,
       "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "bd12204365b5699a",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/dvosoban-soul-64-terasa/5425647814930?kid=3",
+      "naslov": "Dvosoban | Soul 64 | Terasa",
+      "zgrada": "Soul 64",
+      "agencija": "Kadena Sotheby's",
+      "struktura": "1.0",
+      "str_label": null,
+      "m2": 54.0,
+      "cena": 1300.0,
+      "cena_m2": 24,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 16,
+      "prva_cena": 1300.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-13",
+      "last_seen": "2026-10-29",
+      "dedup_key": "Soul 64|54.0|1300.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     },
@@ -3496,7 +3551,7 @@
     {
       "id": "03e715205453fa85",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---west-65-kula-tower-69416/5425647724731?kid=4",
-      "naslov": "Novi Beograd - West 65 kula Tower #69416",
+      "naslov": "Novi Beograd - West 65 kula Tower #1769416",
       "zgrada": "West 65 Kula",
       "agencija": "Beostan",
       "struktura": "4.0",
@@ -3823,7 +3878,7 @@
     {
       "id": "2b2742f52277320f",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-urosa-martinovica-48m2-stan-sa-parking/5425647853929?kid=1",
-      "naslov": "A Blok, Uroša Martinovića, 48m2, stan sa parkingom",
+      "naslov": "Novi Beograd, A blok, Uroša Martinovića, 48m2, par",
       "zgrada": "A Blok",
       "agencija": "Agencija Union Nekretnine",
       "struktura": "2.5",
@@ -5099,6 +5154,60 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "db50d90ecbc85350",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-neuseljavan-lux-garaza-id-2620/5425647896030?kid=4",
+      "naslov": "Airport Garden, neuseljavan, lux, garaža, ID 26207",
+      "zgrada": "Airport Garden",
+      "agencija": "Eminent Nekretnine",
+      "struktura": "1.0",
+      "str_label": null,
+      "m2": 33.0,
+      "cena": 800.0,
+      "cena_m2": 24,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 800.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "dedup_key": "Airport Garden|33.0|800.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "d4c0be854f9c593e",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/welport-nov-2-0-svetao-miran-parking/5425647500486?kid=1",
+      "naslov": "Welport Nov, 2.0,Svetao,Miran,Parking",
+      "zgrada": "Wellport",
+      "agencija": "Danos",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 54.0,
+      "cena": 800.0,
+      "cena_m2": 15,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 800.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "dedup_key": "Wellport|54.0|800.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }
