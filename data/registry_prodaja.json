@@ -273,7 +273,7 @@
         "4zida"
       ],
       "source_ids": {
-        "halo": "2b073fde04ac",
+        "halo": "61c029f0f374",
         "nadjidom": "nadjidom:2267950",
         "4zida": "4zida:69b59ddf71e0999b280b81b7"
       },
@@ -291,7 +291,7 @@
       "agencija": "JDPropertiesandConsultingdoo",
       "naslov": "Prodaja stana Airport Garden Novi Beograd 58 m²",
       "price_first": 255200.0,
-      "price_current": 249400.0,
+      "price_current": 261000.0,
       "price_changes": [
         {
           "date": "2026-09-27",
@@ -312,10 +312,15 @@
           "date": "2026-10-30",
           "from": 261000.0,
           "to": 249400.0
+        },
+        {
+          "date": "2026-10-30",
+          "from": 249400.0,
+          "to": 261000.0
         }
       ],
       "days_listed": 122,
-      "cena_m2": 4300,
+      "cena_m2": 4500,
       "last_seen_src": {
         "halo": "2026-10-30",
         "nadjidom": "2026-09-30",
@@ -2693,51 +2698,44 @@
     },
     "a87468bd312c0a49": {
       "uid": "a87468bd312c0a49",
-      "first_seen": "2026-06-30",
-      "last_seen": "2026-10-29",
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-10-30",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "b42b1146bd6d6c66",
+      "fp_loose_all": [
+        "b42b1146bd6d6c66"
+      ],
+      "fp_nosprat": "77e18135ebadabc7",
+      "fp_nosprat_all": [
+        "77e18135ebadabc7"
+      ],
       "fp_strict_all": [
         "d62e22384fad072a"
       ],
       "sources": [
-        "halo",
-        "nadjidom",
-        "4zida"
+        "halo"
       ],
+      "last_seen_src": {
+        "halo": "2026-10-30"
+      },
       "source_ids": {
-        "halo": "eb1bc07e9226",
-        "nadjidom": "nadjidom:2333944",
-        "4zida": "4zida:697b3b308546bffbf20fa643"
+        "halo": "8f4cc725773c"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/odlican-4-0-stan-lastavice-tc-delta-city-id19/5425646868774?kid=1",
-        "https://www.nadjidom.com/sr/details/2333944/Beograd-Novi+Beograd-Blok+67a-Prodaja-Stan.html",
-        "https://www.4zida.rs/prodaja-stanova/blok-58-novi-beograd-beograd/cetvorosoban-stan/697b3b308546bffbf20fa643",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/odlican-4-0-stan-lastavice-tc-delta-city-id19/5425646868774?kid=3"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/odlican-4-0-stan-lastavice-tc-delta-city-id19/5425646868774?kid=1"
       ],
       "zgrada": "Lastavica",
       "struktura": "4.0",
       "str_label": null,
       "m2": 83.0,
-      "sprat": "4",
-      "agencija": "EUROPOLIS NEKRETNINE ",
-      "naslov": "Novogradnja - Preko puta Delta City-ja, kompleks Lastavice ID#9836",
+      "sprat": null,
+      "agencija": "nekretninegavrilovic",
+      "naslov": "Odličan 4.0 stan, Lastavice-TC Delta city ID#1958",
       "price_first": 380000.0,
       "price_current": 380000.0,
       "price_changes": [],
-      "days_listed": 122,
-      "cena_m2": 4578,
-      "last_seen_src": {
-        "halo": "2026-10-21",
-        "nadjidom": "2026-10-29",
-        "4zida": "2026-10-29"
-      },
-      "fp_nosprat_all": [
-        "77e18135ebadabc7"
-      ],
-      "fp_nosprat": "77e18135ebadabc7"
+      "days_listed": 0
     },
     "8e64267d2a1e5002": {
       "uid": "8e64267d2a1e5002",
@@ -22040,9 +22038,9 @@
     "79df90896bdb5517": {
       "uid": "79df90896bdb5517",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-23",
-      "is_active": false,
-      "deactivated_at": "2026-10-25",
+      "last_seen": "2026-10-30",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "9c2daebe7d444d9e",
       "fp_loose_all": [
         "9c2daebe7d444d9e"
@@ -22060,7 +22058,7 @@
       ],
       "last_seen_src": {
         "4zida": "2026-10-13",
-        "halo": "2026-10-23"
+        "halo": "2026-10-30"
       },
       "source_ids": {
         "4zida": "4zida:6abbd6badb15288e1e06c920",
@@ -22080,7 +22078,7 @@
       "price_first": 530400,
       "price_current": 530400,
       "price_changes": [],
-      "days_listed": 25,
+      "days_listed": 30,
       "cena_m2": 4736
     },
     "81178af10dbacbb8": {
@@ -27660,7 +27658,8 @@
       "price_first": 155000.0,
       "price_current": 155000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5962
     },
     "33a95e9aa9fd1190": {
       "uid": "33a95e9aa9fd1190",
@@ -27706,7 +27705,7 @@
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-30T05:01:51.826166+00:00",
+  "updated_at": "2026-10-30T10:19:42.668679+00:00",
   "last_run": {
     "4zida": "2026-10-29",
     "nadjidom": "2026-10-29",

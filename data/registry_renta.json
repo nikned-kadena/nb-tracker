@@ -27793,7 +27793,7 @@
       },
       "source_ids": {
         "4zida": "4zida:6aae72b477ee53c6350366fb",
-        "halo": "4d1ac390db41"
+        "halo": "ce2f45b72bc0"
       },
       "source_urls": [
         "https://www.4zida.rs/izdavanje-stanova/blok-64-novi-beograd-beograd/trosoban-stan/6aae72b477ee53c6350366fb",
@@ -29496,7 +29496,8 @@
         "05d0879da983ec1f"
       ],
       "fp_strict_all": [
-        "a650a7ade21ffdcc"
+        "a650a7ade21ffdcc",
+        "83da470a60405dd8"
       ],
       "sources": [
         "halo"
@@ -29518,10 +29519,16 @@
       "agencija": "avenia011",
       "naslov": " Lux stan Wellport",
       "price_first": 900.0,
-      "price_current": 900.0,
-      "price_changes": [],
+      "price_current": 850.0,
+      "price_changes": [
+        {
+          "date": "2026-10-30",
+          "from": 900.0,
+          "to": 850.0
+        }
+      ],
       "days_listed": 24,
-      "cena_m2": 23
+      "cena_m2": 22
     },
     "dfb4dea456a962e6": {
       "uid": "dfb4dea456a962e6",
@@ -32464,12 +32471,14 @@
         "halo": "2026-10-30"
       },
       "source_ids": {
-        "halo": "93cdf6e417a0"
+        "halo": "91029b500681"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---west-65-kula-tower-69416/5425647724731?kid=4",
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---west-65-kula-tower-1769416/5425647837027?kid=1",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---west-65-kula-tower-69416/5425647894394?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---west-65-kula-tower-69416/5425647894394?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---west-65-kula-tower-69416/5425647889645?kid=4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---west-65-kula-tower-169416/5425647894394?kid=1"
       ],
       "zgrada": "West 65 Kula",
       "struktura": "4.0",
@@ -32477,7 +32486,7 @@
       "m2": 125.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - West 65 kula Tower #1769416",
+      "naslov": "Novi Beograd - West 65 kula Tower #169416",
       "price_first": 3500.0,
       "price_current": 3500.0,
       "price_changes": [],
@@ -36042,10 +36051,93 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 20
+    },
+    "8e1e5fb8a35cdbba": {
+      "uid": "8e1e5fb8a35cdbba",
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-10-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "b4e0374d1319a0d5",
+      "fp_loose_all": [
+        "b4e0374d1319a0d5"
+      ],
+      "fp_nosprat": "2ccff2426b23de36",
+      "fp_nosprat_all": [
+        "2ccff2426b23de36"
+      ],
+      "fp_strict_all": [
+        "654f1103d7052f86"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-30"
+      },
+      "source_ids": {
+        "halo": "155ffc766008"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/eliksir-garden-75m2-3-0-garaza/5425647900555?kid=1"
+      ],
+      "zgrada": "Elixir Garden",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 75.0,
+      "sprat": null,
+      "agencija": "agencija-nekretnine-obradovic-doo",
+      "naslov": "Eliksir garden | 75m2 | 3.0 | garaža",
+      "price_first": 1300.0,
+      "price_current": 1300.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "d20445b613c8f518": {
+      "uid": "d20445b613c8f518",
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-10-30",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "8dc7cc083fdcf9fd",
+      "fp_loose_all": [
+        "8dc7cc083fdcf9fd"
+      ],
+      "fp_nosprat": "9ff47b1180c4ed51",
+      "fp_nosprat_all": [
+        "9ff47b1180c4ed51"
+      ],
+      "fp_strict_all": [
+        "6579a762bd548f3f"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-10-30"
+      },
+      "source_ids": {
+        "halo": "8edc99289179"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul-64-luksuzan-dvosoban-stan-sa-garazom/5425647901165?kid=1"
+      ],
+      "zgrada": "Soul 64",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 56.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Soul 64 | Luksuzan dvosoban stan sa garažom",
+      "price_first": 1300.0,
+      "price_current": 1300.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-10-30T05:02:34.232909+00:00",
+  "updated_at": "2026-10-30T10:20:23.337228+00:00",
   "last_run": {
     "4zida": "2026-10-29",
     "nadjidom": "2026-10-29",

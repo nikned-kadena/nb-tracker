@@ -4,7 +4,7 @@
   "pocetak_pracenja": "2026-06-29",
   "ukupno": {
     "n_zavrseni": 763,
-    "n_aktivni": 186,
+    "n_aktivni": 188,
     "dom_medijana": 20,
     "metod": "kaplan-meier",
     "pouzdano": true,
@@ -714,14 +714,14 @@
     },
     "Elixir Garden": {
       "n_zavrseni": 28,
-      "n_aktivni": 3,
+      "n_aktivni": 4,
       "dom_medijana": 17,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 10,
-      "starost_aktivnih_medijana": 55,
+      "starost_aktivnih_medijana": 42,
       "udeo_jos_u_ponudi": 0.0408,
-      "udeo_aktivnih_pct": 10,
+      "udeo_aktivnih_pct": 12,
       "skinuti_p25": 7,
       "skinuti_p75": 50,
       "brzo_do_30d": 64,
@@ -1161,12 +1161,12 @@
     },
     "Soul 64": {
       "n_zavrseni": 78,
-      "n_aktivni": 24,
+      "n_aktivni": 25,
       "dom_medijana": 23,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 20,
-      "starost_aktivnih_medijana": 16,
+      "starost_aktivnih_medijana": 15,
       "udeo_jos_u_ponudi": 0.0551,
       "udeo_aktivnih_pct": 24,
       "skinuti_p25": 7,
@@ -2071,14 +2071,14 @@
     },
     "nepoznato": {
       "n_zavrseni": 733,
-      "n_aktivni": 143,
+      "n_aktivni": 145,
       "dom_medijana": 19,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 14,
-      "starost_aktivnih_medijana": 26,
+      "starost_aktivnih_medijana": 25,
       "udeo_jos_u_ponudi": 0.0552,
-      "udeo_aktivnih_pct": 16,
+      "udeo_aktivnih_pct": 17,
       "skinuti_p25": 5,
       "skinuti_p75": 27,
       "brzo_do_30d": 80,
@@ -2332,12 +2332,12 @@
     }
   ],
   "cene": {
-    "oglasa_sa_promenom": 59,
-    "ukupno_snizenja": 153,
-    "prosecno_snizenje_pct": 10.7
+    "oglasa_sa_promenom": 60,
+    "ukupno_snizenja": 154,
+    "prosecno_snizenje_pct": 10.6
   },
   "izvori": {
-    "halo": 882,
+    "halo": 884,
     "4zida": 168,
     "nadjidom": 40
   },
