@@ -1,15 +1,13 @@
 {
   "mode": "renta",
   "source": "nadjidom",
-  "date": "2026-10-29",
-  "scraped_at": "2026-10-29",
+  "date": "2026-10-30",
+  "scraped_at": "2026-10-30",
   "total_raw": 22,
   "total_unique": 22,
   "total_dups": 0,
   "diff_new": [],
-  "diff_removed": [
-    "adf5c004a72d9706"
-  ],
+  "diff_removed": [],
   "listings": [
     {
       "id": "1c5ed653c14448a7",
@@ -28,7 +26,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 119,
+      "dana_na_trzistu": 120,
       "prva_cena": 1400.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
@@ -57,7 +55,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 119,
+      "dana_na_trzistu": 120,
       "prva_cena": 3000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
@@ -86,7 +84,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 119,
+      "dana_na_trzistu": 120,
       "prva_cena": 3000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
@@ -115,7 +113,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 119,
+      "dana_na_trzistu": 120,
       "prva_cena": 1200.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-02",
@@ -136,25 +134,25 @@
       "struktura": "3.0",
       "str_label": null,
       "m2": 147.0,
-      "cena": 4500,
-      "cena_m2": 31,
+      "cena": 4100.0,
+      "cena_m2": 28,
       "sprat": "11",
       "izvori": [
         "halo",
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 117,
+      "dana_na_trzistu": 118,
       "prva_cena": 4500.0,
-      "promena_cene_pct": null,
+      "promena_cene_pct": -8.9,
       "first_seen": "2026-07-04",
-      "last_seen": "2026-10-29",
-      "dedup_key": "A Blok|147.0|4500",
+      "last_seen": "2026-10-30",
+      "dedup_key": "A Blok|147.0|4100.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
-      "cena_m2_sumnjiva": true
+      "cena_m2_sumnjiva": false
     },
     {
       "id": "2cd44cb85e5138ff",
@@ -173,7 +171,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 111,
+      "dana_na_trzistu": 112,
       "prva_cena": 1300.0,
       "promena_cene_pct": null,
       "first_seen": "2026-07-10",
@@ -188,27 +186,27 @@
     {
       "id": "08cd65d7dc57c791",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-penthouse-sa-2-garazna-mesta-west-65/5425647134490?kid=1",
-      "naslov": "Četvorosoban stan za izdavanje, Omladinskih Brigada, 3.300€, 205m²",
+      "naslov": "Lux penthouse sa 2 garažna mesta, West 65",
       "zgrada": "West 65",
       "agencija": "Sonata Properties",
       "struktura": "3.0",
       "str_label": null,
       "m2": 205.0,
-      "cena": 3300,
-      "cena_m2": 16,
+      "cena": 3000.0,
+      "cena_m2": 15,
       "sprat": "7",
       "izvori": [
         "halo",
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 68,
+      "dana_na_trzistu": 69,
       "prva_cena": 3600.0,
-      "promena_cene_pct": -8.3,
+      "promena_cene_pct": -16.7,
       "first_seen": "2026-08-22",
-      "last_seen": "2026-10-29",
-      "dedup_key": "West 65|205.0|3300",
-      "zgrada_izvor": "opis",
+      "last_seen": "2026-10-30",
+      "dedup_key": "West 65|205.0|3000.0",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -219,7 +217,7 @@
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/elixir-garden-4-0-130m2-v-sredjen-i-opremljen/5425647626791?kid=1",
       "naslov": "Elixir garden, 4,0, 130m2, V, sređen i opremljen",
       "zgrada": "Elixir Garden",
-      "agencija": "Profitim Nekretnine",
+      "agencija": "Profitim",
       "struktura": "4.0",
       "str_label": null,
       "m2": 132.0,
@@ -231,11 +229,11 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 54,
+      "dana_na_trzistu": 55,
       "prva_cena": 1900.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-05",
-      "last_seen": "2026-10-29",
+      "last_seen": "2026-10-30",
       "dedup_key": "Elixir Garden|132.0|1900.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -259,11 +257,11 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 50,
+      "dana_na_trzistu": 51,
       "prva_cena": 2900.0,
       "promena_cene_pct": -6.9,
       "first_seen": "2026-09-09",
-      "last_seen": "2026-10-29",
+      "last_seen": "2026-10-30",
       "dedup_key": "West 65|194.0|2700.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -288,7 +286,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 37,
+      "dana_na_trzistu": 38,
       "prva_cena": 900.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-22",
@@ -315,7 +313,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 29,
+      "dana_na_trzistu": 30,
       "prva_cena": 680,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -342,7 +340,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 29,
+      "dana_na_trzistu": 30,
       "prva_cena": 1100,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -369,7 +367,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 29,
+      "dana_na_trzistu": 30,
       "prva_cena": 800,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -396,7 +394,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 29,
+      "dana_na_trzistu": 30,
       "prva_cena": 2400,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -423,7 +421,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 29,
+      "dana_na_trzistu": 30,
       "prva_cena": 1000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -451,7 +449,7 @@
         "nadjidom",
         "4zida"
       ],
-      "dana_na_trzistu": 29,
+      "dana_na_trzistu": 30,
       "prva_cena": 2000,
       "promena_cene_pct": null,
       "first_seen": "2026-09-30",
@@ -480,7 +478,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 29,
+      "dana_na_trzistu": 30,
       "prva_cena": 1000,
       "promena_cene_pct": -5.0,
       "first_seen": "2026-09-30",
@@ -495,7 +493,7 @@
     {
       "id": "5ba204e3a85b84f4",
       "url": "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6abfe3a5f7ccc18950029b1b",
-      "naslov": "Dvosoban stan za izdavanje, Tadije Sondermajera, 1.100€, 54m²",
+      "naslov": "Wellport, novogradnja, parking mesto, ID 23030",
       "zgrada": "Wellport",
       "agencija": "Eminent Nekretnine",
       "struktura": "2.0",
@@ -509,13 +507,13 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 22,
+      "dana_na_trzistu": 23,
       "prva_cena": 1100,
       "promena_cene_pct": null,
       "first_seen": "2026-10-07",
-      "last_seen": "2026-10-29",
+      "last_seen": "2026-10-30",
       "dedup_key": "Wellport|54.0|1100",
-      "zgrada_izvor": "opis",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -536,7 +534,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 8,
+      "dana_na_trzistu": 9,
       "prva_cena": 850,
       "promena_cene_pct": null,
       "first_seen": "2026-10-21",
@@ -564,7 +562,7 @@
       "izvori": [
         "nadjidom"
       ],
-      "dana_na_trzistu": 5,
+      "dana_na_trzistu": 6,
       "prva_cena": 800,
       "promena_cene_pct": null,
       "first_seen": "2026-10-24",
@@ -592,11 +590,11 @@
         "halo",
         "nadjidom"
       ],
-      "dana_na_trzistu": 2,
+      "dana_na_trzistu": 3,
       "prva_cena": 1250.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-27",
-      "last_seen": "2026-10-29",
+      "last_seen": "2026-10-30",
       "dedup_key": "The One|42.0|1250.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -621,7 +619,7 @@
         "4zida",
         "nadjidom"
       ],
-      "dana_na_trzistu": 1,
+      "dana_na_trzistu": 2,
       "prva_cena": 950.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-28",
