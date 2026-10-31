@@ -327,6 +327,16 @@
           "date": "2026-10-31",
           "from": 249400.0,
           "to": 261000.0
+        },
+        {
+          "date": "2026-10-31",
+          "from": 261000.0,
+          "to": 249400.0
+        },
+        {
+          "date": "2026-10-31",
+          "from": 249400.0,
+          "to": 261000.0
         }
       ],
       "days_listed": 123,
@@ -27900,7 +27910,8 @@
       "price_first": 165000.0,
       "price_current": 165000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5323
     },
     "04199eb4620170f7": {
       "uid": "04199eb4620170f7",
@@ -27941,7 +27952,8 @@
       "price_first": 290000.0,
       "price_current": 290000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5000
     },
     "a7c244687c3d0c05": {
       "uid": "a7c244687c3d0c05",
@@ -27982,7 +27994,8 @@
       "price_first": 355000.0,
       "price_current": 355000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4277
     },
     "020a24dcaa943849": {
       "uid": "020a24dcaa943849",
@@ -28023,10 +28036,11 @@
       "price_first": 155000.0,
       "price_current": 155000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5962
     }
   },
-  "updated_at": "2026-10-31T05:01:51.097473+00:00",
+  "updated_at": "2026-10-31T09:52:43.479730+00:00",
   "last_run": {
     "4zida": "2026-10-30",
     "nadjidom": "2026-10-30",
