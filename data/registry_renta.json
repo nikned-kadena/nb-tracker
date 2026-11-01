@@ -36779,7 +36779,8 @@
       "price_first": 2500.0,
       "price_current": 2500.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 20
     },
     "8d44ee9cc91d3893": {
       "uid": "8d44ee9cc91d3893",
@@ -36820,10 +36821,52 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 20
+    },
+    "159bb200dbb33c9a": {
+      "uid": "159bb200dbb33c9a",
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "9ab12603505f994d",
+      "fp_loose_all": [
+        "9ab12603505f994d"
+      ],
+      "fp_nosprat": "b74aaca16b5ff426",
+      "fp_nosprat_all": [
+        "b74aaca16b5ff426"
+      ],
+      "fp_strict_all": [
+        "f0a07ffb83f8bfa7"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-01"
+      },
+      "source_ids": {
+        "halo": "72c49c3ea898"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/welport-nov-lux-165-m2-garazno-mesto-bez-buke/5425647905486"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "5.0",
+      "str_label": null,
+      "m2": 164.0,
+      "sprat": null,
+      "agencija": "danos",
+      "naslov": "Welport, Nov, Lux,165 m2 ,Garažno mesto,Bez buke, ",
+      "price_first": 2600.0,
+      "price_current": 2600.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-01T05:05:55.232785+00:00",
+  "updated_at": "2026-11-01T10:47:05.164542+00:00",
   "last_run": {
     "4zida": "2026-10-31",
     "nadjidom": "2026-10-31",

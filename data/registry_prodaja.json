@@ -23269,7 +23269,7 @@
     "8422e7bc7706132b": {
       "uid": "8422e7bc7706132b",
       "first_seen": "2026-10-02",
-      "last_seen": "2026-10-31",
+      "last_seen": "2026-11-01",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "266853a4c91de879",
@@ -23289,7 +23289,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "halo": "2026-10-31",
+        "halo": "2026-11-01",
         "4zida": "2026-10-31",
         "nadjidom": "2026-10-31"
       },
@@ -23309,7 +23309,7 @@
       "m2": 49.0,
       "sprat": "2",
       "agencija": "MOJ KVADRAT D.O.O. ",
-      "naslov": "Novi Beograd, Airport City Belgrade - Đorđa Stanojevića, 49m2",
+      "naslov": "Airport City Belgrade - Đorđa Stanojevića",
       "price_first": 225000.0,
       "price_current": 225000.0,
       "price_changes": [],
@@ -27863,7 +27863,7 @@
         "halo": "2026-11-01"
       },
       "source_ids": {
-        "halo": "21558c271689"
+        "halo": "67b319390225"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/extra-lux---velika-terasa---soul-64-id5904/5425647898365?kid=1",
@@ -27875,7 +27875,7 @@
       "m2": 143.0,
       "sprat": null,
       "agencija": "kupac-magnat-3",
-      "naslov": "Extra Lux - velika terasa - Soul 64 - Bazen ID#590",
+      "naslov": "Extra Lux - velika terasa - Soul 64 ID#5904",
       "price_first": 535000.0,
       "price_current": 535000.0,
       "price_changes": [],
@@ -28218,7 +28218,8 @@
       "price_first": 315000.0,
       "price_current": 315000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4375
     },
     "81334285488818d8": {
       "uid": "81334285488818d8",
@@ -28259,10 +28260,11 @@
       "price_first": 155000.0,
       "price_current": 155000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5962
     }
   },
-  "updated_at": "2026-11-01T05:04:25.618114+00:00",
+  "updated_at": "2026-11-01T10:45:34.132110+00:00",
   "last_run": {
     "4zida": "2026-10-31",
     "nadjidom": "2026-10-31",

@@ -3,12 +3,13 @@
   "source": "all",
   "date": "2026-11-01",
   "scraped_at": "2026-11-01",
-  "total_raw": 186,
-  "total_unique": 141,
+  "total_raw": 187,
+  "total_unique": 142,
   "total_dups": 45,
   "diff_new": [
     "c9cc546735e1f351",
-    "8d44ee9cc91d3893"
+    "8d44ee9cc91d3893",
+    "159bb200dbb33c9a"
   ],
   "diff_removed": [
     "179b70455dfe7ceb",
@@ -5126,6 +5127,33 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "159bb200dbb33c9a",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/welport-nov-lux-165-m2-garazno-mesto-bez-buke/5425647905486",
+      "naslov": "Welport, Nov, Lux,165 m2 ,Garažno mesto,Bez buke, ",
+      "zgrada": "Wellport",
+      "agencija": "Danos",
+      "struktura": "5.0",
+      "str_label": null,
+      "m2": 164.0,
+      "cena": 2600.0,
+      "cena_m2": 16,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 2600.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-01",
+      "last_seen": "2026-11-01",
+      "dedup_key": "Wellport|164.0|2600.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }
