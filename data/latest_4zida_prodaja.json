@@ -3,13 +3,11 @@
   "source": "4zida",
   "date": "2026-11-02",
   "scraped_at": "2026-11-02",
-  "total_raw": 129,
+  "total_raw": 130,
   "total_unique": 107,
-  "total_dups": 22,
+  "total_dups": 23,
   "diff_new": [],
-  "diff_removed": [
-    "fc5f710841555246"
-  ],
+  "diff_removed": [],
   "listings": [
     {
       "id": "4a286f420402ecb8",
@@ -2874,6 +2872,34 @@
       "dedup_key": "Wellport|165.0|790000",
       "zgrada_izvor": "opis_agenta",
       "agencija_izvor": "opis_kanon",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "fc5f710841555246",
+      "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6a3285f9c5da39cc4e04b91d",
+      "naslov": "ZepTerra - 107kvm ",
+      "zgrada": "Zepterra",
+      "agencija": "Angazman Nekretnine",
+      "struktura": "3.0",
+      "str_label": "Trosoban",
+      "m2": 107.0,
+      "cena": 430000,
+      "cena_m2": 4019,
+      "sprat": null,
+      "izvori": [
+        "4zida",
+        "halo"
+      ],
+      "dana_na_trzistu": 33,
+      "prva_cena": 430000,
+      "promena_cene_pct": null,
+      "first_seen": "2026-09-30",
+      "last_seen": "2026-11-02",
+      "dedup_key": "Zepterra|107.0|430000",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false

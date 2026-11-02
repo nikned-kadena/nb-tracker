@@ -27688,9 +27688,9 @@
     "e7696ee10a8235d1": {
       "uid": "e7696ee10a8235d1",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-09-30",
-      "is_active": false,
-      "deactivated_at": "2026-10-07",
+      "last_seen": "2026-11-02",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "8dc7cc083fdcf9fd",
       "fp_loose_all": [
         "8dc7cc083fdcf9fd"
@@ -27700,33 +27700,45 @@
         "9ff47b1180c4ed51"
       ],
       "fp_strict_all": [
-        "4408110e54d55c7f"
+        "4408110e54d55c7f",
+        "b26832b36a9d0462"
       ],
       "sources": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-09-30"
+        "4zida": "2026-09-30",
+        "halo": "2026-11-02"
       },
       "source_ids": {
-        "4zida": "4zida:6ab4010fa9ae959f9407c02c"
+        "4zida": "4zida:6ab4010fa9ae959f9407c02c",
+        "halo": "7f1897c2f955"
       },
       "source_urls": [
-        "https://www.4zida.rs/izdavanje-stanova/blok-64-novi-beograd-beograd/dvosoban-stan/6ab4010fa9ae959f9407c02c"
+        "https://www.4zida.rs/izdavanje-stanova/blok-64-novi-beograd-beograd/dvosoban-stan/6ab4010fa9ae959f9407c02c",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul-64-lux-neuseljavan-garaza-id-26222/5425647915715?kid=4"
       ],
       "zgrada": "Soul 64",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 56.0,
       "sprat": null,
-      "agencija": null,
-      "naslov": "Dvosoban stan za izdavanje, Omladinskih Brigada, 1.200€, 56m²",
+      "agencija": "eminent-nekretnine",
+      "naslov": "Soul 64,lux, neuseljavan, garaža, ID 26222",
       "price_first": 1200,
-      "price_current": 1200,
-      "price_changes": [],
-      "days_listed": 7,
+      "price_current": 1250.0,
+      "price_changes": [
+        {
+          "date": "2026-11-02",
+          "from": 1200,
+          "to": 1250.0
+        }
+      ],
+      "days_listed": 33,
       "deactivation_uncertain": true,
-      "deactivation_window_days": 7
+      "deactivation_window_days": 7,
+      "cena_m2": 22
     },
     "96fc209440f9a5e9": {
       "uid": "96fc209440f9a5e9",
@@ -37052,7 +37064,8 @@
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 29
     },
     "ea62724b0618c6de": {
       "uid": "ea62724b0618c6de",
@@ -37093,7 +37106,8 @@
       "price_first": 3000.0,
       "price_current": 3000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 22
     },
     "c349c8cb8862878d": {
       "uid": "c349c8cb8862878d",
@@ -37134,7 +37148,8 @@
       "price_first": 1200.0,
       "price_current": 1200.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 24
     },
     "5d4f6eec3f85b39f": {
       "uid": "5d4f6eec3f85b39f",
@@ -37175,10 +37190,136 @@
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 19
+    },
+    "b36cb30a1a4591ed": {
+      "uid": "b36cb30a1a4591ed",
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "d2079561a44fd378",
+      "fp_loose_all": [
+        "d2079561a44fd378"
+      ],
+      "fp_nosprat": "21e354dba28e9324",
+      "fp_nosprat_all": [
+        "21e354dba28e9324"
+      ],
+      "fp_strict_all": [
+        "fbdc2eb687c600bd"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-02"
+      },
+      "source_ids": {
+        "halo": "67fe98bd57e7"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65-lux-terasa-garaza-id-25546/5425647050854?kid=4"
+      ],
+      "zgrada": "West 65",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 61.0,
+      "sprat": null,
+      "agencija": "eminent-nekretnine",
+      "naslov": "West 65, lux, terasa, garaža, ID 25546",
+      "price_first": 1400.0,
+      "price_current": 1400.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "7152383f9e16f0c8": {
+      "uid": "7152383f9e16f0c8",
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "2a43da78029adf8c",
+      "fp_loose_all": [
+        "2a43da78029adf8c"
+      ],
+      "fp_nosprat": "baeacd949868c517",
+      "fp_nosprat_all": [
+        "baeacd949868c517"
+      ],
+      "fp_strict_all": [
+        "16ea4cb53e78f473"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-02"
+      },
+      "source_ids": {
+        "halo": "cfea1dfb1b64"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-odmah-useljiv-id5053/5425647914530?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-odmah-useljiv-id5053/5425647914530?kid=4"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 55.0,
+      "sprat": null,
+      "agencija": "PropertyBroker",
+      "naslov": "A blok, odmah useljiv ID#5053",
+      "price_first": 1200.0,
+      "price_current": 1200.0,
+      "price_changes": [],
+      "cena_m2": 22,
+      "days_listed": 0
+    },
+    "a65aa5db6f8d5768": {
+      "uid": "a65aa5db6f8d5768",
+      "first_seen": "2026-11-02",
+      "last_seen": "2026-11-02",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "cfb417341d0338b5",
+      "fp_loose_all": [
+        "cfb417341d0338b5"
+      ],
+      "fp_nosprat": "13b33425338db41b",
+      "fp_nosprat_all": [
+        "13b33425338db41b"
+      ],
+      "fp_strict_all": [
+        "0f707abd31807806"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-02"
+      },
+      "source_ids": {
+        "halo": "b01e4c2ad844"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---wellport-kula-69599/5425647914491?kid=1"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 55.0,
+      "sprat": null,
+      "agencija": "beostan",
+      "naslov": "Novi Beograd - Wellport kula #69599",
+      "price_first": 1000.0,
+      "price_current": 1000.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-02T05:02:22.432897+00:00",
+  "updated_at": "2026-11-02T11:33:28.792156+00:00",
   "last_run": {
     "4zida": "2026-11-01",
     "nadjidom": "2026-11-01",
