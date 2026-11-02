@@ -4,12 +4,12 @@
   "pocetak_pracenja": "2026-06-29",
   "ukupno": {
     "n_zavrseni": 776,
-    "n_aktivni": 197,
+    "n_aktivni": 198,
     "dom_medijana": 20,
     "metod": "kaplan-meier",
     "pouzdano": true,
     "naivna_medijana_samo_skinuti": 13,
-    "starost_aktivnih_medijana": 27,
+    "starost_aktivnih_medijana": 26,
     "udeo_jos_u_ponudi": 0.0582,
     "udeo_aktivnih_pct": 20,
     "skinuti_p25": 6,
@@ -206,14 +206,14 @@
   "po_zgradi": {
     "A Blok": {
       "n_zavrseni": 117,
-      "n_aktivni": 35,
+      "n_aktivni": 36,
       "dom_medijana": 19,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 8,
       "starost_aktivnih_medijana": 33,
       "udeo_jos_u_ponudi": 0.11,
-      "udeo_aktivnih_pct": 23,
+      "udeo_aktivnih_pct": 24,
       "skinuti_p25": 4,
       "skinuti_p75": 27,
       "brzo_do_30d": 82,
@@ -1970,14 +1970,14 @@
     },
     "Dvosoban": {
       "n_zavrseni": 11,
-      "n_aktivni": 16,
+      "n_aktivni": 17,
       "dom_medijana": null,
       "metod": "kaplan-meier",
       "pouzdano": false,
       "naivna_medijana_samo_skinuti": 7,
       "starost_aktivnih_medijana": 26,
       "udeo_jos_u_ponudi": 0.5077,
-      "udeo_aktivnih_pct": 59,
+      "udeo_aktivnih_pct": 61,
       "napomena_grupa": "Kriva prezivljavanja nije pala ispod 50% u posmatranom prozoru — vise od polovine oglasa je jos u ponudi, pa se medijana jos ne moze izmeriti. Nije ista stvar kao 'nema podataka'.",
       "skinuti_p25": 4,
       "skinuti_p75": 9,
@@ -2390,7 +2390,7 @@
   },
   "izvori": {
     "halo": 904,
-    "4zida": 180,
+    "4zida": 183,
     "nadjidom": 41
   },
   "napomena": "dom_medijana je Kaplan-Meier procena i JEDINI broj koji se citira kao trajanje oglasa. Aktivni oglasi ulaze u racun kao cenzurisana opazanja (trajali su BAR toliko), umesto da se izbace. naivna_medijana_samo_skinuti je kontrolni broj koji gleda samo zatvorene oglase i sistematski je POTCENJEN — na NB prodaji je davao 13 dana naspram stvarnih 29. Ne citirati ga. starost_aktivnih_medijana je koliko vec stoje oglasi koji su jos u ponudi; to je donja granica, ne trajanje. Medijana se prikazuje tek od 5 oglasa u grupi."
