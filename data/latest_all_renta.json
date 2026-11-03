@@ -3,13 +3,15 @@
   "source": "all",
   "date": "2026-11-03",
   "scraped_at": "2026-11-03",
-  "total_raw": 199,
-  "total_unique": 152,
+  "total_raw": 201,
+  "total_unique": 154,
   "total_dups": 47,
   "diff_new": [
     "87b6fe762a16e185",
     "d1cfba42e8322c15",
-    "3c9f9485963e8d85"
+    "3c9f9485963e8d85",
+    "fc14bbee59f3eeb0",
+    "7bcac86c15573195"
   ],
   "diff_removed": [
     "2a52600d23ff98ba",
@@ -3690,7 +3692,7 @@
     {
       "id": "3b731a5f545a4969",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-69453/5425647853959?kid=1",
-      "naslov": "Novi Beograd - Airport Garden #69453",
+      "naslov": "Novi Beograd - Airport Garden #2069453",
       "zgrada": "Airport Garden",
       "agencija": "Beostan",
       "struktura": "2.0",
@@ -5487,6 +5489,60 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "fc14bbee59f3eeb0",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---belville-2-0-namesten-stan/5425643967928?kid=4",
+      "naslov": "Novi Beograd - Belville, 2,0, namešten stan",
+      "zgrada": "Belvil",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 60.0,
+      "cena": 900.0,
+      "cena_m2": 15,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 900.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "dedup_key": "Belvil|60.0|900.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "7bcac86c15573195",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/trosoban-lux-stan-wellport-id16926/5425647919561?kid=1",
+      "naslov": "Trosoban, lux stan, Wellport ID#16926",
+      "zgrada": "Wellport",
+      "agencija": "Art Nekretnine",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 80.14,
+      "cena": 1400.0,
+      "cena_m2": 17,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1400.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "dedup_key": "Wellport|80.14|1400.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }

@@ -33517,7 +33517,7 @@
         "halo": "2026-11-03"
       },
       "source_ids": {
-        "halo": "5961e1946f01"
+        "halo": "b8fc931f4524"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-69453/5425647853959?kid=1",
@@ -33531,7 +33531,7 @@
       "m2": 55.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - Airport Garden #69453",
+      "naslov": "Novi Beograd - Airport Garden #2069453",
       "price_first": 1460.0,
       "price_current": 1450.0,
       "price_changes": [
@@ -37455,7 +37455,8 @@
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 14
     },
     "d1cfba42e8322c15": {
       "uid": "d1cfba42e8322c15",
@@ -37496,7 +37497,8 @@
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 22
     },
     "3c9f9485963e8d85": {
       "uid": "3c9f9485963e8d85",
@@ -37537,10 +37539,93 @@
       "price_first": 2750.0,
       "price_current": 2750.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 20
+    },
+    "fc14bbee59f3eeb0": {
+      "uid": "fc14bbee59f3eeb0",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "80ccf3a5b8b067a7",
+      "fp_loose_all": [
+        "80ccf3a5b8b067a7"
+      ],
+      "fp_nosprat": "5427f87dbdabb403",
+      "fp_nosprat_all": [
+        "5427f87dbdabb403"
+      ],
+      "fp_strict_all": [
+        "8dac907cf5c0c6e3"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-03"
+      },
+      "source_ids": {
+        "halo": "206ff8618ecd"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---belville-2-0-namesten-stan/5425643967928?kid=4"
+      ],
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 60.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Novi Beograd - Belville, 2,0, namešten stan",
+      "price_first": 900.0,
+      "price_current": 900.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "7bcac86c15573195": {
+      "uid": "7bcac86c15573195",
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "df9ff21a174b19f9",
+      "fp_loose_all": [
+        "df9ff21a174b19f9"
+      ],
+      "fp_nosprat": "73eddac11de74f02",
+      "fp_nosprat_all": [
+        "73eddac11de74f02"
+      ],
+      "fp_strict_all": [
+        "aef29e61e23eeec8"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-03"
+      },
+      "source_ids": {
+        "halo": "b0c3834906a8"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/trosoban-lux-stan-wellport-id16926/5425647919561?kid=1"
+      ],
+      "zgrada": "Wellport",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 80.14,
+      "sprat": null,
+      "agencija": "art-nekretnine-d-o-o",
+      "naslov": "Trosoban, lux stan, Wellport ID#16926",
+      "price_first": 1400.0,
+      "price_current": 1400.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-03T05:02:41.096724+00:00",
+  "updated_at": "2026-11-03T11:12:22.274898+00:00",
   "last_run": {
     "4zida": "2026-11-02",
     "nadjidom": "2026-11-02",

@@ -13946,12 +13946,13 @@
     "82dc97743dd4c509": {
       "uid": "82dc97743dd4c509",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-08-29",
-      "is_active": false,
-      "deactivated_at": "2026-08-31",
+      "last_seen": "2026-11-03",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "9931052dca325652",
       "fp_strict_all": [
-        "749d5dcc762671c2"
+        "749d5dcc762671c2",
+        "809bb62d90e2da29"
       ],
       "sources": [
         "halo"
@@ -13970,10 +13971,23 @@
       "agencija": null,
       "naslov": "Penthouse 126 m² | Soul 64 | Novi Beograd",
       "price_first": 675000.0,
-      "price_current": 675000.0,
-      "price_changes": [],
-      "days_listed": 10,
-      "cena_m2": 5357
+      "price_current": 620000.0,
+      "price_changes": [
+        {
+          "date": "2026-11-03",
+          "from": 675000.0,
+          "to": 620000.0
+        }
+      ],
+      "days_listed": 74,
+      "cena_m2": 4921,
+      "last_seen_src": {
+        "halo": "2026-11-03"
+      },
+      "fp_nosprat_all": [
+        "5bbb9c6ead6342d6"
+      ],
+      "fp_nosprat": "5bbb9c6ead6342d6"
     },
     "c60b8443d4ce6896": {
       "uid": "c60b8443d4ce6896",
@@ -20130,7 +20144,7 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "f9d6e8a92284"
+        "halo": "b5de529c99ca"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/lastavice-novi-beograd-namesten-2-5-stan-id16/5425647615180?kid=4",
@@ -28405,7 +28419,8 @@
       "price_first": 315000.0,
       "price_current": 315000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4375
     },
     "e98cd4d601b331f3": {
       "uid": "e98cd4d601b331f3",
@@ -28446,7 +28461,8 @@
       "price_first": 426300.0,
       "price_current": 426300.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4900
     },
     "ed0ddff19dfa35ca": {
       "uid": "ed0ddff19dfa35ca",
@@ -28487,10 +28503,11 @@
       "price_first": 390000.0,
       "price_current": 390000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 3861
     }
   },
-  "updated_at": "2026-11-03T05:01:57.693714+00:00",
+  "updated_at": "2026-11-03T11:11:32.045710+00:00",
   "last_run": {
     "4zida": "2026-11-02",
     "nadjidom": "2026-11-02",
