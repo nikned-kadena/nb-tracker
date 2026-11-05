@@ -23954,7 +23954,7 @@
     "a4cfe7fab8cccfc8": {
       "uid": "a4cfe7fab8cccfc8",
       "first_seen": "2026-10-06",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "4b1a2f6b7647f20d",
@@ -23974,7 +23974,7 @@
         "nadjidom"
       ],
       "last_seen_src": {
-        "halo": "2026-11-04",
+        "halo": "2026-11-05",
         "4zida": "2026-11-04",
         "nadjidom": "2026-11-04"
       },
@@ -23994,7 +23994,7 @@
       "m2": 62.0,
       "sprat": "2",
       "agencija": "MOJ KVADRAT D.O.O. ",
-      "naslov": "Novi Beograd, Delta city (Lastavica) - Jurija Gagarina, 62m2",
+      "naslov": "Delta city (Lastavica) - Jurija Gagarina",
       "price_first": 315000.0,
       "price_current": 315000.0,
       "price_changes": [],
@@ -28853,7 +28853,8 @@
       "price_first": 410000.0,
       "price_current": 410000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5942
     },
     "bb120f39fdc29fc3": {
       "uid": "bb120f39fdc29fc3",
@@ -28894,7 +28895,8 @@
       "price_first": 470000.0,
       "price_current": 470000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4273
     },
     "ff2d5ffc718399d0": {
       "uid": "ff2d5ffc718399d0",
@@ -28935,7 +28937,8 @@
       "price_first": 459000.0,
       "price_current": 459000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4098
     },
     "eaf322f3d6a75d9c": {
       "uid": "eaf322f3d6a75d9c",
@@ -28976,7 +28979,8 @@
       "price_first": 154900.0,
       "price_current": 154900.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5958
     },
     "26594908ef5cb0f0": {
       "uid": "26594908ef5cb0f0",
@@ -29017,10 +29021,52 @@
       "price_first": 155000.0,
       "price_current": 155000.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 5962
+    },
+    "f916000d89983d8e": {
+      "uid": "f916000d89983d8e",
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "15c0849306c90eed",
+      "fp_loose_all": [
+        "15c0849306c90eed"
+      ],
+      "fp_nosprat": "1d629856aa98b550",
+      "fp_nosprat_all": [
+        "1d629856aa98b550"
+      ],
+      "fp_strict_all": [
+        "76e7c4297a014a54"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-05"
+      },
+      "source_ids": {
+        "halo": "923dbab42c4f"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/odlican-trosoban-stan--elixir-garden--west-65/5425647931351?kid=4"
+      ],
+      "zgrada": "Elixir Garden",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 73.0,
+      "sprat": null,
+      "agencija": "eurokvadrat",
+      "naslov": "Odličan trosoban stan- Elixir garden- West 65",
+      "price_first": 335000.0,
+      "price_current": 335000.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-05T05:01:55.079943+00:00",
+  "updated_at": "2026-11-05T11:19:40.445992+00:00",
   "last_run": {
     "4zida": "2026-11-04",
     "nadjidom": "2026-11-04",

@@ -3,15 +3,16 @@
   "source": "all",
   "date": "2026-11-05",
   "scraped_at": "2026-11-05",
-  "total_raw": 266,
+  "total_raw": 267,
   "total_unique": 194,
-  "total_dups": 72,
+  "total_dups": 73,
   "diff_new": [
     "3a9c70b2bc6bb6a2",
     "bb120f39fdc29fc3",
     "ff2d5ffc718399d0",
     "eaf322f3d6a75d9c",
-    "26594908ef5cb0f0"
+    "26594908ef5cb0f0",
+    "f916000d89983d8e"
   ],
   "diff_removed": [
     "50755abd93b157d6",
@@ -5256,7 +5257,7 @@
     {
       "id": "a4cfe7fab8cccfc8",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/delta-city-lastavica---jurija-gagarina/5425647780096?kid=1",
-      "naslov": "Novi Beograd, Delta city (Lastavica) - Jurija Gagarina, 62m2",
+      "naslov": "Delta city (Lastavica) - Jurija Gagarina",
       "zgrada": "Lastavica",
       "agencija": "MOJ Kvadrat",
       "struktura": "2.0",
@@ -5274,7 +5275,7 @@
       "prva_cena": 315000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-06",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "dedup_key": "Lastavica|62.0|315000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -7355,6 +7356,33 @@
       "zgrada_izvor": "opis",
       "agencija_izvor": null,
       "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "f916000d89983d8e",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/odlican-trosoban-stan--elixir-garden--west-65/5425647931351?kid=4",
+      "naslov": "Odličan trosoban stan- Elixir garden- West 65",
+      "zgrada": "Elixir Garden",
+      "agencija": "Eurokvadrat",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 73.0,
+      "cena": 335000.0,
+      "cena_m2": 4589,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 335000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "dedup_key": "Elixir Garden|73.0|335000.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }

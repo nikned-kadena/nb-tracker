@@ -3,14 +3,16 @@
   "source": "all",
   "date": "2026-11-05",
   "scraped_at": "2026-11-05",
-  "total_raw": 212,
-  "total_unique": 158,
+  "total_raw": 214,
+  "total_unique": 160,
   "total_dups": 54,
   "diff_new": [
     "b6a61bc871b2627d",
     "ee9a1ac565e7cb35",
     "8b8f0e977b8416bb",
-    "004f435ea0347855"
+    "004f435ea0347855",
+    "0051ac76751349d9",
+    "e1ae092a9e84b26e"
   ],
   "diff_removed": [
     "d20445b613c8f518",
@@ -3720,7 +3722,7 @@
     {
       "id": "2b2742f52277320f",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-urosa-martinovica-48m2-stan-sa-parking/5425647853929?kid=1",
-      "naslov": "A Blok, Uroša Martinovića, 48m2, stan sa parkingom",
+      "naslov": "Novi Beograd, A blok, Uroša Martinovića, 48m2, par",
       "zgrada": "A Blok",
       "agencija": "Agencija Union Nekretnine",
       "struktura": "2.5",
@@ -5844,6 +5846,60 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "0051ac76751349d9",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/savada-3-lux-novogradnja-garaza-id-18347/5425644963297?kid=4",
+      "naslov": "Savada 3, lux, novogradnja, garaža, ID 18347",
+      "zgrada": "Savada",
+      "agencija": "Eminent Nekretnine",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 45.0,
+      "cena": 1000.0,
+      "cena_m2": 22,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "dedup_key": "Savada|45.0|1000.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "e1ae092a9e84b26e",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/trosoban-stan-soul-64-garazno-mesto/5425647931356?kid=4",
+      "naslov": "Trosoban stan | Soul 64 | Garažno mesto",
+      "zgrada": "Soul 64",
+      "agencija": "Kadena Sotheby's",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 81.08,
+      "cena": 1500.0,
+      "cena_m2": 19,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1500.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-05",
+      "last_seen": "2026-11-05",
+      "dedup_key": "Soul 64|81.08|1500.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }
