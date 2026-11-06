@@ -4,7 +4,7 @@
   "pocetak_pracenja": "2026-06-29",
   "ukupno": {
     "n_zavrseni": 799,
-    "n_aktivni": 214,
+    "n_aktivni": 215,
     "dom_medijana": 20,
     "metod": "kaplan-meier",
     "pouzdano": true,
@@ -202,12 +202,12 @@
   "po_zgradi": {
     "A Blok": {
       "n_zavrseni": 121,
-      "n_aktivni": 38,
+      "n_aktivni": 39,
       "dom_medijana": 20,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 8,
-      "starost_aktivnih_medijana": 35,
+      "starost_aktivnih_medijana": 33,
       "udeo_jos_u_ponudi": 0.1102,
       "udeo_aktivnih_pct": 24,
       "skinuti_p25": 4,
@@ -2154,7 +2154,7 @@
     },
     "nepoznato": {
       "n_zavrseni": 763,
-      "n_aktivni": 159,
+      "n_aktivni": 160,
       "dom_medijana": 19,
       "metod": "kaplan-meier",
       "pouzdano": true,
@@ -2435,7 +2435,7 @@
     "prosecno_snizenje_pct": 10.3
   },
   "izvori": {
-    "halo": 933,
+    "halo": 934,
     "4zida": 204,
     "nadjidom": 43
   },

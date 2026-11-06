@@ -3,8 +3,8 @@
   "source": "all",
   "date": "2026-11-06",
   "scraped_at": "2026-11-06",
-  "total_raw": 214,
-  "total_unique": 161,
+  "total_raw": 215,
+  "total_unique": 162,
   "total_dups": 53,
   "diff_new": [
     "155b5df9c7470886",
@@ -14,7 +14,8 @@
     "b37918896f678add",
     "b79eb81bd8eb351f",
     "66a536bdca75a3dc",
-    "189319d4a594601b"
+    "189319d4a594601b",
+    "e3cb9fdf8bbfd724"
   ],
   "diff_removed": [
     "63bad454c301cdc0",
@@ -3405,7 +3406,7 @@
     {
       "id": "03e715205453fa85",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---west-65-kula-tower-69416/5425647724731?kid=4",
-      "naslov": "Novi Beograd - West 65 kula Tower #69416",
+      "naslov": "Novi Beograd - West 65 kula Tower #1769416",
       "zgrada": "West 65 Kula",
       "agencija": "Beostan",
       "struktura": "4.0",
@@ -5909,6 +5910,33 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "e3cb9fdf8bbfd724",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-moderan-2-0-stan-54m2gar-id2625/5425647936718?kid=3",
+      "naslov": "A blok,moderan 2.0 stan,54m2+gar ID#2625",
+      "zgrada": "A Blok",
+      "agencija": "Comfortdeluxe",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 54.0,
+      "cena": 1000.0,
+      "cena_m2": 19,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 1000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "dedup_key": "A Blok|54.0|1000.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }

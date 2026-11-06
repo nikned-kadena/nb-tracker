@@ -32755,7 +32755,7 @@
         "halo": "2026-11-06"
       },
       "source_ids": {
-        "halo": "5249aa676fd0"
+        "halo": "93cdf6e417a0"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---west-65-kula-tower-69416/5425647724731?kid=4",
@@ -32770,7 +32770,7 @@
       "m2": 125.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - West 65 kula Tower #69416",
+      "naslov": "Novi Beograd - West 65 kula Tower #1769416",
       "price_first": 3500.0,
       "price_current": 3500.0,
       "price_changes": [],
@@ -37103,10 +37103,11 @@
         "halo": "2026-11-06"
       },
       "source_ids": {
-        "halo": "72c49c3ea898"
+        "halo": "b5af442b316d"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/welport-nov-lux-165-m2-garazno-mesto-bez-buke/5425647905486"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/welport-nov-lux-165-m2-garazno-mesto-bez-buke/5425647905486",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/welport-nov-lux-165-m2-garazno-mesto-bez-buke/5425647905486?kid=4"
       ],
       "zgrada": "Wellport",
       "struktura": "5.0",
@@ -37759,14 +37760,15 @@
         "nadjidom": "2026-11-05"
       },
       "source_ids": {
-        "halo": "b0c3834906a8",
+        "halo": "c66fe3cc5989",
         "4zida": "4zida:6ae9b89daa433b00a40ea04f",
         "nadjidom": "nadjidom:2372728"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/trosoban-lux-stan-wellport-id16926/5425647919561?kid=1",
         "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6ae9b89daa433b00a40ea04f",
-        "https://www.nadjidom.com/sr/details/2372728/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html"
+        "https://www.nadjidom.com/sr/details/2372728/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/trosoban-lux-stan-wellport-id16926/5425647919561?kid=4"
       ],
       "zgrada": "Wellport",
       "struktura": "3.0",
@@ -38927,7 +38929,8 @@
       "price_first": 1400.0,
       "price_current": 1400.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 25
     },
     "f484033c8b382f50": {
       "uid": "f484033c8b382f50",
@@ -39009,7 +39012,8 @@
       "price_first": 1400.0,
       "price_current": 1400.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 10
     },
     "ea2ffae062780509": {
       "uid": "ea2ffae062780509",
@@ -39050,7 +39054,8 @@
       "price_first": 800.0,
       "price_current": 800.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 24
     },
     "b37918896f678add": {
       "uid": "b37918896f678add",
@@ -39134,7 +39139,8 @@
       "price_first": 1450.0,
       "price_current": 1450.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 27
     },
     "66a536bdca75a3dc": {
       "uid": "66a536bdca75a3dc",
@@ -39175,7 +39181,8 @@
       "price_first": 1400.0,
       "price_current": 1400.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 25
     },
     "189319d4a594601b": {
       "uid": "189319d4a594601b",
@@ -39216,10 +39223,52 @@
       "price_first": 800.0,
       "price_current": 800.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 17
+    },
+    "e3cb9fdf8bbfd724": {
+      "uid": "e3cb9fdf8bbfd724",
+      "first_seen": "2026-11-06",
+      "last_seen": "2026-11-06",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "d6cc486c716da066",
+      "fp_loose_all": [
+        "d6cc486c716da066"
+      ],
+      "fp_nosprat": "0f3afc752ba47e43",
+      "fp_nosprat_all": [
+        "0f3afc752ba47e43"
+      ],
+      "fp_strict_all": [
+        "01e37682d3f0c6dd"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-06"
+      },
+      "source_ids": {
+        "halo": "c64c758a84f3"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/a-blok-moderan-2-0-stan-54m2gar-id2625/5425647936718?kid=3"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 54.0,
+      "sprat": null,
+      "agencija": "COMFORTDELUXE",
+      "naslov": "A blok,moderan 2.0 stan,54m2+gar ID#2625",
+      "price_first": 1000.0,
+      "price_current": 1000.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-06T05:02:40.005018+00:00",
+  "updated_at": "2026-11-06T11:18:07.344527+00:00",
   "last_run": {
     "4zida": "2026-11-05",
     "nadjidom": "2026-11-05",
