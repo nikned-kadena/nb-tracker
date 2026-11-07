@@ -30275,7 +30275,8 @@
         "724be293a9e0dfe4"
       ],
       "fp_strict_all": [
-        "f117d593bb4ee0e9"
+        "f117d593bb4ee0e9",
+        "173445caaa54729b"
       ],
       "sources": [
         "halo"
@@ -30284,10 +30285,11 @@
         "halo": "2026-11-07"
       },
       "source_ids": {
-        "halo": "46a10acac711"
+        "halo": "a67f328cef44"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-nova-nenamestena-garsonjera-id/5425647722611?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-nova-nenamestena-garsonjera-id/5425647722611?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-nova-nenamestena-garsonjera-id/5425647722611?kid=4"
       ],
       "zgrada": "Airport Garden",
       "struktura": "garsonjera",
@@ -30297,10 +30299,16 @@
       "agencija": "art-nekretnine-d-o-o",
       "naslov": "Airport Garden, nova, nenameštena garsonjera ID#16",
       "price_first": 680.0,
-      "price_current": 680.0,
-      "price_changes": [],
+      "price_current": 800.0,
+      "price_changes": [
+        {
+          "date": "2026-11-07",
+          "from": 680.0,
+          "to": 800.0
+        }
+      ],
       "days_listed": 31,
-      "cena_m2": 17
+      "cena_m2": 21
     },
     "dd1e5777c50d023a": {
       "uid": "dd1e5777c50d023a",
@@ -39392,10 +39400,11 @@
       "price_first": 1400.0,
       "price_current": 1400.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 25
     }
   },
-  "updated_at": "2026-11-07T05:02:42.254229+00:00",
+  "updated_at": "2026-11-07T10:33:54.596140+00:00",
   "last_run": {
     "4zida": "2026-11-06",
     "nadjidom": "2026-11-06",

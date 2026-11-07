@@ -4,8 +4,8 @@
   "date": "2026-11-07",
   "scraped_at": "2026-11-07",
   "total_raw": 206,
-  "total_unique": 159,
-  "total_dups": 47,
+  "total_unique": 160,
+  "total_dups": 46,
   "diff_new": [
     "c331a925dc336997"
   ],
@@ -2829,18 +2829,18 @@
       "struktura": "garsonjera",
       "str_label": null,
       "m2": 39.0,
-      "cena": 680.0,
-      "cena_m2": 17,
+      "cena": 800.0,
+      "cena_m2": 21,
       "sprat": null,
       "izvori": [
         "halo"
       ],
       "dana_na_trzistu": 31,
       "prva_cena": 680.0,
-      "promena_cene_pct": null,
+      "promena_cene_pct": 17.6,
       "first_seen": "2026-10-07",
       "last_seen": "2026-11-07",
-      "dedup_key": "Airport Garden|39.0|680.0",
+      "dedup_key": "Airport Garden|39.0|800.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,

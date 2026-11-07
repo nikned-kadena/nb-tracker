@@ -3,8 +3,8 @@
   "source": "all",
   "date": "2026-11-07",
   "scraped_at": "2026-11-07",
-  "total_raw": 274,
-  "total_unique": 199,
+  "total_raw": 275,
+  "total_unique": 200,
   "total_dups": 75,
   "diff_new": [],
   "diff_removed": [
@@ -12,7 +12,6 @@
     "3ad2678b2e97e6de",
     "da392ef220ae8317",
     "c176e58503e022f5",
-    "59b8a9fdc155429e",
     "861a0e37ee7aac45"
   ],
   "listings": [
@@ -6128,6 +6127,33 @@
       "cena_m2_sumnjiva": false
     },
     {
+      "id": "59b8a9fdc155429e",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-belville-id1648/5425647820284?kid=4",
+      "naslov": "Novi Beograd-Belville ID#1648",
+      "zgrada": "Belvil",
+      "agencija": "Bjanca",
+      "struktura": "4.0",
+      "str_label": null,
+      "m2": 109.0,
+      "cena": 534000.0,
+      "cena_m2": 4899,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 24,
+      "prva_cena": 534000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-11-07",
+      "dedup_key": "Belvil|109.0|534000.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
       "id": "d34b5b827c1daedf",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-nov-stan-useljiv-krajem-oktobra/5425647441301?kid=3",
       "naslov": "Soul 64, nov stan, useljiv krajem oktobra",
@@ -6910,7 +6936,7 @@
       "prva_cena": 165000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-31",
-      "last_seen": "2026-11-06",
+      "last_seen": "2026-11-07",
       "dedup_key": "Belvil|31.0|165000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
