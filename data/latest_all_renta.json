@@ -3,11 +3,12 @@
   "source": "all",
   "date": "2026-11-08",
   "scraped_at": "2026-11-08",
-  "total_raw": 196,
-  "total_unique": 151,
+  "total_raw": 197,
+  "total_unique": 152,
   "total_dups": 45,
   "diff_new": [
-    "4534f2775bc6f4c0"
+    "4534f2775bc6f4c0",
+    "16dd949523c30fcf"
   ],
   "diff_removed": [
     "9d2df7690e3947aa",
@@ -5401,6 +5402,33 @@
       "first_seen": "2026-11-08",
       "last_seen": "2026-11-08",
       "dedup_key": "Savada|50.0|950.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "16dd949523c30fcf",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/airport-garden-novogradnja-2026-nekoriscen-st/5425647945404?kid=1",
+      "naslov": "Airport Garden, novogradnja 2026, nekorišćen stan",
+      "zgrada": "Airport Garden",
+      "agencija": "Economic Net System",
+      "struktura": "1.0",
+      "str_label": null,
+      "m2": 28.0,
+      "cena": 800.0,
+      "cena_m2": 29,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 800.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-08",
+      "last_seen": "2026-11-08",
+      "dedup_key": "Airport Garden|28.0|800.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
