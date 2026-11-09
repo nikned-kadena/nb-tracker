@@ -5888,12 +5888,13 @@
     "978cb6e9ae53f84c": {
       "uid": "978cb6e9ae53f84c",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-07-29",
-      "is_active": false,
-      "deactivated_at": "2026-08-21",
+      "last_seen": "2026-11-09",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "83d5dafe9cc6c6bc",
       "fp_strict_all": [
-        "848d40dd75e90778"
+        "848d40dd75e90778",
+        "f1f7a9a7763b613e"
       ],
       "sources": [
         "halo"
@@ -5912,11 +5913,24 @@
       "agencija": "eminent-nekretnine",
       "naslov": "Belvil, novogradnja, parking mesto, ID 19120",
       "price_first": 750.0,
-      "price_current": 750.0,
-      "price_changes": [],
-      "days_listed": 50,
-      "cena_m2": 16,
-      "deactivation_uncertain": true
+      "price_current": 800.0,
+      "price_changes": [
+        {
+          "date": "2026-11-09",
+          "from": 750.0,
+          "to": 800.0
+        }
+      ],
+      "days_listed": 130,
+      "cena_m2": 17,
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-11-09"
+      },
+      "fp_nosprat_all": [
+        "67883b2e569d8de2"
+      ],
+      "fp_nosprat": "67883b2e569d8de2"
     },
     "525ef3d0ff923500": {
       "uid": "525ef3d0ff923500",
@@ -26071,9 +26085,9 @@
     "27fa86731d9b41de": {
       "uid": "27fa86731d9b41de",
       "first_seen": "2026-09-29",
-      "last_seen": "2026-11-07",
-      "is_active": false,
-      "deactivated_at": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "558bd74ba2c109f7",
       "fp_strict_all": [
         "e3a6bd2ef4d0a788"
@@ -26101,7 +26115,7 @@
       "days_listed": 41,
       "cena_m2": 18,
       "last_seen_src": {
-        "halo": "2026-11-07"
+        "halo": "2026-11-09"
       },
       "fp_nosprat_all": [
         "472a591a5d1ac7bf"
@@ -32874,7 +32888,7 @@
         "halo": "2026-11-09"
       },
       "source_ids": {
-        "halo": "7133747eae2d"
+        "halo": "93cdf6e417a0"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---west-65-kula-tower-69416/5425647724731?kid=4",
@@ -32891,7 +32905,7 @@
       "m2": 125.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - West 65 kula Tower #2769416",
+      "naslov": "Novi Beograd - West 65 kula Tower #1769416",
       "price_first": 3500.0,
       "price_current": 3500.0,
       "price_changes": [],
@@ -37110,10 +37124,11 @@
         "halo": "2026-11-09"
       },
       "source_ids": {
-        "halo": "0f3f514b4145"
+        "halo": "812166bdf348"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul-64-id43413/5425647903949?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul-64-id43413/5425647903949?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul-64-id43413/5425647903949?kid=4"
       ],
       "zgrada": "Soul 64",
       "struktura": "2.0",
@@ -37384,7 +37399,7 @@
     "dd63e62b5f51c15f": {
       "uid": "dd63e62b5f51c15f",
       "first_seen": "2026-11-02",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "265a29603372b39c",
@@ -37396,13 +37411,14 @@
         "879728df86404b0b"
       ],
       "fp_strict_all": [
-        "9a8723d160baa8af"
+        "9a8723d160baa8af",
+        "101cca250b1086e3"
       ],
       "sources": [
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-11-08"
+        "halo": "2026-11-09"
       },
       "source_ids": {
         "halo": "36711217b039"
@@ -37418,10 +37434,16 @@
       "agencija": "astranowa",
       "naslov": "Soul 64-Lux apartman",
       "price_first": 900.0,
-      "price_current": 900.0,
-      "price_changes": [],
+      "price_current": 800.0,
+      "price_changes": [
+        {
+          "date": "2026-11-09",
+          "from": 900.0,
+          "to": 800.0
+        }
+      ],
       "days_listed": 7,
-      "cena_m2": 29
+      "cena_m2": 26
     },
     "ea62724b0618c6de": {
       "uid": "ea62724b0618c6de",
@@ -39852,10 +39874,52 @@
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 16
+    },
+    "6bba220d5054383c": {
+      "uid": "6bba220d5054383c",
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "f173cd1c90220d85",
+      "fp_loose_all": [
+        "f173cd1c90220d85"
+      ],
+      "fp_nosprat": "7b092b45c4958ab2",
+      "fp_nosprat_all": [
+        "7b092b45c4958ab2"
+      ],
+      "fp_strict_all": [
+        "429acabecfec8e3f"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-09"
+      },
+      "source_ids": {
+        "halo": "cc3642749a1e"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-3-0-lux-stan-garaza-west-65/5425647950745?kid=4"
+      ],
+      "zgrada": "West 65",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 100.0,
+      "sprat": null,
+      "agencija": "bg-immobilien",
+      "naslov": "Nov 3.0 lux stan +garaza-West 65",
+      "price_first": 2500.0,
+      "price_current": 2500.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-09T05:02:37.379199+00:00",
+  "updated_at": "2026-11-09T11:57:28.734950+00:00",
   "last_run": {
     "4zida": "2026-11-08",
     "nadjidom": "2026-11-08",

@@ -3,11 +3,12 @@
   "source": "all",
   "date": "2026-11-09",
   "scraped_at": "2026-11-09",
-  "total_raw": 251,
+  "total_raw": 254,
   "total_unique": 185,
-  "total_dups": 66,
+  "total_dups": 69,
   "diff_new": [
-    "878ca1b1ba42dd08"
+    "878ca1b1ba42dd08",
+    "75b352e8ef80afcb"
   ],
   "diff_removed": [
     "547deecc348466b8",
@@ -4916,6 +4917,33 @@
       "cena_m2_sumnjiva": false
     },
     {
+      "id": "06723a0d5f46b3b7",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-05-penthouse-prvoklasan/5425647790094?kid=1",
+      "naslov": "Airport Garden 05 | Penthouse | Prvoklasan",
+      "zgrada": "Airport Garden",
+      "agencija": "Kredium",
+      "struktura": "4.0",
+      "str_label": null,
+      "m2": 134.0,
+      "cena": 549990.0,
+      "cena_m2": 4104,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 32,
+      "prva_cena": 549990.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-08",
+      "last_seen": "2026-11-09",
+      "dedup_key": "Airport Garden|134.0|549990.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
       "id": "29de4d845ac49f59",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-novi-beograd-1-0-stan-39m-gar/5425647787687?kid=1",
       "naslov": "Airport Garden, Novi Beograd – 1.0 stan 39m² + Gar",
@@ -5819,6 +5847,33 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "5683ea2e440a8abb",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-54m2-2-0-garaza-novogradnja/5425647852204?kid=4",
+      "naslov": "Soul 64, 54m2, 2.0, garaža, novogradnja",
+      "zgrada": "Soul 64",
+      "agencija": "Codex Nekretnine",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 54.0,
+      "cena": 275400.0,
+      "cena_m2": 5100,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 20,
+      "prva_cena": 275400.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-11-09",
+      "dedup_key": "Soul 64|54.0|275400.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     },
@@ -6888,9 +6943,9 @@
     {
       "id": "e71bf1923350a70f",
       "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6aedc51cb9cebcf75a057c60",
-      "naslov": "Četvorosoban stan na prodaju, Bulevar heroja sa Košara, 469.000€, 122m²",
+      "naslov": "West 65 | Luksuzan salonski penthouse, 122 m²",
       "zgrada": "West 65",
-      "agencija": "Tukodi",
+      "agencija": "Expo Real Estate",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 122.0,
@@ -6898,16 +6953,17 @@
       "cena_m2": 3844,
       "sprat": null,
       "izvori": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "dana_na_trzistu": 2,
       "prva_cena": 469000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "West 65|122.0|469000",
-      "zgrada_izvor": "opis_agenta",
-      "agencija_izvor": "opis_kanon",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
@@ -6936,6 +6992,33 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "75b352e8ef80afcb",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-3-0-72-m-garazno-mesto/5425647914564?kid=1",
+      "naslov": "Airport Garden | 3.0 – 72 m², garažno mesto",
+      "zgrada": "Airport Garden",
+      "agencija": "Expo Real Estate",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 72.0,
+      "cena": 315000.0,
+      "cena_m2": 4375,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 315000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-09",
+      "last_seen": "2026-11-09",
+      "dedup_key": "Airport Garden|72.0|315000.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }

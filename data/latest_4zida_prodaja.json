@@ -3713,9 +3713,9 @@
     {
       "id": "e71bf1923350a70f",
       "url": "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6aedc51cb9cebcf75a057c60",
-      "naslov": "Četvorosoban stan na prodaju, Bulevar heroja sa Košara, 469.000€, 122m²",
+      "naslov": "West 65 | Luksuzan salonski penthouse, 122 m²",
       "zgrada": "West 65",
-      "agencija": "Tukodi",
+      "agencija": "Expo Real Estate",
       "struktura": "4.0",
       "str_label": "Četvorosoban",
       "m2": 122.0,
@@ -3723,16 +3723,17 @@
       "cena_m2": 3844,
       "sprat": null,
       "izvori": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "dana_na_trzistu": 2,
       "prva_cena": 469000,
       "promena_cene_pct": null,
       "first_seen": "2026-11-07",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "dedup_key": "West 65|122.0|469000",
-      "zgrada_izvor": "opis_agenta",
-      "agencija_izvor": "opis_kanon",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
