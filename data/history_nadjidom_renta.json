@@ -1412,7 +1412,7 @@
     "total_dups": 0,
     "diff_new": 1,
     "diff_removed": 0,
-    "avg_cena": 1731,
+    "avg_cena": 1740,
     "avg_m2": 92.9
   },
   {
@@ -1424,7 +1424,7 @@
     "total_dups": 0,
     "diff_new": 1,
     "diff_removed": 2,
-    "avg_cena": 1733,
+    "avg_cena": 1742,
     "avg_m2": 91.9
   },
   {
@@ -1436,7 +1436,7 @@
     "total_dups": 0,
     "diff_new": 0,
     "diff_removed": 1,
-    "avg_cena": 1722,
+    "avg_cena": 1732,
     "avg_m2": 91.2
   },
   {
@@ -1448,7 +1448,7 @@
     "total_dups": 0,
     "diff_new": 1,
     "diff_removed": 0,
-    "avg_cena": 1707,
+    "avg_cena": 1716,
     "avg_m2": 90.6
   },
   {
@@ -1460,7 +1460,7 @@
     "total_dups": 0,
     "diff_new": 0,
     "diff_removed": 0,
-    "avg_cena": 1707,
+    "avg_cena": 1716,
     "avg_m2": 90.6
   },
   {
@@ -1472,7 +1472,7 @@
     "total_dups": 0,
     "diff_new": 0,
     "diff_removed": 0,
-    "avg_cena": 1707,
+    "avg_cena": 1716,
     "avg_m2": 90.6
   },
   {
@@ -1484,7 +1484,7 @@
     "total_dups": 0,
     "diff_new": 0,
     "diff_removed": 0,
-    "avg_cena": 1707,
+    "avg_cena": 1716,
     "avg_m2": 90.6
   },
   {
@@ -1496,7 +1496,7 @@
     "total_dups": 0,
     "diff_new": 1,
     "diff_removed": 1,
-    "avg_cena": 1729,
+    "avg_cena": 1738,
     "avg_m2": 92.1
   },
   {
@@ -1508,7 +1508,7 @@
     "total_dups": 0,
     "diff_new": 0,
     "diff_removed": 0,
-    "avg_cena": 1729,
+    "avg_cena": 1738,
     "avg_m2": 92.1
   },
   {
@@ -1520,7 +1520,7 @@
     "total_dups": 0,
     "diff_new": 0,
     "diff_removed": 0,
-    "avg_cena": 1729,
+    "avg_cena": 1738,
     "avg_m2": 92.1
   },
   {
@@ -1532,35 +1532,47 @@
     "total_dups": 0,
     "diff_new": 0,
     "diff_removed": 1,
-    "avg_cena": 1759,
+    "avg_cena": 1768,
     "avg_m2": 93.8
   },
   {
     "date": "2026-11-07",
+    "mode": "renta",
+    "count": 25,
+    "total_raw": 25,
+    "total_unique": 25,
+    "total_dups": 0,
+    "diff_new": 0,
+    "diff_removed": 1,
+    "avg_cena": 1807,
+    "avg_m2": 95.7
+  },
+  {
+    "date": "2026-11-08",
+    "mode": "renta",
+    "count": 25,
+    "total_raw": 25,
+    "total_unique": 25,
+    "total_dups": 0,
+    "diff_new": 1,
+    "diff_removed": 1,
+    "avg_cena": 1793,
+    "avg_m2": 94.7
+  },
+  {
+    "date": "2026-11-09",
     "mode": "renta",
     "count": 24,
     "total_raw": 24,
     "total_unique": 24,
     "total_dups": 0,
     "diff_new": 0,
-    "diff_removed": 2,
-    "avg_cena": 1830,
-    "avg_m2": 97.3
-  },
-  {
-    "date": "2026-11-08",
-    "mode": "renta",
-    "count": 24,
-    "total_raw": 24,
-    "total_unique": 24,
-    "total_dups": 0,
-    "diff_new": 1,
     "diff_removed": 1,
-    "avg_cena": 1816,
-    "avg_m2": 96.3
+    "avg_cena": 1810,
+    "avg_m2": 95.3
   },
   {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "mode": "renta",
     "count": 23,
     "total_raw": 23,
@@ -1568,31 +1580,19 @@
     "total_dups": 0,
     "diff_new": 0,
     "diff_removed": 1,
-    "avg_cena": 1834,
-    "avg_m2": 97.0
-  },
-  {
-    "date": "2026-11-10",
-    "mode": "renta",
-    "count": 22,
-    "total_raw": 22,
-    "total_unique": 22,
-    "total_dups": 0,
-    "diff_new": 0,
-    "diff_removed": 1,
-    "avg_cena": 1867,
-    "avg_m2": 97.8
+    "avg_cena": 1840,
+    "avg_m2": 96.0
   },
   {
     "date": "2026-11-11",
     "mode": "renta",
-    "count": 22,
-    "total_raw": 22,
-    "total_unique": 22,
+    "count": 23,
+    "total_raw": 23,
+    "total_unique": 23,
     "total_dups": 0,
     "diff_new": 0,
     "diff_removed": 0,
-    "avg_cena": 1867,
-    "avg_m2": 97.8
+    "avg_cena": 1840,
+    "avg_m2": 96.0
   }
 ]
