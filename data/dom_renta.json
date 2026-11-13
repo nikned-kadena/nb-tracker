@@ -3,14 +3,14 @@
   "generated": "2026-11-13",
   "pocetak_pracenja": "2026-06-29",
   "ukupno": {
-    "n_zavrseni": 849,
-    "n_aktivni": 207,
+    "n_zavrseni": 848,
+    "n_aktivni": 209,
     "dom_medijana": 19,
     "metod": "kaplan-meier",
     "pouzdano": true,
     "naivna_medijana_samo_skinuti": 13,
     "starost_aktivnih_medijana": 27,
-    "udeo_jos_u_ponudi": 0.058,
+    "udeo_jos_u_ponudi": 0.0603,
     "udeo_aktivnih_pct": 20,
     "skinuti_p25": 6,
     "skinuti_p75": 27,
@@ -206,12 +206,8 @@
         "preziveli": 0.0672
       },
       {
-        "dan": 131,
+        "dan": 132,
         "preziveli": 0.0627
-      },
-      {
-        "dan": 133,
-        "preziveli": 0.058
       }
     ]
   },
@@ -410,18 +406,18 @@
       ]
     },
     "Airport Garden": {
-      "n_zavrseni": 98,
-      "n_aktivni": 33,
+      "n_zavrseni": 97,
+      "n_aktivni": 34,
       "dom_medijana": 23,
       "metod": "kaplan-meier",
       "pouzdano": true,
-      "naivna_medijana_samo_skinuti": 16,
+      "naivna_medijana_samo_skinuti": 15,
       "starost_aktivnih_medijana": 44,
-      "udeo_jos_u_ponudi": 0.0772,
-      "udeo_aktivnih_pct": 25,
+      "udeo_jos_u_ponudi": 0.1029,
+      "udeo_aktivnih_pct": 26,
       "skinuti_p25": 7,
       "skinuti_p75": 31,
-      "brzo_do_30d": 73,
+      "brzo_do_30d": 74,
       "sporo_preko_180d": 0,
       "kriva": [
         {
@@ -585,12 +581,8 @@
           "preziveli": 0.1286
         },
         {
-          "dan": 131,
-          "preziveli": 0.1029
-        },
-        {
           "dan": 133,
-          "preziveli": 0.0772
+          "preziveli": 0.1029
         }
       ]
     },
@@ -1559,14 +1551,14 @@
     },
     "Wellport": {
       "n_zavrseni": 90,
-      "n_aktivni": 24,
+      "n_aktivni": 25,
       "dom_medijana": 23,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 18,
-      "starost_aktivnih_medijana": 24,
+      "starost_aktivnih_medijana": 23,
       "udeo_jos_u_ponudi": 0.0,
-      "udeo_aktivnih_pct": 21,
+      "udeo_aktivnih_pct": 22,
       "skinuti_p25": 7,
       "skinuti_p75": 27,
       "brzo_do_30d": 82,
@@ -2288,14 +2280,14 @@
       ]
     },
     "nepoznato": {
-      "n_zavrseni": 793,
-      "n_aktivni": 164,
+      "n_zavrseni": 792,
+      "n_aktivni": 166,
       "dom_medijana": 19,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 13,
       "starost_aktivnih_medijana": 27,
-      "udeo_jos_u_ponudi": 0.0564,
+      "udeo_jos_u_ponudi": 0.0587,
       "udeo_aktivnih_pct": 17,
       "skinuti_p25": 6,
       "skinuti_p75": 27,
@@ -2491,12 +2483,8 @@
           "preziveli": 0.0654
         },
         {
-          "dan": 131,
+          "dan": 132,
           "preziveli": 0.061
-        },
-        {
-          "dan": 133,
-          "preziveli": 0.0564
         }
       ]
     },
@@ -2575,22 +2563,22 @@
       "kvartil": "50-75%",
       "n": 206,
       "cena_medijana": 1200,
-      "dom_medijana": 13
+      "dom_medijana": 12
     },
     {
       "kvartil": "najskuplji 25%",
-      "n": 208,
+      "n": 207,
       "cena_medijana": 1700,
       "dom_medijana": 16
     }
   ],
   "cene": {
-    "oglasa_sa_promenom": 86,
-    "ukupno_snizenja": 219,
+    "oglasa_sa_promenom": 87,
+    "ukupno_snizenja": 220,
     "prosecno_snizenje_pct": 10.2
   },
   "izvori": {
-    "halo": 970,
+    "halo": 971,
     "4zida": 228,
     "nadjidom": 48
   },

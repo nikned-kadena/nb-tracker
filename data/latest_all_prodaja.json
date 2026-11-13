@@ -3,11 +3,12 @@
   "source": "all",
   "date": "2026-11-13",
   "scraped_at": "2026-11-13",
-  "total_raw": 252,
+  "total_raw": 254,
   "total_unique": 185,
-  "total_dups": 67,
+  "total_dups": 69,
   "diff_new": [
-    "a00c838c3713d841"
+    "a00c838c3713d841",
+    "3e8e8f4f518f9cf2"
   ],
   "diff_removed": [
     "5d26d92161616235",
@@ -1803,6 +1804,33 @@
       "cena_m2_sumnjiva": false
     },
     {
+      "id": "cdefff36808a3723",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-city-belgrade---djordja-stanojevica/5425646828958?kid=4",
+      "naslov": "Airport City Belgrade - Đorđa Stanojevića",
+      "zgrada": "Airport Garden",
+      "agencija": null,
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 84.0,
+      "cena": 305000.0,
+      "cena_m2": 3631,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 84,
+      "prva_cena": 319200.0,
+      "promena_cene_pct": -4.4,
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-11-13",
+      "dedup_key": "Airport Garden|84.0|305000.0",
+      "zgrada_izvor": "opis",
+      "agencija_izvor": null,
+      "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
       "id": "31141253e889f7ff",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-lux-novi-beograd/5425647496650?kid=3",
       "naslov": "Soul 64 Lux Novi Beograd",
@@ -2680,7 +2708,7 @@
       "prva_cena": 225000.0,
       "promena_cene_pct": null,
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "dedup_key": "Sakura Park|45.0|225000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -6963,6 +6991,33 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "3e8e8f4f518f9cf2",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/moderan-stan-u-prestiznom-kompleksu-soul-64-n/5425647441301?kid=3",
+      "naslov": "Moderan stan u prestižnom kompleksu Soul 64, NBG",
+      "zgrada": "Soul 64",
+      "agencija": null,
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 57.0,
+      "cena": 275000.0,
+      "cena_m2": 4825,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 275000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "dedup_key": "Soul 64|57.0|275000.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }

@@ -13036,9 +13036,9 @@
     "cdefff36808a3723": {
       "uid": "cdefff36808a3723",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-11-08",
-      "is_active": false,
-      "deactivated_at": "2026-11-10",
+      "last_seen": "2026-11-13",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "fabae5839962c83b",
       "fp_strict_all": [
         "189cf882bdcdb218",
@@ -13069,10 +13069,10 @@
           "to": 305000.0
         }
       ],
-      "days_listed": 81,
+      "days_listed": 84,
       "cena_m2": 3631,
       "last_seen_src": {
-        "halo": "2026-11-08"
+        "halo": "2026-11-13"
       },
       "fp_nosprat_all": [
         "bec4d07be4e89939"
@@ -15434,7 +15434,7 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "8a19806d1506"
+        "halo": "85bdeba5fa59"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-airport-garden-djordja-stanojevi/5425647429063?kid=1",
@@ -17295,7 +17295,7 @@
     "a1daf6ecd626296f": {
       "uid": "a1daf6ecd626296f",
       "first_seen": "2026-09-07",
-      "last_seen": "2026-11-12",
+      "last_seen": "2026-11-13",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "aff0e8d4c784ed76",
@@ -17324,7 +17324,7 @@
       "days_listed": 67,
       "cena_m2": 5000,
       "last_seen_src": {
-        "halo": "2026-11-12"
+        "halo": "2026-11-13"
       },
       "fp_nosprat_all": [
         "5772dceb9e412863"
@@ -30598,10 +30598,52 @@
       "price_first": 315000.0,
       "price_current": 315000.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 4375
+    },
+    "3e8e8f4f518f9cf2": {
+      "uid": "3e8e8f4f518f9cf2",
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "5c9cae9125aac6e2",
+      "fp_loose_all": [
+        "5c9cae9125aac6e2"
+      ],
+      "fp_nosprat": "e685aa4d8f89dcff",
+      "fp_nosprat_all": [
+        "e685aa4d8f89dcff"
+      ],
+      "fp_strict_all": [
+        "58130bdedfb4ebb5"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-13"
+      },
+      "source_ids": {
+        "halo": "61cccd4f425d"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/moderan-stan-u-prestiznom-kompleksu-soul-64-n/5425647441301?kid=3"
+      ],
+      "zgrada": "Soul 64",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 57.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Moderan stan u prestižnom kompleksu Soul 64, NBG",
+      "price_first": 275000.0,
+      "price_current": 275000.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-13T05:02:49.234933+00:00",
+  "updated_at": "2026-11-13T11:22:27.080988+00:00",
   "last_run": {
     "4zida": "2026-11-12",
     "nadjidom": "2026-11-12",
