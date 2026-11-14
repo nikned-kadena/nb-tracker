@@ -36694,9 +36694,9 @@
     "d4c0be854f9c593e": {
       "uid": "d4c0be854f9c593e",
       "first_seen": "2026-10-29",
-      "last_seen": "2026-11-05",
-      "is_active": false,
-      "deactivated_at": "2026-11-07",
+      "last_seen": "2026-11-14",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "52d4e745338c53de",
       "fp_loose_all": [
         "52d4e745338c53de"
@@ -36712,7 +36712,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-11-05"
+        "halo": "2026-11-14"
       },
       "source_ids": {
         "halo": "67cf6a631bd3"
@@ -36730,7 +36730,7 @@
       "price_first": 800.0,
       "price_current": 800.0,
       "price_changes": [],
-      "days_listed": 9,
+      "days_listed": 16,
       "cena_m2": 15
     },
     "57a0b93dfa3c9f02": {
@@ -41931,7 +41931,7 @@
         "halo": "2026-11-14"
       },
       "source_ids": {
-        "halo": "acd50ddd57d2"
+        "halo": "241f51f6e20b"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---belville-669663/5425647938016?kid=1",
@@ -41943,7 +41943,7 @@
       "m2": 47.0,
       "sprat": null,
       "agencija": "beostan",
-      "naslov": "Novi Beograd - Belville #69663",
+      "naslov": "Novi Beograd - Belville #669663",
       "price_first": 850.0,
       "price_current": 850.0,
       "price_changes": [],
@@ -41989,7 +41989,8 @@
       "price_first": 2000.0,
       "price_current": 2000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 21
     },
     "3764353550ea500d": {
       "uid": "3764353550ea500d",
@@ -42030,7 +42031,8 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 21
     },
     "9fe9339ea104cac8": {
       "uid": "9fe9339ea104cac8",
@@ -42071,7 +42073,8 @@
       "price_first": 1900.0,
       "price_current": 1900.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 20
     },
     "d81fbaa61953736c": {
       "uid": "d81fbaa61953736c",
@@ -42112,10 +42115,11 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 17
     }
   },
-  "updated_at": "2026-11-14T05:03:30.016659+00:00",
+  "updated_at": "2026-11-14T10:47:49.765789+00:00",
   "last_run": {
     "4zida": "2026-11-13",
     "nadjidom": "2026-11-13",

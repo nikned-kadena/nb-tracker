@@ -3,8 +3,8 @@
   "source": "all",
   "date": "2026-11-14",
   "scraped_at": "2026-11-14",
-  "total_raw": 218,
-  "total_unique": 159,
+  "total_raw": 219,
+  "total_unique": 160,
   "total_dups": 59,
   "diff_new": [
     "41d998a2ae9c8946",
@@ -3639,6 +3639,33 @@
       "cena_m2_sumnjiva": false
     },
     {
+      "id": "d4c0be854f9c593e",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/welport-nov-2-0-svetao-miran-parking/5425647500486?kid=1",
+      "naslov": "Welport Nov, 2.0,Svetao,Miran,Parking",
+      "zgrada": "Wellport",
+      "agencija": "Danos",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 54.0,
+      "cena": 800.0,
+      "cena_m2": 15,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 16,
+      "prva_cena": 800.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-11-14",
+      "dedup_key": "Wellport|54.0|800.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
       "id": "57a0b93dfa3c9f02",
       "url": "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/cetvorosoban-stan/6ae20ecd6d161482a30d24e6",
       "naslov": "Četvorosoban stan za izdavanje, Tadije Sondermajera, 1.650€, 106m²",
@@ -5876,7 +5903,7 @@
     {
       "id": "41d998a2ae9c8946",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---belville-669663/5425647938016?kid=1",
-      "naslov": "Novi Beograd - Belville #69663",
+      "naslov": "Novi Beograd - Belville #669663",
       "zgrada": "Belvil",
       "agencija": "Beostan",
       "struktura": "2.0",
