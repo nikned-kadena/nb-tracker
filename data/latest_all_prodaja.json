@@ -3,11 +3,12 @@
   "source": "all",
   "date": "2026-11-16",
   "scraped_at": "2026-11-16",
-  "total_raw": 246,
-  "total_unique": 181,
+  "total_raw": 247,
+  "total_unique": 182,
   "total_dups": 65,
   "diff_new": [
-    "062e9d0016709b96"
+    "062e9d0016709b96",
+    "7fc194ee22c544a4"
   ],
   "diff_removed": [
     "fb83b33e7bb545fd",
@@ -4085,7 +4086,7 @@
       "prva_cena": 279500.0,
       "promena_cene_pct": null,
       "first_seen": "2026-10-02",
-      "last_seen": "2026-11-15",
+      "last_seen": "2026-11-16",
       "dedup_key": "Wellport|59.0|279500.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
@@ -6799,6 +6800,33 @@
       "first_seen": "2026-11-16",
       "last_seen": "2026-11-16",
       "dedup_key": "Zepterra|112.0|466960.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "7fc194ee22c544a4",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-tower-nov-lux-4-0-opremljen-caroban/5425646306057?kid=4",
+      "naslov": "West Tower, nov, lux 4.0, opremljen, čaroban",
+      "zgrada": "West 65 Kula",
+      "agencija": "Hedonia",
+      "struktura": "4.0",
+      "str_label": null,
+      "m2": 124.0,
+      "cena": 630000.0,
+      "cena_m2": 5081,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 630000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-16",
+      "dedup_key": "West 65 Kula|124.0|630000.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
