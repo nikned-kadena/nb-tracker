@@ -5376,9 +5376,9 @@
     "84fe06bf3213459d": {
       "uid": "84fe06bf3213459d",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-10-21",
-      "is_active": false,
-      "deactivated_at": "2026-10-23",
+      "last_seen": "2026-11-17",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "f8d5c0cd074311e1",
       "fp_strict_all": [
         "72a07c26809c6162",
@@ -5391,12 +5391,13 @@
         "4zida"
       ],
       "source_ids": {
-        "halo": "d1b8bdbb3f08",
+        "halo": "61f7195e8d3c",
         "4zida": "4zida:6929e4bf270849dd4f0354f5"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-lux-novogradnja-id-25107/5425646418929?kid=1",
-        "https://www.4zida.rs/prodaja-stanova/a-blok-blok-67a-novi-beograd-beograd/trosoban-stan/6929e4bf270849dd4f0354f5"
+        "https://www.4zida.rs/prodaja-stanova/a-blok-blok-67a-novi-beograd-beograd/trosoban-stan/6929e4bf270849dd4f0354f5",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-lux-novogradnja-id-25107/5425646418929"
       ],
       "zgrada": "A Blok",
       "struktura": "3.0",
@@ -5404,7 +5405,7 @@
       "m2": 172.0,
       "sprat": null,
       "agencija": "eminent-nekretnine",
-      "naslov": "Trosoban stan na prodaju, Omladinskih brigada, 425.000€, 172m²",
+      "naslov": "Soul 64, lux, novogradnja, ID 25107",
       "price_first": 445000.0,
       "price_current": 425000.0,
       "price_changes": [
@@ -5414,10 +5415,10 @@
           "to": 425000.0
         }
       ],
-      "days_listed": 115,
+      "days_listed": 140,
       "cena_m2": 2471,
       "last_seen_src": {
-        "halo": "2026-10-21",
+        "halo": "2026-11-17",
         "4zida": "2026-10-21"
       },
       "fp_nosprat_all": [
@@ -13442,7 +13443,7 @@
         "nadjidom"
       ],
       "source_ids": {
-        "halo": "cd6b2e4dd012",
+        "halo": "1f15bfbffcd2",
         "nadjidom": "nadjidom:2372276"
       },
       "source_urls": [
@@ -13456,7 +13457,7 @@
       "m2": 82.0,
       "sprat": "4",
       "agencija": "EUROPOLISNEKRETNINE",
-      "naslov": "Jurija Gagarina, Novi Beograd, Delta City",
+      "naslov": "Jurija Gagarina, Novi Beograd, Delta city ID#7290",
       "price_first": 379000.0,
       "price_current": 379000.0,
       "price_changes": [],
@@ -28911,7 +28912,7 @@
         "halo": "2026-11-17"
       },
       "source_ids": {
-        "halo": "af497371f9b0"
+        "halo": "9caac247b2d8"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/new-minel-luksuzan-penthaus-176m2-id2447/5425647405745?kid=1",
@@ -31379,7 +31380,8 @@
       "price_first": 315000.0,
       "price_current": 315000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4375
     },
     "821ec978dcb526f4": {
       "uid": "821ec978dcb526f4",
@@ -31420,7 +31422,8 @@
       "price_first": 410000.0,
       "price_current": 410000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4940
     },
     "003304a1188f6061": {
       "uid": "003304a1188f6061",
@@ -31461,7 +31464,8 @@
       "price_first": 265000.0,
       "price_current": 265000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5000
     },
     "b4b09afa5e6f85fc": {
       "uid": "b4b09afa5e6f85fc",
@@ -31502,7 +31506,8 @@
       "price_first": 890000.0,
       "price_current": 890000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 4341
     },
     "2bef525f0db95b9c": {
       "uid": "2bef525f0db95b9c",
@@ -31543,10 +31548,52 @@
       "price_first": 790000.0,
       "price_current": 790000.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 5643
+    },
+    "5a1b1fb173d1a7f8": {
+      "uid": "5a1b1fb173d1a7f8",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "fabae5839962c83b",
+      "fp_loose_all": [
+        "fabae5839962c83b"
+      ],
+      "fp_nosprat": "bec4d07be4e89939",
+      "fp_nosprat_all": [
+        "bec4d07be4e89939"
+      ],
+      "fp_strict_all": [
+        "abf3b989262fda13"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-17"
+      },
+      "source_ids": {
+        "halo": "2501651f3bf5"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-nov-prazan-useljiv-3-0-stan/5425647997223?kid=3"
+      ],
+      "zgrada": "Airport Garden",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 84.0,
+      "sprat": null,
+      "agencija": "city-hedonia-agencija-za-nekretnine",
+      "naslov": "Airport Garden, nov, prazan, useljiv, 3.0 stan",
+      "price_first": 299900.0,
+      "price_current": 299900.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-17T05:02:31.301511+00:00",
+  "updated_at": "2026-11-17T12:15:36.792274+00:00",
   "last_run": {
     "4zida": "2026-11-16",
     "nadjidom": "2026-11-16",

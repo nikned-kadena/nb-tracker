@@ -3,15 +3,16 @@
   "source": "all",
   "date": "2026-11-17",
   "scraped_at": "2026-11-17",
-  "total_raw": 257,
-  "total_unique": 188,
+  "total_raw": 259,
+  "total_unique": 190,
   "total_dups": 69,
   "diff_new": [
     "7d5d9820fd2939a2",
     "821ec978dcb526f4",
     "003304a1188f6061",
     "b4b09afa5e6f85fc",
-    "2bef525f0db95b9c"
+    "2bef525f0db95b9c",
+    "5a1b1fb173d1a7f8"
   ],
   "diff_removed": [],
   "listings": [
@@ -691,6 +692,35 @@
       "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "84fe06bf3213459d",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-lux-novogradnja-id-25107/5425646418929?kid=1",
+      "naslov": "Soul 64, lux, novogradnja, ID 25107",
+      "zgrada": "Soul 64",
+      "agencija": "Eminent Nekretnine",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 172.0,
+      "cena": 425000.0,
+      "cena_m2": 2471,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 140,
+      "prva_cena": 445000.0,
+      "promena_cene_pct": -4.5,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-11-17",
+      "dedup_key": "Soul 64|172.0|425000.0",
+      "zgrada_izvor": "ispravljeno",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "zgrada_orig": "A Blok",
+      "cena_m2_sumnjiva": true
     },
     {
       "id": "f035154bfbbcfa02",
@@ -1911,7 +1941,7 @@
     {
       "id": "dfefdd66d36500f4",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/jurija-gagarina-novi-beograd-delta-city-id729/5425645381928?kid=1",
-      "naslov": "Jurija Gagarina, Novi Beograd, Delta City",
+      "naslov": "Jurija Gagarina, Novi Beograd, Delta city ID#7290",
       "zgrada": "Lastavica",
       "agencija": "Europolis Nekretnine",
       "struktura": "3.0",
@@ -7094,6 +7124,33 @@
       "first_seen": "2026-11-17",
       "last_seen": "2026-11-17",
       "dedup_key": "Wellport|140.0|790000.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "5a1b1fb173d1a7f8",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-nov-prazan-useljiv-3-0-stan/5425647997223?kid=3",
+      "naslov": "Airport Garden, nov, prazan, useljiv, 3.0 stan",
+      "zgrada": "Airport Garden",
+      "agencija": "Hedonia",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 84.0,
+      "cena": 299900.0,
+      "cena_m2": 3570,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 299900.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "dedup_key": "Airport Garden|84.0|299900.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,

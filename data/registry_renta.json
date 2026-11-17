@@ -4015,13 +4015,14 @@
     "30a3b59fa8d46092": {
       "uid": "30a3b59fa8d46092",
       "first_seen": "2026-07-02",
-      "last_seen": "2026-07-29",
-      "is_active": false,
-      "deactivated_at": "2026-08-21",
+      "last_seen": "2026-11-17",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "1ef90903c1cac4f7",
       "fp_strict_all": [
         "b81a1939017fff3d",
-        "aa6cfd00ef12fe1c"
+        "aa6cfd00ef12fe1c",
+        "8048e4ce6830583c"
       ],
       "sources": [
         "halo"
@@ -4041,11 +4042,24 @@
       "agencija": "SonataProperties",
       "naslov": "Odličan 2.o stan u kuli West 65",
       "price_first": 1300.0,
-      "price_current": 1300.0,
-      "price_changes": [],
-      "days_listed": 50,
-      "cena_m2": 22,
-      "deactivation_uncertain": true
+      "price_current": 1200.0,
+      "price_changes": [
+        {
+          "date": "2026-11-17",
+          "from": 1300.0,
+          "to": 1200.0
+        }
+      ],
+      "days_listed": 138,
+      "cena_m2": 20,
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-11-17"
+      },
+      "fp_nosprat_all": [
+        "9e8f785c45cb0f5a"
+      ],
+      "fp_nosprat": "9e8f785c45cb0f5a"
     },
     "7990df36926c8aa5": {
       "uid": "7990df36926c8aa5",
@@ -30475,7 +30489,7 @@
     "5ba204e3a85b84f4": {
       "uid": "5ba204e3a85b84f4",
       "first_seen": "2026-10-07",
-      "last_seen": "2026-11-16",
+      "last_seen": "2026-11-17",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "52d4e745338c53de",
@@ -30497,18 +30511,19 @@
       ],
       "last_seen_src": {
         "4zida": "2026-11-16",
-        "halo": "2026-11-16",
+        "halo": "2026-11-17",
         "nadjidom": "2026-10-16"
       },
       "source_ids": {
         "4zida": "4zida:6abfe3a5f7ccc18950029b1b",
-        "halo": "4fd4f4e7d9b1",
+        "halo": "952b69d7acfd",
         "nadjidom": "nadjidom:2364015"
       },
       "source_urls": [
         "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6abfe3a5f7ccc18950029b1b",
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-novogradnja-parking-mesto-id-23030/5425644776558?kid=4",
-        "https://www.nadjidom.com/sr/details/2364015/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html"
+        "https://www.nadjidom.com/sr/details/2364015/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-novogradnja-parking-mesto-id-23030/5425644776558?kid=1"
       ],
       "zgrada": "Wellport",
       "struktura": "2.0",
@@ -30516,7 +30531,7 @@
       "m2": 54.0,
       "sprat": "1",
       "agencija": "eminent-nekretnine",
-      "naslov": "Dvosoban stan za izdavanje, Tadije Sondermajera, 1.000€, 54m²",
+      "naslov": "Wellport, novogradnja, parking mesto, ID 23030",
       "price_first": 1100,
       "price_current": 1000.0,
       "price_changes": [
@@ -38744,9 +38759,9 @@
     "40172196ca3bf827": {
       "uid": "40172196ca3bf827",
       "first_seen": "2026-11-04",
-      "last_seen": "2026-11-10",
-      "is_active": false,
-      "deactivated_at": "2026-11-12",
+      "last_seen": "2026-11-17",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "c648f5cd9be9c5bd",
       "fp_loose_all": [
         "c648f5cd9be9c5bd"
@@ -38762,7 +38777,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-11-10"
+        "halo": "2026-11-17"
       },
       "source_ids": {
         "halo": "c85f1e1a0e7e"
@@ -38780,7 +38795,7 @@
       "price_first": 1500.0,
       "price_current": 1500.0,
       "price_changes": [],
-      "days_listed": 8,
+      "days_listed": 13,
       "cena_m2": 21
     },
     "68eaf19a4406f3d2": {
@@ -39608,7 +39623,7 @@
     "155b5df9c7470886": {
       "uid": "155b5df9c7470886",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-16",
+      "last_seen": "2026-11-17",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "0c6ac36ead38aa52",
@@ -39627,7 +39642,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-11-12",
+        "halo": "2026-11-17",
         "4zida": "2026-11-16"
       },
       "source_ids": {
@@ -39644,7 +39659,7 @@
       "m2": 55.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Dvosoban stan za izdavanje, Omladinskih brigada, 1.400€, 55m²",
+      "naslov": "SOUL 64 - Luksuzan dvosoban stan, neuseljavan",
       "price_first": 1400.0,
       "price_current": 1400.0,
       "price_changes": [],
@@ -40437,7 +40452,7 @@
     "a1e91706b65b7aa2": {
       "uid": "a1e91706b65b7aa2",
       "first_seen": "2026-11-10",
-      "last_seen": "2026-11-16",
+      "last_seen": "2026-11-17",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "ec6e0d81e041e3aa",
@@ -40456,7 +40471,7 @@
         "4zida"
       ],
       "last_seen_src": {
-        "halo": "2026-11-16",
+        "halo": "2026-11-17",
         "4zida": "2026-11-16"
       },
       "source_ids": {
@@ -40473,7 +40488,7 @@
       "m2": 95.0,
       "sprat": null,
       "agencija": "JBLConceptRE",
-      "naslov": "Troiposoban stan za izdavanje, A Blok - Blok 67a, 2.000€, 95m²",
+      "naslov": "Stan za izdavanje, A blok, 95m2, 2 parking mesta",
       "price_first": 2000.0,
       "price_current": 2000.0,
       "price_changes": [],
@@ -43026,7 +43041,8 @@
       "price_first": 900.0,
       "price_current": 900.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 16
     },
     "dde11a847a8e427e": {
       "uid": "dde11a847a8e427e",
@@ -43067,10 +43083,134 @@
       "price_first": 1300.0,
       "price_current": 1300.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 16
+    },
+    "d89683301155d767": {
+      "uid": "d89683301155d767",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "341905bba2a11a6d",
+      "fp_loose_all": [
+        "341905bba2a11a6d"
+      ],
+      "fp_nosprat": "14b7fac24448b99a",
+      "fp_nosprat_all": [
+        "14b7fac24448b99a"
+      ],
+      "fp_strict_all": [
+        "c19e73e7e5a9228b"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-17"
+      },
+      "source_ids": {
+        "halo": "6ee8f091739c"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65-tower-dvosoban-lux-stan-garaza/5425647993167?kid=4"
+      ],
+      "zgrada": "West 65 Kula",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 68.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "West 65 Tower-Dvosoban lux stan,garaza",
+      "price_first": 1800.0,
+      "price_current": 1800.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "fc44275ecaf75799": {
+      "uid": "fc44275ecaf75799",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "26a13bda814d4b47",
+      "fp_loose_all": [
+        "26a13bda814d4b47"
+      ],
+      "fp_nosprat": "6e20c28226fa5396",
+      "fp_nosprat_all": [
+        "6e20c28226fa5396"
+      ],
+      "fp_strict_all": [
+        "a6dee841db155b59"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-17"
+      },
+      "source_ids": {
+        "halo": "8698e7117ab2"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/belvil-novogradnja-funkcionalan-stan-id-26285/5425647996520?kid=4"
+      ],
+      "zgrada": "Belvil",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 47.0,
+      "sprat": null,
+      "agencija": "eminent-nekretnine",
+      "naslov": "Belvil, novogradnja, funkcionalan stan, ID 26285",
+      "price_first": 700.0,
+      "price_current": 700.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "cf8358b5e047f353": {
+      "uid": "cf8358b5e047f353",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "0e972147758a9402",
+      "fp_loose_all": [
+        "0e972147758a9402"
+      ],
+      "fp_nosprat": "fda1178e5c1cc1eb",
+      "fp_nosprat_all": [
+        "fda1178e5c1cc1eb"
+      ],
+      "fp_strict_all": [
+        "dad8c381c43b7a3f"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-17"
+      },
+      "source_ids": {
+        "halo": "cd622e48fe0e"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/sakura-izuzetan-stan-prelepo-sredjen-id-20047/5425643215767?kid=4"
+      ],
+      "zgrada": "Sakura Park",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 70.0,
+      "sprat": null,
+      "agencija": "eminent-nekretnine",
+      "naslov": "Sakura, izuzetan stan, prelepo sređen, ID 20047",
+      "price_first": 1200.0,
+      "price_current": 1200.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-17T05:03:39.239415+00:00",
+  "updated_at": "2026-11-17T12:16:26.704059+00:00",
   "last_run": {
     "4zida": "2026-11-16",
     "nadjidom": "2026-11-16",

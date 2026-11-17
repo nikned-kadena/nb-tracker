@@ -3,8 +3,8 @@
   "source": "4zida",
   "date": "2026-11-17",
   "scraped_at": "2026-11-17",
-  "total_raw": 130,
-  "total_unique": 109,
+  "total_raw": 131,
+  "total_unique": 110,
   "total_dups": 21,
   "diff_new": [],
   "diff_removed": [],
@@ -65,7 +65,7 @@
       "posrednik": true,
       "tip_prodaje": null,
       "zgrada_orig": "A Blok",
-      "cena_m2_sumnjiva": true
+      "cena_m2_sumnjiva": false
     },
     {
       "id": "3ccc4088ff74a1b0",
@@ -548,6 +548,35 @@
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "84fe06bf3213459d",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-lux-novogradnja-id-25107/5425646418929?kid=1",
+      "naslov": "Soul 64, lux, novogradnja, ID 25107",
+      "zgrada": "Soul 64",
+      "agencija": "Eminent Nekretnine",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 172.0,
+      "cena": 425000.0,
+      "cena_m2": 2471,
+      "sprat": null,
+      "izvori": [
+        "halo",
+        "4zida"
+      ],
+      "dana_na_trzistu": 140,
+      "prva_cena": 445000.0,
+      "promena_cene_pct": -4.5,
+      "first_seen": "2026-06-30",
+      "last_seen": "2026-11-17",
+      "dedup_key": "Soul 64|172.0|425000.0",
+      "zgrada_izvor": "ispravljeno",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "zgrada_orig": "A Blok",
       "cena_m2_sumnjiva": false
     },
     {
