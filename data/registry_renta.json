@@ -20181,9 +20181,9 @@
     "4d4a7583034116f2": {
       "uid": "4d4a7583034116f2",
       "first_seen": "2026-08-29",
-      "last_seen": "2026-11-16",
-      "is_active": false,
-      "deactivated_at": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "039cbf70caf5dad0",
       "fp_strict_all": [
         "621e575b842ff844"
@@ -20192,11 +20192,12 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "f6b8806c728c"
+        "halo": "ae81ffca5c6d"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul64-nov-54m-stan-ili-poslovni-prostor/5425647491616?kid=3",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul64-nov-54m-stan-ili-poslovni-prostor/5425647491616?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul64-nov-54m-stan-ili-poslovni-prostor/5425647491616?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/soul64-nov-54m-stan/5425647491616?kid=1"
       ],
       "zgrada": "Soul 64",
       "struktura": "2.0",
@@ -20204,14 +20205,14 @@
       "m2": 54.0,
       "sprat": null,
       "agencija": "LESTORealty",
-      "naslov": "Soul64 | Nov | 54m² | Stan ili poslovni prostor",
+      "naslov": "Soul64 | Nov | 54m² | Stan |",
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
       "days_listed": 81,
       "cena_m2": 19,
       "last_seen_src": {
-        "halo": "2026-11-16"
+        "halo": "2026-11-18"
       },
       "fp_nosprat_all": [
         "baf3737ced00c4c7"
@@ -32598,9 +32599,9 @@
     "d22b5cc4ecdde412": {
       "uid": "d22b5cc4ecdde412",
       "first_seen": "2026-10-16",
-      "last_seen": "2026-11-14",
-      "is_active": false,
-      "deactivated_at": "2026-11-16",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "a8c7f23214b52dde",
       "fp_loose_all": [
         "a8c7f23214b52dde"
@@ -32616,7 +32617,7 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-11-14"
+        "halo": "2026-11-18"
       },
       "source_ids": {
         "halo": "76f9d77a538c"
@@ -32634,7 +32635,7 @@
       "price_first": 1500.0,
       "price_current": 1500.0,
       "price_changes": [],
-      "days_listed": 31,
+      "days_listed": 33,
       "cena_m2": 21
     },
     "bc6f42f10a7d280e": {
@@ -43299,7 +43300,7 @@
     "0d205e4516ba63c0": {
       "uid": "0d205e4516ba63c0",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "9d08bc4c11e36494",
@@ -43314,28 +43315,33 @@
         "cd20944974edd5d3"
       ],
       "sources": [
-        "nadjidom"
+        "nadjidom",
+        "halo"
       ],
       "last_seen_src": {
-        "nadjidom": "2026-11-17"
+        "nadjidom": "2026-11-17",
+        "halo": "2026-11-18"
       },
       "source_ids": {
-        "nadjidom": "nadjidom:2378126"
+        "nadjidom": "nadjidom:2378126",
+        "halo": "4134738b7515"
       },
       "source_urls": [
-        "https://www.nadjidom.com/sr/details/2378126/Beograd-Novi+Beograd-Blok+67a-Izdavanje-Stan.html"
+        "https://www.nadjidom.com/sr/details/2378126/Beograd-Novi+Beograd-Blok+67a-Izdavanje-Stan.html",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/savada-1-kompletno-namesten-stan-sa-predivnim/5425648000990?kid=4"
       ],
       "zgrada": "Savada",
       "struktura": "2.0",
       "str_label": "Dvosoban",
       "m2": 56.0,
       "sprat": "6",
-      "agencija": "Benefit nekretnine ",
-      "naslov": "Savada 1, kompletno namešten stan sa predivnim pogledom",
+      "agencija": "Benefit",
+      "naslov": "Savada 1, kompletno namešten stan sa predivnim pog",
       "price_first": 930,
       "price_current": 930,
       "price_changes": [],
-      "days_listed": 1
+      "days_listed": 1,
+      "cena_m2": 17
     },
     "10e8e5f89a27f424": {
       "uid": "10e8e5f89a27f424",
@@ -43376,7 +43382,8 @@
       "price_first": 1800.0,
       "price_current": 1800.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 21
     },
     "0723185f9ccf7857": {
       "uid": "0723185f9ccf7857",
@@ -43417,10 +43424,52 @@
       "price_first": 1000.0,
       "price_current": 1000.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 24
+    },
+    "b8d888ad585ccd22": {
+      "uid": "b8d888ad585ccd22",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "40487eff32666280",
+      "fp_loose_all": [
+        "40487eff32666280"
+      ],
+      "fp_nosprat": "07225b4aaba0c763",
+      "fp_nosprat_all": [
+        "07225b4aaba0c763"
+      ],
+      "fp_strict_all": [
+        "421854ad75225d79"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "source_ids": {
+        "halo": "c1429189ed64"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/belville---3-0-s-102-m2-namesten/5425648002493?kid=1"
+      ],
+      "zgrada": "Belvil",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 102.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Belville - 3,0 s, 102 m2, namešten",
+      "price_first": 1350.0,
+      "price_current": 1350.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-18T05:03:25.549577+00:00",
+  "updated_at": "2026-11-18T12:03:56.708151+00:00",
   "last_run": {
     "4zida": "2026-11-17",
     "nadjidom": "2026-11-17",

@@ -1922,7 +1922,7 @@
         "nadjidom"
       ],
       "source_ids": {
-        "halo": "c00024aba8a4",
+        "halo": "cf1c33b74b30",
         "4zida": "4zida:6a3d1fce03f83bf12201d7b6",
         "nadjidom": "nadjidom:2377662"
       },
@@ -1930,7 +1930,8 @@
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-55-m-garazno-mesto-vrhunska-no/5425647329704?kid=3",
         "https://www.4zida.rs/prodaja-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6a3d1fce03f83bf12201d7b6",
         "https://www.nadjidom.com/sr/details/2377662/Beograd-Novi+Beograd-Blok+65-Prodaja-Stan.html",
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/kompleks-airport-garden-55m2-parking-mesto-id/5425647981588?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/kompleks-airport-garden-55m2-parking-mesto-id/5425647981588?kid=1",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/kompleks-airport-garden-55m2-parking-mesto-id/5425647981588?kid=4"
       ],
       "zgrada": "Airport Garden",
       "struktura": "2.0",
@@ -2363,7 +2364,7 @@
     "fc297a7487994ef4": {
       "uid": "fc297a7487994ef4",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-18",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "5e5d7614cad3fb7d",
@@ -2393,7 +2394,7 @@
       "days_listed": 141,
       "cena_m2": 4975,
       "last_seen_src": {
-        "halo": "2026-11-17"
+        "halo": "2026-11-18"
       },
       "fp_nosprat_all": [
         "40e6ad89a0100563"
@@ -12672,14 +12673,15 @@
     "90810a5da88b1869": {
       "uid": "90810a5da88b1869",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-10-18",
-      "is_active": false,
-      "deactivated_at": "2026-10-20",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "4eefa0991d8f24e4",
       "fp_strict_all": [
         "79a51f2734b875b9",
         "fe1573acb0ef47ba",
-        "b661e9542b6fcea2"
+        "b661e9542b6fcea2",
+        "d1416f308592226d"
       ],
       "sources": [
         "halo"
@@ -12698,7 +12700,7 @@
       "agencija": "nekretninegavrilovic",
       "naslov": "West 65, Lux 4.0 stan, 125m2 ID#2219",
       "price_first": 530000.0,
-      "price_current": 470000.0,
+      "price_current": 469000.0,
       "price_changes": [
         {
           "date": "2026-08-21",
@@ -12709,12 +12711,17 @@
           "date": "2026-10-11",
           "from": 478000.0,
           "to": 470000.0
+        },
+        {
+          "date": "2026-11-18",
+          "from": 470000.0,
+          "to": 469000.0
         }
       ],
-      "days_listed": 83,
-      "cena_m2": 3821,
+      "days_listed": 112,
+      "cena_m2": 3813,
       "last_seen_src": {
-        "halo": "2026-10-18"
+        "halo": "2026-11-18"
       },
       "fp_nosprat_all": [
         "20b6ba6adc9a6b3a"
@@ -13464,7 +13471,7 @@
         "nadjidom"
       ],
       "source_ids": {
-        "halo": "1f15bfbffcd2",
+        "halo": "cd6b2e4dd012",
         "nadjidom": "nadjidom:2372276"
       },
       "source_urls": [
@@ -13478,7 +13485,7 @@
       "m2": 82.0,
       "sprat": "4",
       "agencija": "EUROPOLISNEKRETNINE",
-      "naslov": "Jurija Gagarina, Novi Beograd, Delta city ID#7290",
+      "naslov": "Jurija Gagarina, Novi Beograd, Delta City",
       "price_first": 379000.0,
       "price_current": 379000.0,
       "price_changes": [],
@@ -31745,7 +31752,8 @@
       "price_first": 713400.0,
       "price_current": 713400.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5800
     },
     "f0bbb854b651dde9": {
       "uid": "f0bbb854b651dde9",
@@ -31786,10 +31794,93 @@
       "price_first": 370000.0,
       "price_current": 370000.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 4933
+    },
+    "38857a44e57ff192": {
+      "uid": "38857a44e57ff192",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "83ec2f45a5f8e39f",
+      "fp_loose_all": [
+        "83ec2f45a5f8e39f"
+      ],
+      "fp_nosprat": "68bcfaec6399e4a2",
+      "fp_nosprat_all": [
+        "68bcfaec6399e4a2"
+      ],
+      "fp_strict_all": [
+        "f01fbda4b9c3e297"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "source_ids": {
+        "halo": "2c58a0d6aaa3"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-dvosoban-stan---83mgarazno-mestobel-mondo/5425648001015?kid=1"
+      ],
+      "zgrada": "Bel Mondo",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 83.0,
+      "sprat": null,
+      "agencija": "Beostil_nekretnine",
+      "naslov": "Lux, dvosoban stan - 83m²+garažno mesto|Bel Mondo ",
+      "price_first": 390000.0,
+      "price_current": 390000.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "955c222d112ba102": {
+      "uid": "955c222d112ba102",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-18",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "b5f8e987b989eca9",
+      "fp_loose_all": [
+        "b5f8e987b989eca9"
+      ],
+      "fp_nosprat": "2c09d5a43e97774c",
+      "fp_nosprat_all": [
+        "2c09d5a43e97774c"
+      ],
+      "fp_strict_all": [
+        "0fa53da8e612c34b"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-18"
+      },
+      "source_ids": {
+        "halo": "8f2feaa62647"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/blok-70a-dr-agostina-neta-uknjizen-2-0-stan/5425648000970?kid=1"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 61.0,
+      "sprat": null,
+      "agencija": "agencija-nekretnine-obradovic-doo",
+      "naslov": "Blok 70a Dr Agostina Neta uknjižen 2.0 stan",
+      "price_first": 236000.0,
+      "price_current": 236000.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-18T05:02:34.780052+00:00",
+  "updated_at": "2026-11-18T12:03:01.342087+00:00",
   "last_run": {
     "4zida": "2026-11-17",
     "nadjidom": "2026-11-17",
