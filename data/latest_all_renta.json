@@ -3,8 +3,8 @@
   "source": "all",
   "date": "2026-11-19",
   "scraped_at": "2026-11-19",
-  "total_raw": 219,
-  "total_unique": 159,
+  "total_raw": 220,
+  "total_unique": 160,
   "total_dups": 60,
   "diff_new": [
     "5eddf85a70693a2d",
@@ -16,7 +16,6 @@
     "f72a6d8b82605821",
     "46d6cadf65fe5eef",
     "189319d4a594601b",
-    "28ce1f4c4493a850",
     "d873d6e275065820",
     "e32b563aca47dc56"
   ],
@@ -4463,6 +4462,33 @@
       "zgrada_izvor": "opis_agenta",
       "agencija_izvor": null,
       "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "28ce1f4c4493a850",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/odlican-2-o-stan-u-kuli-west-65/5425647203780?kid=4",
+      "naslov": "Odličan 2.o stan u kuli West 65",
+      "zgrada": "West 65",
+      "agencija": "Sonata Properties",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 60.0,
+      "cena": 1200.0,
+      "cena_m2": 20,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 8,
+      "prva_cena": 1200.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-19",
+      "dedup_key": "West 65|60.0|1200.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     },
