@@ -3,14 +3,15 @@
   "source": "all",
   "date": "2026-11-20",
   "scraped_at": "2026-11-20",
-  "total_raw": 260,
-  "total_unique": 190,
+  "total_raw": 261,
+  "total_unique": 191,
   "total_dups": 70,
   "diff_new": [
     "7f5802540d430de4",
     "a25fe1946094c108",
     "df1b0ac509c1c435",
-    "2a502b91797fbe22"
+    "2a502b91797fbe22",
+    "a9568f6010670516"
   ],
   "diff_removed": [
     "d8e55a49436d693d",
@@ -7185,6 +7186,33 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": null,
       "posrednik": null,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "a9568f6010670516",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-65-kula---trosoban-stan-sa-pogledom-na-n/5425648012881?kid=1",
+      "naslov": "West 65 kula - trosoban stan sa pogledom na NBg.",
+      "zgrada": "West 65 Kula",
+      "agencija": "Best Real Estate",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 96.0,
+      "cena": 552000.0,
+      "cena_m2": 5750,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 552000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "dedup_key": "West 65 Kula|96.0|552000.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }

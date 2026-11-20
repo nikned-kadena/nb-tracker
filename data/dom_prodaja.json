@@ -4,7 +4,7 @@
   "pocetak_pracenja": "2026-06-29",
   "ukupno": {
     "n_zavrseni": 465,
-    "n_aktivni": 260,
+    "n_aktivni": 261,
     "dom_medijana": 49,
     "metod": "kaplan-meier",
     "pouzdano": true,
@@ -1676,14 +1676,14 @@
     },
     "West 65 Kula": {
       "n_zavrseni": 33,
-      "n_aktivni": 14,
+      "n_aktivni": 15,
       "dom_medijana": 52,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 30,
-      "starost_aktivnih_medijana": 123,
+      "starost_aktivnih_medijana": 114,
       "udeo_jos_u_ponudi": 0.1865,
-      "udeo_aktivnih_pct": 30,
+      "udeo_aktivnih_pct": 31,
       "skinuti_p25": 13,
       "skinuti_p75": 77,
       "brzo_do_30d": 52,
@@ -2062,12 +2062,12 @@
     },
     "nepoznato": {
       "n_zavrseni": 418,
-      "n_aktivni": 218,
+      "n_aktivni": 219,
       "dom_medijana": 50,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 24,
-      "starost_aktivnih_medijana": 58,
+      "starost_aktivnih_medijana": 57,
       "udeo_jos_u_ponudi": 0.1614,
       "udeo_aktivnih_pct": 34,
       "skinuti_p25": 9,
@@ -2383,7 +2383,7 @@
     "prosecno_snizenje_pct": 3.8
   },
   "izvori": {
-    "halo": 650,
+    "halo": 651,
     "nadjidom": 73,
     "4zida": 229
   },
