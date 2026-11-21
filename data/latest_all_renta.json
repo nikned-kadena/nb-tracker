@@ -3,12 +3,13 @@
   "source": "all",
   "date": "2026-11-21",
   "scraped_at": "2026-11-21",
-  "total_raw": 208,
-  "total_unique": 154,
+  "total_raw": 209,
+  "total_unique": 155,
   "total_dups": 54,
   "diff_new": [
     "73e86abe792c874d",
-    "f5ebc57a561652f4"
+    "f5ebc57a561652f4",
+    "1f9f9ef74a1b6d07"
   ],
   "diff_removed": [
     "30a3b59fa8d46092",
@@ -5748,6 +5749,33 @@
       "first_seen": "2026-11-21",
       "last_seen": "2026-11-21",
       "dedup_key": "Airport Garden|71.0|1250.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "1f9f9ef74a1b6d07",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/nov-2-0-opremljen-stan--savada-3-novi-bg/5425648018433?kid=4",
+      "naslov": "Nov 2.0 opremljen stan -Savada 3 Novi Bg",
+      "zgrada": "Savada",
+      "agencija": "Bg Immobilien",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 50.0,
+      "cena": 900.0,
+      "cena_m2": 18,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 900.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "dedup_key": "Savada|50.0|900.0",
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,

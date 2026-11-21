@@ -20061,7 +20061,7 @@
         "4zida"
       ],
       "source_ids": {
-        "halo": "13a21794723d",
+        "halo": "53ab3545e60e",
         "4zida": "4zida:6ab4e875ca1d6e2a8706248e"
       },
       "source_urls": [
@@ -30121,9 +30121,9 @@
     "3a9c70b2bc6bb6a2": {
       "uid": "3a9c70b2bc6bb6a2",
       "first_seen": "2026-11-05",
-      "last_seen": "2026-11-19",
-      "is_active": false,
-      "deactivated_at": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "83f640fbc8891d45",
       "fp_loose_all": [
         "83f640fbc8891d45"
@@ -30139,13 +30139,14 @@
         "halo"
       ],
       "last_seen_src": {
-        "halo": "2026-11-19"
+        "halo": "2026-11-21"
       },
       "source_ids": {
-        "halo": "4035c7200fa4"
+        "halo": "354fe4ecda31"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-65-kula-70-m2-lux-garaza-zakupac-pogled/5425647917273"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-65-kula-70-m2-lux-garaza-zakupac-pogled/5425647917273",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-65-kula-70-m2-lux-garaza-zakupac-pogled/5425646538678?kid=4"
       ],
       "zgrada": "West 65 Kula",
       "struktura": "2.0",
@@ -31452,7 +31453,7 @@
         "halo": "2026-11-21"
       },
       "source_ids": {
-        "halo": "9c92187d330c"
+        "halo": "426aa3cacce3"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/nov-airport-garden-3-0-72m2-placen-pdv-garaza/5425647971344?kid=4",
@@ -32458,7 +32459,8 @@
       "price_first": 434000.0,
       "price_current": 434000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 5425
     },
     "65ead20a045f0d7c": {
       "uid": "65ead20a045f0d7c",
@@ -32499,10 +32501,93 @@
       "price_first": 154000.0,
       "price_current": 154000.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 5923
+    },
+    "c63ea84963cdde27": {
+      "uid": "c63ea84963cdde27",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "283bdd077744c875",
+      "fp_loose_all": [
+        "283bdd077744c875"
+      ],
+      "fp_nosprat": "60a4debe48a726e5",
+      "fp_nosprat_all": [
+        "60a4debe48a726e5"
+      ],
+      "fp_strict_all": [
+        "44653061776b0658"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-21"
+      },
+      "source_ids": {
+        "halo": "c3a762ae620f"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-bel-mondo-trosoban-nov-odmah-use/5425648010331?kid=4"
+      ],
+      "zgrada": "Bel Mondo",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 170.0,
+      "sprat": null,
+      "agencija": "RElife",
+      "naslov": "Novi Beograd Bel mondo trosoban nov odmah useljiv",
+      "price_first": 750000.0,
+      "price_current": 750000.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "c80b8d314b132464": {
+      "uid": "c80b8d314b132464",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "6b1ed22348c3eea7",
+      "fp_loose_all": [
+        "6b1ed22348c3eea7"
+      ],
+      "fp_nosprat": "fd74d29a00b19bdb",
+      "fp_nosprat_all": [
+        "fd74d29a00b19bdb"
+      ],
+      "fp_strict_all": [
+        "3779603b0753daa9"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-21"
+      },
+      "source_ids": {
+        "halo": "441343bd30c0"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-stan-belville/5425648018209?kid=4"
+      ],
+      "zgrada": "Belvil",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 60.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Lux stan Belville",
+      "price_first": 298000.0,
+      "price_current": 298000.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-21T05:02:19.828823+00:00",
+  "updated_at": "2026-11-21T11:33:14.096295+00:00",
   "last_run": {
     "4zida": "2026-11-20",
     "nadjidom": "2026-11-20",
