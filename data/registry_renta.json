@@ -14219,13 +14219,14 @@
     "7ffb6304ea95a035": {
       "uid": "7ffb6304ea95a035",
       "first_seen": "2026-07-29",
-      "last_seen": "2026-10-06",
-      "is_active": false,
-      "deactivated_at": "2026-10-08",
+      "last_seen": "2026-11-23",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "83c34f5d4d10af82",
       "fp_strict_all": [
         "a3983120755d4ea4",
-        "5eb1b6a212f7343e"
+        "5eb1b6a212f7343e",
+        "92af1ca1753a87a9"
       ],
       "sources": [
         "halo"
@@ -14244,24 +14245,29 @@
       "agencija": "vigilantia",
       "naslov": "2.0 Eliksir Garden Lux nov 54m2 parking mesečno",
       "price_first": 900.0,
-      "price_current": 800.0,
+      "price_current": 880.0,
       "price_changes": [
         {
           "date": "2026-10-05",
           "from": 900.0,
           "to": 800.0
+        },
+        {
+          "date": "2026-11-23",
+          "from": 800.0,
+          "to": 880.0
         }
       ],
-      "days_listed": 71,
+      "days_listed": 117,
       "deactivation_uncertain": true,
       "last_seen_src": {
-        "halo": "2026-10-06"
+        "halo": "2026-11-23"
       },
       "fp_nosprat_all": [
         "7ed81045b6b458cc"
       ],
       "fp_nosprat": "7ed81045b6b458cc",
-      "cena_m2": 15
+      "cena_m2": 16
     },
     "42986e8136570bd1": {
       "uid": "42986e8136570bd1",
@@ -30724,14 +30730,15 @@
       },
       "source_ids": {
         "4zida": "4zida:6abfe3a5f7ccc18950029b1b",
-        "halo": "952b69d7acfd",
+        "halo": "25f02eee69e9",
         "nadjidom": "nadjidom:2364015"
       },
       "source_urls": [
         "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/dvosoban-stan/6abfe3a5f7ccc18950029b1b",
         "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-novogradnja-parking-mesto-id-23030/5425644776558?kid=4",
         "https://www.nadjidom.com/sr/details/2364015/Beograd-Novi+Beograd-Blok+65-Izdavanje-Stan.html",
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-novogradnja-parking-mesto-id-23030/5425644776558?kid=1"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-novogradnja-parking-mesto-id-23030/5425644776558?kid=1",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/newport-novogradnja-komforan-id-26239/5425647926606?kid=4"
       ],
       "zgrada": "Wellport",
       "struktura": "2.0",
@@ -30739,7 +30746,7 @@
       "m2": 54.0,
       "sprat": "1",
       "agencija": "eminent-nekretnine",
-      "naslov": "Wellport, novogradnja, parking mesto, ID 23030",
+      "naslov": "Newport, novogradnja, komforan, ID 26239",
       "price_first": 1100,
       "price_current": 1000.0,
       "price_changes": [
@@ -44418,10 +44425,11 @@
         "halo": "2026-11-23"
       },
       "source_ids": {
-        "halo": "a30264914b65"
+        "halo": "0b632a791fae"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/najbolji-penthaus-na-novom-beogradu/5425648025191?kid=4"
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/najbolji-penthaus-na-novom-beogradu/5425648025191?kid=4",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/najbolji-penthouse-na-novom-beogradu/5425648025191?kid=4"
       ],
       "zgrada": "Airport Garden",
       "struktura": "4.0",
@@ -44429,11 +44437,12 @@
       "m2": 134.0,
       "sprat": null,
       "agencija": "MaxisGroup1",
-      "naslov": "Najbolji penthaus na Novom Beogradu ",
+      "naslov": "Najbolji penthouse na Novom Beogradu ",
       "price_first": 2500.0,
       "price_current": 2500.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 19
     },
     "717ce42ac7403c9b": {
       "uid": "717ce42ac7403c9b",
@@ -44474,10 +44483,134 @@
       "price_first": 700.0,
       "price_current": 700.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 20
+    },
+    "f4e7b14b28869ba0": {
+      "uid": "f4e7b14b28869ba0",
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "fba1c176b25d4d4d",
+      "fp_loose_all": [
+        "fba1c176b25d4d4d"
+      ],
+      "fp_nosprat": "fe75d76872168f61",
+      "fp_nosprat_all": [
+        "fe75d76872168f61"
+      ],
+      "fp_strict_all": [
+        "cd3a567e17b88cea"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-23"
+      },
+      "source_ids": {
+        "halo": "2a0e7c3f3abc"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/belvil-jednoiposoban-namesten-stan/5425648029420?kid=4"
+      ],
+      "zgrada": "Belvil",
+      "struktura": "1.5",
+      "str_label": null,
+      "m2": 41.0,
+      "sprat": null,
+      "agencija": "elite-nekretnine",
+      "naslov": "Belvil-Jednoiposoban namesten stan",
+      "price_first": 750.0,
+      "price_current": 750.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "8c66ac931270ef99": {
+      "uid": "8c66ac931270ef99",
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "bd9fc7a8dc5fe479",
+      "fp_loose_all": [
+        "bd9fc7a8dc5fe479"
+      ],
+      "fp_nosprat": "8647b9355c052d18",
+      "fp_nosprat_all": [
+        "8647b9355c052d18"
+      ],
+      "fp_strict_all": [
+        "9958538b13385512"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-23"
+      },
+      "source_ids": {
+        "halo": "51b7e0299b05"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-trosoban-stan-u-kompleksu-airport-garden/5425648027771"
+      ],
+      "zgrada": "Airport Garden",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 71.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Lux Trosoban Stan U Kompleksu Airport Garden",
+      "price_first": 1250.0,
+      "price_current": 1250.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "991052c08aef381c": {
+      "uid": "991052c08aef381c",
+      "first_seen": "2026-11-23",
+      "last_seen": "2026-11-23",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "e25e11f07f85e4ff",
+      "fp_loose_all": [
+        "e25e11f07f85e4ff"
+      ],
+      "fp_nosprat": "d1ae3d6007a85dfb",
+      "fp_nosprat_all": [
+        "d1ae3d6007a85dfb"
+      ],
+      "fp_strict_all": [
+        "3080e2f3584d125a"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-23"
+      },
+      "source_ids": {
+        "halo": "541a46c4e491"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/the-one-lux-novogradnja-garaza-id-25953/5425647548965?kid=4"
+      ],
+      "zgrada": "The One",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 61.0,
+      "sprat": null,
+      "agencija": "eminent-nekretnine",
+      "naslov": "The One, lux novogradnja, garaža, ID 25953",
+      "price_first": 1100.0,
+      "price_current": 1100.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-23T05:03:26.966057+00:00",
+  "updated_at": "2026-11-23T13:33:16.091560+00:00",
   "last_run": {
     "4zida": "2026-11-22",
     "nadjidom": "2026-11-22",
