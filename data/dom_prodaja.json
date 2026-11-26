@@ -1,17 +1,17 @@
 {
   "mode": "prodaja",
-  "generated": "2026-11-25",
+  "generated": "2026-11-26",
   "pocetak_pracenja": "2026-06-29",
   "ukupno": {
-    "n_zavrseni": 460,
-    "n_aktivni": 283,
+    "n_zavrseni": 466,
+    "n_aktivni": 277,
     "dom_medijana": 52,
     "metod": "kaplan-meier",
     "pouzdano": true,
     "naivna_medijana_samo_skinuti": 23,
-    "starost_aktivnih_medijana": 56,
-    "udeo_jos_u_ponudi": 0.1839,
-    "udeo_aktivnih_pct": 38,
+    "starost_aktivnih_medijana": 57,
+    "udeo_jos_u_ponudi": 0.1769,
+    "udeo_aktivnih_pct": 37,
     "skinuti_p25": 9,
     "skinuti_p75": 52,
     "brzo_do_30d": 60,
@@ -19,223 +19,231 @@
     "kriva": [
       {
         "dan": 2,
-        "preziveli": 0.9647
+        "preziveli": 0.9649
       },
       {
         "dan": 4,
-        "preziveli": 0.9223
+        "preziveli": 0.9213
       },
       {
         "dan": 6,
-        "preziveli": 0.9002
+        "preziveli": 0.8993
       },
       {
         "dan": 8,
-        "preziveli": 0.8461
+        "preziveli": 0.8454
       },
       {
         "dan": 10,
-        "preziveli": 0.7869
+        "preziveli": 0.7866
       },
       {
         "dan": 12,
-        "preziveli": 0.767
+        "preziveli": 0.7668
       },
       {
         "dan": 14,
-        "preziveli": 0.7485
+        "preziveli": 0.7483
       },
       {
         "dan": 16,
-        "preziveli": 0.7126
+        "preziveli": 0.7127
       },
       {
         "dan": 18,
-        "preziveli": 0.7025
+        "preziveli": 0.7026
       },
       {
         "dan": 20,
-        "preziveli": 0.6908
+        "preziveli": 0.691
       },
       {
         "dan": 22,
-        "preziveli": 0.6789
+        "preziveli": 0.6792
       },
       {
         "dan": 24,
-        "preziveli": 0.6549
+        "preziveli": 0.6553
       },
       {
         "dan": 26,
-        "preziveli": 0.6458
+        "preziveli": 0.6463
       },
       {
         "dan": 28,
-        "preziveli": 0.632
+        "preziveli": 0.6326
       },
       {
         "dan": 30,
-        "preziveli": 0.6042
+        "preziveli": 0.6048
       },
       {
         "dan": 32,
-        "preziveli": 0.5748
+        "preziveli": 0.5754
       },
       {
         "dan": 36,
-        "preziveli": 0.5686
+        "preziveli": 0.5692
       },
       {
         "dan": 38,
-        "preziveli": 0.5576
+        "preziveli": 0.5567
       },
       {
         "dan": 40,
-        "preziveli": 0.5513
+        "preziveli": 0.5504
       },
       {
         "dan": 42,
-        "preziveli": 0.5449
+        "preziveli": 0.5441
       },
       {
         "dan": 44,
-        "preziveli": 0.5285
+        "preziveli": 0.5278
       },
       {
         "dan": 46,
-        "preziveli": 0.5185
+        "preziveli": 0.5179
       },
       {
         "dan": 48,
-        "preziveli": 0.5151
+        "preziveli": 0.5145
       },
       {
         "dan": 50,
-        "preziveli": 0.5045
+        "preziveli": 0.5042
       },
       {
         "dan": 52,
-        "preziveli": 0.4847
+        "preziveli": 0.4845
       },
       {
         "dan": 54,
-        "preziveli": 0.472
+        "preziveli": 0.4718
       },
       {
         "dan": 56,
         "preziveli": 0.4591
       },
       {
-        "dan": 60,
-        "preziveli": 0.4528
+        "dan": 59,
+        "preziveli": 0.4531
       },
       {
-        "dan": 64,
-        "preziveli": 0.4441
+        "dan": 61,
+        "preziveli": 0.4468
       },
       {
-        "dan": 66,
-        "preziveli": 0.4331
+        "dan": 65,
+        "preziveli": 0.4381
       },
       {
-        "dan": 69,
-        "preziveli": 0.4242
+        "dan": 68,
+        "preziveli": 0.4248
       },
       {
-        "dan": 71,
-        "preziveli": 0.4197
+        "dan": 70,
+        "preziveli": 0.4204
       },
       {
-        "dan": 73,
-        "preziveli": 0.4129
+        "dan": 72,
+        "preziveli": 0.416
       },
       {
-        "dan": 79,
-        "preziveli": 0.4059
+        "dan": 77,
+        "preziveli": 0.4068
       },
       {
-        "dan": 81,
-        "preziveli": 0.4012
+        "dan": 80,
+        "preziveli": 0.4022
       },
       {
-        "dan": 83,
-        "preziveli": 0.3964
+        "dan": 82,
+        "preziveli": 0.3975
       },
       {
-        "dan": 86,
-        "preziveli": 0.3892
+        "dan": 85,
+        "preziveli": 0.3927
       },
       {
-        "dan": 91,
-        "preziveli": 0.3769
+        "dan": 90,
+        "preziveli": 0.383
       },
       {
-        "dan": 94,
-        "preziveli": 0.3669
+        "dan": 93,
+        "preziveli": 0.3732
+      },
+      {
+        "dan": 96,
+        "preziveli": 0.3607
       },
       {
         "dan": 99,
-        "preziveli": 0.3442
+        "preziveli": 0.3383
       },
       {
         "dan": 101,
-        "preziveli": 0.3324
+        "preziveli": 0.3268
       },
       {
         "dan": 105,
-        "preziveli": 0.3148
+        "preziveli": 0.3094
       },
       {
         "dan": 108,
-        "preziveli": 0.3059
+        "preziveli": 0.3007
       },
       {
         "dan": 110,
-        "preziveli": 0.3001
+        "preziveli": 0.2949
       },
       {
         "dan": 115,
-        "preziveli": 0.2942
+        "preziveli": 0.2892
       },
       {
         "dan": 117,
-        "preziveli": 0.2824
+        "preziveli": 0.2776
       },
       {
         "dan": 122,
-        "preziveli": 0.2758
+        "preziveli": 0.2711
       },
       {
         "dan": 124,
-        "preziveli": 0.2686
+        "preziveli": 0.264
       },
       {
         "dan": 127,
-        "preziveli": 0.2577
+        "preziveli": 0.2533
       },
       {
         "dan": 130,
-        "preziveli": 0.2432
+        "preziveli": 0.239
       },
       {
         "dan": 132,
-        "preziveli": 0.2323
+        "preziveli": 0.2283
       },
       {
         "dan": 134,
-        "preziveli": 0.225
+        "preziveli": 0.2212
       },
       {
         "dan": 137,
-        "preziveli": 0.2177
+        "preziveli": 0.2141
       },
       {
         "dan": 141,
-        "preziveli": 0.206
+        "preziveli": 0.2027
       },
       {
         "dan": 145,
-        "preziveli": 0.1884
+        "preziveli": 0.186
+      },
+      {
+        "dan": 149,
+        "preziveli": 0.1769
       }
     ]
   },
@@ -247,8 +255,8 @@
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 10,
-      "starost_aktivnih_medijana": 56,
-      "udeo_jos_u_ponudi": 0.1472,
+      "starost_aktivnih_medijana": 57,
+      "udeo_jos_u_ponudi": 0.1476,
       "udeo_aktivnih_pct": 31,
       "skinuti_p25": 7,
       "skinuti_p75": 24,
@@ -277,83 +285,83 @@
         },
         {
           "dan": 8,
-          "preziveli": 0.727
+          "preziveli": 0.7273
         },
         {
           "dan": 9,
-          "preziveli": 0.6609
+          "preziveli": 0.6612
         },
         {
           "dan": 10,
-          "preziveli": 0.5552
+          "preziveli": 0.5554
         },
         {
           "dan": 13,
-          "preziveli": 0.542
+          "preziveli": 0.5421
         },
         {
           "dan": 15,
-          "preziveli": 0.5288
+          "preziveli": 0.5289
         },
         {
           "dan": 20,
-          "preziveli": 0.5155
+          "preziveli": 0.5157
         },
         {
           "dan": 21,
-          "preziveli": 0.502
+          "preziveli": 0.5025
         },
         {
           "dan": 22,
-          "preziveli": 0.4748
+          "preziveli": 0.4753
         },
         {
           "dan": 24,
-          "preziveli": 0.4613
+          "preziveli": 0.4617
         },
         {
           "dan": 29,
-          "preziveli": 0.4473
+          "preziveli": 0.4477
         },
         {
           "dan": 31,
-          "preziveli": 0.4193
+          "preziveli": 0.4198
         },
         {
           "dan": 33,
-          "preziveli": 0.4054
+          "preziveli": 0.4058
         },
         {
           "dan": 44,
-          "preziveli": 0.3898
+          "preziveli": 0.3907
         },
         {
           "dan": 50,
-          "preziveli": 0.3735
+          "preziveli": 0.3745
         },
         {
           "dan": 52,
-          "preziveli": 0.3573
+          "preziveli": 0.3582
         },
         {
           "dan": 66,
-          "preziveli": 0.3298
+          "preziveli": 0.3306
         },
         {
           "dan": 77,
-          "preziveli": 0.3023
+          "preziveli": 0.3031
         },
         {
           "dan": 80,
-          "preziveli": 0.2748
+          "preziveli": 0.2755
         },
         {
           "dan": 105,
-          "preziveli": 0.1963
+          "preziveli": 0.1968
         },
         {
           "dan": 142,
-          "preziveli": 0.1472
+          "preziveli": 0.1476
         }
       ]
     },
@@ -364,8 +372,8 @@
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 32,
-      "starost_aktivnih_medijana": 70,
-      "udeo_jos_u_ponudi": 0.1477,
+      "starost_aktivnih_medijana": 71,
+      "udeo_jos_u_ponudi": 0.1486,
       "udeo_aktivnih_pct": 33,
       "skinuti_p25": 9,
       "skinuti_p75": 61,
@@ -378,175 +386,175 @@
         },
         {
           "dan": 3,
-          "preziveli": 0.9115
+          "preziveli": 0.9118
         },
         {
           "dan": 4,
-          "preziveli": 0.8916
+          "preziveli": 0.8919
         },
         {
           "dan": 6,
-          "preziveli": 0.8817
+          "preziveli": 0.882
         },
         {
           "dan": 7,
-          "preziveli": 0.8322
+          "preziveli": 0.8325
         },
         {
           "dan": 9,
-          "preziveli": 0.8222
+          "preziveli": 0.8226
         },
         {
           "dan": 10,
-          "preziveli": 0.8021
+          "preziveli": 0.8025
         },
         {
           "dan": 12,
-          "preziveli": 0.7921
+          "preziveli": 0.7925
         },
         {
           "dan": 13,
-          "preziveli": 0.7819
+          "preziveli": 0.7824
         },
         {
           "dan": 15,
-          "preziveli": 0.7616
+          "preziveli": 0.7621
         },
         {
           "dan": 16,
-          "preziveli": 0.721
+          "preziveli": 0.7215
         },
         {
           "dan": 23,
-          "preziveli": 0.6995
+          "preziveli": 0.7006
         },
         {
           "dan": 25,
-          "preziveli": 0.6886
+          "preziveli": 0.6898
         },
         {
           "dan": 30,
-          "preziveli": 0.6776
+          "preziveli": 0.6788
         },
         {
           "dan": 31,
-          "preziveli": 0.6558
+          "preziveli": 0.6569
         },
         {
           "dan": 32,
-          "preziveli": 0.6339
+          "preziveli": 0.635
         },
         {
           "dan": 38,
-          "preziveli": 0.6226
+          "preziveli": 0.6237
         },
         {
           "dan": 41,
-          "preziveli": 0.6113
+          "preziveli": 0.6124
         },
         {
           "dan": 43,
-          "preziveli": 0.5999
+          "preziveli": 0.601
         },
         {
           "dan": 45,
-          "preziveli": 0.5886
+          "preziveli": 0.5897
         },
         {
           "dan": 46,
-          "preziveli": 0.5771
+          "preziveli": 0.5783
         },
         {
           "dan": 49,
-          "preziveli": 0.5525
+          "preziveli": 0.5547
         },
         {
           "dan": 50,
-          "preziveli": 0.5274
+          "preziveli": 0.5301
         },
         {
           "dan": 52,
-          "preziveli": 0.5149
+          "preziveli": 0.5175
         },
         {
           "dan": 53,
-          "preziveli": 0.5023
+          "preziveli": 0.5048
         },
         {
           "dan": 54,
-          "preziveli": 0.4897
+          "preziveli": 0.4922
         },
         {
           "dan": 56,
-          "preziveli": 0.464
+          "preziveli": 0.4663
         },
         {
           "dan": 59,
-          "preziveli": 0.4511
+          "preziveli": 0.4534
         },
         {
           "dan": 61,
-          "preziveli": 0.4382
+          "preziveli": 0.4404
         },
         {
           "dan": 64,
-          "preziveli": 0.4253
+          "preziveli": 0.4275
         },
         {
           "dan": 68,
-          "preziveli": 0.4124
+          "preziveli": 0.4145
         },
         {
           "dan": 72,
-          "preziveli": 0.3982
+          "preziveli": 0.4007
         },
         {
           "dan": 85,
-          "preziveli": 0.384
+          "preziveli": 0.3864
         },
         {
           "dan": 99,
-          "preziveli": 0.368
+          "preziveli": 0.3703
         },
         {
           "dan": 100,
-          "preziveli": 0.352
+          "preziveli": 0.3542
         },
         {
           "dan": 101,
-          "preziveli": 0.336
+          "preziveli": 0.3381
         },
         {
           "dan": 110,
-          "preziveli": 0.32
+          "preziveli": 0.322
         },
         {
           "dan": 117,
-          "preziveli": 0.288
+          "preziveli": 0.2898
         },
         {
           "dan": 123,
-          "preziveli": 0.2658
+          "preziveli": 0.2675
         },
         {
           "dan": 127,
-          "preziveli": 0.2437
+          "preziveli": 0.2452
         },
         {
           "dan": 128,
-          "preziveli": 0.2215
+          "preziveli": 0.2229
         },
         {
           "dan": 131,
-          "preziveli": 0.1994
+          "preziveli": 0.2006
         },
         {
           "dan": 139,
-          "preziveli": 0.1772
+          "preziveli": 0.1783
         },
         {
           "dan": 146,
-          "preziveli": 0.1477
+          "preziveli": 0.1486
         }
       ]
     },
@@ -557,7 +565,7 @@
       "metod": "kaplan-meier",
       "pouzdano": false,
       "naivna_medijana_samo_skinuti": 9,
-      "starost_aktivnih_medijana": 49,
+      "starost_aktivnih_medijana": 50,
       "udeo_jos_u_ponudi": 0.8221,
       "udeo_aktivnih_pct": 85,
       "napomena_grupa": "Kriva prezivljavanja nije pala ispod 50% u posmatranom prozoru — vise od polovine oglasa je jos u ponudi, pa se medijana jos ne moze izmeriti. Nije ista stvar kao 'nema podataka'.",
@@ -581,15 +589,15 @@
       ]
     },
     "Belvil": {
-      "n_zavrseni": 57,
-      "n_aktivni": 12,
+      "n_zavrseni": 58,
+      "n_aktivni": 11,
       "dom_medijana": 20,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 12,
-      "starost_aktivnih_medijana": 50,
-      "udeo_jos_u_ponudi": 0.0629,
-      "udeo_aktivnih_pct": 17,
+      "starost_aktivnih_medijana": 58,
+      "udeo_jos_u_ponudi": 0.0622,
+      "udeo_aktivnih_pct": 16,
       "skinuti_p25": 5,
       "skinuti_p75": 31,
       "brzo_do_30d": 72,
@@ -605,136 +613,135 @@
         },
         {
           "dan": 4,
-          "preziveli": 0.8258
+          "preziveli": 0.8116
         },
         {
           "dan": 5,
-          "preziveli": 0.7816
+          "preziveli": 0.7681
         },
         {
           "dan": 7,
-          "preziveli": 0.7374
+          "preziveli": 0.7246
         },
         {
           "dan": 8,
-          "preziveli": 0.7079
+          "preziveli": 0.6957
         },
         {
           "dan": 9,
-          "preziveli": 0.6341
+          "preziveli": 0.6232
         },
         {
           "dan": 10,
-          "preziveli": 0.6194
+          "preziveli": 0.6087
         },
         {
           "dan": 11,
-          "preziveli": 0.6046
+          "preziveli": 0.5942
         },
         {
           "dan": 12,
-          "preziveli": 0.5751
+          "preziveli": 0.5652
         },
         {
           "dan": 15,
-          "preziveli": 0.5604
+          "preziveli": 0.5507
         },
         {
           "dan": 16,
-          "preziveli": 0.5452
+          "preziveli": 0.5362
         },
         {
           "dan": 17,
-          "preziveli": 0.5301
+          "preziveli": 0.5213
         },
         {
           "dan": 18,
-          "preziveli": 0.5149
+          "preziveli": 0.5064
         },
         {
           "dan": 20,
-          "preziveli": 0.4847
+          "preziveli": 0.4767
         },
         {
           "dan": 21,
-          "preziveli": 0.4695
+          "preziveli": 0.4618
         },
         {
           "dan": 23,
-          "preziveli": 0.4392
+          "preziveli": 0.432
         },
         {
           "dan": 28,
-          "preziveli": 0.4067
+          "preziveli": 0.4011
         },
         {
           "dan": 29,
-          "preziveli": 0.3897
+          "preziveli": 0.3851
         },
         {
           "dan": 31,
-          "preziveli": 0.305
+          "preziveli": 0.3014
         },
         {
           "dan": 33,
-          "preziveli": 0.2881
+          "preziveli": 0.2846
         },
         {
           "dan": 38,
-          "preziveli": 0.2711
+          "preziveli": 0.2679
         },
         {
           "dan": 42,
-          "preziveli": 0.2542
+          "preziveli": 0.2511
         },
         {
           "dan": 49,
-          "preziveli": 0.236
+          "preziveli": 0.2332
         },
         {
           "dan": 52,
-          "preziveli": 0.2179
+          "preziveli": 0.2153
         },
         {
           "dan": 56,
-          "preziveli": 0.1997
+          "preziveli": 0.1973
         },
         {
           "dan": 66,
-          "preziveli": 0.1797
+          "preziveli": 0.1776
         },
         {
           "dan": 96,
-          "preziveli": 0.1573
+          "preziveli": 0.1554
         },
         {
           "dan": 99,
-          "preziveli": 0.1258
+          "preziveli": 0.1243
         },
         {
           "dan": 101,
-          "preziveli": 0.0944
+          "preziveli": 0.0932
         },
         {
           "dan": 109,
-          "preziveli": 0.0629
+          "preziveli": 0.0622
         }
       ]
     },
     "Elixir Garden": {
-      "n_zavrseni": 5,
-      "n_aktivni": 8,
-      "dom_medijana": null,
+      "n_zavrseni": 6,
+      "n_aktivni": 7,
+      "dom_medijana": 57,
       "metod": "kaplan-meier",
-      "pouzdano": false,
+      "pouzdano": true,
       "naivna_medijana_samo_skinuti": 16,
-      "starost_aktivnih_medijana": 38,
-      "udeo_jos_u_ponudi": 0.5556,
-      "udeo_aktivnih_pct": 62,
-      "napomena_grupa": "Kriva prezivljavanja nije pala ispod 50% u posmatranom prozoru — vise od polovine oglasa je jos u ponudi, pa se medijana jos ne moze izmeriti. Nije ista stvar kao 'nema podataka'.",
+      "starost_aktivnih_medijana": 27,
+      "udeo_jos_u_ponudi": 0.3704,
+      "udeo_aktivnih_pct": 54,
       "skinuti_p25": 10,
-      "skinuti_p75": 16,
-      "brzo_do_30d": 100,
+      "skinuti_p75": 23,
+      "brzo_do_30d": 83,
       "sporo_preko_180d": 0,
       "kriva": [
         {
@@ -748,6 +755,10 @@
         {
           "dan": 23,
           "preziveli": 0.5556
+        },
+        {
+          "dan": 57,
+          "preziveli": 0.3704
         }
       ]
     },
@@ -758,7 +769,7 @@
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 114,
-      "starost_aktivnih_medijana": 47,
+      "starost_aktivnih_medijana": 48,
       "udeo_jos_u_ponudi": 0.0,
       "udeo_aktivnih_pct": 20,
       "skinuti_p25": 112,
@@ -792,7 +803,7 @@
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 28,
       "starost_aktivnih_medijana": 64,
-      "udeo_jos_u_ponudi": 0.2507,
+      "udeo_jos_u_ponudi": 0.2511,
       "udeo_aktivnih_pct": 40,
       "skinuti_p25": 12,
       "skinuti_p75": 44,
@@ -829,47 +840,47 @@
         },
         {
           "dan": 27,
-          "preziveli": 0.7047
+          "preziveli": 0.7059
         },
         {
           "dan": 28,
-          "preziveli": 0.674
+          "preziveli": 0.6752
         },
         {
           "dan": 29,
-          "preziveli": 0.6127
+          "preziveli": 0.6138
         },
         {
           "dan": 36,
-          "preziveli": 0.5821
+          "preziveli": 0.5831
         },
         {
           "dan": 43,
-          "preziveli": 0.5515
+          "preziveli": 0.5524
         },
         {
           "dan": 44,
-          "preziveli": 0.5208
+          "preziveli": 0.5217
         },
         {
           "dan": 70,
-          "preziveli": 0.4774
+          "preziveli": 0.4783
         },
         {
           "dan": 82,
-          "preziveli": 0.4297
+          "preziveli": 0.4304
         },
         {
           "dan": 86,
-          "preziveli": 0.3819
+          "preziveli": 0.3826
         },
         {
           "dan": 91,
-          "preziveli": 0.3342
+          "preziveli": 0.3348
         },
         {
           "dan": 105,
-          "preziveli": 0.2507
+          "preziveli": 0.2511
         }
       ]
     },
@@ -880,7 +891,7 @@
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 29,
-      "starost_aktivnih_medijana": 56,
+      "starost_aktivnih_medijana": 57,
       "udeo_jos_u_ponudi": 0.1572,
       "udeo_aktivnih_pct": 27,
       "skinuti_p25": 9,
@@ -977,8 +988,8 @@
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 24,
-      "starost_aktivnih_medijana": 42,
-      "udeo_jos_u_ponudi": 0.2629,
+      "starost_aktivnih_medijana": 43,
+      "udeo_jos_u_ponudi": 0.2639,
       "udeo_aktivnih_pct": 46,
       "skinuti_p25": 14,
       "skinuti_p75": 46,
@@ -987,111 +998,111 @@
       "kriva": [
         {
           "dan": 2,
-          "preziveli": 0.9846
+          "preziveli": 0.9851
         },
         {
           "dan": 4,
-          "preziveli": 0.9687
+          "preziveli": 0.9692
         },
         {
           "dan": 7,
-          "preziveli": 0.9195
+          "preziveli": 0.9199
         },
         {
           "dan": 8,
-          "preziveli": 0.9031
+          "preziveli": 0.9035
         },
         {
           "dan": 9,
-          "preziveli": 0.8702
+          "preziveli": 0.8706
         },
         {
           "dan": 12,
-          "preziveli": 0.8538
+          "preziveli": 0.8542
         },
         {
           "dan": 14,
-          "preziveli": 0.8374
+          "preziveli": 0.8378
         },
         {
           "dan": 15,
-          "preziveli": 0.8045
+          "preziveli": 0.8049
         },
         {
           "dan": 16,
-          "preziveli": 0.7717
+          "preziveli": 0.7721
         },
         {
           "dan": 17,
-          "preziveli": 0.7553
+          "preziveli": 0.7556
         },
         {
           "dan": 20,
-          "preziveli": 0.7385
+          "preziveli": 0.7392
         },
         {
           "dan": 23,
-          "preziveli": 0.7205
+          "preziveli": 0.7212
         },
         {
           "dan": 24,
-          "preziveli": 0.7025
+          "preziveli": 0.7032
         },
         {
           "dan": 25,
-          "preziveli": 0.684
+          "preziveli": 0.6851
         },
         {
           "dan": 27,
-          "preziveli": 0.665
+          "preziveli": 0.6666
         },
         {
           "dan": 29,
-          "preziveli": 0.6259
+          "preziveli": 0.6274
         },
         {
           "dan": 30,
-          "preziveli": 0.6063
+          "preziveli": 0.6078
         },
         {
           "dan": 31,
-          "preziveli": 0.5868
+          "preziveli": 0.5882
         },
         {
           "dan": 38,
-          "preziveli": 0.5672
+          "preziveli": 0.5686
         },
         {
           "dan": 39,
-          "preziveli": 0.5476
+          "preziveli": 0.549
         },
         {
           "dan": 43,
-          "preziveli": 0.5257
+          "preziveli": 0.5279
         },
         {
           "dan": 46,
-          "preziveli": 0.4819
+          "preziveli": 0.4839
         },
         {
           "dan": 47,
-          "preziveli": 0.46
+          "preziveli": 0.4619
         },
         {
           "dan": 53,
-          "preziveli": 0.4162
+          "preziveli": 0.4179
         },
         {
           "dan": 55,
-          "preziveli": 0.3943
+          "preziveli": 0.3959
         },
         {
           "dan": 56,
-          "preziveli": 0.3505
+          "preziveli": 0.3519
         },
         {
           "dan": 145,
-          "preziveli": 0.2629
+          "preziveli": 0.2639
         }
       ]
     },
@@ -1102,7 +1113,7 @@
       "metod": "kaplan-meier",
       "pouzdano": false,
       "naivna_medijana_samo_skinuti": 9,
-      "starost_aktivnih_medijana": 96,
+      "starost_aktivnih_medijana": 97,
       "udeo_jos_u_ponudi": 0.8571,
       "udeo_aktivnih_pct": 86,
       "napomena_grupa": "Kriva prezivljavanja nije pala ispod 50% u posmatranom prozoru — vise od polovine oglasa je jos u ponudi, pa se medijana jos ne moze izmeriti. Nije ista stvar kao 'nema podataka'.",
@@ -1118,19 +1129,18 @@
       ]
     },
     "Sakura Park": {
-      "n_zavrseni": 4,
-      "n_aktivni": 11,
-      "dom_medijana": null,
+      "n_zavrseni": 5,
+      "n_aktivni": 10,
+      "dom_medijana": 149,
       "metod": "kaplan-meier",
-      "pouzdano": false,
-      "naivna_medijana_samo_skinuti": 56,
-      "starost_aktivnih_medijana": 62,
-      "udeo_jos_u_ponudi": 0.5513,
-      "udeo_aktivnih_pct": 73,
-      "napomena_grupa": "Kriva prezivljavanja nije pala ispod 50% u posmatranom prozoru — vise od polovine oglasa je jos u ponudi, pa se medijana jos ne moze izmeriti. Nije ista stvar kao 'nema podataka'.",
+      "pouzdano": true,
+      "naivna_medijana_samo_skinuti": 61,
+      "starost_aktivnih_medijana": 60,
+      "udeo_jos_u_ponudi": 0.3675,
+      "udeo_aktivnih_pct": 67,
       "skinuti_p25": 52,
       "skinuti_p75": 93,
-      "brzo_do_30d": 25,
+      "brzo_do_30d": 20,
       "sporo_preko_180d": 0,
       "kriva": [
         {
@@ -1148,6 +1158,10 @@
         {
           "dan": 93,
           "preziveli": 0.5513
+        },
+        {
+          "dan": 149,
+          "preziveli": 0.3675
         }
       ]
     },
@@ -1158,7 +1172,7 @@
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 23,
-      "starost_aktivnih_medijana": 46,
+      "starost_aktivnih_medijana": 47,
       "udeo_jos_u_ponudi": 0.3492,
       "udeo_aktivnih_pct": 53,
       "skinuti_p25": 10,
@@ -1193,18 +1207,18 @@
       ]
     },
     "Soul 64": {
-      "n_zavrseni": 52,
-      "n_aktivni": 33,
+      "n_zavrseni": 55,
+      "n_aktivni": 30,
       "dom_medijana": 54,
       "metod": "kaplan-meier",
       "pouzdano": true,
-      "naivna_medijana_samo_skinuti": 24,
+      "naivna_medijana_samo_skinuti": 26,
       "starost_aktivnih_medijana": 43,
-      "udeo_jos_u_ponudi": 0.0715,
-      "udeo_aktivnih_pct": 39,
+      "udeo_jos_u_ponudi": 0.0598,
+      "udeo_aktivnih_pct": 35,
       "skinuti_p25": 8,
-      "skinuti_p75": 64,
-      "brzo_do_30d": 60,
+      "skinuti_p75": 68,
+      "brzo_do_30d": 56,
       "sporo_preko_180d": 0,
       "kriva": [
         {
@@ -1221,139 +1235,147 @@
         },
         {
           "dan": 6,
-          "preziveli": 0.8782
+          "preziveli": 0.8789
         },
         {
           "dan": 7,
-          "preziveli": 0.8411
+          "preziveli": 0.8417
         },
         {
           "dan": 8,
-          "preziveli": 0.8288
+          "preziveli": 0.8294
         },
         {
           "dan": 9,
-          "preziveli": 0.7911
+          "preziveli": 0.7922
         },
         {
           "dan": 10,
-          "preziveli": 0.7785
+          "preziveli": 0.7797
         },
         {
           "dan": 13,
-          "preziveli": 0.7653
+          "preziveli": 0.7664
         },
         {
           "dan": 16,
-          "preziveli": 0.738
+          "preziveli": 0.7396
         },
         {
           "dan": 19,
-          "preziveli": 0.7107
+          "preziveli": 0.7122
         },
         {
           "dan": 22,
-          "preziveli": 0.697
+          "preziveli": 0.6985
         },
         {
           "dan": 23,
-          "preziveli": 0.6697
+          "preziveli": 0.6711
         },
         {
           "dan": 25,
-          "preziveli": 0.656
+          "preziveli": 0.6574
         },
         {
           "dan": 26,
-          "preziveli": 0.6423
+          "preziveli": 0.6437
         },
         {
           "dan": 28,
-          "preziveli": 0.6284
+          "preziveli": 0.6297
         },
         {
           "dan": 29,
-          "preziveli": 0.6004
+          "preziveli": 0.6017
         },
         {
           "dan": 31,
-          "preziveli": 0.5865
+          "preziveli": 0.5877
         },
         {
           "dan": 32,
-          "preziveli": 0.5725
+          "preziveli": 0.5737
         },
         {
           "dan": 33,
-          "preziveli": 0.5585
+          "preziveli": 0.5597
+        },
+        {
+          "dan": 37,
+          "preziveli": 0.545
         },
         {
           "dan": 43,
-          "preziveli": 0.5426
+          "preziveli": 0.5294
         },
         {
           "dan": 48,
-          "preziveli": 0.5251
+          "preziveli": 0.5123
         },
         {
           "dan": 54,
-          "preziveli": 0.4876
+          "preziveli": 0.4757
         },
         {
           "dan": 59,
-          "preziveli": 0.4681
+          "preziveli": 0.4567
         },
         {
           "dan": 64,
-          "preziveli": 0.4477
+          "preziveli": 0.4369
         },
         {
           "dan": 68,
-          "preziveli": 0.4274
+          "preziveli": 0.417
         },
         {
           "dan": 69,
-          "preziveli": 0.407
+          "preziveli": 0.3971
         },
         {
           "dan": 81,
-          "preziveli": 0.3831
+          "preziveli": 0.3738
         },
         {
           "dan": 94,
-          "preziveli": 0.3575
+          "preziveli": 0.3489
+        },
+        {
+          "dan": 97,
+          "preziveli": 0.299
         },
         {
           "dan": 101,
-          "preziveli": 0.3218
+          "preziveli": 0.2691
         },
         {
           "dan": 105,
-          "preziveli": 0.286
+          "preziveli": 0.2392
         },
         {
           "dan": 108,
-          "preziveli": 0.2503
+          "preziveli": 0.2093
         },
         {
           "dan": 115,
-          "preziveli": 0.2145
+          "preziveli": 0.1794
         },
         {
           "dan": 118,
-          "preziveli": 0.1788
+          "preziveli": 0.1495
         },
         {
           "dan": 124,
-          "preziveli": 0.143
+          "preziveli": 0.1196
         },
         {
           "dan": 135,
-          "preziveli": 0.1073
+          "preziveli": 0.0897
         },
         {
           "dan": 137,
-          "preziveli": 0.0715
+          "preziveli": 0.0598
         }
       ]
     },
@@ -1389,8 +1411,8 @@
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 20,
-      "starost_aktivnih_medijana": 119,
-      "udeo_jos_u_ponudi": 0.3113,
+      "starost_aktivnih_medijana": 120,
+      "udeo_jos_u_ponudi": 0.3115,
       "udeo_aktivnih_pct": 40,
       "skinuti_p25": 10,
       "skinuti_p75": 91,
@@ -1415,67 +1437,67 @@
         },
         {
           "dan": 9,
-          "preziveli": 0.8482
+          "preziveli": 0.8486
         },
         {
           "dan": 10,
-          "preziveli": 0.8285
+          "preziveli": 0.8289
         },
         {
           "dan": 13,
-          "preziveli": 0.789
+          "preziveli": 0.7894
         },
         {
           "dan": 14,
-          "preziveli": 0.7496
+          "preziveli": 0.75
         },
         {
           "dan": 16,
-          "preziveli": 0.7101
+          "preziveli": 0.7105
         },
         {
           "dan": 17,
-          "preziveli": 0.6904
+          "preziveli": 0.6908
         },
         {
           "dan": 24,
-          "preziveli": 0.6707
+          "preziveli": 0.671
         },
         {
           "dan": 27,
-          "preziveli": 0.6509
+          "preziveli": 0.6513
         },
         {
           "dan": 29,
-          "preziveli": 0.6312
+          "preziveli": 0.6315
         },
         {
           "dan": 39,
-          "preziveli": 0.5918
+          "preziveli": 0.5921
         },
         {
           "dan": 53,
-          "preziveli": 0.572
+          "preziveli": 0.5723
         },
         {
           "dan": 90,
-          "preziveli": 0.5482
+          "preziveli": 0.5485
         },
         {
           "dan": 91,
-          "preziveli": 0.5005
+          "preziveli": 0.5008
         },
         {
           "dan": 94,
-          "preziveli": 0.4529
+          "preziveli": 0.4531
         },
         {
           "dan": 99,
-          "preziveli": 0.368
+          "preziveli": 0.3681
         },
         {
           "dan": 106,
-          "preziveli": 0.3113
+          "preziveli": 0.3115
         }
       ]
     },
@@ -1486,8 +1508,8 @@
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 28,
-      "starost_aktivnih_medijana": 52,
-      "udeo_jos_u_ponudi": 0.1922,
+      "starost_aktivnih_medijana": 54,
+      "udeo_jos_u_ponudi": 0.1935,
       "udeo_aktivnih_pct": 38,
       "skinuti_p25": 13,
       "skinuti_p75": 52,
@@ -1496,155 +1518,155 @@
       "kriva": [
         {
           "dan": 2,
-          "preziveli": 0.987
+          "preziveli": 0.9872
         },
         {
           "dan": 4,
-          "preziveli": 0.974
+          "preziveli": 0.9742
         },
         {
           "dan": 7,
-          "preziveli": 0.9221
+          "preziveli": 0.9222
         },
         {
           "dan": 8,
-          "preziveli": 0.8961
+          "preziveli": 0.8963
         },
         {
           "dan": 9,
-          "preziveli": 0.8825
+          "preziveli": 0.8833
         },
         {
           "dan": 10,
-          "preziveli": 0.8689
+          "preziveli": 0.8697
         },
         {
           "dan": 12,
-          "preziveli": 0.8418
+          "preziveli": 0.8425
         },
         {
           "dan": 13,
-          "preziveli": 0.8146
+          "preziveli": 0.8153
         },
         {
           "dan": 15,
-          "preziveli": 0.8011
+          "preziveli": 0.8017
         },
         {
           "dan": 16,
-          "preziveli": 0.7725
+          "preziveli": 0.7746
         },
         {
           "dan": 17,
-          "preziveli": 0.7581
+          "preziveli": 0.7602
         },
         {
           "dan": 18,
-          "preziveli": 0.7438
+          "preziveli": 0.7459
         },
         {
           "dan": 19,
-          "preziveli": 0.7293
+          "preziveli": 0.7315
         },
         {
           "dan": 20,
-          "preziveli": 0.7147
+          "preziveli": 0.7169
         },
         {
           "dan": 21,
-          "preziveli": 0.7001
+          "preziveli": 0.7023
         },
         {
           "dan": 25,
-          "preziveli": 0.6852
+          "preziveli": 0.6873
         },
         {
           "dan": 28,
-          "preziveli": 0.6703
+          "preziveli": 0.6724
         },
         {
           "dan": 29,
-          "preziveli": 0.6405
+          "preziveli": 0.6425
         },
         {
           "dan": 31,
-          "preziveli": 0.5958
+          "preziveli": 0.5977
         },
         {
           "dan": 37,
-          "preziveli": 0.5809
+          "preziveli": 0.5827
         },
         {
           "dan": 38,
-          "preziveli": 0.566
+          "preziveli": 0.5678
         },
         {
           "dan": 40,
-          "preziveli": 0.5507
+          "preziveli": 0.5528
         },
         {
           "dan": 42,
-          "preziveli": 0.5345
+          "preziveli": 0.5375
         },
         {
           "dan": 43,
-          "preziveli": 0.5183
+          "preziveli": 0.5212
         },
         {
           "dan": 44,
-          "preziveli": 0.5021
+          "preziveli": 0.5049
         },
         {
           "dan": 45,
-          "preziveli": 0.4854
+          "preziveli": 0.4886
         },
         {
           "dan": 52,
-          "preziveli": 0.4674
+          "preziveli": 0.4705
         },
         {
           "dan": 55,
-          "preziveli": 0.4494
+          "preziveli": 0.4524
         },
         {
           "dan": 60,
-          "preziveli": 0.4299
+          "preziveli": 0.4328
         },
         {
           "dan": 66,
-          "preziveli": 0.4094
+          "preziveli": 0.4122
         },
         {
           "dan": 71,
-          "preziveli": 0.389
+          "preziveli": 0.3915
         },
         {
           "dan": 99,
-          "preziveli": 0.3661
+          "preziveli": 0.3685
         },
         {
           "dan": 102,
-          "preziveli": 0.3432
+          "preziveli": 0.3455
         },
         {
           "dan": 116,
-          "preziveli": 0.3203
+          "preziveli": 0.3224
         },
         {
           "dan": 122,
-          "preziveli": 0.2883
+          "preziveli": 0.2902
         },
         {
           "dan": 126,
-          "preziveli": 0.2563
+          "preziveli": 0.258
         },
         {
           "dan": 131,
-          "preziveli": 0.2242
+          "preziveli": 0.2257
         },
         {
           "dan": 134,
-          "preziveli": 0.1922
+          "preziveli": 0.1935
         }
       ]
     },
@@ -1655,8 +1677,8 @@
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 30,
-      "starost_aktivnih_medijana": 107,
-      "udeo_jos_u_ponudi": 0.1415,
+      "starost_aktivnih_medijana": 108,
+      "udeo_jos_u_ponudi": 0.1475,
       "udeo_aktivnih_pct": 29,
       "skinuti_p25": 13,
       "skinuti_p75": 79,
@@ -1701,79 +1723,79 @@
         },
         {
           "dan": 21,
-          "preziveli": 0.716
+          "preziveli": 0.7167
         },
         {
           "dan": 23,
-          "preziveli": 0.6698
+          "preziveli": 0.6704
         },
         {
           "dan": 26,
-          "preziveli": 0.6467
+          "preziveli": 0.6473
         },
         {
           "dan": 30,
-          "preziveli": 0.6236
+          "preziveli": 0.6242
         },
         {
           "dan": 31,
-          "preziveli": 0.6005
+          "preziveli": 0.6011
         },
         {
           "dan": 38,
-          "preziveli": 0.5774
+          "preziveli": 0.578
         },
         {
           "dan": 45,
-          "preziveli": 0.5533
+          "preziveli": 0.5539
         },
         {
           "dan": 52,
-          "preziveli": 0.5052
+          "preziveli": 0.5057
         },
         {
           "dan": 65,
-          "preziveli": 0.48
+          "preziveli": 0.4804
         },
         {
           "dan": 73,
-          "preziveli": 0.4547
+          "preziveli": 0.4551
         },
         {
           "dan": 77,
-          "preziveli": 0.4294
+          "preziveli": 0.4299
         },
         {
           "dan": 79,
-          "preziveli": 0.4042
+          "preziveli": 0.4046
         },
         {
           "dan": 83,
-          "preziveli": 0.3789
+          "preziveli": 0.3793
         },
         {
           "dan": 90,
-          "preziveli": 0.3537
+          "preziveli": 0.354
         },
         {
           "dan": 126,
-          "preziveli": 0.3242
+          "preziveli": 0.3245
         },
         {
           "dan": 128,
-          "preziveli": 0.2947
+          "preziveli": 0.295
         },
         {
           "dan": 130,
-          "preziveli": 0.2358
+          "preziveli": 0.236
         },
         {
           "dan": 142,
-          "preziveli": 0.1886
+          "preziveli": 0.1967
         },
         {
           "dan": 145,
-          "preziveli": 0.1415
+          "preziveli": 0.1475
         }
       ]
     },
@@ -1785,7 +1807,7 @@
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 30,
       "starost_aktivnih_medijana": 56,
-      "udeo_jos_u_ponudi": 0.2501,
+      "udeo_jos_u_ponudi": 0.2532,
       "udeo_aktivnih_pct": 56,
       "skinuti_p25": 7,
       "skinuti_p75": 73,
@@ -1814,15 +1836,15 @@
         },
         {
           "dan": 51,
-          "preziveli": 0.6253
+          "preziveli": 0.6331
         },
         {
           "dan": 73,
-          "preziveli": 0.5002
+          "preziveli": 0.5065
         },
         {
           "dan": 141,
-          "preziveli": 0.2501
+          "preziveli": 0.2532
         }
       ]
     }
@@ -1835,7 +1857,7 @@
       "metod": "kaplan-meier",
       "pouzdano": false,
       "naivna_medijana_samo_skinuti": 7,
-      "starost_aktivnih_medijana": 56,
+      "starost_aktivnih_medijana": 57,
       "udeo_jos_u_ponudi": 0.5,
       "udeo_aktivnih_pct": 50,
       "skinuti_p25": 7,
@@ -1856,8 +1878,8 @@
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 10,
-      "starost_aktivnih_medijana": 49,
-      "udeo_jos_u_ponudi": 0.3918,
+      "starost_aktivnih_medijana": 50,
+      "udeo_jos_u_ponudi": 0.4082,
       "udeo_aktivnih_pct": 43,
       "skinuti_p25": 7,
       "skinuti_p75": 32,
@@ -1882,7 +1904,7 @@
         },
         {
           "dan": 44,
-          "preziveli": 0.3918
+          "preziveli": 0.4082
         }
       ]
     },
@@ -1893,7 +1915,7 @@
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 28,
-      "starost_aktivnih_medijana": 39,
+      "starost_aktivnih_medijana": 40,
       "udeo_jos_u_ponudi": 0.375,
       "udeo_aktivnih_pct": 60,
       "skinuti_p25": 7,
@@ -1918,7 +1940,7 @@
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 7,
-      "starost_aktivnih_medijana": 56,
+      "starost_aktivnih_medijana": 57,
       "udeo_jos_u_ponudi": 0.25,
       "udeo_aktivnih_pct": 25,
       "skinuti_p25": 7,
@@ -1968,12 +1990,12 @@
     "Trosoban": {
       "n_zavrseni": 19,
       "n_aktivni": 17,
-      "dom_medijana": 43,
+      "dom_medijana": 44,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 21,
-      "starost_aktivnih_medijana": 56,
-      "udeo_jos_u_ponudi": 0.4138,
+      "starost_aktivnih_medijana": 57,
+      "udeo_jos_u_ponudi": 0.4192,
       "udeo_aktivnih_pct": 47,
       "skinuti_p25": 7,
       "skinuti_p75": 42,
@@ -1994,276 +2016,284 @@
         },
         {
           "dan": 21,
-          "preziveli": 0.7212
+          "preziveli": 0.7222
         },
         {
           "dan": 22,
-          "preziveli": 0.6923
+          "preziveli": 0.6933
         },
         {
           "dan": 24,
-          "preziveli": 0.6622
+          "preziveli": 0.6632
         },
         {
           "dan": 31,
-          "preziveli": 0.6307
+          "preziveli": 0.6316
         },
         {
           "dan": 37,
-          "preziveli": 0.5991
+          "preziveli": 0.6
         },
         {
           "dan": 42,
-          "preziveli": 0.5659
+          "preziveli": 0.5684
         },
         {
           "dan": 43,
-          "preziveli": 0.4951
+          "preziveli": 0.5016
         },
         {
           "dan": 44,
-          "preziveli": 0.4598
+          "preziveli": 0.4657
         },
         {
           "dan": 53,
-          "preziveli": 0.4138
+          "preziveli": 0.4192
         }
       ]
     },
     "nepoznato": {
-      "n_zavrseni": 413,
-      "n_aktivni": 240,
+      "n_zavrseni": 419,
+      "n_aktivni": 234,
       "dom_medijana": 52,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 23,
-      "starost_aktivnih_medijana": 60,
-      "udeo_jos_u_ponudi": 0.1861,
-      "udeo_aktivnih_pct": 37,
+      "starost_aktivnih_medijana": 62,
+      "udeo_jos_u_ponudi": 0.1788,
+      "udeo_aktivnih_pct": 36,
       "skinuti_p25": 9,
-      "skinuti_p75": 54,
+      "skinuti_p75": 55,
       "brzo_do_30d": 60,
       "sporo_preko_180d": 0,
       "kriva": [
         {
           "dan": 2,
-          "preziveli": 0.9614
+          "preziveli": 0.9616
         },
         {
           "dan": 4,
-          "preziveli": 0.9131
+          "preziveli": 0.912
         },
         {
           "dan": 6,
-          "preziveli": 0.8879
+          "preziveli": 0.887
         },
         {
           "dan": 8,
-          "preziveli": 0.8562
+          "preziveli": 0.8554
         },
         {
           "dan": 10,
-          "preziveli": 0.7901
+          "preziveli": 0.7899
         },
         {
           "dan": 12,
-          "preziveli": 0.7674
+          "preziveli": 0.7673
         },
         {
           "dan": 14,
-          "preziveli": 0.7527
+          "preziveli": 0.7526
         },
         {
           "dan": 16,
-          "preziveli": 0.7132
+          "preziveli": 0.7135
         },
         {
           "dan": 18,
-          "preziveli": 0.7015
+          "preziveli": 0.7018
         },
         {
           "dan": 20,
-          "preziveli": 0.6881
+          "preziveli": 0.6885
         },
         {
           "dan": 22,
-          "preziveli": 0.6779
+          "preziveli": 0.6784
         },
         {
           "dan": 24,
-          "preziveli": 0.6523
+          "preziveli": 0.6528
         },
         {
           "dan": 26,
-          "preziveli": 0.6419
+          "preziveli": 0.6425
         },
         {
           "dan": 28,
-          "preziveli": 0.6261
+          "preziveli": 0.6268
         },
         {
           "dan": 30,
-          "preziveli": 0.5944
+          "preziveli": 0.5951
         },
         {
           "dan": 32,
-          "preziveli": 0.5661
+          "preziveli": 0.5668
         },
         {
           "dan": 36,
-          "preziveli": 0.559
+          "preziveli": 0.5598
         },
         {
-          "dan": 39,
-          "preziveli": 0.5447
+          "dan": 38,
+          "preziveli": 0.549
         },
         {
-          "dan": 41,
-          "preziveli": 0.541
+          "dan": 40,
+          "preziveli": 0.5418
         },
         {
-          "dan": 43,
-          "preziveli": 0.5336
+          "dan": 42,
+          "preziveli": 0.5382
         },
         {
-          "dan": 45,
-          "preziveli": 0.5225
+          "dan": 44,
+          "preziveli": 0.5272
         },
         {
-          "dan": 47,
-          "preziveli": 0.5187
+          "dan": 46,
+          "preziveli": 0.5198
         },
         {
-          "dan": 49,
-          "preziveli": 0.511
+          "dan": 48,
+          "preziveli": 0.516
         },
         {
-          "dan": 51,
-          "preziveli": 0.503
+          "dan": 50,
+          "preziveli": 0.5064
         },
         {
-          "dan": 53,
-          "preziveli": 0.4829
+          "dan": 52,
+          "preziveli": 0.4845
         },
         {
-          "dan": 55,
-          "preziveli": 0.4728
+          "dan": 54,
+          "preziveli": 0.4765
+        },
+        {
+          "dan": 56,
+          "preziveli": 0.4643
         },
         {
           "dan": 59,
-          "preziveli": 0.4604
+          "preziveli": 0.458
         },
         {
           "dan": 61,
-          "preziveli": 0.4539
+          "preziveli": 0.4517
         },
         {
           "dan": 65,
-          "preziveli": 0.445
+          "preziveli": 0.4428
         },
         {
           "dan": 68,
-          "preziveli": 0.4315
+          "preziveli": 0.4295
         },
         {
           "dan": 70,
-          "preziveli": 0.427
+          "preziveli": 0.425
         },
         {
           "dan": 72,
-          "preziveli": 0.4224
+          "preziveli": 0.4205
         },
         {
           "dan": 77,
-          "preziveli": 0.4131
+          "preziveli": 0.4112
         },
         {
           "dan": 80,
-          "preziveli": 0.4083
+          "preziveli": 0.4065
         },
         {
           "dan": 82,
-          "preziveli": 0.4036
+          "preziveli": 0.4018
         },
         {
           "dan": 85,
-          "preziveli": 0.3987
+          "preziveli": 0.397
         },
         {
           "dan": 90,
-          "preziveli": 0.3888
+          "preziveli": 0.3872
         },
         {
           "dan": 93,
-          "preziveli": 0.3788
+          "preziveli": 0.3773
         },
         {
           "dan": 96,
-          "preziveli": 0.3661
+          "preziveli": 0.3647
         },
         {
-          "dan": 100,
-          "preziveli": 0.3453
+          "dan": 99,
+          "preziveli": 0.342
         },
         {
-          "dan": 102,
-          "preziveli": 0.3334
+          "dan": 101,
+          "preziveli": 0.3303
         },
         {
-          "dan": 106,
-          "preziveli": 0.3126
+          "dan": 105,
+          "preziveli": 0.3128
         },
         {
-          "dan": 109,
-          "preziveli": 0.3066
+          "dan": 108,
+          "preziveli": 0.304
         },
         {
-          "dan": 112,
-          "preziveli": 0.3007
+          "dan": 110,
+          "preziveli": 0.2982
         },
         {
-          "dan": 116,
-          "preziveli": 0.2917
+          "dan": 115,
+          "preziveli": 0.2923
         },
         {
-          "dan": 118,
-          "preziveli": 0.2828
+          "dan": 117,
+          "preziveli": 0.2806
         },
         {
-          "dan": 123,
-          "preziveli": 0.2755
+          "dan": 122,
+          "preziveli": 0.2741
         },
         {
-          "dan": 126,
-          "preziveli": 0.2644
+          "dan": 124,
+          "preziveli": 0.2669
         },
         {
-          "dan": 128,
-          "preziveli": 0.2534
+          "dan": 127,
+          "preziveli": 0.2561
         },
         {
-          "dan": 131,
-          "preziveli": 0.2387
+          "dan": 130,
+          "preziveli": 0.2416
         },
         {
-          "dan": 133,
-          "preziveli": 0.2314
+          "dan": 132,
+          "preziveli": 0.2308
         },
         {
-          "dan": 135,
-          "preziveli": 0.224
+          "dan": 134,
+          "preziveli": 0.2236
         },
         {
-          "dan": 139,
-          "preziveli": 0.2126
+          "dan": 137,
+          "preziveli": 0.2164
         },
         {
-          "dan": 142,
-          "preziveli": 0.1997
+          "dan": 141,
+          "preziveli": 0.2049
         },
         {
-          "dan": 146,
-          "preziveli": 0.1861
+          "dan": 145,
+          "preziveli": 0.188
+        },
+        {
+          "dan": 149,
+          "preziveli": 0.1788
         }
       ]
     },
@@ -2274,7 +2304,7 @@
       "metod": "kaplan-meier",
       "pouzdano": false,
       "naivna_medijana_samo_skinuti": null,
-      "starost_aktivnih_medijana": 45,
+      "starost_aktivnih_medijana": 46,
       "udeo_jos_u_ponudi": 1.0,
       "udeo_aktivnih_pct": 100
     },
@@ -2285,7 +2315,7 @@
       "metod": "kaplan-meier",
       "pouzdano": false,
       "naivna_medijana_samo_skinuti": 41,
-      "starost_aktivnih_medijana": 56,
+      "starost_aktivnih_medijana": 57,
       "udeo_jos_u_ponudi": 0.5388,
       "udeo_aktivnih_pct": 63,
       "napomena_grupa": "Kriva prezivljavanja nije pala ispod 50% u posmatranom prozoru — vise od polovine oglasa je jos u ponudi, pa se medijana jos ne moze izmeriti. Nije ista stvar kao 'nema podataka'.",
@@ -2324,32 +2354,32 @@
   "cena_vs_dom": [
     {
       "kvartil": "najjeftiniji 25%",
-      "n": 115,
-      "cena_medijana": 183900,
+      "n": 116,
+      "cena_medijana": 183950,
       "dom_medijana": 16
     },
     {
       "kvartil": "25-50%",
-      "n": 115,
+      "n": 116,
       "cena_medijana": 275000,
-      "dom_medijana": 23
+      "dom_medijana": 24
     },
     {
       "kvartil": "50-75%",
-      "n": 115,
+      "n": 116,
       "cena_medijana": 380000,
       "dom_medijana": 21
     },
     {
       "kvartil": "najskuplji 25%",
-      "n": 115,
-      "cena_medijana": 549990,
-      "dom_medijana": 31
+      "n": 118,
+      "cena_medijana": 544388,
+      "dom_medijana": 30
     }
   ],
   "cene": {
     "oglasa_sa_promenom": 150,
-    "ukupno_snizenja": 451,
+    "ukupno_snizenja": 457,
     "prosecno_snizenje_pct": 3.9
   },
   "izvori": {
