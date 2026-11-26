@@ -7545,9 +7545,9 @@
     "823bd9e187811cc5": {
       "uid": "823bd9e187811cc5",
       "first_seen": "2026-06-30",
-      "last_seen": "2026-11-14",
-      "is_active": false,
-      "deactivated_at": "2026-11-16",
+      "last_seen": "2026-11-26",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "758155bb9d440797",
       "fp_strict_all": [
         "e621ffca899d704f"
@@ -7557,12 +7557,13 @@
         "4zida"
       ],
       "source_ids": {
-        "halo": "dafdaede4e4f",
+        "halo": "2682d0cf16f4",
         "4zida": "4zida:6a996b2951467b77f508ba21"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-id43312/5425647241412?kid=1",
-        "https://www.4zida.rs/prodaja-stanova/blok-64-novi-beograd-beograd/dvosoban-stan/6a996b2951467b77f508ba21"
+        "https://www.4zida.rs/prodaja-stanova/blok-64-novi-beograd-beograd/dvosoban-stan/6a996b2951467b77f508ba21",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/airport-garden-id43312/5425648042489?kid=4"
       ],
       "zgrada": "Airport Garden",
       "struktura": "2.0",
@@ -7570,14 +7571,14 @@
       "m2": 54.0,
       "sprat": null,
       "agencija": "avangardanekretnine",
-      "naslov": "Dvosoban stan na prodaju, Đorđa Stanojevića, 248.500€, 54m²",
+      "naslov": "Airport Garden ID#43312",
       "price_first": 248500.0,
       "price_current": 248500.0,
       "price_changes": [],
-      "days_listed": 139,
+      "days_listed": 149,
       "cena_m2": 4602,
       "last_seen_src": {
-        "halo": "2026-10-07",
+        "halo": "2026-11-26",
         "4zida": "2026-11-14"
       },
       "fp_nosprat_all": [
@@ -14390,10 +14391,11 @@
         "halo"
       ],
       "source_ids": {
-        "halo": "0649613018e5"
+        "halo": "245e8b57be4a"
       },
       "source_urls": [
-        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novogradnja---preko-puta-delta-city-ja-komple/5425647468753?kid=1"
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novogradnja---preko-puta-delta-city-ja-komple/5425647468753?kid=1",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novogradnja---preko-puta-delta-city-ja-komple/5425648042542?kid=1"
       ],
       "zgrada": "Belvil",
       "struktura": "4.0",
@@ -17609,19 +17611,21 @@
       "deactivated_at": null,
       "fp_loose": "562294eccd422843",
       "fp_strict_all": [
-        "b34578a5edd91ffe"
+        "b34578a5edd91ffe",
+        "6cdd06eb631ea5e2"
       ],
       "sources": [
         "halo",
         "4zida"
       ],
       "source_ids": {
-        "halo": "6cfbeb19d626",
+        "halo": "81aae8407ccc",
         "4zida": "4zida:6a987506e61b63fc4e0fbeed"
       },
       "source_urls": [
         "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-soul-83m2-garaza-id3340/5425647620649?kid=4",
-        "https://www.4zida.rs/prodaja-stanova/blok-64-novi-beograd-beograd/dvosoban-stan/6a987506e61b63fc4e0fbeed"
+        "https://www.4zida.rs/prodaja-stanova/blok-64-novi-beograd-beograd/dvosoban-stan/6a987506e61b63fc4e0fbeed",
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-soul-64-83m2-garaza-id3340/5425647620649?kid=4"
       ],
       "zgrada": "Soul 64",
       "struktura": "2.0",
@@ -17629,12 +17633,18 @@
       "m2": 83.0,
       "sprat": null,
       "agencija": "m-real-estate",
-      "naslov": "Novi Beograd-Soul-83m2-Garaža ID#3340",
+      "naslov": "Novi Beograd-Soul 64-83m2-Garaža ID#3340",
       "price_first": 340000.0,
-      "price_current": 340000.0,
-      "price_changes": [],
+      "price_current": 325000.0,
+      "price_changes": [
+        {
+          "date": "2026-11-26",
+          "from": 340000.0,
+          "to": 325000.0
+        }
+      ],
       "days_listed": 83,
-      "cena_m2": 4096,
+      "cena_m2": 3916,
       "last_seen_src": {
         "halo": "2026-11-26",
         "4zida": "2026-11-25"
@@ -21025,6 +21035,16 @@
         },
         {
           "date": "2026-11-25",
+          "from": 164600.0,
+          "to": 169800.0
+        },
+        {
+          "date": "2026-11-26",
+          "from": 169800.0,
+          "to": 164600.0
+        },
+        {
+          "date": "2026-11-26",
           "from": 164600.0,
           "to": 169800.0
         },
@@ -31384,7 +31404,7 @@
     "f42eb1ddce0452a4": {
       "uid": "f42eb1ddce0452a4",
       "first_seen": "2026-11-06",
-      "last_seen": "2026-11-25",
+      "last_seen": "2026-11-26",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "a130f0eddca52403",
@@ -31404,7 +31424,7 @@
       ],
       "last_seen_src": {
         "4zida": "2026-11-20",
-        "halo": "2026-11-25"
+        "halo": "2026-11-26"
       },
       "source_ids": {
         "4zida": "4zida:6aec994106f002c6d805d8b7",
@@ -33766,9 +33786,91 @@
       "price_current": 247400,
       "price_changes": [],
       "days_listed": 1
+    },
+    "328fc7ec6c271b36": {
+      "uid": "328fc7ec6c271b36",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "562294eccd422843",
+      "fp_loose_all": [
+        "562294eccd422843"
+      ],
+      "fp_nosprat": "9f2e2467353ff8f0",
+      "fp_nosprat_all": [
+        "9f2e2467353ff8f0"
+      ],
+      "fp_strict_all": [
+        "6cdd06eb631ea5e2"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-26"
+      },
+      "source_ids": {
+        "halo": "7ecb7318aefb"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64---novi-beograd---lux/5425648043277?kid=4"
+      ],
+      "zgrada": "Soul 64",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 83.0,
+      "sprat": null,
+      "agencija": "Vesnarb1",
+      "naslov": "Soul 64 - Novi Beograd - Lux",
+      "price_first": 325000.0,
+      "price_current": 325000.0,
+      "price_changes": [],
+      "days_listed": 0
+    },
+    "a021c7993f506c10": {
+      "uid": "a021c7993f506c10",
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "1f0ffe7a854e6254",
+      "fp_loose_all": [
+        "1f0ffe7a854e6254"
+      ],
+      "fp_nosprat": "ef14c60fe5fe2ead",
+      "fp_nosprat_all": [
+        "ef14c60fe5fe2ead"
+      ],
+      "fp_strict_all": [
+        "2d03521828f5463f"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-26"
+      },
+      "source_ids": {
+        "halo": "1a36e9668e3e"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/west-tower-najbolja-strana-i-3-0-namesten-sta/5425648042475?kid=1"
+      ],
+      "zgrada": "West 65 Kula",
+      "struktura": "3.0",
+      "str_label": null,
+      "m2": 96.0,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "West Tower, najbolja strana i 3.0 namešten stan",
+      "price_first": 530000.0,
+      "price_current": 530000.0,
+      "price_changes": [],
+      "days_listed": 0
     }
   },
-  "updated_at": "2026-11-26T05:02:30.458642+00:00",
+  "updated_at": "2026-11-26T12:59:27.786306+00:00",
   "last_run": {
     "4zida": "2026-11-25",
     "nadjidom": "2026-11-25",

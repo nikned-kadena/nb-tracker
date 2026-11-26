@@ -3,15 +3,15 @@
   "generated": "2026-11-26",
   "pocetak_pracenja": "2026-06-29",
   "ukupno": {
-    "n_zavrseni": 466,
-    "n_aktivni": 277,
+    "n_zavrseni": 465,
+    "n_aktivni": 280,
     "dom_medijana": 52,
     "metod": "kaplan-meier",
     "pouzdano": true,
     "naivna_medijana_samo_skinuti": 23,
     "starost_aktivnih_medijana": 57,
-    "udeo_jos_u_ponudi": 0.1769,
-    "udeo_aktivnih_pct": 37,
+    "udeo_jos_u_ponudi": 0.1807,
+    "udeo_aktivnih_pct": 38,
     "skinuti_p25": 9,
     "skinuti_p75": 52,
     "brzo_do_30d": 60,
@@ -235,15 +235,15 @@
       },
       {
         "dan": 141,
-        "preziveli": 0.2027
+        "preziveli": 0.2065
       },
       {
         "dan": 145,
-        "preziveli": 0.186
+        "preziveli": 0.1898
       },
       {
         "dan": 149,
-        "preziveli": 0.1769
+        "preziveli": 0.1807
       }
     ]
   },
@@ -366,18 +366,18 @@
       ]
     },
     "Airport Garden": {
-      "n_zavrseni": 68,
-      "n_aktivni": 34,
+      "n_zavrseni": 67,
+      "n_aktivni": 35,
       "dom_medijana": 54,
       "metod": "kaplan-meier",
       "pouzdano": true,
-      "naivna_medijana_samo_skinuti": 32,
+      "naivna_medijana_samo_skinuti": 31,
       "starost_aktivnih_medijana": 71,
-      "udeo_jos_u_ponudi": 0.1486,
-      "udeo_aktivnih_pct": 33,
-      "skinuti_p25": 9,
-      "skinuti_p75": 61,
-      "brzo_do_30d": 47,
+      "udeo_jos_u_ponudi": 0.172,
+      "udeo_aktivnih_pct": 34,
+      "skinuti_p25": 7,
+      "skinuti_p75": 59,
+      "brzo_do_30d": 48,
       "sporo_preko_180d": 0,
       "kriva": [
         {
@@ -549,12 +549,8 @@
           "preziveli": 0.2006
         },
         {
-          "dan": 139,
-          "preziveli": 0.1783
-        },
-        {
           "dan": 146,
-          "preziveli": 0.1486
+          "preziveli": 0.172
         }
       ]
     },
@@ -1208,14 +1204,14 @@
     },
     "Soul 64": {
       "n_zavrseni": 55,
-      "n_aktivni": 30,
+      "n_aktivni": 31,
       "dom_medijana": 54,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 26,
-      "starost_aktivnih_medijana": 43,
+      "starost_aktivnih_medijana": 42,
       "udeo_jos_u_ponudi": 0.0598,
-      "udeo_aktivnih_pct": 35,
+      "udeo_aktivnih_pct": 36,
       "skinuti_p25": 8,
       "skinuti_p75": 68,
       "brzo_do_30d": 56,
@@ -1672,14 +1668,14 @@
     },
     "West 65 Kula": {
       "n_zavrseni": 34,
-      "n_aktivni": 14,
+      "n_aktivni": 15,
       "dom_medijana": 65,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 30,
-      "starost_aktivnih_medijana": 108,
+      "starost_aktivnih_medijana": 96,
       "udeo_jos_u_ponudi": 0.1475,
-      "udeo_aktivnih_pct": 29,
+      "udeo_aktivnih_pct": 31,
       "skinuti_p25": 13,
       "skinuti_p75": 79,
       "brzo_do_30d": 50,
@@ -2053,17 +2049,17 @@
       ]
     },
     "nepoznato": {
-      "n_zavrseni": 419,
-      "n_aktivni": 234,
+      "n_zavrseni": 418,
+      "n_aktivni": 237,
       "dom_medijana": 52,
       "metod": "kaplan-meier",
       "pouzdano": true,
       "naivna_medijana_samo_skinuti": 23,
-      "starost_aktivnih_medijana": 62,
-      "udeo_jos_u_ponudi": 0.1788,
+      "starost_aktivnih_medijana": 61,
+      "udeo_jos_u_ponudi": 0.1827,
       "udeo_aktivnih_pct": 36,
       "skinuti_p25": 9,
-      "skinuti_p75": 55,
+      "skinuti_p75": 54,
       "brzo_do_30d": 60,
       "sporo_preko_180d": 0,
       "kriva": [
@@ -2285,15 +2281,15 @@
         },
         {
           "dan": 141,
-          "preziveli": 0.2049
+          "preziveli": 0.2087
         },
         {
           "dan": 145,
-          "preziveli": 0.188
+          "preziveli": 0.1918
         },
         {
           "dan": 149,
-          "preziveli": 0.1788
+          "preziveli": 0.1827
         }
       ]
     },
@@ -2368,22 +2364,22 @@
       "kvartil": "50-75%",
       "n": 116,
       "cena_medijana": 380000,
-      "dom_medijana": 21
+      "dom_medijana": 22
     },
     {
       "kvartil": "najskuplji 25%",
-      "n": 118,
-      "cena_medijana": 544388,
+      "n": 117,
+      "cena_medijana": 548777,
       "dom_medijana": 30
     }
   ],
   "cene": {
-    "oglasa_sa_promenom": 150,
-    "ukupno_snizenja": 457,
+    "oglasa_sa_promenom": 151,
+    "ukupno_snizenja": 459,
     "prosecno_snizenje_pct": 3.9
   },
   "izvori": {
-    "halo": 667,
+    "halo": 669,
     "nadjidom": 74,
     "4zida": 234
   },
