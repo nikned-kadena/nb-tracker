@@ -15432,9 +15432,9 @@
     "c0ed6db4c70bf071": {
       "uid": "c0ed6db4c70bf071",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-11-24",
-      "is_active": false,
-      "deactivated_at": "2026-11-26",
+      "last_seen": "2026-11-27",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "039cbf70caf5dad0",
       "fp_strict_all": [
         "92fa9945a51f4bbe",
@@ -15471,10 +15471,10 @@
           "to": 275000.0
         }
       ],
-      "days_listed": 97,
+      "days_listed": 98,
       "cena_m2": 5093,
       "last_seen_src": {
-        "halo": "2026-11-24"
+        "halo": "2026-11-27"
       },
       "fp_nosprat_all": [
         "baf3737ced00c4c7"
@@ -17749,12 +17749,13 @@
     "68b584dd1023aef9": {
       "uid": "68b584dd1023aef9",
       "first_seen": "2026-09-05",
-      "last_seen": "2026-09-10",
-      "is_active": false,
-      "deactivated_at": "2026-09-15",
+      "last_seen": "2026-11-27",
+      "is_active": true,
+      "deactivated_at": null,
       "fp_loose": "039cbf70caf5dad0",
       "fp_strict_all": [
-        "92fa9945a51f4bbe"
+        "92fa9945a51f4bbe",
+        "6a227c3bc8a65835"
       ],
       "sources": [
         "halo"
@@ -17773,11 +17774,24 @@
       "agencija": "agencija-nekretnine-obradovic-doo",
       "naslov": "Prodajemo 2.0 nov stan - SOUL 64",
       "price_first": 299000.0,
-      "price_current": 299000.0,
-      "price_changes": [],
-      "days_listed": 10,
-      "cena_m2": 5537,
-      "deactivation_uncertain": true
+      "price_current": 269000.0,
+      "price_changes": [
+        {
+          "date": "2026-11-27",
+          "from": 299000.0,
+          "to": 269000.0
+        }
+      ],
+      "days_listed": 83,
+      "cena_m2": 4981,
+      "deactivation_uncertain": true,
+      "last_seen_src": {
+        "halo": "2026-11-27"
+      },
+      "fp_nosprat_all": [
+        "baf3737ced00c4c7"
+      ],
+      "fp_nosprat": "baf3737ced00c4c7"
     },
     "17e41e0d937fe89b": {
       "uid": "17e41e0d937fe89b",
@@ -21115,6 +21129,16 @@
         },
         {
           "date": "2026-11-26",
+          "from": 164600.0,
+          "to": 169800.0
+        },
+        {
+          "date": "2026-11-27",
+          "from": 169800.0,
+          "to": 164600.0
+        },
+        {
+          "date": "2026-11-27",
           "from": 164600.0,
           "to": 169800.0
         },
@@ -34060,10 +34084,52 @@
       "price_first": 499000.0,
       "price_current": 499000.0,
       "price_changes": [],
+      "days_listed": 0,
+      "cena_m2": 3490
+    },
+    "9ac167f7689b4ae6": {
+      "uid": "9ac167f7689b4ae6",
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "is_active": true,
+      "deactivated_at": null,
+      "fp_loose": "2781282b3c8b3d5f",
+      "fp_loose_all": [
+        "2781282b3c8b3d5f"
+      ],
+      "fp_nosprat": "dd5e7a271fa7c7ae",
+      "fp_nosprat_all": [
+        "dd5e7a271fa7c7ae"
+      ],
+      "fp_strict_all": [
+        "ef8566ccc3d03f5b"
+      ],
+      "sources": [
+        "halo"
+      ],
+      "last_seen_src": {
+        "halo": "2026-11-27"
+      },
+      "source_ids": {
+        "halo": "4d1e73e1e250"
+      },
+      "source_urls": [
+        "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodajem-stan-u-naselju-savada-2---a-blok/5425647996841?kid=1"
+      ],
+      "zgrada": "A Blok",
+      "struktura": "4.0",
+      "str_label": null,
+      "m2": 96.33,
+      "sprat": null,
+      "agencija": null,
+      "naslov": "Prodajem stan u naselju Savada 2 - A blok",
+      "price_first": 600000.0,
+      "price_current": 600000.0,
+      "price_changes": [],
       "days_listed": 0
     }
   },
-  "updated_at": "2026-11-27T05:02:32.455937+00:00",
+  "updated_at": "2026-11-27T12:55:59.039881+00:00",
   "last_run": {
     "4zida": "2026-11-26",
     "nadjidom": "2026-11-26",

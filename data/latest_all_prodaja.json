@@ -3,11 +3,12 @@
   "source": "all",
   "date": "2026-11-27",
   "scraped_at": "2026-11-27",
-  "total_raw": 283,
-  "total_unique": 210,
-  "total_dups": 73,
+  "total_raw": 286,
+  "total_unique": 212,
+  "total_dups": 74,
   "diff_new": [
-    "5007c446755a3323"
+    "5007c446755a3323",
+    "9ac167f7689b4ae6"
   ],
   "diff_removed": [
     "99cc87dc4540794a"
@@ -2520,6 +2521,33 @@
       "cena_m2_sumnjiva": false
     },
     {
+      "id": "c0ed6db4c70bf071",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/soul-64-omladinskih-brigada-2-0-54m2-28/5425647525849?kid=1",
+      "naslov": "Soul 64, Omladinskih brigada, 2.0, 54m2, 2/8",
+      "zgrada": "Soul 64",
+      "agencija": "Prince Plus Md",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 54.0,
+      "cena": 275000.0,
+      "cena_m2": 5093,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 98,
+      "prva_cena": 299000.0,
+      "promena_cene_pct": -8.0,
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-11-27",
+      "dedup_key": "Soul 64|54.0|275000.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
       "id": "7095e9e983aadfda",
       "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok-12-premium-cetvorosoban-opremljen/5425647482506?kid=1",
       "naslov": "A Blok 12 | Premium | Četvorosoban | Opremljen",
@@ -2846,6 +2874,33 @@
       "last_seen": "2026-11-27",
       "dedup_key": "Zepterra|120.0|459000.0",
       "zgrada_izvor": "opis",
+      "agencija_izvor": "scraper",
+      "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "68b584dd1023aef9",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodajemo-2-0-nov-stan---soul-64/5425647620660?kid=4",
+      "naslov": "Prodajemo 2.0 nov stan - SOUL 64",
+      "zgrada": "Soul 64",
+      "agencija": "Nekretnine Obradovic",
+      "struktura": "2.0",
+      "str_label": null,
+      "m2": 54.0,
+      "cena": 269000.0,
+      "cena_m2": 4981,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 83,
+      "prva_cena": 299000.0,
+      "promena_cene_pct": -10.0,
+      "first_seen": "2026-09-05",
+      "last_seen": "2026-11-27",
+      "dedup_key": "Soul 64|54.0|269000.0",
+      "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
       "tip_prodaje": null,
@@ -7814,6 +7869,33 @@
       "zgrada_izvor": "naslov",
       "agencija_izvor": "scraper",
       "posrednik": true,
+      "tip_prodaje": null,
+      "cena_m2_sumnjiva": false
+    },
+    {
+      "id": "9ac167f7689b4ae6",
+      "url": "https://www.halooglasi.com/nekretnine/prodaja-stanova/prodajem-stan-u-naselju-savada-2---a-blok/5425647996841?kid=1",
+      "naslov": "Prodajem stan u naselju Savada 2 - A blok",
+      "zgrada": "A Blok",
+      "agencija": null,
+      "struktura": "4.0",
+      "str_label": null,
+      "m2": 96.33,
+      "cena": 600000.0,
+      "cena_m2": 6229,
+      "sprat": null,
+      "izvori": [
+        "halo"
+      ],
+      "dana_na_trzistu": 0,
+      "prva_cena": 600000.0,
+      "promena_cene_pct": null,
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "dedup_key": "A Blok|96.33|600000.0",
+      "zgrada_izvor": "naslov",
+      "agencija_izvor": null,
+      "posrednik": null,
       "tip_prodaje": null,
       "cena_m2_sumnjiva": false
     }
