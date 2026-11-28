@@ -46204,7 +46204,7 @@
     "6d9da977f5231c71": {
       "uid": "6d9da977f5231c71",
       "first_seen": "2026-11-25",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "is_active": true,
       "deactivated_at": null,
       "fp_loose": "b8d667b556496ecd",
@@ -46219,16 +46219,20 @@
         "cdab797743beadc6"
       ],
       "sources": [
-        "4zida"
+        "4zida",
+        "halo"
       ],
       "last_seen_src": {
-        "4zida": "2026-11-27"
+        "4zida": "2026-11-27",
+        "halo": "2026-11-28"
       },
       "source_ids": {
-        "4zida": "4zida:6b068948ffe8de8a330ac983"
+        "4zida": "4zida:6b068948ffe8de8a330ac983",
+        "halo": "d9da5990175d"
       },
       "source_urls": [
-        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6b068948ffe8de8a330ac983"
+        "https://www.4zida.rs/izdavanje-stanova/blok-65-novi-beograd-beograd/trosoban-stan/6b068948ffe8de8a330ac983",
+        "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-86-m-2-spavace-sobe-10-sprat-po/5425648054793?kid=4"
       ],
       "zgrada": "Wellport",
       "struktura": "3.0",
@@ -46236,7 +46240,7 @@
       "m2": 86.0,
       "sprat": null,
       "agencija": null,
-      "naslov": "Trosoban stan za izdavanje, Tadije Sondermajera, 1.900€, 86m²",
+      "naslov": "Wellport | 86 m² | 2 spavaće sobe | 10. sprat | Po",
       "price_first": 1900,
       "price_current": 1900,
       "price_changes": [],
@@ -46840,10 +46844,11 @@
       "price_first": 2000.0,
       "price_current": 2000.0,
       "price_changes": [],
-      "days_listed": 0
+      "days_listed": 0,
+      "cena_m2": 20
     }
   },
-  "updated_at": "2026-11-28T05:03:44.465591+00:00",
+  "updated_at": "2026-11-28T12:08:22.340022+00:00",
   "last_run": {
     "4zida": "2026-11-27",
     "nadjidom": "2026-11-27",

@@ -2,26 +2,16 @@
   "date": "2026-11-28",
   "mode": "renta",
   "source": "halo",
-  "total_raw": 147,
-  "total_unique": 104,
+  "total_raw": 148,
+  "total_unique": 105,
   "diff_new": [
-    "91a804e7ddd8",
-    "102545a57118",
-    "4ccf171a5703",
-    "5e0a799ad007",
-    "b7c2de737f6d",
-    "86c7137d4387"
+    "737f845cbda3",
+    "14435ad2444e",
+    "d9da5990175d"
   ],
   "diff_removed": [
-    "21ff784d187f",
-    "8700606eb80e",
-    "5249aa676fd0",
-    "d73001129373",
-    "6afaaf824eab",
-    "f8bd83b34ade",
-    "085fa8a344db",
-    "279df1113836",
-    "8a6b4d2aebfa"
+    "873f1c6417f5",
+    "51b7e0299b05"
   ],
   "listings": [
     {
@@ -38,6 +28,19 @@
       "izvor": "halo"
     },
     {
+      "id": "14435ad2444e",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd---airport-garden-69712/5425647965571?kid=4",
+      "naslov": "Novi Beograd - Airport Garden #69712",
+      "opis": "50% od prve mesečne zakupnine",
+      "zgrada": "Airport Garden",
+      "struktura": "3.0",
+      "cena": 1250.0,
+      "m2": 71.0,
+      "cena_m2": 18,
+      "agencija": "beostan",
+      "izvor": "halo"
+    },
+    {
       "id": "ac0d9eef4b18",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/west-65-lux-novogradnja-garaza-id-17262/5425644191829?kid=4",
       "naslov": "West 65, lux, novogradnja, garaža, ID 17262",
@@ -47,6 +50,19 @@
       "cena": 2000.0,
       "m2": 96.0,
       "cena_m2": 21,
+      "agencija": "eminent-nekretnine",
+      "izvor": "halo"
+    },
+    {
+      "id": "737f845cbda3",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-lux-novogradnja-garaza-id-25426/5425648051489?kid=4",
+      "naslov": "Wellport, lux, novogradnja, garaža, ID 25426",
+      "opis": "Komforan stan u Kuli Wellporta, odličnog rasporeda prostorija, na najtraženijoj lokaciji u gradu. Čine ga dnevni boravak sa trpezarijom, kuhinja, dve spavaće sobe od kojih je jedna soba master sa sopstvenim kupatilom, dodatno kupatilo, toalet i prostrana terasa. Stan je kompletno opremljen. Grejanje je centralno, po utrošku. Zgrada poseduje visok nivo obezbeđenja i predstavlja zatvoren tip naselja, obezbeđeno kapijom. Jedno garažno mesto je uračunato u cenu. Useljiv od 25. decembra 2026. godine &nbsp; Ukoliko ovaj stan odgovara Vašim željama, biće nam zadovoljstvo da Vam ga predstavimo uživo! Agencijska provizija za zakupca se plaća u iznosu od 50% + PDV dogovorene jednomesečne zakupnine za period zakupa u trajanju do 12 meseci",
+      "zgrada": "Wellport",
+      "struktura": "3.0",
+      "cena": 2000.0,
+      "m2": 98.0,
+      "cena_m2": 20,
       "agencija": "eminent-nekretnine",
       "izvor": "halo"
     },
@@ -441,19 +457,6 @@
       "izvor": "halo"
     },
     {
-      "id": "51b7e0299b05",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-trosoban-stan-u-kompleksu-airport-garden/5425648027771",
-      "naslov": "Lux Trosoban Stan U Kompleksu Airport Garden",
-      "opis": "Izdaje se moderan, svetao i pažljivo organizovan trosoban stan površine 71 m², smešten u novogradnji, u prestižnom stambenom kompleksu Airport Garden, u ulici Đorđa Stanojevića, na Tošinom bunaru. Stan se nalazi na sedmom spratu od ukupno devet spratova i odlikuju ga savremen dizajn, visok standard gradnje i funkcionalan raspored prostorija. Strukturu stana čine prostran dnevni boravak sa kuhinjom i trpezarijskim delom, dve spavaće sobe, hodnik, kupatilo, zaseban toalet i terasa. Stan se izdaje polunamešten, sa opremljenom kuhinjom koja poseduje kompletnu belu tehniku, kuhinjski sto i stolice, ugradne plakare, krevet u jednoj spavaćoj sobi, kao i radni sto i stolicu u drugoj sobi. Dodatnu udobnost pružaju klima-uređaj, lift i moderan sistem grejanja putem toplotnih pumpi. Lokacija predstavlja jednu od najvećih prednosti ove nekretnine. Neposredna blizina poslovnog kompleksa Airport City, dobra saobraćajna povezanost i dostupnost brojnih sadržaja čine ovu lokaciju odličnim izborom za savremen način života. Zahvaljujući funkcionalnom rasporedu, dvema spavaćim sobama i prijatnom ambijentu, stan je idealan izbor za porodicu, ali i za poslovne ljude koji traže kvalitetan i komforan živo",
-      "zgrada": "Airport Garden",
-      "struktura": "3.0",
-      "cena": 1250.0,
-      "m2": 71.0,
-      "cena_m2": 18,
-      "agencija": null,
-      "izvor": "halo"
-    },
-    {
       "id": "541a46c4e491",
       "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/the-one-lux-novogradnja-garaza-id-25953/5425647548965?kid=4",
       "naslov": "The One, lux novogradnja, garaža, ID 25953",
@@ -698,19 +701,6 @@
       "m2": 48.0,
       "cena_m2": 18,
       "agencija": null,
-      "izvor": "halo"
-    },
-    {
-      "id": "873f1c6417f5",
-      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/moderan-3-0-stan-sa-garazom-wellport-id-2221/5425648034571?kid=1",
-      "naslov": "Moderan 3.0 stan sa garažom, Wellport, ID 2221",
-      "opis": "Moderan stan sa garažom u kompleksu Wellport. Stan ima dve spavaće, dva kupatila&nbsp; i terasu. Useljiv od 23.12.2026.god. ID 2221 Modern apartment with a garage in the Wellport residential complex. The apartment features two bedrooms, two bathrooms, and a terrace. Available for occupancy from December 23, 2026. ID 2221",
-      "zgrada": "Wellport",
-      "struktura": "3.0",
-      "cena": 2000.0,
-      "m2": 98.0,
-      "cena_m2": 20,
-      "agencija": "symbol-properties-doo-beograd",
       "izvor": "halo"
     },
     {
@@ -1373,6 +1363,19 @@
       "cena": 800.0,
       "m2": 60.0,
       "cena_m2": 13,
+      "agencija": null,
+      "izvor": "halo"
+    },
+    {
+      "id": "d9da5990175d",
+      "url": "https://www.halooglasi.com/nekretnine/izdavanje-stanova/wellport-86-m-2-spavace-sobe-10-sprat-po/5425648054793?kid=4",
+      "naslov": "Wellport | 86 m² | 2 spavaće sobe | 10. sprat | Po",
+      "opis": ", savremenom kondominijumu na Novom Beogradu, projektovanom sa fokusom na kvalitet stanovanja, privatnost i sadržaje u okviru kompleksa. Wellport obuhvata , kao i podzemnu garažu za stanare. Stan se nalazi na i pažljivo je funkcionalno organizovan. Ulazni deo vodi ka dnevnoj zoni koju čine , sa direktnim izlazom na natkrivenu terasu od 5 m². Dnevni prostor je orijentisan ka otvorenom pogledu na , koji posebno dolazi do izražaja sa terase. Privatni deo stana čine , uz dovoljno prostora za svakodnevno komforno stanovanje. Stan je , sa savremenim enterijerom i funkcionalnim rasporedom. Zakupcima je na raspolaganju , dok tri lifta omogućavaju brz i jednostavan pristup stanu.",
+      "zgrada": "Wellport",
+      "struktura": "3.0",
+      "cena": 1900.0,
+      "m2": 86.0,
+      "cena_m2": 22,
       "agencija": null,
       "izvor": "halo"
     }
